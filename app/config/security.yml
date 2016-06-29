@@ -1,0 +1,48 @@
+# To get started with security, check out the documentation:
+# http://symfony.com/doc/current/book/security.html
+security:
+
+    # http://symfony.com/doc/current/book/security.html#where-do-users-come-from-user-providers
+#    encoders:
+#        U2g\Axtincal\ERatingBundle\Entity\Utilisateur:
+#            algorithm: sha1
+#            encode_as_base64: false
+#            iterations: 1
+#
+#    providers:
+#        my_db_provider:
+#            entity:
+#                class: U2gAxtincalERatingBundle:Utilisateur
+
+
+#    firewalls:
+#        # disables authentication for assets and the profiler, adapt it according to your needs
+#        dev:
+#            pattern: ^/(_(profiler|wdt)|css|images|js)/
+#            security: false
+#
+#        main:
+#            pattern: ^/
+#            anonymous: ~
+#            # activate different ways to authenticate
+#
+#            # http_basic: ~
+#            # http://symfony.com/doc/current/book/security.html#a-configuring-how-your-users-will-authenticate
+#
+#            form_login:
+#                login_path: erating_login
+#                check_path: erating_login
+#                csrf_token_generator: security.csrf.token_manager
+#            logout:
+#                path: /logout
+#                target: /login
+#
+#    access_control:
+#        - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+##        - { path: ^/api, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+#        - { path: ^/, roles: ROLE_ERATING_SUPER_ADMIN }
+#
+#    role_hierarchy:
+#        ROLE_ERATING_SUPERVISOR:      [ROLE_ERATING_AGENT]
+#        ROLE_ERATING_SUPER_ADMIN:     [ROLE_ERATING_SUPERVISOR]
+#        ROLE_ERATING_EMF_ADMIN_USER:  [ROLE_ERATING_EMF_USER]
