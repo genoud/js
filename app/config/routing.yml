@@ -1,8 +1,8 @@
-js_app:
-    resource: "@JSAppBundle/Controller/"
-    type:     annotation
-    prefix:   /
-
 fos_js_routing:
     resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
+
+js_app_routing:
+    resource: "@JSAppBundle/Resources/config/routing.yml"
+    #    prefix:   /api
+    #    name_prefix:  api_
 
