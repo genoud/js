@@ -1,7 +1,7 @@
 /**
  * Created by maglo on 08/09/2016.
  */
-Ext.define("JS.article.ManuscritAuthorsCmp", {
+Ext.define("JS.article.ManuscritFundingsCmp", {
     //extend: "JS.panel.Form",
     extend: "Xfr.Component",
     config: {
@@ -22,7 +22,7 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
         article:null,
         title: 'View',
         subtitle: '',
-        coauteurs: [],
+        fundings: [],
         jsApp:null
     },
     onLoadTpl: function () {
@@ -39,21 +39,17 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
 
         if(!me.getEventBound()){
             console.log("Event not yet bound");
-            me.binder.on('add-author', function (e) {
+            me.binder.on('add-funding', function (e) {
                 console.log("add button clicked");
                 me.showDialogAdd();
             });
-            me.binder.on('edit-author', function (e) {
+            me.binder.on('edit-funding', function (e) {
                 console.log("edit button clicked");
                 me.showDialogEdit(e);
             });
-            me.binder.on('remove-author', function (e) {
+            me.binder.on('remove-funding', function (e) {
                 console.log("remove button clicked");
-                me.removeAuthor(e);
-            });
-            me.binder.on('set-principal', function (e) {
-                console.log("set principal button clicked");
-                me.setPrincipal(e);
+                me.removeFunding(e);
             });
             me.setEventBound(true);
         }
@@ -70,7 +66,7 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
     loadData: function(){
         var me = this;
         $.ajax({
-            url: Routing.generate('get_coauteurs', {
+            url: Routing.generate('get_fundings', {
                 _format: 'json',
                 articleId: me.getArticle().id
             }),
@@ -86,58 +82,69 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
                 if(response && response.success){
                     console.log("Response success");
                     console.log(response);
-                    me.setCoauteurs(response.data);
+                    me.setFundings(response.data);
                     var data={
                         article: me.getArticle(),
-                        coauteurs: response.data,
+                        fundings: response.data,
                         baseUrl:baseUrl
                     };
 
                     console.log(data);
                     me.setData(data);
+                    me.fireEvent('afterfundingloaded', me);
                 }
-                else{
-                    console.log("Success False");
-                    $("li[data-step="+currentStep+"]").removeClass('completed');
 
-                }
-                //$("li.current").toggleClass('current');
 
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 console.log("Error: "+ errorThrown);
-                $("li[data-step="+currentStep+"]").removeClass('completed');
+                //$("li[data-step="+currentStep+"]").removeClass('completed');
             }
         });
     },
-    addCoauteur: function(coauteur){
+    addFunding: function(funding){
         var me=this;
-        var coauteurs=me.getCoauteurs();
-        coauteurs.push(coauteur);
+        var fundings=me.getFundings();
+        fundings.push(funding);
         var data={
             article: me.getArticle(),
-            coauteurs: coauteurs,
+            fundings: fundings,
             baseUrl:baseUrl
         };
         console.log(data);
         me.setData(data);
     },
-    editCoauteur:function(coauteur){
+    editFunding:function(funding){
+
+
         var me=this;
-        me.loadData();
+        var fundings=me.getFundings();
+        for (var i=0; i<fundings.length; i++){
+            if(fundings[i].id==funding.id){
+                fundings[i]=funding;
+                break;
+            }
+        }
+        var data={
+            article: me.getArticle(),
+            fundings: fundings,
+            baseUrl:baseUrl
+        };
+        console.log(data);
+        me.setData(data);
     },
     showDialogAdd: function(){
 
         var me=this;
         var dialog=Ext.create("Xfr.panel.Window", {
             size: 'medium',
-            title:  "Adding author",
+            title:  "Adding funding",
             renderTo: document.body,
             items: [{
-                className: "JS.auteur.CoAuteurForm",
+                className: "JS.funding.FundingForm",
                 height: "100%",
                 position: '[xfr-window-content]',
-                coAuteur: null,
+                funding: null,
                 parentCmp : me,
                 jsApp: me.getJsApp(),
                 listeners: {
@@ -145,7 +152,7 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
                         console.log("Cancel event fired");
                         dialog.hide();
                     }
-                },
+                }
             }]
         });
         dialog.show();
@@ -157,13 +164,13 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
         var me=this;
         var dialog=Ext.create("Xfr.panel.Window", {
             size: 'medium',
-            title:  "Adding author",
+            title:  "Editing funding",
             renderTo: document.body,
             items: [{
-                className: "JS.auteur.CoAuteurForm",
+                className: "JS.funding.FundingForm",
                 height: "100%",
                 position: '[xfr-window-content]',
-                coAuteur: context.context,
+                funding: context.context,
                 parentCmp : me,
                 jsApp: me.getJsApp(),
                 listeners: {
@@ -176,12 +183,56 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
         });
         dialog.show();
     },
-    removeAuthor:function(context){
+    removeFunding:function(context){
         console.log(context);
+        var me=this;
+        $.ajax({
+            url: Routing.generate('delete_funding', {
+                _format: 'json',
+                id: context.context.id
+            }),
+            cache: false,
+            contentType: false,
+            processData: false,
+            type: "DELETE",
+            data: null,
+            dataType: "json",
+            success: function (response, textStatus, jqXHR) {
+                console.log("ajax success");
+                console.log(response);
+                if(response && response.success){
+                    console.log("Response success");
+                    console.log(response);
+                    var fundings=me.getFundings();
+                    var newList=[];
+                    for (var i=0; i<fundings.length; i++){
+                        if(fundings[i].id==context.context.id){
+
+                            continue;
+                        }
+                        else{
+                            newList.push(fundings[i]);
+                        }
+                    }
+                    me.setFundings(newList);
+                    var data={
+                        article: me.getArticle(),
+                        fundings: newList,
+                        baseUrl:baseUrl
+                    };
+                    console.log(data);
+                    me.setData(data);
+                }
+
+
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log("Error: "+ errorThrown);
+                //$("li[data-step="+currentStep+"]").removeClass('completed');
+            }
+        });
     },
-    setPrincipal:function(context){
-        console.log(context);
-    },
+
     onShow: function () {
         var me = this;
         Xfr.log("View form rendered or shown");

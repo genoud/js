@@ -9,15 +9,31 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
+
     {% block stylesheet_block %}
         <!-- Bootstrap 3.3.6 -->
         <link rel="stylesheet" href="{{ asset('resources/vendor/AdminLTE-2.3.6/bootstrap/css/bootstrap.min.css') }}">
         <!-- Font Awesome -->
         <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">-->
-        <link rel="stylesheet" href="resources/vendor/font-awesome-4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ asset('resources/vendor/font-awesome-4.6.3/css/font-awesome.min.css') }}">
         <!-- Ionicons -->
         <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">-->
-        <link rel="stylesheet" href="resources/vendor/ionicons-2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="{{ asset('resources/vendor/ionicons-2.0.1/css/ionicons.min.css') }}">
+
+        <!-- select 2-->
+        <link rel="stylesheet" href="{{ asset('resources/vendor/AdminLTE-2.3.6/plugins/select2/select2.min.css') }}">
+
+        <!-- daterange picker -->
+        <link rel="stylesheet" href="{{ asset('resources/vendor/AdminLTE-2.3.6/plugins/daterangepicker/daterangepicker.css') }}">
+
+        <!-- bootstrap datepicker -->
+        <link rel="stylesheet" href="{{ asset('resources/vendor/AdminLTE-2.3.6/plugins/datepicker/datepicker3.css') }}">
+
+        <!-- Bootstrap Color Picker -->
+        <link rel="stylesheet" href="{{ asset('resources/vendor/AdminLTE-2.3.6/plugins/colorpicker/bootstrap-colorpicker.min.css') }}">
+
+        <!-- Bootstrap time Picker -->
+        <link rel="stylesheet" href="{{ asset('resources/vendor/AdminLTE-2.3.6/plugins/timepicker/bootstrap-timepicker.min.css') }}">
         <!-- jvectormap -->
         <link rel="stylesheet"
               href="{{ asset('resources/vendor/AdminLTE-2.3.6/plugins/jvectormap/jquery-jvectormap-1.2.2.css') }}">
@@ -26,6 +42,13 @@
         <!-- AdminLTE Skins. Choose a skin from the css/skins
              folder instead of downloading all of them to reduce the load. -->
         <link rel="stylesheet" href="{{ asset('resources/vendor/AdminLTE-2.3.6/dist/css/skins/_all-skins.min.css') }}">
+
+        <!--Icheck css-->
+        <link rel="stylesheet" href="{{ asset('resources/vendor/icheck-1.x/skins/all.css') }}">
+        <!--Load mask css-->
+        <link rel="stylesheet" href="{{ asset('resources/vendor/xfr/resources/css/src/loadmask.css') }}">
+
+
 
 
         {% stylesheets
@@ -46,23 +69,190 @@
     {% endblock %}
 
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-blue layout-top-nav">
 <div class="wrapper">
 
     <header class="main-header">
-        <!-- Logo -->
-        <a href="index2.html" class="logo">
-            <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>J</b>S</span>
-            <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>Journal</b>Scientifique</span>
-        </a>
-
-        <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
-            <!-- Sidebar toggle button-->
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="{{ path('js-public-home2') }}" class="navbar-brand"><b>Journal</b>Scientifique</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
 
-            <!-- Navbar Right Menu -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                {% block navbarmenu %}
+                    <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="{% if isAuthor %}active{% endif %}"><a href="{{ path("js-author-home") }}">Author <span class="sr-only">(current)</span></a></li>
+                            {#<li><a href="{{ path("js-author-home") }}">Reviewer</a></li>#}
+                            <li class="{% if isReviewer %}active{% endif %}"><a href="{{ path("js-reviewer-home") }}">Reviewer</a></li>
+                            <li><a href="{{ path("js-admin-home") }}">Editor</a></li>
+                            <li><a href="#">Règles</a></li>
+                            {#<li class="dropdown">#}
+                                {#<a href="#" class="dropdown-toggle" data-toggle="dropdown">catégories <span class="caret"></span></a>#}
+                                {#<ul class="dropdown-menu" role="menu">#}
+                                    {#<li><a href="#">Articles de recherche</a></li>#}
+                                    {#<li><a href="#">Rapport de stage</a></li>#}
+                                    {#<li class="divider"></li>#}
+                                    {#<li><a href="#">Thèses</a></li>#}
+                                    {#<li class="divider"></li>#}
+                                    {#<li><a href="#">Artiles</a></li>#}
+                                {#</ul>#}
+                            {#</li>#}
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="navbar-search-input" placeholder="Search">
+                            </div>
+                        </form>
+                    </div>
+                {% endblock %}
+
+                <!-- /.navbar-collapse -->
+                <!-- Navbar Right Menu -->
+                {% block navbarcustommenu %}
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <!-- Messages: style can be found in dropdown.less-->
+                            <li class="dropdown messages-menu">
+                                <!-- Menu toggle button -->
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="label label-success">4</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="header">You have 4 messages</li>
+                                    <li>
+                                        <!-- inner menu: contains the messages -->
+                                        <ul class="menu">
+                                            <li><!-- start message -->
+                                                <a href="#">
+                                                    <div class="pull-left">
+                                                        <!-- User Image -->
+                                                        <img src="{{ asset("bundles/jsapp/images/default.png") }}" class="img-circle" alt="User Image">
+                                                    </div>
+                                                    <!-- Message title and timestamp -->
+                                                    <h4>
+                                                        Support Team
+                                                        <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                                                    </h4>
+                                                    <!-- The message -->
+                                                    <p>Why not buy a new awesome theme?</p>
+                                                </a>
+                                            </li>
+                                            <!-- end message -->
+                                        </ul>
+                                        <!-- /.menu -->
+                                    </li>
+                                    <li class="footer"><a href="#">See All Messages</a></li>
+                                </ul>
+                            </li>
+                            <!-- /.messages-menu -->
+
+                            <!-- Notifications Menu -->
+                            <li class="dropdown notifications-menu">
+                                <!-- Menu toggle button -->
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-bell-o"></i>
+                                    <span class="label label-warning">10</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="header">You have 10 notifications</li>
+                                    <li>
+                                        <!-- Inner Menu: contains the notifications -->
+                                        <ul class="menu">
+                                            <li><!-- start notification -->
+                                                <a href="#">
+                                                    <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                                                </a>
+                                            </li>
+                                            <!-- end notification -->
+                                        </ul>
+                                    </li>
+                                    <li class="footer"><a href="#">View all</a></li>
+                                </ul>
+                            </li>
+                            <!-- Tasks Menu -->
+                            <li class="dropdown tasks-menu">
+                                <!-- Menu Toggle Button -->
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-flag-o"></i>
+                                    <span class="label label-danger">9</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="header">You have 9 tasks</li>
+                                    <li>
+                                        <!-- Inner menu: contains the tasks -->
+                                        <ul class="menu">
+                                            <li><!-- Task item -->
+                                                <a href="#">
+                                                    <!-- Task title and progress text -->
+                                                    <h3>
+                                                        Design some buttons
+                                                        <small class="pull-right">20%</small>
+                                                    </h3>
+                                                    <!-- The progress bar -->
+                                                    <div class="progress xs">
+                                                        <!-- Change the css width attribute to simulate progress -->
+                                                        <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="sr-only">20% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <!-- end task item -->
+                                        </ul>
+                                    </li>
+                                    <li class="footer">
+                                        <a href="#">View all tasks</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- User Account Menu -->
+                            <li class="dropdown user user-menu">
+                                <!-- Menu Toggle Button -->
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <!-- The user image in the navbar-->
+                                    <img src="{{ asset("bundles/jsapp/images/default.png") }}" class="user-image" alt="User Image">
+                                    <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                                    <span class="hidden-xs">{{ user.personne.getNomComplet() }}</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <!-- The user image in the menu -->
+                                    <li class="user-header">
+                                        <img src="{{ asset("bundles/jsapp/images/default.png") }}" class="img-circle" alt="User Image">
+
+                                        <p>
+                                            {{ user.personne.getNomComplet() }}
+
+                                        </p>
+                                    </li>
+                                    <!-- Menu Body -->
+                                    <li class="user-body">
+
+                                        <!-- /.row -->
+                                    </li>
+                                    <!-- Menu Footer-->
+                                    <li class="user-footer">
+                                        <div class="pull-left">
+                                            <a href="#" class="btn btn-default btn-flat">Profile</a>
+                                        </div>
+                                        <div class="pull-right">
+                                            <a href="{{ path("js_logout") }}" class="btn btn-default btn-flat">Sign out</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                {% endblock %}
+
+                <!-- /.navbar-custom-menu -->
+            </div>
+            <!-- /.container-fluid -->
         </nav>
     </header>
     <!-- Left side column. contains the logo and sidebar -->
@@ -99,21 +289,30 @@
 
 
     <!-- Content Wrapper. Contains page content -->
-    {% block maincontent %}
-        <div class="content-wrapper">
 
+        <div class="content-wrapper">
+            <div id="edition-main-container" class="container">
+                {% block maincontent %}
+                {% endblock %}
+            </div>
 
         </div>
-    {% endblock %}
+
     <!-- /.content-wrapper -->
 
-    <footer class="main-footer">
-        <div class="pull-right hidden-xs">
-            <b>Version</b> 2.3.6
-        </div>
-        <strong>Powered by <a href="http://almsaeedstudio.com">Magloire</a>.</strong> All rights
-        reserved.
-    </footer>
+    {% block footer %}
+        <footer class="main-footer">
+            <div class="container">
+                <div class="pull-right hidden-xs">
+                    <b></b>
+                </div>
+                <strong>Powered by<a href="https://www.linkedin.com/in/genoud6"> Genoud Magloire</a>.</strong> All rights
+                reserved.
+            </div>
+            <!-- /.container -->
+        </footer>
+    {% endblock %}
+
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
@@ -152,8 +351,24 @@
 <script src="{{ asset('resources/vendor/AdminLTE-2.3.6/plugins/slimScroll/jquery.slimscroll.min.js') }}"></script>
 <!-- ChartJS 1.0.1 -->
 <script src="{{ asset('resources/vendor/AdminLTE-2.3.6/plugins/chartjs/Chart.min.js') }}"></script>
+
+<script src="{{ asset('resources/vendor/AdminLTE-2.3.6/plugins/daterangepicker/daterangepicker.js') }}"></script>
+
+<!-- bootstrap datepicker -->
+<script src="{{ asset('resources/vendor/AdminLTE-2.3.6/plugins/datepicker/bootstrap-datepicker.js') }}"></script>
+<!-- bootstrap color picker -->
+<script src="{{ asset('resources/vendor/AdminLTE-2.3.6/plugins/colorpicker/bootstrap-colorpicker.min.js') }}"></script>
+<!-- bootstrap time picker -->
+<script src="{{ asset('resources/vendor/AdminLTE-2.3.6/plugins/timepicker/bootstrap-timepicker.min.js') }}"></script>
+
+<!-- Icheck-->
+<script src="{{ asset('resources/vendor/icheck-1.x/icheck.min.js') }}"></script>
+
+<!-- CK Editor -->
+<script src="https://cdn.ckeditor.com/4.5.7/standard/ckeditor.js"></script>
+
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="{{ asset('resources/vendor/AdminLTE-2.3.6/dist/js/pages/dashboard2.js') }}"></script>
+{#<script src="{{ asset('resources/vendor/AdminLTE-2.3.6/dist/js/pages/dashboard2.js') }}"></script>#}
 <!-- AdminLTE for demo purposes -->
 <script src="{{ asset('resources/vendor/AdminLTE-2.3.6/dist/js/demo.js') }}"></script>
 
@@ -208,7 +423,7 @@
         '@JSAppBundle/Resources/public/app/script.js'
         '@JSAppBundle/Resources/public/app/panel/*.js'
         '@JSAppBundle/Resources/public/app/article/*.js'
-        combine=true output='js/dist/js.js'%}
+        combine=false output='js/dist/js.js'%}
         <script src="{{ asset_url }}"></script>
     {% endjavascripts %}
 
@@ -227,6 +442,8 @@
 {#combine=true output='js/dist/lib.js'%}#}
 {#<script src="{{ asset_url }}" type="text/javascript"></script>#}
 {#{% endjavascripts %}#}
+{% block bodyscript %}
 
+{% endblock %}
 </body>
 </html>

@@ -1,5 +1,5 @@
 
 
-<div id="coauteur-form-place" data-mode="edit">
+<div id="editor-form-place" data-mode="edit">
 
 </div>

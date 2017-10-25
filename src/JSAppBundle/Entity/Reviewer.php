@@ -3,14 +3,15 @@
 namespace JSAppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use \Doctrine\Common\Collections\ArrayCollection;
 
 /**
- * Auteur
+ * Reviewer
  *
- * @ORM\Table(name="auteur", indexes={@ORM\Index(name="FK_auteur_peut_etre_personne", columns={"pers_id"})})
- * @ORM\Entity(repositoryClass="JSAppBundle\Dao\AuteurRepository")
+ * @ORM\Table(name="reviewer", indexes={@ORM\Index(name="FK_reviewer_peut_etre_personne", columns={"pers_id"})})
+ * @ORM\Entity(repositoryClass="JSAppBundle\Dao\ReviewerRepository")
  */
-class Auteur
+class Reviewer
 {
     /**
      * @var integer
@@ -33,27 +34,14 @@ class Auteur
      */
     private $personne;
 
-//    /**
-//     * @var \Doctrine\Common\Collections\Collection
-//     *
-//     * @ORM\ManyToMany(targetEntity="Article", inversedBy="aut")
-//     * @ORM\JoinTable(name="coauteur",
-//     *   joinColumns={
-//     *     @ORM\JoinColumn(name="aut_id", referencedColumnName="id")
-//     *   },
-//     *   inverseJoinColumns={
-//     *     @ORM\JoinColumn(name="article_id", referencedColumnName="id")
-//     *   }
-//     * )
-//     */
-//    private $articles;
+
 
     /**
      * Constructor
      */
     public function __construct()
     {
-        $this->articles = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->articles = new ArrayCollection();
     }
 
     /**

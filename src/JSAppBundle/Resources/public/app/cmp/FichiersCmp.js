@@ -1,7 +1,7 @@
 /**
  * Created by maglo on 08/09/2016.
  */
-Ext.define("JS.cmp.ReviewersCmp", {
+Ext.define("JS.cmp.FichiersCmp", {
     //extend: "JS.panel.Form",
     extend: "Xfr.Component",
     config: {
@@ -20,11 +20,10 @@ Ext.define("JS.cmp.ReviewersCmp", {
         eventBound:false,
         action:"",
         article:null,
+        review:null,
         title: 'View',
         subtitle: '',
-        reviewers: [],
-        opposed:false,
-        suggested:true,
+        fichiers: [],
         jsApp:null
     },
     onLoadTpl: function () {
@@ -41,17 +40,17 @@ Ext.define("JS.cmp.ReviewersCmp", {
 
         if(!me.getEventBound()){
             console.log("Event not yet bound");
-            me.binder.on('add-reviewer', function (e) {
+            me.binder.on('add-fichier', function (e) {
                 console.log("add button clicked");
                 me.showDialogAdd();
             });
-            me.binder.on('edit-reviewer', function (e) {
+            me.binder.on('edit-fichier', function (e) {
                 console.log("edit button clicked");
                 me.showDialogEdit(e);
             });
-            me.binder.on('remove-reviewer', function (e) {
+            me.binder.on('remove-fichier', function (e) {
                 console.log("remove button clicked");
-                me.removeReviewer(e);
+                me.removeFichier(e);
             });
             me.setEventBound(true);
         }
@@ -63,12 +62,20 @@ Ext.define("JS.cmp.ReviewersCmp", {
     },
     loadData: function(){
         var me = this;
+        var article=me.getArticle();
+        var review=me.getReview();
+        var articleId, reviewId;
+        if(article){
+            articleId=article.id;
+        }
+        if(review){
+            reviewId=review.id;
+        }
         $.ajax({
-            url: Routing.generate('get_articlereviewers', {
+            url: Routing.generate('get_fichiers', {
                 _format: 'json',
-                articleId: me.getArticle().id,
-                opposed:me.getOpposed(),
-                suggested:me.getSuggested()
+                articleId: articleId,
+                reviewId: reviewId
             }),
             cache: false,
             contentType: false,
@@ -82,15 +89,17 @@ Ext.define("JS.cmp.ReviewersCmp", {
                 if(response && response.success){
                     console.log("Response success");
                     console.log(response);
-                    me.setReviewers(response.data);
+                    me.setFichiers(response.data);
                     var data={
                         article: me.getArticle(),
-                        reviewers: response.data,
+                        fichiers: response.data,
                         baseUrl:baseUrl
                     };
 
                     console.log(data);
                     me.setData(data);
+
+                    me.fireEvent('afterfilesloaded', me);
                 }
                 else{
                     console.log("Success False");
@@ -108,30 +117,30 @@ Ext.define("JS.cmp.ReviewersCmp", {
             }
         });
     },
-    addReviewer: function(reviewer){
+    addFichier: function(fichier){
         var me=this;
-        var reviewers=me.getReviewers();
-        reviewers.push(reviewer);
+        var fichiers=me.getFichiers();
+        fichiers.push(fichier);
         var data={
             article: me.getArticle(),
-            reviewers: reviewers,
+            fichiers: fichiers,
             baseUrl:baseUrl
         };
         console.log(data);
         me.setData(data);
     },
-    editReviewer:function(reviewer){
+    editFichier:function(fichier){
         var me=this;
-        var reviewers=me.getReviewers();
-        for (var i=0; i<reviewers.length; i++){
-            if(reviewers[i].id==reviewer.id){
-                reviewers[i]=reviewer;
+        var fichiers=me.getFichiers();
+        for (var i=0; i<fichiers.length; i++){
+            if(fichiers[i].id==fichier.id){
+                fichiers[i]=fichier;
                 break;
             }
         }
         var data={
             article: me.getArticle(),
-            reviewers: reviewers,
+            fichiers: fichiers,
             baseUrl:baseUrl
         };
         console.log(data);
@@ -142,15 +151,13 @@ Ext.define("JS.cmp.ReviewersCmp", {
         var me=this;
         var dialog=Ext.create("Xfr.panel.Window", {
             size: 'medium',
-            title:  "Adding reviewer",
+            title:  "Adding attachment",
             renderTo: document.body,
             items: [{
-                className: "JS.reviewer.ArticleReviewerForm",
+                className: "JS.fichier.FichierForm",
                 height: "100%",
                 position: '[xfr-window-content]',
-                reviewer: null,
-                opposed : me.getOpposed(),
-                suggested : me.getSuggested(),
+                fichier: null,
                 parentCmp : me,
                 jsApp: me.getJsApp(),
                 listeners: {
@@ -170,15 +177,13 @@ Ext.define("JS.cmp.ReviewersCmp", {
         var me=this;
         var dialog=Ext.create("Xfr.panel.Window", {
             size: 'medium',
-            title:  "Editing Reviewer",
+            title:  "Editing attachment",
             renderTo: document.body,
             items: [{
-                className: "JS.reviewer.ArticleReviewerForm",
+                className: "JS.fichier.FichierForm",
                 height: "100%",
                 position: '[xfr-window-content]',
-                reviewer: context.context,
-                opposed : me.getOpposed(),
-                suggested : me.getSuggested(),
+                fichier: context.context,
                 parentCmp : me,
                 jsApp: me.getJsApp(),
                 listeners: {
@@ -191,15 +196,13 @@ Ext.define("JS.cmp.ReviewersCmp", {
         });
         dialog.show();
     },
-    removeReviewer:function(context){
+    removeFichier:function(context){
         var me=this;
         console.log(context);
         $.ajax({
-            url: Routing.generate('delete_articlereviewer', {
+            url: Routing.generate('delete_fichier', {
                 _format: 'json',
                 id: context.context.id,
-                opposed: me.getOpposed(),
-                suggested: me.getSuggested()
             }),
             cache: false,
             contentType: false,
@@ -213,21 +216,21 @@ Ext.define("JS.cmp.ReviewersCmp", {
                 if(response && response.success){
                     console.log("Response success");
                     console.log(response);
-                    var reviewers=me.getReviewers();
+                    var fichiers=me.getFichiers();
                     var newList=[];
-                    for (var i=0; i<reviewers.length; i++){
-                        if(reviewers[i].id==context.context.id){
+                    for (var i=0; i<fichiers.length; i++){
+                        if(fichiers[i].id==context.context.id){
 
                             continue;
                         }
                         else{
-                            newList.push(reviewers[i]);
+                            newList.push(fichiers[i]);
                         }
                     }
-                    me.setReviewers(newList);
+                    me.setFichiers(newList);
                     var data={
                         article: me.getArticle(),
-                        reviewers: newList,
+                        fichiers: newList,
                         baseUrl:baseUrl
                     };
                     console.log(data);

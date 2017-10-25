@@ -17,7 +17,7 @@ use Symfony\Component\Form\Extension\Core\Type\RepeatedType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class AuteurType extends AbstractType
+class ReviewerType extends AbstractType
 {
     /**
      * @param FormBuilderInterface $builder
@@ -36,7 +36,7 @@ class AuteurType extends AbstractType
      */
     public function configureOptions(OptionsResolver $resolver) {
         $resolver->setDefaults(array(
-            'data_class' => 'JSAppBundle\Entity\Auteur',
+            'data_class' => 'JSAppBundle\Entity\Reviewer',
             'cascade_validation' => true
         ));
     }

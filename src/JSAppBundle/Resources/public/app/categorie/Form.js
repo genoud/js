@@ -1,14 +1,14 @@
 /**
  * Created by maglo on 08/09/2016.
  */
-Ext.define("JS.typearticle.Form", {
+Ext.define("JS.categorie.Form", {
     //extend: "JS.panel.Form",
     extend: "Xfr.Component",
     config: {
         dynamicTpl: false,
 
         panelData: {
-            formUrl: Routing.generate("get_typearticle", {id: "new", _format: 'html'})
+            formUrl: Routing.generate("get_categorie", {id: "new", _format: 'html'})
         },
         listeners: {
             "loadtpl": {
@@ -26,7 +26,7 @@ Ext.define("JS.typearticle.Form", {
         eventBound:false,
         //currentStep:1,
         action:"new",
-        typearticle:null,
+        categorie:null,
         title: 'New author',
         subtitle: 'New',
         parentCmp:null,
@@ -43,21 +43,21 @@ Ext.define("JS.typearticle.Form", {
         me.callParent(arguments);
 
         var id="new";
-        if(me.getTypearticle()!=null){
-            id=me.getTypearticle().id;
+        if(me.getCategorie()!=null){
+            id=me.getCategorie().id;
         }
 
         var form = Ext.create("Xfr.Component", {
             //className: "Xfr.panel.Form",
             position: "[data-mode=edit]",
             dynamicTpl: false,
-            tplUrl: Routing.generate("get_typearticle", {
+            tplUrl: Routing.generate("get_categorie", {
                 id: id,
                 _format: 'html'
             }),
             syncTplLoading: false,
             cache:false,
-            renderTo: "typearticle-form-place",
+            renderTo: "categorie-form-place",
             listeners: {
                 "loadtpl": {
                     scope: me,
@@ -104,7 +104,7 @@ Ext.define("JS.typearticle.Form", {
 
     },
     afterFormTplRendered:function(){
-        console.log('After Form TPL rendered typearticle');
+        console.log('After Form TPL rendered categorie');
 
         var me = this,
             form = $("form:first", me.getForm().$this);
@@ -142,7 +142,7 @@ Ext.define("JS.typearticle.Form", {
 
     handleForm:function(){
         var me=this;
-        var user=me.getTypearticle();
+        var user=me.getCategorie();
         var id=-1;
 
         Xfr.Mask.show("Chargement en cours",null);
@@ -164,7 +164,7 @@ Ext.define("JS.typearticle.Form", {
             id=user.id;
         }
         $.ajax({
-            url: Routing.generate('post_typearticle', {
+            url: Routing.generate('post_categorie', {
                 _format: 'json',
                 id: id,
             }),
@@ -183,10 +183,10 @@ Ext.define("JS.typearticle.Form", {
                     //Ajouter l'user dans la liste
                     var parent=me.getParentCmp();
                     if(id>0){
-                        parent.editTypearticle(response.data);
+                        parent.editCategorie(response.data);
                     }
                     else{
-                        parent.addTypearticle(response.data);
+                        parent.addCategorie(response.data);
                     }
 
                     me.fireEvent('onCancel', me);
@@ -229,12 +229,12 @@ Ext.define("JS.typearticle.Form", {
     getFormValidation:function(){
         var validation={
             rules: {
-                'article[typeArticle]': {
+                'article[categorie]': {
                     required: true
                 }
             },
             messages: {
-                'article[typeArticle]': {
+                'article[categorie]': {
                     required: ""
                 }
             }

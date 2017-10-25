@@ -1,14 +1,14 @@
 /**
  * Created by maglo on 08/09/2016.
  */
-Ext.define("JS.reviewer.ArticleReviewerForm", {
+Ext.define("JS.fichier.FichierForm", {
     //extend: "JS.panel.Form",
     extend: "Xfr.Component",
     config: {
         dynamicTpl: false,
 
         panelData: {
-            formUrl: Routing.generate("get_articlereviewer", {id: "new", _format: 'html'})
+            formUrl: Routing.generate("get_fichier", {id: "new", _format: 'html'})
         },
         listeners: {
             "loadtpl": {
@@ -26,17 +26,15 @@ Ext.define("JS.reviewer.ArticleReviewerForm", {
         eventBound:false,
         //currentStep:1,
         action:"new",
-        reviewer:null,
-        title: 'New Reviewer',
+        fichier:null,
+        title: 'New Attachement',
         subtitle: 'New',
         parentCmp:null,
-        opposed:false,
-        suggested: false,
         jsApp:null
     },
     onLoadTpl: function () {
         var me = this;
-        Xfr.log("Reviewer tpl form loaded");
+        Xfr.log("Fichier tpl form loaded");
         me.callParent(arguments);
 
     },
@@ -45,21 +43,21 @@ Ext.define("JS.reviewer.ArticleReviewerForm", {
         me.callParent(arguments);
 
         var id="new";
-        if(me.getReviewer()!=null){
-            id=me.getReviewer().id;
+        if(me.getFichier()!=null){
+            id=me.getFichier().id;
         }
 
         var form = Ext.create("Xfr.Component", {
             //className: "Xfr.panel.Form",
             position: "[data-mode=edit]",
             dynamicTpl: false,
-            tplUrl: Routing.generate("get_articlereviewer", {
+            tplUrl: Routing.generate("get_fichier", {
                 id: id,
                 _format: 'html'
             }),
             syncTplLoading: false,
             cache:false,
-            renderTo: "reviewer-form-place",
+            renderTo: "fichier-form-place",
             listeners: {
                 "loadtpl": {
                     scope: me,
@@ -124,17 +122,30 @@ Ext.define("JS.reviewer.ArticleReviewerForm", {
             me.fireEvent('onCancel', me);
         });
 
+        var fichier=me.getFichier();
+        $("#fichier_typeFichier").select2();
+        if(fichier!=null){
+            console.log("article.type_article.id");
+            console.log(fichier.id);
+            $("#fichier_typeFichier").select2().val(fichier.id);
+        }
 
+
+        $("input[type=checkbox]").iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+            increaseArea: '30%' // optional
+        });
 
 
     },
 
     handleForm:function(){
         var me=this;
-        var reviewer=me.getReviewer();
+        var fichier=me.getFichier();
         var id=-1;
 
-        Xfr.Mask.show("Chargement en cours",null);
+        Xfr.Mask.show("Saving...",null, me.$this);
         //SAve current step
         console.log("Saving current step");
 
@@ -149,16 +160,25 @@ Ext.define("JS.reviewer.ArticleReviewerForm", {
         console.log(formData);
 
 
-        if(reviewer!=null){
-            id=reviewer.id;
+        if(fichier!=null){
+            id=fichier.id;
+        }
+        var article=me.getParentCmp().getArticle();
+        var review=me.getParentCmp().getReview();
+
+        var articleId, reviewId;
+        if(article){
+            articleId=article.id;
+        }
+        if(review){
+            reviewId=review.id;
         }
         $.ajax({
-            url: Routing.generate('post_articlereviewer', {
+            url: Routing.generate('post_fichier', {
                 _format : 'json',
                 id : id,
-                articleId : me.getParentCmp().getArticle().id,
-                opposed : me.getOpposed(),
-                suggested : me.getSuggested()
+                articleId : articleId,
+                reviewId: reviewId
             }),
             cache: false,
             contentType: false,
@@ -169,16 +189,17 @@ Ext.define("JS.reviewer.ArticleReviewerForm", {
             success: function (response, textStatus, jqXHR) {
                 console.log("ajax success");
                 console.log(response);
+                Xfr.Mask.hide();
                 if(response && response.success){
                     console.log("Response success");
-                    console.log("reviewer enregistré");
+                    console.log("fichier enregistré");
                     //Ajouter l'auteur dans la liste
                     var parent=me.getParentCmp();
                     if(id>0){
-                        parent.editReviewer(response.data);
+                        parent.editFichier(response.data);
                     }
                     else{
-                        parent.addReviewer(response.data);
+                        parent.addFichier(response.data);
                     }
 
                     me.fireEvent('onCancel', me);
@@ -193,6 +214,7 @@ Ext.define("JS.reviewer.ArticleReviewerForm", {
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 console.log("Error: "+ errorThrown);
+                Xfr.Mask.hide();
 
             }
         });

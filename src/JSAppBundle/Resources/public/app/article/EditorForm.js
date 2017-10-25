@@ -1,14 +1,14 @@
 /**
  * Created by maglo on 08/09/2016.
  */
-Ext.define("JS.auteur.AuteurForm", {
+Ext.define("JS.article.EditorForm", {
     //extend: "JS.panel.Form",
     extend: "Xfr.Component",
     config: {
         dynamicTpl: false,
 
         panelData: {
-            formUrl: Routing.generate("get_auteur", {stepId: "new", _format: 'html'})
+            formUrl: Routing.generate("get_editor", {id: "new", _format: 'html'})
         },
         listeners: {
             "loadtpl": {
@@ -19,19 +19,20 @@ Ext.define("JS.auteur.AuteurForm", {
             //},
             "render": {
                 fn: "onShow"
-            }
+            },
+            "onCancel": Ext.emptyFn
         },
         form: null,
         eventBound:false,
-        currentStep:1,
-        action:"",
-        coAuthor:null,
-        title: 'New author',
-        subtitle: 'New'
+        action:"new",
+        selectedArticles:[],
+        title: 'Assign editor',
+        subtitle: '',
+        parentCmp:null,
+        jsApp:null
     },
     onLoadTpl: function () {
         var me = this;
-        Xfr.log("Author tpl form loaded");
         me.callParent(arguments);
 
     },
@@ -39,17 +40,23 @@ Ext.define("JS.auteur.AuteurForm", {
         var me = this;
         me.callParent(arguments);
 
+        var id="new";
+        var selectedArticles=me.getSelectedArticles();
+        if(selectedArticles!=null && selectedArticles.length==1){
+            id=selectedArticles[0].id;
+        }
+
         var form = Ext.create("Xfr.Component", {
             //className: "Xfr.panel.Form",
             position: "[data-mode=edit]",
             dynamicTpl: false,
-            tplUrl: Routing.generate("get_auteur", {
-                id: "new",
+            tplUrl: Routing.generate("get_editor", {
+                id: id,
                 _format: 'html'
             }),
             syncTplLoading: false,
             cache:false,
-            renderTo: "form-place",
+            renderTo: "editor-form-place",
             listeners: {
                 "loadtpl": {
                     scope: me,
@@ -79,34 +86,60 @@ Ext.define("JS.auteur.AuteurForm", {
     },
     onShow: function () {
         var me = this;
-        Xfr.log("Manuscrit form rendered or shown");
         me.callParent(arguments);
 
     },
     initialize: function () {
         var me = this;
-        console.log("Initialising MAnuscrit class");
         me.callParent(arguments);
 
 
 
     },
     onLoadFormTpl:function(loadedCmp, tplObj){
-        console.log('form TPL Loaded');
+        console.log('form Editor TPL Loaded');
 
     },
     afterFormTplRendered:function(){
-        console.log('After Form TPL rendered');
+        console.log('After Form Editor TPL rendered co auteur');
 
         var me = this,
-
             form = $("form:first", me.getForm().$this);
-
-        $("input[type=checkbox]").iCheck({
-            checkboxClass: 'icheckbox_square-green',
-            radioClass: 'iradio_square-green',
-            increaseArea: '30%' // optional
+        form.submit(function(e){
+            e.preventDefault();
+            me.save();
         });
+
+        var saveBtn=$("button[data-action-type=save]", form);
+        console.log(saveBtn);
+        saveBtn.on("click", function(e){
+            console.log("Save button clicked");
+            e.preventDefault();
+            me.save();
+        });
+
+
+        var cancelBtn=$("button[data-action-type=reset]", form);
+        console.log(cancelBtn);
+        cancelBtn.on("click", function(e){
+            console.log("Cancel button clicked");
+            e.preventDefault();
+            me.fireEvent('onCancel', me);
+        });
+
+
+        var selectedArticles=me.getSelectedArticles();
+        var article=null;
+        if(selectedArticles!=null && selectedArticles.length==1){
+            article=selectedArticles[0];
+        }
+
+
+        $("#article_editor_editeur").select2();
+        if(article!=null && article.editeur!=null){
+            $("#article_editor_editeur").select2().val(article.editeur.id);
+        }
+
 
 
 
@@ -114,9 +147,10 @@ Ext.define("JS.auteur.AuteurForm", {
 
     handleForm:function(){
         var me=this;
-        var auteur=me.getAuteur();
+
         var id=-1;
 
+        Xfr.Mask.show("Chargement en cours",null);
         //SAve current step
         console.log("Saving current step");
 
@@ -130,14 +164,20 @@ Ext.define("JS.auteur.AuteurForm", {
         console.log("Form Data");
         console.log(formData);
 
-
-        if(auteur!=null){
-            auteur=auteur.id;
+        var selectedArticles=me.getSelectedArticles();
+        var articleIds='';
+        if(selectedArticles!=null && selectedArticles.length>0){
+            articleIds=selectedArticles[0].id;
+            for(var i=1; i<selectedArticles.length; i++){
+                articleIds=articleIds+','+selectedArticles[i].id;
+            }
         }
+
         $.ajax({
-            url: Routing.generate('post_auteur', {
+            url: Routing.generate('post_editor', {
                 _format: 'json',
-                id: articleId
+                id: id,
+                articleIds: articleIds
             }),
             cache: false,
             contentType: false,
@@ -149,9 +189,18 @@ Ext.define("JS.auteur.AuteurForm", {
                 console.log("ajax success");
                 console.log(response);
                 if(response && response.success){
-                    console.log("Response success");
-                    console.log("auteur enregistré");
-                    //Ajouter l'auteur dans la liste
+                    //console.log("Response success");
+                    //console.log("auteur enregistré");
+                    ////Ajouter l'auteur dans la liste
+                    //var parent=me.getParentCmp();
+                    //if(id>0){
+                    //    parent.editCoauteur(response.data);
+                    //}
+                    //else{
+                    //    parent.addCoauteur(response.data);
+                    //}
+
+                    me.fireEvent('onCancel', me);
                 }
                 else{
                     console.log("Success False");
@@ -172,11 +221,10 @@ Ext.define("JS.auteur.AuteurForm", {
 
     save:function(){
         var me = this,
-            currentStep=me.getCurrentStep(),
             form = $("form:first", me.getForm().$this);
         me.action="previous";
 
-        var validateOptions = me.getFormValidation(currentStep);
+        var validateOptions = me.getFormValidation();
         if (!Ext.isEmpty(form)) {
             console.log("Validate options");
             console.log(validateOptions);
@@ -189,19 +237,19 @@ Ext.define("JS.auteur.AuteurForm", {
 
     },
 
-    getFormValidation:function(step){
+    getFormValidation:function(){
         var validation={
-                    rules: {
-                        'article[typeArticle]': {
-                            required: true
-                        }
-                    },
-                    messages: {
-                        'article[typeArticle]': {
-                            required: ""
-                        }
-                    }
-                };
+            rules: {
+                'article[typeArticle]': {
+                    required: true
+                }
+            },
+            messages: {
+                'article[typeArticle]': {
+                    required: ""
+                }
+            }
+        };
 
         return validation;
     },

@@ -1,14 +1,14 @@
 /**
  * Created by maglo on 08/09/2016.
  */
-Ext.define("JS.auteur.CoAuteurForm", {
+Ext.define("JS.funding.FundingForm", {
     //extend: "JS.panel.Form",
     extend: "Xfr.Component",
     config: {
         dynamicTpl: false,
 
         panelData: {
-            formUrl: Routing.generate("get_coauteur", {id: "new", _format: 'html'})
+            formUrl: Routing.generate("get_funding", {id: "new", _format: 'html'})
         },
         listeners: {
             "loadtpl": {
@@ -26,15 +26,15 @@ Ext.define("JS.auteur.CoAuteurForm", {
         eventBound:false,
         //currentStep:1,
         action:"new",
-        coAuteur:null,
-        title: 'New author',
+        funding:null,
+        title: 'New Funding',
         subtitle: 'New',
         parentCmp:null,
         jsApp:null
     },
     onLoadTpl: function () {
         var me = this;
-        Xfr.log("Author tpl form loaded");
+        Xfr.log("Funding tpl form loaded");
         me.callParent(arguments);
 
     },
@@ -43,21 +43,21 @@ Ext.define("JS.auteur.CoAuteurForm", {
         me.callParent(arguments);
 
         var id="new";
-        if(me.getCoAuteur()!=null){
-            id=me.getCoAuteur().id;
+        if(me.getFunding()!=null){
+            id=me.getFunding().id;
         }
 
         var form = Ext.create("Xfr.Component", {
             //className: "Xfr.panel.Form",
             position: "[data-mode=edit]",
             dynamicTpl: false,
-            tplUrl: Routing.generate("get_coauteur", {
+            tplUrl: Routing.generate("get_funding", {
                 id: id,
                 _format: 'html'
             }),
             syncTplLoading: false,
             cache:false,
-            renderTo: "coauteur-form-place",
+            renderTo: "funding-form-place",
             listeners: {
                 "loadtpl": {
                     scope: me,
@@ -87,13 +87,13 @@ Ext.define("JS.auteur.CoAuteurForm", {
     },
     onShow: function () {
         var me = this;
-        Xfr.log("Manuscrit form rendered or shown");
+        Xfr.log("Funding form rendered or shown");
         me.callParent(arguments);
 
     },
     initialize: function () {
         var me = this;
-        console.log("Initialising MAnuscrit class");
+        console.log("Initialising Funding class");
         me.callParent(arguments);
 
 
@@ -130,6 +130,12 @@ Ext.define("JS.auteur.CoAuteurForm", {
             me.fireEvent('onCancel', me);
         });
 
+        $("input[type=checkbox]").iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+            increaseArea: '30%' // optional
+        });
+
 
 
 
@@ -137,12 +143,10 @@ Ext.define("JS.auteur.CoAuteurForm", {
 
     handleForm:function(){
         var me=this;
-        var auteur=me.getCoAuteur();
+        var funding=me.getFunding();
         var id=-1;
 
-        Xfr.Mask.show("Chargement en cours",null);
-        //SAve current step
-        console.log("Saving current step");
+        Xfr.Mask.show("Saving...",null, me.$this);
 
         var form = $("form:first", me.getForm().$this);
         var formData=null;
@@ -155,11 +159,14 @@ Ext.define("JS.auteur.CoAuteurForm", {
         console.log(formData);
 
 
-        if(auteur!=null){
-            id=auteur.id;
+        console.log("Funding being edited");
+        console.log(funding);
+
+        if(funding!=null){
+            id=funding.id;
         }
         $.ajax({
-            url: Routing.generate('post_coauteur', {
+            url: Routing.generate('post_funding', {
                 _format: 'json',
                 id: id,
                 articleId: me.getParentCmp().getArticle().id
@@ -173,16 +180,17 @@ Ext.define("JS.auteur.CoAuteurForm", {
             success: function (response, textStatus, jqXHR) {
                 console.log("ajax success");
                 console.log(response);
+                Xfr.Mask.hide();
                 if(response && response.success){
                     console.log("Response success");
-                    console.log("auteur enregistré");
+                    console.log("funding enregistré");
                     //Ajouter l'auteur dans la liste
                     var parent=me.getParentCmp();
                     if(id>0){
-                        parent.editCoauteur(response.data);
+                        parent.editFunding(response.data);
                     }
                     else{
-                        parent.addCoauteur(response.data);
+                        parent.addFunding(response.data);
                     }
 
                     me.fireEvent('onCancel', me);
@@ -197,6 +205,7 @@ Ext.define("JS.auteur.CoAuteurForm", {
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 console.log("Error: "+ errorThrown);
+                Xfr.Mask.hide();
 
             }
         });
@@ -242,7 +251,7 @@ Ext.define("JS.auteur.CoAuteurForm", {
         console.log('Reset');
     },
     onFormSubmit: function () {
-        console.log("submitting form Manuscrit form");
+        console.log("submitting form Funding form");
         var me = this;
     },
     getFieldModel: function (fieldName, entityName, removeLastField) {

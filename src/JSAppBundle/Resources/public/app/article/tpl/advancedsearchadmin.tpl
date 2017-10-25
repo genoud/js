@@ -1,22 +1,47 @@
-<form name="advancedsearch" method="post" action="">
-    <div class="row">
-        <div class="col-xs-6 form_group">
-            <label for="stateprunt" class="required">Statut:</label>
-            <select id="emprunt-form_etat" class="form-control input-sm" name="stateprunt">
-                <option value="">All</option>
-                <option value="Encours">Incomplete submission</option>
-                <option value="Remboursé">Submission sent back to author</option>
-                <option value="Echec">Submission waiting for validation</option>
+<form name="advancedsearchadmin" method="post" action="">
+
+        <div class=" form_group">
+            <label for="status" class="required">Statut:</label>
+            <select id="article-form_status" class="form-control input-sm" name="status">
             </select>
         </div>
-        <div class="col-xs-3 form_group">
-            <label for="dateDebut" class="required">Start Date</label>
-            <input type="text" id="filter-all-date-debut" name="dateDebut" required="required" class="form-control input-sm">
-        </div>
-        <div class="col-xs-3 form_group">
-            <label for="dateFin" class="required">End Date</label>
-            <input type="text" id="filter-all-date-fin" name="dateFin" required="required" class="form-control input-sm">
-        </div>
+    <div class=" form_group">
+        <label for="stateprunt" class="required">Article Type</label>
+        <select id="article-form_type" class="form-control input-sm" name="articleType">
+        </select>
     </div>
+    <div class=" form_group">
+        <label for="categorie" class="required">Section/Categorie</label>
+        <select id="article-form_categorie" class="form-control input-sm" name="categorie">
+        </select>
+    </div>
+        <div class=" form_group">
+            <label for="dateCreation" class="required">Creation Date</label>
+            <input type="text" id="filter-all-date-creation" name="dateCreation" required="required" class="form-control input-sm">
+        </div>
+
+        <div class=" form_group">
+            <label for="dateSoummission" class="required">Soummission Date</label>
+            <input type="text" id="filter-all-date-soummission" name="dateSoummission" required="required" class="form-control input-sm">
+        </div>
+
+    <div class=" form_group">
+        <label for="author" class="required">Author</label>
+        <select id="article-form_author" class="form-control input-sm" name="author">
+        </select>
+    </div>
+
+    <div class=" form_group">
+        <label for="editor" class="required">Editor</label>
+        <select id="article-form_editor" class="form-control input-sm" name="editor">
+        </select>
+    </div>
+
+    <div class=" form_group">
+        <label for="reviewer" class="required">Reviewer</label>
+        <select id="article-form_reviewer" class="form-control input-sm" name="reviewer">
+        </select>
+    </div>
+
 
 </form>

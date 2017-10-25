@@ -9,7 +9,7 @@
 namespace JSAppBundle\Dao;
 
 
-class AuteurRepository extends CoreRepository
+class ReviewerRepository extends CoreRepository
 {
 
 }

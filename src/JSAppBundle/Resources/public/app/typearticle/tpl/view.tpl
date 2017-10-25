@@ -9,14 +9,14 @@
     <div class="col-md-7">
         <div class="box box-primary">
             <div class="box-header with-border">
-            <h3 class="box-title">Attachment informations</h3>
+            <h3 class="box-title">Article type informations</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-                <h1 class="attachment-heading">{{typefichier.intitule}}</h1>
+                <h1 class="attachment-heading">{{typearticle.libelle}}</h1>
                 <div class="">
                     <h3 class="margin-5">
-                        {{typefichier.description}}
+                        {{typearticle.description}}
                     </h3>
 
                 </div>
@@ -27,7 +27,7 @@
     <div class="col-md-5">
         <div class="box box-primary">
             <div class="box-header with-border">
-                <h3 class="box-title">Manuscript containing this attachement</h3>
+                <h3 class="box-title">Manuscript of this type</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">

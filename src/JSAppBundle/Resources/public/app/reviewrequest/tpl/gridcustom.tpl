@@ -1,4 +1,4 @@
-<div class="grid-header row">
+<div class="grid-header row bg-navy-active">
     <div data-table-page-size class="no-padding col-lg-6 col-md-6 col-sm-6 col-xs-6 page-size">
     </div>
     <div data-table-form-search class="no-padding col-lg-6 col-md-6 col-sm-6 col-xs-6 form-search">
@@ -8,26 +8,28 @@
     <tbody>
     {{#data}}
     <tr class="custom">
-        <td >
+        <td>
             <div class="">
                 <p>
-                    <b>{{type_article.libelle}}</b>
+                    <b>{{article.type_article.libelle}}</b>
                 </p>
-                <h3 class="">{{titre_court}}</h3>
-                <h4 class="">{{titre_complet}}</h4>
+                <h3 class="">{{article.titre_court}}</h3>
+                <h4 class="">{{article.titre_complet}}</h4>
                 <p>
-                    <span>Creation Date: </span><span>{{date_creation}}</span>
+                    <span>Creation Date: </span><span>{{article.date_creation}}</span>
                 </p>
             </div>
             <div class="grid-button-bar">
-               <button on-click='show-detail' class="btn btn-xs bg-navy">
-                   <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View</button>
-                {{#helpers.isArticleEditable(this)}}
-                    <button on-click='show-edit' class="btn btn-xs bg-olive">
-                        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Edit</button>
-                    <button on-click='delete' class="btn btn-xs btn-danger">
-                        <span class="fa fa-trash" aria-hidden="true"></span> Delete</button>
-                {{/if}}
+                <button on-click='show-detail' class="btn btn-xs bg-navy">
+                    <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View
+                </button>
+
+                <button on-click='accept-request' class="btn btn-xs btn-success">
+                    <span class="fa fa-check-circle" aria-hidden="true"></span> Accept request
+                </button>
+                <button on-click='reject-request' class="btn btn-xs btn-danger">
+                    <span class="fa fa-ban" aria-hidden="true"></span> Decline request
+                </button>
 
 
             </div>

@@ -102,6 +102,11 @@ Ext.define("JS.auteur.AuteurForm", {
 
             form = $("form:first", me.getForm().$this);
 
+        $("input[type=checkbox]").iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+            increaseArea: '30%' // optional
+        });
 
 
 

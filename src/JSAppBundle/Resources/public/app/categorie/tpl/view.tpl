@@ -9,16 +9,23 @@
     <div class="col-md-7">
         <div class="box box-primary">
             <div class="box-header with-border">
-            <h3 class="box-title">Article type informations</h3>
+            <h3 class="box-title">Categorie informations</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-                <h1 class="attachment-heading">{{typearticle.libelle}}</h1>
-                <div class="">
-                    <h3 class="margin-5">
-                        {{typearticle.description}}
-                    </h3>
 
+                <div class="attachment-block clearfix user-widget">
+                    <img class="attachment-img user-view-img" src="{{baseUrl}}{{categorie.img_url}}" alt="Categorie Picture">
+                    <div class="attachment-pushed">
+                        <h1 class="attachment-heading">{{categorie.intitule}}</h1>
+                        <div class="attachment-text">
+                            <h3 class="margin-5">
+                                {{categorie.description}}
+                            </h3>
+                        </div>
+                        <!-- /.attachment-text -->
+                    </div>
+                    <!-- /.attachment-pushed -->
                 </div>
             </div>
             <!-- /.box-body -->
@@ -27,7 +34,7 @@
     <div class="col-md-5">
         <div class="box box-primary">
             <div class="box-header with-border">
-                <h3 class="box-title">Manuscript of this type</h3>
+                <h3 class="box-title">Manuscript of this categorie</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">

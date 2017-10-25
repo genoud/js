@@ -13,21 +13,61 @@
 
         <div class="table-responsive mailbox-messages">
 
-            <table class="table table-fixed table-hover table-striped table-condensed vbox-available-height table-custom">
+            <table class="table table-fixed table-hover table-striped table-condensed  table-custom">
                 <tbody>
                 {{#data}}
                 <tr class="custom">
-                    <td >
-                        <div class="">
-                            <p>
-                                <b>{{intitule}}</b>
-                            </p>
-                            <h3 class="">{{description}}</h3>
-                        </div>
-                        <div class="grid-button-bar">
-                            <button on-click='show-detail' class="btn btn-xs bg-navy">View</button>
+                    <td on-click="on-select">
+                        <div class="attachment-block clearfix user-widget"  >
+                            <img class="attachment-img" src="{{baseUrl}}{{personne.img_url}}" alt="User Picture">
 
-                            <button on-click='delete' class="btn btn-xs btn-danger">Delete</button>
+                            <div class="attachment-pushed">
+                                <h2 class="attachment-heading">{{personne.prenom}} {{personne.nom}}<small>&nbsp;{{username}}</small></h2>
+                                <div class="attachment-text">
+                                    <h5 class="margin-5">
+                                        <span class="text-teal">Email:</span> {{personne.email}}
+                                        &nbsp;<span class="text-teal">Phone:</span>{{personne.telephone}}
+                                        &nbsp;<span class="text-teal">Zip code:</span>{{personne.code_postale}}
+                                    </h5>
+                                    <p>{{personne.affiliation}} {{personne.departement}} {{personne.institution}},
+                                        {{personne.ville}} &nbsp;{{personne.pays}}</p>
+                                    <p>
+                                        {{#roles_entity}}
+                                            <span class="label label-success">{{description}}</span>
+                                        {{/roles_entity}}
+                                    </p>
+                                </div>
+                                <!-- /.attachment-text -->
+                            </div>
+                            <!-- /.attachment-pushed -->
+                        </div>
+
+                        <!--
+                        <div class="col-md-4">
+                            <img width="50px" src="{{baseUrl}}{{personne.img_url}}" alt="User picture">
+                        </div>
+                        <div class="col-md-8">
+                            <h2 class="">{{personne.prenom}} {{personne.nom}} <small>{{username}}</small></h2>
+                        </div>
+                        -->
+                        <div class="grid-button-bar">
+
+                            <button on-click='show-detail' class="btn btn-xs bg-navy">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View
+                            </button>
+
+                            <button on-click='show-edit' class="btn btn-xs bg-navy">
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Edit
+                            </button>
+
+
+                            <button on-click='delete' class="btn btn-xs btn-danger">
+                                <span class="fa fa-trash" aria-hidden="true"></span> Delete
+                            </button>
+
+
+
+
                         </div>
                     </td>
                 </tr>

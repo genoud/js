@@ -11,25 +11,26 @@
         <td>
             <div class="">
                 <p>
-                    <b>{{article.type_article.libelle}}</b>
+                    <b>{{titre}}</b>
                 </p>
-                <h3 class="">{{article.titre_court}}</h3>
-                <h4 class="">{{article.titre_complet}}</h4>
-                <p>
-                    <span>Creation Date: </span><span>{{article.date_creation}}</span>
-                </p>
+                <h4 class="">{{content}}</h4>
+                <p><span>Manuscript title: </span> &nbsp;<span>{{article.titre_court}}</span></p>
             </div>
             <div class="grid-button-bar">
                 <button on-click='show-detail' class="btn btn-xs bg-navy">
                     <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View
                 </button>
 
-                <button on-click='accept-request' class="btn btn-xs btn-success">
-                    <span class="fa fa-check-circle" aria-hidden="true"></span> Accept request
+                {{#if statut=="REVIEW_IN_PROGRESS" }}
+                <button on-click='edit-review' class="btn btn-xs btn-primary">
+                    <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Edit review
                 </button>
-                <button on-click='reject-request' class="btn btn-xs btn-danger">
-                    <span class="fa fa-ban" aria-hidden="true"></span> Decline request
+                <button on-click='submit-review' class="btn btn-xs btn-success">
+                    <span class="fa fa-check-circle" aria-hidden="true"></span> Submit review
                 </button>
+                {{/if}}
+
+
 
 
             </div>

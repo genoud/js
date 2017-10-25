@@ -1,7 +1,7 @@
 /**
  * Created by maglo on 08/09/2016.
  */
-Ext.define("JS.article.ManuscritAuthorsCmp", {
+Ext.define("JS.cmp.ReviewersCmp", {
     //extend: "JS.panel.Form",
     extend: "Xfr.Component",
     config: {
@@ -22,7 +22,9 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
         article:null,
         title: 'View',
         subtitle: '',
-        coauteurs: [],
+        reviewers: [],
+        opposed:false,
+        suggested:true,
         jsApp:null
     },
     onLoadTpl: function () {
@@ -39,21 +41,17 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
 
         if(!me.getEventBound()){
             console.log("Event not yet bound");
-            me.binder.on('add-author', function (e) {
+            me.binder.on('add-reviewer', function (e) {
                 console.log("add button clicked");
                 me.showDialogAdd();
             });
-            me.binder.on('edit-author', function (e) {
+            me.binder.on('edit-reviewer', function (e) {
                 console.log("edit button clicked");
                 me.showDialogEdit(e);
             });
-            me.binder.on('remove-author', function (e) {
+            me.binder.on('remove-reviewer', function (e) {
                 console.log("remove button clicked");
-                me.removeAuthor(e);
-            });
-            me.binder.on('set-principal', function (e) {
-                console.log("set principal button clicked");
-                me.setPrincipal(e);
+                me.removeReviewer(e);
             });
             me.setEventBound(true);
         }
@@ -62,17 +60,15 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
         }
         me.loadData();
 
-
-
-
-
     },
     loadData: function(){
         var me = this;
         $.ajax({
-            url: Routing.generate('get_coauteurs', {
+            url: Routing.generate('get_articlereviewers', {
                 _format: 'json',
-                articleId: me.getArticle().id
+                articleId: me.getArticle().id,
+                opposed:me.getOpposed(),
+                suggested:me.getSuggested()
             }),
             cache: false,
             contentType: false,
@@ -86,19 +82,22 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
                 if(response && response.success){
                     console.log("Response success");
                     console.log(response);
-                    me.setCoauteurs(response.data);
+                    me.setReviewers(response.data);
                     var data={
                         article: me.getArticle(),
-                        coauteurs: response.data,
+                        reviewers: response.data,
                         baseUrl:baseUrl
                     };
 
                     console.log(data);
                     me.setData(data);
+
+                    me.fireEvent('afterreviewerloaded', me);
                 }
                 else{
                     console.log("Success False");
-                    $("li[data-step="+currentStep+"]").removeClass('completed');
+                    console.log(response);
+                    //$("li[data-step="+currentStep+"]").removeClass('completed');
 
                 }
                 //$("li.current").toggleClass('current');
@@ -106,34 +105,35 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 console.log("Error: "+ errorThrown);
-                $("li[data-step="+currentStep+"]").removeClass('completed');
+
+                //$("li[data-step="+currentStep+"]").removeClass('completed');
             }
         });
     },
-    addCoauteur: function(coauteur){
+    addReviewer: function(reviewer){
         var me=this;
-        var coauteurs=me.getCoauteurs();
-        coauteurs.push(coauteur);
+        var reviewers=me.getReviewers();
+        reviewers.push(reviewer);
         var data={
             article: me.getArticle(),
-            coauteurs: coauteurs,
+            reviewers: reviewers,
             baseUrl:baseUrl
         };
         console.log(data);
         me.setData(data);
     },
-    editCoauteur:function(coauteur){
+    editReviewer:function(reviewer){
         var me=this;
-        var coauteurs=me.getCoauteurs();
-        for (var i=0; i<coauteurs.length; i++){
-            if(coauteurs[i].id==coauteur.id){
-                coauteurs[i]=coauteur;
+        var reviewers=me.getReviewers();
+        for (var i=0; i<reviewers.length; i++){
+            if(reviewers[i].id==reviewer.id){
+                reviewers[i]=reviewer;
                 break;
             }
         }
         var data={
             article: me.getArticle(),
-            coauteurs: coauteurs,
+            reviewers: reviewers,
             baseUrl:baseUrl
         };
         console.log(data);
@@ -144,13 +144,15 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
         var me=this;
         var dialog=Ext.create("Xfr.panel.Window", {
             size: 'medium',
-            title:  "Adding author",
+            title:  "Adding reviewer",
             renderTo: document.body,
             items: [{
-                className: "JS.auteur.CoAuteurForm",
+                className: "JS.reviewer.ArticleReviewerForm",
                 height: "100%",
                 position: '[xfr-window-content]',
-                coAuteur: null,
+                reviewer: null,
+                opposed : me.getOpposed(),
+                suggested : me.getSuggested(),
                 parentCmp : me,
                 jsApp: me.getJsApp(),
                 listeners: {
@@ -170,13 +172,15 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
         var me=this;
         var dialog=Ext.create("Xfr.panel.Window", {
             size: 'medium',
-            title:  "Adding author",
+            title:  "Editing Reviewer",
             renderTo: document.body,
             items: [{
-                className: "JS.auteur.CoAuteurForm",
+                className: "JS.reviewer.ArticleReviewerForm",
                 height: "100%",
                 position: '[xfr-window-content]',
-                coAuteur: context.context,
+                reviewer: context.context,
+                opposed : me.getOpposed(),
+                suggested : me.getSuggested(),
                 parentCmp : me,
                 jsApp: me.getJsApp(),
                 listeners: {
@@ -189,13 +193,15 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
         });
         dialog.show();
     },
-    removeAuthor:function(context){
+    removeReviewer:function(context){
         var me=this;
         console.log(context);
         $.ajax({
-            url: Routing.generate('delete_coauteur', {
+            url: Routing.generate('delete_articlereviewer', {
                 _format: 'json',
-                id: context.context.id
+                id: context.context.id,
+                opposed: me.getOpposed(),
+                suggested: me.getSuggested()
             }),
             cache: false,
             contentType: false,
@@ -209,72 +215,21 @@ Ext.define("JS.article.ManuscritAuthorsCmp", {
                 if(response && response.success){
                     console.log("Response success");
                     console.log(response);
-                    var coauteurs=me.getCoauteurs();
+                    var reviewers=me.getReviewers();
                     var newList=[];
-                    for (var i=0; i<coauteurs.length; i++){
-                        if(coauteurs[i].id==context.context.id){
+                    for (var i=0; i<reviewers.length; i++){
+                        if(reviewers[i].id==context.context.id){
 
                             continue;
                         }
                         else{
-                            newList.push(coauteurs[i]);
+                            newList.push(reviewers[i]);
                         }
                     }
-                    me.setCoauteurs(newList);
+                    me.setReviewers(newList);
                     var data={
                         article: me.getArticle(),
-                        coauteurs: newList,
-                        baseUrl:baseUrl
-                    };
-                    console.log(data);
-                    me.setData(data);
-                }
-
-
-            },
-            error: function (jqXHR, textStatus, errorThrown) {
-                console.log("Error: "+ errorThrown);
-                //$("li[data-step="+currentStep+"]").removeClass('completed');
-            }
-        });
-    },
-    setPrincipal:function(context){
-        console.log(context);
-        var me=this;
-        console.log(context);
-        $.ajax({
-            url: Routing.generate('put_coauteur', {
-                _format: 'json',
-                id: context.context.id,
-                principal:true
-            }),
-            cache: false,
-            contentType: false,
-            processData: false,
-            type: "PUT",
-            data: null,
-            dataType: "json",
-            success: function (response, textStatus, jqXHR) {
-                console.log("ajax success");
-                console.log(response);
-                if(response && response.success){
-                    console.log("Response success");
-                    console.log(response);
-                    var coauteurs=me.getCoauteurs();
-
-                    var coauteur=response.data;
-                    for (var i=0; i<coauteurs.length; i++){
-                        if(coauteurs[i].id==coauteur.id){
-                            coauteurs[i]=coauteur;
-                            continue;
-                        }
-                        else{
-                            coauteurs[i].principal=false;
-                        }
-                    }
-                    var data={
-                        article: me.getArticle(),
-                        coauteurs: coauteurs,
+                        reviewers: newList,
                         baseUrl:baseUrl
                     };
                     console.log(data);

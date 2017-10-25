@@ -1,4 +1,4 @@
-Ext.define("JS.typearticle.AdvancedSearch", {
+Ext.define("JS.categorie.AdvancedSearch", {
     extend: "Xfr.Component",
     requires: [],
     config: {

@@ -19,10 +19,10 @@
                 <tr class="custom">
                     <td on-click="on-select">
                         <div class="">
-                            <p>
-                                <b>{{intitule}}</b>
-                            </p>
-                            <h3 class="">{{description}}</h3>
+                            <h3>
+                                <b>{{numero}}</b>
+                            </h3>
+                            <p class="">{{description}}</p>
                         </div>
                         <div class="grid-button-bar">
                             <button on-click='show-detail' class="btn btn-xs bg-navy">

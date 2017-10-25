@@ -1,7 +1,7 @@
 /**
  * Created by maglo on 27/09/2016.
  */
-Ext.define("JS.typearticle.List",{
+Ext.define("JS.categorie.List",{
     extend:"JS.panel.HistoryGridPanelAdmin",
     config:{
         page: {
@@ -12,13 +12,13 @@ Ext.define("JS.typearticle.List",{
         panelData: {
             url: "",
             panelClass: "",
-            gridUrl: Routing.generate("get_typearticles"),
+            gridUrl: Routing.generate("get_categories"),
             actions: [{
                 param: {
-                    "url": "get_typearticles",
-                    "panelClass": "JS.typearticle.AdvancedSearch",
+                    "url": "get_categories",
+                    "panelClass": "JS.categorie.AdvancedSearch",
                     "formUrl": "",
-                    "gridUrl": "get_typearticles"
+                    "gridUrl": "get_categories"
                 },
                 libelle: "Advanced search",
                 description: "Advanced search"
@@ -27,20 +27,20 @@ Ext.define("JS.typearticle.List",{
                     buttonClass:"btn-primary",
                     iconClass:"glyphicon glyphicon-plus",
                     buttonLabel:"Add",
-                    buttonAction:"add-type"
+                    buttonAction:"add-categorie"
 
             },
                 {
                     buttonClass:"btn-primary",
                     iconClass:"glyphicon glyphicon-ok-sign",
                     buttonLabel:"Edit",
-                    buttonAction:"edit-type"
+                    buttonAction:"edit-categorie"
 
                 },{
                     buttonClass:"btn-danger",
                     iconClass:"fa fa-trash",
                     buttonLabel:"Delete",
-                    buttonAction:"delete-type"
+                    buttonAction:"delete-categorie"
 
                 }
 
@@ -49,20 +49,21 @@ Ext.define("JS.typearticle.List",{
         grid: {
             store: {
                 proxy: {
-                    url: Routing.generate("get_typearticles", {_format: "json", status:1})
+                    url: Routing.generate("get_categories", {_format: "json", status:1})
                 }
             },
             type: "custom",
-            dynamicTplClass: "JS.typearticle.GridCustom"
+            dynamicTplClass: "JS.categorie.GridCustom"
         },
         status:1,
         eventBound:false,
-        jsApp:null
+        jsApp:null,
+        showSearch: false
     },
     initialize:function(){
 
         var me = this;
-        me.config.grid.store.proxy.url=Routing.generate("get_typearticles", {
+        me.config.grid.store.proxy.url=Routing.generate("get_categories", {
             _format: "json",
             status: me.getStatus()
         });
@@ -83,18 +84,34 @@ Ext.define("JS.typearticle.List",{
             grid.binder.on('show-detail', function(e){
                 //console.log("article detail clicked");
                 //console.log(e);
-                me.getJsApp().showPanel("JS.typearticle.View",{
-                    title: e.context.titre_court,
-                    article: e.context
+
+                me.getJsApp().showPanel("JS.categorie.View",{
+                    title: e.context.intitule,
+                    subtitle: "View",
+                    categorie: e.context,
+                    parentCmp: me,
+                    listeners: {
+                        "onCancel": function(){
+                            console.log("Cancel event fired");
+                            me.getJsApp().back();
+                        }
+                    }
                 });
             });
 
             grid.binder.on('show-edit', function(e){
                 //console.log("article edit clicked");
                 //console.log(e);
-                me.getJsApp().showPanel("JS.typearticle.Form",{
-                    title: e.context.titre_court,
-                    article: e.context
+                me.getJsApp().showPanel("JS.categorie.Form",{
+                    title: e.context.intitule,
+                    categorie: e.context,
+                    parentCmp: me,
+                    listeners: {
+                        "onCancel": function(){
+                            console.log("Cancel event fired");
+                            me.getJsApp().back();
+                        }
+                    }
                 });
             });
 
@@ -102,7 +119,7 @@ Ext.define("JS.typearticle.List",{
                 //console.log("article edit clicked");
                 //console.log(e);
                 Xfr.Msg.show({
-                    message: "Do you really want to delete this type?",
+                    message: "Do you really want to delete this categorie?",
                     title: "Delete confirmation",
                     icon: Xfr.Msg.QUESTION.iconClass,
                     btn: [
@@ -125,24 +142,83 @@ Ext.define("JS.typearticle.List",{
         me.getJsApp().addjustHeight();
 
     },
+    editCategorie:function(categorie){
+        var me=this;
+        me.getGrid().reload();
+    },
+    addCategorie:function(categorie){
+        var me=this;
+        me.getGrid().reload();
+    },
     afterRenderTpl:function(){
         var me=this;
         me.callParent(arguments);
-        me.binder.on('add-type', function (e) {
+        me.binder.on('add-categorie', function (e) {
 
-            console.log("add type button clicked");
-            //me.showDialogAdd();
+            console.log("add categorie button clicked");
+            var form=me.getJsApp().showPanel("JS.categorie.Form",{
+                title: "Categories / Sections",
+                subtitle: "New",
+                parentCmp: me,
+                listeners: {
+                    "onCancel": function(){
+                        console.log("Cancel event fired");
+                        me.getJsApp().back();
+                    }
+                }
+
+            });
         });
 
-        me.binder.on('edit-type', function (e) {
+        me.binder.on('edit-categorie', function (e) {
 
-            console.log("Edit type button clicked");
-            //me.showDialogAdd();
+            console.log("Edit categorie button clicked");
+            if(me.getSelectedItems().length>1){
+                Xfr.Msg.show({
+                    message: "Select only one categorie to edit.",
+                    title: "Edit Error",
+                    icon: Xfr.Msg.INFO.iconClass,
+                    btn: [
+                        {text: Xfr.Msg.OK.text, type: 'btn'},
+                        {text: Xfr.Msg.CANCEL.text, type: 'btn'}
+                    ],
+                    action:null
+                });
+                return;
+            }
+            if(me.getSelectedItems().length==0){
+                Xfr.Msg.show({
+                    message: "Select one categorie to edit.",
+                    title: "Edit Error",
+                    icon: Xfr.Msg.INFO.iconClass,
+                    btn: [
+                        {text: Xfr.Msg.OK.text, type: 'btn'},
+                        {text: Xfr.Msg.CANCEL.text, type: 'btn'}
+                    ],
+                    action:null
+                });
+                return;
+            }
+            var selectedCategorie=me.getSelectedItems()[0];
+
+            var form=me.getJsApp().showPanel("JS.categorie.Form",{
+                title: selectedCategorie.intitule,
+                subtitle: "Edit",
+                typearticle: selectedCategorie,
+                parentCmp: me,
+                listeners: {
+                    "onCancel": function(){
+                        console.log("Cancel event fired");
+                        me.getJsApp().back();
+                    }
+                }
+
+            });
         });
 
-        me.binder.on('delete-type', function (e) {
+        me.binder.on('delete-categorie', function (e) {
 
-            console.log("Delete type button clicked");
+            console.log("Delete categorie button clicked");
             //me.showDialogAdd();
         });
 

@@ -1,14 +1,14 @@
 /**
  * Created by maglo on 08/09/2016.
  */
-Ext.define("JS.article.EditorForm", {
+Ext.define("JS.article.ReviewRequestForm", {
     //extend: "JS.panel.Form",
     extend: "Xfr.Component",
     config: {
         dynamicTpl: false,
 
         panelData: {
-            formUrl: Routing.generate("get_editor", {id: "new", _format: 'html'})
+            formUrl: Routing.generate("get_reviewrequest", {id: "new", _format: 'html'})
         },
         listeners: {
             "loadtpl": {
@@ -26,7 +26,7 @@ Ext.define("JS.article.EditorForm", {
         eventBound:false,
         action:"new",
         selectedArticles:[],
-        title: 'Assign editor',
+        title: 'Proposing reviewer',
         subtitle: '',
         parentCmp:null,
         jsApp:null
@@ -50,13 +50,13 @@ Ext.define("JS.article.EditorForm", {
             //className: "Xfr.panel.Form",
             position: "[data-mode=edit]",
             dynamicTpl: false,
-            tplUrl: Routing.generate("get_editor", {
+            tplUrl: Routing.generate("get_reviewrequest", {
                 id: id,
                 _format: 'html'
             }),
             syncTplLoading: false,
             cache:false,
-            renderTo: "editor-form-place",
+            renderTo: "reviewrequest-form-place",
             listeners: {
                 "loadtpl": {
                     scope: me,
@@ -97,11 +97,11 @@ Ext.define("JS.article.EditorForm", {
 
     },
     onLoadFormTpl:function(loadedCmp, tplObj){
-        console.log('form Editor TPL Loaded');
+        console.log('form reviewrequest TPL Loaded');
 
     },
     afterFormTplRendered:function(){
-        console.log('After Form Editor TPL rendered co auteur');
+        console.log('After Form reviewrequest TPL rendered co auteur');
 
         var me = this,
             form = $("form:first", me.getForm().$this);
@@ -135,9 +135,13 @@ Ext.define("JS.article.EditorForm", {
         }
 
 
-        $("#article_editor_editeur").select2();
+        $("#review_request_reviewers").select2({
+            allowClear: true
+        });
         if(article!=null && article.editeur!=null){
-            $("#article_editor_editeur").select2().val(article.editeur.id);
+            $("#review_request_reviewers").select2({
+                allowClear: true
+            }).val(article.editeur.id);
         }
 
 
@@ -174,7 +178,7 @@ Ext.define("JS.article.EditorForm", {
         }
 
         $.ajax({
-            url: Routing.generate('post_editor', {
+            url: Routing.generate('post_reviewrequest', {
                 _format: 'json',
                 id: id,
                 articleIds: articleIds

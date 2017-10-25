@@ -1,14 +1,14 @@
 /**
  * Created by maglo on 08/09/2016.
  */
-Ext.define("JS.typearticle.View", {
+Ext.define("JS.categorie.View", {
     //extend: "JS.panel.Form",
     extend: "Xfr.Component",
     config: {
         dynamicTpl: false,
 
         panelData: {
-            formUrl: Routing.generate("get_typearticle", {id: "new", _format: 'html'})
+            formUrl: Routing.generate("get_categorie", {id: "new", _format: 'html'})
         },
         listeners: {
             "loadtpl": {
@@ -25,7 +25,7 @@ Ext.define("JS.typearticle.View", {
         eventBound:false,
         //currentStep:1,
         action:"new",
-        typearticle:null,
+        categorie:null,
         title: 'New author',
         subtitle: 'New',
         parentCmp:null,
@@ -37,25 +37,25 @@ Ext.define("JS.typearticle.View", {
         me.callParent(arguments);
 
     },
-    editTypearticle:function(typearticle){
+    editCategorie:function(categorie){
         var me=this;
-        me.setTypearticle(typearticle);
-        me.getParentCmp().editTypearticle(typearticle);
-        me.binder.set("typearticle", typearticle);
+        me.setCategorie(categorie);
+        me.getParentCmp().editCategorie(categorie);
+        me.binder.set("categorie", categorie);
     },
-    addTypearticle:function(typearticle){
+    addCategorie:function(categorie){
         var me=this;
-        me.setTypearticle(typearticle);
-        me.getParentCmp().addTypearticle(typearticle);
-        me.binder.set("typearticle", typearticle);
+        me.setCategorie(categorie);
+        me.getParentCmp().addCategorie(categorie);
+        me.binder.set("categorie", categorie);
     },
     afterRenderTpl: function () {
         var me = this;
         me.callParent(arguments);
 
         var id="new";
-        if(me.getTypearticle()!=null){
-            id=me.getTypearticle().id;
+        if(me.getCategorie()!=null){
+            id=me.getCategorie().id;
         }
 
         var data=me.getData();
@@ -66,11 +66,11 @@ Ext.define("JS.typearticle.View", {
 
         me.binder.on('on-edit', function (e) {
 
-            var form=me.getJsApp().showPanel("JS.typearticle.Form",{
-                title: me.getTypearticle().intitule,
+            var form=me.getJsApp().showPanel("JS.categorie.Form",{
+                title: me.getCategorie().intitule,
                 subtitle: "Edit",
                 parentCmp: me,
-                typearticle: me.getTypearticle(),
+                categorie: me.getCategorie(),
                 listeners: {
                     "onCancel": function(){
                         console.log("Cancel event fired");

@@ -17,17 +17,32 @@
                 <tbody>
                 {{#data}}
                 <tr class="custom">
-                    <td >
-                        <div class="">
-                            <p>
-                                <b>{{libelle}}</b>
-                            </p>
-                            <h3 class="">{{description}}</h3>
+                    <td on-click="on-select">
+                        <div class="attachment-block clearfix user-widget"  >
+                            <img class="attachment-img" src="{{baseUrl}}{{img_url}}" alt="User Picture">
+
+                            <div class="attachment-pushed">
+                                <h2 class="attachment-heading"> {{intitule}}</h2>
+                                <div class="attachment-text">
+                                    <h3 class="">{{description}}</h3>
+                                </div>
+                                <!-- /.attachment-text -->
+                            </div>
+                            <!-- /.attachment-pushed -->
                         </div>
                         <div class="grid-button-bar">
-                            <button on-click='show-detail' class="btn btn-xs bg-navy">View</button>
+                            <button on-click='show-detail' class="btn btn-xs bg-navy">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> View
+                            </button>
 
-                            <button on-click='delete' class="btn btn-xs btn-danger">Delete</button>
+                            <button on-click='show-edit' class="btn btn-xs bg-navy">
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Edit
+                            </button>
+
+
+                            <button on-click='delete' class="btn btn-xs btn-danger">
+                                <span class="fa fa-trash" aria-hidden="true"></span> Delete
+                            </button>
                         </div>
                     </td>
                 </tr>
