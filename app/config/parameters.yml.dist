@@ -2,18 +2,17 @@
 # Set parameters here that may be different on each deployment target of the app, e.g. development, staging, production.
 # http://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
 parameters:
-    database_host:     127.0.0.1
-    database_port:     ~
-    database_name:     symfony
-    database_user:     root
-    database_password: ~
-    # You should uncomment this if you want use pdo_sqlite
-    # database_path: "%kernel.root_dir%/data.db3"
+    database_host: localhost
+    database_port: 3306
+    database_name: js
+    database_user: capv
+    database_password: SqkuWoH@5Q
 
-    mailer_transport:  smtp
-    mailer_host:       127.0.0.1
-    mailer_user:       ~
-    mailer_password:   ~
-
-    # A secret key that's used to generate certain security-related tokens
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    mailer_transport: smtp
+    mailer_host: 192.162.71.192
+    mailer_user: contact@capvcm.com
+    mailer_password: _b1uGLFqsIq
+    mailer_port: 581
+    mailer_encryption: tls
+#   sms_api_implementation: U2g\Axtincal\ERatingBundle\Tools\UniforwarderSmsApi
+    secret: e4ab3553e92f105057efd63ac43f6ab28c23530f

@@ -1,0 +1,51 @@
+
+
+/**
+End edition css
+**/
+.xfr-toolbar-action{
+    margin-bottom: 20px;
+    width: 100%;
+    background: #374850;
+    padding: 0px;
+}
+.xfr-toolbar-action >button{
+    margin-left: 5px;
+}
+.grid-filter-panel{
+    margin: 0px 0px 0px 0px;
+    background-color: #b2cddc;
+    padding: 15px;
+}
+.grid-filter-panel .row, .grid-header.row{
+    margin: 0px;
+}
+div[data-table-page-size] span.label{
+    color: darkgray;
+}
+table .attachment-block{
+    background: inherit;
+    border: none;
+}
+.grid-button-bar{
+    text-align: right;
+}
+.user-widget .label{
+    margin-right: 3px;
+}
+
+.user-widget{
+    background: inherit;
+    border: none;
+}
+.attachment-block .user-view-img{
+    max-width: 150px;
+    max-height: 150px;
+}
+.attachment-block.user-widget .attachment-pushed{
+    margin-left: 165px;
+}
+
+table td.grid-selected{
+    background: #b7c5f7; /*palegreen;*/
+}

@@ -1,0 +1,251 @@
+
+
+.xfr-mask-cover{
+        opacity : 0.5;
+        background-color : black;
+}
+
+.xfr-mask{
+    /*text-align: center;*/
+    /* background-color: yellow; */
+    opacity: 0.2;
+    position: fixed;
+    z-index: 20002;
+}
+
+.xfr-mask .modal-header{
+    background: #004927;
+    color: white;
+    height: 46px;
+}
+
+.xfr-mask .modal-content {
+    border: 5px solid #004927;
+}
+
+.xfr-mask .modal-header .close {
+    color: white;
+    opacity: .7;
+    font-size: 30px;
+    position : absolute;
+    right : 10px;
+    top : 8px;
+    z-index : 9999;
+}
+
+.xfr-mask .xfr-mask-panel{
+    z-index :  99991;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+.xfr-mask-loading{
+    text-align: center;
+}
+
+.xfr-mask-auto .modal-dialog{
+    width: auto;
+    max-width: 400px;
+    min-width : 325px;
+    background-color: transparent;
+}    
+
+.xfr-mask-auto .modal-content{
+    /*padding: 10px;*/
+}    
+.xfr-mask-auto .xfr-mask-waiting-msg{
+    display: inline-block;
+    font-size: 17px;
+    text-align: center;
+    width: 100%;
+}
+
+.xfr-mask-auto .xfr-mask-loading-img{
+    background-image: url("../../images/loading-256.gif");
+    width: 256px;
+    height: 256px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.xfr-mask-small .modal-dialog{
+    width: 150px;
+    background-color: transparent;
+}    
+
+.xfr-mask-small .modal-content{
+    padding: 15px;    
+}    
+.xfr-mask-small .xfr-mask-waiting-msg{
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.xfr-mask-small .xfr-mask-loading-img{
+    background-image: url("../../images/loading-64.gif");
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+.xfr-mask-large .modal-dialog,
+.xfr-mask-medium .modal-dialog{
+    width: auto;    
+    background-color: transparent;
+}    
+
+.xfr-mask-large .modal-dialog{
+    /* min-width : 700px; */
+}    
+
+.xfr-mask-medium .modal-dialog{
+    min-width : 500px;
+}    
+
+.xfr-mask-large .modal-content,
+.xfr-mask-medium .modal-content{
+    /*padding: 5px;*/
+    height: 100%;
+    width: 100%;
+}    
+.xfr-mask-large .xfr-mask-waiting-msg,
+.xfr-mask-medium .xfr-mask-waiting-msg {
+    display: inline-block;
+    font-size: 17px;
+    text-align: center;
+    width: 100%;
+}
+
+.xfr-mask-large .xfr-mask-loading-img,
+.xfr-mask-medium .xfr-mask-loading-img{
+    background-image: url("../../images/loading-256.gif");
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+    margin-top: 20%;
+    background-size : cover;
+}
+
+
+
+
+
+
+
+
+
+.xfr-mask .modal-dialog-center {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+}
+
+.xfr-mask-large .modal-dialog-center {
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width : 90%;
+    height: 90%;
+}
+
+.xfr-mask-medium .modal-dialog-center {
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width : 70%;
+    height: 70%;
+}
+
+
+.xfr-mask-large .modal-body,
+.xfr-mask-medium .modal-body{
+
+    height: 100%;
+    padding : 0px;
+    padding-top: 46px;
+    position: relative;
+    top:  -46px;
+}
+
+.xfr-mask-large .modal-body.payment-preview, .xfr-mask-medium .modal-body.payment-preview{
+    height: 84%;
+}
+
+.xfr-mask-large iframe,
+.xfr-mask-medium iframe{
+    width : 100%;
+    height : 100%;
+    border : none;
+}
+
+@media (max-width: 400px) {
+    .xfr-mask .modal-dialog-center {
+        width: 95%;
+    }
+
+    .xfr-mask .modal-dialog-center {
+        top: 30%;
+        left: 2.5%;
+    }    
+    .xfr-mask-large .modal-dialog-center,
+    .xfr-mask-medium .modal-dialog-center { 
+        top: 2.5%;
+        left: 2.5%;
+    }
+
+    .xfr-mask-large .modal-body,
+    .xfr-mask-medium .modal-body{
+        height: 83%;
+        padding : 0px;
+    }    
+} 
+.xfr-inner-msg-icon{
+    font-size: 55px;
+    margin-right: 17px;
+    margin-left: 20px;
+}
+.xfr-inner-msg-icon-green{
+    color: #004927;
+    color: #5B9778;
+}
+.xfr-inner-msg-icon-yellow{
+    color: #FED500;
+    color: #FFAC4A;
+}
+.xfr-inner-msg-icon-blue{
+    /* color: #4B86C8; */
+    color: #5B9778;
+}
+.xfr-inner-msg-icon-red{
+    color: #B80000;
+    color: #E4483F;
+}
+.xfr-inner-msg-btn {
+    width: 65px;
+}
+.xfr-mask .modal-dialog-center .message {
+ font-size: 15px;
+ width: 70%;
+ padding-top: 10px;
+}
+    
+
+
+
+

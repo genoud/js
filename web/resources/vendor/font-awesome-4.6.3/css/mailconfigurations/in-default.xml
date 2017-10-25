@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mailConfiguration id="default" protocol="IMAP" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="mailconfig.xsd">
+    <server address="localhost" encryption="None" folderName="INBOX" port="143" timeout="60"/>
+</mailConfiguration>

@@ -1,0 +1,1714 @@
+ hedaturiko atributuak
+Description-fa.UTF-8: user_xattr - مشخصه‌های توسعه‌یافتهٔ کاربر پشتیبانی شود
+Description-fi.UTF-8: user_xattr - tue lisäominaisuuksia käyttäjille
+Description-fr.UTF-8: user_xattr - gestion des attributs étendus pour les utilisateurs
+Description-ga.UTF-8: user_xattr - tacaigh le haitreabúidí breise úsáideora
+Description-gl.UTF-8: user_xattr; admitir atributos estendidos de usuario
+Description-gu.UTF-8: user_xattr - વપરાશકર્તા વિસ્તરીત ગુણધર્મો આધાર આપે છે
+Description-he.UTF-8: user_xattr - תמיכה במאפיינים מורחבים של המשתמש
+Description-hi.UTF-8: user_xattr - उपयोक्ता के विस्तारित गुण समर्थित करें
+Description-hr.UTF-8: user_xattr - podrška za korisničke dodatne atribute
+Description-hu.UTF-8: user_xattr - felhasználói attribútumok támogatása
+Description-id.UTF-8: user_xattr - dukungan atribut tambahan untuk pengguna
+Description-is.UTF-8: user_xattr - styðja notendastillingar
+Description-it.UTF-8: user_xattr - supporto per attributi utente estesi
+Description-ja.UTF-8: user_xattr - ユーザ拡張属性をサポートする
+Description-ka.UTF-8: user_xattr - დამატებითი სამომხმარებლო ატრიბუტების მხარდაჭერა
+Description-kk.UTF-8: user_xattr - пайдаланушының кеңейтілген атрибуттарын қосу
+Description-km.UTF-8: user_xattr - គាំទ្រ​គុណលក្ខណៈ​បន្ថែម​ទៀត​របស់​អ្នក​ប្រើ
+Description-kn.UTF-8: user_xattr - ಬಳಕೆದಾರನ ಹೆಚ್ಚುವರಿ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಬೆಂಬಲಿಸಿ
+Description-ko.UTF-8: user_xattr - 사용자 확장 속성을 지원합니다
+Description-ku.UTF-8: user_xattr - taybetiyên bikarhêner ên firehkirî destek bike
+Description-lo.UTF-8: user_xattr -   ຮອງຮັບແອດທິບິວສວ່ນຂະຫຍາຍສຳລັບຜູ້ໃຊ້
+Description-lt.UTF-8: user_xattr - išplėstų naudotojo atributų palaikymas
+Description-lv.UTF-8: user_xattr - atbalstīt lietotāju paplašinātos atribūtus
+Description-mk.UTF-8: user_xattr - подршка на додатни кориснички атрибути
+Description-ml.UTF-8: user_xattr - ഉപയോക്തൃ വികസിത ഗുണങ്ങളെ പിന്തുണക്കുക
+Description-mr.UTF-8: user_xattr - वापरदाराच्या वाढीव गुणधर्मांना पाठबळ
+Description-nb.UTF-8: user_xattr - støtt utvidede attributter for brukere
+Description-ne.UTF-8: user_xattr - प्रयोगकर्ता विस्तारित विशेषताहरू समर्थन गर्नुहोस्
+Description-nl.UTF-8: user_xattr - ondersteun uitgebreide gebruikersattributen
+Description-nn.UTF-8: user_xattr - støttar utvida attributtar for brukarar
+Description-no.UTF-8: user_xattr - støtt utvidede attributter for brukere
+Description-pa.UTF-8: user_xattr - ਸਹਿਯੋਗੀ ਯੂਜ਼ਰ ਰਾਹੀਂ ਫੈਲੀ ਵਿਸ਼ੇਸ਼ਤਾ
+Description-pl.UTF-8: user_xattr - obsługa rozszerzonych atrybutów użytkownika
+Description-pt.UTF-8: user_xattr - suportar atributos extendidos de utilizador
+Description-pt_BR.UTF-8: user_xatrr - suporte a atributos estendidos de usuários
+Description-ro.UTF-8: user_xattr - suport pentru atribute extinse utilizator
+Description-ru.UTF-8: user_xattr -- включить расширенные пользовательские атрибуты
+Description-si.UTF-8: user_xattr - පරිශීලක විසින් දිගුකල උපලක්‍ෂණ සඳහා සහාය දක්වයි
+Description-sk.UTF-8: user_xattr - podporovať rozšírené používateľské atribúty
+Description-sl.UTF-8: user_xattr - podpora za nastavljive dodatne atribute
+Description-sq.UTF-8: user_xattr - mbështet vetitë e zgjeruara të përdoruesit
+Description-sr.UTF-8: user_xattr - подржи корисничке проширене атрибуте
+Description-sv.UTF-8: user_xattr - stöder utökade attribut för användare
+Description-ta.UTF-8: user_xattr - பயனரின் அதிகப்படியான மதிப்புரு
+Description-te.UTF-8: user_xattr - వాడుకరి  అదనపు లక్షణాలకు తోడ్పాటు
+Description-tg.UTF-8: user_xattr - дастгирии сифатҳои васеъшудаи корбар
+Description-th.UTF-8: user_xattr - รองรับแอตทริบิวต์ส่วนขยายสำหรับผู้ใช้
+Description-tl.UTF-8: user_xattr - suportahan ang kaukulang dagdag ng gumagamit
+Description-tr.UTF-8: user_xattr - genişletilmiş kullanıcı özelliklerini destekle
+Description-ug.UTF-8: user_xattr - ئىشلەتكۈچى كېڭەيتىلگەن خاسلىقىنى قوللايدۇ
+Description-uk.UTF-8: user_xattr - підтримувати розширені атрибути користувача
+Description-vi.UTF-8: user_xattr — hỗ trợ thuộc tính kéo dài bởi người dùng
+Description-zh_CN.UTF-8: user_xattr - 支持用户扩展属性
+Description-zh_TW.UTF-8: user_xattr - 支援使用者擴充屬性
+
+Name: partman-basicfilesystems/text/usrquota
+Type: text
+Description: usrquota - user disk quota accounting enabled
+Description-am.UTF-8: የተጠቃሚ ድርሻ - የተጠቃሚ ዲስክ ድርሻ መዝገብ ተግባራዊ ሆኗል፡፡
+Description-ar.UTF-8: usrquota - تمكين محاسبة حصص المستخدمين من القرص
+Description-ast.UTF-8: usrquota - cuota de discu de la cuenta del usuariu activada
+Description-be.UTF-8: usrquota - дыскавыя квоты (карыст.)
+Description-bg.UTF-8: usrquota - активиране на квотата за потребители
+Description-bn.UTF-8: usrquota - ব্যবহারকারীভিত্তিক ডিস্ক কোটা হিসাবরক্ষণ প্রক্রিয়া সক্রিয় করা হল
+Description-bo.UTF-8: usrquota - user disk quota accounting enabled
+Description-bs.UTF-8: usrquota -- uključen user disk quota accounting
+Description-ca.UTF-8: usrquota - habilita la quota de disc per a usuaris
+Description-cs.UTF-8: usrquota - povolí používání diskových kvót
+Description-cy.UTF-8: usrquota - mae cyfrifo cwota disg defnyddiwr wedi ei alluogi
+Description-da.UTF-8: usrquota - brugerdiskkvoter aktiveret
+Description-de.UTF-8: usrquota - Benutzer-Quota für Festplattenspeicher aktivieren
+Description-dz.UTF-8: usrquota - ལག་ལེན་པའི་ཌིཀསི་ཐོབ་སྐལ་རྩིས་ཐོ་འབད་ནི་ལྕོགས་ཅན་བཟོ།
+Description-el.UTF-8: usrquota - με υποστήριξη λογιστικής χρησιμοποιούμενου χώρου χρηστών
+Description-eo.UTF-8: usrquota - ebligi kontroladon de disko-kvotoj por uzantoj
+Description-es.UTF-8: usrquota - activar el análisis de cuotas de usuarios
+Description-et.UTF-8: usrquota - kasutajate kettakvootide arvestamine
+Description-eu.UTF-8: usrquota - erabiltzailearen disko kuotaren kontua gaituta dago
+Description-fa.UTF-8: usrquota - حسابرسی سهم دیسک کاربر فعال شود
+Description-fi.UTF-8: usrquota - käyttäjäkohtaiset levykiintiöt käytössä
+Description-fr.UTF-8: usrquota - gestion des quota des utilisateurs
+Description-ga.UTF-8: usrquota - cumasaigh cuntasaíocht cuótaí diosca
+Description-gl.UTF-8: usrquota; activar a contabilidade das cotas de disco dos usuarios
+Description-gu.UTF-8: usrquota - વપરાશકર્તા ડિસ્ક આરક્ષણ ખાતું સક્રિય
+Description-he.UTF-8: usrquota - הפעלת מכסות עבור חשבונות משתמשים
+Description-hi.UTF-8: usrquota - उपयोक्ता के डिस्क कोटा का लेखा समर्थित
+Description-hr.UTF-8: usrquota - omogući računanje korisničkih diskovnih udjela
+Description-hu.UTF-8: usrquota - felhasználók lemezhasználati mértékének naplózása
+Description-id.UTF-8: usrquota - lakukan perhitungan kuota untuk setiap pengguna
+Description-is.UTF-8: usrquota - virkja diskplássúthlutun fyrir notendur
+Description-it.UTF-8: usrquota - abilita l'accounting della quota disco per l'utente
+Description-ja.UTF-8: usrquota - ユーザのディスククオータ計測を有効にする
+Description-ka.UTF-8: usrquota - მომხმარებელთა დისკური ქვოთების მეთვალყურეობა
+Description-kk.UTF-8: usrquota - пайдаланушылардың дискілік квотасын есептеуді қосу
+Description-km.UTF-8: usrquota - អនុញ្ញាត​ឲ្យ​ប្រើ​គណនី​កូតា​ថាស​អ្នក​ប្រើ
+Description-kn.UTF-8: usrquota - ಬಳಕೆದಾರನ ಡಿಸ್ಕಿನ ಭಾಗಾಂಶದ ಲೆಕ್ಕಾಚಾರ ಖಾತೆಯನ್ನಿಡಲಾಗಿದೆ
+Description-ko.UTF-8: usrquota - 사용자 디스크 쿼타 기능을 사용합니다
+Description-ku.UTF-8: usrquota - hesabê kota ya dîs a bikarhêner çalak bike
+Description-lo.UTF-8: usrquota -  ເປີດໃຊ້ການກຳນົດໂຄຕ້າສຳລັບບັນຊີຜູ້ໃຊ້
+Description-lt.UTF-8: usrquota - leisti naudotojų disko kvotų apskaitą
+Description-lv.UTF-8: usrquota - ierobežot lietotāja izmantoto diska apjomu
+Description-mk.UTF-8: usrquota - квоти за искористеност на диск по корисник вклучени
+Description-ml.UTF-8: usrquota - ഉപയോക്തൃ ഡിസ്ക് ആനുപാതിക പങ്ക് കണക്ക് വെയ്പ് ഇനേബിള്‍ ചെയ്യുക
+Description-mr.UTF-8: usrquota - वापरदाराच्या डिस्कच्या हिश्श्याचा हिशोब कार्यसक्षम
+Description-nb.UTF-8: usrquota - slå på diskkvoter for brukere
+Description-ne.UTF-8: usrquota - प्रयोगकर्ता डिस्क क्यूटा लेखा सक्षम गारीएको छ
+Description-nl.UTF-8: usrquota -- gebruikerquota zijn ingeschakeld
+Description-nn.UTF-8: usrquota - slår på diskkvote for brukarar.
+Description-no.UTF-8: usrquota - slå på diskkvoter for brukere
+Description-pa.UTF-8: usrquota - ਯੂਜ਼ਰ ਡਿਸਕ ਕੋਟਾ ਅਕਾਊਂਟਿੰਗ ਯੋਗ ਹੈ
+Description-pl.UTF-8: usrquota - aktywacja quoty dyskowej dla użytkowników
+Description-pt.UTF-8: usrquota - quota de disco por utilizador activada
+Description-pt_BR.UTF-8: usrquota - quotas de disco para usuários habilitadas
+Description-ro.UTF-8: usrquota - activează cota de disc per utilizator
+Description-ru.UTF-8: usrquota -- разрешить учёт дисковых квот пользователей
+Description-si.UTF-8: usrquota - පරිශීලක සඳහා තැටි ප්‍රමාණය ගණනය කිරීම සක්‍රීයයි
+Description-sk.UTF-8: usrquota - aktivovať diskové kvóty používateľov
+Description-sl.UTF-8: usrquota - omogoči določanje kvot diskov za uporabnike
+Description-sq.UTF-8: usrquota - llogaria e kuotave të përdoruesve është e aktivizuar
+Description-sr.UTF-8: usrquota - укључи рачунање корисничких квота
+Description-sv.UTF-8: usrquota - aktivera diskkvot per användare
+Description-ta.UTF-8: usrquota - பயனருக்கு வன் தட்டு இட ஒதுக்கீடு செயற்படுத்தப் பட்டது
+Description-te.UTF-8: usrquota - వాడుకరి డిస్క్ కోటా  లెక్కించుట చేతనము
+Description-tg.UTF-8: usrquota - ҳисобдории квотаҳои дискҳои корбарон фаъол аст
+Description-th.UTF-8: usrquota - เปิดใช้การกำหนดโควตาสำหรับบัญชีผู้ใช้
+Description-tl.UTF-8: usrquota - user disk quota accounting enabled
+Description-tr.UTF-8: usrquota - kullanıcı disk kota hesabını etkinleştir
+Description-ug.UTF-8: usrquota - ئىشلەتكۈچى دىسكا نورمىسى ئىقتىدارىنى قوزغىتىدۇ
+Description-uk.UTF-8: usrquota - дозволити дискові квоти для користувачів
+Description-vi.UTF-8: usrquota — kế toán chỉ tiêu đĩa người dùng đã bật
+Description-zh_CN.UTF-8: usrquota - 开启用户磁盘限额功能
+Description-zh_TW.UTF-8: usrquota - 啟用 使用者 的磁碟配額
+
+Name: partman-basicfilesystems/text/yes
+Type: text
+Description: yes
+Description-am.UTF-8: አዎ
+Description-ar.UTF-8: نعم
+Description-ast.UTF-8: sí
+Description-be.UTF-8: так
+Description-bg.UTF-8: да
+Description-bn.UTF-8: হ্যাঁ
+Description-bo.UTF-8: ཡིན
+Description-bs.UTF-8: da
+Description-ca.UTF-8: sí
+Description-cs.UTF-8: ano
+Description-cy.UTF-8: ie
+Description-da.UTF-8: ja
+Description-de.UTF-8: Ja
+Description-dz.UTF-8: ཨིན།
+Description-el.UTF-8: ναι
+Description-eo.UTF-8: jes
+Description-es.UTF-8: sí
+Description-et.UTF-8: jah
+Description-eu.UTF-8: bai
+Description-fa.UTF-8: بله
+Description-fi.UTF-8: kyllä
+Description-fr.UTF-8: oui
+Description-ga.UTF-8: tá
+Description-gl.UTF-8: si
+Description-gu.UTF-8: હા
+Description-he.UTF-8: כן
+Description-hi.UTF-8: हाँ
+Description-hr.UTF-8: da
+Description-hu.UTF-8: igen
+Description-id.UTF-8: ya
+Description-is.UTF-8: já
+Description-it.UTF-8: sì
+Description-ja.UTF-8: はい
+Description-ka.UTF-8: დიახ
+Description-kk.UTF-8: иә
+Description-km.UTF-8: បាទ/ចាស
+Description-kn.UTF-8: ಹೌದು
+Description-ko.UTF-8: 예
+Description-ku.UTF-8: erê
+Description-lo.UTF-8: ແມ່ນ
+Description-lt.UTF-8: taip
+Description-lv.UTF-8: jā
+Description-mk.UTF-8: да
+Description-ml.UTF-8: ശരി
+Description-mr.UTF-8: होय
+Description-nb.UTF-8: ja
+Description-ne.UTF-8: हो
+Description-nl.UTF-8: ja
+Description-nn.UTF-8: ja
+Description-no.UTF-8: ja
+Description-pa.UTF-8: ਹਾਂ
+Description-pl.UTF-8: tak
+Description-pt.UTF-8: sim
+Description-pt_BR.UTF-8: sim
+Description-ro.UTF-8: da
+Description-ru.UTF-8: да
+Description-se.UTF-8: juo
+Description-si.UTF-8: ඔව්
+Description-sk.UTF-8: áno
+Description-sl.UTF-8: da
+Description-sq.UTF-8: po
+Description-sr.UTF-8: да
+Description-sv.UTF-8: ja
+Description-ta.UTF-8: ஆம்
+Description-te.UTF-8: అవును
+Description-tg.UTF-8: ҳа
+Description-th.UTF-8: ใช่
+Description-tl.UTF-8: oo
+Description-tr.UTF-8: evet
+Description-ug.UTF-8: ھەئە
+Description-uk.UTF-8: так
+Description-vi.UTF-8: có
+Description-zh_CN.UTF-8: 是
+Description-zh_TW.UTF-8: 是
+
+Name: partman-basicmethods/method_only
+Type: boolean
+Description: Go back to the menu?
+Extended_description: No file system is specified for partition #${PARTITION} of ${DEVICE}.\n\nIf you do not go back to the partitioning menu and assign a file system to this partition, it won't be used at all.
+Description-am.UTF-8: ወደ ምናሌው ወደኋላ ልሂድ?
+Extended_description-am.UTF-8: ${DEVICE} ክፋይ  #${PARTITION} ምንም የፋይል ስርዓት አልተመረጠለትም።\n\nወደ መክፈያ ምናሌው ተመልሰው የፋይል ስርዓት ካልሰጡት በጥቅም ላይ አይውልም።
+Description-ar.UTF-8: العودة إلى القائمة؟
+Extended_description-ar.UTF-8: لم يحدّد أي نظام ملفّات للجزء #${PARTITION} من ${DEVICE}.\n\nإذا لم تعد إلى قائمة التجزئة و تقم بتعيين نظام ملفّات لهذا الجزء فلن يستعمل على الإطلاق.
+Description-ast.UTF-8: ¿Volver al menú?
+Extended_description-ast.UTF-8: Nun hai sistema de ficheros especificáu pa la partición #${PARTITION} de ${DEVICE}.\n\nSi nun vuelves al menú de particionáu y asignes un sistema de ficheros a esta partición, nun podrá usase toa.
+Description-be.UTF-8: Ці вярнуцца ў меню?
+Extended_description-be.UTF-8: Не вызначана файлавая сістэма для #${PARTITION} на ${DEVICE}.\n\nКалі Вы не вернецеся ў меню перадзелу, каб прызначыць гэтаму падзелу файлавую сістэму, ён увогуле не будзе скарыстаны.
+Description-bg.UTF-8: Връщане в менюто?
+Extended_description-bg.UTF-8: Няма зададена файлова система за дял №${PARTITION} на ${DEVICE}.\n\nАко не се върнете в менюто за разделяне и не зададете файлова система за този дял, той въобще няма да бъде използван.
+Description-bn.UTF-8: মেনুতে ফিরে যাবেন?
+Extended_description-bn.UTF-8: ${DEVICE}এর #${PARTITION} নং পার্টিশনের জন্য কোনও ফাইল সিস্টেম উল্লেখ করা হয় নি।\n\nআপনি যদি পার্টিশনকারী মেনুতে ফিরে না গিয়েই এই পার্টিশনটির জন্য একটি ফাইল সিস্টেম নির্ধারণ করেন, তবে তা কাজ করবে না।
+Description-bo.UTF-8: འདེམས་ཐོའི་ཐོག་ཏུ་ཕྱིར་ལོག་དགོས་སམ
+Extended_description-bo.UTF-8: སྒྲིག་ཆས་ ${DEVICE} གི་གསོག་སྡེར་ཁག་ ${PARTITION} ལ་ཡིག་ཆའི་མ་ལག་དམིགས་འཛུགས་བྱས་མེད་པ\n\nགལ་སྲིད་གསོག་སྡེར་ཁག་གི་འདེམས་ཐོའི་ཐོག་ཕྱིར་མ་ལོག་ན་ཡིག་ཆའི་མ་ལག་ཞིག་གསོག་སྡེར་འདི་ལ་གཏན་འབེབས་བྱེད་དགོས་པ།
+Description-bs.UTF-8: Vrati se na meni?
+Extended_description-bs.UTF-8: Nije naveden datotečni sistem za particiju #${PARTITION} na ${DEVICE}.\n\nAko se na vratite na meni za particionisanje i ne dodijelite datotečni sistem ovoj particiji, ona se uopće neće koristiti.
+Description-ca.UTF-8: Voleu tornar al menú?
+Extended_description-ca.UTF-8: No s'ha especificat cap sistema de fitxers per a la partició no. ${PARTITION} de ${DEVICE}.\n\nSi no aneu enrere al menú de partició i assigneu un sistema de fitxers a aquesta partició, no s'utilitzarà en absolut.
+Description-cs.UTF-8: Vrátit se zpět do menu?
+Extended_description-cs.UTF-8: Oblast č.${PARTITION} na ${DEVICE} nemá přiřazen souborový systém.\n\nPokud se nevrátíte zpět do rozdělovacího menu a nepřiřadíte jí souborový systém, tato oblast se vůbec nepoužije.
+Description-cy.UTF-8: Dychwelyd i'r ddewislen?
+Extended_description-cy.UTF-8: Does dim system ffeil wedi ei benodi ar gyfer rhaniad ${PARTITION} ar ${DEVICE}.\n\nOs na ddychwelwch i'r ddewislen rhaniadu a phenodi system ffeiliau i'r rhaniad hwn, ni chaiff ei ddefnyddio o gwbl.
+Description-da.UTF-8: Gå tilbage til menuen?
+Extended_description-da.UTF-8: Der er ikke angivet noget filsystem for partition ${PARTITION} på ${DEVICE}.\n\nHvis du ikke går tilbage til partitioneringsmenuen og angiver et filsystem til denne partition, vil den slet ikke blive benyttet.
+Description-de.UTF-8: Zurück zum Menü?
+Extended_description-de.UTF-8: Es wurde kein Dateisystem für Partition ${PARTITION} auf ${DEVICE} angegeben.\n\nWenn Sie nicht zum Partitionierungsmenü zurückkehren und dieser Partition ein Dateisystem zuweisen, kann sie nicht genutzt werden.
+Description-dz.UTF-8: དཀར་ཆག་ལུ་ལོག་འགྱོ?
+Extended_description-dz.UTF-8: ${DEVICE}གི་བར་བཅད་#${PARTITION}གི་དོན་ལུ་ཡིག་སྣོད་རིམ་ལུགས་གསལ་བཀོད་མ་འབད་བས།\n\nཁྱོད་ཀྱིས་འབར་བཅད་འབད་མིའི་དཀར་ཆག་ལོག་མ་འགྱོཝ་དང་འ་ནི་བར་བཅད་ལུ་ཡིག་སྣོད་རིམ་ལུགས་འགན་སྤྲོད་འབད་བ་ཅིན་ འདི་ཙ་ལས་རང་ལག་ལེན་མི་འཐབ།
+Description-el.UTF-8: Θέλετε να επιστρέψετε στο μενού;
+Extended_description-el.UTF-8: Δεν έχει οριστεί κάποιο σύστημα αρχείων για την κατάτμηση #${PARTITION} της συσκευής ${DEVICE}.\n\nΑν δεν επιστρέψετε στο μενού διαμέρισης και δεν ορίσετε ένα σύστημα αρχείων για αυτή την κατάτμηση, αυτή δεν θα χρησιμοποιηθεί καθόλου.
+Description-eo.UTF-8: Ĉu retroiri al la menuo?
+Extended_description-eo.UTF-8: Neniu dosiersistemo estas indikita por la diskparto #${PARTITION} de ${DEVICE}.\n\nSe vi ne retroiras al la diskpartiga menuo por atribui dosiersistemon al tiu ĉi diskparto, ĝi tute ne estos uzata.
+Description-es.UTF-8: ¿Volver al menú?
+Extended_description-es.UTF-8: No se especificó un sistema de ficheros para la partición #${PARTITION} de ${DEVICE}.\n\nSi no vuelve al menú de particionado y asigna un sistema de ficheros a la partición ésta no será utilizada.
+Description-et.UTF-8: Kas minna tagasi menüüsse?
+Extended_description-et.UTF-8: Seadme ${DEVICE} partitsioonile #${PARTITION} ei ole määratud failisüsteemi.\n\nKui sa ei naase partitsioneerimismenüüsse ja ei määra sellele partitsioonile failisüsteemi, jäetakse see üldse kasutamata.
+Description-eu.UTF-8: Menura itzuli?
+Extended_description-eu.UTF-8: Ez da fitxategi-sistemarik zehaztu ${DEVICE} gailuko ${PARTITION}. partiziorako.\n\nPartizioak egiteko menura itzultzen ez bazara eta partizio horri fitxategi-sistema bat esleitzen ez badiozu, partizioa ez da erabiliko.
+Description-fa.UTF-8: بازگشت عقب به ...؟
+Extended_description-fa.UTF-8: هیچ فایل‌سیستمی برای پارتیشن #${PARTITION} از ${DEVICE} مشخص نشده است.\n\nاگر شما به منوی پارتیشن‌بندی بازنگردید و  فایل‌سیستم به این پارتیشن اختصاص ندهید، هرگز استفاده نخواهد شد.
+Description-fi.UTF-8: Palataanko valikkoon?
+Extended_description-fi.UTF-8: Laitteen ${DEVICE} osiolle ${PARTITION} ei ole määritelty tiedostojärjestelmää.\n\nJos et palaa osiointivalikkoon ja määritä tälle osiolle tiedostojärjestelmää, osiota ei käytetä lainkaan.
+Description-fr.UTF-8: Faut-il revenir au menu ?
+Extended_description-fr.UTF-8: Aucun système de fichiers n'a été indiqué pour la partition n° ${PARTITION} de ${DEVICE}.\n\nSi vous ne revenez pas au menu de partitionnement pour associer un système de fichiers à cette partition, elle ne sera pas du tout utilisée.
+Description-ga.UTF-8: Ar ais go dtí an roghchlár?
+Extended_description-ga.UTF-8: Níor sonraíodh córas comhad do dheighilt #${PARTITION} de ghléas ${DEVICE}.\n\nMura dtéann tú ar ais go dtí an roghchlár deighilte chun córas comhad a thabhairt don deighilt seo, ní úsáidfear é ar chor ar bith.
+Description-gl.UTF-8: Desexa volver ao menú?
+Extended_description-gl.UTF-8: Non se especificou ningún sistema de ficheiros para a partición núm. ${PARTITION} de ${DEVICE}.\n\nSe non volta ao menú de particionamento e asigna un sistema de ficheiros a esta partición, non se ha empregar.
+Description-gu.UTF-8: મેનુમાં પાછા જશો?
+Extended_description-gu.UTF-8: ${DEVICE} નાં પાર્ટિશન #${PARTITION} પર કોઇ ફાઇલ સિસ્ટમ સ્પષ્ટ કરેલ નથી.\n\nજો તમે પાર્ટિશન મેનુમાં પાછા જઇ અને આ પાર્ટિશનને ફાઇલ સિસ્ટમ આપશો નહી તો, તે કોઇપણ રીતે ઉપયોગમાં આવશે નહીં.
+Description-he.UTF-8: האם לחזור לתפריט?
+Extended_description-he.UTF-8: לא הוגדרה מערכת קבצים עבור מחיצה מס' ${PARTITION} בהתקן ${DEVICE}.\n\nאם לא תחזור לתפריט הגדרת המחיצות ותגדיר מערכת קבצים למחיצה זו, המחיצה לא תהיה בשימוש.
+Description-hi.UTF-8: मेन्यू में वापस जाएँ ?
+Extended_description-hi.UTF-8: ${DEVICE} के #${PARTITION} के लिए कोई फ़ाइल सिस्टम नहीं चुना गया है।\n\nयदि आप विभाजन मेन्यू में पीछे जाकर इस पार्टिशन को कोई फाइल सिस्टम नहीं प्रदान करते हैं तो यह पार्टिशन प्रयोग नहीं किया जाएगा.
+Description-hr.UTF-8: Vrati se natrag u izbornik?
+Extended_description-hr.UTF-8: Nije određen datotečni sustav za particiju #${PARTITION} uređaja ${DEVICE}.\n\nAko se ne vratite u izbornik particioniranja i ne odredite datotečni sustav toj particiji, ona se uopće neće koristiti.
+Description-hu.UTF-8: Vissza a menübe?
+Extended_description-hu.UTF-8: Nincs megadott fájlrendszer ${DEVICE} ${PARTITION}. partícióján.\n\nA partíciós menübe való visszalépés és ott fájlrendszer társítása nélkül e partícióhoz használatlan marad.
+Description-id.UTF-8: Kembali ke menu?
+Extended_description-id.UTF-8: Belum ditentukan sistem berkas untuk partisi #${PARTITION} dari ${DEVICE}.\n\nJika Anda tidak kembali ke menu partisi dan menentukan sebuah sistem berkas untuk partisi ini, maka partisi tidak akan digunakan sama sekali.
+Description-is.UTF-8: Fara aftur í valmynd?
+Extended_description-is.UTF-8: Ekkert skráakerfi er skilgreint fyrir sneið #${PARTITION} á ${DEVICE}.\n\nEf þú ferð ekki aftur í disksneiðavalmyndina og úthlutar skráakerfi á þessa sneið, mun hún disksneið ekki verða notuð.
+Description-it.UTF-8: Tornare al menù?
+Extended_description-it.UTF-8: Nessun file system specificato per la partizione n° ${PARTITION} di ${DEVICE}.\n\nÈ necessario tornare al menù di partizionamento e assegnare un file system a questa partizione, altrimenti non verrà utilizzata.
+Description-ja.UTF-8: メニューに戻りますか?
+Extended_description-ja.UTF-8: ${DEVICE} にあるパーティション ${PARTITION} にファイルシステムが指定されていません。\n\nパーティショニングメニューに戻ってこのパーティションにファイルシステムを割り当てないと、結局利用できません。
+Description-ka.UTF-8: დავბრუნდეთ წინა მენიუში?
+Extended_description-ka.UTF-8: არ არის მითითებული ფაილური სისტემა #${PARTITION}-დანაყოფზე, მოწყობილობა ${DEVICE}.\n\nთუკი უკან არ დაბრუნდებით დაყოფის მენუში და ამ დანაყოფისთვის არ მიუთითებთ ფაილურ სისტემას, მას ვერ გამოიყენებთ.
+Description-kk.UTF-8: Мәзірге оралуды қалайсыз ба?
+Extended_description-kk.UTF-8: ${DEVICE} құрылғысының #${PARTITION} бөлімінде ешбір файлдық жүйе көрсетілмеген.\n\nЕгер сіз бөлу мәзіріне оралып, файлдық жүйенің түрін көрсетпесеңіз, бөлім қолданылмайтын болады.
+Description-km.UTF-8: ត្រឡប់​ទៅ​ម៉ឺនុយ​វិញ ?
+Extended_description-km.UTF-8: មិន​បាន​បញ្ជាក់​ប្រព័ន្ធ​ឯកសារ​សម្រាប់​ភាគថាស #${PARTITION} របស់ ${DEVICE} ឡើយ ។\n\nបើ​អ្នកមិន​ត្រឡប់​ទៅ​ម៉ឺនុយ​ចែក​ភាគ​ថាស​វិញ ហើយ​ផ្ដល់​ប្រព័ន្ធឯកសារ​មួយ​ទៅ​ភាគ​ថាស​នេះ​ វា​នឹង​មិន​ត្រូវ​បាន​ប្រើ​ឡើយ ។
+Description-kn.UTF-8: ಮೆನುವಿಗೆ ಹಿಂತಿರುಗುವುದೇ?
+Extended_description-kn.UTF-8: ${DEVICE}ನ #${PARTITION} ವಿಭಜನೆಗೆ ಯಾವುದೇ ಕಡತ ವ್ಯವಸ್ಥೆಯನ್ನು ಹೆಸರಿಸಲಾಗಿಲ್ಲ.\n\nನೀವೀಗ ವಿಭಜನಾ ಆಯ್ಕೆಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಿ ಈ ವಿಭಜನೆಗೆ ಕಡತ ವ್ಯವಸ್ಥೆಯೊಂದನ್ನು ನೇಮಿಸದಿದ್ದರೆ, ಇದು ಹಾಗೆಯೇ ಬಳಸದೇ ಉಳಿದು ಬಿಡುತ್ತದೆ.
+Description-ko.UTF-8: 메뉴로 돌아가시겠습니까?
+Extended_description-ko.UTF-8: ${DEVICE} 장치의 #${PARTITION} 파티션에 파일 시스템을 지정하지 않았습니다.\n\n파티션 메뉴로 돌아가서 이 파티션의 파일 시스템을 지정하지 않으면, 이 파티션 전체를 사용할 수 없습니다.
+Description-ku.UTF-8: Bizivire menuyê?
+Extended_description-ku.UTF-8: Ji bo partîsiyona ·#${PARTITION}·a·${DEVICE} pergala pelan nehat diyar kirin.\n\nHeke tu venegerî pêşekê û pergaleke pelan diyar neke wê ev beş neyê bikaranîn.
+Description-lo.UTF-8: ກັບຄືນໄປລາຍການຫຼັກຫຼືບໍ່?
+Extended_description-lo.UTF-8: ບໍ່ໄດ້ລະບຸລະບົບແຟ້ມສຳລັບພາທິຊັນ #${PARTITION} ຂອງ ${DEVICE}\n\nຖ້າເຈົ້າບໍ່ກັບໄປທີ່ລາຍການໆແບ່ງພາທິຊັນເພື່ອກຳນົດລະບົບແຟ້ມໃຫ້ກັບພາທິຊັນນີ້ກໍຈະບໍ່ໄຊ້ພາທິຊັນນີ້ເລີຍ.
+Description-lt.UTF-8: Ar grįžti atgal į meniu?
+Extended_description-lt.UTF-8: Nenurodyta failų sistema disko skaidiniui Nr. ${PARTITION} įrenginyje ${DEVICE}.\n\nJei negrįšite atgal į disko dalijimo meniu ir nenurodysite failų sistemos šiam skaidiniui, jis nebus naudojamas iš viso.
+Description-lv.UTF-8: Atgriezties pie izvēlnes?
+Extended_description-lv.UTF-8: ${DEVICE} nodalījumam #${PARTITION} nav norādīta datņu sistēma.\n\nJa jūs neatgriezīsities pie disku dalīšanas izvēlnes un nenorādīsiet šim nodalījumam datņu sistēmu, tas netiks izmantots vispār.
+Description-mk.UTF-8: Врати се во менито?
+Extended_description-mk.UTF-8: Не е одреден датотечен систем за партицијата бр. ${PARTITION} од ${DEVICE}.\n\nАко не се вратиш назад во менито за партиционирање и одредиш датотечен систем за оваа партиција, нема воопшто да се користи.
+Description-ml.UTF-8: മെനുവിലേയ്ക്കു് തിരിച്ചു് പോകണോ?
+Extended_description-ml.UTF-8: ${DEVICE} ലെ #${PARTITION} ന് ഫയല്‍ സിസ്റ്റമൊന്നും വ്യക്തമാക്കിയിട്ടില്ല.\n\nനിങ്ങള്‍ മെനുവിലേയ്ക്കു് തിരിച്ചു് പോയി ഈ ഭാഗത്തിന് ഫയല്‍ സിസ്റ്റമൊന്നും കൊടുത്തില്ലെങ്കില്‍ അതു് ഉപയോഗിയ്ക്കുകയേ ഇല്ല.
+Description-mr.UTF-8: मेन्यूकडे परत जायचे?
+Extended_description-mr.UTF-8: ${DEVICE} उपकरणाच्या ${PARTITION} विभाजनाकरिता कोणतीही संचिका प्रणाली निर्धारित केलेली नाही.\n\nजर आपण विभाजनीकरण मेन्यूकडे परत जाऊन या विभाजनाकरिता संचिका प्रणाली न ठरवल्यास, हे विभाजन अजिबात वापरले जाणार नाही.
+Description-nb.UTF-8: Vil du gå tilbake til menyen?
+Extended_description-nb.UTF-8: Intet filsystem er oppgitt for partisjon nr. ${PARTITION} på ${DEVICE}.\n\nHvis du ikke går tilbake til partisjoneringsmenyen for å lage et filsystem på denne partisjonen, vil den ikke bli brukt i det hele tatt.
+Description-ne.UTF-8: मेनुमा फर्कनुहुन्छ ?
+Extended_description-ne.UTF-8: ${DEVICE} को विभाजन #${PARTITION} का लागि कुनै फाइल निर्दिष्ट गरिएको छैन ।\n\nयदि तपाईँ विभाजन मेनुमा फर्केर जानुहुन्न भने र यो विभाजनमा फाइल प्रणाली मानङ्कन गर्नुहोस्, यो सबैमा प्रयोग हुदैन ।
+Description-nl.UTF-8: Terug gaan naar het menu?
+Extended_description-nl.UTF-8: Er is geen bestandssysteem opgegeven voor partitie #${PARTITION} op ${DEVICE}.\n\nTenzij u teruggaat naar het schijfindelingsmenu, om een bestandssysteem aan deze partitie toe te wijzen, zal deze partitie niet gebruikt worden.
+Description-nn.UTF-8: Gå tilbake til menyen?
+Extended_description-nn.UTF-8: Ingen filsystem er oppgjeve for partisjon #${PARTITION} på ${DEVICE}.\n\nViss du ikkje går tilbake til partisjoneringsmenyen for å lage eit filsystem på denne partisjonen, vil han ikkje bli brukt i det heile.
+Description-no.UTF-8: Vil du gå tilbake til menyen?
+Extended_description-no.UTF-8: Intet filsystem er oppgitt for partisjon nr. ${PARTITION} på ${DEVICE}.\n\nHvis du ikke går tilbake til partisjoneringsmenyen for å lage et filsystem på denne partisjonen, vil den ikke bli brukt i det hele tatt.
+Description-pa.UTF-8: ਮੇਨੂ ਉੱਤੇ ਪਿੱਛੇ ਜਾਣਾ?
+Extended_description-pa.UTF-8: ${DEVICE} ਦੇ #${PARTITION} ਪਾਰਟੀਸ਼ਨ ਲਈ ਕੋਈ ਫਾਇਲ ਸਿਸਟਮ ਨਹੀਂ ਦਿੱਤਾ।\n\nਜੇ ਤੁਸੀਂ ਪਿੱਛੇ ਪਾਰਟੀਸ਼ਨਿੰਗ ਮੇਨੂ ਉੱਤੇ ਨਾ ਗਏ ਅਤੇ ਇਸ ਪਾਰਟੀਸ਼ਨ ਨੂੰ ਫਾਇਲ ਸਿਸਟਮ ਨਹੀਂ ਦਿੱਤਾ, ਇਸ ਬਾਅਦ ਵਿੱਚ ਵਰਤਿਆ ਨਹੀਂ ਜਾਵੇਗਾ।
+Description-pl.UTF-8: Powrócić do menu?
+Extended_description-pl.UTF-8: Nie określono systemu plików dla partycji #${PARTITION} urządzenia ${DEVICE}.\n\nJeśli nie wrócisz do menu partycjonowania i nie przydzielisz systemu plików tej partycji, ona nie zostanie w ogóle użyta.
+Description-pt.UTF-8: Voltar ao menu?
+Extended_description-pt.UTF-8: Não foi especificado nenhum sistema de ficheiros para a partição #${PARTITION} de ${DEVICE}.\n\nSe não voltar ao menu de particionamento para atribuir um sistema de ficheiros a esta partição, esta partição não será utilizada.
+Description-pt_BR.UTF-8: Voltar ao menu?
+Extended_description-pt_BR.UTF-8: Nenhum sistema de arquivos foi especificado para a partição #${PARTITION} de ${DEVICE}.\n\nCaso você não volte ao menu de particionamento e atribua um sistema de arquivos a esta partição, a mesma não será usada.
+Description-ro.UTF-8: Înapoi la meniu?
+Extended_description-ro.UTF-8: Pentru partiția nr.${PARTITION} a ${DEVICE} nu este specificat nici un sistem de fișiere.\n\nDacă nu vă întoarceți la meniul de partiționare să asociați un sistem de fișiere acestei partiții, ea nu va fi folosită deloc.
+Description-ru.UTF-8: Вернуться назад в меню?
+Extended_description-ru.UTF-8: Не указано файловой системы для раздела #${PARTITION} на устройстве ${DEVICE}.\n\nЕсли вы не вернётесь назад к меню разметки и не укажете тип файловой системы для этого раздела, он вообще не будет использоваться.
+Description-si.UTF-8: මෙනුවට ආපසු යන්නද?
+Extended_description-si.UTF-8: ${DEVICE} හී #${PARTITION} කොටස සඳහා කිසිඳු ගොනු පද්ධතියක් නිවේශනය කර නොමැත.\n\nඔබ විසින් කොටස්කිරීමේ මෙනුවට ආපසු ගොස් මෙම කොටසට ගොනු පද්ධතියක් නොසැකසුව හොත් එය කිසිවිට භාවිත නොවනු ඇත.
+Description-sk.UTF-8: Vrátiť sa späť do menu?
+Extended_description-sk.UTF-8: Pre oblasť č.${PARTITION} na ${DEVICE} nie je určený súborový systém.\n\nAk sa nevrátite späť do menu rozdeľovania a nepriradíte tejto oblasti súborový systém, táto oblasť sa vôbec nepoužije.
+Description-sl.UTF-8: Želite nazaj v meni?
+Extended_description-sl.UTF-8: Za razdelek #${PARTITION} v ${DEVICE} ni določen noben datotečni sistem.\n\nČe se ne boste vrnili na meni za razdeljevanje in dodelili datotečnega sistema temu razdelku, le ta ne bo uporabljen.
+Description-sq.UTF-8: Të kthehem mbrapa në menu?
+Extended_description-sq.UTF-8: Asnjë filesistem nuk është përcaktuar për ndarjen Nr. ${PARTITION} të ${DEVICE}.\n\nNëse nuk kthehesh mbrapa tek menuja e ndarjes për t'i caktuar një filesistem kësaj ndarjeje, kjo e fundit nuk do përdoret fare.
+Description-sr.UTF-8: Вратити се назад на мени?
+Extended_description-sr.UTF-8: Ни један фајл систем није назначен за партицију бр. ${PARTITION} на ${DEVICE}.\n\nАко се не вратите назад на мени за партиционисање и не доделите фајлсистем овој партицији, она неће уопште бити употребљена.
+Description-sv.UTF-8: Återgå till menyn?
+Extended_description-sv.UTF-8: Inget filsystem är specificerat för partition nr. ${PARTITION} på  ${DEVICE}.\n\nOm du inte går tillbaka till partitioneringsmenyn och tilldelar ett filsystem till den här partitionen så kommer den inte att användas alls.
+Description-ta.UTF-8: பட்டிக்கு பின் செல்லலாமா?
+Extended_description-ta.UTF-8: ${DEVICE} இன் பகிர்வு #${PARTITION} க்கு ஒரு கோப்பு அமைப்பும் குறிக்கப் பட இல்லை.\n\nபகிர்வு பட்டிக்குப் பின்சென்று ஒரு கோப்பு அமைப்பும் இந்த பகிர்வுக்கு குறிக்கவில்லையானால் .இந்த பகிர்வு பயன் படுத்தப் படமாட்டாது.
+Description-te.UTF-8: వెనక్కి జాబితాకి వెళ్ళు ?
+Extended_description-te.UTF-8: ${DEVICE} యెక్క #${PARTITION} విభజన కి ఫైల్ సిస్టమ్  ఇవ్వబడలేదు.\n\nమీరు వెనక్కి  విభజన మెనూ కి వెళ్లి  ఫైల్ సిస్టమ్ ఇవ్వకపోతే, అది అసలు ఉపయోగించబడదు .
+Description-tg.UTF-8: Ба меню бармегардонед?
+Extended_description-tg.UTF-8: Ягон системаи файлӣ барои қисмбандии #${PARTITION} дар ${DEVICE} муайян нашудааст.\n\nАгар шумо ба менюи қисмбандӣ барнагардед ва системаи файлӣ ба ин қисми диск таъин накунед, онро тамоман истифода бурда наметавонед.
+Description-th.UTF-8: กลับไปยังเมนูหลักหรือไม่?
+Extended_description-th.UTF-8: ไม่ได้ระบุระบบแฟ้มสำหรับพาร์ทิชัน #${PARTITION} ของ ${DEVICE}\n\nถ้าคุณไม่กลับไปที่เมนูการแบ่งพาร์ทิชัน เพื่อกำหนดระบบแฟ้มให้กับพาร์ทิชันนี้ ก็จะไม่ใช้พาร์ทิชันนี้เลย
+Description-tl.UTF-8: Bumalik sa menu?
+Extended_description-tl.UTF-8: Walang file system na nakalaan para sa partisyon #${PARTITION} ng ${DEVICE}.\n\nKung hindi kayo bumalik sa menu ng pag-partisyon at magtakda ng file system sa partisyon na ito, hindi ito gagamitin.
+Description-tr.UTF-8: Menüye geri dönülsün mü?
+Extended_description-tr.UTF-8: ${DEVICE} aygıtının ${PARTITION} numaralı bölümü için herhangi bir dosya sistemi belirtilmedi.\n\nBölümleme menüsüne geri dönerek bir dosya sistemi belirlemezseniz bölüm kullanılmayacaktır.
+Description-ug.UTF-8: تىزىملىككە قايتامدۇ؟
+Extended_description-ug.UTF-8: سىز ${DEVICE} ئۈسكۈنىنىڭ#${PARTITION} رايونىغا ھۆججەت سىستېمىسى بەلگىلىمىدىڭىز.\n\nئەگەر رايونغا بۆلۈش تىزىملىكىگە قايتماي بۇ رايونغا ھۆججەت سىستېمىسى تەڭشىمىسىڭىز بۇ رايوننى ئىشلەتكىلى بولمايدۇ.
+Description-uk.UTF-8: Повернутися до меню?
+Extended_description-uk.UTF-8: Не вказано файлову систему для розділу #${PARTITION} пристрою ${DEVICE}.\n\nЯкщо ви не повернетесь до меню розбивки та не призначите файлову систему для цього розділу, то він не буде використовуватися взагалі.
+Description-vi.UTF-8: Trở về trình đơn chứ?
+Extended_description-vi.UTF-8: Chưa ghi rõ hệ thống tập tin cho phân vùng #${PARTITION} của ${DEVICE}.\n\nNếu bạn không trở về trình đơn phân vùng và gán một hệ thống tập tin cho phân vùng này, nó sẽ không được dùng cả.
+Description-zh_CN.UTF-8: 返回菜单吗？
+Extended_description-zh_CN.UTF-8: 您没有为 ${DEVICE} 设备的第 ${PARTITION} 分区指定文件系统。\n\n如果您不返回分区菜单为此分区设置一个文件系统，此分区将不会被使用。
+Description-zh_TW.UTF-8: 是否返回選單？
+Extended_description-zh_TW.UTF-8: 尚未替 ${DEVICE} 裝置的第 ${PARTITION} 分割區指定檔案系統。\n\n如果您不返回磁碟分割選單並為該分割區指派一個檔案系統，將不能使用此分割區。
+
+Name: partman-basicmethods/text/dont_use
+Type: text
+Description: do not use the partition
+Description-am.UTF-8: ክፋዩን አትጠቀም
+Description-ar.UTF-8: عدم استعمال الجزء
+Description-ast.UTF-8: Nun usar la partición
+Description-be.UTF-8: не ўжываць падзел
+Description-bg.UTF-8: без използване на дяла
+Description-bn.UTF-8: পার্টিশনটি ব্যবহার করো না
+Description-bo.UTF-8: ཁག་དེ་སྤྱོད་མི་དགོས་པ
+Description-bs.UTF-8: ne koristi particiju
+Description-ca.UTF-8: no utilitzes aquesta partició
+Description-cs.UTF-8: nepoužívat oblast
+Description-cy.UTF-8: peidiwch a defnyddio'r rhaniad
+Description-da.UTF-8: benyt ikke partitionen
+Description-de.UTF-8: Partition nicht benutzen
+Description-dz.UTF-8: བར་བཅད་ལག་ལེན་མ་འཐབ།
+Description-el.UTF-8: να μην χρησιμοποιηθεί αυτή η κατάτμηση
+Description-eo.UTF-8: ne uzi la diskparton
+Description-es.UTF-8: no usar la partición
+Description-et.UTF-8: ära kasuta seda partitsiooni
+Description-eu.UTF-8: ez erabili partizioa
+Description-fa.UTF-8: از پارتیشن استفاده نشود
+Description-fi.UTF-8: älä käytä osiota
+Description-fr.UTF-8: Ne pas utiliser la partition
+Description-ga.UTF-8: ná húsáid an deighilt
+Description-gl.UTF-8: non empregar a partición
+Description-gu.UTF-8: આ પાર્ટિશનનો ઉપયોગ ન કરો
+Description-he.UTF-8: אל תשתמש במחיצה
+Description-hi.UTF-8: पार्टीशन का इस्तेमाल नहीं करें
+Description-hr.UTF-8: ne koristi particiju
+Description-hu.UTF-8: partíció mellőzése
+Description-id.UTF-8: jangan gunakan partisi ini
+Description-is.UTF-8: ekki nota disksneiðina
+Description-it.UTF-8: non usare la partizione
+Description-ja.UTF-8: パーティションを使わない
+Description-ka.UTF-8: არ გამოიყენო ეს დანაყოფი
+Description-kk.UTF-8: бұл бөлімді қолданбау
+Description-km.UTF-8: កុំ​ប្រើ​ភាគ​ថាស​
+Description-kn.UTF-8: ವಿಭಜನೆಯನ್ನು ಬಳಸಬೇಡಿ
+Description-ko.UTF-8: 파티션을 사용하지 않습니다
+Description-ku.UTF-8: vê partîsiyon neyê bi kar anîn
+Description-lo.UTF-8: ບໍ່ໃຊ້ພາທີຊັ່ນນີ້
+Description-lt.UTF-8: nenaudoti disko skaidinio
+Description-lv.UTF-8: nelietot šo nodalījumu
+Description-mk.UTF-8: не ја користи оваа партиција
+Description-ml.UTF-8: ഭാഗം ഉപയോഗിക്കരുത്
+Description-mr.UTF-8: हे विभाजन वापरू नका
+Description-nb.UTF-8: Ikke bruk partisjonen
+Description-ne.UTF-8: विभाजनको प्रयोग नगर्नुहोस्
+Description-nl.UTF-8: Deze partitie niet gebruiken
+Description-nn.UTF-8: ikkje bruk partisjonen
+Description-no.UTF-8: Ikke bruk partisjonen
+Description-pa.UTF-8: ਪਾਰਟੀਸ਼ਨ ਨਾ ਵਰਤੋਂ
+Description-pl.UTF-8: nie używaj tej partycji
+Description-pt.UTF-8: Não utilizar a partição
+Description-pt_BR.UTF-8: não usar a partição
+Description-ro.UTF-8: nu utiliza partiția
+Description-ru.UTF-8: не использовать раздел
+Description-se.UTF-8: ale geavat partišuvnna
+Description-si.UTF-8: කොටස භාවිත නොකරන්න
+Description-sk.UTF-8: nepoužívať túto oblasť
+Description-sl.UTF-8: ne uporabi razdelka
+Description-sq.UTF-8: mos përdor ndarjen
+Description-sr.UTF-8: не користи партицију
+Description-sv.UTF-8: använd inte partitionen
+Description-ta.UTF-8: அந்த பகிர்வை பயன் படுத்தாதீர்கள்
+Description-te.UTF-8: విభజన ఉపయోగించవద్దు
+Description-tg.UTF-8: истифода набурдани ин қисми диск
+Description-th.UTF-8: ไม่ใช้พาร์ทิชันนี้
+Description-tl.UTF-8: huwag gamitin itong partisyon
+Description-tr.UTF-8: Bu bölümü kullanma
+Description-ug.UTF-8: بۇ رايوننى ئىشلەتمە
+Description-uk.UTF-8: не використовувати розділ
+Description-vi.UTF-8: không dùng phân vùng
+Description-zh_CN.UTF-8: 不使用此分区
+Description-zh_TW.UTF-8: 不使用此分割區
+
+Name: partman-basicmethods/text/format
+Type: text
+Description: Format the partition:
+Description-am.UTF-8: ክፋዩን አሟሽ፦
+Description-ar.UTF-8: تنسيق الجزء:
+Description-ast.UTF-8: Formatear la partición:
+Description-be.UTF-8: Фарматаваць падзел:
+Description-bg.UTF-8: Форматиране на дяла:
+Description-bn.UTF-8: পার্টিশনটি ফরম্যাট করো:
+Description-bo.UTF-8: ཁག་དེའི་རྣམ་བཞག་བརྗེ་བ：
+Description-bs.UTF-8: Formatiraj particiju:
+Description-ca.UTF-8: Formata la partició:
+Description-cs.UTF-8: Formátovat oblast:
+Description-cy.UTF-8: Fformatio'r rhaniad:
+Description-da.UTF-8: Formatér partitionen:
+Description-de.UTF-8: Partition formatieren:
+Description-dz.UTF-8: བར་བཅད་རྩ་སྒྲིག་འབད:
+Description-el.UTF-8: Διαμόρφωση της κατάτμησης:
+Description-eo.UTF-8: Strukturigi la diskparton:
+Description-es.UTF-8: Formatear la partición:
+Description-et.UTF-8: Formaadi partitsioon:
+Description-eu.UTF-8: Formateatu partizioa:
+Description-fa.UTF-8: پارتیشن را قالب‌بندی کن:
+Description-fi.UTF-8: Alusta osio:
+Description-fr.UTF-8: Formater la partition :
+Description-ga.UTF-8: Formáidigh an deighilt:
+Description-gl.UTF-8: Formatar a partición:
+Description-gu.UTF-8: પાર્ટિશન ફોર્મેટ કરો:
+Description-he.UTF-8: פרמוט המחיצה:
+Description-hi.UTF-8: पार्टीशन फॉर्मेट करें:
+Description-hr.UTF-8: Formatiraj particiju:
+Description-hu.UTF-8: Partíció formázása:
+Description-id.UTF-8: Format partisi ini:
+Description-is.UTF-8: Forsníða disksneiðina:
+Description-it.UTF-8: Formattare la partizione:
+Description-ja.UTF-8: パーティションの初期化:
+Description-ka.UTF-8: დანაყოფის დაფორმატება:
+Description-kk.UTF-8: Пішімделетін бөлім:
+Description-km.UTF-8: ធ្វើ​ទ្រង់ទ្រាយ​ភាគ​ថាស ៖
+Description-kn.UTF-8: ವಿಭಜನೆಯನ್ನು ಸಿದ್ಧಗೊಳಿಸುವುದೆ:
+Description-ko.UTF-8: 파티션 포맷:
+Description-ku.UTF-8: Partîsiyonê format bike:
+Description-lo.UTF-8: ຟໍຣແມດພາທີຊັ່ນ:
+Description-lt.UTF-8: Formatuoti disko skaidinį:
+Description-lv.UTF-8: Nodalījums, kuru formatēt:
+Description-mk.UTF-8: Форматирај партиција:
+Description-ml.UTF-8: ഈ ഭാഗം ഫോര്‍മാറ്റ് ചെയ്യുക:
+Description-mr.UTF-8: हे विभाजन संरुपित कराः
+Description-nb.UTF-8: Formater partisjonen:
+Description-ne.UTF-8: विभाजनलाई ढाँचाबद्ध गर्नुहोस्:
+Description-nl.UTF-8: Partitie formatteren:
+Description-nn.UTF-8: Formater partisjonen
+Description-no.UTF-8: Formater partisjonen:
+Description-pa.UTF-8: ਪਾਰਟੀਸ਼ਨ ਫਾਰਮੈਟ:
+Description-pl.UTF-8: Formatuj partycję:
+Description-pt.UTF-8: Formatar a partição:
+Description-pt_BR.UTF-8: Formatar a partição:
+Description-ro.UTF-8: Formatează partiția:
+Description-ru.UTF-8: Форматировать раздел
+Description-se.UTF-8: Formattere partišuvnna:
+Description-si.UTF-8: කොටස හැඩසවි ගන්වන්න:
+Description-sk.UTF-8: Formátovať oblasť:
+Description-sl.UTF-8: Formatiraj razdelek:
+Description-sq.UTF-8: Formato ndarjen:
+Description-sr.UTF-8: Форматирај партицију
+Description-sv.UTF-8: Formatera partitionen:
+Description-ta.UTF-8: பகிர்வை ஒழுங்கு செய்க
+Description-te.UTF-8: విభజనను ఫార్మాటు చెయ్యి:
+Description-tg.UTF-8: Формат кардани қисми диск:
+Description-th.UTF-8: ฟอร์แมตพาร์ทิชัน:
+Description-tl.UTF-8: Iformat ang partisyon:
+Description-tr.UTF-8: Bölümü biçimlendir:
+Description-ug.UTF-8: بۇ رايوننى فورماتلا:
+Description-uk.UTF-8: Форматувати розділ:
+Description-vi.UTF-8: Định dạng phân vùng:
+Description-zh_CN.UTF-8: 格式化此分区：
+Description-zh_TW.UTF-8: 格式化此分割區:
+
+Name: partman-basicmethods/text/no_dont_format
+Type: text
+Description: no, keep existing data
+Description-am.UTF-8: አይ፣ ነባሩ ዴታ ይኑር
+Description-ar.UTF-8: لا، أبق البيانات الموجودة
+Description-ast.UTF-8: non, caltener datos esistentes
+Description-be.UTF-8: не, пакінуць існуючыя дадзеныя
+Description-bg.UTF-8: не, запазване на съществуващите данни
+Description-bn.UTF-8: না, বিদ্যমান তথ্য অপরিবর্তিত রাখো
+Description-bo.UTF-8: མིན། གནས་ཡོད་པའི་གྲངས་རྒྱུན་ཉར་བ
+Description-bs.UTF-8: ne, zadrži postojeće podatke
+Description-ca.UTF-8: no, conserva les dades existents
+Description-cs.UTF-8: ne, ponechat stávající data
+Description-cy.UTF-8: na, cadw'r data presennol
+Description-da.UTF-8: nej, bevar eksisterende data
+Description-de.UTF-8: nein, vorhandene Daten erhalten
+Description-dz.UTF-8: མེན་ ཡོད་བཞིན་པའི་གནད་སྡུད་བདག་འཛིན་འབད་བཞག་
+Description-el.UTF-8: όχι, να διατηρηθούν τα υπάρχοντα δεδομένα
+Description-eo.UTF-8: ne, tenu la ekzistantan datumaron
+Description-es.UTF-8: no, mantener los datos actuales
+Description-et.UTF-8: ei, säilita olemasolevad andmed
+Description-eu.UTF-8: ez, utzi lehendik dauden datuak
+Description-fa.UTF-8: خیر، اطلاعات کنونی را نگه دار
+Description-fi.UTF-8: ei, säilytä tiedot
+Description-fr.UTF-8: non, conserver les données
+Description-ga.UTF-8: ná formáidigh; coimeád na sonraí atá ann
+Description-gl.UTF-8: non, manter os datos existentes
+Description-gu.UTF-8: ના, હાલની માહિતી રાખો
+Description-he.UTF-8: לא, שמור את המידע הקיים
+Description-hi.UTF-8: नहीं, मौज़ूदा डाटा रखें
+Description-hr.UTF-8: ne, zadrži postojeće podatke
+Description-hu.UTF-8: nem, adatok megőrzése
+Description-id.UTF-8: tidak, pertahankan data yang ada
+Description-is.UTF-8: nei, halda núverandi gögnum
+Description-it.UTF-8: no, mantenere i dati esistenti
+Description-ja.UTF-8: 既存のデータをそのまま使う
+Description-ka.UTF-8: არა, შეინახე უკვე არსებული მონაცემები
+Description-kk.UTF-8: жоқ, бар деректерді сақтау
+Description-km.UTF-8: ទេ រក្សា​ទិន្នន័យ​មាន​ស្រាប់​នៅ​ដដែល
+Description-kn.UTF-8: ಬೇಡ ಇರುವ ಮಾಹಿತಿಯನ್ನು ಹಾಗೆ ಉಳಿಸಿ
+Description-ko.UTF-8: 아니요, 현재 데이터 유지
+Description-ku.UTF-8: na, data yên heyî biparêze
+Description-lo.UTF-8: ບໍ່, ຕ້ອງຮັກສາຂໍ້ມູນເກົ່າໄວ້
+Description-lt.UTF-8: ne, išsaugoti esančius duomenis
+Description-lv.UTF-8: nē, saglabāt esošos datus
+Description-mk.UTF-8: не, зачувај ги постоечките податоци
+Description-ml.UTF-8: വേണ്ട, നിലവിലുള്ള ഡാറ്റ സൂക്ഷിക്കുക
+Description-mr.UTF-8: नाही, सद्य डेटा तसाच ठेवा
+Description-nb.UTF-8: nei, ta vare på de eksisterende dataene
+Description-ne.UTF-8: होइन, अवस्थित डेटा राख्नुहोस्
+Description-nl.UTF-8: nee, bewaar de bestaande data
+Description-nn.UTF-8: nei, ta vara på dei eksisterande dataa
+Description-no.UTF-8: nei, ta vare på de eksisterende dataene
+Description-pa.UTF-8: ਨਾ, ਮੌਜੂਦਾ ਡਾਟਾ ਵਰਤੋਂ
+Description-pl.UTF-8: nie, zachowaj istniejące dane
+Description-pt.UTF-8: não, manter os dados existentes
+Description-pt_BR.UTF-8: não, manter os dados existentes
+Description-ro.UTF-8: nu, păstrează datele existente
+Description-ru.UTF-8: нет, сохранить существующие данные
+Description-si.UTF-8: නැහැ, පවතින දත්ත තබාගන්න
+Description-sk.UTF-8: nie, ponechať jestvujúce údaje
+Description-sl.UTF-8: ne, obdrži obstoječe podatke
+Description-sq.UTF-8: jo, ruaj të dhënat ekzistuese
+Description-sr.UTF-8: не, задржи постојеће податке
+Description-sv.UTF-8: nej, behåll befintlig data
+Description-ta.UTF-8: இல்லை, உள்ள தரவை பாதுகாப்பாக வைக்கவும்
+Description-te.UTF-8: లేదు, ప్రస్తుతం ఉన్న సమాచారాన్ని ఉంచు
+Description-tg.UTF-8: не, иттилооти мавҷудбударо нигоҳ доред
+Description-th.UTF-8: ไม่ต้อง รักษาข้อมูลเดิมไว้
+Description-tl.UTF-8: hindi, panatiliin ang mga datos
+Description-tr.UTF-8: hayır, mevcut verileri koru
+Description-ug.UTF-8: ياق، مەۋجۇت سانلىق مەلۇماتنى ساقلاپ قال.
+Description-uk.UTF-8: ні, зберегти існуючі дані
+Description-vi.UTF-8: không, giữ các dữ liệu đã có
+Description-zh_CN.UTF-8: 不，保持现有数据
+Description-zh_TW.UTF-8: 否，保留現有資料
+
+Name: partman-basicmethods/text/yes_format
+Type: text
+Description: yes, format it
+Description-am.UTF-8: አዎ፣ አሟሽ
+Description-ar.UTF-8: نعم، نسّقه
+Description-ast.UTF-8: sí, formateala
+Description-be.UTF-8: так, фарматаваць
+Description-bg.UTF-8: да, форматиране
+Description-bn.UTF-8: হ্যাঁ, এটি ফরম্যাট করো
+Description-bo.UTF-8: རེད། རྣམ་བཞག་བརྗེ་དགོས
+Description-bs.UTF-8: da, formatiraj
+Description-ca.UTF-8: sí, formata-la
+Description-cs.UTF-8: ano, formátovat
+Description-cy.UTF-8: ie, ei fformatio
+Description-da.UTF-8: ja, formatér den
+Description-de.UTF-8: ja, formatieren
+Description-dz.UTF-8: ཨིན་ འདི་རྩ་སྒྲིག་འབད།
+Description-el.UTF-8: ναι, διαμόρφωση
+Description-eo.UTF-8: jes, strukturigu ĝin
+Description-es.UTF-8: sí, formatearla
+Description-et.UTF-8: jah, formaadi
+Description-eu.UTF-8: bai, formateatu
+Description-fa.UTF-8: بله، آنرا قالب‌بندی کن
+Description-fi.UTF-8: kyllä, alusta osio
+Description-fr.UTF-8: oui, formater
+Description-ga.UTF-8: formáidigh é
+Description-gl.UTF-8: si, formatar
+Description-gu.UTF-8: હા, તેને ફોર્મેટ કરો
+Description-he.UTF-8: כן, פרמט
+Description-hi.UTF-8: हाँ, इसे फॉर्मेट करें
+Description-hr.UTF-8: da, formatiraj
+Description-hu.UTF-8: igen, formáz
+Description-id.UTF-8: ya, format saja
+Description-is.UTF-8: já, forsníða hana
+Description-it.UTF-8: sì, formattare
+Description-ja.UTF-8: 初期化
+Description-ka.UTF-8: დიახ, დააფორმატე
+Description-kk.UTF-8: иә, қайта пішімдеу
+Description-km.UTF-8: បាទ/ចាស ធ្វើ​ទ្រង់ទ្រាយ​វា
+Description-kn.UTF-8: ಹೌದು, ಸಿದ್ಧಗೊಳಿಸಿ
+Description-ko.UTF-8: 예, 포맷합니다
+Description-ku.UTF-8: erê, format bike
+Description-lo.UTF-8: ແມ່ນ ຟໍຣແມດເລີຍ
+Description-lt.UTF-8: taip, formatuoti
+Description-lv.UTF-8: jā, formatēt to
+Description-mk.UTF-8: да, форматирај ја
+Description-ml.UTF-8: ശരി, ഇതു് ഫോര്‍മാറ്റ് ചെയ്യുക
+Description-mr.UTF-8: हो, ते संरुपित करा
+Description-nb.UTF-8: ja, formater den
+Description-ne.UTF-8: हो, यसलाई ढाँचाबद्ध गर्नुहोस्
+Description-nl.UTF-8: ja, formatteer de partitie
+Description-nn.UTF-8: ja, formater han
+Description-no.UTF-8: ja, formater den
+Description-pa.UTF-8: ਹਾਂ, ਫਾਰਮੈਟ ਕਰੋ
+Description-pl.UTF-8: tak, formatuj ją
+Description-pt.UTF-8: sim, formatar
+Description-pt_BR.UTF-8: sim, formatar
+Description-ro.UTF-8: da, formatează
+Description-ru.UTF-8: да, форматировать
+Description-se.UTF-8: Jua, formattere dan
+Description-si.UTF-8: ඔව්, එය හැඩසවි ගන්වන්න
+Description-sk.UTF-8: áno, formátovať
+Description-sl.UTF-8: da, formatiraj ga
+Description-sq.UTF-8: po, formatoje
+Description-sr.UTF-8: да, форматирај је
+Description-sv.UTF-8: ja, formatera den
+Description-ta.UTF-8: ஆம் ஒழுங்கு செய்யுங்கள்
+Description-te.UTF-8: అవును, ఫార్మాటు చెయ్యి
+Description-tg.UTF-8: ҳа, онро формат кунед
+Description-th.UTF-8: ใช่ ฟอร์แมตเลย
+Description-tl.UTF-8: oo, iformat ito
+Description-tr.UTF-8: evet, biçimlendir
+Description-ug.UTF-8: ھەئە، فورماتلا
+Description-uk.UTF-8: так, форматувати його
+Description-vi.UTF-8: có, định dạng đi
+Description-zh_CN.UTF-8: 是的，格式化
+Description-zh_TW.UTF-8: 是，將它格式化
+
+Name: partman-btrfs/text/btrfs
+Type: text
+Description: btrfs
+Description-am.UTF-8: btrfs
+Description-ar.UTF-8: btrfs
+Description-ast.UTF-8: btrfs
+Description-be.UTF-8: btrfs
+Description-bg.UTF-8: btrfs
+Description-bn.UTF-8: btrfs
+Description-bo.UTF-8: btrfs
+Description-bs.UTF-8: btrfs
+Description-ca.UTF-8: btrfs
+Description-cs.UTF-8: btrfs
+Description-cy.UTF-8: btrfs
+Description-da.UTF-8: btrfs
+Description-de.UTF-8: btrfs
+Description-dz.UTF-8: btrfs
+Description-el.UTF-8: btrfs
+Description-eo.UTF-8: btrfs
+Description-es.UTF-8: btrfs
+Description-et.UTF-8: btrfs
+Description-eu.UTF-8: btrfs
+Description-fa.UTF-8: btrfs
+Description-fi.UTF-8: btrfs
+Description-fr.UTF-8: btrfs
+Description-ga.UTF-8: btrfs
+Description-gl.UTF-8: btrfs
+Description-gu.UTF-8: btrfs
+Description-he.UTF-8: btrfs
+Description-hi.UTF-8: बीटीआरऍफ़एस
+Description-hr.UTF-8: btrfs
+Description-hu.UTF-8: btrfs
+Description-id.UTF-8: btrfs
+Description-is.UTF-8: btrfs
+Description-it.UTF-8: btrfs
+Description-ja.UTF-8: btrfs
+Description-ka.UTF-8: btrfs
+Description-kk.UTF-8: btrfs
+Description-km.UTF-8: btrfs
+Description-kn.UTF-8: btrfs
+Description-ko.UTF-8: btrfs
+Description-ku.UTF-8: btrfs
+Description-lo.UTF-8: btrfs
+Description-lt.UTF-8: btrfs
+Description-lv.UTF-8: btrfs
+Description-mk.UTF-8: btrfs
+Description-ml.UTF-8: btrfs
+Description-mr.UTF-8: btrfs
+Description-nb.UTF-8: btrfs
+Description-ne.UTF-8: brtfs
+Description-nl.UTF-8: btrfs
+Description-no.UTF-8: btrfs
+Description-pa.UTF-8: btrfs
+Description-pl.UTF-8: btrfs
+Description-pt.UTF-8: btrfs
+Description-pt_BR.UTF-8: btrfs
+Description-ro.UTF-8: btrfs
+Description-ru.UTF-8: btrfs
+Description-se.UTF-8: btrfs
+Description-si.UTF-8: btrfs
+Description-sk.UTF-8: btrfs
+Description-sl.UTF-8: btrfs
+Description-sr.UTF-8: btrfs
+Description-sv.UTF-8: btrfs
+Description-ta.UTF-8: பிடிஆர்எப்எஸ்(btrfs)
+Description-te.UTF-8: btrfs
+Description-tg.UTF-8: btrfs
+Description-th.UTF-8: btrfs
+Description-tr.UTF-8: btrfs
+Description-ug.UTF-8: btrfs
+Description-uk.UTF-8: btrfs
+Description-vi.UTF-8: btrfs
+Description-zh_CN.UTF-8: btrfs
+Description-zh_TW.UTF-8: btrfs
+
+Name: partman-crypto/cipher
+Type: select
+Choices: ${CHOICES}
+Description: Encryption for this partition:
+Description-am.UTF-8: የዚህ ክፋይ ማመስጠር፦
+Description-ar.UTF-8: التشفير لهذا الجزء:
+Description-ast.UTF-8: Encriptación pa esta partición:
+Description-be.UTF-8: Шыфраванне для гэтага падзела:
+Description-bg.UTF-8: Шифриране за този дял:
+Description-bn.UTF-8: এই পার্টিশনের জন্য এনক্রিপশন:
+Description-bs.UTF-8: Enkripcija za ovu particiju:
+Description-ca.UTF-8: Xifrat per a aquesta partició:
+Description-cs.UTF-8: Šifrování této oblasti:
+Description-cy.UTF-8: Amgryptiad ar gyfer y rhaniad hwn:
+Description-da.UTF-8: Denne partitions kryptering:
+Description-de.UTF-8: Verschlüsselung für diese Partition:
+Description-dz.UTF-8: བར་བཅད་འདི་གི་དོན་ལུ་གསང་བཟོ:
+Description-el.UTF-8: Κρυπτογράφηση γι' αυτή την κατάτμηση:
+Description-eo.UTF-8: Ĉifrado por tiu ĉi diskparto:
+Description-es.UTF-8: Cifrado para esta partición:
+Description-et.UTF-8: Selle partitsiooni krüpteerimine:
+Description-eu.UTF-8: Partizio honen enkriptazioa:
+Description-fa.UTF-8: روش پنهان‌سازی برای این پارتیشن:
+Description-fi.UTF-8: Tämän osion salaus:
+Description-fr.UTF-8: Chiffrement pour cette partition :
+Description-ga.UTF-8: Criptiú don deighilt seo:
+Description-gl.UTF-8: Cifrado para esta partición:
+Description-gu.UTF-8: આ પાર્ટિશન માટે એન્ક્રિપ્શન:
+Description-he.UTF-8: הצפנה עבור מחיצה זו:
+Description-hi.UTF-8: इस पार्टिशन के लिए कूटबद्ध करना:
+Description-hr.UTF-8: Enkripcija za ovu particiju:
+Description-hu.UTF-8: Titkosítás e partícióhoz:
+Description-id.UTF-8: Enkripsi untuk partisi ini:
+Description-is.UTF-8: Dulritun fyrir þessa disksneið:
+Description-it.UTF-8: Cifratura per questa partizione:
+Description-ja.UTF-8: このパーティションの暗号化:
+Description-ka.UTF-8: ამ დანაყოფის დაშიფვრა:
+Description-kk.UTF-8: Осы бөлімді шифрлеу:
+Description-km.UTF-8: ការ​អ៊ិនគ្រីប​សម្រាប់​ភាគថាស​នេះ ៖
+Description-kn.UTF-8: ಈ ವಿಭಜನೆಗೆ  ಗೂಢಲಿಪೀಕರಣ:
+Description-ko.UTF-8: 이 파티션에 적용할 암호화 방식:
+Description-ku.UTF-8: Şîfrekirina ji bo vê partîsiyonê:
+Description-lo.UTF-8: ການເຂົ້າລະຫັດສຳລັບພາທີ່ຊັນນີ້:
+Description-lt.UTF-8: Šio disko skirsnio šifravimas:
+Description-lv.UTF-8: Šī nodalījuma šifrēšana:
+Description-mk.UTF-8: Енкрипција за оваа партиција:
+Description-ml.UTF-8: ഈ ഭാഗത്തിനു വേണ്ട എന്‍ക്രിപ്ഷന്‍:
+Description-mr.UTF-8: या विभाजनाकरिता सांकेतिकीकरण:
+Description-nb.UTF-8: Kryptering for denne partisjonen:
+Description-ne.UTF-8: यो विभाजनका लागि गुप्तीकरण:
+Description-nl.UTF-8: Encryptie voor deze partitie:
+Description-nn.UTF-8: Kryptering for denne partisjonen:
+Description-no.UTF-8: Kryptering for denne partisjonen:
+Description-pa.UTF-8: ਇਸ ਪਾਰਟੀਸ਼ਨ ਲਈ ਇੰਕ੍ਰਿਪਸ਼ਨ:
+Description-pl.UTF-8: Szyfrowanie dla tej partycji:
+Description-pt.UTF-8: Encriptação para esta partição:
+Description-pt_BR.UTF-8: Criptografia para esta partição:
+Description-ro.UTF-8: Criptarea pentru acestă partiție:
+Description-ru.UTF-8: Шифрование для этого раздела:
+Description-si.UTF-8: මෙම කොටස සඳහා ගුප්තකේතනය:
+Description-sk.UTF-8: Šifrovanie pre túto oblasť:
+Description-sl.UTF-8: Šifriranje za ta razdelek:
+Description-sq.UTF-8: Kriptimi për këtë ndarje:
+Description-sr.UTF-8: Енкрипција за ову партицију:
+Description-sv.UTF-8: Kryptering för den här partitionen:
+Description-ta.UTF-8: இந்த பகிர்வுக்கான மறைக்குறியீடு :
+Description-te.UTF-8: ఈ విభజనకు ఎన్క్రిప్షన్:
+Description-tg.UTF-8: Рамзгузорӣ кардани ин қисми диск:
+Description-th.UTF-8: การเข้ารหัสลับสำหรับพาร์ทิชันนี้:
+Description-tl.UTF-8: Encryption para sa partisyon na ito:
+Description-tr.UTF-8: Bu bölüm için şifreleme:
+Description-ug.UTF-8: مەزكۇر رايون شىفىرلىق ئاچقۇچ تىپى:
+Description-uk.UTF-8: Шифр для цього розділу:
+Description-vi.UTF-8: Kiểu mật mã cho phân vùng này:
+Description-zh_CN.UTF-8: 此分区的加密：
+Description-zh_TW.UTF-8: 這個分割區的加密：
+
+Name: partman-crypto/commit_failed
+Type: error
+Description: Configuration of encrypted volumes failed
+Extended_description: An error occurred while configuring encrypted volumes.\n\nThe configuration has been aborted.
+Description-am.UTF-8: የተመሰጠረ ይዘት ማስተካከሉ ተሰናክሏል
+Extended_description-am.UTF-8: የተመሰጠረው ይዘት ሲድተካከል ስህተት ተፈጥሯል\n\nየማስተካከል ሂደት ተሰናክሏል።
+Description-ar.UTF-8: فشلت تهيئة الكتل المشفرة
+Extended_description-ar.UTF-8: حدث خطأ أثناء تهيئة الكتل المشفرة.\n\nتم إيقاف التهيئة.
+Description-ast.UTF-8: Falló la configuración de volúmenes encriptaos
+Extended_description-ast.UTF-8: Ocurrió un fallu mientres se configuraben volúmenes encriptaos.\n\nLa configuración fue encaboxada.
+Description-be.UTF-8: Не атрымалася наладзіць шыфраваныя тамы
+Extended_description-be.UTF-8: Падчас наладкі шыфраваных тамоў адбылася памылка.\n\nПрацэс наладкі быў перарваны.
+Description-bg.UTF-8: Грешка при настройване на шифрирани томове
+Extended_description-bg.UTF-8: Грешка при настройване на шифрирани томове.\n\nНастройката е прекъсната.
+Description-bn.UTF-8: এনক্রিপ্টেড ভলিউম কনফিগারেশন ব্যর্থ হয়েছে
+Extended_description-bn.UTF-8: এনক্রিপ্টেড ভলিউম কনফিগার করার সময় একটি সমস্যা হয়েছে।\n\nকনফিগারেশন বাতিল হয়েছে।
+Description-bs.UTF-8: Konfigurisanje enkriptovanih particija nije uspjelo
+Extended_description-bs.UTF-8: Došlo je do greške prilikom podešavanja enkriptovanih diskova.\n\nKonfigurisanje je obustavljeno.
+Description-ca.UTF-8: La configuració dels volums xifrats ha fallat
+Extended_description-ca.UTF-8: S'ha produït un error quan es configuraven els volums xifrats.\n\nS'ha avortat la configuració.
+Description-cs.UTF-8: Nastavení šifrovaných svazků selhalo
+Extended_description-cs.UTF-8: Během nastavování šifrovaných svazků nastala chyba.\n\nNastavování bylo přerušeno.
+Description-cy.UTF-8: Cyfluniad o'r cyfrolau amgryptedig wedi methu
+Extended_description-cy.UTF-8: Cafwyd gwall wrth gyflunio cyfrolau amgryptedig.\n\nMae'r cyfluniad wedi ei derfynu.
+Description-da.UTF-8: Opsætningen af krypterede diskenheder mislykkedes
+Extended_description-da.UTF-8: Der opstod en fejl under opsætningen af krypterede diskenheder.\n\nOpsætningen blev afbrudt.
+Description-de.UTF-8: Konfiguration der verschlüsselten Datenträger fehlgeschlagen
+Extended_description-de.UTF-8: Es trat ein Fehler auf, als die verschlüsselten Datenträger konfiguriert wurden.\n\nDie Konfiguration wurde abgebrochen.
+Description-dz.UTF-8: གསང་བཟོས་སྐད་ཤུགས་ རིམ་སྒྲིག་འབད་ནི་ལུ་འཐུས་ཤོར།
+Extended_description-dz.UTF-8: གསང་བཟོས་སྐད་ཤུགས་ཚུ་རིམ་སྒྲིག་འབདཝ་ད་འཛོལ་བ་བྱུང་ནུག།\n\nརིམ་སྒྲིག་འདི་ བར་བཤོལ་བྱུང་ཡོདཔ།
+Description-el.UTF-8: Η ρύθμιση των κρυπτογραφημένων τόμων απέτυχε
+Extended_description-el.UTF-8: Προέκυψε σφάλμα κατά την ρύθμιση των κρυπτογραφημένων τόμων.\n\nΗ ρύθμιση εγκαταλείφθηκε.
+Description-eo.UTF-8: Agordado de ĉifritaj datumportiloj malsukcesis
+Extended_description-eo.UTF-8: Eraro okazis dum la agordado de ĉifritaj datumportiloj.\n\nLa agordado estas ĉesigita.
+Description-es.UTF-8: Fallo en la configuración de volúmenes cifrados
+Extended_description-es.UTF-8: Se produjo un error mientras se configuraban los volúmenes cifrados.\n\nSe ha interrumpido la configuración.
+Description-et.UTF-8: Krüpteeritud kettaruumide seadistamine nurjus
+Extended_description-et.UTF-8: Krüpteeritud kettaruumide seadistamisel ilmnes viga.\n\nSeadistamine on peatatud.
+Description-eu.UTF-8: Bolumen enkriptatuen konfigurazioak huts egin du
+Extended_description-eu.UTF-8: Errorea gertatu da bolumen enkriptatuak konfiguratzean.\n\nKonfigurazioa abortatu egin da.
+Description-fa.UTF-8: تنظیم حجم‌های پنهان شده ناموفق بود
+Extended_description-fa.UTF-8: هنگام ثبت تغییرات در دیسک خطایی رخ داد..\n\nتایید متوقف شد
+Description-fi.UTF-8: Salattujen taltioiden asetuksien teko epäonnistui
+Extended_description-fi.UTF-8: Tehtäessä salattujen taltioiden asetuksia tapahtui virhe.\n\nAsetuksien teko on keskeytetty.
+Description-fr.UTF-8: Échec de la configuration des volumes chiffrés
+Extended_description-fr.UTF-8: Une erreur s'est produite lors de la configuration des volumes chiffrés.\n\nLa configuration a été interrompue.
+Description-ga.UTF-8: Níorbh fhéidir imleabhair chriptithe a chumrú
+Extended_description-ga.UTF-8: Tharla earráid agus imleabhair chriptithe á gcumrú.\n\nTobscoireadh an chumraíocht.
+Description-gl.UTF-8: Fallou a configuración dos volumes cifrados
+Extended_description-gl.UTF-8: Produciuse un erro ao configurar os volumes cifrados.\n\nInterrompeuse a configuración.
+Description-gu.UTF-8: એન્ક્રિપ્ટેડ કરેલ કદોનું રૂપરેખાંકન નિષ્ફળ ગયું
+Extended_description-gu.UTF-8: એન્ક્રિપ્ટેડ કદોનાં રૂપરેખાંકન વખતે ક્ષતિ આવી.\n\nરૂપરેખાંકન બંધ કરેલ છે.
+Description-he.UTF-8: הגדרת נפחים מוצפנים נכשלה
+Extended_description-he.UTF-8: שגיאה קרתה בזמן הגדרת נפחים מוצפנים.\n\nתהליך ההגדרה בוטל.
+Description-hi.UTF-8: कूटबद्ध वॉल्यूमों का व्यवस्थापन असफल
+Extended_description-hi.UTF-8: एनक्रिप्टड वॉल्यूमों को व्यवस्थित करने में एक त्रुटि हुई.\n\nव्यवस्थापन की प्रक्रिया छोड़ी गई.
+Description-hr.UTF-8: Podešavanje enkriptiranih prostora nije uspjelo
+Extended_description-hr.UTF-8: Pojavila se greška pri podešavanju enkriptiranih prostora.\n\nPodešavanje je prekinuto.
+Description-hu.UTF-8: Titkosított kötetek konfigurálásának hibája
+Extended_description-hu.UTF-8: Hiba történt a titkosított kötetek konfigurálásakor\n\nA beállítás törölve
+Description-id.UTF-8: Pengaturan volum terenkripsi telah gagal 
+Extended_description-id.UTF-8: Terjadi kesalahan saat mengonfigurasi volum terenkripsi.\n\nPengaturan telah dibatalkan.
+Description-is.UTF-8: Ekki tókst að framkvæma breytingar á dulrituðum drifum
+Extended_description-is.UTF-8: Villa kom upp þegar dulrituðum drifum var breytt.\n\nHætt hefur verið við uppsetninguna.
+Description-it.UTF-8: Configurazione dei volumi cifrati non riuscita
+Extended_description-it.UTF-8: Si è verificato un errore nella configurazione dei volumi cifrati.\n\nLa configurazione è stata interrotta.
+Description-ja.UTF-8: 暗号化ボリュームの設定に失敗しました
+Extended_description-ja.UTF-8: 暗号化ボリュームの設定中にエラーが発生しました。\n\n設定は中止されました。
+Description-ka.UTF-8: დაშიფრული დისკწამყვანების კონფიგურაცია ვერ განხორციელდა
+Extended_description-ka.UTF-8: შეცდომა დაშიფრული დისკწამყვანების კონფიგურაციისას.\n\nკონფიგურაცია შეწყვეტილია.
+Description-kk.UTF-8: Шифрленген томды баптау сәтсіз аяқталды
+Extended_description-kk.UTF-8: Шифрленген томды баптау кезінде қате кетті.\n\nБаптаудан бас тартылды.
+Description-km.UTF-8: ការ​កំណត់​រចនាសម្ព័ន្ធ​របស់​ភាគ​ដែល​បាន​អ៊ិនគ្រីប​បាន​បរាជ័យ
+Extended_description-km.UTF-8: កំហុស​មួយ​បាន​​កើតឡើង ខណៈ​ពេល​កំណត់​រចនាសម្ព័ន្ធ​ភាគ​ដែល​បាន​អ៊ិនគ្រីប ។\n\nការ​កំណត់​រចនាសម្ព័ន្ធ​ត្រូវ​បាន​បោះបង់ ។
+Description-kn.UTF-8: ಗೂಢಲಿಪಿಗೊಂಡ ವಿಭಜನೆಯನ್ನುಸಂರಚಿಸುವಾಗ ದೋಷ
+Extended_description-kn.UTF-8: ಗೂಢಲಿಪಿಗೊಂಡ ವಿಭಜನೆಯನ್ನು ಸಂರಚಿಸುವಾಗ ದೋಷ ಉಂಟಾಗಿದೆ.\n\nಸಂರಚನಾ ಪ್ರಕ್ರಿಯೆಯು ಸ್ಥಗಿಥಗೊಳಿಸಲ್ಪಟ್ಟಿದೆ.
+Description-ko.UTF-8: 암호화 볼륨 설정 실패
+Extended_description-ko.UTF-8: 암호화 볼륨을 설정하는 중 오류가 발생했습니다.\n\n설정을 중단했습니다.
+Description-ku.UTF-8: Sazkirina volumên şîfrekirî bi ser neket
+Extended_description-ku.UTF-8: Çewtiya sazkirina volumên şîfrekirî derket holê.\n\nVeavakirina RAID'ê hate betalkirin.
+Description-lo.UTF-8: ຕັ້ງຄ່າໂວລ້ຳເຂົ້າລະຫັດສະຫຼັບບໍ່ສຳເລັດ
+Extended_description-lo.UTF-8: ເກີດຂໍ້ຜິດພາດຂະນະຕັ້ງຄ່າໂວລ້ຳເຂົ້າລະຫັດສະຫຼັບ\n\nການຕັ້ງຄ່າຖຶກຍົກເລີກ
+Description-lt.UTF-8: Šifruotų tomų konfigūravimas nepavyko
+Extended_description-lt.UTF-8: Konfigūruojant šifruotus tomus įvyko klaida.\n\nKonfigūravimas nutrauktas.
+Description-lv.UTF-8: Kļūda, konfigurējot šifrētos sējumus
+Extended_description-lv.UTF-8: Radusies kļūda, konfigurējot šifrētos sējumus.\n\nKonfigurēšana tika pārtraukta.
+Description-mk.UTF-8: Не успеа конфигурацијата на енкриптираните простори
+Extended_description-mk.UTF-8: Се случи грешки при конфигурација на енркиптираните простори.\n\nКонфигурацијата е откажана.
+Description-ml.UTF-8: എന്‍ക്രിപ്റ്റഡ് വാള്യങ്ങളുടെ ക്രമീകരണം പരാജയപ്പെട്ടു
+Extended_description-ml.UTF-8: എന്‍ക്രിപ്റ്റഡ് വാള്യങ്ങള്‍ ക്രമീകരിക്കുന്നതില്‍ ഒരു തെറ്റ് പറ്റി.\n\nക്രമീകരണത്തില്‍ നിന്നും പിന്തിരിഞ്ഞിരിക്കുന്നു.
+Description-mr.UTF-8: संकेताधारित खंडांची संरचना अयशस्वी
+Extended_description-mr.UTF-8: संकेताधारित खंडांची संरचना करतांना त्रूटी आली.\n\nसंरचना मधेच सोडून देण्यात आली आहे.
+Description-nb.UTF-8: Oppsett av krypterte dataområder mislyktes
+Extended_description-nb.UTF-8: Det oppsto en feil under oppsett av krypterte dataområder.\n\nOppsettet ble avbrutt.
+Description-ne.UTF-8: गुप्तिकृत भोल्युमहरुको कनफिगरेसन असफल भयो
+Extended_description-ne.UTF-8: गुप्तीकृत भोल्युम कन्फिगर गर्दा त्रुटि उत्पन्न भयो ।\n\nकनफिगरेसन परित्याग गरियो ।
+Description-nl.UTF-8: Configuratie van de versleutelde volumes is mislukt
+Extended_description-nl.UTF-8: Er is een fout opgetreden tijdens het instellen van de versleutelde volumes.\n\nDe configuratie is afgebroken.
+Description-nn.UTF-8: Oppsett av krypterte dataområde mislukkast
+Extended_description-nn.UTF-8: Ein feil oppsto ved oppsett av krypterte dataområde.\n\nOppsettet av krypterte dataområde er avbrote.
+Description-no.UTF-8: Oppsett av krypterte dataområder mislyktes
+Extended_description-no.UTF-8: Det oppsto en feil under oppsett av krypterte dataområder.\n\nOppsettet ble avbrutt.
+Description-pa.UTF-8: ਇੰਕਰਿਪਟਡ ਵਾਲੀਅਮ ਸੰਰਚਨਾ ਫੇਲ੍ਹ ਹੋਈ
+Extended_description-pa.UTF-8: ਇੰਕ੍ਰਿਪਟਡ ਵਾਲੀਅਮ ਸੰਰਚਨਾਲਿਖਣ ਸਮੇਂ ਗਲਤੀ ਹੋਈ ਹੈ।\n\nਸੰਰਚਨਾ ਅਧੂਰੀ ਖਤਮ ਕੀਤੀ ਗਈ।
+Description-pl.UTF-8: Konfiguracja szyfrowanych woluminów nie powiodła się
+Extended_description-pl.UTF-8: Wystąpił błąd podczas konfiguracji szyfrowanych woluminów.\n\nKonfiguracja została przerwana.
+Description-pt.UTF-8: Falha da configuração de volumes encriptados
+Extended_description-pt.UTF-8: Ocorreu um erro ao configurar os volumes encriptados.\n\nA configuração foi abortada.
+Description-pt_BR.UTF-8: Falha na configuração de volumes criptografados
+Extended_description-pt_BR.UTF-8: Um erro ocorreu durante a configuração dos volumes criptografados.\n\nA configuração foi abortada.
+Description-ro.UTF-8: Eșec la configurarea volumelor criptate
+Extended_description-ro.UTF-8: A apărut o eroare în timpul configurării volumelor criptate.\n\nProcesul de configurare a fost abandonat.
+Description-ru.UTF-8: Не удалось настроить шифрование томов
+Extended_description-ru.UTF-8: Произошла ошибка при настройке шифрования томов.\n\nНастройка была прервана.
+Description-si.UTF-8: ගුප්තකේතිත වෙළුම් සැකසීම අසාර්ථකයි
+Extended_description-si.UTF-8: ගුප්තකේතිත වෙළුම් සැකසීමේ දෝශයක් ඇතිවිය.\n\nසැකසීම වසාදැමිනි.
+Description-sk.UTF-8: Chyba pri nastavení šifrovaných zväzkov
+Extended_description-sk.UTF-8: Pri nastavení šifrovaných zväzkov došlo k chybe.\n\nNastavenie bolo prerušené.
+Description-sl.UTF-8: Napaka pri nastavitvi šifriranih nosilcev
+Extended_description-sl.UTF-8: Prišlo je do napake pri nastavljanju šifriranih nosilcev.\n\nNastavljanje je prekinjeno.
+Description-sq.UTF-8: Konfigurimi i volumeve të kriptuara dështoi
+Extended_description-sq.UTF-8: Ndodhi një gabim duke konfiguruar volumet e kriptuara.\n\nKonfigurimi është anulluar.
+Description-sr.UTF-8: Није успела конфигурација енкриптованих волумена
+Extended_description-sr.UTF-8: Дошло је до грешке приликом конфигурисања енкриптованих волумена.\n\nКонфигурисање је прекинуто.
+Description-sv.UTF-8: Konfiguration av krypterade volymer misslyckades
+Extended_description-sv.UTF-8: Ett fel inträffade med konfigurationen av krypterade volymer.\n\nKonfigurationen har avbrutits.
+Description-ta.UTF-8: மறைகுறியீடாக்கப்பட்ட தொகுதிகளை வடிவமைத்தல் தொல்வியுற்றது
+Extended_description-ta.UTF-8: மறைகுறியாக்கப்பட்ட தொகுதிகளை தவறு நேர்ந்தது.\n\nவடிவமைப்பு கைவிடப்பட்டது.
+Description-te.UTF-8: Encrypted volumes అమరిక విఫలం
+Extended_description-te.UTF-8: Encrypted volumes అమరిక లోదోషం ఏర్పడింది.\n\nఅమరిక  మధ్యంతరంగా నిలిపివేయబడింది.
+Description-tg.UTF-8: Танзимкунии ҳаҷмҳои рамздор қатъ шуд
+Extended_description-tg.UTF-8: Ҳангоми конфигуратсия кардани ҳаҷмҳои рамздор хатогӣ ба вуҷуд омадааст.\n\nКонфигуратсия қатъ карда шуд.
+Description-th.UTF-8: ตั้งค่าโวลุมเข้ารหัสลับไม่สำเร็จ
+Extended_description-th.UTF-8: เกิดข้อผิดพลาดขณะตั้งค่าโวลุมเข้ารหัสลับ\n\nการตั้งค่าถูกยกเลิก
+Description-tl.UTF-8: Bigo ang pagsasaayos ng encrypted na volume
+Extended_description-tl.UTF-8: May naganap na error habang nagsasaayos ng encrypted na volume.\n\nHininto ang pagsasaayos.
+Description-tr.UTF-8: Şifrelenmiş ciltlerin yapılandırılması başarısız
+Extended_description-tr.UTF-8: Şifrelenmiş ciltler yapılandırılırken bir hata oluştu.\n\nYapılandırma iptal edildi.
+Description-ug.UTF-8: شىفىرلىق دىسكىنى سەپلەش مەغلۇپ بولدى
+Extended_description-ug.UTF-8: شىفىرلىق دىسكىنى سەپلەشتە خاتالىق كۆرۈلدى.\n\nسەپلەش جەريانى توختىتىلدى.
+Description-uk.UTF-8: Не вдалося налаштувати зашифровані томи
+Extended_description-uk.UTF-8: Виникла помилка під час налаштування зашифрованих томів.\n\nНалаштування було перервано
+Description-vi.UTF-8: Việc cấu hình các khối tin đã mật mã bị lỗi
+Extended_description-vi.UTF-8: Gặp lỗi khi cấu hình các khối tin đã mật mã.\n\nViệc cấu hình bị hủy bỏ.
+Description-zh_CN.UTF-8: 加密卷设置失败
+Extended_description-zh_CN.UTF-8: 在设置加密卷时出现一个错误。\n\n设置被中止。
+Description-zh_TW.UTF-8: 加密的 Volume 的設定失敗了
+Extended_description-zh_TW.UTF-8: 在設定加密的 Volume 時發生錯誤。\n\n設定作業已被中止。
+
+Name: partman-crypto/confirm
+Type: boolean
+Default: false
+Description: Write the changes to disk and configure encrypted volumes?
+Extended_description: Before encrypted volumes can be configured, the current partitioning scheme has to be written to disk.  These changes cannot be undone.\n\nAfter the encrypted volumes have been configured, no additional changes to the partitions on the disks containing encrypted volumes are allowed. Please decide if you are satisfied with the current partitioning scheme for these disks before continuing.\n\n${ITEMS}
+Description-ar.UTF-8: كتابة التغييرات إلى أقراص وتهيئة الكتل المشفرة؟
+Extended_description-ar.UTF-8: قبل أن يمكن تهيئة الكتل المشفرة، يجب كتابة مخطط التجزئة الحالي إلى القرص. لا يمكن التراجع عن هذه التغييرات.\n\nبعد الانتهاء من تهيئة الكتل المشفّرة، لا يسمح بالقيام بأي تغييرات إضافية على الأقراص المحتوية للكتل المشفّرة. الرجاء اتخاذ القرار فيما إذا كنت راضياً عن مخطّط التجزئة الحالي في هذه الأقراص قبل الاستمرار.\n\n${ITEMS}
+Description-ast.UTF-8: ¿Escribir los cambios al discu y configurar volúmenes encriptaos?
+Extended_description-ast.UTF-8: Anantes d'encriptar los volúmenes, pueden ser configuraos, l'esquema de particionáu actual tien qu'escribise al discu. Esos cambios nun se pueden desfacer.\n\nUna vez configures los volúmenes encriptaos, nun tarán permitidos cambios adicionales a les particiones nos discos que caltienen los volúmenes encriptaos. Por favor, decide si tas d'acuerdo col esquema de particionáu actual pa esos discos anantes de siguir.\n\n${ITEMS}
+Description-be.UTF-8: Ці запісаць змены на дыск і наладзіць шыфраваныя тамы?
+Extended_description-be.UTF-8: Перад тым, як наладжваць шыфраваныя тамы, трэба запісаць актуальную схему падзелаў на дыск. Гэтыя змены немагчыма будзе скасаваць.\n\nПасля наладкі шыфраваных тамоў нельга будзе дадаткова змяняць ніякіх падзелаў на дысках, дзе месцяцца шыфраваныя тамы. Перад працягам пераканайцеся, што Вас задавальняе актуальная схема падзелу гэтых дыскаў.\n\n${ITEMS}
+Description-bg.UTF-8: Записване на промените на диска и настройване на шифрирани томове?
+Extended_description-bg.UTF-8: Преди шифрираните томове да може да бъдат настроени, текущата схема на разделянето трябва да бъде записана на диска. Тези промени не могат да бъдат отменени по-късно.\n\nСлед като шифрираните томове са вече настроени, не са позволени допълнителни промени на дяловете в дисковете, съдържащи шифрирани томове. Моля, решете дали текущата схема на разделянето е задоволителна преди да продължите.\n\n${ITEMS}
+Description-bn.UTF-8: ডিস্কে পরিবর্তনসমূহ কার্যকর করা হবে কি এবং এনক্রিপ্টেড ভলিউম কনফিগার করা হবে কি?
+Extended_description-bn.UTF-8: এনক্রিপ্টেড ভলিউমগুলোকে কনফিগার করার পূর্বে বর্তমান পার্টিশন বিন্যাসকে ডিস্কে লিখতে হবে। এই পরিবর্তনগুলোকে পরে আর বাতিল করা যাবে না।\n\nএনক্রিপ্টেড ভলিউম কনফিগার করার পর এনক্রিপটেড ভলিউম সংশ্লিষ্ট ডিস্কের পার্টিশন বিন্যাসে বাড়তি কোন পরিবর্তন যোগ করা যাবে না। সামনে এগিয়ে যাওয়ার আগে অনুগ্রহপূর্বক নিশ্চিত হন যে, এই ডিস্কগুলোর বর্তমান পার্টিশন বিন্যাস নিয়েই আপনি সন্তুষ্ট।\n\n${ITEMS}
+Description-bs.UTF-8: Zapisati izmjene na disk i podesiti enkriptovane particije?
+Extended_description-bs.UTF-8: Prije nego enkriptovani diskovi mogu biti podešeni, trenutna particiona šema se mora zapisati na disk.  Ove promjene se ne mogu poništiti.\n\nNakon što su enkriptovane particije podešene, dodatne promjene nad particijama nad particijama koji sadrže enkriptovane particije nisu dozvoljene. Molim odlučite da li ste zadovoljni sa trenutnom particionom šemom na ovim diskovima prije nego nastavite.\n\n${ITEMS}
+Description-ca.UTF-8: Voleu escriure els canvis al disc i configurar els volums xifrats?
+Extended_description-ca.UTF-8: Abans de poder configurar volums xifrats, s'ha d'escriure l'esquema de particions actual al disc. Aquests canvis no es poden desfer.\n\nQuan els volums xifrats estiguen configurats, no es permetran canvis addicionals a les particions dels discs que continguen volums xifrats. Assegureu-vos que esteu satisfets amb l'esquema de particions actual d'aquests discs abans de continuar.\n\n${ITEMS}
+Description-cs.UTF-8: Zapsat změny na disk a nastavit šifrované svazky?
+Extended_description-cs.UTF-8: Dříve než budete moci nastavit šifrované svazky, musí se aktuální rozdělení zapsat na disk. Tyto změny nebudete moci vrátit zpět.\n\nPo nastavení šifrovaných svazků již nebudete moci zasahovat do oblastí ležících na stejných discích, jako šifrované svazky. Ujistěte se, že jste s nynějším rozdělením těchto disků spokojeni.\n\n${ITEMS}
+Description-cy.UTF-8: Ysgrifennu y newidiadau i'r disg a cyflunio'r cyfrolau amgryptedig?
+Extended_description-cy.UTF-8: Cyn y gall y cyfrolau amgryptedig gael eu cyflunio rhaid ysgrifennu y cynllun rhaniadau presennol i'r disg. Nid yw'n bosib dad-wneud y newidiadau hyn.\n\nAr ôl i'r cyfrolau amgryptedig cael eu cyflunio, ni chaniateir gwneud newidiadau ychwanegol i'r rhaniadau ar y disg. Gwnewch yn siwr eich bod yn fodlon gyda'r cynllun rhaniadau presennol ar gyfer y disgiau hyn cyn parhau.\n\n${ITEMS}
+Description-da.UTF-8: Skriv ændringerne til diskene og sæt de krypterede diskenheder op?
+Extended_description-da.UTF-8: Den valgte partitionering skal skrives til diskene før de krypterede diskenheder kan sættes op. Disse ændringer kan ikke fortrydes.\n\nNår de krypterede diskenheder er sat op, er det ikke tilladt at ændre partitionerne på de diske, der indeholder krypterede diskenheder. Vær sikker på at du er tilfreds med det aktuelle partitionslayout på disse diske, inden du fortsætter.\n\n${ITEMS}
+Description-de.UTF-8: Änderungen auf die Platte schreiben und verschlüsselte Datenträger konfigurieren?
+Extended_description-de.UTF-8: Bevor verschlüsselte Datenträger konfiguriert werden können, muss die aktuelle Aufteilung der Partitionen auf die Festplatte geschrieben werden. Diese Änderungen können nicht rückgängig gemacht werden.\n\nNachdem die verschlüsselten Datenträger konfiguriert wurden, sind weitere Änderungen an Partitionen auf den Festplatten, die verschlüsselte Datenträger enthalten, nicht mehr erlaubt. Bitte überzeugen Sie sich, ob die aktuelle Einteilung der Partitionen auf diesen Festplatten richtig ist, bevor Sie fortfahren.\n\n${ITEMS}
+Description-dz.UTF-8: ཌིཀསི་ཚུ་ལུ་བསྒྱུར་བཅོས་ཚུ་བྲིས་དེ་ལས་ གསང་བཟོས་སྐད་ཤུགས་ཚུ་རིམ་སྒྲིག་འབད་ནི་ཨིན་ན?
+Extended_description-dz.UTF-8: གསང་བཟོས་སྐད་ཤུགས་ཚུ་རིམ་སྒྲིག་མ་འབད་བའི་ཧེ་མ་ད་ལྟོའི་བར་བཅད་འཆར་ལས་འདི་ཌིཀསི་ལུ་བྲིས་དགོ། བསྒྱུར་བཅོས་འདི་ཚུ་འབད་ཚར་མི་ཚུགས།\n\nགསང་བཟོས་སྐད་ཤུགས་ཚུ་རིམ་སྒྲིག་འབད་ཚར་བའི་ཤུལ་ལས་ གསང་བཟོས་སྐད་ཤུགས་ཚུ་ཡོད་པའི་ཌིཀསི་འདི་ནང་གི་བར་བཅད་ཚུ་གི་ཁ་སྐོང་བསྒྱུར་བཅོས་ཚུ་འབད་མི་ཆོག འཕྲོ་མཐུད་དེ་མ་འབད་བའི་ཧེ་མ་ ཌིཀསི་ནང་གི་ད་ལྟོའི་བར་བཅད་འཆར་ལས་དང་མཉམ་ ཁྱོད་ངལ་རང་ཡི་ག་གྲོས་ཐག་བཅད་གནང་།\n\n${ITEMS}
+Description-el.UTF-8: Να αποθηκευτούν οι αλλαγές στους δίσκους και να γίνει ρύθμιση των κρυπτογραφημένων τόμων;
+Extended_description-el.UTF-8: Προτού γίνει η ρύθμιση των κρυπτογραφημένων τόμων, το παρόν σχήμα  διαμέρισης θα πρέπει να αποθηκευτεί στο δίσκο. Αυτές οι αλλαγές δε μπορούν να αναιρεθούν.\n\nΜετά τη ρύθμιση των κρυπτογραφημένων τόμων, δεν επιτρέπονται επιπλέον αλλαγές στις κατατμήσεις των δίσκων που περιέχουν κρυπτογραφημένους τόμους. Παρακαλώ, βεβαιωθείτε ότι είσαστε ικανοποιημένος/η με το παρόν σχήμα διαμέρισης γι' αυτούς τους δίσκους πριν συνεχίσετε.\n\n${ITEMS}
+Description-eo.UTF-8: Ĉu skribi ŝanĝojn al la disko kaj agordi ĉifritajn datumportilojn?
+Extended_description-eo.UTF-8: Antaŭ ol agordi la ĉifritajn datumportilojn, la nunan diskpartig-aranĝon devas esti skribita sur la disko. Tiuj ĉi ŝanĝoj ne povos esti malfarataj.\n\nPost agordo de ĉifritaj datumportiloj, neniu plia ŝanĝo en diskparta tabelo estas permesita sur la diskoj kiuj enhavas ĉifritajn datumportilojn. Antaŭ ol daŭrigi, bonvolu certiĝi ke vi kontentas pri la nuna diskpartig-aranĝo por tiuj ĉi diskoj.\n\n${ITEMS}
+Description-es.UTF-8: ¿Desea guardar los cambios a los discos y configurar los volúmenes cifrados?
+Extended_description-es.UTF-8: Debe guardarse el esquema de particionado actual en el disco antes de que pueda configurar los volúmenes cifrados. Estos cambios no se pueden deshacer.\n\nDespués de configurar los volúmenes cifrados no podrá hacer más cambios a las particiones de los discos que contengan estos volúmenes. Por favor, asegúrese que está satisfecho con el esquema de particionado actual antes de continuar.\n\n${ITEMS}
+Description-et.UTF-8: Kas kirjutada muudatused kettale ja seadistada krüpteeritud kettaruum?
+Extended_description-et.UTF-8: Enne, kui krüpteeritud köiteid seadistada saab, tuleb praegune paritsioneerimisskeem kettale kirjutada. Neid muudatusi pole võimalik tagasi võtta.\n\nPeale krüpteeritud kettaruumi seadistamist pole mingeid muudatusi krüpteeritud kettaruumi sisaldavate ketaste partitsioonidele lubatud. Palun otsusta enne jätkamist, kas oled nende ketaste praeguse partitsioneerimisskeemiga rahul.\n\n${ITEMS}
+Description-eu.UTF-8: Aldaketak diskoan idatzi eta bolumen enkriptatuak konfiguratu?
+Extended_description-eu.UTF-8: Uneko partizio-eskema diskoan idatzi behar da bolumen enkriptatuak konfiguratu aurretik. Aldaketa horiek ezin dira desegin.\n\nBolumen enkriptatuak konfiguratu ondoren, ezin dira partizioetan aldaketa gehiagorik egin bolumen enkriptatuak dituzten diskoen partizioetan. Jarraitu aurretik erabaki gustura zauden disko hauetako uneko partizio-eskemarekin.\n\n${ITEMS}
+Description-fa.UTF-8: آیا می‌خواهید تغییرات روی دیسک رایت شود و حجم‌های پنهان شده تایید گردد؟
+Extended_description-fa.UTF-8: پیش از حجم‌های پنهان شده می‌تواند تایید شود، طرح پارتیشن بندی جاری باید بر دیسک رایت شود. این تغییرات قابل بازگشت نیستند.\n\nپس از تایید حجم‌های پنهان شده، هیچ تغییرات اضافی بر پارتیشن های روی دیسک شامل حجم‌های پنهان شده وجود نخواهد داشت. لطفا تصمیم بگیرید که می‌خواهید طرح جاری پارتیشن بندی برای این دیسک ها پیش از ادامه اجرا شود.\n\n${ITEMS}
+Description-fi.UTF-8: Tallenna muutokset levylle ja tee salattujen taltioiden asetukset?
+Extended_description-fi.UTF-8: Ennen kuin salattujen taltioiden asetukset voidaan tehdä, on nykyiset levyosiot tallennettava levyille. Näitä muutoksia ei voi perua.\n\nKun salattujen taltioiden asetukset on tehty, ei ole enää mahdollista tehdä lisämuutoksia niille osioille, ovat salattuja taltioitasisältävillä levyillä. Varmista, että nyt tehdyt levyosiot näillä levyllä ovat sellaiset kuin haluat ennen jatkamista.\n\n${ITEMS}
+Description-fr.UTF-8: Écrire les modifications sur le disque et configurer les volumes chiffrés ?
+Extended_description-fr.UTF-8: Avant que les volumes chiffrés puissent être configurés, le schéma actuel de partitionnement doit être appliqué aux disques. Ces changements seront irréversibles.\n\nUne fois les volumes chiffrés configurés, aucune modification ne peut être apportée aux tables de partitions des disques qui les contiennent. Avant de continuer, veuillez vous assurer que le schéma de partitionnement actuel de ces disques vous convient.\n\n${ITEMS}
+Description-ga.UTF-8: An bhfuil fonn ort na hathruithe a scríobh ar an diosca an imleabhair chriptithe a chumrú?
+Extended_description-ga.UTF-8: Sular féidir imleabhair chriptithe a chumrú, caithfear an scéim reatha deighilte a scríobh ar an diosca. Ní féidir na hathruithe seo a chur ar ceal.\n\nTar éis duit na himleabhair chriptithe a chumrú, ní bheidh cead agat na deighiltí ar dhioscaí ar a bhfuil imleabhair chriptithe a athrú. Bí lánchinnte go bhfuil tú sásta leis an scéim dheighilte ar na dioscaí seo sula rachaidh tú ar aghaidh.\n\n${ITEMS}
+Description-gl.UTF-8: Desexa gardar as modificacións aos discos e configurar os volumes cifrados?
+Extended_description-gl.UTF-8: Antes de poder configurar os volumes cifrados ten que se gravar no disco o esquema actual de particionamento. Estas modificacións non se poden desfacer.\n\nDespois de configurar os volumes cifrados non se han permitir máis alteracións nas particións dos discos que conteñan volumes cifrados. Decida se está satisfeito co esquema de particionamento actual destes discos antes de continuar.\n\n${ITEMS}
+Description-gu.UTF-8: ફેરફારો ડિસ્કમાં સંગ્રહશો અને પાર્ટિશનનું માપ બદલશો?
+Extended_description-gu.UTF-8: એન્ક્રપ્ટેડ કદો રુપરેખાંકિત કરી શકાય તે પહેલાં, હાલની પાર્ટિશન પધ્ધતિ ડિસ્કમાં લખાવી જ જોઇએ.  આ ફેરફારો પાછા ફેરવી શકાશે નહીં.\n\nએન્ક્રિપ્ટેડ કદો રુપરેખાંકિત થઇ ગયા પછી, સ્થાપન દરમિયાન એન્ક્રિપ્ટેડ કદો ધરાવતી ડિસ્કસમાં કોઇ વધારાનાં ફેરફારો માન્ય રાખવામાં આવશે નહી. આગળ વધતાં પહેલાં મહેરબાની કરી નક્કી કરો કે તમે હાલની આ ડિસ્કસની પાર્ટિશન પધ્ધતિ સાથે સંતોષીત છો.\n\n${ITEMS}
+Description-he.UTF-8: לכתוב את השינויים לדיסקים ולהגדיר נפחים מוצפנים?
+Extended_description-he.UTF-8: לפני שניתן יהיה להגדיר נפחים מוצפנים, הסכמה הנוכחית של החלוקה למחיצות צריכה להיכתב לדיסק. שינויים אלה אינם הפיכים.\n\nאחרי שנפחים מוצפנים הוגדרו, נאסר לעשות שינויים במחיצות שבדיסקים המכילים נפחים מוצפנים. וודא כי אתה מרוצה עם החלוקה הנוכחית למחיצות בדיסקים האלו לפני שתמשיך.\n\n${ITEMS}
+Description-hi.UTF-8: परिवर्तनों को डिस्क में लिखें और कूटबद्ध वॉल्यूमों को व्यवस्थित करें?
+Extended_description-hi.UTF-8: इससे पहले कि एनक्रिपटेड वॉल्यूमों को व्यवस्थित किया जा सके, वर्तमान पार्टिशनिंग पद्धति को डिस्क पर लिखना ही होगा. इन परिवर्तनों को वापस नहीं पाया जा सकेगा.\n\nएनक्रिपटेड वॉल्यूमों को व्यवस्थित कर दिए जाने के बाद, कूटबद्ध वॉल्यूमों को धारण करने वाले पार्टिशनों पर कोई अतिरिक्त परिवर्तन स्वाकार्य नहीं होंगे. कृपया आगे बढ़ने से पूर्व निश्चय कर लें कि आप वर्तमान पार्टिशनिंग पद्धति से संतुष्ट हैं.\n\n${ITEMS}
+Description-hr.UTF-8: Zapiši promjene na diskove i podesi enkriptirane prostore?
+Extended_description-hr.UTF-8: Prije negoli krenete podešavati enkriptirane prostore, trenutna shema particioniranja mora biti zapisana na disk. To se ne može poništiti.\n\nNakon što podesite enkriptirane prostore, više neće biti moguće dodatne promjene particija na diskovima koji sadrže enkriptirane prostore. Molim odlučite jeste li zadovoljni trenutnom shemom particioniranja na tim diskovima prije negoli nastavite.\n\n${ITEMS}
+Description-hu.UTF-8: Változások lemezre írása és titkosított kötetek konfigurálása?
+Extended_description-hu.UTF-8: A titkosított kötetek konfigurálása előtt a partíciós táblát ki kell írni. Ez visszavonhatatlan.\n\nA titkosított kötetek konfigurálása után, nem módosítható a titkosított köteteket tartalmazó lemez partíciós táblája. Ezért mérlegelni kell, hogy a jelen partíciós tábla megfelelő-e, a továbblépés előtt.\n\n${ITEMS}
+Description-id.UTF-8: Tulis perubahan ke hard disk dan pengaturan volum terenkripsi?
+Extended_description-id.UTF-8: Sebelum volum terenkripsi dapat diatur, pola partisi saat ini harus dituliskan ke hard disk. Perubahan ini tidak dapat dikembalikan.\n\nSetelah volum terenkripsi diatur, tidak boleh ada perubahan tambahan pada partisi yang berisi volum terenkripsi. Sebelum melanjutkan ke langkah berikutnya, pastikan Anda puas dengan pola partisi saat ini.\n\n${ITEMS}
+Description-is.UTF-8: Viltu skrifa breytingarnar á diskinn og breyta dulrituðu drifunum?
+Extended_description-is.UTF-8: Áður en hægt er að breyta dulrituðum drifum verður að skrifa núverandi disksneiðingarskema niður á disk. Ekki er hægt að taka aftur þær breytingar.\n\nEftir að búið er að breyta dulrituðu drifunum má ekki koma með neinar frekar breytingar á þeim disksneiðum sem innihalda dulrituð drif. Veldu hvort þú sért sáttur við núverandi skema fyrir þessa diska áður en þú heldur áfram.\n\n${ITEMS}
+Description-it.UTF-8: Scrivere le modifiche sul disco e configurare i volumi cifrati?
+Extended_description-it.UTF-8: Prima di poter configurare i volumi cifrati, l'attuale schema di partizionamento deve essere scritto sul disco. Questi cambiamenti non possono essere annullati.\n\nDopo la configurazione dei volumi cifrati non si possono più modificare le partizioni dei dischi che contengono volumi cifrati. Decidere se l'attuale partizionamento soddisfa le proprie esigenze prima di proseguire.\n\n${ITEMS}
+Description-ja.UTF-8: ディスクに変更を書き込み、暗号化ボリュームを設定しますか?
+Extended_description-ja.UTF-8: 暗号化ボリュームを設定する前に、現在のパーティショニング機構をディスクに書き込む必要があります。これらの変更は元に戻せません。\n\n暗号化ボリュームが設定されると、暗号化ボリュームを含むディスクのパーティションへの追加の変更はできません。続ける前に、これらのディスクの現在のパーティショニング機構が満足のいくものかどうか確認してください。\n\n${ITEMS}
+Description-ka.UTF-8: გსურთ ცვლილებების შენახვა დისკზე და დაშიფრული დისკწამყვანების კონფიგურაცია?
+Extended_description-ka.UTF-8: დაშიფრული დისკწამყვანების კონფიგურაციამდე,  მიმდინარე პრტიციათა სქემა დისკზე უნდა ჩაიწეროს. შემდგომში ამ ცვლილებების გაუქმება შეუძლებელი იქნება.\n\nდაშიფრული დანაყოფების კონფიგურაციის შემდეგ, დაშიფრულ დანაყოფებიან დისკზე დამატებითი ცვლიელებები შეუძლებელი იქნება. გაგრძლეებამდე დარწმუნდით, რომ დანაყოფითა მიმდინარე განლაგება მისაღებია.\n\n${ITEMS}
+Description-kk.UTF-8: Сіз өзгерістерді дискке жазып, шифрленген томды баптауды қалайсыз ба?
+Extended_description-kk.UTF-8: Шифрленген томды баптамай тұрып, бөлудің схемасын дискке жазу керек. Бұл өзгерістерді болдырмау мүмкін болмайды.\n\nШифрленген томдарды баптағаннан кейін, шифрленген томдардағы бөлімдерге ешқандай өзгеріс енгізу мүмкін болмайды. Жалғастырмас бұрын осы схеманың сізге жарайтындығына көз жеткізіңіз.\n\n${ITEMS}
+Description-km.UTF-8: សរសេរ​ការ​ផ្លាស់ប្ដូរ​ទៅ​ថាស ហើយ​កំណត់​រចនា​សម្ព័ន្ធ​ភាគ​ដែល​បាន​អ៊ិនគ្រីប ?
+Extended_description-km.UTF-8: មុននឹង​អាច​កំណត់​រចនាសម្ព័ន្ធ​ភាគ​ដែល​អ៊ិនគ្រីប​រួច​បាន អ្នក​ត្រូវ​តែ​សរសេរ​គ្រោងការណ៍​ចែក​ថាស​ជា​ភាគ​បច្ចុប្បន្ន​ទៅ​ថាស ។ អ្នក​មិន​អាច​ត្រឡប់​ក្រោយ​វិញ​​បាន​ឡើយ ។\n\nបន្ទាប់​ពីភាគ​ដែល​បានអ៊ិនគ្រីប​ត្រូវ​បាន​កំណត់​រចនាសម្ព័ន្ធ​រួច​មក គ្មាន​ការ​ផ្លាស់ប្ដូរ​បន្ថែម​ទៅ​ភាគថាស​នៅ​លើ​ថាស​​ដែល​មាន​ភាគ​ដែល​បាន​អ៊ិនគ្រីប​ត្រូវ​បាន​អនុញ្ញាត ។ សូម​សម្រេចចិត្ត​ ប្រសិន​បើ​អ្នក​ពេញចិត្ត​ជា​មួយ​នឹង​គ្រោងការណ៍​ភាគ​ថាស​បច្ចុប្បន្ន​ សម្រាប់​ថាស​ទាំង​នេះ​មុន​ពេល​បន្ត ។\n\n${ITEMS}
+Description-kn.UTF-8: ಬದಲಾವಣೆಗಳನ್ನು ಡಿಸ್ಕಿಗೆ ಬರೆಯುವುದೇ ಮತ್ತು ಗೂಡಲಿಪೀಕರಿಸಿದ ಸಂಪುಟಗಳನ್ನು ಸಂರಚಿಸುವುದೇ?
+Extended_description-kn.UTF-8: ಗೂಢಲಿಪೀಕರಿಸಿದ ಸಂಪುಟಗಳನ್ನು ಸಂರಚಿಸುವ ಮೊದಲು ಪ್ರಸ್ತುತ ವಿಭಜನಾ ಯೋಜನೆಯನ್ನು ಡಿಸ್ಕಿಗೆ ಬರೆಯಲೇಬೇಕು. ಈ ಬದಲಾವಣೆಗಳನ್ನು ನಂತರ ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.\n\nಒಮ್ಮೆ ಗೂಢಲಿಪೀಕರಿಸಿದ ಸಂಪುಟಗಳನ್ನು ಸಂರಚಿಸಿದ ನಂತರ ಗೂಢಲಿಪೀಕರಿಸಿದ ಸಂಪುಟಗಳುಳ್ಳ ಡಿಸ್ಕಿನ ವಿಭಜನೆಗಳಿಗೆ ಯಾವುದೇ ಹೆಚ್ಚುವರಿ ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಪ್ರಸ್ತುತ ಡಿಸ್ಕಿನ ವಿಭಜನಾ ಪದ್ಧತಿಯು ನಿಮಗೆ ತೃಪ್ತಿದಾಯಕವೆಂದು ಮುಂದುವರೆಯುವ ಮೊದಲು ದಯಮಾಡಿ ಖಾತ್ರಿಪಡಿಸಿ.\n\n${ITEMS}
+Description-ko.UTF-8: 바뀐 사항을 디스크에 쓰고 암호화 볼륨을 설정하시겠습니까?
+Extended_description-ko.UTF-8: 암호화 볼륨을 설정하기 전에 먼저 현재 파티션 구성을 디스크에 써야 합니다.  한번 쓰면 되돌릴 수 없습니다.\n\n암호화 볼륨을 설정하면, 그 다음에는 이 파티션이 들어있는 디스크를 바꿀 수 없습니다.  디스크의 현재 파티션 구성이 좋은지 확인한 다음 진행하십시오.\n\n${ITEMS}
+Description-ku.UTF-8: Guherandinê werin nivîsîn diskê û volumên şîfrekirî werin veavakirin?
+Extended_description-ku.UTF-8: Berê sazkirina volumên şîfrekirî, divê şablona partîsiyonkirinê bê nivîsandin diskê.  Ev guherandin nayên bizivirandin paşê.\n\nPiştî veavakirina volumên şîfrekirî, destûr nayê dayîn ku bila guherîneke din di dîskên ku volumên şîfrekirî bihundirînin were kirin. Ji kerema xwe re sax bin bê ka dabeşkirinên heyî yên li ser van dîskan gorî xwestekên te ye yan na.\n\n${ITEMS}
+Description-lo.UTF-8: ຈະບັນທຶກການປຽນແປງທັງໝົດລົງດິກ ແລ້ວຕັ້ງຄ່າໂວລ້ຳເຂົ້າລະຫັດສະຫຼັບ ຫຼື ບໍ່ ?
+Extended_description-lo.UTF-8: ກ່ອນທີ່ຈະຕັ້ງຄ່າເຂົ້າໂວລ້ຳເຂົ້າລະຫັດສະຫຼັບແລ້ວໄດ້ ຈະຕ້ອງບັນທຶກການແບ່ງພາທີຊັນປັດຈຸບັນລົງໃນດິກເສຍກ່ອນ ຊື່ງການປຽນແປງເຫຼົ່ານີ້ ບໍ່ສາມາດເອີ້ນຄືນໄດ້ອີກ\n\nເມືອຕັ້ງຄ່າເຂົ້າລະຫັດສະຫຼັບແລ້ວ ຈະບໍ່ສາມາດປຽນແປງພາທີຊັນຕ່າງໆ ໃນດິກທີ່ມີໂວລ້ຳເຂົ້າລະຫັດສະຫຼັບໄດ້ອິກ ກາລຸນາຕັດສີ້ນໃຈ ວ່າທ່ານພໍໃຈກັບການແບ່ງພາທີຊັນປະຈຸບັນໃນດິກເຫຼົ່ານີ້ແລ້ວ ກ່ອນທີ່ຈະດຳເນີນການຕໍ່ໄປ\n\n${ITEMS}
+Description-lt.UTF-8: Ar įrašyti pakeitimus į diską ir konfigūruoti šifruotus tomus?
+Extended_description-lt.UTF-8: Prieš šifruotų tomų konfigūravimą, dabartinė disko skirsnių schema turibūti įrašyta į diską. Šių pakeitimų vėliau atšaukti nebebus galima.\n\nAtlikus šifruotų tomų konfigūravimą, papildomi disko skirsnių pakeitimai diskuose, talpinančiuose šifruotus tomus, nebeleistini. Prieš tęsdami, nuspręskite, ar esate patenkint esama disko dalijimo skirsniais schema.\n\n${ITEMS}
+Description-lv.UTF-8: Ierakstīt izmaiņas diskā un konfigurēt šifrētos sējumus?
+Extended_description-lv.UTF-8: Pirms konfigurēt šifrētos sējumus, pašreizējais nodalījumu izkārtojums ir jāieraksta diskā. Šīs izmaiņas vairs nevarēs atcelt.\n\nKonfigurējot šifrētos sējumus, izmaiņas esošajos fizisko sējumu nodalījumos vairs nav atļautas. Pirms turpiniet, lūdzu, pārliecinieties, ka jūs apmierina pašreizējais nodalījumu izkārtojums.\n\n${ITEMS}
+Description-mk.UTF-8: Да ги запишам измените на диск и конфигурурам енкриптираните простори?
+Extended_description-mk.UTF-8: Пред да може да се конфигурираат енкриптираните простори, моменталната партициона шема мора да биде запишана на диск. Овие промени не може да се отповикаат.\n\nОткако ќе се конфигурираат енкриптираните простори, не се дозволени дополнителни промени на партициите во дисковите со енкриптирани простори. Те молам одлучи дали си задоволен со моменталната поставеност на партициите на овие дискови пред да продолжиш.\n\n${ITEMS}
+Description-ml.UTF-8: മാറ്റങ്ങള്‍ ഡിസ്കിലേക്ക് എഴുതി എന്‍ക്രിപ്റ്റഡ് വാള്യമുകള്‍ ക്രമീകരിക്കട്ടെ?
+Extended_description-ml.UTF-8: എന്‍ക്രിപ്റ്റഡ് വാള്യമുകള്‍ ക്രമീകരിക്കുന്നതിനു മുമ്പായി ഇപ്പോഴുള്ള വിഭജന പദ്ധതി ഡിസ്കിലേക്ക് എഴുതേണ്ടതുണ്ടു്. ഈ മാറ്റങ്ങള്‍ തിരിച്ചെടുക്കാന്‍ പറ്റാത്തവയാണ്.\n\nഎന്‍ക്രിപ്റ്റഡ് വാള്യങ്ങള്‍ ക്രമീകരിച്ചതിന് ശേഷം എന്‍ക്രിപ്റ്റഡ് വാള്യങ്ങള്‍ ഉള്‍​ക്കൊള്ളുന്ന ഡിസ്കിലെ ഭാഗങ്ങളില്‍ കൂടുതല്‍ മാറ്റങ്ങള്‍ അനുവദിക്കുന്നതല്ല. തുടരുന്നതിനു് മുന്‍പ് ഈ ഡിസ്കുകള്‍ക്കായുള്ള വിഭജന പദ്ധതിയില്‍ നിങ്ങള്‍ സംതൃപ്തരാണോ എന്നു് ദയവായി തീരുമാനിയ്ക്കുക.\n\n${ITEMS}
+Description-mr.UTF-8: हे बदल हार्डडीस्कवर लिहून संकेताधारित खंडांची संरचना करायची?
+Extended_description-mr.UTF-8: संकेताधारित खंडांची संरचना करता येण्यापूर्वी, सध्याची विभाजन योजना डीस्कवर लिहिली पाहिजे. हे बदल पुन्हा पूर्ववत करता येणार नाहीत.\n\nसंकेताधारित खंड संरचित झाल्यावर संकेताधारित खंड असलेल्या डिस्कस् वरील विभाजनांमधे नंतर आणखी कोणतेही बदल करण्याची अनुमती नाही. पुढे जाण्यापूर्वी, या डिस्कस् साठीच्या सध्याच्या विभाजन योजनेबद्दल आपण समाधानी असल्याची निश्चिती करून घ्या.\n\n${ITEMS}
+Description-nb.UTF-8: Vil du skrive endringene til disk og sette opp krypterte dataområder?
+Extended_description-nb.UTF-8: Før krypterte dataområder kan settes opp må partisjoneringsoppsettet skrives til harddisk. Du kan ikke angre disse endringene.\n\nEtter at krypterte dataområder er satt opp, kan man ikke gjøre flere endringer på partisjonene på enhetene som inneholder krypterte dataområder. Sjekk at du er fornøyd med partisjonsoppsettet på disse enhetene før du fortsetter.\n\n${ITEMS}
+Description-ne.UTF-8: डिस्कमा परिवर्तनहरू लेख्नुहुन्छ र गुप्तिकृत भोल्युमहरू कनफिगर गर्नुहुन्छ ?
+Extended_description-ne.UTF-8: गुप्तीकृत भोल्युमहरू कन्फिगर हुनु पहिले, हालको विभाजन योजना डिस्कमा लेखिनु पर्दछ । यो परिवर्तनहरू पूर्वस्थितिमा फर्कन सक्दैन ।\n\nगुप्तिकृत भोल्युमहरू कनफिगर भएपछि, गुप्तिकृत भोल्युमहरू समाविष्ट भएको डिस्कमा विभाजनहरुमा कुनै थप परिवर्तनहरू अनुमति हुने छैन । कृपया यदि तपाईँ निरन्तरता दिनु अघि यी डिस्कहरुका लागि हालको विभाजन सँग सन्तुष्ट हुनुहुन्छ भन्ने निर्णय गर्नुहोस् ।\n\n${ITEMS}
+Description-nl.UTF-8: Veranderingen naar de schijven wegschrijven en versleutelde volumes instellen?
+Extended_description-nl.UTF-8: Voordat de versleutelde volumes ingesteld kunnen worden dient het huidige schijfindelingsschema naar de schijf weggeschreven te worden. Deze aanpassingen kunnen niet ongedaan gemaakt worden.\n\nVerdere veranderingen aan de partities van schijven met versleutelde volumes zijn niet toegestaan nadat de versleutelde volumes ingesteld zijn. Controleer of het huidige schijfindelingsschema is wat u wilt voordat u verder gaat.\n\n${ITEMS}
+Description-nn.UTF-8: Vil du skrive endringane til disk og setje opp krypterte dataområde?
+Extended_description-nn.UTF-8: Før krypterte dataområde kan setjast opp må partisjoneringsoppsettet skrivast til harddisk. Desse endringane kan du ikkje angre.\n\nNår krypterte dataområde er sett opp kan du ikkje gjere fleire endringar på partisjonane på harddiskar som inneheld krypterte dataområde. Forviss deg om at du er nøgd med den gjeldande partisjoneringa på desse harddiskane før du held fram.\n\n${ITEMS}
+Description-no.UTF-8: Vil du skrive endringene til disk og sette opp krypterte dataområder?
+Extended_description-no.UTF-8: Før krypterte dataområder kan settes opp må partisjoneringsoppsettet skrives til harddisk. Du kan ikke angre disse endringene.\n\nEtter at krypterte dataområder er satt opp, kan man ikke gjøre flere endringer på partisjonene på enhetene som inneholder krypterte dataområder. Sjekk at du er fornøyd med partisjonsoppsettet på disse enhetene før du fortsetter.\n\n${ITEMS}
+Description-pa.UTF-8: ਕੀ ਡਿਸਕ ਉੱਤੇ ਤਬਦੀਲੀਆਂ ਲਿਖਣੀਆਂ ਅਤੇ ਇੰਕ੍ਰਿਪਟਡ ਵਾਲੀਅਮ ਸੰਰਚਿਤ ਕਰਨੇ ਹਨ?
+Extended_description-pa.UTF-8: ਇੰਕ੍ਰਿਪਟਡ ਵਾਲੀਅਮ ਸੰਰਚਿਤ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ, ਮੌਜੂਦਾ ਪਾਰਟੀਸ਼ਨਿੰਗ ਸਕੀਮ ਡਿਸਕ ਤੇ ਲਿਖੀ ਹੋਵੇ। ਇਹ ਤਬਦੀਲੀਆਂ ਰੱਦ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕਦੀਆਂ।\n\nਇੰਕ੍ਰਿਪਟਡ ਵਾਲੀਅਮ ਮੈਨੇਜਰ ਸੰਰਚਿਤ ਕਰਨ ਤੋਂ ਬਾਅਦ ਇੰਕ੍ਰਿਪਟਿਡ ਵਾਲੀਅਮ ਵਾਲੀ ਡਿਸਕ ਤੇ ਭਾਗਾਂ ਵਿੱਚ ਕੋਈ ਤਬਦੀਲੀ ਨਹੀਂ ਕੀਤੀ ਨਹੀਂ ਜਾ ਸਕਦੀ। ਇਹ ਫੈਸਲਾ ਕਰੋ ਕਿ ਜਾਰੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਤੁਸੀਂ ਇਹਨਾ ਡਿਸਕਾਂ ਤੇ ਮੌਜੂਦਾ ਪਾਰਟੀਸ਼ਨਿੰਗ ਸਕੀਮ ਨਾਲ ਸਹਿਮਤ ਹੋ।\n\n${ITEMS}
+Description-pl.UTF-8: Zapisać zmiany do dysków i skonfigurować szyfrowane woluminy?
+Extended_description-pl.UTF-8: Zanim szyfrowany wolumin będzie mógł zostać skonfigurowany, aktualny schemat partycjonowania musi zostać zapisany na dysku. Zmian tych nie można cofnąć.\n\nKiedy szyfrowane woluminy są skonfigurowane, niedozwolone są jakiekolwiek dodatkowe zmiany na dyskach zawierających te woluminy. Przed kontynuacją, upewnij się, że aktualny schemat partycji jest odpowiedni na tych dyskach.\n\n${ITEMS}
+Description-pt.UTF-8: Escrever as alterações no disco e configurar os volumes encriptados?
+Extended_description-pt.UTF-8: Antes dos volumes encriptados poderem ser configurados, o actual esquema de particionamento tem de ser escrito para o disco. Essas alterações não podem ser desfeitas.\n\nApós terem sido configurados os volumes encriptados, não será permitida nenhuma alteração adicional nas partições dos discos que contêm os volumes encriptados. Por favor decida se está satisfeito com o esquema actual de particionamento para estes discos antes de continuar.\n\n${ITEMS}
+Description-pt_BR.UTF-8: Gravar as mudanças no disco e configurar volumes criptografados?
+Extended_description-pt_BR.UTF-8: Antes que os volumes criptografados possam ser configurados, o esquema de particionamento atual precisa ser gravado em disco. Essas mudanças não poderão ser desfeitas.\n\nDepois que os volumes criptografados forem configurados, nenhuma mudança adicional nas partições dos discos que contêm os volumes criptografados será permitida. Por favor, decida se você está satisfeito com o esquema de particionamento atual nesses discos antes de continuar.\n\n${ITEMS}
+Description-ro.UTF-8: Se scriu schimbările pe disc și se configurează volumele criptate?
+Extended_description-ro.UTF-8: Înainte ca volumele criptate să poată fi configurate, schema de partiționare curentă trebuie scrisă pe disc. Aceste schimbări nu pot fi anulate.\n\nDupă ce volumele criptate vor fi configurate, nu mai sunt permise alte schimbări pe discurile care conțin volume criptate. Vă rugăm să vă decideți dacă schema de partiționare este cea finală pentru aceste discuri înainte de a continua.\n\n${ITEMS}
+Description-ru.UTF-8: Записать изменения на диск и настроить шифрование томов?
+Extended_description-ru.UTF-8: Перед настройкой шифрования томов нужно записать информацию о разделах на диск. Эти изменения будет невозможно отменить.\n\nПосле настройки шифрования томов больше нельзя изменять разметку диска, содержащих шифрованные тома. Прежде чем продолжить настройку, убедитесь, что вы довольны текущей разметкой дисков.\n\n${ITEMS}
+Description-si.UTF-8: වෙනස්කම් තැටියට සටහන් කර ගුප්තකේතන වෙළුම් සකසන්නද?
+Extended_description-si.UTF-8: ගුප්තකේතිත වෙළුම් සැකසීමට පෙර, වත්මන් කොටස්කරණ ආකෘතිය තැටියට ලිවිය යුතුයි. මෙම වෙනස්කම් අවලංගු කල නොහැක.\n\nගුප්තකේතිත වෙළුම් සැකසූ පසු, එම කොටස් සඳහා අමතර කිසිඳු වෙනස්කමක් පිළිනොගැනේ. කරුණාකර ඉදිරියට යාමට පෙර වත්මන් කොටස්කරණ ක්‍රමය සමඟ සෑහීමකට පත්වේදැයි තීරණය කරන්න.\n\n${ITEMS}
+Description-sk.UTF-8: Zapísať zmeny na disk a nastaviť šifrované zväzky?
+Extended_description-sk.UTF-8: Pred nastavením šifrovaných zväzkov sa musí na disk uložiť aktuálna schéma rozdelenia. Tieto zmeny sú nevratné.\n\nPo nastavení šifrovaných zväzkov už nebudú možné žiadne ďalšie zmeny na oblastiach diskov obsahujúcich šifrované zväzky. Prosím, pred pokračovaním sa uistite, že ste spokojní s aktuálnym rozložením oblastí na týchto diskoch.\n\n${ITEMS}
+Description-sl.UTF-8: Želite zapisati spremembe na disk in nastaviti šifrirane nosilce?
+Extended_description-sl.UTF-8: Preden nastavite šifrirane nosilce, morate trenutno shemo razdelkov zapisati na trdi disk.  Teh sprememb se ne da razveljaviti.\n\nPotem ko nastavite šifrirane nosilce, niso dovoljene nobene spremembe razdelkov trdih diskov, ki vsebujejo šifrirane nosilce. Pred nadaljevanjem se prepričajte, da ste zadovoljni s trenutno shemo razdelkov na diskih.\n\n${ITEMS}
+Description-sq.UTF-8: T'i kryej ndryshimet në disk dhe t'i konfiguroj volumet e kriptuara?
+Extended_description-sq.UTF-8: Përpara se volumet e kriptuara të konfiguroheshin, skema e tanishme e ndarjes duhet shkruar në disk.  Këto ndryshime nuk mund të zhbëhen.\n\nPasi volumet e kriptuara të jenë konfiguruar, nuk lejohen më ndryshime shtesë në disqet që përmbajnë volumet e kriptuar. Të lutem sigurohu nëse je i kënaqur me skemën e tanishme të ndarjes për këto disqe përpara se të vazhdosh.\n\n${ITEMS}
+Description-sr.UTF-8: Записати измене на диск и конфигурисати енкриптовани волумен?
+Extended_description-sr.UTF-8: Пре него што енкриптовани волумени могу бити конфигурисани, тренутна партициона шема мора бити записана на диск.  Ове промене се не могу поништити.\n\nНакон конфигурације енкриптованих волумена, нису дозвољене додатне измене на партицијама дискова који садрже енкриптоване волумене. Одлучите да ли сте задовољни тренутном партиционом шемом за ове дискове пре него што наставите.\n\n${ITEMS}
+Description-sv.UTF-8: Skriv ändringarna till diskarna och konfigurera krypterade volymer?
+Extended_description-sv.UTF-8: Innan den krypterade volymen kan konfigureras måste den nuvarande partitioneringsplanen skrivas till disk. De här ändringarna kan man inte ångra.\n\nEfter att de krypterade volymerna har konfigurerats kommer inga ytterligare ändringar på partitionerna på de diskar som innehåller krypterade volymer att tillåtas. När du är nöjd med den aktuella partitioneringsplanen för de här diskarna kan du fortsätta.\n\n${ITEMS}
+Description-ta.UTF-8: மாறுதல்களை சேமிப்பு சாதனங்களில் எழுதி மறைகுறியாக்கப்பட்ட தொகுதிகளை வடிவமைக்கவா?
+Extended_description-ta.UTF-8: மறைகுறியாக்கப்பட்ட தொகுதி மேலாளரை வடிவமைக்கும் முன்னால் தற்போதய பகிர்வு உருவமைப்பு வன் வட்டுக்கு எழுதப்பட வேண்டும். இந்த மாறுதல்களை மீட்க இயலாது.\n\nமறைகுறியாக்கப்பட்ட தொகுதிகள் வடிவமைக்கப்பட்ட பின் அத் தொகுதிகள் உள்ள வன்வட்டின் பகிர்வு உருவமைப்பில் கூடுதல் மாறுதல்களை செய்ய இயலாது. ஆகவே தொடரும் முன் வன்வட்டுக்களின் தற்போதய பகிர்வு உருவமைப்பு உங்களுக்கு திருப்தியாக உள்ளதா என உறுதி செய்து கொள்ளுங்கள்.\n\n${ITEMS}
+Description-te.UTF-8: మార్పులు  డిస్క్ లలో   వ్రాసి  ఆ తరువాత   Encrypted volumes అమరిక చేయాలా?
+Extended_description-te.UTF-8: Encrypted volumes అమరిక ముందు, ప్రస్తుత విభజన పద్ధతి  డిస్క్ లో  వ్రాయాలి. ఈ మార్పులు రద్దు చేయుటవీలుకాదు.\n\nEncrypted volumes అమరిక అయిన తరువాత, డిస్క్ లలో   Encrypted volumes లోని విభజనలలో అదనపు మార్పులు అనుమతించబడవు. కొనసాగించే ముందు, ఈ  విభజన పద్ధతితో సంతృప్తి పడ్డారని   అంగీకరించండి.\n\n${ITEMS}
+Description-tg.UTF-8: Тағйиротро ба диск менависед ва ҳаҷмҳои рамздорро танзим мекунед?
+Extended_description-tg.UTF-8: Пеш аз конфигуратсия шудани ҳаҷмҳои рамздор, схемаи қисмбандиии ҷорӣ бояд ба диск навишта шавад. Ин тағйирот наметавонад ботил сохта шавад.\n\nБаъд аз конфигуратсия шудани ҳаҷмҳои рамздор, ягон тағйироти иловагӣ ба қисмҳои диск дар дискҳо бо ҳаҷмҳои рамздор иҷозат дода намешавад. Лутфан, пеш аз идомадиҳӣ мутмаин шавед, ки шумо бо схемаи ҷисмбандии ҷорӣ розӣ мебошед.\n\n${ITEMS}
+Description-th.UTF-8: จะบันทึกการเปลี่ยนแปลงทั้งหมดลงดิสก์ แล้วตั้งค่าโวลุมเข้ารหัสลับหรือไม่?
+Extended_description-th.UTF-8: ก่อนที่จะตั้งค่าโวลุมเข้ารหัสลับได้ จะต้องบันทึกการแบ่งพาร์ทิชันปัจจุบันลงในดิสก์เสียก่อน ซึ่งการเปลี่ยนแปลงเหล่านี้ ไม่สามารถเรียกคืนได้อีก\n\nเมื่อตั้งค่าโวลุมเข้ารหัสลับแล้ว จะไม่สามารถเปลี่ยนแปลงพาร์ทิชันต่างๆ ในดิสก์ที่มีโวลุมเข้ารหัสลับได้อีก กรุณาตัดสินใจ ว่าคุณพอใจกับการแบ่งพาร์ทิชันปัจจุบันในดิสก์เหล่านี้แล้ว ก่อนที่จะดำเนินการต่อไป\n\n${ITEMS}
+Description-tl.UTF-8: Isulat ang mga pagbabago sa mga disk at magsaayos encrypted na volume?
+Extended_description-tl.UTF-8: Bago maisaayos ang mga encrypted na volume, kailangan maisulat sa disk ang kasalukuyang pagkaayos ng mga partisyon.  Hindi maaaring ibawi ang mga pagbabagong ito.\n\nMatapos maisaayos ang encrypted na volume, walang karagdagang pagbabago sa mga partisyon sa mga disk na naglalaman ng mga pisikal na volume ay pahihintulutan. Magpasiya kayo kung kuntento na kayo sa kasalukuyang nakatakdang pag-partisyon sa mga disk na ito bago kayo magpatuloy.\n\n${ITEMS}
+Description-tr.UTF-8: Değişiklikler diske kaydedilerek şifrelenmiş ciltler yapılandırılsın mı?
+Extended_description-tr.UTF-8: Şifrelenmiş ciltler yapılandırılmadan önce mevcut bölümleme şeması diske kaydedilmelidir. Bu değişiklikler geri alınamaz.\n\nŞifrelenmiş ciltler yapılandırıldıktan sonra, şifrelenmiş cilt içeren disklerdeki bölümler üzerinde ek bir değişikliğe izin verilmez. Lütfen devam etmeden önce bu disklerdeki mevcut bölümlemenin isteğinize uygun şekilde yapıldığından emin olun.\n\n${ITEMS}
+Description-ug.UTF-8: ئۆزگەرتىشنى دىسكىغا يېزىپ، شىفىرلىق دىسكىنى سەپلەمسىز؟
+Extended_description-ug.UTF-8: شىفىرلىق دىسكا سەپلىنىشتىن بۇرۇن، نۆۋەتتىكى رايون لايىھىسىنى دىسكىغا يېزىش كېرەك. بۇ ئۆزگەرتىشلەردىن يېنىۋالالمايسىز.\n\nشىفىرلىق دىسكا تەڭشىكى تاماملانسىلا، شىفىرلىق دىسكىنى ئۆز ئىچىگە ئالغان دىسكىدىكى رايونغا ئوشۇقچە ئۆزگەرتىش ئېلىپ بېرىشقا يول قويۇلمايدۇ. شۇڭا، كېيىنكى مەشغۇلاتنى ئېلىپ بېرىشتىن ئىلگىرى، بۇ دىسكىلاردىكى نۆۋەتتىكى رايون لايىھىسىگە رازى ئىكەنلىكىڭىزنى جەزملەڭ.\n\n${ITEMS}
+Description-uk.UTF-8: Записати зміни на диски та налаштувати зашифровані томи?
+Extended_description-uk.UTF-8: Перед налаштуванням зашифрованих томів необхідно записати поточну схему розділів на диск. Ці зміни неможливо буде відмінити.\n\nПісля налаштування зашифрованих томів, не можна робити зміни до розділів на дисках з зашифрованими томами. Перед продовженням впевніться, що ви задоволені поточною конфігурацією розділів на цих дисках.\n\n${ITEMS}
+Description-vi.UTF-8: Ghi các thay đổi vào đĩa và cấu hình các khối tin đã mật mã không?
+Extended_description-vi.UTF-8: Trước khi các khối tin đã mật mã có thể được cấu hình, lược đồ phân vùng hiện thời phải được ghi vào đĩa. Các thay đổi này không thể được hoàn tác.\n\nSau khi các khối tin đã mật mã đã được cấu hình, không cho phép thay đổi thêm nào trong phân vùng nằm trên đĩa chứa khối tin đã mật mã. Hãy quyết định nếu bạn thấy lược đồ phân vùng hiện thời trong những đĩa này là ổn dáng trước khi tiếp tục.\n\n${ITEMS}
+Description-zh_CN.UTF-8: 将修改写入磁盘并配置加密卷吗？
+Extended_description-zh_CN.UTF-8: 必须先将当前的分区方案写入磁盘，然后才能开始对加密卷进行配置。这些改动将不再可以撤消。\n\n一旦加密卷设置完成，就不允许再对包含加密卷的磁盘上的分区进行额外的改动。因此，在进行下一步操作之前，请您确认是否真的满意这些磁盘上当前的分区方案。\n\n${ITEMS}
+Description-zh_TW.UTF-8: 是否要將這些變更寫入磁碟中並設定加密的 Volume？
+Extended_description-zh_TW.UTF-8: 必須先將目前的磁碟分割結果寫入磁碟中，然後才能對加密的 Volume 進行設定。這些變更將無法還原。\n\n一旦加密的 Volume 設定完成，就不能再對磁碟中包含了加密的 Volume 的分割區進行任何其它的變更了。因此，在繼續之前請確認您是否已決定採用目前這些磁碟所採取的分割方式。\n\n${ITEMS}
+
+Name: partman-crypto/confirm_nochanges
+Type: boolean
+Default: false
+Description: Keep current partition layout and configure encrypted volumes?
+Extended_description: After the encrypted volumes have been configured, no additional changes to the partitions on the disks containing encrypted volumes are allowed. Please decide if you are satisfied with the current partitioning scheme for these disks before continuing.
+Description-ar.UTF-8: إبقاء مخطط التجزئة الحالي وتهيئة الكتل المشفرة؟
+Extended_description-ar.UTF-8: بعد الانتهاء من تهيئة الكتل المشفّرة، لا يسمح بالقيام بأي تغييرات إضافية على الأقراص المحتوية للكتل المشفّرة. الرجاء اتخاذ القرار فيما إذا كنت راضياً عن مخطّط التجزئة الحالي في هذه الأقراص قبل الاستمرار.
+Description-ast.UTF-8: ¿Mantener disposición de partición actual y configurar volúmenes encriptaos?
+Extended_description-ast.UTF-8: Una vez configures los volúmenes encriptaos, nun tarán permitidos cambios adicionales a les particiones nos discos que caltienen los volúmenes encriptaos. Por favor, decide si tas d'acuerdo col esquema de particionáu actual pa esos discos anantes de siguir.
+Description-be.UTF-8: Запісаць актуальную схему падзелаў на дыск і наладзіць шыфраваныя тамы?
+Extended_description-be.UTF-8: Пасля наладкі шыфраваных тамоў нельга будзе дадаткова змяняць ніякіх падзелаў на дысках, дзе месцяцца шыфраваныя тамы. Перад працягам пераканайцеся, што Вас задавальняе актуальная схема падзелу гэтых дыскаў.
+Description-bg.UTF-8: Записване на разположението на дяловете и настройване на шифрирани томове?
+Extended_description-bg.UTF-8: След като шифрираните томове са вече настроени, не са позволени допълнителни промени на дяловете в дисковете, съдържащи шифрирани томове. Моля, решете дали текущата схема на разделянето е задоволителна преди да продължите.
+Description-bn.UTF-8: সাম্প্রতিক পার্টিশন বিন্যাস অপরিবর্তিত রেখে এনক্রিপ্টেড ভলিউম কনফিগার করবো কি?
+Extended_description-bn.UTF-8: এনক্রিপ্টেড ভলিউম কনফিগার করার পর এনক্রিপটেড ভলিউম সংশ্লিষ্ট ডিস্কের পার্টিশন বিন্যাসে বাড়তি কোন পরিবর্তন যোগ করা যাবে না। সামনে এগিয়ে যাওয়ার আগে অনুগ্রহপূর্বক নিশ্চিত হন যে, এই ডিস্কগুলোর বর্তমান পার্টিশন বিন্যাস নিয়েই আপনি সন্তুষ্ট।
+Description-bs.UTF-8: Zadržati trenutni particioni raspored i podesiti enkriptovane particije?
+Extended_description-bs.UTF-8: Nakon što su enkriptovane particije podešene, dodatne promjene nad particijama nad particijama koji sadrže enkriptovane particije nisu dozvoljene. Molim odlučite da li ste zadovoljni sa trenutnom particionom šemom na ovim diskovima prije nego nastavite.
+Description-ca.UTF-8: Voleu mantindre la disposició de particions actual i configurar els volums xifrats?
+Extended_description-ca.UTF-8: Quan els volums xifrats estiguen configurats, no es permetran canvis addicionals a les particions dels discs que continguen volums xifrats. Assegureu-vos que esteu satisfets amb l'esquema de particions actual d'aquests discs abans de continuar.
+Description-cs.UTF-8: Ponechat stávající rozložení oblastí a nastavit šifrované svazky?
+Extended_description-cs.UTF-8: Po nastavení šifrovaných svazků již nebudete moci zasahovat do oblastí ležících na stejných discích, jako šifrované svazky. Ujistěte se, že jste s nynějším rozdělením těchto disků spokojeni.
+Description-cy.UTF-8: Cadw y cynllun rhaniadau presennol a cyflunio cyfrolau amgryptedig?
+Extended_description-cy.UTF-8: Ar ôl i'r cyfrolau amgryptedig cael eu cyflunio, ni chaniateir gwneud newidiadau ychwanegol i'r rhaniadau ar y disg. Gwnewch yn siwr eich bod yn fodlon gyda'r cynllun rhaniadau presennol ar gyfer y disgiau hyn cyn parhau.
+Description-da.UTF-8: Bevar nuværende partitionslayout og sæt krypterede diskenheder op?
+Extended_description-da.UTF-8: Når de krypterede diskenheder er sat op, er det ikke tilladt at ændre partitionerne på de diske, der indeholder krypterede diskenheder. Vær sikker på at du er tilfreds med det aktuelle partitionslayout på disse diske, inden du fortsætter.
+Description-de.UTF-8: Aktuelle Einteilung der Partitionen beibehalten und verschlüsselte Datenträger konfigurieren?
+Extended_description-de.UTF-8: Nachdem die verschlüsselten Datenträger konfiguriert wurden, sind weitere Änderungen an Partitionen auf den Festplatten, die verschlüsselte Datenträger enthalten, nicht mehr erlaubt. Bitte überzeugen Sie sich, ob die aktuelle Einteilung der Partitionen auf diesen Festplatten richtig ist, bevor Sie fortfahren.
+Description-dz.UTF-8: ད་ལྟོའི་བར་བཅད་སྒྲིག་བཀོད་འབད་བཞག་ནི་དང་གསང་བཟོས་སྐད་ཤུགས་ཚུ་རིམ་སྒྲིག་འབད?
+Extended_description-dz.UTF-8: གསང་བཟོས་སྐད་ཤུགས་ཚུ་རིམ་སྒྲིག་འབད་ཚར་བའི་ཤུལ་ལས་ གསང་བཟོས་སྐད་ཤུགས་ཚུ་ཡོད་པའི་ཌིཀསི་འདི་ནང་གི་བར་བཅད་ཚུ་གི་ཁ་སྐོང་བསྒྱུར་བཅོས་ཚུ་འབད་མི་ཆོག འཕྲོ་མཐུད་དེ་མ་འབད་བའི་ཧེ་མ་ ཌིཀསི་ནང་གི་ད་ལྟོའི་བར་བཅད་འཆར་ལས་དང་མཉམ་ ཁྱོད་ངལ་རང་ཡི་ག་གྲོས་ཐག་བཅད་གནང་།
+Description-el.UTF-8: Να διατηρηθεί το παρόν περίγραμμα διαμέρισης και να ρυθμιστούν οι κρυπτογραφημένοι τόμοι;
+Extended_description-el.UTF-8: Μετά τη ρύθμιση των κρυπτογραφημένων τόμων, δεν επιτρέπονται επιπλέον αλλαγές στις κατατμήσεις των δίσκων που περιέχουν κρυπτογραφημένους τόμους. Παρακαλώ, βεβαιωθείτε ότι είσαστε ικανοποιημένος/η με το παρόν σχήμα διαμέρισης γι' αυτούς τους δίσκους πριν συνεχίσετε.
+Description-eo.UTF-8: Ĉu teni nunan diskpartig-aranĝon kaj agordi ĉifritajn datumportilojn?
+Extended_description-eo.UTF-8: Post agordo de ĉifritaj datumportiloj, neniu plia ŝanĝo en diskparta tabelo estas permesita sur la diskoj kiuj enhavas ĉifritajn datumportilojn. Antaŭ ol daŭrigi, bonvolu certiĝi ke vi kontentas pri la nuna diskpartig-aranĝo por tiuj ĉi diskoj.
+Description-es.UTF-8: ¿Desea mantener la distribución de particiones existente y configurar los volúmenes cifrados?
+Extended_description-es.UTF-8: Después de configurar los volúmenes cifrados no podrá hacer más cambios a las particiones de los discos que contengan estos volúmenes. Por favor, asegúrese que está satisfecho con el esquema de particionado actual antes de continuar.
+Description-et.UTF-8: Kas jätta praegune partitsioonide paigutus ja seadistada krüpteeritud kettaruum?
+Extended_description-et.UTF-8: Peale krüpteeritud kettaruumi seadistamist pole mingeid muudatusi krüpteeritud kettaruumi sisaldavate ketaste partitsioonidele lubatud. Palun otsusta enne jätkamist, kas oled nende ketaste praeguse partitsioneerimisskeemiga rahul.
+Description-eu.UTF-8: Uneko partizio-diseinua mantendu eta bolumen enkriptatuak konfiguratu?
+Extended_description-eu.UTF-8: Bolumen enkriptatuak konfiguratu ondoren, ezin dira partizioetan aldaketa gehiagorik egin bolumen enkriptatuak dituzten diskoen partizioetan. Jarraitu aurretik erabaki gustura zauden disko hauetako uneko partizio-eskemarekin.
+Description-fa.UTF-8: لایه پارتیشن جاری و تایید حجم‌های پنهان نگهداشته شود؟  
+Extended_description-fa.UTF-8: پس از تایید حجم‌های پنهان شده، هیچ تغییرات اضافی بر پارتیشن های روی دیسک شامل حجم‌های پنهان شده وجود نخواهد داشت. لطفا تصمیم بگیرید که می‌خواهید طرح جاری پارتیشن بندی برای این دیسک ها پیش از ادامه اجرا شود.
+Description-fi.UTF-8: Säilytä nykyiset levyosiot ja tee salattujen taltioiden asetukset?
+Extended_description-fi.UTF-8: Kun salattujen taltioiden asetukset on tehty, ei ole enää mahdollista tehdä lisämuutoksia niille osioille, ovat salattuja taltioitasisältävillä levyillä. Varmista, että nyt tehdyt levyosiot näillä levyllä ovat sellaiset kuin haluat ennen jatkamista.
+Description-fr.UTF-8: Conserver cette organisation des partitions et configurer les volumes chiffrés ?
+Extended_description-fr.UTF-8: Une fois les volumes chiffrés configurés, aucune modification ne peut être apportée aux tables de partitions des disques qui les contiennent. Avant de continuer, veuillez vous assurer que le schéma de partitionnement actuel de ces disques vous convient.
+Description-ga.UTF-8: An bhfuil fonn ort leagan amach na ndeighiltí a choinneáil agus imleabhair chriptithe a chumrú?
+Extended_description-ga.UTF-8: Tar éis duit na himleabhair chriptithe a chumrú, ní bheidh cead agat na deighiltí ar dhioscaí ar a bhfuil imleabhair chriptithe a athrú. Bí lánchinnte go bhfuil tú sásta leis an scéim dheighilte ar na dioscaí seo sula rachaidh tú ar aghaidh.
+Description-gl.UTF-8: Desexa conservar o esquema de particionamento actual e configurar os volumes cifrados?
+Extended_description-gl.UTF-8: Despois de configurar os volumes cifrados non se han permitir máis alteracións nas particións dos discos que conteñan volumes cifrados. Decida se está satisfeito co esquema de particionamento actual destes discos antes de continuar.
+Description-gu.UTF-8: હાલની પાર્ટિશન પધ્ધતિ એમ જ રાખશો અને એન્ક્રિપ્ટેડ કદો રૂપરેખાંકિત કરશો?
+Extended_description-gu.UTF-8: એન્ક્રિપ્ટેડ કદો રુપરેખાંકિત થઇ ગયા પછી, સ્થાપન દરમિયાન એન્ક્રિપ્ટેડ કદો ધરાવતી ડિસ્કસમાં કોઇ વધારાનાં ફેરફારો માન્ય રાખવામાં આવશે નહી. આગળ વધતાં પહેલાં મહેરબાની કરી નક્કી કરો કે તમે હાલની આ ડિસ્કસની પાર્ટિશન પધ્ધતિ સાથે સંતોષીત છો.
+Description-he.UTF-8: לשמור את הפריסה הקיימת של המחיצות ולהגדיר נפחים מוצפנים?
+Extended_description-he.UTF-8: אחרי שנפחים מוצפנים הוגדרו, נאסר לעשות שינויים במחיצות שבדיסקים המכילים נפחים מוצפנים. וודא כי אתה מרוצה עם החלוקה הנוכחית למחיצות בדיסקים האלו לפני שתמשיך.
+Description-hi.UTF-8: वर्तमान पार्टिशनिंग अभिन्यास को रखते हुए और एनक्रिप्टेड वॉल्यूमों को व्यवस्थित करें?
+Extended_description-hi.UTF-8: एनक्रिपटेड वॉल्यूमों को व्यवस्थित कर दिए जाने के बाद, कूटबद्ध वॉल्यूमों को धारण करने वाले पार्टिशनों पर कोई अतिरिक्त परिवर्तन स्वाकार्य नहीं होंगे. कृपया आगे बढ़ने से पूर्व निश्चय कर लें कि आप वर्तमान पार्टिशनिंग पद्धति से संतुष्ट हैं.
+Description-hr.UTF-8: Zadrži trenutni raspored particija i podesi enkriptirane prostore?
+Extended_description-hr.UTF-8: Nakon što podesite enkriptirane prostore, više neće biti moguće dodatne promjene particija na diskovima koji sadrže enkriptirane prostore. Molim odlučite jeste li zadovoljni trenutnom shemom particioniranja na tim diskovima prije negoli nastavite.
+Description-hu.UTF-8: Megtartod e particionálást és konfigurálod a titkosított köteteket?
+Extended_description-hu.UTF-8: A titkosított kötetek konfigurálása után, nem módosítható a titkosított köteteket tartalmazó lemez partíciós táblája. Ezért mérlegelni kell, hogy a jelen partíciós tábla megfelelő-e, a továbblépés előtt.
+Description-id.UTF-8: Jaga pola partisi yang ada dan pengaturan volum terenkripsi?
+Extended_description-id.UTF-8: Setelah volum terenkripsi diatur, tidak boleh ada perubahan tambahan pada partisi yang berisi volum terenkripsi. Sebelum melanjutkan ke langkah berikutnya, pastikan Anda puas dengan pola partisi saat ini.
+Description-is.UTF-8: Halda núverandi disksneiðum og breyta dulrituðu drifunum?
+Extended_description-is.UTF-8: Eftir að búið er að breyta dulrituðu drifunum má ekki koma með neinar frekar breytingar á þeim disksneiðum sem innihalda dulrituð drif. Veldu hvort þú sért sáttur við núverandi skema fyrir þessa diska áður en þú heldur áfram.
+Description-it.UTF-8: Mantenere l'attuale partizionamento e configurare i volumi cifrati?
+Extended_description-it.UTF-8: Dopo la configurazione dei volumi cifrati non si possono più modificare le partizioni dei dischi che contengono volumi cifrati. Decidere se l'attuale partizionamento soddisfa le proprie esigenze prima di proseguire.
+Description-ja.UTF-8: 現在のパーティションレイアウトを保持して、暗号化ボリュームを設定しますか?
+Extended_description-ja.UTF-8: 暗号化ボリュームが設定されると、暗号化ボリュームを含むディスクのパーティションへの追加の変更はできません。続ける前に、これらのディスクの現在のパーティショニング機構が満足のいくものかどうか確認してください。
+Description-ka.UTF-8: გსურთ დანაყოფების მიმდინარე წყობის შენახვა და დაშიფრული დისკწამყვანების კონფიგურაცია?
+Extended_description-ka.UTF-8: დაშიფრული დანაყოფების კონფიგურაციის შემდეგ, დაშიფრულ დანაყოფებიან დისკზე დამატებითი ცვლიელებები შეუძლებელი იქნება. გაგრძლეებამდე დარწმუნდით, რომ დანაყოფითა მიმდინარე განლაგება მისაღებია.
+Description-kk.UTF-8: Сіз бөлу схемасын сақтап, шифрленген томды баптауды қалайсыз ба?
+Extended_description-kk.UTF-8: Шифрленген томдарды баптағаннан кейін, шифрленген томдардағы бөлімдерге ешқандай өзгеріс енгізу мүмкін болмайды. Жалғастырмас бұрын осы схеманың сізге жарайтындығына көз жеткізіңіз.
+Description-km.UTF-8: រក្សា​ប្លង់​ភាគថាស​បច្ចុប្បន្ន ហើយ​កំណត់​រចនា​សម្ព័ន្ធ​​ភាគ​ដែល​បាន​អ៊ិនគ្រីប ?
+Extended_description-km.UTF-8: បន្ទាប់​ពីភាគ​ដែល​បានអ៊ិនគ្រីប​ត្រូវ​បាន​កំណត់​រចនាសម្ព័ន្ធ​រួច​មក គ្មាន​ការ​ផ្លាស់ប្ដូរ​បន្ថែម​ទៅ​ភាគថាស​នៅ​លើ​ថាស​​ដែល​មាន​ភាគ​ដែល​បាន​អ៊ិនគ្រីប​ត្រូវ​បាន​អនុញ្ញាត ។ សូម​សម្រេចចិត្ត​ ប្រសិន​បើ​អ្នក​ពេញចិត្ត​ជា​មួយ​នឹង​គ្រោងការណ៍​ភាគ​ថាស​បច្ចុប្បន្ន​ សម្រាប់​ថាស​ទាំង​នេះ​មុន​ពេល​បន្ត ។
+Description-kn.UTF-8: ಪ್ರಸ್ತುತ ವಿಭಜನಾ ವಿನ್ಯಾಸವನ್ನು ಹಾಗೆಯೇ ಉಳಿಸಿಕೊಂಡು ಮತ್ತು ಗೂಡಲಿಪೀಕರಿಸಿದ ಸಂಪುಟಗಳನ್ನು ಸಂರಚಿಸುವುದೇ?
+Extended_description-kn.UTF-8: ಒಮ್ಮೆ ಗೂಢಲಿಪೀಕರಿಸಿದ ಸಂಪುಟಗಳನ್ನು ಸಂರಚಿಸಿದ ನಂತರ ಗೂಢಲಿಪೀಕರಿಸಿದ ಸಂಪುಟಗಳುಳ್ಳ ಡಿಸ್ಕಿನ ವಿಭಜನೆಗಳಿಗೆ ಯಾವುದೇ ಹೆಚ್ಚುವರಿ ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಪ್ರಸ್ತುತ ಡಿಸ್ಕಿನ ವಿಭಜನಾ ಪದ್ಧತಿಯು ನಿಮಗೆ ತೃಪ್ತಿದಾಯಕವೆಂದು ಮುಂದುವರೆಯುವ ಮೊದಲು ದಯಮಾಡಿ ಖಾತ್ರಿಪಡಿಸಿ.
+Description-ko.UTF-8: 현재 파티션 구성을 유지하고 암호화 볼륨을 설정하시겠습니까?
+Extended_description-ko.UTF-8: 암호화 볼륨을 설정하면, 그 다음에는 이 파티션이 들어있는 디스크를 바꿀 수 없습니다.  디스크의 현재 파티션 구성이 좋은지 확인한 다음 진행하십시오.
+Description-ku.UTF-8: Bila pergala dabeşkirina heyî were parastin û volumên şîfrekirî werin veavakirin?
+Extended_description-ku.UTF-8: Piştî veavakirina volumên şîfrekirî, destûr nayê dayîn ku bila guherîneke din di dîskên ku volumên şîfrekirî bihundirînin were kirin. Ji kerema xwe re sax bin bê ka dabeşkirinên heyî yên li ser van dîskan gorî xwestekên te ye yan na.
+Description-lo.UTF-8: ຍັງຈະເກັບໂຄງສ້າງພາທີຊັນປະຈຸບັນໄວ້ ແລ້ວຕັ້ງຄ່າໂວລ້ຳເຂົ້າລະຫັດສະຫຼັບ ຫຼື ບໍ່ ?
+Extended_description-lo.UTF-8: ເມືອຕັ້ງຄ່າເຂົ້າລະຫັດສະຫຼັບແລ້ວ ຈະບໍ່ສາມາດປຽນແປງພາທີຊັນຕ່າງໆ ໃນດິກທີ່ມີໂວລ້ຳເຂົ້າລະຫັດສະຫຼັບໄດ້ອິກ ກາລຸນາຕັດສີ້ນໃຈ ວ່າທ່ານພໍໃຈກັບການແບ່ງພາທີຊັນປະຈຸບັນໃນດິກເຫຼົ່ານີ້ແລ້ວ ກ່ອນທີ່ຈະດຳເນີນການຕໍ່ໄປ
+Description-lt.UTF-8: Ar išsaugoti esamą disko skirsnių planą ir konfigūruoti šifruotus tomus?
+Extended_description-lt.UTF-8: Atlikus šifruotų tomų konfigūravimą, papildomi disko skirsnių pakeitimai diskuose, talpinančiuose šifruotus tomus, nebeleistini. Prieš tęsdami, nuspręskite, ar esate patenkint esama disko dalijimo skirsniais schema.
+Description-lv.UTF-8: Saglabāt esošo nodalījumu izkārtojumu un konfigurēt šifrētos sējumus?
+Extended_description-lv.UTF-8: Konfigurējot šifrētos sējumus, izmaiņas esošajos fizisko sējumu nodalījumos vairs nav atļautas. Pirms turpiniet, lūdzu, pārliecinieties, ka jūs apmierina pašreizējais nodalījumu izkārtojums.
+Description-mk.UTF-8: Да ја зачувам моменталната поставеност на партициите и конфигурирам енриптирани простори?
+Extended_description-mk.UTF-8: Откако ќе се конфигурираат енкриптираните простори, не се дозволени дополнителни промени на партициите во дисковите со енкриптирани простори. Те молам одлучи дали си задоволен со моменталната поставеност на партициите на овие дискови пред да продолжиш.
+Description-ml.UTF-8: ഇപ്പോഴുള്ള വിഭജന വിന്യാസം സൂക്ഷിച്ചു കൊണ്ട് എന്‍ക്രിപ്റ്റഡ് വാള്യങ്ങള്‍ ക്രമീകരിക്കണോ?
+Extended_description-ml.UTF-8: എന്‍ക്രിപ്റ്റഡ് വാള്യങ്ങള്‍ ക്രമീകരിച്ചതിന് ശേഷം എന്‍ക്രിപ്റ്റഡ് വാള്യങ്ങള്‍ ഉള്‍​ക്കൊള്ളുന്ന ഡിസ്കിലെ ഭാഗങ്ങളില്‍ കൂടുതല്‍ മാറ്റങ്ങള്‍ അനുവദിക്കുന്നതല്ല. തുടരുന്നതിനു് മുന്‍പ് ഈ ഡിസ്കുകള്‍ക്കായുള്ള വിഭജന പദ്ധതിയില്‍ നിങ്ങള്‍ സംതൃപ്തരാണോ എന്നു് ദയവായി തീരുമാനിയ്ക്കുക.
+Description-mr.UTF-8: सध्याचा विभाजन आराखडा ठेऊन संकेताधारित खंड संरचित करायचे?
+Extended_description-mr.UTF-8: संकेताधारित खंड संरचित झाल्यावर संकेताधारित खंड असलेल्या डिस्कस् वरील विभाजनांमधे नंतर आणखी कोणतेही बदल करण्याची अनुमती नाही. पुढे जाण्यापूर्वी, या डिस्कस् साठीच्या सध्याच्या विभाजन योजनेबद्दल आपण समाधानी असल्याची निश्चिती करून घ्या.
+Description-nb.UTF-8: Vil du beholde det nåværende partisjonsoppsettet og sette opp kryptertedataområder?
+Extended_description-nb.UTF-8: Etter at krypterte dataområder er satt opp, kan man ikke gjøre flere endringer på partisjonene på enhetene som inneholder krypterte dataområder. Sjekk at du er fornøyd med partisjonsoppsettet på disse enhetene før du fortsetter.
+Description-ne.UTF-8: हालको विभाजन सजावट राख्नुहुन्छ र गुप्तीकृत भोल्युम कन्फिगर गर्नुहुन्छ?
+Extended_description-ne.UTF-8: गुप्तिकृत भोल्युमहरू कनफिगर भएपछि, गुप्तिकृत भोल्युमहरू समाविष्ट भएको डिस्कमा विभाजनहरुमा कुनै थप परिवर्तनहरू अनुमति हुने छैन । कृपया यदि तपाईँ निरन्तरता दिनु अघि यी डिस्कहरुका लागि हालको विभाजन सँग सन्तुष्ट हुनुहुन्छ भन्ने निर्णय गर्नुहोस् ।
+Description-nl.UTF-8: Huidige schijfindeling behouden en versleutelde volumes instellen?
+Extended_description-nl.UTF-8: Verdere veranderingen aan de partities van schijven met versleutelde volumes zijn niet toegestaan nadat de versleutelde volumes ingesteld zijn. Controleer of het huidige schijfindelingsschema is wat u wilt voordat u verder gaat.
+Description-nn.UTF-8: Hald på noverande partisjonsoppsett og set opp krypterte dataområde?
+Extended_description-nn.UTF-8: Når krypterte dataområde er sett opp kan du ikkje gjere fleire endringar på partisjonane på harddiskar som inneheld krypterte dataområde. Forviss deg om at du er nøgd med den gjeldande partisjoneringa på desse harddiskane før du held fram.
+Description-no.UTF-8: Vil du beholde det nåværende partisjonsoppsettet og sette opp kryptertedataområder?
+Extended_description-no.UTF-8: Etter at krypterte dataområder er satt opp, kan man ikke gjøre flere endringer på partisjonene på enhetene som inneholder krypterte dataområder. Sjekk at du er fornøyd med partisjonsoppsettet på disse enhetene før du fortsetter.
+Description-pa.UTF-8: ਮੌਜੂਦਾ ਭਾਗ ਖਾਕਾ ਰੱਖੋ ਅਤੇ ਇੰਕ੍ਰਿਪਟਡ ਵਾਲੀਅਮ ਸੰਰਚਿਤ ਕਰੋ?
+Extended_description-pa.UTF-8: ਇੰਕ੍ਰਿਪਟਡ ਵਾਲੀਅਮ ਮੈਨੇਜਰ ਸੰਰਚਿਤ ਕਰਨ ਤੋਂ ਬਾਅਦ ਇੰਕ੍ਰਿਪਟਿਡ ਵਾਲੀਅਮ ਵਾਲੀ ਡਿਸਕ ਤੇ ਭਾਗਾਂ ਵਿੱਚ ਕੋਈ ਤਬਦੀਲੀ ਨਹੀਂ ਕੀਤੀ ਨਹੀਂ ਜਾ ਸਕਦੀ। ਇਹ ਫੈਸਲਾ ਕਰੋ ਕਿ ਜਾਰੀ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਤੁਸੀਂ ਇਹਨਾ ਡਿਸਕਾਂ ਤੇ ਮੌਜੂਦਾ ਪਾਰਟੀਸ਼ਨਿੰਗ ਸਕੀਮ ਨਾਲ ਸਹਿਮਤ ਹੋ।
+Description-pl.UTF-8: Zostawić aktualny układ partycji i skonfigurować szyfrowane woluminy?
+Extended_description-pl.UTF-8: Kiedy szyfrowane woluminy są skonfigurowane, niedozwolone są jakiekolwiek dodatkowe zmiany na dyskach zawierających te woluminy. Przed kontynuacją, upewnij się, że aktualny schemat partycji jest odpowiedni na tych dyskach.
+Description-pt.UTF-8: Manter o esquema de partições actual e configurar volumes encriptados?
+Extended_description-pt.UTF-8: Após terem sido configurados os volumes encriptados, não será permitida nenhuma alteração adicional nas partições dos discos que contêm os volumes encriptados. Por favor decida se está satisfeito com o esquema actual de particionamento para estes discos antes de continuar.
+Description-pt_BR.UTF-8: Manter o layout de particionamento atual e configurar volumes criptografados?
+Extended_description-pt_BR.UTF-8: Depois que os volumes criptografados forem configurados, nenhuma mudança adicional nas partições dos discos que contêm os volumes criptografados será permitida. Por favor, decida se você está satisfeito com o esquema de particionamento atual nesses discos antes de continuar.
+Description-ro.UTF-8: Se păstrează configurația curentă a partițiilor și se configurează volumele criptate?
+Extended_description-ro.UTF-8: După ce volumele criptate vor fi configurate, nu mai sunt permise alte schimbări pe discurile care conțin volume criptate. Vă rugăm să vă decideți dacă schema de partiționare este cea finală pentru aceste discuri înainte de a continua.
+Description-ru.UTF-8: Сохранить текущую раскладку и настройку шифрования томов?
+Extended_description-ru.UTF-8: После настройки шифрования томов больше нельзя изменять разметку диска, содержащих шифрованные тома. Прежде чем продолжить настройку, убедитесь, что вы довольны текущей разметкой дисков.
+Description-si.UTF-8: වත්මන් කොටස් සැකැස්ම තබාගෙන ගුප්තකේතිත වෙළුම් සකසන්නද?
+Extended_description-si.UTF-8: ගුප්තකේතිත වෙළුම් සැකසූ පසු, එම කොටස් සඳහා අමතර කිසිඳු වෙනස්කමක් පිළිනොගැනේ. කරුණාකර ඉදිරියට යාමට පෙර වත්මන් කොටස්කරණ ක්‍රමය සමඟ සෑහීමකට පත්වේදැයි තීරණය කරන්න.
+Description-sk.UTF-8: Ponechať súčasné rozdelenie oblastí a nastaviť šifrované zväzky?
+Extended_description-sk.UTF-8: Po nastavení šifrovaných zväzkov už nebudú možné žiadne ďalšie zmeny na oblastiach diskov obsahujúcich šifrované zväzky. Prosím, pred pokračovaním sa uistite, že ste spokojní s aktuálnym rozložením oblastí na týchto diskoch.
+Description-sl.UTF-8: Želite obdržati trenutni razpored razdelkov in nastaviti šifrirane nosilce?
+Extended_description-sl.UTF-8: Potem ko nastavite šifrirane nosilce, niso dovoljene nobene spremembe razdelkov trdih diskov, ki vsebujejo šifrirane nosilce. Pred nadaljevanjem se prepričajte, da ste zadovoljni s trenutno shemo razdelkov na diskih.
+Description-sq.UTF-8: Ti ruaj ndarjet e tanishme dhe t'i konfiguroj volumet e kriptuara?
+Extended_description-sq.UTF-8: Pasi volumet e kriptuara të jenë konfiguruar, nuk lejohen më ndryshime shtesë në disqet që përmbajnë volumet e kriptuar. Të lutem sigurohu nëse je i kënaqur me skemën e tanishme të ndarjes për këto disqe përpara se të vazhdosh.
+Description-sr.UTF-8: Конфигурисати енкритоване волумене на постојећи распоред партиција?
+Extended_description-sr.UTF-8: Након конфигурације енкриптованих волумена, нису дозвољене додатне измене на партицијама дискова који садрже енкриптоване волумене. Одлучите да ли сте задовољни тренутном партиционом шемом за ове дискове пре него што наставите.
+Description-sv.UTF-8: Behåll den nuvarande partitionsinformationen och konfigurera krypterade volymer?
+Extended_description-sv.UTF-8: Efter att de krypterade volymerna har konfigurerats kommer inga ytterligare ändringar på partitionerna på de diskar som innehåller krypterade volymer att tillåtas. När du är nöjd med den aktuella partitioneringsplanen för de här diskarna kan du fortsätta.
+Description-ta.UTF-8: தற்போதய பகிர்வு உருவமைப்பை அப்படியே வைத்துக் கொண்டு மறைகுறியாக்கப்பட்ட தொகுதிகளைஎல்விஎம் (LVM) ஐ வடிவமைக்கவா?
+Extended_description-ta.UTF-8: மறைகுறியாக்கப்பட்ட தொகுதிகள் வடிவமைக்கப்பட்ட பின் அத் தொகுதிகள் உள்ள வன்வட்டின் பகிர்வு உருவமைப்பில் கூடுதல் மாறுதல்களை செய்ய இயலாது. ஆகவே தொடரும் முன் வன்வட்டுக்களின் தற்போதய பகிர்வு உருவமைப்பு உங்களுக்கு திருப்தியாக உள்ளதா என உறுதி செய்து கொள்ளுங்கள்.
+Description-te.UTF-8: ప్రస్తుత విభజన నమూనా  అలాగే వుంచి  Encrypted volumes అమరిక చేయాలా?
+Extended_description-te.UTF-8: Encrypted volumes అమరిక అయిన తరువాత, డిస్క్ లలో   Encrypted volumes లోని విభజనలలో అదనపు మార్పులు అనుమతించబడవు. కొనసాగించే ముందు, ఈ  విభజన పద్ధతితో సంతృప్తి పడ్డారని   అంగీకరించండి.
+Description-tg.UTF-8: Тарҳбандии қисмбандии ҷориро нигоҳ дошта, ҳаҷмҳои рамздорро конфигуратсия мекунед?
+Extended_description-tg.UTF-8: Баъд аз конфигуратсия шудани ҳаҷмҳои рамздор, ягон тағйироти иловагӣ ба қисмҳои диск дар дискҳо бо ҳаҷмҳои рамздор иҷозат дода намешавад. Лутфан, пеш аз идомадиҳӣ мутмаин шавед, ки шумо бо схемаи ҷисмбандии ҷорӣ розӣ мебошед.
+Description-th.UTF-8: จะคงโครงสร้างพาร์ทิชันปัจจุบันไว้ แล้วตั้งค่าโวลุมเข้ารหัสลับหรือไม่?
+Extended_description-th.UTF-8: เมื่อตั้งค่าโวลุมเข้ารหัสลับแล้ว จะไม่สามารถเปลี่ยนแปลงพาร์ทิชันต่างๆ ในดิสก์ที่มีโวลุมเข้ารหัสลับได้อีก กรุณาตัดสินใจ ว่าคุณพอใจกับการแบ่งพาร์ทิชันปัจจุบันในดิสก์เหล่านี้แล้ว ก่อนที่จะดำเนินการต่อไป
+Description-tl.UTF-8: Ipanatili ang kasalukuyang layout ng partisyon at magsaayos ng encrypted na volume?
+Extended_description-tl.UTF-8: Matapos maisaayos ang encrypted na volume, walang karagdagang pagbabago sa mga partisyon sa mga disk na naglalaman ng mga pisikal na volume ay pahihintulutan. Magpasiya kayo kung kuntento na kayo sa kasalukuyang nakatakdang pag-partisyon sa mga disk na ito bago kayo magpatuloy.
+Description-tr.UTF-8: Mevcut bölümleme düzeni korunarak şifrelenmiş ciltler yapılandırılsın mı?
+Extended_description-tr.UTF-8: Şifrelenmiş ciltler yapılandırıldıktan sonra, şifrelenmiş cilt içeren disklerdeki bölümler üzerinde ek bir değişikliğe izin verilmez. Lütfen devam etmeden önce bu disklerdeki mevcut bölümlemenin isteğinize uygun şekilde yapıldığından emin olun.
+Description-ug.UTF-8: نۆۋەتتىكى رايون تەڭشىكىنى ساقلاپ قېلىپ، شىفىرلىق دىسكىنى سەپلەمسىز؟
+Extended_description-ug.UTF-8: شىفىرلىق دىسكا تەڭشىكى تاماملانسىلا، شىفىرلىق دىسكىنى ئۆز ئىچىگە ئالغان دىسكىدىكى رايونغا ئوشۇقچە ئۆزگەرتىش ئېلىپ بېرىشقا يول قويۇلمايدۇ. شۇڭا، كېيىنكى مەشغۇلاتنى ئېلىپ بېرىشتىن ئىلگىرى، بۇ دىسكىلاردىكى نۆۋەتتىكى رايون لايىھىسىگە رازى ئىكەنلىكىڭىزنى جەزملەڭ.
+Description-uk.UTF-8: Залишити поточні таблиці розділів та налаштувати зашифровані томи?
+Extended_description-uk.UTF-8: Після налаштування зашифрованих томів, не можна робити зміни до розділів на дисках з зашифрованими томами. Перед продовженням впевніться, що ви задоволені поточною конфігурацією розділів на цих дисках.
+Description-vi.UTF-8: Giữ bố trí phân vùng hiện thời và cấu hình các khối tin đã mật mã không?
+Extended_description-vi.UTF-8: Sau khi các khối tin đã mật mã đã được cấu hình, không cho phép thay đổi thêm nào trong phân vùng nằm trên đĩa chứa khối tin đã mật mã. Hãy quyết định nếu bạn thấy lược đồ phân vùng hiện thời trong những đĩa này là ổn dáng trước khi tiếp tục.
+Description-zh_CN.UTF-8: 保留现有的分区设置并配置加密卷吗？
+Extended_description-zh_CN.UTF-8: 一旦加密卷设置完成，就不允许再对包含加密卷的磁盘上的分区进行额外的改动。因此，在进行下一步操作之前，请您确认是否真的满意这些磁盘上当前的分区方案。
+Description-zh_TW.UTF-8: 是否保留目前的磁碟配置並設定加密的 Volume？
+Extended_description-zh_TW.UTF-8: 一旦加密的 Volume 設定完成，就不能再對磁碟中包含了加密的 Volume 的分割區進行任何其它的變更了。因此，在繼續之前請確認您是否已決定採用目前這些磁碟所採取的分割方式。
+
+Name: partman-crypto/create/nosel
+Type: error
+Description: No devices selected
+Extended_description: No devices were selected for encryption.
+Description-ar.UTF-8: لم تحدّد أيّة أجهزة
+Extended_description-ar.UTF-8: لم تحدّد أية أجهزة لتشفيرها.
+Description-ast.UTF-8: Ensin preseos seleicionaos
+Extended_description-ast.UTF-8: Ensin preseos seleicionaos pa la encriptación.
+Description-be.UTF-8: Не пазначана прылад.
+Extended_description-be.UTF-8: Не прызначана прылад для шыфравання.
+Description-bg.UTF-8: Не са избрани устройства
+Extended_description-bg.UTF-8: Не са избрани устройства за шифриране.
+Description-bn.UTF-8: কোন ডিভাইস নির্বাচন করা হয়নি
+Extended_description-bn.UTF-8: এনক্রিপশনের জন্য কোন ডিভাইস নির্বাচন করা নেই।
+Description-bs.UTF-8: Nije izabran uređaj
+Extended_description-bs.UTF-8: Nijedan uređaj nije odabran za enkripciju.
+Description-ca.UTF-8: No s'ha seleccionat cap dispositiu
+Extended_description-ca.UTF-8: No s'ha seleccionat cap dispositiu per a xifrar.
+Description-cs.UTF-8: Nebyla vybrána žádná zařízení
+Extended_description-cs.UTF-8: Pro šifrování nebyla vybrána žádná zařízení.
+Description-cy.UTF-8: Dim dyfeisiau wedi eu dewis
+Extended_description-cy.UTF-8: Ni ddewiswyd dyfeisiau ar gyfer eu amgryptio.
+Description-da.UTF-8: Ingen enheder valgt
+Extended_description-da.UTF-8: Der blev ikke valgt nogen enheder at kryptere.
+Description-de.UTF-8: Keine Geräte ausgewählt
+Extended_description-de.UTF-8: Es wurden keine Geräte zur Verschlüsselung ausgewählt.
+Description-dz.UTF-8: ཐབས་འཕྲུལ་སེལ་འཐུ་མ་འབད་བས།
+Extended_description-dz.UTF-8: གསང་བཟོའི་དོན་ལས་ ཐབས་འཕྲུལ་སེལ་འཐུ་མ་འབད་བས།
+Description-el.UTF-8: Δεν επιλέχθηκαν συσκευές
+Extended_description-el.UTF-8: Δεν επιλέχθηκαν συσκευές για κρυπτογράφηση.
+Description-eo.UTF-8: Neniu aparato elektite
+Extended_description-eo.UTF-8: Neniu aparato estas elektita por ĉifrado.
+Description-es.UTF-8: No se ha seleccionado ningún dispositivo
+Extended_description-es.UTF-8: No se ha seleccionado ningún dispositivo para el cifrado.
+Description-et.UTF-8: Pole valitud ühtki seadet
+Extended_description-et.UTF-8: Krüpteerimiseks pole valitud ühtki seadet.
+Description-eu.UTF-8: Ez da gailurik hautatu
+Extended_description-eu.UTF-8: Ez da gailurik hautatu enkriptatzeko.
+Description-fa.UTF-8: هیچ دستگاه فیزیکی انتخاب نشد.
+Extended_description-fa.UTF-8: هیچ ابزاری برای رمزگذاری انتخاب نشده است.
+Description-fi.UTF-8: Yhtään laitetta ei valittu
+Extended_description-fi.UTF-8: Yhtään osiota ei valittu salattavaksi.
+Description-fr.UTF-8: Pas de périphérique choisi
+Extended_description-fr.UTF-8: Aucun périphérique n'a été choisi pour être chiffré.
+Description-ga.UTF-8: Níor roghnaíodh aon ghléasanna
+Extended_description-ga.UTF-8: Níor roghnaíodh aon ghléasanna le criptiú.
+Description-gl.UTF-8: Non se escolleu ningún dispositivo
+Extended_description-gl.UTF-8: Non se escolleu ningún dispositivo para cifralo.
+Description-gu.UTF-8: કોઇ ઉપકરણો પસંદ કરેલ નથી
+Extended_description-gu.UTF-8: એન્ક્રિપ્ટ કરવા માટે કોઇ ઉપકરણો પસંદ કરેલ નથી.
+Description-he.UTF-8: לא נבחרו התקנים
+Extended_description-he.UTF-8: לא נבחרו התקנים להצפנה.
+Description-hi.UTF-8: कोई भी उपकरण नहीं चुना गया
+Extended_description-hi.UTF-8: कूटबद्ध करने के लिए कोई भी उपकरण नहीं चुने गये हैं.
+Description-hr.UTF-8: Nema izabranih uređaja
+Extended_description-hr.UTF-8: Nije izabran nijedan uređaj za enkripciju.
+Description-hu.UTF-8: Nincs kijelölt eszköz
+Extended_description-hu.UTF-8: Nincs titkosításra kijelölt eszköz.
+Description-id.UTF-8: Tidak ada perangkat yang dipilih
+Extended_description-id.UTF-8: Tak ada perangkat yang dipilih untuk dienkripsi.
+Description-is.UTF-8: Engin tæki voru valin
+Extended_description-is.UTF-8: Engin tæki voru valin fyrir dulritun.
+Description-it.UTF-8: Nessun device selezionato.
+Extended_description-it.UTF-8: Nessun device è stato selezionato per essere cifrato.
+Description-ja.UTF-8: デバイスが選択されていません
+Extended_description-ja.UTF-8: 暗号化するデバイスが選択されていません。
+Description-ka.UTF-8: მოწყობილობა არ არის მონიშნული
+Extended_description-ka.UTF-8: შიფრიებისათვის არცერთი მოწყობილობა არ იქნა ამორჩეული.
+Description-kk.UTF-8: Құрылғылар таңдалмады
+Extended_description-kk.UTF-8: Шифрлену үшін құрылғылар таңдалмады.
+Description-km.UTF-8: គ្មាន​ឧបករណ៍​បាន​ជ្រើស​ទេ
+Extended_description-km.UTF-8: គ្មាន​ឧបករណ៍​ត្រូវបាន​ជ្រើ​សសម្រាប់​អ៊ីនគ្រិប​ទេ ។
+Description-kn.UTF-8: ಯಾವುದೇ ಸಾಧನವನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗೀಲ್ಲ
+Extended_description-kn.UTF-8: ಗೂಢಲಿಪೀಕರಣಕ್ಕಾಗಿ ಯಾವುದೇ ಉಪಕರಣಗಳನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿಲ್ಲ.
+Description-ko.UTF-8: 장치를 선택하지 않았습니다
+Extended_description-ko.UTF-8: 암호화할 장치를 선택하지 않았습니다.
+Description-ku.UTF-8: Tu cîhaz nehate hilbijartin
+Extended_description-ku.UTF-8: Tu cîhaz ji bo şîfrekirinê nehatine hilbijartin.
+Description-lo.UTF-8: ບໍ່ໄດ້ເລືອກອຸປະກອນໄວ້
+Extended_description-lo.UTF-8: ບໍ່ໄດ້ເລືອກອຸປະກອນທີ່ຈະເຂົ້າລະຫັດສະຫຼັບ
+Description-lt.UTF-8: Nėra pasirinktų įrenginių
+Extended_description-lt.UTF-8: Nėra pasirinkta įrenginių, skirtų šifravimui.
+Description-lv.UTF-8: Neviena ierīce nav izvēlēta
+Extended_description-lv.UTF-8: Nav izvēlētas ierīces šifrēšanai.
+Description-mk.UTF-8: Нема одбрано физички простори
+Extended_description-mk.UTF-8: Не беа избрани партиции за енкрипција.
+Description-ml.UTF-8: ഉപകരണങ്ങളൊന്നും തെരഞ്ഞെടുത്തില്ല
+Extended_description-ml.UTF-8: എന്‍ക്രിപ്ഷന്‍ ചെയ്യാനായി ഉപകരണങ്ങളൊന്നും തന്നെ തെരഞ്ഞെടുത്തിട്ടില്ല.
+Description-mr.UTF-8: कोणतीही उपकरणे निवडली नाहीत
+Extended_description-mr.UTF-8: सांकेतिकीकरणाकरीता कोणतीही उपकरणे निवडलेली नाहीत.
+Description-nb.UTF-8: Ingen enheter valgt
+Extended_description-nb.UTF-8: Ingen enheter bla valgt for kryptering.
+Description-ne.UTF-8:  यन्त्रहरू चयन भएको छैन
+Extended_description-ne.UTF-8: गुप्तीकरणका लागि कुनै यन्त्रहरू चयन भएको छैन ।
+Description-nl.UTF-8: Geen apparaten geselecteerd
+Extended_description-nl.UTF-8: Er zijn geen apparaten geselecteerd voor versleuteling.
+Description-nn.UTF-8: Ingen einingar er valde
+Extended_description-nn.UTF-8: Ingen einingar er valde for kryptering.
+Description-no.UTF-8: Ingen enheter valgt
+Extended_description-no.UTF-8: Ingen enheter bla valgt for kryptering.
+Description-pa.UTF-8: ਕੋਈ ਜੰਤਰ ਨਹੀਂ ਚੁਣਿਆ
+Extended_description-pa.UTF-8: ਇੰਕ੍ਰਿਪਸ਼ਨ ਕਰਨ ਲਈ ਕੋਈ ਜੰਤਰ ਨਹੀਂ ਹੈ।
+Description-pl.UTF-8: Nie wybrano urządzeń
+Extended_description-pl.UTF-8: Nie wybrano żadnego urządzenia do szyfrowania.
+Description-pt.UTF-8: Nenhum dispositivo seleccionado
+Extended_description-pt.UTF-8: Não foram escolhidos quaisquer dispositivos para encriptação.
+Description-pt_BR.UTF-8: Nenhum dispositivo selecionado
+Extended_description-pt_BR.UTF-8: Nenhum dispositivo foi selecionado para criptografia.
+Description-ro.UTF-8: Niciun dispozitiv ales
+Extended_description-ro.UTF-8: Nu s-a ales niciun dispozitiv pentru criptat.
+Description-ru.UTF-8: Устройства не выбраны
+Extended_description-ru.UTF-8: Устройства для шифрования не выбраны.
+Description-si.UTF-8: කිසිඳු උපකරණයක් තෝරානොමැත
+Extended_description-si.UTF-8: ගුප්තකේතනය සඳහා කිසිඳු උපකරණයක් තෝරා නොමැත.
+Description-sk.UTF-8: Neboli zvolené žiadne zariadenia
+Extended_description-sk.UTF-8: Na šifrovanie neboli zvolené žiadne zariadenia.
+Description-sl.UTF-8: Izbrali niste nobene naprave.
+Extended_description-sl.UTF-8: Noben razdelka niste izbrali za šifriranje.
+Description-sq.UTF-8: Nuk u zgjodh asnjë dispozitiv
+Extended_description-sq.UTF-8: Nuk u zgjodh asnjë dispozitiv për kriptim.
+Description-sr.UTF-8: Ниједан уређај није изабран
+Extended_description-sr.UTF-8: Нису изабрани уређаји за енкрипцију.
+Description-sv.UTF-8: Inga enheter valda
+Extended_description-sv.UTF-8: Inga enheter har valts för kryptering.
+Description-ta.UTF-8: சாதனம் ஏதும் தேர்ந்தெடுக்கப் படவில்லை
+Extended_description-ta.UTF-8: மறைகுறியீடாக்கப்பட எந்த சாதனமும் தேர்வு செய்யப்படவில்லை.
+Description-te.UTF-8: ఏ పరికరాన్ని ఎంపికచేయలేదు .
+Extended_description-te.UTF-8: ఎన్క్రిప్షన్ కి ఏ పరికరము ని ఎన్నుకోలేదు .
+Description-tg.UTF-8: Ягон дастгоҳ интихоб нашудааст
+Extended_description-tg.UTF-8: Ягон дастгоҳ барои рамзгузорӣ интихоб нашуд.
+Description-th.UTF-8: ไม่ได้เลือกอุปกรณ์ไว้
+Extended_description-th.UTF-8: ไม่ได้เลือกอุปกรณ์ที่จะเข้ารหัสลับ
+Description-tr.UTF-8: Herhangi bir aygıt seçilmedi
+Extended_description-tr.UTF-8: Şifrelemek için bir aygıt seçilmedi.
+Description-ug.UTF-8: ئۈسكىنە تاللانمىغان.
+Extended_description-ug.UTF-8: شىفىرلىنىدىغان ئۈسكىنە تاللانمىدى.
+Description-uk.UTF-8: Жодного пристрою не вибрано
+Extended_description-uk.UTF-8: Жодного пристрою не було вибрано для шифрування
+Description-vi.UTF-8: Chưa chọn thiết bị
+Extended_description-vi.UTF-8: Không có thiết bị nào được chọn để mật mã hoá.
+Description-zh_CN.UTF-8: 尚未选择设备
+Extended_description-zh_CN.UTF-8: 尚未选择要加密的设备。
+Description-zh_TW.UTF-8: 未選取任何的裝置
+Extended_description-zh_TW.UTF-8: 未指定任何要進行加密的磁碟分割區。
+
+Name: partman-crypto/create/partitions
+Type: multiselect
+Choices: ${PARTITIONS}
+Description: Devices to encrypt:
+Extended_description: Please select the devices to be encrypted.\n\nYou can select one or more devices.
+Description-ar.UTF-8: الأجهزة المطلوب تشفيرها:
+Extended_description-ar.UTF-8: رجاءً اختر الأجهزة التي تريد تشفيرها.\n\nيمكنك تحديد جهازٍ واحد أو أكثر.
+Description-ast.UTF-8: Preseos a encriptar:
+Extended_description-ast.UTF-8: Por favor, seleiciona los preseos pa encriptar.\n\nPues seleicionar ún o más preseos.
+Description-be.UTF-8: Зашыфраваць прылады:
+Extended_description-be.UTF-8: Калі ласка, пазначце прылады, каб іх зашыфраваць.\n\nВы можаце пазначыць адну ці больш прыладаў.
+Description-bg.UTF-8: Устройства за шифриране:
+Extended_description-bg.UTF-8: Изберете устройствата, които да бъдат шифрирани.\n\nМоже да изберете едно или повече устройства.
+Description-bn.UTF-8: যেসব ডিভাইসে এনক্রিপ্ট করা হবে:
+Extended_description-bn.UTF-8: অনুগ্রহপূর্বক এনক্রিপ্ট করার জন্য ডিভাইস নির্বাচন করুন।\n\nআপনি এক বা একাধিক ডিভাইস বেছে নিতে পারেন।
+Description-bs.UTF-8: Uređaji za enkriptovati:
+Extended_description-bs.UTF-8: Molim izaberite uređaje za enkriptovati.\n\nMožete odabrati jedan ili više uređaja.
+Description-ca.UTF-8: Dispositius a xifrar:
+Extended_description-ca.UTF-8: Seleccioneu els dispositius a xifrar.\n\nPodeu seleccionar un o més dispositius.
+Description-cs.UTF-8: Zařízení, která se mají šifrovat:
+Extended_description-cs.UTF-8: Vyberte zařízení, která se mají šifrovat.\n\nMůžete vybrat jedno nebo více zařízení.
+Description-cy.UTF-8: Dyfeisiau i'w amgryptio:
+Extended_description-cy.UTF-8: Dewiswch y dyfeisiau i'w amgryptio.\n\nGallwch ddewis un neu fwy dyfais.
+Description-da.UTF-8: Enheder, der skal krypteres:
+Extended_description-da.UTF-8: Vælg venligst de enheder, der skal krypteres.\n\nDu kan angive en eller flere enheder.
+Description-de.UTF-8: Zu verschlüsselnde Geräte:
+Extended_description-de.UTF-8: Bitte wählen Sie die Geräte aus, die verschlüsselt werden sollen.\n\nSie können ein oder mehrere Geräte auswählen.
+Description-dz.UTF-8: གསང་བ་བཟོ་ནིའི་ཐབས་འཕྲུལ:
+Extended_description-dz.UTF-8: གསང་བཟོ་འབད་ནིའི་དོན་ལུ་ ཐབས་འཕྲུལ་སེལ་འཐུ་འབད་གནང་།\n\nཁྱོད་ཀྱིས་ཐབས་འཕྲུལ་ཚུ་གཅིག་ཡང་ན་ལེ་ཤ་སེལ་འཐུ་འབད་ཚུགས།
+Description-el.UTF-8: Συσκευές που θα κρυπτογραφηθούν:
+Extended_description-el.UTF-8: Παρακαλώ, επιλέξτε τις συσκευές που θα κρυπτογραφηθούν.\n\nΜπορείτε να επιλέξετε μία ή περισσότερες μονάδες.
+Description-eo.UTF-8: Ĉifrotaj aparatoj:
+Extended_description-eo.UTF-8: Bonvolu elekti la aparatojn por esti ĉifritaj.\n\nVi povas elekti unu aŭ pli aparatojn.
+Description-es.UTF-8: Dispositivos a cifrar:
+Extended_description-es.UTF-8: Por favor, seleccione los dispositivos que desea cifrar.\n\nPuede seleccionar uno o más dispositivos.
+Description-et.UTF-8: Krüpteeritavad seadmed:
+Extended_description-et.UTF-8: Palun vali krüpteerimiseks seadmed.\n\nPead valima vähemalt ühe seadme.
+Description-eu.UTF-8: Enkriptatzeko gailuak:
+Extended_description-eu.UTF-8: Hautatu enkriptatuko diren gailuak.\n\nGailu bat edo gehiago hauta ditzakezu.
+Description-fa.UTF-8: ابزارها برای رمزگذاری:
+Extended_description-fa.UTF-8: لطفا ابزاری که برای رمزگذاری می‌خواهید استفاده کنید را انتخاب کنید .\n\nشما می‌توانید یک یا چند ابزار انتخاب کنید
+Description-fi.UTF-8: Salattavat laitteet:
+Extended_description-fi.UTF-8: Valitse laitteet, joiden sisältö salataan.\n\nVoit valita yhden tai useamman laitteen.
+Description-fr.UTF-8: Périphériques à chiffrer :
+Extended_description-fr.UTF-8: Veuillez choisir les périphériques qui doivent être chiffrés.\n\nVous pouvez sélectionner un ou plusieurs périphériques.
+Description-ga.UTF-8: Gléasanna le criptiú:
+Extended_description-ga.UTF-8: Roghnaigh na gléasanna le criptiú, le do thoil.\n\nIs féidir leat gléas nó gléasanna a roghnú.
+Description-gl.UTF-8: Dispositivos para cifrar:
+Extended_description-gl.UTF-8: Escolla os dispositivos que se van cifrar.\n\nPode escoller un ou máis dispositivos.
+Description-gu.UTF-8: એનક્રિપ્ટ કરવા માટેનાં ઉપકરણો:
+Extended_description-gu.UTF-8: મહેરબાની કરી એનક્રિપ્ટ કરવા માટેના ઉપકરણો પસંદ કરો.\n\nતમે એક અથવા વધુ ઉપકરણો પસંદ કરી શકો છો.
+Description-he.UTF-8: התקנים להצפנה:
+Extended_description-he.UTF-8: בחר התקנים להצפנה.\n\nניתן לבחור התקן אחד או יותר.
+Description-hi.UTF-8: कूट किये जाने वाले यन्त्र:
+Extended_description-hi.UTF-8: कृपया कूट किये जाने वाले उपकरणों का चुनाव करें.\n\nआप एक या अधिक उपकरण चुन सकते हैं.
+Description-hr.UTF-8: Uređaji za kriptiranje:
+Extended_description-hr.UTF-8: Molim izaberite uređaje za kriptiranje.\n\nMožete izabrati jedan ili više uređaja.
+Description-hu.UTF-8: Titkosítandó eszközök:
+Extended_description-hu.UTF-8: Kérlek, válaszd ki a titkosítandó eszközöket.\n\nVálassz ki egy vagy több eszközt.
+Description-id.UTF-8: Perangkat yang dienkripsi:
+Extended_description-id.UTF-8: Silakan pilih perangkat yang akan dienkripsi\n\nAnda dapat memilih satu piranti atau lebih.
+Description-is.UTF-8: Þau tæki sem þú vilt dulrita:
+Extended_description-is.UTF-8: Veldu þau tæki sem þú vilt dulrita.\n\nÞú getur valið eitt eða fleiri tæki.
+Description-it.UTF-8: Device da cifrare:
+Extended_description-it.UTF-8: Selezionare i device da cifrare.\n\nÈ possibile selezionare uno o più device.
+Description-ja.UTF-8: 暗号化するデバイス:
+Extended_description-ja.UTF-8: 暗号化するデバイスを選択してください。\n\n1 つ以上のデバイスを選択できます。
+Description-ka.UTF-8: დასაშიფრი მოწყობილობები:
+Extended_description-ka.UTF-8: აირჩიეთ დასაშიფრი მოწყობილობა.\n\nთქვენ შეგიძლიათ ერთი ან მეტო მოწყობილობის ამორჩევა.
+Description-kk.UTF-8: Шифрленетін құрылғылар:
+Extended_description-kk.UTF-8: Шифрлену үшін құрылғыларды көрсетіңіз.\n\nСіз бір немесе бірнеше құрылғыны таңдай аласыз.
+Description-km.UTF-8: ឧបករណ៍​ត្រូវ​អ៊ីនគ្រិប ៖
+Extended_description-km.UTF-8: សូម​ជ្រើស​ឧបករណ៍​ដែល​តម្រូវ​ឲ្យ​អ៊ីនគ្រិប ។\n\nអ្នកអាច​ជ្រើស​ឧបករណ៍​មួយ ឬ ច្រើន ។​
+Description-kn.UTF-8: ಗೂಢಲಿಪೀಕರಣಗೊಳಿಸಲ್ಪಡುವ ಸಾಧನಗಳು:
+Extended_description-kn.UTF-8: ಗೂಢಲಿಪೀಕರಿಸಬೇಕಾಗಿರುವ ವ ಸಾಧನಗಳನ್ನು ಆಯ್ಕೆಮಾಡು\n\nನೀವು ಒಂದು ಅಥವಾ ಹೆಚ್ಚು ಸಾಧನಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
+Description-ko.UTF-8: 암호화할 장치:
+Extended_description-ko.UTF-8: 암호화할 장치를 선택하십시오.\n\n한 개 혹은 그 이상의 장치를 선택할 수 있습니다.
+Description-ku.UTF-8: Cîhazên ku werin şîfrekirin:
+Extended_description-ku.UTF-8: Ji kerema xwe re cîhazên ku weren şîfrekirin hilbijêre.\n\nTu dikarî yek an zêdetir amûr hilbijêrî.
+Description-lo.UTF-8: ອຸປະກອນທີ່ຈະເຂົ້າລະຫັດສະຫຼັບ:
+Extended_description-lo.UTF-8: ກາລຸນາເລືອກອຸປະກອນທີ່ຈະເຂົ້າລະຫັດສະຫຼັບ\n\nທ່ານສາມາດເລືອກອຸປະກອນຫຼາຍກ່ວາໜື່ງຢ່າງ
+Description-lt.UTF-8: Šifruoti įrenginius:
+Extended_description-lt.UTF-8: Prašau pasirinkti įrenginius, kuriuos norite šifruoti.\n\nGalite pasirinkti vieną ar daugiau įrenginių.
+Description-lv.UTF-8: Šifrējamās ierīces:
+Extended_description-lv.UTF-8: Lūdzu, izvēlieties, kuras ierīces šifrēt.\n\nJūs varat izvēlēties vienu vai vairākas ierīces.
+Description-mk.UTF-8: Сервиси кои што ќе се користат:
+Extended_description-mk.UTF-8: Те молам одбери ги уредите за новата просторна група.\n\nМоже да обереше еден или повеќе уреди.
+Description-ml.UTF-8: ഡിക്രിപ്റ്റ് ചെയ്യേണ്ട ഉപകരണങ്ങള്‍:
+Extended_description-ml.UTF-8: ദയവായി എന്‍ക്രിപ്റ്റ് ചെയ്യേണ്ട ഉപകരണങ്ങള്‍ തെരഞ്ഞെടുക്കുക.\n\nനിങ്ങള്‍ക്കു് ഒന്നോ അതിലധികമോ ഉപകരണങ്ങള്‍ തെരഞ്ഞെടുക്കാന്‍ പറ്റും.
+Description-mr.UTF-8: सांकेतिकीकरण करायची उपकरणे:
+Extended_description-mr.UTF-8: सांकेतिकीकरण करायच्या उपकरणांची निवड करा.\n\nआपण एक वा अधिक उपकरणे निवडू शकता.
+Description-nb.UTF-8: Enheter som skal krypteres:
+Extended_description-nb.UTF-8: Velg enhetene som skal krypteres.\n\nDu kan velge en eller flere enheter.
+Description-ne.UTF-8:  गुप्तीकरण गर्नलाई यन्त्र
+Extended_description-ne.UTF-8: कृपया गुप्तीकृत गर्नका लागि यन्त्रहरू चयन गर्नुहोस् ।\n\nतपाईँ एउटा वा धेरै यन्त्रहरू चयन गर्न सक्नुहुन्छ ।
+Description-nl.UTF-8: Te versleutelen apparaten:
+Extended_description-nl.UTF-8: Selecteer de te versleutelen apparaten.\n\nU kunt één of meer apparaten selecteren.
+Description-nn.UTF-8: Einingar som skal krypterast:
+Extended_description-nn.UTF-8: Vel einingane som skal krypterast.\n\nDu kan velje ei eller fleire einingar.
+Description-no.UTF-8: Enheter som skal krypteres:
+Extended_description-no.UTF-8: Velg enhetene som skal krypteres.\n\nDu kan velge en eller flere enheter.
+Description-pa.UTF-8: ਇੰਕ੍ਰਿਪਟ ਕਰਨ ਲਈ ਜੰਤਰ:
+Extended_description-pa.UTF-8: ਇੰਕ੍ਰਿਪਟ ਕਰਨ ਲਈ ਜੰਤਰ ਚੁਣੋ ਜੀ।\n\nਤੁਸੀਂ ਇੱਕ ਜਾਂ ਜਿਆਦਾ ਜੰਤਰ ਚੁਣ ਸਕਦੇ ਹੋ।
+Description-pl.UTF-8: Urządzenia do zaszyfrowania:
+Extended_description-pl.UTF-8: Proszę wybrać urządzenia do zaszyfrowania.\n\nMożesz wybrać jedno lub więcej urządzeń.
+Description-pt.UTF-8: Dispositivos a encriptar:
+Extended_description-pt.UTF-8: Por favor escolha os dispositivos a serem encriptados.\n\nVocê pode escolher um ou mais dispositivos.
+Description-pt_BR.UTF-8: Dispositivos a serem criptografados:
+Extended_description-pt_BR.UTF-8: Por favor, selecione os dispositivos que serão criptografados.\n\nVocê pode selecionar um ou mais dispositivos.
+Description-ro.UTF-8: Criptează dispozitivele:
+Extended_description-ro.UTF-8: Alegeți dispozitivele ce urmează să fie criptate.\n\nPuteți selecta unul sau mai multe dispozitive.
+Description-ru.UTF-8: Шифруемые устройства:
+Extended_description-ru.UTF-8: Выберите устройства, которые нужно шифровать.\n\nВы можете выбрать одно или несколько устройств.
+Description-si.UTF-8: ගුප්තකේතනය කල යුතු උපකරණය:
+Extended_description-si.UTF-8: කරුණාකර ගුප්තකේතනය කල යුතු උපකරණය තෝරන්න.\n\nඔබට උපකරණ එකක් හෝ කිහිපයක් තෝරන්න.
+Description-sk.UTF-8: Šifrovať zariadenia:
+Extended_description-sk.UTF-8: Prosím, zvoľte zariadenia, ktoré sa budú šifrovať.\n\nMôžete zvoliť jedno alebo viac zariadení.
+Description-sl.UTF-8: Naprave za šifriranje:
+Extended_description-sl.UTF-8: Izberite naprave za šifriranje.\n\nIzberete lahko eno ali več naprav.
+Description-sq.UTF-8: Dispozitivët për kriptim:
+Extended_description-sq.UTF-8: Të lutem zgjidh një dispozitiv për kriptim.\n\nMund të zgjedhësh një apo më shumë dispozitva.
+Description-sr.UTF-8: Уређаји који ће бити енкриптовани:
+Extended_description-sr.UTF-8: Изаберите уређаје за енкрипцију.\n\nМожете изабрати један или више уређаја.
+Description-sv.UTF-8: Enheter att kryptera:
+Extended_description-sv.UTF-8: Välj enheter att kryptera.\n\nDu kan välja en eller flera enheter.
+Description-ta.UTF-8: மறைகுறியாக்க வேண்டிய தொகுதிகள்:
+Extended_description-ta.UTF-8: மறைகுறியாக்க வேண்டிய தொகுதிகளை தேர்ந்தெடுக்கவும்.\n\nநீங்கள் ஒன்று அல்லது அதிக சாதனங்களை தேர்வு செய்யலாம்.
+Description-te.UTF-8: ఎన్క్రిప్ట్  చేయవలిసిన  పరికరాలు
+Extended_description-te.UTF-8: దయ చేసి  ఎన్క్రిప్ట్  చేయవలిసిన  పరికరాల ని ఎన్నుకోండి \n\nఒకటి లేక మరిన్ని పరికరాలు ఎంచుకోవచ్చు.
+Description-tg.UTF-8: Дастгоҳҳо барои рамгузорӣ:
+Extended_description-tg.UTF-8: Лутфан, дастгоҳҳоро барои рамзгузорӣ интихоб кунед.\n\nШумо метавонед як ё зиёда дастгоҳро интихоб кунед.
+Description-th.UTF-8: อุปกรณ์ที่จะเข้ารหัสลับ:
+Extended_description-th.UTF-8: กรุณาเลือกอุปกรณ์ที่จะเข้ารหัสลับ\n\nคุณสามารถเลือกอุปกรณ์ได้มากกว่าหนึ่งชิ้น
+Description-tr.UTF-8: Şifrelenecek aygıtlar:
+Extended_description-tr.UTF-8: Lütfen şifrelemek istediğiniz aygıtları seçin.\n\nBir veya daha fazla aygıt seçebilirsiniz.
+Description-ug.UTF-8: شىفىرلىنىدىغان ئۈسكىنە:
+Extended_description-ug.UTF-8: شىفىرلىنىدىغان ئۈسكىنىنى تاللاڭ.\n\nبىر ياكى بىر قانچە ئۈسكۈنە تاللىيالايسىز.
+Description-uk.UTF-8: Зашифрувати пристрої:
+Extended_description-uk.UTF-8: Виберіть пристрої для шифрування.\n\nВи можете вибрати один чи декілька пристроїв.
+Description-vi.UTF-8: Thiết bị cần mật mã:
+Extended_description-vi.UTF-8: Hãy chọn những thiết bị cần mật mã.\n\nCó thể chọn một hay nhiều thiết bị.
+Description-zh_CN.UTF-8: 要加密的设备：
+Extended_description-zh_CN.UTF-8: 请选择要加密的设备。\n\n您可以选择一个或多个设备。
+Description-zh_TW.UTF-8: 要加密的裝置：
+Extended_description-zh_TW.UTF-8: 請選擇要進行加密的裝置。\n\n您可以選取一個或多個裝置。
+
+Name: partman-crypto/crypto_boot_not_possible
+Type: error
+Description: Encryption configuration failure
+Extended_description: You have selected the /boot file system to be stored on an encrypted partition. This is not possible because the boot loader would be unable to load the kernel and initrd. Continuing now would result in an installation that cannot be used.\n\nYou should go back and choose a non-encrypted partition for the /boot file system.
+Description-ar.UTF-8: فشل في تهيئة التشفير
+Extended_description-ar.UTF-8: لقد اخترت تخزين نظام الملفات /boot على جزء مشفر، وهذا غير ممكن حيث أن محمل الإقلاع قد لا يستطيع تحميل النواة وinitrd. إن استمريت بما تفعله الآن، قد ينتهي بك الأمر بتثبيت لا يمكن استخدامه.\n\nعليك العودة واختيار جزء غير مشفر لنظام الملفات /boot.
+Description-ast.UTF-8: Fallu na configuración d'encriptación
+Extended_description-ast.UTF-8: Tu seleicionaste que'l sistema de ficheros /boot s'almacene nuna partición encriptada. Esto nun ye posible porque'l cargador d'arranque podría nun poder cargar el kernel y initrd. Continuar agora podría resultatr nuna instalación que podría nun ser usada.\n\nDebieres volver atrás y escoyer una partición non encriptada pal sistema de ficheros en /boot.
+Description-be.UTF-8: Не атрымалася наладзіць шыфраванне
+Extended_description-be.UTF-8: Вы прызначылі захаванне файлавай сістэмы /boot у шыфраваным падзеле. Гэта немагчыма, бо загрузчык не будзе здольны загрузіць ядро і initrd. У выніку працягу сістэма стане непрыдатнай да ўжывання.\n\nКалі ласка, вярніцеся назад, каб прызначыць нешыфраваны падзел для файлавай сістэмы /boot.
+Description-bg.UTF-8: Грешка при настройване на шифриране
+Extended_description-bg.UTF-8: Избрахте файловата система за зареждане на операционната система да бъде върху шифриран дял. Тази възможност не е достъпна, понеже програмата за първоначално зареждане няма да може да зареди ядрото от шифриран дял. Продължаването въпреки това предупреждение ще доведе до неизползваема инсталация.\n\nМоля, върнете се обратно и изберете нешифриран дял за файловата система /boot.
+Description-bn.UTF-8: এনক্রিপশন কনফিগারেশনে ব্যর্থতা
+Extended_description-bn.UTF-8: আপনি /boot ফাইল সিস্টেমকে একটি এনক্রিপ্টকৃত পার্টিশনে সংরক্ষণের সিদ্ধান্ত নিয়েছেন। এটা সম্ভব নয় কারণ বুট লোডার কার্ণেল এবং initrd লোড করতে অসমর্থ হতে পারে। এমতাবস্থায় অগ্রসর হলে এমন একটি ইনস্টলেশন হবে যা পরবর্তীতে ব্যবহার করা যাবেনা।\n\nআপনার পেছনে ফিরে /boot ফাইল সিস্টেমের জন্য একটি নন-এনক্রিপ্টকৃত পার্টিশন পছন্দ করা উচিত।
+Description-bs.UTF-8: Greška pri podešavanju enkripcije
+Extended_description-bs.UTF-8: Odabrali ste da /boot datotečni sistem bude smješten na enkriptovanoj particiji. Ova nije moguće zbog toga sto boot loader neće moći učitati kernel i initrd. Nastavljanje sada će rezultovati u instalaciji koja se ne može koristiti.\n\nTrebate se vratiti i odabrati neenkriptovanu particiju za /boot datotečni sistem.
+Description-ca.UTF-8: Error en la configuració del xifrat
+Extended_description-ca.UTF-8: Heu seleccionat emmagatzemar el sistema de fitxers /boot en una partició xifrada. Això no és possible perquè el carregador no podria carregar el nucli i l'initrd. Continuar resultarà en una instal·lació que no es podrà utilitzar.\n\nHauríeu d'anar enrere i seleccionar una partició no xifrada per al sistema de fitxers /boot.
+Description-cs.UTF-8: Chyba nastavení šifrování
+Extended_description-cs.UTF-8: Zvolili jste uložení souborového systému /boot na šifrované oblasti. To není možné, protože zavaděč by neměl jak zavést jádro a initrd. Případné pokračování by způsobilo, že instalaci nebudete moci použít.\n\nMěli byste se vrátit zpět a pro souborový systém /boot si zvolit nešifrovanou oblast.
+Description-cy.UTF-8: Methiant i gyflunio amgryptiad
+Extended_description-cy.UTF-8: Rydych wedi dewis y system ffeilio /boot i'w storio ar raniad amgryptedig. Nid yw hyn yn bosibl oherwydd nad fyddai'r llwythwr cychwyn yn gallu llwytho'r cnewyllyn a initrd. Mi fyddai parhau nawr yn golygu na fyddai'r sefydliad yn gallu cael ei ddefnyddio.\n\nFe ddylech fynd nôl a dewis rhaniad heb ei amgryptio ar gyfer y system ffeilio /boot.
+Description-da.UTF-8: Fejl under opsætning af kryptering
+Extended_description-da.UTF-8: Du har valgt at rod-filsystemet skal gemmes på en krypteret partition. Dette er ikke muligt, da opstartsindlæseren ikke ville kunne indlæse kernen og initrd. Hvis du fortsætte nu, vil du ende med en installation, der ikke kan bruges.\n\nDu bør gå tilbage og vælge en ikke-krypteret partition til /boot-filsystemet.
+Description-de.UTF-8: Verschlüsselungskonfiguration fehlgeschlagen
+Extended_description-de.UTF-8: Sie haben gewählt, dass das /boot-Dateisystem auf einer verschlüsselten Partition abgelegt werden soll. Dies ist nicht möglich, da der Bootloader nicht in der Lage wäre, den Kernel und die initrd zu laden. Ein Fortfahren würde in einer Installation enden, die nicht benutzt werden kann.\n\nSie sollten zurückgehen und eine nicht verschlüsselte Partition für das /boot-Dateisystem wählen.
+Description-dz.UTF-8: གསང་བཟོ་རིམ་སྒྲིག་འབད་ནི་ལུ་འཐུས་ཤོར།
+Extended_description-dz.UTF-8: ཁྱོད་ཀྱིས་གསང་བཟོས་བར་བཅད་འདི་གུ་བསག་མཛོད་འབད་ནིའི་དོན་ལུ་རྩ་བའི་ཡིག་སྣོད་རིམ་ལུགས་འདི་སེལ་འཐུ་འབད་ནུག། འ་ནི་ཁྱད་རྣམ་འདི་ཐོབ་ཚུགས་མེདཔ་དང་ ད་ལྟོ་འཕྲོ་མཐུད་འབད་མི་འདི་གིས་གཞི་བཙུགས་འདི་ལག་ལེན་འཐབ་མ་བཏུབ་པའི་གྲུབ་འབྲས་འབྱུང་འོང་།\n\nཁྱོད་ཀྱིས་ རྩ་བའི་ཡིག་སྣོད་རིམ་ལུགས་ཀྱི་དོན་ལུ་ ལོག་འགྱོ་སྟེ་གསང་བཟོས་མེན་མི་བར་བཅད་གདམ་ཁ་རྐྱབས་གནང་།
+Description-el.UTF-8: Αποτυχία ρύθμισης της κρυπτογράφησης
+Extended_description-el.UTF-8: Έχετε επιλέξει την αποθήκευση του συστήματος αρχείων /boot σε μια κρυπτογραφημένη κατάτμηση. Αυτό δεν είναι δυνατόν γιατί ο φορτωτής εκκίνησης δεν θα μπορούσε να φορτώσει τον πυρήνα και τον δίσκο μνήμης initrd. Αν συνεχίσετε θα καταλήξετε με μια εγκατάσταση που δεν θα μπορεί να χρησιμοποιηθεί.\n\nΘα πρέπει να πάτε πίσω και να επιλέξετε μια μη-κρυπτογραφημένη κατάτμηση για το σύστημα αρχείων /boot.
+Description-eo.UTF-8: Ĉifrita agordado malsukcesis
+Extended_description-eo.UTF-8: Vi elektis ke la dosiersistemon /root estu konservata en ĉifrita diskparto. Tio ĉi ne eblas ĉar la ekŝargilo ne povos ŝargi je la kerno kaj je la initrd. Daŭrigi nun rezultos neuzeblan instalon.\n\nBonvole retroiru kaj elektu malĉifritan diskparton por la dosiersistemo /boot.
+Description-es.UTF-8: Fallo en la configuración del cifrado
+Extended_description-es.UTF-8: Ha elegido crear el sistema de ficheros /boot en una partición cifrada. No puede hacer esto porque el cargador de arranque no podría cargar el núcleo y el initrd. Si continúa obtendrá una instalación que no puede utilizarse.\n\nPor favor, vuelva atrás y escoja una partición no cifrada para el sistema de ficheros /boot.
+Description-et.UTF-8: Krüpteerimise seadistamine nurjus
+Extended_description-et.UTF-8: Oled valinud /boot failisüsteemi krüpteerimise. See on võimatu, kuna alglaadur ei suudaks kernelit ja initrd tõmmist laadida. Jätkates oleks tulemuseks kasutuskõlbmatu süsteem.\n\nPeaksid minema tagasi ja /boot failisüsteemi jaoks krüpteerimata partitsiooni valima.
+Description-eu.UTF-8: Enkriptazioaren konfigurazioak huts egin du
+Extended_description-eu.UTF-8: /boot fitxategi-sistema enkriptatutako partizio batean gordetzea hautatu duzu. Hau ezinezkoa da, abioko kargatzaileak ezin izango baitu nukleoa eta initrd kargatu. Aurrera jarraitzen baduzu, ezin izango da instalazioa erabili.\n\nJoan atzera eta aukeratu enkriptatu gabeko partizio bat /boot fitxategi-sistema ezartzeko.
+Description-fa.UTF-8: تنظیم خودکار شبکه شکست خورد
+Extended_description-fa.UTF-8:  بر یک پارتیشن پنهان شده گرفته اید. این غیر ممکن نیست زیرا بوت لودر قادر به لود کرنل و اینیترد نیست. ادامه آن در حال حاضر بر نصب تاثیر گذار خواهد بود که نمی‌تواند مورد استفاده قرار گیرد./bootشما تصمیم به ذخیره فایل سیستم \n\n انتخاب کنید. /bootشما باید بازگردید و یک پارتیشن پنهان نشده را برای سیستم فایل
+Description-fi.UTF-8: Salauksen asetuksissa on virhe
+Extended_description-fi.UTF-8: Tiedostojärjestelmä /boot on valittu tallennettavaksi salatulle levyosiolle. Tämä ei ole mahdollista koska käynnistyslatain ei voisi ladata ydintä eikä initrd:tä. Jatkaminen nyt johtaisi käyttökelvottomaan asennukseen.\n\nPalaa takaisin ja valitse /boot-tiedostojärjestelmälle osio, jota ei ole salattu.
+Description-fr.UTF-8: Échec de la configuration du chiffrement
+Extended_description-fr.UTF-8: Vous avez choisi de placer le système de fichiers /boot sur une partition chiffrée. Ce choix n'est pas possible car le gestionnaire d'amorçage ne pourra pas charger le noyau et l'image disque en mémoire (« initrd »). Si vous continuez, le système installé sera inutilisable.\n\nVous devriez revenir en arrière et choisir une partition non chiffrée pour le système de fichiers /boot.
+Description-ga.UTF-8: Theip ar chumraíocht chriptiúcháin
+Extended_description-ga.UTF-8: Tá tú ag iarraidh an córas comhad /boot a stóráil ar dheighilt chriptithe. Níl sé seo indéanta toisc nach mbeadh an luchtóir tosaithe in ann an eithne agus initrd a luchtú. Má leanann tú ar aghaidh, ní bheidh an córas inúsáidte.\n\nBa chóir duit dul ar ais agus deighilt neamhchriptithe a roghnú le haghaidh an chórais comhad /boot.
+Description-gl.UTF-8: Fallou a configuración do cifrado
+Extended_description-gl.UTF-8: Escolleu almacenar o sistema de ficheiros /boot nunha partición cifrada. Isto non é posíbel porque o cargador de arranque non ha poder cargar o núcleo e o initrd. Se continúa ha producir unha instalación que non se pode empregar.\n\nDebería voltar e escoller unha partición non cifrada para o sistema de ficheiros /boot.
+Description-gu.UTF-8: એનક્રિપ્શન રૂપરેખાંકન નિષ્ફળ
+Extended_description-gu.UTF-8: તમે /boot ફાઇલ સિસ્ટમ  એન્ક્રિપ્ટેડ પાર્ટિશન પર સંગ્રહવાનું પસંદ કર્યું છે. આશક્ય નથી કારણકે બુટલોડર કર્નલ અને initrd લાવવામાં અસર્મથ હશે. આગળવધવાનું હવે એવું સ્થાપન પરિણામ લાવશે જે ઉપયોગ કરી શકાશે નહી.\n\nતમારે પાછા જવું જોઇએ અને /boot ફાઇલ સિસ્ટમ માટે એન્ક્રિપ્ટ ન હોય તેવું પાર્ટિશન પસંદ કરવું જોઇએ.
+Description-he.UTF-8: שגיאה בהגדרת הצפנה
+Extended_description-he.UTF-8: בחרת כי מערכת הקבצים /boot תאוחסן במחיצה מוצפנת. אפשרות זאת אינה אפשרית, מאחר ומנהל האתחול לא יוכל לטעון את הליבה ואת ה-initrd. המשך בכיוון זה יבנה התקנה שאינה ניתנת לשימוש.\n\nעליך לחזור אחורה, ולבחור במחיצה לא מוצפת עבור מערכת הקבצים /boot.
+Description-hi.UTF-8: कूट संबद्ध व्यवस्थापन असफल रहा
+Extended_description-hi.UTF-8: आपने /boot पार्टिशन को एक कूटबद्ध पार्टिशन पर भंडारित करने के लिए चुना है. ऐसा इसलिए संभव नहीं है कि बूटलोडर कर्नेल व इनिटआरडी को लोड करने में असमर्थ हो जाएगा. ऐसे ही जारी रखने से आपका संस्थापन उपयोग के योग्य नहीं रह जाएगा.\n\nआपको पीछे जाकर /boot फाइलतंत्र के लिए एक बिना कूट बद्ध पार्टिशन चुनना चाहिए.
+Description-hr.UTF-8: Podešavanje enkripcije nije uspjelo
+Extended_description-hr.UTF-8: Izabrali ste da se /boot datotečni sustav nalazi na enkriptiranoj particiji. To nije moguće jer onda boot učitavač ne bi mogao učitati jezgru i initrd. Ako biste sad nastavili, ova instalacija ne bi bila upotrebljiva.\n\nTrebate se vratiti i izabrati neenkriptiranu particiju za /boot datotečni sustav.
+Description-hu.UTF-8: Titkosítás konfigurációs hiba
+Extended_description-hu.UTF-8: A /boot fájlrendszerhez titkosított partíció lett kiválasztva. Ez így nem jó, mert a boot betöltő nem tudja majd betölteni a rendszermagot és az initrd-t. Így használhatatlan telepítés keletkezhet.\n\nVisszalépéssel nem-titkosított fájlrendszert kell választani a /boot fájlrendszerhez.
+Description-id.UTF-8: Pengaturan enkripsi gagal
+Extended_description-id.UTF-8: Anda telah memilih sistem berkas /boot disimpan pada partisi terenkripsi. Hal ini tidak bisa dilakukan karena bootloader tidak dapat memuat kernel dan initrd. Melanjutkan proses hanya akan menghasilkan kegagalan.\n\nSilakan kembali dan pilih partisi tak terenkripsi untuk sistem berkas /boot.
+Description-is.UTF-8: Ekki tókst að stilla dulritun
+Extended_description-is.UTF-8: Þú hefur valið að setja /boot skráakerfið á dulritaða disksneið. Þetta er ekki mögulegt vegna þess að ræsistjórinn gæti ekki hlaðið inn stýrikerfiskjarnanum og initrd. Ef þú héldir áfram núna þá myndi það útbúa kerfi sem ekki væri nothæft.\n\nÞú ættir að fara til baka og velja ódulritaða disksneið fyrir /boot skráakerfið.
+Description-it.UTF-8: Configurazione cifratura non riuscita
+Extended_description-it.UTF-8: È stato scelto di memorizzare il file system /boot su una partizione cifrata. Questo non è possibile perché il boot loader non è in grado di caricare il kernel e l'initrd. Continuando, si otterrà un'installazione non funzionante.\n\nTornare indietro e scegliere una partizione non cifrata come file system di /boot.
+Description-ja.UTF-8: 暗号化の設定に失敗しました
+Extended_description-ja.UTF-8: 暗号化パーティションに /boot ファイルシステムを格納するよう選択しました。ブートローダがカーネルと initrd をロードできないので、これは不可能です。このまま続けると、インストールしたものは利用できません。\n\n戻って暗号化されていないパーティションを /boot ファイルシステムに選ぶべきです。
+Description-ka.UTF-8: შეცდომა დაშიფვრის კონფიგურაციისას
+Extended_description-ka.UTF-8: თქვენ მიუთითეთ, რომ /boot ფაილური სისტემა შიფრიებულ დანაყოფზე მოთავსდეს. ეს შეუძლებელია, ვინაიდან სისტემის ჩამტვირთველი კერნელისა და initrd-ს ჩატვირთვას ვერ მოახერხებს. თუ გააგრძელებთ, გამოუსადეგარ ინსტალაციას მიიღებთ.\n\nგთხოვთ დაბრუნდეთ და მიუთითო არადაშიფრული დანაყოფი /boot ფაილური სისტემისათვის.
+Description-kk.UTF-8: Шифрлеуді баптау сәтсіз аяқталды
+Extended_description-kk.UTF-8: Сіз /boot файлдық жүйені шифрленген бөлімде сақтауды таңдаңыз. Бұл мүмкін емес, себебі жүктеуші ядро мен initrd жүктей алмайтын болады. Жалғастыруды қаласаңыз, нәтижесінде пайдалануға жарамсыз жүйе аласыз.\n\nАртқа шегініп, /boot файлдық жүйесіне шифрленбеген бөлім таңдаңыз.
+Description-km.UTF-8: បរាជ័យ​ក្នុង​ការ​កំណត់​រចនា​សម្ព័ន្ធ​​ការ​អ៊ិនគ្រីប
+Extended_description-km.UTF-8: អ្នក​បាន​ជ្រើស​ប្រព័ន្ធ​ឯកសារ /boot ដែល​ត្រូវ​ទុក​នៅ​លើ​ភាគថាស​ដែល​បាន​អ៊ិនគ្រីប ។ វា​មិន​អាច​ធ្វើ​បាន​ទេពីព្រោះ​កម្មវិធី​ចាប់ផ្ដើម​ប្រព័ន្ធ​នឹង​មិន​អាច​ផ្ទុក​ខឺណែល​ និង initrd ។ ឥឡូវ ការ​បន្ត​នឹង​មាន​លទ្ធផល​ក្នុង​ការ​ដំឡើង​ដែល​មិន​អាច​ត្រូវ​បាន​ប្រើ ។\n\nអ្នក​គួរ​ត្រឡប់​ក្រោយ ហើយ​ជ្រើស​ភាគ​ថាស​ដែល​មិន​បាន​អ៊ិនគ្រីប​មួយ​សម្រាប់​ប្រព័ន្ធ​ឯកសារ /boot ។
+Description-kn.UTF-8: ಗೂಢಲಿಪೀಕರಣ ಸಂರಚನೆಯಲ್ಲಿ ವಿಫಲತೆ
+Extended_description-kn.UTF-8: ನೀವು /ಬೂಟ್ ಕಡತ ವ್ಯವಸ್ಥೆಯನ್ನು ಗೂಢಲಿಪೀಕರಿಸಿದ ವಿಭಜನೆಯಲ್ಲಿ ಸಂಗ್ರಹಿಸಲು ಆಯ್ಕೆ ಮಾಡಿದ್ದೀರಿ. ಇದು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಬೂಟ್ ಲೋಡರ್ ಕರ್ನಲ್ ಮತ್ತು initrdಯನ್ನು ತುಂಬಲು ಸಾಧ್ಯವಾಗುದಿಲ್ಲ. ಹೀಗೆಯೆ ಮುಂದುವರೆಯುವುದರಿಂದ ಒಂದು ಬಳಸಲಾಗದ ಅನುಸ್ಥಾಪನೆಯಾಗಿ ಪರಿಣಮಿಸುವುದು.\n\nನೀವು ಹಿಂದಕ್ಕೆ ಹೋಗಿ /ಬೂಟ್ ಕಡತ ವ್ಯವಸ್ಥೆಗಾಗಿ ಗೂಢಲಿಪೀಕರಣಗೊಳ್ಳದ ವಿಭಜನೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬೇಕು.
+Description-ko.UTF-8: 암호화 설정 실패
+Extended_description-ko.UTF-8: /boot 파일 시스템을 암호화한 파티션에 저장하도록 설정했습니다. 이러한 경우 부트로더에서 커널과 initrd를 읽어들일 수 없으므로 이렇게 사용할 수 없습니다. 이대로 계속 진행하면 사용할 수 없는 시스템이 됩니다.\n\n뒤로 가셔서 암호화하지 않은 파티션을 /boot 파일 시스템으로 선택하십시오.
+Description-lo.UTF-8: ຕັ້ງຄ່າການເຂົ້າລະຫັດບໍ່ສຳເລັດ
+Extended_description-lo.UTF-8: ທ່ານໄດ້ເລືອກໃນລະບົບແຟ້ມ /boot  ຢູ່ໃນພາທີຊັນທີ່ເຂົ້າລະຫັດສະຫຼັບ ຊື່ງໄປເປັນບໍ່ໄດ້ ເພາະບູດໂຫຼດເດີຈະບໍ່ສາມາດໂຫຼດເຄເນຣວ ແລະ initrd ໄດ້ການດຳເນີນການຕໍ່ໄປ ຈະໃຫ້ໄດ້ລະບົບທີ່ໃຊ້ງານບໍ່ໄດ້\n\nທ່ານຄວນກັບໄປເລືອກພາທີຊັນທີ່ບໍ່ໄດ້ເຂົ້າລະຫັດສະຫຼັບ ເພື່ອໃຊ້ກັບລະບົບແຟ້ມ /boot
+Description-lt.UTF-8: Šifravimo konfigūravimo nesėkmė
+Extended_description-lt.UTF-8: Pasirinkote, kad /boot failų sistema būtų saugoma šifruotame disko skirsnyje. Tai neįmanoma, kadangi sistemos pradinis įkėliklis negalės įkelti branduolio ir initrd failo. Jei tęsite diegimą dabar, naujoji sistema negalės būti naudojama.\n\nJūs turite grįžti atgal ir /boot failų sistemai pasirinkti nešifruotą disko skirsnį.
+Description-lv.UTF-8: Šifrēšanas konfigurēšana neizdevās
+Extended_description-lv.UTF-8: Jūs izvēlējāties novietot /boot datņu sistēmu šifrētā nodalījumā. Tas nav iespējams, jo palaidējs nespēs ielādēt kodolu un initrd. Šādas konfigurācijas saglabāšana novedīs pie nelietojamas instalācijas.\n\nLūdzu, atgriezieties un izvēlieties nešifrētu nodalījumu /boot datņu sistēmai.
+Description-mk.UTF-8: Неуспех при конфигурацијата на енкрипцијата
+Extended_description-mk.UTF-8: Избра рут датотечниот систем да биде сместен на енкриптирана партиција. Ова не е можно бидејќи подигнувачот не ќе може да ги вчита кернелот и initrd. Ако продолжиш сега може да се случи системот да неможе да се користи.\n\nТе молам врати се назад и избери не енкриптирана партиција за рут датотечниот систем.
+Description-ml.UTF-8: എന്‍ക്രിപ്ഷന്‍ ക്രമീകരണത്തില്‍ പരാജയം
+Extended_description-ml.UTF-8: നിങ്ങള്‍ /boot ഫയല്‍ സിസ്റ്റം ഒരു എന്‍ക്രിപ്റ്റ് ചെയ്ത ഭാഗത്തു് സൂക്ഷിക്കാന്‍ തെരഞ്ഞെടുത്തിരിക്കുന്നു. ബൂട്ട് ലോഡറിനു് കെര്‍ണലും ഇനിറ്റാര്‍ഡിയും ചേര്‍ക്കുന്നതിന് പറ്റാത്തതാക്കും എന്നതിനാല്‍ ഇതു് സാധ്യമല്ല. ഇപ്പോള്‍ തുടരുന്നതു് ഉപയോഗിയ്ക്കാന്‍ പറ്റാത്ത ഒരു ഇന്‍സ്റ്റലേഷനില്‍ കലാശിക്കും.\n\nനിങ്ങള്‍ തിരിച്ചു് പോയി /boot ഫയല്‍ സിസ്റ്റത്തിനായി എന്‍ക്രിപ്റ്റ് ചെയ്യാത്ത ഭാഗം തെരഞ്ഞെടുക്കേണ്ടതുണ്ടു്.
+Description-mr.UTF-8: सांकेतिकीकरण संरचना असफल
+Extended_description-mr.UTF-8: तुम्ही संकेताधारित विभाजनावर /boot फाईल प्रणाली ठेवण्याचे ठरवले आहे. परंतू हे शक्य नाही कारण आरंभसूचक गाभा व इनिटआरडी लोड करू शकणार नाही. असेच पुढे चालू ठेवल्यास झालेली अधिष्ठापना वापरण्यायोग्य असणार नाही.\n\nतुम्ही मागे जाउन /boot फाईल प्रणालीसाठी संकेताधारित नसलेले विभाजन निवडले पाहिजे.
+Description-nb.UTF-8: Krypteringsoppsett mislyktes
+Extended_description-nb.UTF-8: Du har valgt at rot-filsystemet skal lagres på en kryptert partisjon. Dette kan ikke gjøres fordi oppstartslasteren ikke ville kunne laste inn kjernen og initrd-fila. Fortsetter du nå får du en installasjon som ikke kan brukes.\n\nDu bør gå tilbake og velg en ukryptert partisjon til /boot-filsystemet.
+Description-ne.UTF-8: गुप्तीकरण कन्फिगरेशन असफल भयो 
+Extended_description-ne.UTF-8: तपाईँले गुप्तिकृत विभाजनमा भण्डारण गर्न /boot फाइल प्रणाली चयन गर्नुभयो । यो संभव छैन किनभने बुटलोडरले कर्नेल र initrd लाई लोड गर्न सक्दैन । अहिले देखि निरन्तरता दिनाले प्रयोग हुन नसक्ने स्थापनामा नतिजा दिन्छ ।\n\nतपाईँ पछाडि जानुहोस् र /boot फाइल प्रणालीका लागि गुप्तिकृत नभएको विभाजन रोज्नुहोस् ।
+Description-nl.UTF-8: Encryptieconfiguratiefout
+Extended_description-nl.UTF-8: U heeft ervoor gekozen om het '/boot'-bestandssysteem op te slaan op een versleutelde partitie. Dit is onmogelijk omdat de opstartlader dan niet in staat is om de kernel en de initrd te laden. Toch doorgaan zal dan ook leiden tot een onbruikbare installatie.\n\nU dient dus terug te gaan om een niet-versleutelde partitie te kiezen voor het '/boot'-bestandssysteem.
+Description-nn.UTF-8: Krypteringsoppsett mislukkast
+Extended_description-nn.UTF-8: Du har valt at /boot-partisjonen skal lagrast på ein kryptert partisjon. Dette er ikkje mogeleg fordi oppstartslastaren ikkje er i stand til å laste kjerna og initrd frå ein kryptert partisjon. Om du held fram er resultatet ein ubrukeleg installasjon.\n\nDu bør gå tilbake og velje ein ukryptert partisjon til /boot-filsystemet.
+Description-no.UTF-8: Krypteringsoppsett mislyktes
+Extended_description-no.UTF-8: Du har valgt at rot-filsystemet skal lagres på en kryptert partisjon. Dette kan ikke gjøres fordi oppstartslasteren ikke ville kunne laste inn kjernen og initrd-fila. Fortsetter du nå får du en installasjon som ikke kan brukes.\n\nDu bør gå tilbake og velg en ukryptert partisjon til /boot-filsystemet.
+Description-pa.UTF-8: ਇੰਕ੍ਰਿਪਸ਼ਨ ਸੰਰਚਨਾ ਅਸਫਲਤਾ
+Extended_description-pa.UTF-8: ਤੁਸੀਂ  /boot ਫਾਇਲ ਸਿਸਟਮ ਨੂੰ ਇੰਕ੍ਰਿਪਟਡ ਭਾਗ ਉੱਤੇ ਸੰਭਾਲਣ ਦੀ ਚੋਣ ਕੀਤੀ ਹੈ। ਇਹ ਸੰਭਵ ਨਹੀਂ ਹੈ, ਕਿਉਂਕਿ ਬੂਟ-ਲੋਡਰ ਕਰਨਲ ਅਤੇ initrd ਨੂੰ ਲੋਡ ਨਹੀਂ ਕਰ ਸਕੇਗਾ। ਹੁਣ ਜਾਰੀ ਰੱਖਿਆ ਤਾਂ ਇੱਕ ਇੰਸਟਾਲੇਸ਼ਨ ਹੋਵੇਗੀ, ਜਿਸ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੇਗੀ।\n\nਤੁਹਾਨੂੰ ਪਿੱਛੇ ਜਾ ਕੇ /boot ਫਾਇਲ ਸਿਸਟਮ ਲਈ ਨਾ-ਇੰਕਰਿਪਟਡ ਭਾਗ ਦੀ ਚੋਣ ਕਰਨੀ ਪਵੇਗੀ।
+Description-pl.UTF-8: Konfiguracja szyfrowania nie powiodła się
+Extended_description-pl.UTF-8: Wybrano by główny system plików był przechowywany na szyfrowanej partycji. Taka możliwość nie istnieje ponieważ program rozruchowy nie będzie mógł załadować jądra oraz initrd. Kontynuowanie może doprowadzić do sytuacji, że system będzie bezużyteczny.\n\nCofnij się i wybierz nieszyfrowaną partycję dla głównego systemu plików.
+Description-pt.UTF-8: Falha da configuração de encriptação
+Extended_description-pt.UTF-8: Você escolheu o sistema de ficheiros /boot para ser guardado numa partição encriptada. Isto não é possível porque o gestor de arranque seria incapaz de carregar o kernel e o initrd. Continuar agora resultaria numa instalação que não pode ser utilizada.\n\nDeve voltar atrás e escolher uma partição não-encriptada para o sistema de ficheiros /boot.
+Description-pt_BR.UTF-8: Falha na configuração da criptografia
+Extended_description-pt_BR.UTF-8: Você selecionou o armazenamento do sistema de arquivos /boot em uma partição criptografada. Isso não é possível devido ao carregador de inicialização não conseguir carregar o kernel e o initrd a partir de uma partição criptografada. Continuar agora resultaria em uma instalação que não poderia ser usada.\n\nVocê deveria voltar e selecionar uma partição não criptografada para o sistema de arquivos /boot.
+Description-ro.UTF-8: Eșec la configurarea criptării
+Extended_description-ro.UTF-8: Ați selectat să stocați sistemul de fișiere /boot pe o partiție criptată. Acest lucru nu este posibil deoarece încărcătorul de sistem nu ar putea încărca nucleul și imaginea initrd. Continuarea va duce la o instalare de sistem inutilizabilă.\n\nAr trebui să vă întoarceți și să alegeți o partiție necriptată pentru sistemul de fișiere /boot.
+Description-ru.UTF-8: Отказ настройки шифрования
+Extended_description-ru.UTF-8: Вы указали, что файловая система в разделе /boot будет располагаться на шифрованном разделе. Это невозможно, так как системный загрузчик не сможет загрузить ядро и initrd. Продолжение привело бы к неработоспособной установленной системы.\n\nВы должны вернуться и выбрать не шифрованный раздел для файловой системы /boot.
+Description-si.UTF-8: ගුප්තකේතන සැකසුම් දෝශයක්
+Extended_description-si.UTF-8: ඔබ විසින් /boot ගොනු පද්ධතිය ගුප්තකේතිත කොටසක් මත පිහිටුවීමට තෝරාගෙන ඇත. පූරකයට කර්නලය හා initrd පූර්ණය කල නොහැකි බැවින් මෙය කල නොහැක. ඉදිරියට යාම ස්ථාපනය භාවිත කල නොහැකි තත්වයට පත්කරයි.\n\nඔබට ආපසු ගොස් /boot ගොනු පද්ධතිය ලෙස ගුප්තකේතනය නොකල කොටසක් තෝරාගැනීමට සිදුවේ.
+Description-sk.UTF-8: Chyba pri nastavení šifrovania
+Extended_description-sk.UTF-8: Zvolili ste si uloženie súborového systému pre /boot na šifrovanú oblasť. To však nie je možné, pretože štartovací zavádzač nebude môcť načítať jadro a initrd. Pokračovaním môžete dospieť iba k inštalácii, ktorá nebude použiteľná.\n\nMali by ste sa vrátiť späť a pre súborový systém /boot zvoliť nešifrovanú oblasť.
+Description-sl.UTF-8: Napaka pri nastavljanju šifriranja
+Extended_description-sl.UTF-8: Izbrali ste, da naj bo datotečni sistem /boot nameščen na šifrirani razdelek. To ni mogoče, saj zagonski nalagalnik ne bi mogel naložiti jedra. Nadaljevanje bo privedlo do neuporabne namestitve sistema.\n\nVrnite se nazaj in izberite nešifrirani razdelek za zagonski datotečni sistem (/boot).
+Description-sq.UTF-8: Dështim në konfigurimin e kriptimit
+Extended_description-sq.UTF-8: Zgjodhe që filesistemi /boot të ruhet në një ndarje të kriptuar. Kjo nuk është e mundur pasi ngarkuesi i nisjes nuk do mund të ngarkonte kernelin dhe initrd. Nëse vazhdon tani do sillte një instalim të papërdorshëm.\n\nTë lutem kthehu prapa dhe zgjidh një ndarje jo të kriptuar për filesistemin /boot.
+Description-sr.UTF-8: Проблем са конфигурацијом енкрипције
+Extended_description-sr.UTF-8: Изабрали сте да /boot фајл систем буде на енкриптованој партицији. Ово није могуће јер бут лоудер неће моћи да учита кернел и „initrd“. Ако наставите сада завршићете са инсталацијом која неће бити употребљива.\n\nТребало би да се вратите и изаберете неенкриптовану партицију за /boot фајл систем.
+Description-sv.UTF-8: Krypteringskonfigurationen misslyckad
+Extended_description-sv.UTF-8: Du har valt att rotfilsystemet ska lagras på en krypterad partition. Den här möjligheten finns inte och fortsätter du med det kommer ditt system inte gå att använda.\n\nDu bör gå tillbaka och välja en icke-krypterad partition till /boot-filsystemet.
+Description-ta.UTF-8: மறைக்குறியீடு வடிவமைப்பு தோல்வியுற்றது.
+Extended_description-ta.UTF-8: நீங்கள் /boot கோப்பு அமைப்பை மறைகுறியீடாக்கப்பட்ட பகிர்வில் சேமிக்க தேர்வு செய்துள்ளீர்கள். துவக்கியால் கரு மற்றும் initrd-ஐ ஏற்ற முடியாது என்பதால் இதற்கு சாத்தியமில்லை. மேலும் தொடர்வது பயன்படுத்த முடியாத நிறுவலில் முடியும்.\n\nநீங்கள் பின்சென்று மறைகுறியாக்கப்படாத /boot கோப்பு அமைப்பிற்கு தேர்வு செய்யவும்.
+Description-te.UTF-8: Encryption అమరిక విఫలం
+Extended_description-te.UTF-8: /boot  ఫైల్ వ్యవస్థ  ఎన్ర్పిప్టెడ్ విభజన పై నిల్వ చేద్దామనుకున్నావు. ఇది కుదరదు ఎందుకంటే బూట్ లోడర్ కెర్నెల్ మరియు  initrd నింపలేదు. కొనసాగితే, స్థాపన వుపయోగపడకపోవచ్చు.\n\nవెనుకకు వెళ్లి  /boot ఫైల్ వ్యవస్థ కొరకు   ఎన్ర్పిప్టెడ్ విభజన  కానిది ఎంచుకో.
+Description-tg.UTF-8: Ҳангоми конфигуратсия кардани рамзгузорӣ нокомӣ ба вуҷуд омадааст
+Extended_description-tg.UTF-8: Шумо интихоб кардед, ки системаи файлии /boot дар қисми диски рамздор нигоҳ дошта шавад. Ин имконнопазир аст, чунки он гоҳ худроҳандозӣ наметавонад ҳаста ва initrd-ро бор кунад. Агар шумо ҳозир идома диҳед, насбкунӣ истифода намешавад.\n\nШумо бояд ба қафо гузашта, қисми диски рамзнадоштаро барои системаи файлии /boot интихоб кунед.
+Description-th.UTF-8: ตั้งค่าการเข้ารหัสลับไม่สำเร็จ
+Extended_description-th.UTF-8: คุณได้เลือกให้ระบบแฟ้ม /boot อยู่ในพาร์ทิชันที่เข้ารหัสลับ ซึ่งเป็นไปไม่ได้ เพราะบูตโหลดเดอร์จะไม่สามารถโหลดเคอร์เนลและ initrd ได้ การดำเนินการต่อไป จะทำให้ได้ระบบที่ใช้งานไม่ได้\n\nคุณควรกลับไปเลือกพาร์ทิชันที่ไม่ได้เข้ารหัสลับ เพื่อใช้กับระบบแฟ้ม /boot
+Description-tl.UTF-8: Bigo ang pagsasaayos ng encryption
+Extended_description-tl.UTF-8: Pinili niyo na ang /boot file system ay imbakin sa encrypted na partisyon. Hindi ito maaaring gawin dahil hindi maipapasok ng bootloader ang kernel at initrd. Ang pagpapatuloy ay magdudulot ng iniluklok na sistemang hindi magagamit.\n\nBumalik at pumili ng hindi encrypted na partisyon para sa /boot file system.
+Description-tr.UTF-8: Şifreleme yapılandırma hatası
+Extended_description-tr.UTF-8: "/boot" dosya sisteminin şifrelenmiş bir bölümde tutulmasını seçtiniz. Önyükleyici, çekirdek ve "initrd"yi yükleyemeyeceğinden bu özelliğin kullanılması mümkün değil. Devam etmeniz halinde gerçekleşecek kurulum kullanılabilir nitelikte olmayacaktır.\n\nLütfen geri dönün ve /boot bölümü için şifrelenmemiş bir bölüm seçin.
+Description-ug.UTF-8: شىفىرلاشنى سەپلەش مەغلۇپ بولدى
+Extended_description-ug.UTF-8: سىز /boot ھۆججەت سىستېمىسىنى شىفىرلىق رايونغا قويۇشنى تاللىدىڭىز. قوزغىتىش يېتەكلىگۈچ بۇ خىل تەڭشەكتە  يادرو ۋە  initrd نى  يۈكلىيەلمەيدۇ،  شۇڭلاشقا بۇ ئەمەلگە ئاشۇرغىلى بولمايدىغان لايىھە. ئەگەر داۋاملاشتۇرسىڭىز ئورنىتىش تاماملانغاندىن كېيىن سىستېمىنى ئىشلەتكىلى بولمايدۇ.\n\nسىز ئالدىنقى باسقۇچقا قايتىپ /boot ھۆججەت سىستېمىسىغا شىفىرسىز رايوندىن بىرنى تاللاڭ.
+Description-uk.UTF-8: Не вдалося налаштувати шифрування
+Extended_description-uk.UTF-8: Ви вказали, що файлова система /boot повинна зберігатися на зашифрованому розділі. Це неможливо оскільки системний завантажувач не зможе завантажити ядро і initrd. Якщо ви зараз продовжите, то отримаєте систему яка не зможе завантажитися.\n\nВам потрібно повернутися назад і вибрати незашифрований розділ для файлової системи /boot.
+Description-vi.UTF-8: Lỗi cấu hình mật mã
+Extended_description-vi.UTF-8: Bạn đã chọn hệ thống tập tin gốc « /boot » để được cất giữ trên phân vùng đã mật mã. Không thể làm được vì trong trường hợp đó, bộ nạp khởi động không thể nạp hạt nhân và initrd. Như thế thì việc tiếp tục lại sẽ tạo bản cài đặt vô ích.\n\nBạn nên lùi lại về và chọn một phân vùng khác mật mã cho hệ thống tập tin « /boot ».
+Description-zh_CN.UTF-8: 加密设置失败
+Extended_description-zh_CN.UTF-8: 您选择了将 /boot 文件系统放在一个加密分区上。由于启动引导器在此设置下无法加载内核和 initrd，所以这是不可能实现的方案。如果继续下去将会造成安装完成的系统无法使用。\n\n您应该返回之前的步骤并给 /boot 文件系统选择一个非加密分区。
+Description-zh_TW.UTF-8: 加密設定失敗了
+Extended_description-zh_TW.UTF-8: 您已設定了將 /boot 檔案系統儲存在加密的分割區上。因為這將導致開機程式無法載入 kernel 和 initrd，所以這個作法並不可行。如果您繼續的話將會導致安裝完成的系統無法使用。\n\n請返回並替 /boot 檔案系統選擇一個非加密的分割區。
+
+Name: partman-crypto/crypto_erase_failed
+Type: error
+Description: Erasing data on ${DEVICE} failed
+Extended_description: An error occurred while trying to overwrite ${DEVICE} with random data. Recovery of the device's previous contents is possible and meta-information of its new contents may be leaked.
+Description-be.UTF-8: Не атрымалася знішчыць дадзеныя на ${DEVICE}
+Extended_description-be.UTF-8: Адбылася памылка падчас спробы перапісаць ${DEVICE} выпадковымі дадзенымі. Магчыма аднавіць папярэдні змест гэтае прылады і мета-інфармацыя новага зместу можа стаць даступнай.
+Description-bg.UTF-8: Грешка при изтриването на данните на ${DEVICE}
+Extended_description-bg.UTF-8: Грешка при презаписване на данните на ${DEVICE} със случайни числа. Няма гаранция срещу възс

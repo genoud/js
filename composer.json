@@ -1,5 +1,5 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "symfony/journal_scientifique",
     "license": "MIT",
     "type": "project",
     "description": "The \"Symfony Standard Edition\" distribution",
@@ -72,4 +72,5 @@
             "dev-master": "3.1-dev"
         }
     }
+
 }

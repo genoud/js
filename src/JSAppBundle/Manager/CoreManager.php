@@ -9,7 +9,12 @@ namespace JSAppBundle\Manager;
  */
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\EntityRepository;
+use JSAppBundle\Entity\Utilisateur;
+use Swift_Attachment;
+use Swift_Message;
+use Symfony\Bridge\Monolog\Logger;
 use Symfony\Component\DependencyInjection\ContainerInterface as Container;
+use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorage;
 
 class CoreManager
 {
@@ -113,8 +118,8 @@ class CoreManager
     {
         $state = $this->beginTransaction();
 
-        $this->em->persist($obj);
-        $this->em->flush();
+        $this->getEm()->persist($obj);
+        $this->getEm()->flush();
         $this->commitTransaction($state);
         return $obj;
 
@@ -129,7 +134,7 @@ class CoreManager
     public function update($obj)
     {
         $state = $this->beginTransaction();
-        $this->em->flush();
+        $this->getEm()->flush();
         $this->commitTransaction($state);
         return $obj;
 
@@ -167,6 +172,73 @@ class CoreManager
     {
         $repository = $this->getRepository();
         return $repository->find($id);
+    }
+
+
+    /**
+     * @return TokenStorage
+     */
+    protected function getTokeStorage()
+    {
+        return $this->getContainer()->get("security.token_storage");
+    }
+
+    /**
+     * @return Utilisateur
+     */
+    public function getConnectedUser()
+    {
+        $token = $this->getTokeStorage()->getToken();
+        $user = null;
+        if (isset($token)) {
+            $user = $token->getUser();
+        }
+        if (is_a($user, '\JSAppBundle\Entity\Utilisateur')) {
+            return $user;
+        }
+        return null;
+    }
+
+    /**
+     * @return Logger
+     */
+    public function getLogger()
+    {
+        return $this->getContainer()->get("logger");
+    }
+
+
+    public function sendEmail($objet, $destinataire, $content, $from = "contact@capvcm.com", $attachments = array())
+    {
+
+        $message = Swift_Message::newInstance()
+            ->setSubject($objet)
+            ->setFrom($from)
+            ->setTo($destinataire)
+            ->setBody(
+                $content,
+                'text/html'
+            );
+        if (count($attachments) > 0) {
+            foreach ($attachments as $attachment) {
+                $message->attach(Swift_Attachment::fromPath($attachment));
+            }
+        }
+
+        $this->container->get('mailer')->send($message);
+    }
+
+    public function renderView($view, $parameters)
+    {
+        if ($this->container->has('templating')) {
+            return $this->container->get('templating')->render($view, $parameters);
+        }
+
+        if (!$this->container->has('twig')) {
+            throw new \LogicException('You can not use the "renderView" method if the Templating Component or the Twig Bundle are not available.');
+        }
+
+        return $this->container->get('twig')->render($view, $parameters);
     }
 
 }

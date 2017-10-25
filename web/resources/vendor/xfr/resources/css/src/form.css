@@ -1,0 +1,47 @@
+.xfr-checkbox{
+	font-size: 24px;
+	cursor: pointer;
+	/* margin: 0 15px; */
+	display: inline-block;
+	width: 30px;
+	/* height: 30px; */
+	/* margin-left: 15px; */
+}
+.xfr-checkbox::before{
+	background-color: white;
+	cursor: pointer;
+	position: relative;
+	/* z-index: 99; */
+	/* margin-left: -7px; */
+	top: -5px;
+}
+
+.radio input[type=radio], .radio-inline input[type=radio], .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox] {
+     position: relative;
+     margin-left: 0;
+}
+
+.form_group ul.listless.spaced-listless{
+	margin-left : 20px;	
+}
+ul.listless.spaced-listless{ 
+}
+ul.listless.spaced-listless ul{
+	margin-left: 40px;
+}
+
+.error-panel{
+
+}
+
+.error-panel .error-title{
+	color : red;
+	font-weight:  bold;
+	margin-top : 5px;
+	margin-bottom : 5px;
+}
+
+.error-panel .error-item{
+  margin : 5px 0px 5px 20px
+}	
+

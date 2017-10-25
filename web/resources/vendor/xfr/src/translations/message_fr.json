@@ -1,0 +1,7 @@
+{
+  "loading":"Chargement...",
+  "success": "Success",
+  "cmpRegisterFail": "Registering a component with a id (%id%) which has already been used. Please ensure the existing component has been destroyed (`Xfr.Component#destroy()`).",
+  "tplLoadingFail": "Le chargement du template a échoué",
+  "page": "Page"
+}

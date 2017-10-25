@@ -1,0 +1,46 @@
+em zgjidh llojin e dispozitivit multidisk për tu krijuar.
+Description-sr.UTF-8: Тип софтверског RAID-а:
+Extended_description-sr.UTF-8: Изаберите тип софтварског RAID уређаја за креирање.
+Description-sv.UTF-8: Typ av programvaru-RAID-enhet:
+Extended_description-sv.UTF-8: Välj typ för programvaru-RAID-enheten som ska skapas.
+Description-ta.UTF-8: மென்பொருள் ரெய்ட் (RAID) சாதன வகை:
+Extended_description-ta.UTF-8: உருவாக்க வேண்டிய மென் பொருள் ரெய்ட் சாதன வகையை தேர்வு செய்க.
+Description-te.UTF-8: సాఫ్ట్వేర్  RAID పరికరం రకం:
+Extended_description-te.UTF-8: సృష్టించవలసిన సాఫ్ట్వేర్ RAID పరికరం రకం ఎంచుకో
+Description-tg.UTF-8: Намуди дастгоҳи RAID:
+Extended_description-tg.UTF-8: Лутфан, намуди дастгоҳи нармафзори RAID барои эҷодкунӣ интихоб кунед.
+Description-th.UTF-8: ชนิดของอุปกรณ์ RAID แบบซอฟต์แวร์:
+Extended_description-th.UTF-8: กรุณาเลือกชนิดของอุปกรณ์ RAID แบบซอฟต์แวร์ที่จะสร้าง
+Description-tr.UTF-8: Yazılımsal RAID aygıtının türü:
+Extended_description-tr.UTF-8: Lütfen oluşturulacak yazılımsal RAID aygıtının türünü seçin.
+Description-ug.UTF-8: يۇمشاق دېتاللىق RAID ئۈسكۈنىسىنىڭ تۈرى
+Extended_description-ug.UTF-8: قۇرماقچى بولغان يۇمشاق دېتاللىق RAID ئۈسكۈنىسىنىڭ تۈرىنى كىرگۈزۈڭ.
+Description-uk.UTF-8: Тип пристрою програмного RAID:
+Extended_description-uk.UTF-8: Виберіть тип пристрою програмного RAID, який буде створений.
+Description-vi.UTF-8: Kiểu thiết bị RAID phần mềm:
+Extended_description-vi.UTF-8: Hãy chọn kiểu thiết bị RAID phần mềm cần tạo.
+Description-zh_CN.UTF-8: 软件 RAID 设备类型：
+Extended_description-zh_CN.UTF-8: 请选择要创建的软件 RAID 设备。
+Description-zh_TW.UTF-8: 軟體 RAID 裝置類型：
+Extended_description-zh_TW.UTF-8: 請選擇要建立的軟體 RAID 裝置的類型。
+
+Name: partman-md/delete_no_md
+Type: error
+Description: No software RAID devices available
+Extended_description: No software RAID devices are available for deletion.
+Description-ar.UTF-8: لا تتوفر أية أجهزة RAID برمجية.
+Extended_description-ar.UTF-8: لا تتوفر أية أجهزة RAID برمجية يمكن حذفها.
+Description-ast.UTF-8: Software preséu RAID nun disponible
+Extended_description-ast.UTF-8: Ensin preseos RAID de software disponibles pal esborráu.
+Description-be.UTF-8: Недаступна ніякіх прылад праграмнага RAID
+Extended_description-be.UTF-8: Недаступна ніякіх прылад праграмнага RAID, якія можна было б выдаліць.
+Description-bg.UTF-8: Няма налични устройства за софтуерен RAID
+Extended_description-bg.UTF-8: Не са намерени устройства за софтуерен RAID за изтриване.
+Description-bn.UTF-8: কোন সফটওয়্যার RAID ডিভাইস পাওয়া যায়নি
+Extended_description-bn.UTF-8: মুছে ফেলার জন্য কোনো সফটওয়্যার RAID ডিভাইস পাওয়া যাচ্ছে না।
+Description-bs.UTF-8: Nema softverskih RAID uređaja dostupno.
+Extended_description-bs.UTF-8: Nema softverskih RAID uređaja dostupno za brisanje.
+Description-ca.UTF-8: No hi ha dispositius de RAID de programari disponibles
+Extended_description-ca.UTF-8: No hi ha cap dispositiu de RAID de programari disponible per a suprimir.
+Description-cs.UTF-8: Nejsou dostupná žádná zařízení softwarového RAIDu
+Extended

@@ -1,0 +1,1471 @@
+ användaren:
+Extended_description-sv.UTF-8: Ett bra lösenord innehåller en blandning av bokstäver, siffror och specialtecken och bör ändras regelbundet.
+Description-ta.UTF-8: புதிய பயனருக்கான கடவுச்சொல்லை தேர்வு செய்க:
+Extended_description-ta.UTF-8: ஒரு நல்ல கடவுச்சொல் என்பது எழுத்துக்கள் எண்கள் மற்ற குறியீடுகள் உள்ளடக்கிய ஒரு கலவை. இதை அடிக்கடி மாற்ற வேண்டும்.
+Description-te.UTF-8: కొత్త వాడుకరికి  సంకేతపదం  ఎంచుకో :
+Extended_description-te.UTF-8: మంచి సంకేత పదంలో అక్షరాలు, అంకెలు, సంఙ్ఞలు మిళితమై వుంటాయి, దానిని క్రమం తప్పక కొంత  సమయం తర్వాత మార్పుచేస్తుండాలి.
+Description-tg.UTF-8: Паролеро барои корбари нав интихоб кунед:
+Extended_description-tg.UTF-8: Пароли хуб дорои маҷмӯи ҳарфҳо, рақамҳо ва аломатҳои китобатӣ мебошад, ва бояд дар давраҳои доимӣ тағйир дода шавад.
+Description-th.UTF-8: ตั้งรหัสผ่านสำหรับผู้ใช้ใหม่:
+Extended_description-th.UTF-8: รหัสผ่านที่ดีควรมีตัวอักษร ตัวเลข และเครื่องหมายวรรคตอนผสมกัน และควรเปลี่ยนรหัสผ่านเป็นประจำ
+Description-tl.UTF-8: Magbigay ng kontrasenyas para sa bagong gagamit:
+Extended_description-tl.UTF-8: Ang magandang kontrasenyas ay binubuo ng halo-halong mga titik, numero at marka at pinapalitan ito ng madalas.
+Description-tr.UTF-8: Yeni kullanıcı için bir parola girin:
+Extended_description-tr.UTF-8: İyi bir parola harfler, rakamlar ve noktalama işaretlerinin uygun bir kombinasyonundan oluşmalı ve düzenli aralıklarla değiştirilmelidir.
+Description-ug.UTF-8: يېڭى ئىشلەتكۈچىگە ئىم تاللاڭ:
+Extended_description-ug.UTF-8: بىخەتەر ئىم ئادەتتە ھەرپ، سان ۋە ھەرپ بەلگىلەرنىڭ ئارىلاشمىسىدىن تەشكىل تاپىدۇ، ھەمدە قەرەللىك ئالماشتۇرۇپ تۇرۇلىدۇ.
+Description-uk.UTF-8: Введіть пароль для нового користувача:
+Extended_description-uk.UTF-8: Гарний пароль повинен містити суміш латинських літер, цифр та знаків пунктуації, він повинен регулярно змінюватися.
+Description-vi.UTF-8: Hãy chọn mật khẩu cho người dùng mới:
+Extended_description-vi.UTF-8: Mật khẩu tốt chứa phối hợp chữ, con số và chấm câu, và nên được thay đổi theo định kỷ.
+Description-zh_CN.UTF-8: 请为新用户选择一个密码：
+Extended_description-zh_CN.UTF-8: 一个安全的密码应该是由字母、数字和标点符号组合而成，而且要定期更新。
+Description-zh_TW.UTF-8: 請替新的使用者輸入密碼:
+Extended_description-zh_TW.UTF-8: 一個恰當的密碼應當由字母、數字和標點符號混雜而成，並得要定期更換。
+
+Name: passwd/user-password-again
+Type: password
+Description: Re-enter password to verify:
+Extended_description: Please enter the same user password again to verify you have typed it correctly.
+Description-am.UTF-8: ለማረጋገጥ ማለፊያቃልን እንደገና ያስገቡ፦
+Extended_description-am.UTF-8: በትክክል መጻፍዎትን ለማረጋገጥ የማለፊያ ቃሉን እንደገና ይጻፉት
+Description-ar.UTF-8: إدخال كلمة السّر مجدّداً للتّأكيد:
+Extended_description-ar.UTF-8: الرجاء إدخال كلمة سرّ المستخدم ذاتها مجدّداً للتّأكّد من أنّك أدخلتها بشكلٍ صحيح.
+Description-ast.UTF-8: Reintroduz la contraseña pa verificar:
+Extended_description-ast.UTF-8: Por favor, introduz la mesma contraseña otra vegada pa comprobar que la escribisti bien.
+Description-be.UTF-8: Увядзіце пароль яшчэ раз, каб не памыліцца:
+Extended_description-be.UTF-8: Калі ласка, увядзіце такі самы пароль зноў, каб пераканацца, што ў ім няма памылак.
+Description-bg.UTF-8: Въведете отново паролата,  за да бъде проверена:
+Extended_description-bg.UTF-8: Въведете отново същата потребителска парола, за да бъде проверена дали е въведена правилно.
+Description-bn.UTF-8: বৈধতা পরীক্ষা করতে পুনরায় পাসওয়ার্ড লিখুন:
+Extended_description-bn.UTF-8: সঠিকভাবে পাসওয়ার্ড টাইপ করেছেন কিনা তা নিশ্চিত হওয়ার জন্য অনুগ্রহপূর্বক আবারো পাসওয়ার্ডটি লিখুন।
+Description-bo.UTF-8: གསང་གྲངས་བསྐྱར་དུ་འཇུག་ནས་དག་ཐེར་བྱེད་པ：
+Extended_description-bo.UTF-8: སྤྱོད་མཁན་གྱི་གསང་གྲངས་དེ་བསྐྱར་དུ་ཅིག་འཇུག་ནས་ཁྱོད་ཀྱིས་བྲིས་པ་དེ་དག་ཐེར་བྱེད་རོགས
+Description-bs.UTF-8: Ponovo unesite šifru radi provjere:
+Extended_description-bs.UTF-8: Molim unesite istu korisničku šifru ponovo kako bi provjerili da ste je ispravno ukucali.
+Description-ca.UTF-8: Torneu a introduir la contrasenya per a verificar-la:
+Extended_description-ca.UTF-8: Si us plau introduïu la mateixa contrasenya una altra vegada per a verificar que l'heu teclejada correctament.
+Description-cs.UTF-8: Znovu zadejte heslo pro ověření:
+Extended_description-cs.UTF-8: Zadejte prosím stejné heslo, abyste si ověřili, že jste jej zadali správně.
+Description-cy.UTF-8: Ail-rhowch y cyfrinair er mwyn dilysu:
+Extended_description-cy.UTF-8: Os gwelwch yn dda, rhowch yr un cyfrinair defnyddiwr eto er mwyn gwirio eich bod chi wedi ei deipio'n gywir.
+Description-da.UTF-8: Angiv adgangskoden igen for at tjekke:
+Extended_description-da.UTF-8: Angiv den samme brugeradgangskode igen for at tjekke at du har indtastet den korrekt.
+Description-de.UTF-8: Bitte geben Sie das Passwort zur Bestätigung nochmals ein:
+Extended_description-de.UTF-8: Bitte geben Sie das gleiche Benutzerpasswort nochmals ein, um sicherzustellen, dass Sie sich nicht vertippt haben.
+Description-dz.UTF-8: བདེན་སྦྱོར་འབད་ནི་ལུ་ཆོག་ཡིག་སླར་ལོག་བཙུགས།
+Extended_description-dz.UTF-8: ཁྱོད་ཀྱིས་ངེས་བདེན་སྦེ་ཡིག་དཔར་རྐྱབས་ནུག་ག་བདུན་སྦྱོར་འབད་ནི་ལུ་ལག་ལེན་པའི་ཆོག་ཡིག་གཅིག་པ་འདི་ལོག་སྟེ་བཙུགས་གནང་།
+Description-el.UTF-8: Ξαναδώστε τον κωδικό για επιβεβαίωση:
+Extended_description-el.UTF-8: Παρακαλώ ξαναδώστε τον ίδιο κωδικό για την επιβεβαίωσή του.
+Description-eo.UTF-8: Retajpu la pasvorton por konfirmi:
+Extended_description-eo.UTF-8: Bonvolu retajpi la saman uzantan pasvorton por konfirmi ĝian tajpĝustecon.
+Description-es.UTF-8: Vuelva a introducir la contraseña para su verificación:
+Extended_description-es.UTF-8: Por favor, introduzca la misma contraseña de usuario de nuevo para verificar que la introdujo correctamente.
+Description-et.UTF-8: Sisesta parool uuesti:
+Extended_description-et.UTF-8: Palun sisesta sama parool veel üks kord, et vead trükkimisel oleksid välistatud.
+Description-eu.UTF-8: Berretsi pasahitza:
+Extended_description-eu.UTF-8: Sartu erabiltzailearen pasahitza berriro, ongi idatzi duzula ziurtatzeko.
+Description-fa.UTF-8: ورود مجدد کلمه عبور:
+Extended_description-fa.UTF-8: لطفا کلمه عبور کاربر را مجدداً وارد کنید تا از ورود درست آن اطمینان حاصل شود.
+Description-fi.UTF-8: Syötä salasana uudelleen varmuuden vuoksi:
+Extended_description-fi.UTF-8: Syötä sama käyttäjäsalasana uudelleen varmistaaksesi, että kirjoitit sen oikein.
+Description-fr.UTF-8: Confirmation du mot de passe :
+Extended_description-fr.UTF-8: Veuillez entrer à nouveau le mot de passe pour l'utilisateur, afin de vérifier que votre saisie est correcte.
+Description-ga.UTF-8: Iontráil an focal faire arís chun é a fhíorú:
+Extended_description-ga.UTF-8: Iontráil focal faire an úsáideora arís chun fíorú go raibh sé clóscríofa mar is ceart.
+Description-gl.UTF-8: Escriba de novo o contrasinal para verificalo:
+Extended_description-gl.UTF-8: Escriba outra vez o contrasinal de usuario para comprobar que o introduciu correctamente.
+Description-gu.UTF-8: ચકાસણી માટે પાસવર્ડ ફરી-દાખલ કરો:
+Extended_description-gu.UTF-8: મહેરબાની કરી એ જ પાસવર્ડ તમે સાચી રીતે ટાઇપ કર્યો છે તે ચકાસવા માટે ફરીથી દાખલ કરો.
+Description-he.UTF-8: הכנס שוב את הסיסמה לבדיקה אם הכנסת אותה נכון:
+Extended_description-he.UTF-8: אנא הכנס שוב את סיסמת המשתמש על מנת לבדוק שהכנסת אותה נכון.
+Description-hi.UTF-8: पुष्टि करने के लिए कूटशब्द दोबारा भरें:
+Extended_description-hi.UTF-8: यह पुष्टि करने के लिए कि आपने सही प्रविष्टि की है, कृपया उपयोक्ता का वही कूटशब्द फिर से भरें.
+Description-hr.UTF-8: Iznova unesite lozinku za potvrdu:
+Extended_description-hr.UTF-8: Molim unesite istu korisničku lozinku kao potvrdu da ste je ispravno utipkali.
+Description-hu.UTF-8: Írja be újra a jelszavát megerősítés végett:
+Extended_description-hu.UTF-8: Írja be újra a jelszót, hogy megerősítse, hogy helyesen gépelte be.
+Description-id.UTF-8: Masukkan lagi kata sandi untuk verifikasi:
+Extended_description-id.UTF-8: Silakan masukkan lagi kata sandi pengguna yang sama untuk memastikan Anda mengetiknya dengan benar.
+Description-is.UTF-8: Sláðu lykilorð aftur inn til að staðfesta:
+Extended_description-is.UTF-8: Sláðu lykilorð notandans aftur inn til að staðfesta að það hafi verið rétt slegið inn.
+Description-it.UTF-8: Inserire nuovamente la password per verifica:
+Extended_description-it.UTF-8: Inserire nuovamente la stessa password per verificare che sia stata digitata correttamente.
+Description-ja.UTF-8: 確認のため、再度パスワードを入力してください:
+Extended_description-ja.UTF-8: 確認のため、先ほど入力したのと同じユーザパスワードを再度正確に入力してください。
+Description-ka.UTF-8: პაროლის ხელახლა შეყვანა:
+Extended_description-ka.UTF-8: შეცდომისაგან დასაზღვევად ხელახლა აკრიფეთ პაროლი.
+Description-kk.UTF-8: Тексеру үшін парольді қайта енгізіңіз:
+Extended_description-kk.UTF-8: Енгізген парольдің дұрыстығын тексеру үшін, парольді тағы да бір рет енгізіңіз.
+Description-km.UTF-8: សូម​បញ្ចូល​ពាក្យសម្ងាត់​ម្ដង​ទៀត ដើម្បី​ផ្ទៀងផ្ទាត់ ៖
+Extended_description-km.UTF-8: សូម​បញ្ចូល​ពាក្យសម្ងាត់​អ្នក​ប្រើ​ដដែល​ម្ដង​ទៀត ដើម្បី​ផ្ទៀងផ្ទាត់​ថា​អ្នក​វាយ​វា​បាន​ត្រឹមត្រូវ ។
+Description-kn.UTF-8: ದಯವಿಟ್ಟು ಇನ್ನೊಮ್ಮೆ ಗುಪ್ತಪದವನ್ನು ಪರಿಶೀಲಿಸಲು ನಮೂದಿಸಿ:
+Extended_description-kn.UTF-8: ದಯವಿಟ್ಟು ಗುಪ್ತಪದವನ್ನು ಮತ್ತೊಮ್ಮೆ ಸೂಚಿಸಿ,ನೀವು ಸರಿಯಾಗಿ ಕೊಟ್ಟಿರುವಿರೆಂದು ಪರಿಶೀಲಿಸಲಾಗುವುದು
+Description-ko.UTF-8: 확인을 위해 암호를 다시 입력하십시오:
+Extended_description-ko.UTF-8: 제대로 입력했는지 확인하기 위해 사용자 암호를 다시 한번 입력하십시오.
+Description-ku.UTF-8: Ji bo rastkirinê şîfreyê carekî din binivîse:
+Extended_description-ku.UTF-8: Ji bo rastkirina te rast nivîsand, vê şîfreya bikarhêner carekî din binivîse.
+Description-lo.UTF-8: ປ້ອນລະຫັດຜ່ານອີກເທື່ອໜຶ່ງເພື່ອກວດສອບ:
+Extended_description-lo.UTF-8: ກະລຸນາປ້ອນລະຫັດຜ່ານເກົ່າອີກເທື່ອໜຶ່ງ ເພື່ອກວດສອບວ່າທ່ານບໍ່ໄດ້ພິມຜິດ.
+Description-lt.UTF-8: Dar kartą įveskite slaptažodį patikrinimui:
+Extended_description-lt.UTF-8: Prašau įvesti tą patį slaptažodį vėl, patikrinimui ar teisingai jį įvedėte.
+Description-lv.UTF-8: Ievadiet paroli vēlreiz:
+Extended_description-lv.UTF-8: Lūdzu, ievadiet to pašu paroli vēlreiz, lai pārliecinātos, ka jūs to ievadījāt pareizi.
+Description-mk.UTF-8: Повторно внеси ја лозинката за потврда:
+Extended_description-mk.UTF-8: Те молам внеси ја истата лозинка повторно за да се потврди дека правилно си ја искуцал.
+Description-ml.UTF-8: അടയാള വാക്ക് ഉറപ്പാക്കാനായി ഒന്നു കൂടി നല്‍കുക:
+Extended_description-ml.UTF-8: ദയവായി അതേ ഉപയോക്താവിന്റെ അടയാള വാക്ക് ശരിക്കും ടൈപ് ചെയ്തു എന്നു് ഉറപ്പാക്കാനായി ഒന്നു കൂടി നല്‍കുക.
+Description-mr.UTF-8: पडताळणीकरिता परवलीचा शब्द पुन्हा लिहा:
+Extended_description-mr.UTF-8: आपण परवलीचा शब्द अचूक टाईप केला आहे याची खात्री करण्यासाठी तोच पुन्हा लिहा.
+Description-nb.UTF-8: Skriv passordet på nytt som en sjekk:
+Extended_description-nb.UTF-8: Skriv inn det samme bruker-passordet på nytt for å sjekke at du skrev det rett.
+Description-ne.UTF-8: रूजु गर्नलाई पासवर्ड पुन-प्रविष्ट गर्नुहोस्:
+Extended_description-ne.UTF-8: तपाईँले टाइप गर्नु भएको पासवर्ड सही छ छैन रूजु गर्नलाई कृपया फेरी उही मूल पासवर्ड प्रविष्ट गर्नुहोस् ।
+Description-nl.UTF-8: Wachtwoord nogmaals (ter bevestiging):
+Extended_description-nl.UTF-8: Ter controle op eventuele typfouten dient u hetzelfde wachtwoord nogmaals in te voeren.
+Description-nn.UTF-8: Skriv inn passordet på ny for verifikasjon:
+Extended_description-nn.UTF-8: Skriv inn det same brukarpassordet igjen for å verifisera at du har skrive passordet rett.
+Description-no.UTF-8: Skriv passordet på nytt som en sjekk:
+Extended_description-no.UTF-8: Skriv inn det samme bruker-passordet på nytt for å sjekke at du skrev det rett.
+Description-pa.UTF-8: ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਪਾਸਵਰਡ ਮੁੜ ਦਿਓ:
+Extended_description-pa.UTF-8: ਪਾਸਵਰਡ ਮੁੜ ਲਿਖੋ ਤਾਂ ਕਿ ਇਹ ਯਕੀਨੀ ਬਣਾਇਆ ਜਾ ਸਕੇ ਕਿ ਤੁਸੀਂ ਇਸ ਨੂੰ ਠੀਕ ਲਿਖਿਆ ਹੈ।
+Description-pl.UTF-8: Potwierdź hasło:
+Extended_description-pl.UTF-8: Proszę wpisać to samo hasło ponownie, aby upewnić się, że zostało wpisane poprawnie.
+Description-pt.UTF-8: Introduza novamente a password para verificação:
+Extended_description-pt.UTF-8: Por favor, introduza novamente a mesma palavra-passe para verificar se a digitou correctamente.
+Description-pt_BR.UTF-8: Informe novamente a senha para verificação:
+Extended_description-pt_BR.UTF-8: Por favor, informe novamente a mesma senha de usuário para verificar se você digitou-a corretamente.
+Description-ro.UTF-8: Reintroduceți parola pentru verificare:
+Extended_description-ro.UTF-8: Vă rugăm să introduceți din nou aceiași parolă de utilizator pentru a verifica faptul că ați scris-o corect.
+Description-ru.UTF-8: Введите пароль ещё раз:
+Extended_description-ru.UTF-8: Проверка правильности ввода осуществляется путём повторного ввода пароля и сравнения результатов.
+Description-se.UTF-8: Čális beassansáni ođđasit nannen dihte:
+Extended_description-se.UTF-8: Čális seamma beassansáni ođđasit nannen dihte ahte lea rievttes beassansátni.
+Description-si.UTF-8: සත්‍යාපනය කිරීම සඳහා රහස්පදය නැවත ඇතුල් කරන්න:
+Extended_description-si.UTF-8: ඔබ නිවැරදිව යතුරු ලියනය කර ඇති බව තහවුරු කිරීම සඳහා කරුණාකර එම භාවිතා කරන්නාගේ රහස්පදය නැවත ඇතුල් කරන්න.
+Description-sk.UTF-8: Znovu zadajte heslo na overenie:
+Extended_description-sk.UTF-8: Zadajte rovnaké heslo, aby ste si overili jeho správnosť.
+Description-sl.UTF-8: Ponovno vnesite geslo za potrditev:
+Extended_description-sl.UTF-8: Ponovno vnesite geslo za istega uporabnika za potrditev vnosa.
+Description-sq.UTF-8: Ri-fut fjalëkalimin për t'a verifikuar:
+Extended_description-sq.UTF-8: Të lutem fut të njëjtin fjalëkalim sërish për të verifikuar që e ke shtypur saktë.
+Description-sr.UTF-8: Поново унесите лозинку ради провере:
+Extended_description-sr.UTF-8: Унесите исту корисничку лозинку поново како би проверили да ли сте је исправно унели.
+Description-sv.UTF-8: Ange lösenordet igen som bekräftelse:
+Extended_description-sv.UTF-8: Ange samma användarlösenord igen för att bekräfta att du skrev det korrekt.
+Description-ta.UTF-8: கடவுச்சொல்லை உறுதி செய்ய மீண்டும் உள்ளிடுக:
+Extended_description-ta.UTF-8: அதே சொல்லை மீண்டும் உள்ளீடு செய்க. இதனால் சரியாக உள்ளீடு செய்யப் பட்டதா என சோதிக்க இயலும்.
+Description-te.UTF-8: ధృవీకరణకు సంకేత పదాన్ని మరల  టైప్ చేయండి:
+Extended_description-te.UTF-8: సరిగా టైపు చేసినట్లు ధృవీకరణకు  అదే  వాడుకరి  సంకేత పదాన్ని మరల  టైప్ చేయండి
+Description-tg.UTF-8: Паролро барои тайид кардан аз нав ворид кунед:
+Extended_description-tg.UTF-8: Лутфан, он пароли корбарро як маротибаи дигар ворид кунед, то ин ки тасдиқ кунед, ки шумо онро ба таври дуруст чоп кардед.
+Description-th.UTF-8: ป้อนรหัสผ่านอีกครั้งเพื่อตรวจสอบ:
+Extended_description-th.UTF-8: กรุณาป้อนรหัสผ่านเดิมอีกครั้ง เพื่อตรวจสอบว่าคุณไม่ได้พิมพ์ผิด
+Description-tl.UTF-8: Ibigay muli ang kontrasenyas para ma-tiyak:
+Extended_description-tl.UTF-8: Ibigay muli ang parehong kontrasenyas ng gagamit upang matiyak na inyong naibigay ito ng tugma.
+Description-tr.UTF-8: Doğrulamak için parolayı tekrar girin:
+Extended_description-tr.UTF-8: Hatasız yazdığınızı doğrulamak için aynı kullanıcı parolasını tekrar girin.
+Description-ug.UTF-8: دەلىللەش ئۈچۈن ئىمنى  قايتا كىرگۈزۈڭ:
+Extended_description-ug.UTF-8: مەزكۇر ئىشلەتكۈچىنىڭ ئىمنى قايتا كىرگۈزۈپ كىرگۈزگىنىڭىزنىڭ توغرىلىقىنى دەلىللەڭ.
+Description-uk.UTF-8: Повторіть ввід паролю для перевірки:
+Extended_description-uk.UTF-8: Введіть той самий пароль користувача для перевірки його коректності.
+Description-vi.UTF-8: Hãy nhập lại mật khẩu cần xác nhận:
+Extended_description-vi.UTF-8: Hãy nhập lại mật khầu người dùng mới nhập, để xác nhận bạn đã gõ đúng.
+Description-zh_CN.UTF-8: 请再次输入密码以验证其正确性：
+Extended_description-zh_CN.UTF-8: 请再次输入相同用户密码以保证您的输入不会出错。
+Description-zh_TW.UTF-8: 請再次輸入密碼以進行確認:
+Extended_description-zh_TW.UTF-8: 請再次輸入相同的使用者密碼以確認您是否正確鍵入。
+
+Name: passwd/user-password-crypted
+Type: password
+Description: for internal use only
+
+Name: passwd/user-uid
+Type: string
+Description: for internal use only
+
+Name: passwd/username
+Type: string
+Description: Username for your account:
+Extended_description: Select a username for the new account. Your first name is a reasonable choice. The username should start with a lower-case letter, which can be followed by any combination of numbers and more lower-case letters.
+Description-am.UTF-8: ለመዝገብዎ ተጠቃሚ-ስም፦
+Extended_description-am.UTF-8: የተጠቃሚ ስም ለአዲሱ መዝገብ ይምረጡ። ለምሳሌ ስምዎ ጥሩ ምርጫ ነው። የተጠቃሚ ስም በትንሾቹ የእንግሊዘኛ ፊደል ጀምሮ ቁጥሮችንና ሌሎች ትንሽ ፊደሎችን ሊያካትት ይችላል።
+Description-ar.UTF-8: اسم المستخدم لحسابك:
+Extended_description-ar.UTF-8: اختر اسم مستخدمٍ لحسابك الجديد. اسمك الأوّل اختيارٌ معقول. يفترض أن يبدأ اسم المستخدم بحرفٍ صغير متبوعاً بأيّ خليطٍ من الأرقام و المزيد من الأحرف الصّغيرة.
+Description-ast.UTF-8: Nome d'usuariu pa la to cuenta:
+Extended_description-ast.UTF-8: Seleiciona un nome d'usuariu pa la nueva cuenta. El to primer nome ye una bona eleición. El nome d'usuariu pue entamar con lletres minúscules, que pueden siguise de cualesquier entemzu de númberos y más lletres minúscules.
+Description-be.UTF-8: Імя карыстальніка для Вашага рахунку:
+Extended_description-be.UTF-8: Пазначце імя карыстальніка для новага рахунку (лацінкай). Вашае імя або псеўданім будуць нармалёвым варыянтам. Імя карыстальніка мусіць пачынацца з маленькай літары, далей можа ісці любая камбінацыя лічбаў і маленькіх літар.
+Description-bg.UTF-8: Потребителско име за Вашия акаунт:
+Extended_description-bg.UTF-8: Изберете потребителско име за новия акаунт. Вашето първо (лично) име е разумен избор. Потребителското име трябва да започва с малка латинска буква, последвана от цифри и малки латински букви.
+Description-bn.UTF-8: আপনার অ্যাকাউন্টের ব্যবহারকারীর-নাম:
+Extended_description-bn.UTF-8: নতুন অ্যাকাউন্টের জন্য একটি ব্যবহারকারীর-নাম নির্বাচন করুন। এজন্য আপনার নামের প্রথমাংশ ব্যবহার করতে পারেন। ব্যবহারকারীর-নাম এর প্রথম অক্ষরটি ছোট ছাঁদের হওয়া বাঞ্ছনীয়। প্রথম অক্ষরটির পর যে কোন সংখ্যক অংক ও আরো ছোট ছাঁদের অক্ষর থাকতে পারে।
+Description-bo.UTF-8: ཁྱོད་ཀྱི་ཐོ་ཁོངས་ཀྱི་སྤྱོད་མཁན་མིང：
+Extended_description-bo.UTF-8: ཐོ་ཁོངས་གསར་བ་ལ་སྤྱོད་མཁན་མིང་ཞིག་འཇུག་དགོས ཁྱོད་ཀྱི་མིང་ཁོ་ན་འཇུག་ན་བཟང་། སྤྱོད་མཁན་མིང་ལ་ཆུང་བྲིས་ཡི་གེས་འགོ་འཛུགས་ནས་ཨང་ཀི་དང་ཆུང་བྲིས་སྤེལ་མ་དེའི་འཚམས་སུ་འབྲི་ཆོག
+Description-bs.UTF-8: Korisničko ime za Vaš račun:
+Extended_description-bs.UTF-8: Izaberite korisničko ime za novi račun. Vaše ime je razuman izbor. Korisničko ime treba počinjati malim slovom koje može pratiti bilo kakva kombinacija brojeva i još malih slova.
+Description-ca.UTF-8: Nom d'usuari pel vostre compte:
+Extended_description-ca.UTF-8: Seleccioneu un nom d'usuari pel nou compte. El vostre primer nom és una bona opció. El nom d'usuari ha de començar amb una lletra en minúscula, seguida de qualsevol combinació de nombres o més lletres en minúscula.
+Description-cs.UTF-8: Uživatelské jméno pro nový účet:
+Extended_description-cs.UTF-8: Zadejte uživatelské jméno pro nový účet. Rozumnou volbou bývá křestní jméno uživatele. Uživatelské jméno musí začínat malým písmenem, za kterým může následovat libovolná kombinace čísel a malých písmen.
+Description-cy.UTF-8: Enw defnyddiwr ar gyfer eich cyfrif:
+Extended_description-cy.UTF-8: Dewiswch enw defnyddiwr ar gyfer y cyfrif newydd. Mae eich enw cyntaf yn ddewis rhesymol. Dylai'r enw cyfrif gychwyn gyda llythyren fechan, wedi ei ddilyn gan unrhyw gyfuniad o rhifau a mwy o lythrennau bychan.
+Description-da.UTF-8: Brugernavn til din konto:
+Extended_description-da.UTF-8: Vælg et brugernavn til den nye konto. Dit fornavn kan være et fornuftigt valg. Brugernavnet skal starte med et lille bogstav, hvilket kan suppleres med en hvilken som helst kombination af numre og små bogstaver.
+Description-de.UTF-8: Benutzername für Ihr Konto:
+Extended_description-de.UTF-8: Wählen Sie einen Benutzernamen für das neue Benutzerkonto. Der Vorname ist meist eine gute Wahl. Der Benutzername sollte mit einem kleinen Buchstaben beginnen, gefolgt von weiteren kleinen Buchstaben oder auch Zahlen.
+Description-dz.UTF-8: ཁྱོད་ཀྱི་རྩིས་ཐོའི་དོན་ལུ་ལག་ལེན་པའི་མིང་།
+Extended_description-dz.UTF-8: རྩིས་ཐོ་གསརཔ་ཀྱི་དོན་ལུ་ལག་ལེན་པའི་མིང་སེལ་འཐུ་འབད། ཁྱོད་ཀྱི་མིང་དང་པ་འདི་ཁུངས་ལྡན་གྱི་གདམ་ཁ་ཨིན། ལག་ལེན་པའི་མིང་འདི་ཡིག་ཆུང་ཡི་གེ་ནང་འགོ་བཙུགས་དགོ་ འདི་གིས་ཡིག་ཆུང་ཡི་གེ་ཚུ་ལེ་ཤ་དང་ཨང་ཚུ་གི་མཉམ་མཐུད་གང་རུང་གིས་རྗེས་སུ་འབྲང་ནི་ཨིན།
+Description-el.UTF-8: Εισάγετε το όνομα χρήστη του λογαριασμού σας:
+Extended_description-el.UTF-8: Επιλέξτε ένα ονομα χρήστη για το νέο λογαριασμό. Το μικρό σας όνομα είναι μια λογική επιλογή. Το όνομα χρήστη θα πρέπει να ξεκινά με ένα πεζό γράμμα και να ακολουθείται απο οποιονδήποτε συνδυασμό αριθμών και πεζών γραμμάτων.
+Description-eo.UTF-8: Salutnomo por via konto:
+Extended_description-eo.UTF-8: Elektu salutnomon por via konto. Via persona nomo estas bona elekto. La salutnomo nepre komenciĝu per minusklaj literoj, sekvota de ajna kombino de ciferoj kaj pliaj minusklaj literoj.
+Description-es.UTF-8: Nombre de usuario para la cuenta:
+Extended_description-es.UTF-8: Seleccione un nombre de usuario para la nueva cuenta. Su nombre, sin apellidos ni espacios, es una elección razonable. El nombre de usuario debe empezar con una letra minúscula, seguida de cualquier combinación de números y más letras minúsculas.
+Description-et.UTF-8: Sisesta oma kontole kasutajanimi:
+Extended_description-et.UTF-8: Vali oma kontole kasutajanimi. Mõistlik valik on näiteks sinu eesnimi. Kasutajanimi peaks algama väiketähega, millele järgneb kombinatsioon väiketähtedest ja soovi korral ka numbritest.
+Description-eu.UTF-8: Sartu kontuaren erabiltzaile-izena:
+Extended_description-eu.UTF-8: Hautatu kontu berriaren erabiltzaile-izena. Zure izena aukera egokia da. Erabiltzaile-izena letra minuskularekin hasi behar du eta zenbakiren eta letra maiuskula/minuskulen konbinazioarekin jarraitu.
+Description-fa.UTF-8: نام کاربری حساب شما:
+Extended_description-fa.UTF-8: یک نام کاربری برای حساب جدید انتخاب کنید. اسم کوچک شما می‌تواند یک انتخاب مناسب باشد. نام کاربری باید با یک حرف کوچک آغاز شود و می‌تواند در ادامه هر ترکیبی از اعداد و حروف کوچک دیگر باشد.
+Description-fi.UTF-8: Käyttäjätunnuksesi:
+Extended_description-fi.UTF-8: Valitse uusi käyttäjätunnus. Etunimesi on mielekäs vaihtoehto. Käyttäjätunnuksen täytyy alkaa pienaakkosella, ja se voi sisältää vapaavalintaisen yhdistelmän numeroita ja pienaakkosia. Älä käytä kirjaimia å, ä tai ö.
+Description-fr.UTF-8: Identifiant pour le compte utilisateur :
+Extended_description-fr.UTF-8: Veuillez choisir un identifiant (« login ») pour le nouveau compte. Votre prénom est un choix possible. Les identifiants doivent commencer par une lettre minuscule, suivie d'un nombre quelconque de chiffres et de lettres minuscules.
+Description-ga.UTF-8: Ainm úsáideora do do chuntas:
+Extended_description-ga.UTF-8: Roghnaigh ainm úsáideora don chuntas nua.  Is rogha réasúnta é d'ainm gan sloinne. Ba chóir litir bheag a bheith ar dtús, agus aon teaghrán d'uimhreacha agus litreacha beaga tar éis sin.
+Description-gl.UTF-8: Nome de usuario para a súa conta:
+Extended_description-gl.UTF-8: Escolla un nome de usuario para a nova conta. O seu nome é unha elección razoábel. O nome de usuario debería comezar por unha letra minúscula, que pode ir seguida por calquera combinación de números e letras minúsculas.
+Description-gu.UTF-8: તમારા ખાતાનું વપરાશકર્તાનામ:
+Extended_description-gu.UTF-8: નવા ખાતાં માટે વપરાશકર્તાનામ પસંદ કરો. તમારુ પ્રથમ નામ એ યોગ્ય પસંદગી છે. વપરાશકર્તાનામ એ નાના-અંગ્રેજી અક્ષરોમાં, આંકડાઓ અથવા વધુ નાનાં અક્ષરોનું મિશ્રણ હોઇ શકે છે.
+Description-he.UTF-8: הכנס שם משתמש עבור החשבון שלך:
+Extended_description-he.UTF-8: בחר שם משתמש עבור החשבון החדש. שמך הפרטי הינו בחירה סבירה. שם המשתמש צריך להתחיל באות לטינית קטנה, ואחריה יכול לבוא צירוף כלשהו של מספרים ואותיות לטיניות קטנות.
+Description-hi.UTF-8: आपके खाते के लिए उपयोक्ता नाम:
+Extended_description-hi.UTF-8: नये खाते के लिए उपयोक्ता का नाम चुनें. आपका नाम एक अच्छा विकल्प है. उपयोक्ता का नाम अंग्रेजी के छोटे अक्षर से प्रारंभ होना चाहिए, जिसके बाद अंकों या अन्य छोटे अक्षरों का प्रयोग किसी भी क्रम में किया जा सकता है.
+Description-hr.UTF-8: Unesite ime za vaš korisnički račun:
+Extended_description-hr.UTF-8: Izaberite ime za novi korisnički račun. Vaše ime je uobičajeni izbor. Korisničko ime treba započinjati malim slovom, a može se sastojati od bilo koje kombinacije brojaka i malih slova.
+Description-hu.UTF-8: Felhasználóneve:
+Extended_description-hu.UTF-8: Adjon felhasználónevet a hozzáféréshez. A keresztnév általában meg szokott felelni a célra. A lényeg, hogy a felhasználónév kisbetűvel kezdődjön, azután számok és további kisbetűk tetszőleges kombinációja állhat.
+Description-id.UTF-8: Nama untuk akun Anda:
+Extended_description-id.UTF-8: Pilih nama pengguna untuk akun baru. Nama depan Anda merupakan pilihan yang baik. Nama pengguna sebaiknya dimulai dengan huruf kecil, yang dapat diikuti dengan kombinasi angka dan huruf kecil.
+Description-is.UTF-8: Notendanafn fyrir þennan reikning:
+Extended_description-is.UTF-8: Veldu notendanafn fyrir nýja reikninginn. Skírnarnafnið þitt er ágætis kostur. Þetta notendanafn ætti að byrja á lágstaf, sem má fylgja eftir með einhverri blöndu af tölum og lágstöfum.
+Description-it.UTF-8: Nome utente per l'account:
+Extended_description-it.UTF-8: Scegliere il nome utente per il nuovo account, per esempio il nome di battesimo. Il nome dell'utente dovrebbe iniziare con una lettera minuscola, che può essere seguita da una qualsiasi combinazione di numeri e lettere minuscole.
+Description-ja.UTF-8: あなたのアカウントのユーザ名:
+Extended_description-ja.UTF-8: 新しいアカウントのユーザ名を選んでください。あなたのファーストネームを使うのは妥当な選択です。ユーザ名の先頭は小文字アルファベットでなければならず、数字・小文字アルファベットの任意の組合わせで構成されます。
+Description-ka.UTF-8: თქვენი ანგარიშის მომხმარებლის სახელი:
+Extended_description-ka.UTF-8: მიუთითეთ სახელი ახალი ანგარიშისათვის. შეგიძლიათ ჩაწეროთ თქვენი სახელი. სახელი უნდა იწყებოდეს პატარა ლათინური ასოთი და გრძელდებოდეს ციფრებისა და პატარა ლათინური ასოების ნებისმიერი სიგრძის კომბინაციით.
+Description-kk.UTF-8: Тіркелгіңіз үшін пайдаланушы аты:
+Extended_description-kk.UTF-8: Жүйеңізде тіркелетін пайдаланушы атын (тіркелгі) таңдаңыз. Ол ретінде сіздің шын атыңызды қолдануға болады. Пайдаланушы аты кіші латын әрпінен басталуы керек, одан кейін сандар мен кіші латын әріптерінің кез-келген саны болуы мүмкін.
+Description-km.UTF-8: ឈ្មោះ​អ្នក​ប្រើ សម្រាប់​គណនី​របស់​អ្នក ៖
+Extended_description-km.UTF-8: ជ្រើសឈ្មោះ​អ្នក​ប្រើ​សម្រាប់​គណនី​ថ្មី ។ ឈ្មោះ​អ្នក​ប្រើ​គួរ​តែ​ចាប់ផ្ដើម​ដោយ​អក្សរ​តូច ហើយ​អាច​បន្ត​ដោយ​បន្សំ​រវាង​លេខ និង អក្សរ​តូច​ជាច្រើន​ទៀត ។
+Description-kn.UTF-8: ಖಾತೆಯ ಬಳಕೆದಾರನ ಹೆಸರು:
+Extended_description-kn.UTF-8: ಹೊಸ ಖಾತೆಗೆ ಬಳಕೆದಾರ ನಾಮವೊಂದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ. ನಿಮ್ಮ ಹೆಸರು ಕೂಡ ಉತ್ತಮ ಆಯ್ಕೆಯಾಗಬಹುದು. ಬಳಕೆದಾರರ ಹೆಸರು ಯಾವುದಾದರೂ ಅಕ್ಷರದಿಂದ ಶುರುವಾಗಿ ನಂತರ ಅಂಕಿ ಹಾಗು ಅಕ್ಷರಗಳ ಯಾವುದೇ ಸಂಯೋಜನೆಯೊಂದಿಗೆ ಮುಂದುವರೆಯಬಹುದು.
+Description-ko.UTF-8: 계정의 사용자 이름:
+Extended_description-ko.UTF-8: 새로 만들 계정의 사용자 이름을 지정하십시오. 이름을 쓰는 것도 좋습니다. 사용자 이름은 영문 소문자로 시작해야 하고, 그 뒤에는 숫자나 영문 소문자를 몇 개든지 쓸 수 있습니다.
+Description-ku.UTF-8: Navê bikarhêner yê hesaba te:
+Extended_description-ku.UTF-8: Ji bo hesabê nû navekî bikarhêneriyê hilbijêre. Nav bi awayekî baş hatiye hilbijartin. Divê navê bikarhêneriyê ji tîp an jî reqeman pêk bê.
+Description-lo.UTF-8: ຊື່ຜູ້ໃຊ້ສຳຫລັບບັນຊີຂອງທ່ານ:
+Extended_description-lo.UTF-8: ກະລຸນາຕັ້ງຊື່ຜູ້ໃຊ້ສຳຫລັບບັນຊີໃໝ່ ໂດຍປົກກະຕິ ຊື່ຕົ້ນຂອງທ່ານແມ່ນຄຳຕອບທີ່ສົມເຫດສົມຜົນ ຊື່ຜູ້ໃຊ້ຄວນຂື້ນຕົ້ນແມ່ນໂຕອັກສອນພິມນ້ອຍ ແລະສາມາດຕໍ່ດ້ວຍໂຕເລກຫລືໂຕພິມນ້ອຍຫລາຍໂຕໄດ້.
+Description-lt.UTF-8: Naudotojo vardas Jūsų paskyrai:
+Extended_description-lt.UTF-8: Pasirinkite naudotojo vardą naujajai paskyrai. Jūsų vardas yra tinkamas pasirinkimas. Naudotojo vardas turėtų prasidėti iš mažosios raidės, po kurios gali būti mažųjų raidžių ir skaitmenų kombinacija.
+Description-lv.UTF-8: Jūsu konta lietotājvārds:
+Extended_description-lv.UTF-8: Izvēlieties konta lietotājvārdu. Laba izvēle ir jūsu vārds (bez uzvārda). Lietotāja vārdam jāsākas ar mazo latīņu alfabēta burtu aiz kura var sekot jebkāda mazo latīņu alfabēta burtu un ciparu kombinācija.
+Description-mk.UTF-8: Корисничко име за твојата сметка:
+Extended_description-mk.UTF-8: Одбери корисничко име за новата сметка. Твоето име е добар избор. Корисничкото име треба да почне со мала буква по која може да има било каква комбинација на бројки или мали букви.
+Description-ml.UTF-8: നിങ്ങളുടെ അക്കൌണ്ടിനു വേണ്ട ഉപയോക്താവിന്റെ പേരു്:
+Extended_description-ml.UTF-8: പുതിയ അക്കൌണ്ടിനു വേണ്ട ഉപയോക്താവിന്റെ പേരു് തെരഞ്ഞെടുക്കുക. നിങ്ങളുടെ പേരു് ഉത്തമമായൊന്നാണു്. ഉപയോക്താവിന്റെ പേരു് ഒരു ചെറിയക്ഷരം വച്ച് തുടങ്ങണം, അതിന് ശേഷം അക്കങ്ങളുടേയോ കൂടുതല്‍ ചെറിയക്ഷരങ്ങളുടേയോ എത്ര സമ്മിശ്രണം വേണമെങ്കിലുമാകാം.
+Description-mr.UTF-8: आपल्या खात्याकरिता वापरदारनाव:
+Extended_description-mr.UTF-8: नवीन खात्याकरिता वापरदारनाव ठरवा. आपले पहिले नाव यासाठी निवडणे उचित ठरेल. वापरदारनाव (इंग्रजीसाठी लहान अक्षराने सुरू होणे आवश्यक) अंक व अक्षरे कशीही एकत्रित करून बनवता येईल.
+Description-nb.UTF-8: Brukernavnet for kontoen din:
+Extended_description-nb.UTF-8: Velg et brukernavn for den nye kontoen. Fornavnet ditt er et rimelig valg. Merk at brukernavn må starte med liten bokstav, deretter kan du bruke en hvilken som helst kombinasjon av tall og små bokstaver.
+Description-ne.UTF-8: तपाईँको खाताका लागि प्रयोगकर्ता नाम:
+Extended_description-ne.UTF-8: नयाँ खाताका लागि प्रयोगकर्ता नाम चयन गर्नुहोस् । तपाईँको पहिलो नाम उचित छनौट हो । प्रयोगकर्ता नामहरू सानो अक्षरबाट सुरू हुन्छ, जसलाई कुनै पनि संख्याहरुको संयोजन र धेरै सानो अक्षरहरूले पछ्याउँन सक्ने छन् ।
+Description-nl.UTF-8: Wat is de gebruikersnaam voor uw account?
+Extended_description-nl.UTF-8: Wat is de gebruikersnaam voor het nieuwe account? Uw voornaam is een redelijke keuze. Merk op dat een gebruikersnaam dient te beginnen met een kleine letter, eventueel gevolgd door een combinatie van kleine letters en cijfers.
+Description-nn.UTF-8: Brukarnamn for kontoen din:
+Extended_description-nn.UTF-8: Vel eit brukarnamn for den nye kontoen. Førenamnet ditt er eit godt val. Brukarnamnet må starte med ein liten bokstav, resten av brukarnamnet kan vera ein kombinasjon av tal og fleire små bokstavar.
+Description-no.UTF-8: Brukernavnet for kontoen din:
+Extended_description-no.UTF-8: Velg et brukernavn for den nye kontoen. Fornavnet ditt er et rimelig valg. Merk at brukernavn må starte med liten bokstav, deretter kan du bruke en hvilken som helst kombinasjon av tall og små bokstaver.
+Description-pa.UTF-8: ਤੁਹਾਡੇ ਖਾਤੇ ਲਈ ਯੂਜ਼ਰ ਨਾਂ:
+Extended_description-pa.UTF-8: ਨਵੇਂ ਖਾਤੇ ਲਈ ਯੂਜ਼ਰ ਨਾਂ ਦੀ ਚੋਣ ਕਰੋ। ਤੁਹਾਡਾ ਪਹਿਲਾਂ ਨਾਂ ਸਭ ਤੋਂ ਵਧੀਆ ਚੋਣ ਹੈ। ਯੂਜ਼ਰ ਨਾਂ ਛੋਟੇ ਅੱਖਰਾਂ ਨਾਲ ਹੀ ਸ਼ੁਰੂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਹੋਰ ਕੋਈ ਅੰਕ ਜਾਂ ਛੋਟੇ ਅੱਖਰ ਸ਼ਾਮਿਲ ਕੀਤੇ ਜਾ ਸਕਦੇ ਹਨ।
+Description-pl.UTF-8: Nazwa użytkownika dla Twojego konta:
+Extended_description-pl.UTF-8: Wybierz nazwę dla nowego konta. Twoje imię wydaje się być rozsądnym wyborem. Nazwa użytkownika powinna zaczynać się od małej litery, po której mogą następować cyfry i inne małe litery.
+Description-pt.UTF-8: Nome de utilizador para a sua conta:
+Extended_description-pt.UTF-8: Escolha um nome de utilizador para a nova conta. O primeiro nome é uma escolha razoável. O nome de utilizador deve começar com uma letra minúscula, que pode ser seguida de qualquer combinação de números e mais letras minúsculas.
+Description-pt_BR.UTF-8: Nome de usuário para sua conta:
+Extended_description-pt_BR.UTF-8: Informe um nome de usuário para a nova conta. Seu primeiro nome é uma escolha razoável. O nome de usuário deverá ser iniciado com uma letra minúscula, que pode ser seguida de qualquer combinação de números e mais letras minúsculas.
+Description-ro.UTF-8: Numele de utilizator pentru contul dumneavoastră:
+Extended_description-ro.UTF-8: Selectați un nume pentru noul cont. Prenumele dumneavoastră este o alegere rezonabilă. Numele de utilizator ar trebui să înceapă cu literă mică, care poate fi urmată de orice combinație de numere și litere mici.
+Description-ru.UTF-8: Имя вашей учётной записи:
+Extended_description-ru.UTF-8: Выберите имя пользователя (учётную запись), под которым вы будете известны в системе. В качестве учётной записи может быть использовано ваше реальное имя. Учётная запись должна начинаться со строчной латинской буквы, за которой может следовать любое количество строчных латинских букв или цифр.
+Description-se.UTF-8: Du konttu geavaheaddjinama:
+Extended_description-se.UTF-8: Vállje geavaheaddjinama dan ođđa kontui. Geavat áinnas iežat nama, gaskkaid haga. Geavaheaddjinama ferte álgit smávva bustávain, muđuid geavaheaddjinamas sáhttá leat sihke logut ja eará smávva bustávaid (muhto eai sáhte leat gaskamearkkat).
+Description-si.UTF-8: ඔබගේ ගිණුම සඳහා භාවිතා කරන්නාගේ නම:
+Extended_description-si.UTF-8: නව ගිණුම සඳහා භාවිතා කරන්නාගේ නමක් තොරන්න. ඔබගේ පලමු නම සාධාරණ තේරීමකි. භාවිතා කරන්නාගේ නම කුඩා අකුරකින් පටන් ගත යුතු අතර පසුව ඉලක්කම් සහ කුඩා අකුරු වල ඕනෑම සංකලනයක් භාවිතා කළ හැක.
+Description-sk.UTF-8: Používateľské meno pre nový účet:
+Extended_description-sk.UTF-8: Zvoľte si používateľské meno pre nový účet. Rozumnou voľbou by mohlo byť vaše krstné meno. Používateľské mená by mali začínať malým písmenom, za ktorým môže nasledovať ľubovoľná kombinácia čísel a malých písmen.
+Description-sl.UTF-8: Uporabniško ime za vaš račun:
+Extended_description-sl.UTF-8: Izberite ime za vaš uporabniški račun. Vaše ime je primerna izbira. Uporabniško ime naj bi se začelo z malo začetnico, ki ji lahko sledi kakršnakoli kombinacija številk in malih črk.
+Description-sq.UTF-8: Emri i përdoruesit për llogarinë tënde:
+Extended_description-sq.UTF-8: Zgjidh një emër përdoruesi për llogarinë e re. Emri yt është një zgjedhje e arsyeshme. Emri i përdoruesit duhet të fillojë me një gërmë të vogël, e cila mund të ndiqet nga një kombinim çfarëdo numrash dhe akoma më shumë gërma të vogla.
+Description-sr.UTF-8: Корисничко име за ваш налог:
+Extended_description-sr.UTF-8: Изаберите корисничко име за нови налог. Ваше име је разуман избор. Корисничко име мора почети са малим словом, које може бити праћено било каквом комбинацијом цифара и малих слова.
+Description-sv.UTF-8: Användarnamn för ditt konto:
+Extended_description-sv.UTF-8: Välj ett användarnamn för det nya kontot. Ditt förnamn är ofta ett bra val. Användarnamnet bör inledas med liten bokstav och kan sedan följas av en godtycklig kombination av siffror och små bokstäver.
+Description-ta.UTF-8: கணக்குக்கு பயனீட்டாளர் பெயர்:
+Extended_description-ta.UTF-8: இந்த புதிய கணக்குக்கு பயனரின் உண்மை பெயரை உள்ளிடவும். உங்கள் முதல் உண்மைப் பெயர் இதற்கு ஒரு நல்ல தேர்வாகும். பயனரின் பெயர் ஆங்கிலம் போன்ற இரு நிலை உள்ளீடுகளில் இருப்பின் கீழ் நிலையில் துவங்க வேண்டும். அதற்குப் பின் எந்த எண் எந்த கீழ் நிலை எழுத்துறுக்களின் கலவையாகவும் இருக்கலாம்.
+Description-te.UTF-8: ఖాతాకి వాడుకరి పేరు:
+Extended_description-te.UTF-8: కొత్త ఖాతా కి వాడుకరి పేరుని ఎంచుకో. మీ పూర్తి పేరు మీ  ఇష్టానుసారంగా ఎంచుకోవచ్చు.వాడుకరి పేరు ఆంగ్ల చిన్న అక్షరాలతో మొదలు పెట్టి, ఇంకొన్ని  అంకెలు, ఏక్కువ చిన్ని అక్షరాల మిళితమై వుండవచ్చు.
+Description-tg.UTF-8: Номи корбар барои ҳисоби шумо:
+Extended_description-tg.UTF-8: Номи корбарро барои ҳисоби нав интихоб кунед. Номи шумо интихоби беҳтарин аст. Номи корбар бояд бо ҳарфи хурд оғоз ёбад, ки метавонад бо ягон маҷмӯи рақамҳо ва ҳарфҳои дигари хурд идома ёбад.
+Description-th.UTF-8: ชื่อผู้ใช้สำหรับบัญชีของคุณ:
+Extended_description-th.UTF-8: กรุณาตั้งชื่อผู้ใช้สำหรับบัญชีใหม่ โดยปกติ ชื่อต้นของคุณคือคำตอบที่สมเหตุสมผล ชื่อผู้ใช้ควรขึ้นต้นด้วยอักษรตัวพิมพ์เล็ก และสามารถตามด้วยตัวเลขหรือตัวพิมพ์เล็กหลายตัวได้
+Description-tl.UTF-8: Magbigay ang pangalan ng inyong account:
+Extended_description-tl.UTF-8: Pumili ng pangalan para sa bagong account. Ang inyong unang pangalan ay rasonable. Kinakailangang mag-umpisa sa maliit na titik ang pangalan, na maaaring sundan ng kahit anong kumbinasyon ng numero at mga maliit na titik.
+Description-tr.UTF-8: Hesabınız için kullanıcı adı:
+Extended_description-tr.UTF-8: Yeni kullanıcı hesabı için bir kullanıcı adı seçin. İlk adınız makul bir seçimdir. Kullanıcı adları küçük harfle başlamak zorundadır. Daha sonra rakam ve başka küçük harflerin kombinasyonu ile devam edebilir.
+Description-ug.UTF-8: ھېساباتىڭىزنىڭ ئىشلەتكۈچى ئاتى:
+Extended_description-ug.UTF-8: يېڭى ئىشلەتكۈچىگە ئىشلەتكۈچى ئاتى تاللاڭ. مەسىلەن، ئاتىڭىز ناھايىتى مۇۋاپىق تاللاش بولالايدۇ. ئىشلەتكۈچى ئاتى چوقۇم بىر ھەرپتىن باشلىنىپ، ئاخىرىغا ھەر قانداق سان ۋە باشقا كىچىك يېزىلىشتىكى ھەرپلەر ئەگىشىپ كەلسە بولىدۇ.
+Description-uk.UTF-8: Назва облікового запису:
+Extended_description-uk.UTF-8: Виберіть ім'я користувача для нового облікового запису. Ваше ім'я - це гарний вибір. Ім'я користувача повинно починатися із малої латинської літери, за якою може слідувати довільна комбінація цифр та малих латинських літер.
+Description-vi.UTF-8: Tên người dùng cho tài khoản của bạn:
+Extended_description-vi.UTF-8: Hãy chọn tên người dùng cho tải khoản mới này. Tên của bạn là sự chọn hữu ích. Tên người dùng nên bắt đầu với chữ thường, với bất cứ phối hợp con số và chữ thường nào theo sau.
+Description-zh_CN.UTF-8: 您的帐号的用户名：
+Extended_description-zh_CN.UTF-8: 请为新的帐号选择用户名。比如，您的名字就是一个合适的选择。用户名必须以一个小写字母开头，接着是任意数字和其他小写字母的组合。
+Description-zh_TW.UTF-8: 您的帳號的使用者名稱:
+Extended_description-zh_TW.UTF-8: 請替新的帳號輸入使用者名稱。例如，您的名字就是一個不錯的選擇。使用者名稱必須以小寫字母開頭，接著的則可以是任意數字或其它的小寫字母之組合。
+
+Name: passwd/username-bad
+Type: error
+Description: Invalid username
+Extended_description: The username you entered is invalid. Note that usernames must start with a lower-case letter, which can be followed by any combination of numbers and more lower-case letters, and must be no more than 32 characters long.
+Description-am.UTF-8: የማይሰራ የተጠቃሚ ስም
+Extended_description-am.UTF-8: ያስገቡት የተጠቃሚ ስም አይሰራም፡፡ የተጠቃሚ ስሞች የግድ በላቲን ትንሽ ፊደል መጀመር እንዳለባቸው፣  በማንኛውም ቁጥርና ተጨማሪ ትንሽ ፊደላት ሊከተል እስደሚችልና ከ32 ፊደል በላይ መሆን እንደሌለበ ያስተውሉ፡፡
+Description-ar.UTF-8: اسم مستخدم غير سليم
+Extended_description-ar.UTF-8: اسم المستخدم الذي أدخلته غير صالح. لاحظ أن أسماء المستخدمين يجب أن تبدأ بحرفٍ صغير متبوعاً بأيّ خليطٍ من الأرقام والمزيد من الأحرف الصّغيرة، ويجب أن يتعدى طوله 32 حرفاً.
+Description-ast.UTF-8: Nome d'usuariu non válidu
+Extended_description-ast.UTF-8: El nome d'usuariu qu'introduxisti nun ye válidu. Ten en cuenta que los nomes d'usuariu deben entamar por una lletra minúscula, que pue siguir de cualesquier combinación de númberos o más lletres minúscules, y nun tien de pasar de 32 caráuteres.
+Description-be.UTF-8: Няслушнае імя карыстальніка
+Extended_description-be.UTF-8: Імя карыстальніка, якое вы ўвялі, непрыдатнае. Майце на ўвазе, што імёны карыстальнікаў мусяць пачынацца з маленькай лацінскай літары, пасля якой можна ўжываць сумесь лічбаў і маленькіх лацінскіх літараў, не даўжэй за 32 знакаў цалкам.
+Description-bg.UTF-8: Невалидно потребителско име
+Extended_description-bg.UTF-8: Потребителското име, което сте въвели е невалидно. Потребителските имена трябва да започват с малка латинска буква, последвана от цифри и малки латински букви и дължината им не трябва да надвишава 32 знака.
+Description-bn.UTF-8: অবৈধ ব্যবহারকারীর-নাম
+Extended_description-bn.UTF-8: আপনি ব্যবহারকারীর যে নাম লিখেছেন তা কার্যকর নয়। উল্লেখ্য ব্যবহারকারীর নাম আরম্ভ হবে একটি ছোট ছাঁদের অক্ষর দিয়ে, যে কোন সংখ্যক সংখ্যার সমাবেশ এবং আরো ছোট ছাঁদের অক্ষর যা অনুসরণ করা যাবে, এবং ৩২ অক্ষরের দীর্ঘ অবশ্যই হবেনা।
+Description-bo.UTF-8: ཕན་མེད་ཀྱི་སྤྱོད་མཁན་མིང
+Extended_description-bo.UTF-8: ཁྱོད་ཀྱིས་བྲིས་པའི་སྤྱོད་མཁན་གྱི་ནི་ཕན་མེད་རེད། སྤྱོད་མཁན་མིང་གི་འགོ་རུ་ཆུང་བྲིས་ཡི་གེ་དགོས་པ་དང་དེ་མཚམས་སུ་ཨང་གྲངས་དང་ཆུང་བྲིས་ཡི་གེ་སྤེལ་མའི་འབྲུ་༣༢་ལས་ཉུང་ཙམ་དགོས
+Description-bs.UTF-8: Neispravno korisničko ime
+Extended_description-bs.UTF-8: Korisničko ime koje ste unijeli nije ispravno. Obratite pažnju da korisnička imena počinju malim slovom, koje može pratiti bilo kakva kombinacija brojeva i još malih slova i ne smiju biti duža od 32 karaktera.
+Description-ca.UTF-8: El nom d'usuari no és vàlid
+Extended_description-ca.UTF-8: El nom d'usuari introduït no és vàlid. Tingueu en compte que el nom d'usuari ha de començar amb una lletra en minúscula, seguida de qualsevol combinació de nombres o més lletres en minúscula, i no pot tindre més de 32 caràcters.
+Description-cs.UTF-8: Neplatné uživatelské jméno
+Extended_description-cs.UTF-8: Uživatelské jméno, které jste zadali, je neplatné. Uživatelská jména musí začínat malým písmenem, za kterým může následovat libovolná kombinace čísel a malých písmen až do maximální délky 32 znaků.
+Description-cy.UTF-8: Enw defnyddiwr annilys
+Extended_description-cy.UTF-8: Mae'r enw defnyddiwr a roddwyd yn annilys. Mae'n rhaid i enw ddefnyddiwr ddechrau gyda llythyren bach, wedi ei ddilyn gyda unrhyw gyfuniad o rifau a mwy o lythrennau bach, ddim yn hirach na 32 llythyren.
+Description-da.UTF-8: Ugyldigt brugernavn
+Extended_description-da.UTF-8: Brugernavnet du har angivet, er ugyldigt. Bemærk at brugernavne skal starte med et lille bogstav efterfulgt af en hvilken som helst kombination af numre og flere små bogstaver. Brugernavne må ikke være længere end 32 tegn.
+Description-de.UTF-8: Ungültiger Benutzername
+Extended_description-de.UTF-8: Der Benutzername, den Sie eingegeben haben, ist ungültig. Hinweis: Der Benutzername sollte mit einem kleinen Buchstaben beginnen, gefolgt von einer Kombination aus Zahlen oder weiteren klein geschriebenen Buchstaben und darf nicht mehr als 32 Zeichen lang sein.
+Description-dz.UTF-8: ནུས་མེད་ལག་ལེན་པའི་མིང་།
+Extended_description-dz.UTF-8: ཁྱོད་ཀྱིས་བཙུགས་མི་ལག་ལེན་པའི་མིང་འདི་ ནུས་མེད་ཨིན་པས། ལག་ལེན་པའི་མིང་འདི་ ཡིག་ཆུང་གིས་འགོ་བཙུགས་དགོཔ་དང་ ཨང་ཡིག་དང་སླ་བསྲེས་ དེ་ལས་ ཡིག་ཆུང་གཙང་ཙ་འབད་རུང་བཏུབ་ཨིན་རུང་ ཡིག་འབྲུ་༣༢ལས་ ལྷག་ནི་མི་འོང་།
+Description-el.UTF-8: Μη έγκυρο όνομα χρήστη
+Extended_description-el.UTF-8: Το όνομα χρήστη που δώσατε δεν είναι έγκυρο. Σημειώστε ότι το όνομα χρήστη θα πρέπει να αρχίζει με πεζό γράμμα πού μπορεί να ακολουθείται από οποιονδήποτε συνδυασμό αριθμών και πεζών γραμμάτων ενώ τό μήκος του δεν θα πρέπει νά υπερβαίνει τους 32 χαρακτήρες.
+Description-eo.UTF-8: Malvalida salutnomo
+Extended_description-eo.UTF-8: La salutnomo tajpita de vi estas malvalida. Rimarku ke tiu salutnomoj nepre komenciĝu per minuskla litero, kiu povas esti sekvata de ajna kombino inter ciferoj kaj pliaj minusklaj literoj, kaj ili ne devas havi pli ol 32 signoj.
+Description-es.UTF-8: Nombre de usuario inválido
+Extended_description-es.UTF-8: El nombre de usuario que ha introducido no es válido. Los nombres de usuario deben empezar con una letra minúscula, seguida de cualquier combinación de números y más minúsculas, y su longitud máxima es de 32 caracteres.
+Description-et.UTF-8: Kasutajanimi ei sobi
+Extended_description-et.UTF-8: Sinu sisestatud kasutajanimi on sobimatu. Kasutajanimi peab algama väiketähega, millele võivad järgneda numbrid või väiketähed. Kasutajanimi ei saa olla pikem kui 32 märki.
+Description-eu.UTF-8: Erabiltzaile-izen baliogabea
+Extended_description-eu.UTF-8: Sartu duzun erabiltzaile-izena baliogabea da. Jakin ezazu erabiltzaile-izena letra minuskulaz hasi behar dela, eta zenbaki eta letra maiuskula eta minuskulen konbinazioarekin jarraitu eta ezin dela 32 karaktere baino luzeagoizan.
+Description-fa.UTF-8: نام‌کاربری نامعتبر
+Extended_description-fa.UTF-8: نام‌کاربری که وارد کرده‌اید نامعتبر است. توجه کنید که نام‌های‌کاربری باید با حرف‌کوچک شروع شوند، که می‌تواند با هر ترکیبی از اعداد و حروف‌کوچک بیشتر دنبال شود و همچنین نباید بیشتر از ۳۲ کارکتر طول داشته باشند.
+Description-fi.UTF-8: Virheellinen käyttäjätunnus
+Extended_description-fi.UTF-8: Syöttämäsi käyttäjätunnus on virheellinen. Huomaa, että käyttäjätunnuksen täytyy alkaa pienaakkosella, jonka jälkeen tulee numeroita ja pienaakkosia. Käyttäjänimi saa olla korkeintaan 32 merkkiä pitkä.
+Description-fr.UTF-8: Identifiant non valable
+Extended_description-fr.UTF-8: L'identifiant que vous avez indiqué n'est pas valable. Les identifiants doivent commencer par une lettre minuscule, suivie d'un nombre quelconque de chiffres et de lettres minuscules. Sa longueur ne doit pas excéder 32 caractères.
+Description-ga.UTF-8: Ainm úsáideora neamhbhailí
+Extended_description-ga.UTF-8: Chuir tú ainm neamhbhailí isteach.  Ba chóir litir bheag a bheith ag tosach an ainm, agus ceadaítear aon teaghrán d'uimhreacha agus litreacha beaga tar éis sin, 32 carachtar ar a mhéad.
+Description-gl.UTF-8: Nome de usuario non válido
+Extended_description-gl.UTF-8: O nome de usuario que introduciu non é válido. Lembre que os nomes de usuario deben comezar por unha letra minúscula que pode ir seguida por calquera combinación de números e letras minúsculas, e non debe ter máis de 32 caracteres de longo.
+Description-gu.UTF-8: અયોગ્ય વપરાશકર્તાનામ
+Extended_description-gu.UTF-8: તમે દાખલ કરેલ વપરાશકર્તાનામ અયોગ્ય છે. ધ્યાનમાં રાખો કે વપરાશકર્તાનામો નાનાં-અક્ષરોથી શરુ થવા જોઇએ, જે પછી આંકડાઓ અને નાનાં અક્ષરોનું મિશ્રણ હોઇ શકે છે, અને ૩૨ અક્ષરોથી લાંબુ ન જ હોવું જોઈએ.
+Description-he.UTF-8: שם המשתמש שהוכנס אינו חוקי
+Extended_description-he.UTF-8: שם המשתמש שהוכנס אינו חוקי. שים לב ששמות משתמש חייבים להתחיל באות קטנה, ואחריה כל צירוף של מספרים ואותיות קטנות, ואורכם המקסימלי הינו 32 תווים.
+Description-hi.UTF-8: अवैध उपयोक्ता  नाम
+Extended_description-hi.UTF-8: आपके द्वारा प्रविष्ट उपयोगकर्ता नाम अवैध है. संज्ञान लें कि उपयोक्ता का नाम अंग्रेजी के छोटे अक्षर से प्रारंभ होना चाहिए, जिसके बाद अंकें या अन्य छोटे अक्षरों का प्रयोग किसी भी क्रम में किया जा सकता है, और इसे कुल ३२ अक्षरों से अधिक नहीं होना चाहिए.
+Description-hr.UTF-8: Neispravno korisničko ime
+Extended_description-hr.UTF-8: Korisničko ime koje ste unijeli nije ispravno. Korisnička imena moraju započinjati malim slovom, mogu se sastojati od bilo koje kombinacije brojaka i malih slova i ne smiju biti dulja od 32 znaka.
+Description-hu.UTF-8: Érvénytelen felhasználónév
+Extended_description-hu.UTF-8: A megadott felhasználónév érvénytelen. A felhasználónévnek kisbetűvel kell kezdődnie, azután számok és további kisbetűk tetszőleges kombinációja állhat, és nem lehet 32 karakternél hosszabb.
+Description-id.UTF-8: Nama pengguna tidak sah
+Extended_description-id.UTF-8: Nama pengguna yang Anda masukkan tidak sah. Perhatikan bahwa nama pengguna harus dimulai dengan huruf kecil, yang kemudian dapat diikuti dengan kombinasi angka dan huruf kecil yang banyak, dan panjangnya tidak lebih dari 32 karakter.
+Description-is.UTF-8: Ógilt notandanafn
+Extended_description-is.UTF-8: Notandanafnið sem þú valdir er ógilt. Athugaðu að notendanöfn verða að byrja á lágstaf sem fylgja má eftir með hverskonar samsetningu talna og fleiri lágstafa og verður að vera minna en 32 stafa langt.
+Description-it.UTF-8: Nome utente non valido
+Extended_description-it.UTF-8: Il nome utente inserito non è valido. I nomi utenti devono iniziare con una lettera minuscola a cui fa seguito una qualsiasi combinazione di numeri e lettere minuscole e non deve superare i 32 caretteri di lunghezza.
+Description-ja.UTF-8: 無効なユーザ名
+Extended_description-ja.UTF-8: 入力されたユーザ名は無効です。 ユーザ名は数字・小文字アルファベットの任意の組合わせで構成されますが、ユーザ名の先頭はアルファベットの小文字でなければならず、32 文字以内の長さでなければなりません。
+Description-kk.UTF-8: Пайдаланушы аты жарамсыз
+Extended_description-kk.UTF-8: Сіз енгізген пайдаланушы аты қате. Пайдаланушы аты кіші әріптен басталуы керек, ол әріптен кейін сандар мен әріптер кез-келген түрде келуі мүмкін, және де 32 таңбадан аспауы тиіс.
+Description-km.UTF-8: ឈ្មោះ​អ្នក​ប្រើ​មិន​ត្រឹមត្រូវ
+Extended_description-km.UTF-8: អ្នក​បាន​បញ្ចូល​ឈ្មោះ​អ្នក​ប្រើ​មិន​ត្រឹមត្រូវ​ឡើយ ។ សូម​ចំណាំថា ឈ្មោះ​អ្នក​ប្រើ​ត្រូវ​តែ​ចាប់​ផ្តើម​ដោយ​អក្សរ​តូច ដែល​អាច​បន្ត​ដោយ​បន្សំ​រវាង​លេខ និង អក្សរ​តូច​ជាច្រើន​ទៀត ហើយ​មិន​លើស​ពី ៣២ តួអក្សរ​ទេ​។
+Description-kn.UTF-8: ಬಳಕೆದಾರರ ಹೆಸರು ಸರಿಯಿಲ್ಲ
+Extended_description-kn.UTF-8: ನೀವು ದಾಖಲಿಸಿದ ಬಳಕೆದಾರನ ಹೆಸರು ಸರಿಯಾಗಿಲ್ಲ. ಗಮನಿಸಿ ಬಳಕೆದಾರ ನಾಮಗಳು ಲೋವರ್ ಕೇಸ್ ಅಕ್ಷರಗಳಿಂದ ಪ್ರಾರಂಭವಾಗಿರಬೇಕು ಮತ್ತು ನಂತರ ಅಂಕಿಗಳು ಹಾಗು ಲೋವರ್ ಕೇಸ್ ಅಕ್ಷರಗಳ ಯಾವುದೇ ಸಂಯೋಜನೆಯೊಂದಿಗೆ ಮುಂದುವರೆಯಬಹುದು ಮತ್ತು ಒಟ್ಟು ೩೨ ಅಕ್ಷರಗಳನ್ನು ಮೀರದಂತಿರಬೇಕು.
+Description-ko.UTF-8: 잘못된 사용자 이름
+Extended_description-ko.UTF-8: 입력한 사용자 이름이 잘못되었습니다. 사용자 이름은 영문 소문자로 시작해야 하고, 그 뒤에는 숫자나 영문 소문자를 쓸 수 있습니다. 또 글자 수가 32자 이하여야 합니다.
+Description-lo.UTF-8: ຊື່ຜູ້ໃຊ້ຜິດພາດ
+Extended_description-lo.UTF-8: ຊື່ຜູ້ໃຊ້ທີ່ເຈົ້າປອ້ນບໍ່ສາມາດໃຊ້ໄດ້ ໂປດສັງເກດວ່າຊື່ຜູ້ໃຊ້ຕອ້ງຂື້ນຕົ້ນດວ້ຍອັກສອນຕົວພິມນອ້ຍ ແລະສາມາດຕາມດວ້ຍຕົວເລກຫຼືຕົວພິມນອ້ຍຫຼາຍຕໄວໄດ້.
+Description-lt.UTF-8: Netaisyklingas naudotojo vardas.
+Extended_description-lt.UTF-8: Įvestas naudotojo vardas netaisyklingas. Atkreipkite dėmesį, kad naudotojo vardas turi prasidėti mažąja raide, po kurios gali būti mažųjų raidžių ir skaitmenų kombinacija, o jo ilgis negali viršyti 32 simbolių.
+Description-lv.UTF-8: Nederīgs lietotājvārds
+Extended_description-lv.UTF-8: Ievadītais lietotājvārds ir nederīgs. Lietotājvārds var sākties ar mazo latīņu alfabēta burtu, aiz kura var sekot jebkāda mazo latīņu alfabēta burtu un ciparu kombinācija. Tas nedrīkst būt garāks ka 32 rakstzīmes.
+Description-mk.UTF-8: Неправилно корисничко име
+Extended_description-mk.UTF-8: Корисничкото име кое го внесе е невалидно. Имај на ум дека корисничкото име треба да почне со мала буква по која може да има било каква комбинација на бројки или мали букви и дека не може да надмине повеќе од 32 знаци.
+Description-ml.UTF-8: അസാധുവായ ഉപയോക്താവിന്റെ പേര്
+Extended_description-ml.UTF-8: നിങ്ങള്‍ നല്‍കിയ ഉപയോക്താവിന്റെ പേര് അസാധുവാണു്. ഉപയോക്താവിന്റെ പേര് ഒരു ചെറിയക്ഷരം വച്ച് തുടങ്ങണം, അതിന് ശേഷം അക്കങ്ങളുടേയോ കൂടുതല്‍ ചെറിയക്ഷരങ്ങളുടേയോ 32 അക്ഷരങ്ങളില്‍ കൂടാത്ത എത്ര സമ്മിശ്രണം വേണമെങ്കിലുമാകാം എന്നോര്‍ക്കുക.
+Description-mr.UTF-8: अवैध वापरदारनाव
+Extended_description-mr.UTF-8: आपण दिलेले वापरदारनाव अवैध आहे. वापरदारनाव लहान अक्षराने सुरू होणे आवश्यक आहे, त्यानंतर अंक व अक्षरे कशीही एकत्रित करून बनवता येईल, व 32 वर्णांहून अधिक असता कामा नये.
+Description-nb.UTF-8: Ugyldig brukernavn
+Extended_description-nb.UTF-8: Brukernavnet du skrev inn er ugyldig. Merk at brukernavn må starte med en liten bokstav, fulgt av en hvilken som helst kombinasjon av tall og små bokstaver, men ikke mer enn 32 tegn langt.
+Description-nl.UTF-8: Ongeldige gebruikersnaam
+Extended_description-nl.UTF-8: De door u ingevoerde gebruikersnaam is ongeldig. Merk op dat de gebruikersnamen dienen te bestaan uit een kleine letter eventueel gevolgd een combinatie van kleine letters en cijfers, en niet langer dan 32 tekens mogen zijn.
+Description-no.UTF-8: Ugyldig brukernavn
+Extended_description-no.UTF-8: Brukernavnet du skrev inn er ugyldig. Merk at brukernavn må starte med en liten bokstav, fulgt av en hvilken som helst kombinasjon av tall og små bokstaver, men ikke mer enn 32 tegn langt.
+Description-pa.UTF-8: ਗਲਤ ਯੂਜ਼ਰ ਨਾਂ
+Extended_description-pa.UTF-8: ਦਿੱਤਾ ਯੂਜ਼ਰ ਨਾਂ ਗਲਤ ਹੈ। ਯਾਦ ਰੱਖੋ ਕਿ ਯੂਜ਼ਰ ਨਾਂ ਛੋਟੇ ਅੱਖਰਾਂ ਨਾਲ ਹੀ ਸ਼ੁਰੂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਬਾਅਦ ਵਿੱਚ ਕੋਈ ਵੀ ਅੰਕ ਜਾਂ ਛੋਟੇ ਅੱਖਰ ਹੋ ਸਕਦੇ ਹਨ ਅਤੇ ਅੱਖਰਾਂ ਦੀ ਗਿਣਤੀ 32 ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।
+Description-pl.UTF-8: Nieprawidłowa nazwa użytkownika
+Extended_description-pl.UTF-8: Wprowadzona przez Ciebie nazwa użytkownika jest nieprawidłowa. Nazwa użytkownika musi zaczynać się od małej litery, po której mogą następować cyfry i inne małe litery, i nie może być dłuższa niż 32 znaki.
+Description-pt.UTF-8: Nome de utilizador inválido
+Extended_description-pt.UTF-8: O nome de utilizador que introduziu é inválido. Note que os nomes de utilizador têm de começar por uma letra minúscula, a qual pode ser seguida de qualquer combinação de números e de mais letras minúsculas, e não pode excder os 32 caracteres de comprimento.
+Description-pt_BR.UTF-8: Nome de usuário inválido
+Extended_description-pt_BR.UTF-8: O nome de usuário informado é inválido. Note que nomes de usuários devem iniciar com uma letra minúscula, a qual pode ser seguida por qualquer combinação de números e mais letras minúsculas, não podendo ter mais do que 32 caracteres.
+Description-ro.UTF-8: Nume de utilizator invalid
+Extended_description-ro.UTF-8: Numele de utilizator introdus de dumneavoastră este invalid. Numele de utilizator trebuie să înceapă cu literă mică urmată de orice combinație de cifre și alte litere mici, și nu poate fi mai lung de 32 de caractere.
+Description-ru.UTF-8: Введено некорректное имя.
+Extended_description-ru.UTF-8: Вы ввели некорректное имя пользователя. Имя пользователя должно начинаться со строчной латинской буквы, за которой может следовать любая комбинация строчных латинских букв и цифр; длина не должна превышать 32 символов.
+Description-si.UTF-8: වලංගු නොවන පරිශීලක නාමයක්
+Extended_description-si.UTF-8: ඔබ ඇතුළත් කල පරිශීලක නාමය වැරදියි. පරිශීලක නම ඇරඹිය යුත්තේ කුඩා අකුරකින් වන අතර එයින් පසු ඕනෑම අංක හෝ කුඩා අකුරු සංයුක්තයක් පැවතිය හැක. අක්‍ෂර 32 කට වඩා දිගු නොවිය යුතුයි.
+Description-sk.UTF-8: Chybné používateľské meno
+Extended_description-sk.UTF-8: Používateľské meno, ktoré ste zadali je nesprávne. Pamätajte, že používateľské mená musia začínať malým písmenom, za ktorým môže nasledovať ľubovoľná kombinácia čísel a malých písmen a nesmú byť dlhšie ako 32 znakov.
+Description-sl.UTF-8: Neveljavno uporabniško ime
+Extended_description-sl.UTF-8: Vnesli ste neprimerno uporabniško ime. Uporabniško ime se mora začeti z malo začetnico, ki ji lahko sledi kakršnakoli kombinacija številk in malih črk ter ne sme biti daljše kot 32 znakov.
+Description-sr.UTF-8: Неисправно корисничко име
+Extended_description-sr.UTF-8: Корисничко име које сте унели није исправно. Обратите пажњу да корисничка имена морају почети са малим словом, које може бити праћено било којом комбинацијом цифара и малих слова, и мора бити највише 32 карактера дуго.
+Description-sv.UTF-8: Ogiltigt användarnamn
+Extended_description-sv.UTF-8: Användarnamnet som du angav är ogiltigt. Observera att användarnamn måste inledas med en liten bokstav, vilken sedan kan följas av en valfri kombination av siffror och fler gemena bokstäver.
+Description-ta.UTF-8: செல்லுபடியாகாத பயனர்பெயர்
+Extended_description-ta.UTF-8: நீங்கள் உள்ளிட்டது செல்லுபடியாகாத பயனர்பெயர். பயனரின் பெயர் ஆங்கிலம் போன்று இரு நிலை உள்ளீடு இருப்பின் கீழ் நிலையில் துவங்க வேண்டும். அதற்குப் பின் எந்த எண்/ எந்த கீழ் நிலை எழுத்துருக்களின் கலவையாகவும் இருக்கலாம் ஆனால் 32 எழுத்துக்களுக்கு மேல் இருக்க கூடாது.
+Description-te.UTF-8: చెల్లని వాడుకరి పేరు
+Extended_description-te.UTF-8: మీరు ప్రవేశపెట్టిన వాడుకరిపేరు సరిగాలేదు. వాడుకరిపేరులు చిన్న అక్షరాలతో మొదలై, తరువాత అంకెలు లేక ఇంకొన్ని చిన్న అక్షరాల కలగలుపుగా వుంటాయి మరియు 32 అక్షరాలకు మించకూడదు.
+Description-tg.UTF-8: Номи корбари беэътибор
+Extended_description-tg.UTF-8: Номи корбаре, ки шумо ворид кардед нодуруст аст. Таваҷҷӯҳ кунед, ки номи корбар бояд бо ҳарфи хурд сар карда шавад ва бояд рақамҳо ва ҳарфҳои хурдро дар бар гирад, вале дарозии номи корбар бояд на зиёда аз 32 аломат бошад.
+Description-th.UTF-8: ชื่อผู้ใช้ผิดพลาด
+Extended_description-th.UTF-8: ชื่อผู้ใช้ที่คุณป้อนไม่สามารถใช้ได้ โปรดสังเกตว่าชื่อผู้ใช้ต้องขึ้นต้นด้วยอักษรตัวพิมพ์เล็ก และสามารถตามด้วยตัวเลขหรือตัวพิมพ์เล็กหลายตัวได้ โดยต้องยาวไม่เกิน 32 ตัว
+Description-tr.UTF-8: Geçersiz kullanıcı adı
+Extended_description-tr.UTF-8: Girdiğiniz kullanıcı adı geçersiz. Dikkat edin, kullanıcı adları küçük harfle başlamak zorundadır. Daha sonra rakam ve başka küçük harflerin bileşimi ile devam edebilir. Kullanıcı adları 32 karakterden daha uzun olmamalıdır.
+Description-ug.UTF-8: ئىناۋەتسىز ئىشلەتكۈچى ئاتى
+Extended_description-ug.UTF-8: سىز كىرگۈزگەن ئىشلەتكۈچى ئاتى ئىناۋەتسىز. دىققەت، ئىشلەتكۈچى ئاتى چوقۇم بىر كىچىك ھەرپتىن باشلىنىپ، ئاخىرىغا ھەر قانداق سان ۋە باشقا كىچىك ھەرپلەر كەلسە بولىدۇ,32 ھەرپتىن ئۇزۇن بولماسلىقى لازىم.
+Description-uk.UTF-8: Непридатне ім'я користувача
+Extended_description-uk.UTF-8: Ім'я користувача, яке ви ввели, невірне. Зауважте, що ім'я користувача повинно починатися з малої літери, за якою може слідувати будь-яка комбінація цифр та літер нижнього регістру; довжина не повинна перевищувати 32 символів.
+Description-vi.UTF-8: Tên người dùng không hợp lệ
+Extended_description-vi.UTF-8: Bạn đã nhập một tên người dùng không hợp lệ. Ghi chú rằng tên người dùng nên bắt đầu với chữ thường, với bất cứ phối hợp con số và chữ thường nào theo sau, và không được dài quá 32 kí tự.
+Description-zh_CN.UTF-8: 无效的用户名
+Extended_description-zh_CN.UTF-8: 您所输入的用户名是无效的。请注意，用户名必须以一个小写字母开头，接着是数字和其他小写字母的任意组合，且不得多于 32 个字符。
+Description-zh_TW.UTF-8: 不正確的使用者名稱
+Extended_description-zh_TW.UTF-8: 您所輸入的使用者名稱並不正確。請注意，使用者名稱必須以小寫字母開頭，接著的則可以是任意數字或其它的小寫字母之組合，並不能超過 32 個字元。
+
+Name: passwd/username-reserved
+Type: error
+Description: Reserved username
+Extended_description: The username you entered (${USERNAME}) is reserved for use by the system. Please select a different one.
+Description-am.UTF-8: የተከለለ ተጠቃሚ-ስም
+Extended_description-am.UTF-8: ያስገቡት የተጠቃሚ ስም (${USERNAME}) ለስርዓቱ መጠቀሚያ የተጠበቀ ነው፡፡ እባክዎ ሌላ ይምረጡ፡፡
+Description-ar.UTF-8: اسم مستخدم محجوز
+Extended_description-ar.UTF-8: اسم المستخدم الذي أدخلته (${USERNAME}) محجوز لاستخدام النظام. الرجاء اختيار اسم آخر.
+Description-ast.UTF-8: Nome d'usuariu reserváu
+Extended_description-ast.UTF-8: El nome d'usuariu qu'introduxisti (${USERNAME}) ta reserváu pa usu pol sistema. Por favor, seleiciona ún distintu.
+Description-be.UTF-8: Імя карыстальніка занятае
+Extended_description-be.UTF-8: Прапанаванае імя карыстальніка ${USERNAME} занятае для выкарыстання ў сістэме. Калі ласка, абярыце штосці іншае.
+Description-bg.UTF-8: Запазено потребителско име
+Extended_description-bg.UTF-8: Избраното потребителско име (${USERNAME}) е запазено за системата. Изберете друго име.
+Description-bn.UTF-8: সংরক্ষিত ব্যবহারকারীর-নাম
+Extended_description-bn.UTF-8: আপনি যে ব্যবহারকারীর-নাম (${USERNAME}) প্রবেশ করেছেন, সেটি সিস্টেম দ্বারা সংরক্ষিত। অনুগ্রহ করে অন্য একটি বাছাই করুন।
+Description-bo.UTF-8: སྔོན་དུ་ཉར་བའི་སྤྱོད་མཁན་མིང
+Extended_description-bo.UTF-8: ཁྱོད་ཀྱིས་བྲིས་པའི་སྤྱོད་མཁན་མིང་(${USERNAME}) མ་ལག་གིས་སྔོན་དུ་ཉར་ཚགས་བྱས་ཡོད་པས་གཞན་ཞིག་འདེམས་རོགས
+Description-bs.UTF-8: Rezervisano korisničko ime
+Extended_description-bs.UTF-8: Unešeno korisničko ime (${USERNAME}) je rezervisano za sistemsku upotrebu. Molim odaberite drugo.
+Description-ca.UTF-8: El nom d'usuari està reservat
+Extended_description-ca.UTF-8: El nom d'usuari que heu introduït (${USERNAME}) està reservat per a l'ús intern del sistema. Seleccioneu-ne un diferent.
+Description-cs.UTF-8: Rezervované uživatelské jméno
+Extended_description-cs.UTF-8: Zadané uživatelské jméno (${USERNAME}) je rezervováno pro systém. Vyberte si prosím jiné jméno.
+Description-cy.UTF-8: Enw defnyddiwr neilltuedig
+Extended_description-cy.UTF-8: Mae'r enw defnyddiwr a mewnosodwyd (${USERNAME}) wedi ei neillto ar gyfer defnydd gan y system. Dewiswch un gwahanol.
+Description-da.UTF-8: Reserveret brugernavn
+Extended_description-da.UTF-8: Det valgte brugernavn (${USERNAME}) er reserveret til brug af systemet.Vælg venligst et andet.
+Description-de.UTF-8: Reservierter Benutzername
+Extended_description-de.UTF-8: Der von Ihnen eingegebene Benutzername (${USERNAME}) ist für das System reserviert. Bitte wählen Sie einen anderen.
+Description-dz.UTF-8: ཟུར་གསོག་འབད་ཡོད་པའི་ལག་ལེན་པའི་མིང་།
+Extended_description-dz.UTF-8: ཁྱོད་ཀྱིས་ བཙུགས་ཡོད་པའི་ (${USERNAME}) ལག་ལེན་པའི་མིང་འདི་ རིམ་ལུགས་ཀྱིས་ལག་ལེན་འཐབ་ནི་གི་དོན་ལུ་ ཟུར་གསོག་འབད་དེ་ཡོདཔ་ཨིན། སོ་སོ་སེལ་ཅིག་འཐུ་འབད་གནང་།
+Description-el.UTF-8: Δεσμευμένο όνομα χρήστη
+Extended_description-el.UTF-8: Το όνομα χρήστη που εισάγατε (${USERNAME}) είναι δεσμευμένο για χρήση από το σύστημα. Παρακαλώ διαλέξτε ένα διαφορετικό.
+Description-eo.UTF-8: Rezervita salutnomo
+Extended_description-eo.UTF-8: La tajpita salutnomo (${USERNAME}) estas rezervita por la sistemo. Bonvolu elekti alian malsaman.
+Description-es.UTF-8: Nombre de usuario reservado
+Extended_description-es.UTF-8: El nombre de usuario que introdujo (${USERNAME}) está reservado para que lo utilice el sistema. Por favor, escoja otro nombre.
+Description-et.UTF-8: Reserveeritud kasutajanimi
+Extended_description-et.UTF-8: Sinu valitud kasutajanimi (${USERNAME}) on reserveeritud süsteemi poolt kasutamiseks. Palun vali mõni teine nimi.
+Description-eu.UTF-8: Erreserbatutako erabiltzaile-izena
+Extended_description-eu.UTF-8: Idatzitako erabiltzaile-izena (${USERNAME}) sistemak erabiltzeko erreserbatuta dago. Hautatu beste izen bat.
+Description-fa.UTF-8: نام‌کاربری محفوظ
+Extended_description-fa.UTF-8: نام‌کاربری (${USERNAME}) که وارد کرده‌اید برای استفاده توسط سیستم حفظ شده است. لطفاً نام متفاوتی انتخاب کنید.
+Description-fi.UTF-8: Käyttäjätunnus on varattu
+Extended_description-fi.UTF-8: Annettu käyttäjätunnus (${USERNAME}) on varattu järjestelmän käyttöön. Valitse toinen käyttäjätunnus.
+Description-fr.UTF-8: Identifiant réservé
+Extended_description-fr.UTF-8: L'identifiant que vous avez choisi (${USERNAME}) est réservé pour le système. Veuillez en choisir un autre.
+Description-ga.UTF-8: Ainm úsáideora in áirithe
+Extended_description-ga.UTF-8: Tá an t-ainm a d'iontráil tú (${USERNAME}) curtha in áirithe ag an gcóras.  Roghnaigh ainm difriúil, le do thoil.
+Description-gl.UTF-8: Nome de usuario reservado
+Extended_description-gl.UTF-8: O nome de usuario que introduciu (${USERNAME}) está reservado para o sistema. Escolla outro nome.
+Description-gu.UTF-8: આરક્ષિત વપરાશકર્તાનામ
+Extended_description-gu.UTF-8: તમે દાખલ કરેલ વપરાશકર્તાનામ (${USERNAME}) સિસ્ટમ દ્વારા ઉપયોગ માટે આરક્ષિત છે. મહેરબાની કરી બીજું પસંદ કરો.
+Description-he.UTF-8: שם המשתמש תפוס
+Extended_description-he.UTF-8: שם המשתמש שהכנסת (${USERNAME}) הנו שמור לשימוש על ידי המערכת. בחר שם משתמש אחר.
+Description-hi.UTF-8: आरक्षित उपयोक्ता नाम
+Extended_description-hi.UTF-8: आपके द्वारा प्रविष्ट उपयोक्ता नाम (${USERNAME}) जोकि सिस्टम द्वारा उपयोग के लिए आरक्षित है. कृपया कोई भिन्न नाम चुनें.
+Description-hr.UTF-8: Rezervirano korisničko ime
+Extended_description-hr.UTF-8: Korisničko ime koje ste upisali (${USERNAME}) je rezervirano za sistemsku upotrebu. Molim odredite drugo.
+Description-hu.UTF-8: Foglalt felhasználónév
+Extended_description-hu.UTF-8: A megadott felhasználónevet (${USERNAME}) a rendszer használja. Kérem, válasszon másikat.
+Description-id.UTF-8: Nama pengguna khusus (sistem)
+Extended_description-id.UTF-8: Nama pengguna yang Anda masukkan: (${USERNAME}), telah dikhususkan untuk sistem. Silahkan pilih nama lain.
+Description-is.UTF-8: Frátekið notandanafn
+Extended_description-is.UTF-8: Notendanafnið (${USERNAME}) er frátekið fyrir kerfið. Vinsamlega veldu annað.
+Description-it.UTF-8: Nome utente riservato
+Extended_description-it.UTF-8: Il nome utente inserito (${USERNAME}) è riservato per essere usato dal sistema. Scegliere un nome diverso.
+Description-ja.UTF-8: 予約されたユーザ名
+Extended_description-ja.UTF-8: 入力したユーザ名 (${USERNAME}) は、システムでの利用のために予約されています。異なるものを選択してください。
+Description-ka.UTF-8: რეზერვირებული სახელი
+Extended_description-ka.UTF-8: თქვენს მიერ შეყვანილი სახელი (${USERNAME}) რეზერვირებულია სისტემის საჭიროებისათვის. აირჩიეთ სხვა სახელი.
+Description-kk.UTF-8: Бұл пайдаланушы аты жүйелік қолдану үшін алынып қойған
+Extended_description-kk.UTF-8: Сіз енгізген пайдаланушы аты (${USERNAME}) жүйелік қолдану үшін алынып қойған. Басқасын таңдаңыз.
+Description-km.UTF-8: ឈ្មោះ​អ្នក​ប្រើ​ដែល​បាន​បម្រុង
+Extended_description-km.UTF-8: ឈ្មោះ​អ្នក​ប្រើ ដែល​អ្នក​បាន​បញ្ចូល (${USERNAME}) ត្រូវ​បាន​បម្រុងទុក​សម្រាប់​ប្រើ​ដោយ​ប្រព័ន្ធ ។ សូម​ជ្រើស​ភាព​ខុសគ្នា​មួយ ។
+Description-kn.UTF-8: ಕಾಯ್ದಿರಿಸಲಾದ ಬಳಕೆದಾರ ಹೆಸರು
+Extended_description-kn.UTF-8: ನೀವು ಕೊಟ್ಟ್ ಬಳಕೆದಾರ ನಾಮ (${USERNAME}) ಗಣಕವು ತನ್ನ ಬಳಕೆಗಾಗಿ ಕಾಯ್ದಿರಿಸಿಕೊಂಡಿದೆ. ದಯಮಾಡಿ ಬೇರೊಂದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.
+Description-ko.UTF-8: 예약 사용자 이름
+Extended_description-ko.UTF-8: 입력한 사용자 이름은 (${USERNAME}) 시스템에서 사용하려고 예약해 놓은 사용자 이름입니다. 다른 이름을 사용하십시오.
+Description-ku.UTF-8: Vî navê bikarhêner berê hatiye hilbijartin
+Extended_description-ku.UTF-8: Navê bikarhêner yê te nivîsand (${USERNAME}) ji bo xebitandina pergalê hatiye veqetandin. Ji kerema xwe re navekî cuda yê bikarhêneran hilbijêrî.
+Description-lo.UTF-8: ຊື່ຜູ້ໃຊ້ສະຫງວນໄວ້
+Extended_description-lo.UTF-8: ຊື່ຜູ້ໃຊ້ທີ່ເຈົ້າປອ້ນ (${USERNAME}) ໄດ້ສະຫງວນໄວ້ສຳລັບການເຮັດວຽກຂອງລະບົບ ກະລຸນາຕັ້ງຊື່ໃໝ່
+Description-lt.UTF-8: Rezervuotas naudotojo vardas.
+Extended_description-lt.UTF-8: Jūsų įvestas vardas (${USERNAME}) yra rezervuotas sisteminiam naudojimui.Įveskite kitą vardą.
+Description-lv.UTF-8: Rezervēts / speciāls lietotāja vārds
+Extended_description-lv.UTF-8: Sistēma ir jau rezervējusi jūsu ievadīto lietotāja vārdu (${USERNAME}). Lūdzu, izvēlieties citu.
+Description-mk.UTF-8: Резервирано корисничко име
+Extended_description-mk.UTF-8: Корисничкото име кое го внесе (${USERNAME}) е системско и резервирано. Те молам избери различно.
+Description-ml.UTF-8: ഉപയോക്താവിന്റെ പേര് മാറ്റിവച്ചതാണ്
+Extended_description-ml.UTF-8: നിങ്ങള്‍ നല്‍കിയ ഉപയോക്താവിന്റെ പേര് (${USERNAME}) സിസ്റ്റത്തിന്റെ  ഉപയോഗത്തിനായി മാറ്റിവച്ചതാണു്. ദയവായി വേറൊരെണ്ണം തെരഞ്ഞെടുക്കുക.
+Description-mr.UTF-8: राखीव वापरदारनाव
+Extended_description-mr.UTF-8: आपण ठरवलेले (${USERNAME}) हे वापरदारनाव प्रणालीच्या वापराकरिता राखीव आहे. आपण अन्य नाव निवडा.
+Description-nb.UTF-8: Reservert brukernavn
+Extended_description-nb.UTF-8: Brukernavnet du oppga (${USERNAME}) er reservert for systemets eget bruk. Velg et annet navn.
+Description-ne.UTF-8: सञ्चित प्रयोगकर्ता नाम
+Extended_description-ne.UTF-8: तपाईँले प्रविष्ट गर्नु भएको (${USERNAME}) प्रयोगकर्तानाम प्रणालीलाई प्रयोग गर्न सञ्चित गरिएको हुन्छ । कृपया विभिन्न चयन गर्नुहोस् ।
+Description-nl.UTF-8: Gereserveerde gebruikersnaam
+Extended_description-nl.UTF-8: De door u ingegeven gebruikersnaam (${USERNAME}) is gereserveerd voor gebruik door het systeem. U dient een andere naam te kiezen.
+Description-nn.UTF-8: Reservert brukarnamn
+Extended_description-nn.UTF-8: Brukarnamnet du oppgav (${USERNAME}) er reservert for eige bruk i systemet. Vel eit anna namn.
+Description-no.UTF-8: Reservert brukernavn
+Extended_description-no.UTF-8: Brukernavnet du oppga (${USERNAME}) er reservert for systemets eget bruk. Velg et annet navn.
+Description-pa.UTF-8: ਰਾਖਵਾਂ ਯੂਜ਼ਰ ਨਾਂ
+Extended_description-pa.UTF-8: ਯੂਜ਼ਰ-ਨਾਂ (${USERNAME}), ਜੋ ਤੁਸੀਂ ਦਿੱਤਾ ਹੈ, ਉਹ ਸਿਸਟਮ ਵਲੋਂ ਰਾਖਵਾਂ ਹੈ। ਹੋਰ ਨਾਂ ਚੁਣੋ ਜੀ।
+Description-pl.UTF-8: Zarezerwowana nazwa użytkownika
+Extended_description-pl.UTF-8: Wprowadzona nazwa (${USERNAME}) jest zarezerwowana do użycia przez system. Proszę wybrać inną nazwę.
+Description-pt.UTF-8: Nome de utilizador reservado
+Extended_description-pt.UTF-8: O nome de utilizador que introduziu (${USERNAME}) é reservado para ser utilizado pelo sistema. Por favor escolha outro diferente.
+Description-pt_BR.UTF-8: Nome de usuário reservado
+Extended_description-pt_BR.UTF-8: O nome de usuário que você informou (${USERNAME}) é reservado para uso do sistema. Por favor, informe um nome de usuário diferente.
+Description-ro.UTF-8: Nume de utilizator rezervat
+Extended_description-ro.UTF-8: Numele de utilizator introdus  (${USERNAME})este rezervat pentru a fi utilizat de către sistem. Selectați altul.
+Description-ru.UTF-8: зарезервированное имя пользователя
+Extended_description-ru.UTF-8: Введённое вами имя пользователя (${USERNAME}) зарезервировано для системного использования. Введите другое.
+Description-si.UTF-8: වෙන්කල පරිශීලක නාමයක්:
+Extended_description-si.UTF-8: ඔබ විසින් ඇතුළත් කල (${USERNAME}) පරිශීලක නාමය පද්ධතිය විසින් භාවිතය සඳහා වෙන්කර ඇත. කරුණාකර අනෙකක් තෝරන්න.
+Description-sk.UTF-8: Rezervované používateľské meno
+Extended_description-sk.UTF-8: Zadané používateľské meno (${USERNAME}) je rezervované na použitie systémom. Zvoľte si iné používateľské meno.
+Description-sl.UTF-8: Neveljavno uporabniško ime
+Extended_description-sl.UTF-8: Uporabniško ime, ki ste ga vnesli (${USERNAME}) že uporablja sistem. Prosim, izberite si drugačnega.
+Description-sq.UTF-8: Emër përdoruesi i ruajtur
+Extended_description-sq.UTF-8: Emri i përdoruesit që shtype (${USERNAME}) është i ruajtur për t'u përdorur nga sistemi. Të lutem zgjidh një tjetër.
+Description-sr.UTF-8: Резервисано корисничко име
+Extended_description-sr.UTF-8: Корисничко име  (${USERNAME}) је резервисано за системску употребу. Изаберите неко друго корисничко име.
+Description-sv.UTF-8: Reserverat användarnamn
+Extended_description-sv.UTF-8: Användarnamnet (${USERNAME}) som du angav är reserverat för användning av systemet. Välj ett annat namn.
+Description-ta.UTF-8: ஒதுக்கப்பட்டன பயனர்பெயர்
+Extended_description-ta.UTF-8: நீங்கள் உள்ளிட்ட பயனர் பெயர் (${USERNAME})· இயங்குதளத்தின் பயன்பாட்டிற்காக ஒதுக்கப்பட்டுள்ளது, தயவு செய்து வேறொன்றை தேர்வு செய்யவும்.
+Description-te.UTF-8: వాడుకరిపేరు  కేటాయించబడినది
+Extended_description-te.UTF-8: మీరు ప్రవేశపెట్టిన వాడుకరిపేరు   (${USERNAME})  వ్యవస్థకు  కేటాయించబడినది. దయచేసి వేరొకటి ఎంచుకో
+Description-tg.UTF-8: Номи корбари истифодашуда
+Extended_description-tg.UTF-8: Номи корбари воридшудаи (${USERNAME}) бо система истифода шудааст. Лутфан, номи дигареро интихоб кунед.
+Description-th.UTF-8: ชื่อผู้ใช้สงวนไว้
+Extended_description-th.UTF-8: ชื่อผู้ใช้ที่คุณป้อน (${USERNAME}) ได้สงวนไว้สำหรับการทำงานของระบบ กรุณาตั้งชื่อใหม่
+Description-tl.UTF-8: Naka-reserbang pangalan
+Extended_description-tl.UTF-8: Ang pangalan na inyong ibinigay (${USERNAME}) ay nakareserba para sa sistema. Magbigay ng ibang pangalan.
+Description-tr.UTF-8: Rezerve edilmiş kullanıcı adı
+Extended_description-tr.UTF-8: Seçtiğiniz kullanıcı adı (${USERNAME}) sistem tarafından kullanılmak üzere rezerve edilmiş. Lütfen başka bir ad seçin.
+Description-ug.UTF-8: زاپاس ئىشلەتكۈچى ئاتى
+Extended_description-ug.UTF-8: سىز كىرگۈزگەن ئىشلەتكۈچى ئاتى (${USERNAME}) سىستېمىغا قالدۇرۇلغان. باشقا ئات تاللاڭ.
+Description-uk.UTF-8: Зарезервоване ім'я користувача
+Extended_description-uk.UTF-8: Ім'я користувача, яке ви ввели, (${USERNAME}) зарезервоване для використання системою. Виберіть, будь ласка, інше ім'я.
+Description-vi.UTF-8: Tên người dùng dành riêng
+Extended_description-vi.UTF-8: Bạn đã nhập một tên người dùng (${USERNAME}) được dành riêng cho hệ thống sử dụng. Hãy chọn tên khác.
+Description-zh_CN.UTF-8: 系统保留的用户名
+Extended_description-zh_CN.UTF-8: 您所输入的用户名 (${USERNAME}) 是被保留为系统使用的。请另选择一个用户名。
+Description-zh_TW.UTF-8: 預留的使用者名稱
+Extended_description-zh_TW.UTF-8: 您所輸入的使用者名稱 (${USERNAME}) 是預留給系統使用的。請選擇另一個不同的名稱。
+
+Name: pkgsel/include
+Type: string
+Description: for internal use; can be preseeded
+Extended_description: Comma/space-separated list of extra packages to install
+
+Name: pkgsel/progress/cleanup
+Type: text
+Description: Cleaning up...
+Description-am.UTF-8: በማጽዳት ላይ...
+Description-ar.UTF-8: التنظيف...
+Description-ast.UTF-8: Llimpiando...
+Description-be.UTF-8: Зачыстка...
+Description-bg.UTF-8: Изчистване...
+Description-bn.UTF-8: পরিষ্কার করা হচ্ছে...
+Description-bo.UTF-8: གཙང་མ་བཟོ་བཞིན་པ་་་
+Description-bs.UTF-8: Pospremam...
+Description-ca.UTF-8: S'està netejant...
+Description-cs.UTF-8: Probíhá úklid...
+Description-cy.UTF-8: Yn glanhau...
+Description-da.UTF-8: Rydder op ...
+Description-de.UTF-8: Aufräumen ...
+Description-dz.UTF-8: གཙང་དག་བཟོ་དོ...
+Description-el.UTF-8: Τακτοποίηση...
+Description-eo.UTF-8: Netigado...
+Description-es.UTF-8: Limpiando...
+Description-et.UTF-8: Puhastamine...
+Description-eu.UTF-8: Garbitzen...
+Description-fa.UTF-8: پاک سازی ...
+Description-fi.UTF-8: Siivotaan...
+Description-fr.UTF-8: Nettoyage...
+Description-ga.UTF-8: Á Ghlanadh...
+Description-gl.UTF-8: Limpando
+Description-gu.UTF-8: સાફ કરે છે...
+Description-he.UTF-8: מנקה...
+Description-hi.UTF-8: साफ कर रहे हैं...
+Description-hr.UTF-8: Pospremam...
+Description-hu.UTF-8: Tisztítás...
+Description-id.UTF-8: Sedang membersihkan...
+Description-is.UTF-8: Hreinsa til...
+Description-it.UTF-8: Pulizia...
+Description-ja.UTF-8: クリーニング中です...
+Description-ka.UTF-8: გასუფთავება...
+Description-kk.UTF-8: Тазарту...
+Description-km.UTF-8: កំពុង​សម្អាត...
+Description-kn.UTF-8: ಅಂಶಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಲಾಗುತ್ತಿದೆ.
+Description-ko.UTF-8: 정리 작업 중입니다...
+Description-ku.UTF-8: Tê paqijkirin...
+Description-lo.UTF-8: ກຳລັງເກັບກວດ...
+Description-lt.UTF-8: Apsitvarkoma...
+Description-lv.UTF-8: Uzkopj...
+Description-mk.UTF-8: Чистење...
+Description-ml.UTF-8: വൃത്തിയാക്കി കൊണ്ടിരിയ്ക്കുന്നു...
+Description-mr.UTF-8: सफाई होत आहे...
+Description-nb.UTF-8: Rydder opp ...
+Description-ne.UTF-8: सफा गरिदै...
+Description-nl.UTF-8: Bezig met opruimen...
+Description-nn.UTF-8: Ryddar opp …
+Description-no.UTF-8: Rydder opp ...
+Description-pa.UTF-8: ਸਾਫ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...
+Description-pl.UTF-8: Sprzątanie...
+Description-pt.UTF-8: A limpar...
+Description-pt_BR.UTF-8: Limpando...
+Description-ro.UTF-8: Se face curățenie...
+Description-ru.UTF-8: Очистка перед завершением...
+Description-se.UTF-8: Čorgemin …
+Description-si.UTF-8: මකමින්...
+Description-sk.UTF-8: Prebieha čistenie...
+Description-sl.UTF-8: Čiščenje ...
+Description-sq.UTF-8: Duke sistemuar...
+Description-sr.UTF-8: Чишћење...
+Description-sv.UTF-8: Rensar upp...
+Description-ta.UTF-8: துடைக்கிறது....
+Description-te.UTF-8: శుభ్రపరచు ...
+Description-tg.UTF-8: Пок шуда истодааст...
+Description-th.UTF-8: กำลังเก็บกวาด...
+Description-tl.UTF-8: Nagliligpit...
+Description-tr.UTF-8: Yazılımlar temizleniyor...
+Description-ug.UTF-8: تازىلاۋاتىدۇ…
+Description-uk.UTF-8: Очищення...
+Description-vi.UTF-8: Đang làm sạch...
+Description-zh_CN.UTF-8: 正在清理...
+Description-zh_TW.UTF-8: 正在清理……
+
+Name: pkgsel/progress/fallback
+Type: text
+Description: Running ${SCRIPT}...
+Description-am.UTF-8: ${SCRIPT} በማስክከድ ላይ...
+Description-ar.UTF-8: تشغيل ${SCRIPT}...
+Description-ast.UTF-8: Executando ${SCRIPT}...
+Description-be.UTF-8: Запуск ${SCRIPT}...
+Description-bg.UTF-8: Изпълнение на ${SCRIPT}...
+Description-bn.UTF-8: ${SCRIPT} চলছে...
+Description-bo.UTF-8: ${SCRIPT}འཁོར་སྐྱོད་བཞིན་པ་་་
+Description-bs.UTF-8: Pokrećem ${SCRIPT}...
+Description-ca.UTF-8: S'està executant ${SCRIPT}...
+Description-cs.UTF-8: Spouští se ${SCRIPT}...
+Description-cy.UTF-8: Yn rhedeg ${SCRIPT}...
+Description-da.UTF-8: Udfører ${SCRIPT} ...
+Description-de.UTF-8: Ausführen von ${SCRIPT} ...
+Description-dz.UTF-8: ${SCRIPT}...འདི་གཡོག་བཀོལ་དོ།
+Description-el.UTF-8: Εκτελείται το ${SCRIPT}...
+Description-eo.UTF-8: Interpretado de '${SCRIPT}'...
+Description-es.UTF-8: Ejecutando ${SCRIPT}...
+Description-et.UTF-8: Jookseb ${SCRIPT}...
+Description-eu.UTF-8: ${SCRIPT} exekutatzen...
+Description-fa.UTF-8: در حال اجرای ${SCRIPT}...
+Description-fi.UTF-8: Suoritetaan ${SCRIPT}...
+Description-fr.UTF-8: Exécution du script ${SCRIPT}...
+Description-ga.UTF-8: ${SCRIPT} á rith...
+Description-gl.UTF-8: Estase a executar ${SCRIPT}...
+Description-gu.UTF-8: ${SCRIPT} ચલાવે છે...
+Description-he.UTF-8: מריץ את ${SCRIPT}...
+Description-hi.UTF-8: ${SCRIPT} प्रक्रिया में है...
+Description-hr.UTF-8: Izvršavam ${SCRIPT}...
+Description-hu.UTF-8: ${SCRIPT} futtatása...
+Description-id.UTF-8: Menjalankan ${SCRIPT}...
+Description-is.UTF-8: Keyri ${SCRIPT}...
+Description-it.UTF-8: Esecuzione di ${SCRIPT}...
+Description-ja.UTF-8: ${SCRIPT} を実行しています...
+Description-ka.UTF-8: ${SCRIPT}-ის გაშვება...
+Description-kk.UTF-8: ${SCRIPT} іске қосу
+Description-km.UTF-8: កំពុង​រត់​ ${SCRIPT}...
+Description-kn.UTF-8: ${SCRIPT}ನ್ನು ಚಲಾಯಿಸಲಾಗುತ್ತಿದೆ...
+Description-ko.UTF-8: ${SCRIPT} 스크립트를 실행하는 중입니다...
+Description-ku.UTF-8: Dixebitîne ${SCRIPT}...
+Description-lo.UTF-8: ກຳລັງດຳເນີນການ ${SCRIPT}...
+Description-lt.UTF-8: Vykdomas ${SCRIPT}...
+Description-lv.UTF-8: Palaiž ${SCRIPT}...
+Description-mk.UTF-8: Извршувам ${SCRIPT}...
+Description-ml.UTF-8: ${SCRIPT} പ്രവര്‍ത്തിപ്പിച്ചു കൊണ്ടിരിയ്ക്കുന്നു...
+Description-mr.UTF-8: ${SCRIPT} चालवत आहे...
+Description-nb.UTF-8: Kjører ${SCRIPT} ...
+Description-ne.UTF-8: ${SCRIPT} चालु भइरहेको छ...
+Description-nl.UTF-8: ${SCRIPT} wordt uitgevoerd...
+Description-nn.UTF-8: Køyrer ${SCRIPT} ...
+Description-no.UTF-8: Kjører ${SCRIPT} ...
+Description-pa.UTF-8: ${SCRIPT} ਚੱਲ ਰਹੀ ਹੈ...
+Description-pl.UTF-8: Uruchamianie ${SCRIPT}...
+Description-pt.UTF-8: A correr ${SCRIPT}...
+Description-pt_BR.UTF-8: Executando ${SCRIPT}...
+Description-ro.UTF-8: Se rulează ${SCRIPT}...
+Description-ru.UTF-8: Запуск ${SCRIPT}...
+Description-se.UTF-8: Vuodjimin ${SCRIPT} …
+Description-si.UTF-8: ${SCRIPT} ක්‍රියාත්මක කරමින්...
+Description-sk.UTF-8: Spúšťa sa ${SCRIPT}...
+Description-sl.UTF-8: Poganjanje ${SCRIPT} ...
+Description-sq.UTF-8: Duke ekzekutuar ${SCRIPT}...
+Description-sr.UTF-8: Извршавање скрипте ${SCRIPT}...
+Description-sv.UTF-8: Kör ${SCRIPT}...
+Description-ta.UTF-8: ${SCRIPT} இயக்கப்படுகிறது...
+Description-te.UTF-8: ${SCRIPT} నడుపుట...
+Description-tg.UTF-8: Иҷрокунии ${SCRIPT}...
+Description-th.UTF-8: กำลังดำเนินการ ${SCRIPT}...
+Description-tl.UTF-8: Pinapatakbo ang ${SCRIPT}...
+Description-tr.UTF-8: ${SCRIPT} çalıştırılıyor...
+Description-ug.UTF-8: ${SCRIPT} ئىجرا قىلىۋاتىدۇ…
+Description-uk.UTF-8: Запуск ${SCRIPT}...
+Description-vi.UTF-8: Đang chạy ${SCRIPT}...
+Description-zh_CN.UTF-8: 正在运行 ${SCRIPT}...
+Description-zh_TW.UTF-8: 正在執行 ${SCRIPT}……
+
+Name: pkgsel/progress/init
+Type: text
+Description: Setting up...
+Description-am.UTF-8: በመትከል ላይ...
+Description-ar.UTF-8: الإعداد...
+Description-ast.UTF-8: Afitando...
+Description-be.UTF-8: Наладка...
+Description-bg.UTF-8: Зареждане...
+Description-bn.UTF-8: প্রস্তুত হচ্ছে...
+Description-bo.UTF-8: སྒྲིག་འཛུགས་བྱེད་བཞིན་པ་་་
+Description-bs.UTF-8: Postavljam...
+Description-ca.UTF-8: S'està configurant...
+Description-cs.UTF-8: Probíhá nastavování...
+Description-cy.UTF-8: Yn gosod...
+Description-da.UTF-8: Sætter op ...
+Description-de.UTF-8: Einrichten ...
+Description-dz.UTF-8: གཞི་སྒྲིག་འབད་དོ།
+Description-el.UTF-8: Ρύθμιση...
+Description-eo.UTF-8: Agordado...
+Description-es.UTF-8: Configurando...
+Description-et.UTF-8: Seadistamine...
+Description-eu.UTF-8: Konfiguratzen...
+Description-fa.UTF-8: در حال پیکربندی ...
+Description-fi.UTF-8: Tehdään asetukset...
+Description-fr.UTF-8: Mise en place...
+Description-ga.UTF-8: Á Shocrú...
+Description-gl.UTF-8: Configurando
+Description-gu.UTF-8: ગોઠવે છે...
+Description-he.UTF-8: מגדיר...
+Description-hi.UTF-8: सेटअप किया जा रहा है...
+Description-hr.UTF-8: Pripremam...
+Description-hu.UTF-8: Beállítás...
+Description-id.UTF-8: Sedang menata...
+Description-is.UTF-8: Set upp...
+Description-it.UTF-8: Configurazione...
+Description-ja.UTF-8: 設定しています...
+Description-ka.UTF-8: ვაყენებ...
+Description-kk.UTF-8: Баптау...
+Description-km.UTF-8: កំពុង​រៀប​ចំ​...
+Description-kn.UTF-8: ಸಿದ್ಧಗೊಳಿಸಾಲಾಗುತ್ತಿದೆ.......
+Description-ko.UTF-8: 준비하는 중입니다...
+Description-ku.UTF-8: Tê sazkirin...
+Description-lo.UTF-8: ກຳລັງກຽມການ...
+Description-lt.UTF-8: Nustatoma...
+Description-lv.UTF-8: Iestata...
+Description-mk.UTF-8: Поставување...
+Description-ml.UTF-8: ഒരുക്കുന്നു...
+Description-mr.UTF-8: संरचना होत आहे...
+Description-nb.UTF-8: Setter opp ...
+Description-ne.UTF-8: सेट गरिदै...
+Description-nl.UTF-8: Bezig met instellen...
+Description-nn.UTF-8: Set opp …
+Description-no.UTF-8: Setter opp ...
+Description-pa.UTF-8: ਸੈੱਟਅੱਪ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...
+Description-pl.UTF-8: Przygotowanie...
+Description-pt.UTF-8: A configurar...
+Description-pt_BR.UTF-8: Configurando...
+Description-ro.UTF-8: Pregătiri...
+Description-ru.UTF-8: Настройка...
+Description-se.UTF-8: Heiveheamen …
+Description-si.UTF-8: පිහිටුවීම...
+Description-sk.UTF-8: Nastavuje sa...
+Description-sl.UTF-8: Pripravljanje ...
+Description-sq.UTF-8: Duke rregulluar...
+Description-sr.UTF-8: Подешавање у току...
+Description-sv.UTF-8: Ställer in...
+Description-ta.UTF-8: அமைக்கிறது....
+Description-te.UTF-8: అమర్చుట...
+Description-tg.UTF-8: Танзим шуда истодааст...
+Description-th.UTF-8: กำลังเตรียมการ...
+Description-tl.UTF-8: Naghahanda...
+Description-tr.UTF-8: Yazılımlar ayarlanıyor...
+Description-ug.UTF-8: تەڭشەك…
+Description-uk.UTF-8: Налаштування...
+Description-vi.UTF-8: Đang thiết lập...
+Description-zh_CN.UTF-8: 正在设置...
+Description-zh_TW.UTF-8: 正在進行設定……
+
+Name: pkgsel/progress/tasksel
+Type: text
+Description: Running tasksel...
+Description-am.UTF-8: ታስክሰልን በማስኬድ ላይ...
+Description-ar.UTF-8: تشغيل tasksel...
+Description-ast.UTF-8: Executando xeres seleicionaes...
+Description-be.UTF-8: Запуск tasksel...
+Description-bg.UTF-8: Изпълняване на tasksel...
+Description-bn.UTF-8: টাস্কসেল চালানো হচ্ছে...
+Description-bo.UTF-8: taskselའཁོར་སྐྱོད་བཞིན་པ་་་
+Description-bs.UTF-8: Pokrećem tasksel...
+Description-ca.UTF-8: S'està executant tasksel...
+Description-cs.UTF-8: Spouští se tasksel...
+Description-cy.UTF-8: Yn rhedeg tasksel...
+Description-da.UTF-8: Kører tasksel ...
+Description-de.UTF-8: Ausführen von tasksel ...
+Description-dz.UTF-8: ཊགས་སེལ་གཡོག་བཀོལ་བའི་བསྒང་...
+Description-el.UTF-8: Εκτέλεση του tasksel...
+Description-eo.UTF-8: Plenumado de 'tasksel'...
+Description-es.UTF-8: Ejecutando tasksel...
+Description-et.UTF-8: Tasksel'i käivitamine...
+Description-eu.UTF-8: Tasksel abiarazten...
+Description-fa.UTF-8: اجرای Tasksel ...
+Description-fi.UTF-8: Suoritetaan tasksel...
+Description-fr.UTF-8: Exécution de « tasksel »...
+Description-ga.UTF-8: tasksel á rith...
+Description-gl.UTF-8: Estase a executar tasksel
+Description-gu.UTF-8: ટાસ્કસેલ ચલાવે છે...
+Description-he.UTF-8: מריץ את tasksel...
+Description-hi.UTF-8: टास्कसेल चला रहे हैं...
+Description-hr.UTF-8: Pokrećem tasksel...
+Description-hu.UTF-8: Tasksel futtatása...
+Description-id.UTF-8: Menjalankan tasksel...
+Description-is.UTF-8: Keyri valin verk...
+Description-it.UTF-8: Esecuzione di tasksel...
+Description-ja.UTF-8: tasksel を実行しています...
+Description-ka.UTF-8: გაშვებულია tasksel...
+Description-kk.UTF-8: Tasksel іске қосу...
+Description-km.UTF-8: កំពុង​រត់ tasksel...
+Description-kn.UTF-8: tasksel ಚಲಾಯಿಸಲಾಗುತ್ತಿದೆ...
+Description-ko.UTF-8: tasksel 실행하는 중입니다...
+Description-ku.UTF-8: Tasksel dixebite...
+Description-lo.UTF-8: ເເທສຽວ (tasksel) ກຳລັງທໍາງານ...
+Description-lt.UTF-8: Vykdomas „tasksel“...
+Description-lv.UTF-8: Darbina tasksel...
+Description-mk.UTF-8: Извршување на tasksel...
+Description-ml.UTF-8: ടാസ്ക്സെല്‍ പ്രവര്‍ത്തിപ്പിച്ചു് കൊണ്ടിരിയ്ക്കുന്നു...
+Description-mr.UTF-8: टास्कसेल चालवला जातोय...
+Description-nb.UTF-8: Kjører tasksel ...
+Description-ne.UTF-8: कार्यसेल चलाइदैछ...
+Description-nl.UTF-8: Bezig met uitvoeren van tasksel...
+Description-nn.UTF-8: Køyrer tasksel …
+Description-no.UTF-8: Kjører tasksel ...
+Description-pa.UTF-8: tasksel ਲਿਆ ਜਾ ਰਿਹਾ ਹੈ...
+Description-pl.UTF-8: Uruchamianie tasksela...
+Description-pt.UTF-8: A executar tasksel...
+Description-pt_BR.UTF-8: Executando tasksel...
+Description-ro.UTF-8: Se rulează tasksel...
+Description-ru.UTF-8: Запуск tasksel...
+Description-se.UTF-8: Vuodjimin tasksel …
+Description-si.UTF-8: tasksel ක්‍රියාත්මක කරමින්...
+Description-sk.UTF-8: Prebieha výber úloh „tasksel“...
+Description-sl.UTF-8: Zaganjanje tasksel ...
+Description-sq.UTF-8: Duke ekzekutuar tasksel...
+Description-sr.UTF-8: Покретање „tasksel“ програма...
+Description-sv.UTF-8: Kör tasksel...
+Description-ta.UTF-8: (tasksel) வேலை தேர்வு செயற்படுகிறது.....
+Description-te.UTF-8: టాస్క్సెల్(tasksel) నడుపు...
+Description-tg.UTF-8: Иҷрокунии tasksel...
+Description-th.UTF-8: กำลังเรียก tasksel...
+Description-tl.UTF-8: Pinapatakbo ang tasksel...
+Description-tr.UTF-8: Görev seçici (tasksel) çalıştırılıyor...
+Description-ug.UTF-8: tasksel ئىجرا قىلىۋاتىدۇ…
+Description-uk.UTF-8: Запуск tasksel...
+Description-vi.UTF-8: Đang chạy tasksel...
+Description-zh_CN.UTF-8: 正在运行 tasksel...
+Description-zh_TW.UTF-8: 正在執行 tasksel……
+
+Name: pkgsel/progress/upgrade
+Type: text
+Description: Upgrading software...
+Description-am.UTF-8: ስስአስሊን አሳድ
+Description-ar.UTF-8: ترقية البرامج...
+Description-ast.UTF-8: Anovando software...
+Description-be.UTF-8: Абнаўлене праграм...
+Description-bg.UTF-8: Обновяване...
+Description-bn.UTF-8: সফটওয়্যার আপগ্রেড হচ্ছে...
+Description-bo.UTF-8: རིམ་སྤར་བྱེད་བཞིན་པ་་་
+Description-bs.UTF-8: Instaliram nove verzije softvera...
+Description-ca.UTF-8: S'està actualitzant el programari...
+Description-cs.UTF-8: Aktualizuje se software...
+Description-cy.UTF-8: Yn uwchraddio meddalwedd...
+Description-da.UTF-8: Opgraderer programmer ...
+Description-de.UTF-8: Aktualisieren der Software ...
+Description-dz.UTF-8: མཉེན་ཆས་ཡར་དྲག་བཟོ་དོ་་་་་་
+Description-el.UTF-8: Αναβάθμιση του λογισμικού...
+Description-eo.UTF-8: Promociado de programaro...
+Description-es.UTF-8: Actualizando el software...
+Description-et.UTF-8: Tarkvara uuendamine...
+Description-eu.UTF-8: Softwarea bertsio-berritzen...
+Description-fa.UTF-8: به روز رسانی نرم افزار ...
+Description-fi.UTF-8: Päivitetään ohjelmia...
+Description-fr.UTF-8: Mise à jour des logiciels...
+Description-ga.UTF-8: Bogearraí á n-uasghrádú...
+Description-gl.UTF-8: Estase a actualizar o software
+Description-gu.UTF-8: સોફ્ટવેર સુધારો કરે છે...
+Description-he.UTF-8: משדרג תוכנה...
+Description-hi.UTF-8: सॉफ्टवेयर अपग्रेड किया जा रहा है...
+Description-hr.UTF-8: Nadograđujem programe...
+Description-hu.UTF-8: Szoftver frissítés...
+Description-id.UTF-8: Memperbarui piranti lunak ...
+Description-is.UTF-8: Uppfæri hugbúnað...
+Description-it.UTF-8: Aggiornamento software...
+Description-ja.UTF-8: ソフトウェアを更新しています...
+Description-ka.UTF-8: პროგრამის განახლება...
+Description-kk.UTF-8: Бағдарламалық қамтаманы жаңарту...
+Description-km.UTF-8: កំពុង​ធ្វើ​ឲ្យ​កម្មវិធី​ប្រសើរឡើង...
+Description-kn.UTF-8: ತಂತ್ರಾಂಶ  upgrade ಮಾಡಲಾಗುತ್ತಿದೆ...
+Description-ko.UTF-8: 소프트웨어 업그레이드하는 중입니다...
+Description-ku.UTF-8: Nivîsbarî tê bilindkirin...
+Description-lo.UTF-8: ກຳລັງປັບລຸ້ນຊອຟແວຣ໌...
+Description-lt.UTF-8: Atnaujinama programinė įranga...
+Description-lv.UTF-8: Izlabo programmatūru...
+Description-mk.UTF-8: Надградувам софтвер...
+Description-ml.UTF-8: സോഫ്റ്റ്‌വെയര്‍ പുതുക്കിക്കൊണ്ടിരിയ്ക്കുന്നു...
+Description-mr.UTF-8: सॉफ्टवेअर श्रेणीवर्धित होत आहे...
+Description-nb.UTF-8: Oppgraderer programvare ...
+Description-ne.UTF-8: सफ्टवेयर अभिवृद्धि हुँदैछ ...
+Description-nl.UTF-8: Bezig met opwaarderen van programmatuur...
+Description-nn.UTF-8: Oppgraderer programvare …
+Description-no.UTF-8: Oppgraderer programvare ...
+Description-pa.UTF-8: ਸਾਫਟਵੇਅਰ ਅੱਪਗਰੇਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...
+Description-pl.UTF-8: Aktualizacja oprogramowania...
+Description-pt.UTF-8: A actualizar software...
+Description-pt_BR.UTF-8: Atualizando software...
+Description-ro.UTF-8: Se înnoiesc programele...
+Description-ru.UTF-8: Выполняется обновление программного обеспечения...
+Description-se.UTF-8: Ođasmahttimin prográmmaid …
+Description-si.UTF-8: මෘදුකාංග යාවත් කරමින්...
+Description-sk.UTF-8: Aktualizuje sa softvér...
+Description-sl.UTF-8: Posodabljanje programske opreme ...
+Description-sq.UTF-8: Duke përmirësuar software...
+Description-sr.UTF-8: Ажурирање софтвера...
+Description-sv.UTF-8: Uppgraderar programvara...
+Description-ta.UTF-8: மென்பொருளை மேம்படுத்துகிறது...
+Description-te.UTF-8: సాఫ్ట్వేర్ తాజాకరణ చేయు...
+Description-tg.UTF-8: Такмилдиҳии нармафзор...
+Description-th.UTF-8: กำลังปรับรุ่นซอฟต์แวร์...
+Description-tl.UTF-8: Upgrading software...
+Description-tr.UTF-8: Yazılım güncelleniyor...
+Description-ug.UTF-8: يۇمشاق دېتالنىڭ نەشرنى ئۆرلىتىۋاتىدۇ…
+Description-uk.UTF-8: Оновлення програмного забезпечення...
+Description-vi.UTF-8: Đăng cập nhật phần mềm...
+Description-zh_CN.UTF-8: 正在升级软件...
+Description-zh_TW.UTF-8: 正在替軟體昇級……
+
+Name: pkgsel/upgrade
+Type: select
+Default: safe-upgrade
+Choices: none, safe-upgrade, full-upgrade
+Description: for internal use; can be preseeded
+Extended_description: type of upgrade to perform
+
+Name: preseed/boot_command
+Type: string
+Description: for internal use; can be preseeded
+Extended_description: Shell command or commands to run in the d-i environment during boot
+
+Name: preseed/command_failed
+Type: error
+Description: Failed to run preseeded command
+Extended_description: Execution of preseeded command "${COMMAND}" failed with exit code ${CODE}.
+Description-ar.UTF-8: فشل تنفيذ أمر preseed
+Extended_description-ar.UTF-8: فشل تنفيذ أمر preseed )"${COMMAND}"( مُرجعاً رمز الخروج ${CODE}.
+Description-ast.UTF-8: Falló la execución de la orde de preconfiguración
+Extended_description-ast.UTF-8: Hebo un fallu na execución de la orde de preconfiguración «${COMMAND}», amosó'l códigu d'erru ${CODE}.
+Description-be.UTF-8: Не атрымалася выканаць патрэбную каманду
+Extended_description-be.UTF-8: Не атрымалася выканаць каманду "${COMMAND}" - код выхаду ${CODE}.
+Description-bg.UTF-8: Грешка при изпълнението на командата за предварителна настройка
+Extended_description-bg.UTF-8: Изпълнението на командата за предварителна настройка „${COMMAND}“ върна грешка с код ${CODE}.
+Description-bo.UTF-8: བཀའ་བརྡ་དེ་བཀོལ་སྤྱོད་བྱས་མ་ཐུབ
+Extended_description-bo.UTF-8: བཀའ་བརྡ་ "${COMMAND}" བཀོལ་སྤྱོད་བྱས་མ་ཐུབ། ནོར་འཁྲུལ་ཨང་རྟགས་ ${CODE} རེད།
+Description-bs.UTF-8: Neuspjelo pokretanje presseded naredbe
+Extended_description-bs.UTF-8: Izvršavanje preseeded naredbe "${COMMAND}" nije uspjelo, kod greške ${CODE}.
+Description-ca.UTF-8: No s'ha pogut executar l'ordre preconfigurada
+Extended_description-ca.UTF-8: L'execució de l'ordre preconfigurada «${COMMAND}» ha fallat amb codi d'eixida ${CODE}.
+Description-cs.UTF-8: Spuštění příkazu přednastavení selhalo
+Extended_description-cs.UTF-8: Vykonávání příkazu přednastavení („${COMMAND}“) selhalo s návratovým kódem ${CODE}.
+Description-cy.UTF-8: Methwyd rhedeg y gochymyn cynhedynnedig
+Extended_description-cy.UTF-8: Method gweithrediad y gorchymyn cynhedynnedig "${COMMAND}" gyda'r côd gorffen ${CODE}.
+Description-da.UTF-8: Kunne ikke udføre preseeded-kommando
+Extended_description-da.UTF-8: Kørsel af preseed-kommando (»${COMMAND}«) mislykkedes med afslutningskode ${CODE}.
+Description-de.UTF-8: Vorkonfigurationsbefehl konnte nicht ausgeführt werden
+Extended_description-de.UTF-8: Die Ausführung des Vorkonfigurationsbefehls (»${COMMAND}«) ist fehlgeschlagen: Fehlercode ${CODE}
+Description-el.UTF-8: Αποτυχία εκτέλεσης της εντολής προρύθμισης
+Extended_description-el.UTF-8: Η εκτέλεση της εντολής προρύθμισης "${COMMAND}" απέτυχε με κωδικό εξόδου ${CODE}.
+Description-eo.UTF-8: Lanĉado de antaŭsemita komando malsukcesis
+Extended_description-eo.UTF-8: Lanĉado de la antaŭsemita komando "${COMMAND}" malsukcesis kun liverita kodo ${CODE}.
+Description-es.UTF-8: Falló la ejecución de la orden de preconfiguración
+Extended_description-es.UTF-8: Se produjo un fallo en la ejecución de la orden de preconfiguración «${COMMAND}», indicó el código de error ${CODE}.
+Description-et.UTF-8: Eelseemendatud käsk nurjus
+Extended_description-et.UTF-8: Eelseemendatud käsu "${COMMAND}" käivitamine nurjus veakoodiga ${CODE}.
+Description-eu.UTF-8: Ezin izan da aurrez konfiguratutako komandoa exekutatu
+Extended_description-eu.UTF-8: Ezin izan da aurrez konfiguratutako "${COMMAND}" komandoa exekutatu, irteerako kodea: ${CODE}.
+Description-fa.UTF-8: اجرای دستورات preseed با شکست مواجه شد
+Extended_description-fa.UTF-8: اجرای فرمان ... «${COMMAND}» با کد خروج ${CODE} شکست خورد.
+Description-fi.UTF-8: Esiasetukset tekevän komennon suoritus epäonnistui
+Extended_description-fi.UTF-8: Esiasetukset tekevä komento ”${COMMAND}” epäonnistui, paluuarvo on ${CODE}.
+Description-fr.UTF-8: Échec de l'exécution de la commande préconfigurée
+Extended_description-fr.UTF-8: L'exécution de la commande préconfigurée (« ${COMMAND} ») a échoué avec le code d'erreur ${CODE}.
+Description-ga.UTF-8: Níorbh fhéidir an t-ordú réamhshíolaithe a rith
+Extended_description-ga.UTF-8: Theip ar ordú réamhshíolaithe "${COMMAND}" le stádas scortha ${CODE}.
+Description-gl.UTF-8: Non foi posíbel executar a orde preconfigurada
+Extended_description-gl.UTF-8: A execución da orde preconfigurada «${COMMAND}» fallou co código de erro ${CODE}.
+Description-he.UTF-8: כישלון בהרצת פקודה טעונה מראש
+Extended_description-he.UTF-8: הרצה של פקודה טעונה מראש "${COMMAND}" נכשלה מראש עם קוד יציאה ${CODE}.
+Description-hr.UTF-8: Izvršenje preseed naredbe nije uspjelo
+Extended_description-hr.UTF-8: Izvršenje preseed naredbe ("${COMMAND}") nije uspjelo uz izlaz ${CODE}.
+Description-hu.UTF-8: Előkonfigurált parancs futtatása sikertelen
+Extended_description-hu.UTF-8: "${COMMAND}" előkonfigurált parancs ${CODE} hibakóddal kilépett.
+Description-id.UTF-8: Gagal menjalakan perintah yang telah disiapkan
+Extended_description-id.UTF-8: Jalannya perintah preseeded "${COMMAND}" gagal dengan kode ${CODE}.
+Description-is.UTF-8: Mistókst að keyra forplantaða skipun
+Extended_description-is.UTF-8: Keyrsla forplöntuðu skipunarinnar „${COMMAND}‟ mistókst með útgangsboðunum ${CODE}.
+Description-it.UTF-8: Esecuzione del comando di preconfigurazione non riuscita
+Extended_description-it.UTF-8: Esecuzione del comando di preconfigurazione «${COMMAND}» non riuscita, codice di uscita ${CODE}.
+Description-ja.UTF-8: preseeded コマンドの実行に失敗しました
+Extended_description-ja.UTF-8: 終了コード ${CODE} で preseeded コマンド ("${COMMAND}") の実行に失敗しました。
+Description-kk.UTF-8: Автоматтық баптау командасын орындау сәтсіз аяқталды
+Extended_description-kk.UTF-8: "${COMMAND}" автоматтық баптау командасының орындалуы ${CODE} қателер кодымен сәтсіз аяқталды.
+Description-kn.UTF-8: ಮುಂಚಿತವಾಗಿ ಆಯ್ಕೆಯಾದ ಆಜ್ಞೆಯನ್ನು ನೆಡೆಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ.
+Extended_description-kn.UTF-8: ಮುಂಚಿತವಾಗಿ ಆಯ್ಕೆಯಾದ ಆಜ್ಞೆ "${COMMAND}" ನ ಚಾಲನೆ ${CODE} ನಿರ್ಗಮನ ಸಂಕೇತದೊಂದಿಗೆ ವಿಫಲವಾಗಿದೆ.
+Description-ko.UTF-8: preseed 명령 실행이 실패했습니다
+Extended_description-ko.UTF-8: 미리 설정한 명령어 ("${COMMAND}") 실행이 상태 코드 ${CODE}번으로 실패했습니다.
+Description-ku.UTF-8: Meşandina fermana preseeded serneket
+Extended_description-ku.UTF-8: Dema fermana ("${COMMAND}") ya pêşî hatiye bersivandin dixebitî bi koda çewtiyan ya ${CODE} bi dawî bû.
+Description-lo.UTF-8: ເອີ້ນຄຳສັ່ງທີ່ມີການຕັ້ງຄ່າລວ່ງໜ່າບໍ່ສຳເລັດ
+Extended_description-lo.UTF-8: ການເຮັດວຽກຂອງຄຳສັ່ງທີ່ມີການຕັ້ງຄ່າລວ່ງໜ່າ "${COMMAND}" ລົ້ມເຫຼວຍອ້ນລະຫັດຂໍ້ຜິດພາດ  ${CODE}
+Description-lt.UTF-8: Nepavyko numatytos (preseeded) komandos vykdymas
+Extended_description-lt.UTF-8: Išankstinėje konfigūracijoje numatyta komanda "${COMMAND}" nepavyko ir gražino kodą ${CODE}.
+Description-lv.UTF-8: Neizdevās izpildīt prekonfigurācijas komandu
+Extended_description-lv.UTF-8: Prekonfigurēšanas komanda "${COMMAND}" bija nesekmīga ar iziešanas kodu ${CODE}.
+Description-mk.UTF-8: Не успеав да ја извршам preseed командата
+Extended_description-mk.UTF-8: Извршувањето на preseeded командата „${COMMAND}“ не успеа враќајќи код на грешка ${CODE}.
+Description-nb.UTF-8: Klarte ikke å kjøre forhåndsinnstilt kommando
+Extended_description-nb.UTF-8: Kjøring av forhåndsinnstilt kommando «${COMMAND}» mislyktes med returkoden ${CODE}.
+Description-nl.UTF-8: Uitvoering van voorgeconfigureerd commando mislukt
+Extended_description-nl.UTF-8: De uitvoering van voorgeconfigureerd commando ("${COMMAND}") is mislukt met foutcode ${CODE}.
+Description-nn.UTF-8: Klarte ikkje køyre førkommando
+Extended_description-nn.UTF-8: Utføring av førkommando «${COMMAND}» feila med returkode ${CODE}.
+Description-no.UTF-8: Klarte ikke å kjøre forhåndsinnstilt kommando
+Extended_description-no.UTF-8: Kjøring av forhåndsinnstilt kommando «${COMMAND}» mislyktes med returkoden ${CODE}.
+Description-pl.UTF-8: Uruchomienie wstępnie pobranego polecenia nie powiodło się
+Extended_description-pl.UTF-8: Uruchomienie wstępnie pobranego polecenia "${COMMAND}" nie powiodło się zwracając kod ${CODE}.
+Description-pt.UTF-8: Falhou a execução do comando preseed
+Extended_description-pt.UTF-8: A execução do comando preseed ("${COMMAND}") falhou com o código de saída ${CODE}.
+Description-pt_BR.UTF-8: Falha ao executar comando pré-configurado
+Extended_description-pt_BR.UTF-8: A execução do comando pré-configurado "${COMMAND}" falhou com o código de saída ${CODE}.
+Description-ro.UTF-8: Eșec la rularea comenzii anteconfigurate
+Extended_description-ro.UTF-8: Execuția comenzii anteconfigurate „${COMMAND}” a eșuat cu codul de eroare ${CODE}.
+Description-ru.UTF-8: Не удалось выполнить команду автонастройки
+Extended_description-ru.UTF-8: Выполнение команды автонастройки ("${COMMAND}") завершилось неудачно с кодом ошибки ${CODE}.
+Description-si.UTF-8: පෙරපෝශිත විධානය ක්‍රියාත්මක කිරීම අසාර්ථකයි
+Extended_description-si.UTF-8: "${COMMAND}" පෙරපෝශිත විධානයේ ක්‍රියාවලිය ${CODE} පිටවීම් කේතය සමඟ අසාර්ථක විය.
+Description-sk.UTF-8: Chyba pri spustení preseed príkazu
+Extended_description-sk.UTF-8: Vykonanie preseed príkazu „${COMMAND}“ zlyhalo s chybou ${CODE}.
+Description-sl.UTF-8: Zagon predpripravljenega ukaza ni uspel
+Extended_description-sl.UTF-8: Izvajanje predpripravljenega ukaza "${COMMAND}" ni uspelo, koda napake je ${CODE}.
+Description-sq.UTF-8: Dështova në ekzekutimin e komandës
+Extended_description-sq.UTF-8: Ekzekutimi i komandës "${COMMAND}" dështoi me gabimin ${CODE}.
+Description-sr.UTF-8: Грешка при извршавању предефинисане команде
+Extended_description-sr.UTF-8: Извршавање предефинисане команде „${COMMAND}“ није успело (излазни код ${CODE}).
+Description-sv.UTF-8: Misslyckades med att köra förinställt kommando
+Extended_description-sv.UTF-8: Exekveringen av det förinställda kommandot "${COMMAND}" misslyckades med felkoden ${CODE}.
+Description-te.UTF-8: preseeded కమాండ్ నడుపుట విఫలమైంది
+Extended_description-te.UTF-8: preseeded కమాండ్   "${COMMAND}" నడుపుట  ${CODE} నిష్క్రమణ కోడ్ తోవిఫలమైంది
+Description-tg.UTF-8: Иҷрои фармони танзими худкор қатъ карда шуд
+Extended_description-tg.UTF-8: Иҷрои фармони танзими худкори "${COMMAND}" бо рамзи хуруҷи ${CODE} қатъ карда шуд.
+Description-th.UTF-8: เรียกคำสั่งที่มีการตั้งค่าล่วงหน้าไม่สำเร็จ
+Extended_description-th.UTF-8: การทำงานของคำสั่งที่มีการตั้งค่าล่วงหน้า "${COMMAND}" ล้มเหลวด้วยรหัสข้อผิดพลาด ${CODE}
+Description-tl.UTF-8: Bigo sa pagtakbo ng utos na preseeded
+Extended_description-tl.UTF-8: Ang pagtakbo ng preseeded command "${COMMAND}" ay nabigo at naghudyat ng exit code ${CODE}.
+Description-tr.UTF-8: önyanıtlanmış komut çalıştırılamadı
+Extended_description-tr.UTF-8: Önyanıtlanmış ("${COMMAND}") komutu çalıştırılırken ${CODE} hata koduyla sonlandı.
+Description-ug.UTF-8: ئالدىن تەڭشىگەن بۇيرۇقنى ئىجرا قىلالمىدى
+Extended_description-ug.UTF-8: ئالدىن بۇيرۇق "${COMMAND}" نى ئىجرا قىلىش مەغلۇپ بولدى، چېكىنىش كودى ${CODE}.
+Description-uk.UTF-8: Не вдалося запустити команду попереднього налаштування
+Extended_description-uk.UTF-8: Виконання команди попереднього налаштування „${COMMAND}“ завершилося помилкою з кодом ${CODE}.
+Description-vi.UTF-8: Lỗi chạy lệnh đã chèn sẵn
+Extended_description-vi.UTF-8: Việc thực hiện lệnh đã chèn sẵn « ${COMMAND} » bị lỗi với mã thoát ${CODE}.
+Description-zh_CN.UTF-8: 无法运行预置的命令
+Extended_description-zh_CN.UTF-8: 执行预置命令 (“${COMMAND}”) 失败，退出代码为 ${CODE}。
+Description-zh_TW.UTF-8: 無法執行預先設定指令。
+Extended_description-zh_TW.UTF-8: 在執行預先設定指令 ${COMMAND} 時失敗了，錯誤代碼為 ${CODE}。
+
+Name: preseed/early_command
+Type: string
+Description: for internal use; can be preseeded
+Extended_description: Shell command or commands to run in the d-i environment as early as possible
+
+Name: preseed/file
+Type: string
+Description: for internal use; can be preseeded
+Extended_description: Path to debconf preconfiguration file (or files) to load
+
+Name: preseed/file/checksum
+Type: string
+Description: for internal use; can be preseeded
+Extended_description: Optional md5sum (or sums) for the preconfiguration files
+
+Name: preseed/include
+Type: string
+Description: for internal use; can be preseeded
+Extended_description: Additional preseed files to load
+
+Name: preseed/include/checksum
+Type: string
+Description: for internal use; can be preseeded
+Extended_description: md5sums of additional preseed files to load
+
+Name: preseed/include_command
+Type: string
+Description: for internal use; can be preseeded
+Extended_description: Shell command to run that may output a list of preseed files to load
+
+Name: preseed/interactive
+Type: boolean
+Default: false
+Description: for internal use; can be preseeded
+Extended_description: If true, preseed questions but don't mark them as seen
+
+Name: preseed/late_command
+Type: string
+Description: for internal use; can be preseeded
+Extended_description: Shell command or commands to run in the d-i environment as late as possible
+
+Name: preseed/load_error
+Type: error
+Description: Failed to process the preconfiguration file
+Extended_description: The installer failed to process the preconfiguration file from ${LOCATION}. The file may be corrupt.
+Description-ar.UTF-8: فشلت معالجة ملف التهيئة المسبقة
+Extended_description-ar.UTF-8: فشل برنامج التثبيت في تحميل ملف التهيئة المسبق من ${LOCATION}. قد يكون الملف فاسداً.
+Description-ast.UTF-8: Falló'l procesu del ficheru de preconfiguración
+Extended_description-ast.UTF-8: Falló l'instalador al procesar el ficheru preconfiguráu dende ${LOCATION}. El ficheru puede tar corruptu.
+Description-be.UTF-8: Не атрымалася апрацаваць файл папярэдніх наладак
+Extended_description-be.UTF-8: Праграма ўсталявання не здолела апрацаваць файл папярэдніх наладак з ${LOCATION}. Магчыма, ён пашкоджаны.
+Description-bg.UTF-8: Грешка при зареждане на файла с предварителните настройки
+Extended_description-bg.UTF-8: Инсталаторът не можа да зареди файла с предварителните настройки от ${LOCATION}. Файлът може би е повреден.
+Description-bo.UTF-8: སྔོན་འགྲོའི་སྒྲིག་འགོད་ཡིག་ཆ་བེད་སྤྱོད་བྱེད་མ་ཐུབ
+Extended_description-bo.UTF-8: སྔོན་འགྲོའི་སྒྲིག་འགོད་ཡིག་ཆ་དེ་ ${LOCATION} ནས་བེད་སྤྱོད་བྱེད་མ་ཐུབ། ཡིག་ཆ་དེ་ཕལ་ཆེར་འཕྲོ་བརླགས་ཤོར་འདུག
+Description-bs.UTF-8: Neuspjelo procesuiranje prekonfiguracijske datoteke
+Extended_description-bs.UTF-8: Instalater nije uspio procesuirati prekonfiguracijsku datoteku s ${LOCATION}. Datoteka može biti oštećena.
+Description-ca.UTF-8: No s'ha pogut processar el fitxer de preconfiguració
+Extended_description-ca.UTF-8: L'instal·lador no ha pogut processar el fitxer de preconfiguració de ${LOCATION}. El fitxer pot estar corrupte.
+Description-cs.UTF-8: Selhalo zpracování souboru s přednastavením
+Extended_description-cs.UTF-8: Instalační program nedokázal zpracovat soubor s přednastavením z ${LOCATION}. Soubor může být poškozen.
+Description-cy.UTF-8: Methwyd brosesu'r ffeil cyngyfluniad
+Extended_description-cy.UTF-8: Methodd y sefydlydd brosesu'r ffeil cyngyfluniad o ${LOCATION}. Efallai fod y ffeil yn llygredig.
+Description-da.UTF-8: Kunne ikke bearbejde prækonfigurations-filen
+Extended_description-da.UTF-8: Installationsprogrammet kunne ikke bearbejde prækonfigurationsfilen fra ${LOCATION}. Filen er muligvis ødelagt.
+Description-de.UTF-8: Die Vorkonfigurationsdatei konnte nicht verarbeitet werden
+Extended_description-de.UTF-8: Der Installer konnte die Vorkonfigurationsdatei von ${LOCATION} nicht auswerten. Die Datei ist möglicherweise beschädigt.
+Description-el.UTF-8: Απέτυχε η επεξεργασία του αρχείου προρύθμισης
+Extended_description-el.UTF-8: Ο εγκαταστάτης απέτυχε στην επεξαργασία του αρχείου προρυθμίσεων από το ${LOCATION}. Το αρχείο μπορεί να μην είναι έγκυρο.
+Description-eo.UTF-8: La procezado de la antaŭagorda dosiero malsukcesis
+Extended_description-eo.UTF-8: La instalilo malsukcesis procezi la antaŭagordan dosieron el ${LOCATION}. La dosiero eble difektiĝas.
+Description-es.UTF-8: Se produjo un fallo al procesar el fichero de preconfiguración
+Extended_description-es.UTF-8: El instalador no pudo procesar fichero de preconfiguración de ${LOCATION}. Es posible que el fichero esté corrompido.
+Description-et.UTF-8: Eelseadistuse faili töötlemine nurjus
+Extended_description-et.UTF-8: Paigaldaja ei suutnud laadida eelseadistuse faili ${LOCATION} alt. Fail võib olla vigane.
+Description-eu.UTF-8: Ezin izan da aurrekonfigurazioko fitxategia prozesatu
+Extended_description-eu.UTF-8: Instalatzaileak huts egin du aurrekonfigurazioko fitxategia ${LOCATION} kokalekutik prozesatzean. Fitxategia hondatuta egon daiteke.
+Description-fa.UTF-8: عملیات بر روی فایل از پیش پیکربندی شده شکست خورد
+Extended_description-fa.UTF-8: نصاب در پردازش پروندهٔ پیش‌پیکربندی از ${LOCATION} شکست خورد. پرونده ممکن است ... باشد.
+Description-fi.UTF-8: Esiasetustiedoston käsittely ei onnistunut
+Extended_description-fi.UTF-8: Esiasetukset sisältävän tiedoston taltiolta ${LOCATION} käsittely ei onnistunut asentimessa. Tiedosto saattaa olla vioittunut.
+Description-fr.UTF-8: Échec du traitement du fichier de préconfiguration
+Extended_description-fr.UTF-8: L'outil d'installation n'a pas pu traiter le fichier de préconfiguration depuis ${LOCATION}. Le fichier est peut-être corrompu.
+Description-ga.UTF-8: Níorbh fhéidir an comhad réamhchumraíochta a phróiseáil
+Extended_description-ga.UTF-8: Níorbh fhéidir leis an suiteálaí an comhad réamhchumraíochta a phróiseáil ó ${LOCATION}. Comhad truaillithe?
+Description-gl.UTF-8: Non foi posíbel procesar o ficheiro de preconfiguración
+Extended_description-gl.UTF-8: O instalador non puido procesar o ficheiro de preconfiguración de ${LOCATION}. O ficheiro pode estar corrompido.
+Description-he.UTF-8: כישלון בעיבוד קובץ הגדרות מוקדמות
+Extended_description-he.UTF-8: תוכנית ההתקנה נכשלה בעיבוד קובץ הגדרות מוקדמות מ-${LOCATION}. הקובץ עלול להיות לא תקין.
+Description-hr.UTF-8: Neuspjelo učitavanje datoteke s pred-postavkama
+Extended_description-hr.UTF-8: Instalacija nije uspjela učitati datoteku s pred-postavkama s ${LOCATION}. Datoteka je možda oštećena.
+Description-hu.UTF-8: Előkonfigurációs fájl betöltése meghiúsult
+Extended_description-hu.UTF-8: A telepítő az előbeállító fájlt nem tudta betölteni innen: ${LOCATION}. A fájl megsérülhetett.
+Description-id.UTF-8: Gagal memproses berkas prakonfigurasi 
+Extended_description-id.UTF-8: Program instalasi gagal memproses berkas prakonfigurasi dari ${LOCATION}. Berkas tersebut mungkin rusak.
+Description-is.UTF-8: Mistókst að vinna úr foruppsetningarskrá
+Extended_description-is.UTF-8: Uppsetningarforritinu mistókst að vinna úr forstillingaskránni frá ${LOCATION}. Skráin gæti verið skemmd.
+Description-it.UTF-8: Caricamento del file di preconfigurazione non riuscito
+Extended_description-it.UTF-8: Il programma d'installazione non è stato in grado di elaborare il file di preconfigurazione da ${LOCATION}. Il file potrebbe essere danneggiato.
+Description-ja.UTF-8: 事前設定ファイルの処理に失敗しました
+Extended_description-ja.UTF-8: インストーラは ${LOCATION} からの事前設定ファイルの処理に失敗しました。ファイルは恐らく壊れています。
+Description-kk.UTF-8: Алдын-ала баптау файлын өңдеу кезінде қате кетті
+Extended_description-kk.UTF-8: Орнату бағдарламасы ${LOCATION} орналасуынан алдын ала баптау файлын өңдей алмады. Файл зақымданған болуы мүмкін.
+Description-kn.UTF-8: ಪೂರ್ವಸಂಯೋಜನಾ ಕಡತವನ್ನು ಸಂಸ್ಕರಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ.
+Extended_description-kn.UTF-8: ${LOCATION}ನಲ್ಲಿರುವ ಪೂರ್ವಸಂಯೋಜನಾ ಕಡತವನ್ನು ಸಂಸ್ಕರಿಸುವಲ್ಲಿ ಅನುಸ್ಥಾಪಕವು ವಿಫಲವಾಗಿದೆ. ಪ್ರಾಯಶಃ ಕಡತವು ಹಾಳಗಿರಬಹುದು.
+Description-ko.UTF-8: 미리 설정 파일을 처리하는데 실패했습니다
+Extended_description-ko.UTF-8: 설치 프로그램에서 ${LOCATION}에 있는 미리 설정 파일을 처리하는데 실패했습니다. 파일 내용이 망가진 것 같습니다.
+Description-ku.UTF-8: Pêşkêşkirina mîhengên destpêk ên pel biserneket
+Extended_description-ku.UTF-8: Bernameya sazkirinê pela pêşveavakirinê ya ji ser ${LOCATION} hate stendin nexebitand. Dibe ku rewşa pelê xerab be.
+Description-lo.UTF-8: ປະມວນຜົນແຟັມຄ່າຕັ້ງລວ່ງໜ່າບໍ່ສຳເລັດ
+Extended_description-lo.UTF-8: ໂປແກຣັມຕິດຕັ້ງປະມວນຜົນແຟັມຄ່າຕັ້ງລວ່ງໜ້າຈາກ ${LOCATION} ບໍ່ສຳເລັດ ແຟັມດັ່ງກ່າວອາດຈະເສຍຫາຍ
+Description-lt.UTF-8: Nepavyko apdoroti išankstinės konfigūracijos failo
+Extended_description-lt.UTF-8: Įdiegikliui nepavyko apdoroti išankstinės konfigūracijos failo iš ${LOCATION}. Galbūt failas yra sugadintas.
+Description-lv.UTF-8: Neizdevās apstrādāt prekonfigurācijas datni
+Extended_description-lv.UTF-8: Instalators nevarēja apstrādāt prekonfigurācijas datni no ${LOCATION}. Iespējams, šī datne ir bojāta.
+Description-mk.UTF-8: Не успеав да ја процесирам предконфигурациската датотека
+Extended_description-mk.UTF-8: Инсталерот не успеа да ја процесира предконфигурациската датотека од ${LOCATION}. Датотеката може да е расипана.
+Description-nb.UTF-8: Klarte ikke å behandle fila med forhåndsoppsettet
+Extended_description-nb.UTF-8: Installasjonprogrammet klarte ikke å behandle fila med forhåndsoppsettet fra ${LOCATION}. Det kan hende fila er ødelagt.
+Description-nl.UTF-8: Verwerken van het voorconfiguratie-bestand is mislukt
+Extended_description-nl.UTF-8: Het verwerken van het voorconfiguratie-bestand vanaf ${LOCATION} door het installatiesysteem is mislukt: Mogelijk is het bestand beschadigd.
+Description-nn.UTF-8: Klarte ikkje laste førehandsoppsettsfila
+Extended_description-nn.UTF-8: Installasjonsprogrammet klarte ikkje å laste førehandsoppsettsfila frå ${LOCATION}. Fila kan vere øydelagd.
+Description-no.UTF-8: Klarte ikke å behandle fila med forhåndsoppsettet
+Extended_description-no.UTF-8: Installasjonprogrammet klarte ikke å behandle fila med forhåndsoppsettet fra ${LOCATION}. Det kan hende fila er ødelagt.
+Description-pl.UTF-8: Przetworzenie wstępnego pliku konfiguracji nie powiodło się
+Extended_description-pl.UTF-8: Instalator nie mógł przetworzyć pliku wstępnej konfiguracji z ${LOCATION}. Możliwe, że plik jest uszkodzony.
+Description-pt.UTF-8: Falhou o processamento do ficheiro de pré-configuração
+Extended_description-pt.UTF-8: O instalador falhou o processamento do ficheiro de pré-configuração a partir de ${LOCATION}. O ficheiro pode estar corrompido.
+Description-pt_BR.UTF-8: Falha ao processar o arquivo de pré-configuração
+Extended_description-pt_BR.UTF-8: O instalador falhou ao processar o arquivo de pré-configuração de ${LOCATION}. O arquivo pode estar corrompido.
+Description-ro.UTF-8: Eșec la procesarea fișierului de anteconfigurare
+Extended_description-ro.UTF-8: Programul de instalare a eșuat la procesarea fișierului de anteconfigurare de la ${LOCATION}. Este posibil ca fișierul să fie corupt.
+Description-ru.UTF-8: Не удалось обработать файл предварительной настройки
+Extended_description-ru.UTF-8: Программе установки не удалось обработать файл предварительной настройки из ${LOCATION}. Вероятно, файл повреждён.
+Description-si.UTF-8: පෙරසැකසූ ගොනුව සැකසීම අසාර්ථකයි
+Extended_description-si.UTF-8: ${LOCATION} න් ලද පෙරසැකසුම් ගොනුව සැකසීමට ස්ථාපකයට නොහැකි විය. ගොනුව ඇතැම්විට දූශිත විය හැක.
+Description-sk.UTF-8: Chyba pri spracovaní súboru s predvoleným nastavením
+Extended_description-sk.UTF-8: Inštalačný program nedokázal spracovať súbor s predvoleným nastavením z ${LOCATION}. Súbor je možno poškodený.
+Description-sl.UTF-8: Nalaganje prednastavljene konfiguracijske datoteke ni uspelo
+Extended_description-sl.UTF-8: Namestitveni program ni uspel naložiti prednastavitvene konfiguracijske datoteke iz ${LOCATION}. Datoteka je morda pokvarjena.
+Description-sq.UTF-8: Dështoi në përpunimin e skedarit të parakonfigurimit
+Extended_description-sq.UTF-8: Instaluesi dështoi në përpunimin e skedarit të parakonfigurimit nga ${LOCATION}. Skedari mund të jetë i korruptuar.
+Description-sr.UTF-8: Неуспело процесирање преконфигурационог фајла
+Extended_description-sr.UTF-8: Инсталер није успео да процесира преконфигурациони фајл са ${LOCATION}. Фајл је можда неисправан.
+Description-sv.UTF-8: Misslyckades med att behandla förkonfigurationsfilen
+Extended_description-sv.UTF-8: Installationsprogrammet misslyckades med att behandla förkonfigurationsfilen från ${LOCATION}. Filen kan vara skadad.
+Description-te.UTF-8: ముందలి అమరిక (preconfiguration) ఫైల్   వాడుట  విఫలమైంది.
+Extended_description-te.UTF-8: స్థాపన వ్యవస్థ ${LOCATION}నుండి  ముందలి అమరిక (preconfiguration)ఫైల్   వాడుట విఫలమైంది. ఫైల్ చెడిపోయి వుండవచ్చు.
+Description-tg.UTF-8: Иҷрои файли пештанзимкунӣ қатъ шудааст
+Extended_description-tg.UTF-8: Насбкунанда файли конфигуратсияи пешакиро аз ${LOCATION} коркард карда натавонист. Эҳтимол аст, ки файл харобшуда мебошад.
+Description-th.UTF-8: ประมวลผลแฟ้มค่าตั้งล่วงหน้าไม่สำเร็จ
+Extended_description-th.UTF-8: โปรแกรมติดตั้งประมวลผลแฟ้มค่าตั้งล่วงหน้าจาก ${LOCATION} ไม่สำเร็จ แฟ้มดังกล่าวอาจจะเสียหาย
+Description-tl.UTF-8: Bigo ang pagproseso ng talaksang preconfiguration
+Extended_description-tl.UTF-8: Bigo ang pagpasok ng talaksang preconfiguration mula sa ${LOCATION}. Maaaring sira ang talaksan.
+Description-tr.UTF-8: Ön yapılandırma dosyası işlenemedi
+Extended_description-tr.UTF-8: Kurulum programı ${LOCATION} üzerinden alınan ön yapılandırma dosyasını işleyemedi. Dosya bozulmuş olabilir.
+Description-ug.UTF-8: ئالدىن سەپلىمە ھۆججىتىنى بىر تەرەپ قىلىش مەغلۇپ بولدى.
+Extended_description-ug.UTF-8: ئورنىتىش پروگراممىسى ${LOCATION} دىكى ئالدىن سەپلىمە ھۆججىتىنى بىر تەرەپ قىلالمىدى. ھۆججەت بۇزۇلغان بولۇشى مۇمكىن.
+Description-uk.UTF-8: Не вдалося обробити файл передналаштувань
+Extended_description-uk.UTF-8: Встановлювач не зміг обробити файл передналаштувань з ${LOCATION}. Цей файл, можливо, пошкоджено.
+Description-vi.UTF-8: Lỗi xử lý tập tin cấu hình sẵn
+Extended_description-vi.UTF-8: Trình cài đặt không xử lý được tập tin cấu hình sẵn từ ${LOCATION}. Tập tin này có thể bị hỏng.
+Description-zh_CN.UTF-8: 处理预配置文件失败
+Extended_description-zh_CN.UTF-8: 安装程序无法处理 ${LOCATION} 上预配置文件。文件可能已被损坏。
+Description-zh_TW.UTF-8: 無法執行事先準備好的設定檔
+Extended_description-zh_TW.UTF-8: 安裝程式無法執行預先設定檔案 ${LOCATION}。這個檔案可能已經損毀了。
+
+Name: preseed/retrieve_error
+Type: error
+Description: Failed to retrieve the preconfiguration file
+Extended_description: The file needed for preconfiguration could not be retrieved from ${LOCATION}. The installation will proceed in non-automated mode.
+Description-ar.UTF-8: فشل استرجاع ملف التهيئة المسبق
+Extended_description-ar.UTF-8: تعذّر جلب الملف المطلوب للتهيئة المسبقة من ${LOCATION}. سيتابع التثبيت في وضعٍ غير آلي.
+Description-ast.UTF-8: Falló algamar el ficheru de preconfiguración
+Extended_description-ast.UTF-8: El ficheru necesita una preconfiguración que nun puede algamar dende ${LOCATION}. La instalación siguirá en mou non automáticu.
+Description-be.UTF-8: Не атрымалася здабыць файл папярэдніх наладак
+Extended_description-be.UTF-8: Не атрымалася здабыць з ${LOCATION} файл, патрэбны, каб падрыхтаваць наладку. Устаноўка будзе працягнутая ў не-аўтаматычным рэжыме.
+Description-bg.UTF-8: Грешка при доставяне на файла с предварителни настройки
+Extended_description-bg.UTF-8: Файлът с предварителните настройки не може да бъде изтеглен от ${LOCATION}. Инсталацията ще продължи в неавтоматизиран режим.
+Description-bo.UTF-8: སྔོན་འགྲོའི་སྒྲིག་འགོད་ཡིག་ཆ་དེ་ལེན་མ་ཐུབ་པ
+Extended_description-bo.UTF-8: སྔོན་འགྲོའི་སྒྲིག་འགོད་ལ་དགོས་པའི་ཡིག་ཆ་${LOCATION} ནས་ཐོབ་མ་ཐུབ་པས་སྒྲིག་འཇུག་འདི་རང་འགུལ་རྣམ་པ་མིན་པའི་སྒོ་ནས་མུ་མཐུད་རྒྱུ་ཡིན
+Description-bs.UTF-8: Neuspjelo vraćanje prekonfiguracijske datoteke
+Extended_description-bs.UTF-8: Datoteka potrebna za prekonfiguraciju se ne može dobaviti s ${LOCATION}. Instalacija će se nastaviti u neautomatiziranom modu.
+Description-ca.UTF-8: No s'ha pogut obtindre el fitxer de preconfiguració
+Extended_description-ca.UTF-8: No s'ha pogut obtindre el fitxer requerit per a la preconfiguració des de ${LOCATION}. La instal·lació continuarà en mode no automàtic.
+Description-cs.UTF-8: Selhalo stažení souboru s přednastavením
+Extended_description-cs.UTF-8: Soubor potřebný pro přednastavení instalačního programu se nepodařilo stáhnout z ${LOCATION}. Instalace bude pokračovat v interaktivním režimu.
+Description-cy.UTF-8: Methwyd cyrchu'r ffeil cyngyfluniad
+Extended_description-cy.UTF-8: Methwyd cyrchu'r ffeil sy'n angenrheidiol ar gyfer cyngyfluniad o ${LOCATION}. Fe fydd y sefydliad yn mynd ymlaen yn y modd ddi-awtomatig.
+Description-da.UTF-8: Kunne ikke hente prækonfigurations-filen
+Extended_description-da.UTF-8: Den fil, der kræves for prækonfiguration, kunne ikke hentes fra ${LOCATION}. Installationen vil fortsætte i ikke-automatisk tilstand.
+Description-de.UTF-8: Vorkonfigurationsdatei konnte nicht geladen werden
+Extended_description-de.UTF-8: Die Datei für eine vorkonfigurierte Installation konnte nicht von ${LOCATION} geladen werden. Sie können die Installation manuell fortsetzen.
+Description-el.UTF-8: Αδύνατη η ανάκτηση του αρχείου προρύθμισης
+Extended_description-el.UTF-8: Δεν ήταν δυνατή η μεταφόρτωση του απαραίτητου αρχείου για προρύθμιση από τη διεύθυνση ${LOCATION}. Η εγκατάσταση θα συνεχιστεί με χειροκίνητο τρόπο.
+Description-eo.UTF-8: La ricevo de la antaŭagorda dosiero malsukcesis
+Extended_description-eo.UTF-8: La dosiero bezonata por antaŭagordado ne povis esti ricevita el ${LOCATION}. La instalado okazos laŭ ne-aŭtomata reĝimo.
+Description-es.UTF-8: Se produjo un fallo al obtener el fichero de preconfiguración
+Extended_description-es.UTF-8: No se pudo descargar el fichero necesario para la preconfiguración de ${LOCATION}. La instalación no continuará en modo automatizado.
+Description-et.UTF-8: Eelseadistuse faili hankimine ei õnnestunud
+Extended_description-et.UTF-8: Eelseadistamiseks vajalikku faili ei õnnestunud kohast ${LOCATION} hankida. Paigaldamine jätkub mitteautomaatises režiimis.
+Description-eu.UTF-8: Ezin izan da aurrekonfigurazioaren fitxategia berreskuratu
+Extended_description-eu.UTF-8: Aurrekonfiguraziorako behar den fitxategia ezin izan da ${LOCATION} kokalekutik berreskuratu. Instalazioak modu ez-automatikoan jarraituko du.
+Description-fa.UTF-8: دریافت فایل از پیش پیکربندی شده شکست خورد.
+Extended_description-fa.UTF-8: پروندهٔ مورد نیاز برای پیش‌پیکربندی نتوانست از ${LOCATION} بازیابی شود. نصب در حالت غیرخودکار انجام خواهد گرفت.
+Description-fi.UTF-8: Esiasetustiedoston noutaminen ei onnistunut
+Extended_description-fi.UTF-8: Esiasetuksiin tarvittavaa tiedostoa ei voitu noutaa taltiolta ${LOCATION}. Asennus jatkuu ilman automaatiota.
+Description-fr.UTF-8: Échec de la récupération du fichier de préconfiguration
+Extended_description-fr.UTF-8: Le fichier nécessaire à la préconfiguration n'a pas pu être téléchargé à l'adresse ${LOCATION}. L'installation va se dérouler sans automatisation.
+Description-ga.UTF-8: Níorbh fhéidir an comhad réamhchumraíochta a ghabháil
+Extended_description-ga.UTF-8: Níorbh fhéidir an comhad a theastaíonn le haghaidh réamhchumraíochta a fháil ó ${LOCATION}.  Leanfar an tsuiteáil ar aghaidh sa mhód neamh-uathoibríoch.
+Description-gl.UTF-8: Non foi posíbel obter o ficheiro de preconfiguración
+Extended_description-gl.UTF-8: Non foi posíbel obter de ${LOCATION} o ficheiro necesario para a preconfiguración. A instalación ha continuar en modo non automático.
+Description-he.UTF-8: כישלון בהבאת קובץ הגדרות מוקדמות
+Extended_description-he.UTF-8: הקובץ הנדרש בשביל הגדרות מוקדמות לא ניתן להורדה מ-${LOCATION}. תהליך ההתקנה יימשך במצב לא אוטומטי.
+Description-hr.UTF-8: Neuspjelo dobavljanje datoteke s pred-postavkama
+Extended_description-hr.UTF-8: Datoteku koja je potrebna za pred-postavljanje nije moguće dobaviti s ${LOCATION}. Instalacija će se nastaviti u neautomatskom načinu.
+Description-hu.UTF-8: Előbeállító fájl beszerzése meghiúsult
+Extended_description-hu.UTF-8: Az előkonfigurációhoz szükséges fájlt nem tudtam letölteni innen: ${LOCATION}. A telepítés nem-automata módban megy tovább.
+Description-id.UTF-8: Gagal mengambil berkas prakonfigurasi
+Extended_description-id.UTF-8: Berkas yang diperlukan untuk prakonfigurasi tidak dapat diambil dari ${LOCATION}. Instalasi ini akan dilanjutkan dalam moda non otomatis.
+Description-is.UTF-8: Mistókst að sækja forstillinga skrána
+Extended_description-is.UTF-8: Ekki var hægt að sækja skrá nauðsynlega fyrir forstillinguna á ${LOCATION}. Uppsetningin mun halda áfram í ósjálfvirkri stillingu.
+Description-it.UTF-8: Scaricamento del file di preconfigurazione non riuscito
+Extended_description-it.UTF-8: Non è stato possibile scaricare il file di preconfigurazione da ${LOCATION}. L'installazione proseguirà in modalità non-automatica.
+Description-ja.UTF-8: 事前設定ファイルの取得に失敗しました
+Extended_description-ja.UTF-8: 事前設定に必要となるファイルを ${LOCATION} から取得できませんでした。インストールは非自動モードで処理されます。
+Description-kk.UTF-8: Алдын ала баптау файлын алу мүмкін болмады.
+Extended_description-kk.UTF-8: Алдын ала баптау файлын ${LOCATION} орналасуынан алу мүмкін болмады. Орнату автоматтық емес режімде жалғастырылады.
+Description-kn.UTF-8: ಪೂರ್ವಸಂಯೋಜನಾ ಕಡತವನ್ನು ಹಿಂಪಡೆಯುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ.
+Extended_description-kn.UTF-8: ಪೂರ್ವಸಂಯೋಜನೆಗೆ ಬೇಕಾದ ಕಡತವನ್ನು ${LOCATION}ನಿಂದ ಹಿಂಪಡೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ. ಅನುಸ್ಥಾಪನೆಯು ಸ್ವಯಂಚಾಲಿತವಲ್ಲದ ವಿಧಾನದಲ್ಲಿ ಮುಂದುವರೆಯುವುದು.
+Description-ko.UTF-8: 미리 설정 파일을 가져오는데 실패했습니다
+Extended_description-ko.UTF-8: 미리 설정에 필요한 파일을 ${LOCATION}에서 다운로드할 수 없습니다. 자동이 아닌 모드로 설치를 진행합니다.
+Description-ku.UTF-8: Pela pêşveavakirinê nehate standin
+Extended_description-ku.UTF-8: Pela pêwist ya ji bo pêşveavakirinê ji ser ${LOCATION} nehate standin. Sazkirin wê li ser moda nebixweber bidome.
+Description-lo.UTF-8: ດືງແຟັມຄ່າຕັ້ງລວ່ງໜ້າບໍ່ສຳເລັດ
+Extended_description-lo.UTF-8: ບໍ່ສາມາດດຶງແຟັມທີ່ຕອ້ງໃຊ້ເພື່ອການຕັ້ງຄ່າລວ່ງໜ້າຈາກ ${LOCATION} ໄດ້ ການຕິດຕັ້ງຈະດຳເນີນຕໍ່ໄປໃນແບບບໍ່ເປັນອັດຕະໂນມັດ
+Description-lt.UTF-8: Nepavyko paimti išankstinės konfigūracijos failo
+Extended_description-lt.UTF-8: Failas reikalingas išankstinei konfigūracijai negali būti paimtas iš ${LOCATION}. Įdiegimas bus tęsiamas ne automatiniu režimu.
+Description-lv.UTF-8: Neizdevās ielādēt prekonfigurācijas datni
+Extended_description-lv.UTF-8: Datni, kas nepieciešams prekonfigurācijai, nevarēja iegūt no ${LOCATION}. Instalēšana tiks turpināta neautomātiskajā režīmā.
+Description-mk.UTF-8: Не успеав да ја преземам предконфигурациската датотека
+Extended_description-mk.UTF-8: Датотеката потребна за предконфигурација не можеше да биде преземена од ${LOCATION}. Инсталацијата ќе продолжи во неавтоамтски режим.
+Description-nb.UTF-8: Klarte ikke å finne fila med forhåndsoppsettet
+Extended_description-nb.UTF-8: Den fila som trengs for forhåndsoppsettet kunne ikke lastes ned fra ${LOCATION}. Installasjonen vil fortsette med manuelle valg.
+Description-nl.UTF-8: Ophalen van het voorconfiguratiebestand is mislukt
+Extended_description-nl.UTF-8: Het bestand dat nodig is voor de voorconfiguratie kon niet worden opgehaald van ${LOCATION}. De installatie zal niet-geautomatiseerd worden vervolgd.
+Description-nn.UTF-8: Klarte ikkje å henta førehandsoppsettsfila
+Extended_description-nn.UTF-8: Fila som trengst for førehandsoppsettet kunne ikkje bli lasta ned frå ${LOCATION}. Installasjonen vil halde fram i ikkje-automatisk modus.
+Description-no.UTF-8: Klarte ikke å finne fila med forhåndsoppsettet
+Extended_description-no.UTF-8: Den fila som trengs for forhåndsoppsettet kunne ikke lastes ned fra ${LOCATION}. Installasjonen vil fortsette med manuelle valg.
+Description-pl.UTF-8: Pobranie wstępnego pliku konfiguracji nie powiodło się
+Extended_description-pl.UTF-8: Plik potrzebny do wstępnej konfiguracji nie mógł być pobrany z ${LOCATION}. Instalacja będzie kontynuowana w trybie nieautomatycznym.
+Description-pt.UTF-8: Falhou obter o ficheiro de pré-configuração
+Extended_description-pt.UTF-8: O ficheiro necessário para a pré-configuração não pode ser obtido de ${LOCATION}. A instalação vai continuar em modo não-automático.
+Description-pt_BR.UTF-8: Falha ao obter arquivo de pré-configuração
+Extended_description-pt_BR.UTF-8: O arquivo necessário para a pré-configuração não pôde ser obtido de ${LOCATION}. A instalação prosseguirá em modo não-automatizado.
+Description-ro.UTF-8: Eșec la preluarea fișierului de anteconfigurare
+Extended_description-ro.UTF-8: Nu s-a putut descărca fișierul necesar pentru anteconfigurare de la ${LOCATION}. Instalarea va continua în modul non-automat.
+Description-ru.UTF-8: Не удалось получить файл предварительной настройки
+Extended_description-ru.UTF-8: Не удалось получить файл из ${LOCATION}, необходимый для предварительной настройки. Установка будет продолжена в не автоматическом режиме.
+Description-si.UTF-8: පෙර සැකසුම් ගොනුව ලබාගැනීම අසාර්ථක විය
+Extended_description-si.UTF-8: ${LOCATION} වෙතින් පෙරසැකසීම සඳහා අවශ්‍ය ගොනුව ලබාගත නොහැකි විය, ස්ථාපනය දැන් ස්වයංක්‍රීය-නොවන ප්‍රකාරයෙන් ඉදිරියට යයි.
+Description-sk.UTF-8: Chyba pri získavaní súboru s predvoleným nastavením
+Extended_description-sk.UTF-8: Inštalácia bude pokračovať v neautomatickom režime, pretože sa nedal stiahnuť súbor s predvoleným nastavením z ${LOCATION}.
+Description-sl.UTF-8: Prenos prednastavljene datoteke ni uspel
+Extended_description-sl.UTF-8: Datoteke, potrebne za prednastavitev, ni mogoče prenesti iz ${LOCATION}. Namestitev se bo nadaljevala v ne-samodejnem načinu.
+Description-sq.UTF-8: Dështova në shkarkimin e skedarit të parakonfiguruar
+Extended_description-sq.UTF-8: Skedari i duhur për parakonfigurimin nuk mundi të shkarkohej nga ${LOCATION}. Instalimi do vazhdojë në mënyrën manuale.
+Description-sr.UTF-8: Неуспело преузимање преконфигурисаног фајла
+Extended_description-sr.UTF-8: Фајл потребан за преконфигурацију није могао бити добављен са ${LOCATION}. Инсталација ће се наставити у неаутоматизованом моду.
+Description-sv.UTF-8: Misslyckades med att hämta förkonfigurationsfilen
+Extended_description-sv.UTF-8: Filen som behövs för förkonfigurering kunde inte hämtas från ${LOCATION}. Installationen kommer att fortsätta i manuellt läge.
+Description-te.UTF-8: ముందలి అమరిక (preconfiguration) ఫైల్  తెచ్చుట విఫలమైంది.
+Extended_description-te.UTF-8: ${LOCATION}నుండి  ముందలి అమరిక (preconfiguration)ఫైల్  తెచ్చుట విఫలమైంది. స్వయంచాలకము కాని పద్ధతిలో స్థాపన కొనసాగుతుంది.
+Description-tg.UTF-8: Бозёбии файли пештанзимшуда қатъ шудааст
+Extended_description-tg.UTF-8: Файли лозимӣ барои пештанзимкунӣ аз ${LOCATION} бозёбӣ намешавад. Насб дар ҳолати ғайри худкор идома дода мешавад.
+Description-th.UTF-8: ดึงแฟ้มค่าตั้งล่วงหน้าไม่สำเร็จ
+Extended_description-th.UTF-8: ไม่สามารถดึงแฟ้มที่ต้องใช้เพื่อการตั้งค่าล่วงหน้าจาก ${LOCATION} ได้ การติดตั้งจะดำเนินต่อไปในแบบไม่เป็นอัตโนมัติ
+Description-tl.UTF-8: Bigo ang pagkuha ng talaksang preconfiguration
+Extended_description-tl.UTF-8: Ang talaksan na kailangan para sa preconfiguration ay hindi nakuha mula sa ${LOCATION}. Magpapatuloy ang pagluklok sa hindi-awtomatiko na mode.
+Description-tr.UTF-8: Ön yapılandırma dosyası alınamadı
+Extended_description-tr.UTF-8: Ön yapılandırma için gerekli dosya ${LOCATION} üzerinden alınamadı. Kurulum otomatik olmayan kipte devam edecek.
+Description-ug.UTF-8: ئالدىن سەپلىمە ھۆججەتنى ئوقۇش مەغلۇپ بولدى
+Extended_description-ug.UTF-8: ${LOCATION} دىن ئالدىن سەپلىمە ئېھتىياجلىق ھۆججەتكە ئېرىشەلمىدى. ئورنىتىش پروگراممىسى غەيرىي ئۆزلۈكىدىن ئورنىتىش ھالىتىنى ئىشلىتىدۇ.
+Description-uk.UTF-8: Не вдалося отримати файл передналаштування
+Extended_description-uk.UTF-8: Файл, необхідний для передналаштування, не може бути завантажений з ${LOCATION}. Встановлення буде продовжене в неавтоматичному режимі.
+Description-vi.UTF-8: Lỗi lấy tập tin cấu hình sẵn
+Extended_description-vi.UTF-8: Tập tin cần thiết để cấu hình sẵn không thể được lấy từ ${LOCATION}. Vậy việc cài đặt sẽ tiếp tục trong chế độ không tự động.
+Description-zh_CN.UTF-8: 读取预配置文件失败
+Extended_description-zh_CN.UTF-8: 无法从 ${LOCATION} 获得预配置所需要的文件。安装程序将会使用非自动安装模式。
+Description-zh_TW.UTF-8: 無法取得事先準備好的設定檔
+Extended_description-zh_TW.UTF-8: 無法由 ${LOCATION} 取得在預先設定時所需要的檔案。安裝程式將以非自動模式進行。
+
+Name: preseed/run
+Type: string
+Description: for internal use; can be preseeded
+Extended_description: Programs to be obtained & run
+
+Name: preseed/url
+Type: string
+Description: Location of initial preconfiguration file:
+Extended_description: In order to perform an automated install, you need to supply a preconfiguration file (which can in turn pull in other files). To do that, you need to provide a (perhaps partial) URL.\n\nThis can be as simple as the machine name where your preseed files reside up to a full URL. Any of these could be made to work:\n  intra		[for example.com, these three are equivalent]\n  intra.example.com\n  http://intra.example.com/d-i/./lenny/preseed.cfg\n  http://192.168.0.1/~phil/test47.txt\n  floppy://preseed.cfg\n  file:///hd-media/kiosk/./preseed.cfg\n\nFor fully automated installs, preseed/url should itself be preseeded (via kernel command line, DHCP, or syslinux.cfg on customised media)\n\nSee http://wiki.debian.org/DebianInstaller/Preseed for inspiration.
+Description-ar.UTF-8: موضع الملف الأولي للتهيئة المسبقة:
+Extended_description-ar.UTF-8: لإجراء التثبيت التلقائي، تحتاج لتجهيز وتحديد موضعملف تهيئة مسبقة (والذي بدوره يطلب ملفات أخرى). وللقيام بذلك، يجب أن تكتب عنوان URL كامل أو جزئي.\n\nيمكن أن يكون هذا الملف ببساطة عبارة عن اسم الجهاز حيث تحفظ ملفات الإعداد أو عنوان URL كامل لهذا الجهاز:\n  intra		[التابع للعنوان example.com، الثلاثة التالية متشابهة]\n  intra.example.com\n  http://intra.example.com/d-i/./lenny/preseed.cfg\n  http://192.168.0.1/~phil/test47.txt\n  floppy://preseed.cfg\n  file:///hd-media/kiosk/./preseed.cfg\n\nلعمل تثبيت آلي بالكامل، يجب عمل preseed لموضع preseed/url (من خلال موجّه الأوامر، أو DHCP، أو syslinux.cfg أو على موضع مخصّص).\n\nراجع http://wiki.debian.org/DebianInstaller/Preseed للمزيد من المعلومات.
+Description-ast.UTF-8: Llocalización del ficheru de preconfiguración inicial:
+Extended_description-ast.UTF-8: N'orde a facer una instalación automática, necesites ufrir un ficheru de preconfiguración (col que puedas activar otros ficheros). Pa ello, necesites ufrir una URL (quiciabés parcial).\n\nEsto puede ser un nome de máquina simple onde residan los tos ficheros a URL completa. Cualesquiera d'ellos puede facer el trabayu:\n  intra		[por exemplu, estos tres son equivalentes]\n  intra.example.com\n  http://intra.example.com/d-i/./lenny/preseed.cfg\n  htt

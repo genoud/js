@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:actionDefinition xmlns:ns2="http://www.appway.com/ns/businessrules/actions" actionId="riskrates" name="Risk Rate Score" iconResourceId="UI_CustomActionRiskRateIcon" creationDate="2015-01-21T10:22:07.649+01:00" creatorUserId="bellanca">
+    <fields>
+        <entry>
+            <key>riskrate</key>
+            <value fieldId="riskrate" type="text" label="Risk Rate" defaultValue="'L'" description=""/>
+        </entry>
+    </fields>
+    <fieldOrder>riskrate</fieldOrder>
+</ns2:actionDefinition>

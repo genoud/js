@@ -83,6 +83,10 @@ class TypeArticle
         $this->description = $description;
     }
 
+    public function __clone()
+    {
+        $this->id=null;
+    }
 
 
 }

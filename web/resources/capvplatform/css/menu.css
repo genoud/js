@@ -1,0 +1,421 @@
+.main-menu-container{
+    background-color: #004927;
+    width: 20%;
+    /* border-right: 2px solid  black; */
+}    
+.main-menu-container{
+    padding: 0;    
+    margin: 0;
+
+}
+
+.logo-container{
+    margin: 15px 0 5px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-container a{
+
+}
+
+.logo-container a img{
+    background-size: 100% 100%;
+
+    width: 65px;
+}
+
+.logo-container a span.logo-icon{
+    /* background-size: 100% 100%; */
+    /* color : white; */
+    width: 120px;
+    /* font-size : 50px; */
+    display : inline-block;
+    height: 55px;
+    background-image : url("../images/logo_capv_121_55_white.png");
+}
+
+.block{
+    display : block;
+}
+.logo-description{
+    color :white;
+}
+
+.main-menu{
+    /* width: 100%; */
+
+}
+
+.main-menu li{    
+    margin-bottom: 10px;
+
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+}
+
+.main-menu li.menu-scroll.btn-up{
+    margin-bottom : 1px solid white;
+}
+
+.main-menu li>a{
+    display: inline-block;
+    width: 100%;
+    color : white;
+    text-decoration : none;
+    /* max-width: 220px; */
+}
+
+.main-menu li>a span{
+    color: white;
+    display: inline-block;
+}
+
+.main-menu li>a span.icon{
+    font-size: 40px;
+    width: 40px;
+    margin-right: 5px;
+    font-weight: normal;
+}
+
+.main-menu li>a span.title{ 
+    font-size: 12px;        
+}
+
+.main-menu li>a span.menu-caret-parent{    
+    display : none;
+}
+
+.main-menu li.active>a span.menu-caret-parent{    
+    display: none;
+    float : right;
+    width: 30px;
+    line-height: 47px;
+    vertical-align: middle;
+    color: white;
+    padding: 0;
+}
+
+.main-menu li.active>a span.menu-caret{
+    font-size: 43px;
+    color: white;        
+}
+
+
+.main-menu li.active
+{
+    background-color: #E99F54;
+    background-color: #E68D3E;
+    
+    text-decoration : none;
+    color : white;
+    text-decoration : none;
+}
+
+
+.main-menu li a:hover
+{
+    background-color: #E48129;
+    text-decoration : none;
+    color : white;
+    text-decoration : none;
+}
+
+.main-menu li>ul.sub-menu>li{
+    background-color:#EBA362;
+    /* min-height: 40px; */
+}
+
+
+.main-menu li>a:hover span{
+    color : white;    
+}
+
+.main-menu li.active>a span{
+    /* color : white; */
+    /* color: #004826; */
+    /* font-weight: bold; */
+}
+
+
+
+
+span.icon{
+    height : 40px;
+    line-height : 40px;
+    color: #004826;
+    font-weight: bold;
+    font-size: 13px;
+    word-wrap: break-word;
+    /* width: auto; */
+}    
+
+
+.main-menu .sub-menu{
+    /* display: none; */
+}
+
+.main-menu .sub-menu.opened{
+    /* display : block; */
+}
+
+.main-menu .sub-menu.opened li a,
+.main-menu .sub-menu.opened li a span{
+    height : 40px;
+    min-height: 20px;
+    height: auto;
+    /* line-height : 40px; */
+    color: #004826;
+    font-weight: bold;
+    font-size: 13px;
+    display: inline-block;
+    word-wrap: break-word;
+    word-break: break-all;
+    /* max-width: 220px; */
+    pad: left;
+}        
+
+.main-menu .sub-menu.opened li{
+    height: auto;
+}
+.main-menu .sub-menu.opened li a{
+    clear : both;
+    vertical-align: middle;
+    padding: 10px 0 0 0;
+    /* margin-bottom: 10px; */
+}
+
+.main-menu .sub-menu.opened li a span.text,
+.main-menu .sub-menu.opened li a span.icon{    
+     float: left; 
+}  
+
+.main-menu .sub-menu.opened li a span.icon{
+     font-size: 25px;
+     height : 20px;
+     line-height: 20px;
+     margin-left:20px;
+     /* color: #BE6718; */
+     font-weight: normal;
+}  
+
+.main-menu .sub-menu.opened li a span.text{/* position: absolute; */max-width: 180px;text-align: left;line-height: 15px;/* margin: 10px 0; *//* padding: 20px 0; */margin-bottom: 10px;vertical-align: middle;display: block;}
+
+.main-menu .sub-menu.opened{
+    margin: 0px;
+    /* display :block; */
+}
+
+.main-menu .sub-menu.opened li:first-child{
+    /* display:none; */
+}
+
+.main-menu .sub-menu.opened li{
+    margin : auto 0px;
+    border-top: 1px solid white;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+} 
+
+    .main-menu li>a span.title{
+        margin-left: 6px;
+        width: 47%;
+        font-size: 13px;
+    }
+    .main-menu li>a{
+        padding: 0 0 0 5%;
+        height: 55px;
+    }   
+    .main-menu li>a span{
+        line-height: 54px;
+        height: 55px;
+        vertical-align: middle;
+    } 
+
+
+@media (max-width: 990px) { 
+
+    .main-menu-container.mobile-menu-visible{
+        display :inline-block;
+    }
+    .main-menu-container.mobile-menu-hidden{
+        display : none;
+    }
+    .main-menu-btn{
+        display: inline-block;
+        top: 5px;
+        position: absolute;
+        margin-left: 5px;
+    }     
+    .main-menu-container{
+        position: absolute;
+    }     
+    .main-container{
+        width: 100%;            
+    
+    }    
+    .main-container.mobile-menu-opened{
+        /* position: absolute; */
+        /* margin-left: 30%; */
+    
+        /* z-index: 9999999; */
+        /* left: 0; */
+        /* float: left; */
+    }    
+
+    .header span.org-name{
+        margin-left: 163px;
+    }
+
+    .header,
+    .panel-title{
+        width : 100%;
+    }
+     
+
+}
+
+
+@media (min-width: 991px) {      
+   
+    .main-menu-container.mobile-menu-visible,
+    .main-menu-container.mobile-menu-hidden{
+        display : block;
+    }
+    .main-menu-btn{
+        display: none;
+    }
+    .main-menu-container{
+        display: inline-block;
+    }
+    /*
+    .main-menu .sub-menu.opened li{
+        margin : auto 0px;
+        border-bottom: 1px solid white;
+    }
+
+    .main-menu .sub-menu.opened li:last-child{
+        border : none;
+    }    
+    .main-menu .sub-menu.opened li:first-child{
+        padding : 10px 0;
+        color : white;
+        font-size: 15px;
+    }    
+
+    .main-menu .sub-menu.opened{
+        position: absolute;
+        margin-left: 100%;
+        top: 65px;
+        z-index: 999999;
+        width: 100%;
+        background-color: #E99F54;
+        padding-left: 20px;
+    }   
+    */
+    .header span.app-icon{
+        margin-left : 0px;
+    }
+
+}  
+
+
+/***A reproduire apr?s avec sass***/
+@media (max-width: 644px){
+
+    .main-menu li>a span.title{         
+        margin-left: 6px;
+        width: 47%;
+    }
+    .main-menu li>a{        
+        padding: 0 0 0 10%;  
+        height: 47px;    
+    }   
+    .main-menu li>a span{ 
+        line-height: 45px;
+        height: 47px;
+        vertical-align: middle;
+    } 
+
+
+    /*
+    .main-menu .sub-menu.opened li a,
+    .main-menu .sub-menu.opened li a span{
+        height : 40px;
+        line-height : 40px;
+        color: #004826;
+        font-weight: bold;
+        font-size: 13px;
+        display: inline-block;
+    }        
+    .main-menu .sub-menu.opened{        
+        margin: 0px;
+        display :block;
+    }
+    .main-menu .sub-menu.opened li:first-child{
+        display:none;
+    }
+    .main-menu .sub-menu.opened li{
+        margin : auto 0px;
+        border-top: 1px solid white;
+    }*/        
+
+}
+
+
+/***A reproduire apr?s avec sass***/
+@media (min-width: 992px){
+    
+    /*   
+    .main-menu li>a span.title{
+        margin-left: 6px;
+        width: 47%;
+        font-size: 13px;
+    }
+    .main-menu li>a{
+        padding: 0 0 0 5%;
+        height: 55px;
+    }   
+    .main-menu li>a span{
+        line-height: 54px;
+        height: 55px;
+        vertical-align: middle;
+    } */
+    
+
+
+}
+
+@media (min-width: 645px) and (max-width: 991px) { 
+
+    /*
+    .main-menu li a{
+        text-align: center;  
+        padding : 5px;      
+    }
+    .main-menu li a .title{
+        display: block;
+
+        margin-top: 0px;
+    }
+    .main-menu li .icon{
+    }
+    */
+
+    /*
+    .main-menu .sub-menu.opened li a,
+    .main-menu .sub-menu.opened li a span{
+        height : 40px;
+        line-height : 40px;
+        color: #004826;
+        font-weight: bold;
+        font-size: 13px;
+        display: inline;
+    }        
+
+    .main-menu .sub-menu.opened{
+        min-width : 230px;
+    }*/
+
+
+}

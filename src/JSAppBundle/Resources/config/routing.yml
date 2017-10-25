@@ -1,0 +1,128 @@
+js_app:
+    resource: "@JSAppBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+js_logout:
+    path:   /logout
+
+js_app_application:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/AppController.php"
+    options:
+        expose: true
+
+js_app_article:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/ArticleController.php"
+    options:
+        expose: true
+
+js_app_auteur:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/AuteurController.php"
+    options:
+        expose: true
+
+js_app_articlereviewer:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/ArticleReviewerController.php"
+    options:
+        expose: true
+
+
+js_app_coauteur:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/CoAuteurController.php"
+    options:
+        expose: true
+
+js_app_funding:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/FundingController.php"
+    options:
+        expose: true
+
+js_app_categorie:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/CategorieController.php"
+    options:
+        expose: true
+
+js_app_commentaire:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/CommentaireController.php"
+    options:
+        expose: true
+
+js_app_fichier:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/FichierController.php"
+    options:
+        expose: true
+
+js_app_personne:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/PersonneController.php"
+    options:
+        expose: true
+
+js_app_role:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/RoleController.php"
+    options:
+        expose: true
+
+js_app_type_article:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/TypeArticleController.php"
+    options:
+        expose: true
+
+js_app_type_fichier:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/TypeFichierController.php"
+    options:
+        expose: true
+
+js_app_type_utilisateur:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/UtilisateurController.php"
+    options:
+        expose: true
+
+js_app_type_reviewrequest:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/ReviewRequestController.php"
+    options:
+        expose: true
+
+js_app_type_review:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/ReviewController.php"
+    options:
+        expose: true
+
+js_app_numero_journal:
+    type:         rest
+    prefix:       /api/v1
+    resource:     "@JSAppBundle/Controller/NumeroJournalController.php"
+    options:
+        expose: true
+#    name_prefix:  v1_

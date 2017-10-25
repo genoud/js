@@ -129,6 +129,10 @@ class Typefichier
         $this->obligatoire = $obligatoire;
     }
 
+    public function __clone()
+    {
+        $this->id=null;
+    }
 
 
 }

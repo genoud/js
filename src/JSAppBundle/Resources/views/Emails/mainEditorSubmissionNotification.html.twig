@@ -1,0 +1,27 @@
+{% extends('JSAppBundle:Emails:base_email.html.twig') %}
+{% block maincontent %}
+    <h4 class="salutation">Dear {{ editor.personne.prenom }} {{ editor.personne.nom}},</h4>
+    <div style="clear: both"></div>
+    <p>A new article has been submitted on the platform.</p>
+
+    <p>Here is a summary of the submission submission</p>
+
+    <p><strong>Submitter:</strong> {{ user.personne.prenom }} {{ user.personne.nom}}</p>
+    <p><strong>Title:</strong> {{ article.titreCourt }}</p>
+    <p><strong>Long Title:</strong> {{ article.titreComplet }}</p>
+
+    <p>Attachements are joint to this mail.</p>
+
+    <p>Best Regards!</p>
+
+    <a href="{{ url("js_login") }}" class="btn btn-success" >Journal Scientifique</a>
+    <div style="clear: both"></div>
+
+{% endblock %}
+
+{% block footer %}
+    <footer class="main-footer">
+             All rights reserved.
+        <!-- /.container -->
+    </footer>
+{% endblock %}

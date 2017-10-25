@@ -9,7 +9,7 @@
 namespace JSAppBundle\Controller;
 
 
-class CommentaireController
+class CommentaireController extends CoreRestController
 {
 
 }

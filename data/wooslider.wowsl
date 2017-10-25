@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>traces</CaptionsEffect>
+            <Controls>false</Controls>
+            <FontSize>25</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>wooslider</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>turn,cube_over,dribbles,blur</ImageEffect>
+            <ImageFillColor>#95124b</ImageFillColor>
+            <ImageHeight>240</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>true</ImageShrink2>
+            <ImageStretch>false</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/zoom/</ImageTemplate>
+            <ImageTemplateName>Zoom</ImageTemplateName>
+            <ImageWidth>320</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/maglo/Desktop/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>C:/Users/maglo/Desktop</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowControls>true</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#3f4044</TemplateColor>
+            <TemplateFont>Open Sans</TemplateFont>
+            <TemplateName>zoom</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/maglo/Pictures/100APPLE/IMG_0893.JPG</url>
+                <title>IMG_0893</title>
+                <description>Description 2</description>
+                <filesize>1412219</filesize>
+                <rotate>90</rotate>
+            </Image>
+            <Image>
+                <url>C:/Users/maglo/Pictures/100APPLE/IMG_0920.JPG</url>
+                <title>IMG_0920</title>
+                <description>Description 3</description>
+                <filesize>1327800</filesize>
+                <rotate>90</rotate>
+            </Image>
+            <Image>
+                <url>C:/Users/maglo/Pictures/100APPLE/IMG_0922.JPG</url>
+                <title>IMG_0922</title>
+                <description>Description 1</description>
+                <filesize>982085</filesize>
+                <rotate>90</rotate>
+            </Image>
+            <Image>
+                <url>C:/Users/maglo/Pictures/100APPLE/IMG_0923.JPG</url>
+                <title>IMG_0923</title>
+                <description>Description 4</description>
+                <filesize>1203840</filesize>
+                <rotate>90</rotate>
+            </Image>
+            <Image>
+                <url>C:/Users/maglo/Pictures/100APPLE/IMG_0924.JPG</url>
+                <title>IMG_0924</title>
+                <description>Description 5</description>
+                <filesize>1416502</filesize>
+                <rotate>90</rotate>
+            </Image>
+            <Image>
+                <url>C:/Users/maglo/Pictures/100APPLE/IMG_0950.JPG</url>
+                <title>IMG_0950</title>
+                <description>Description 6</description>
+                <filesize>1364917</filesize>
+                <rotate>90</rotate>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

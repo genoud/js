@@ -1,0 +1,7 @@
+#CMN_TemplatePartiesProfilingDetailToC, #CMN_AccountProfilingDetailToc {
+	padding-top: 5px;
+}
+
+#CMN_TemplatePartiesProfilingDetailToC a.aw_ext_componentextension_adaptivetableofcontents_AdaptiveTableOfContents_text, #CMN_AccountProfilingDetailToc a.aw_ext_componentextension_adaptivetableofcontents_AdaptiveTableOfContents_text {
+	font-size: 15px;
+}

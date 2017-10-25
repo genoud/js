@@ -1,1 +1,107 @@
-Hello World!
+{% extends('JSAppBundle::base_public.html.twig') %}
+{% block title %}
+    Journal Scientifique - Edition
+{% endblock %}
+
+{% block stylesheet_block %}
+    {{ parent() }}
+
+    <link rel="stylesheet" href="{{ asset('resources/vendor/breadcrumbs-and-multistep-indicator/css/style.css') }}">
+
+    {% stylesheets
+        '@JSAppBundle/Resources/public/css/edition.css'
+        combine=true filter='cssrewrite' output='css/dist/edition.css' %}
+        <link rel="stylesheet" href="{{ asset_url }}" type="text/css"/>
+    {% endstylesheets %}
+
+{% endblock %}
+
+{% block javascript_head_block %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('resources/vendor/breadcrumbs-and-multistep-indicator/js/modernizr.js') }}">
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}
+
+{% block maincontent %}
+    {#<section class="content">#}
+
+        {#<div class="box box-primary">#}
+            {#<div class="box-header with-border">#}
+                {#<h3 class="box-title">Nouvelles soumissions</h3>#}
+                {#<div class="box-tools pull-right">#}
+                    {#<!-- Buttons, labels, and many other things can be placed here! -->#}
+                    {#<!-- Here is a label for example -->#}
+                    {#<button id="btn-edition-home-new-article" class="btn btn-flat btn-primary">Nouvelle soumission</button>#}
+                {#</div><!-- /.box-tools -->#}
+            {#</div>#}
+            {#<div class="box-body">#}
+
+                {#<ul class="nav nav-pills nav-stacked">#}
+                    {#<li class=""><a href="{{ path('js-edition-article-list', {'status': '1'}) }}"><i class="fa fa-inbox"></i> Soumissions renvoyées à l'auteur#}
+                            {#<span class="label label-danger pull-right">{{ soummission_retourne_auteur }}</span></a></li>#}
+                    {#<li><a href="{{ path('js-edition-article-list', {'status': '2'}) }}"><i class="fa fa-envelope-o"></i> Soumission incompletes#}
+                            {#<span class="label label-warning pull-right">{{ soulission_incomplete }}</span></a></li>#}
+                    {#<li><a href="{{ path('js-edition-article-list', {'status': '3'}) }}"><i class="fa fa-file-text-o"></i> Soummission en attente de validation#}
+                            {#<span class="label label-primary pull-right">{{ soumission_a_valider }}</span></a></li>#}
+                    {#<li><a href="{{ path('js-edition-article-list', {'status': '4'}) }}"><i class="fa fa-filter"></i> Soumission en cours de traitement <span#}
+                                    {#class="label label-success pull-right">{{ soumission_a_traiter }}</span></a>#}
+                    {#</li>#}
+                {#</ul>#}
+
+            {#</div>#}
+            {#<!-- /.box-body -->#}
+        {#</div>#}
+
+        {#<div class="box box-warning">#}
+            {#<div class="box-header with-border">#}
+                {#<h3 class="box-title">Révisions</h3>#}
+            {#</div>#}
+            {#<div class="box-body">#}
+                {#<ul class="nav nav-pills nav-stacked">#}
+                    {#<li class=""><a href="{{ path('js-edition-article-list', {'status': '5'}) }}"><i class="fa fa-inbox"></i>Soumission en attente de révision#}
+                            {#<span class="label label-primary pull-right">{{ soumission_a_reviser }}</span></a></li>#}
+                    {#<li class=""><a href="{{ path('js-edition-article-list', {'status': '6'}) }}"><i class="fa fa-inbox"></i>Révision renvoyées à l'auteur#}
+                            {#<span class="label label-danger pull-right">{{ revision_retournee }}</span></a></li>#}
+                    {#<li><a href="{{ path('js-edition-article-list', {'status': '7'}) }}"><i class="fa fa-envelope-o"></i> Révisions incompletes#}
+                            {#<span class="label label-warning pull-right">{{ revision_incomplete }}</span></a></li>#}
+                    {#<li><a href="{{ path('js-edition-article-list', {'status': '8'}) }}"><i class="fa fa-file-text-o"></i> Révision en attente de validation#}
+                            {#<span class="label label-primary pull-right">{{ revision_a_valider }}</span></a></li>#}
+                    {#<li><a href="{{ path('js-edition-article-list', {'status': '9'}) }}"><i class="fa fa-filter"></i> Révision en cours de traitement <span#}
+                                    {#class="label label-success pull-right">{{ revision_a_traiter }}</span></a>#}
+                    {#<li><a href="{{ path('js-edition-article-list', {'status': '10'}) }}"><i class="fa fa-filter"></i> Révision refusées <span#}
+                                    {#class="label label-success pull-right">{{ revision_refusee }}</span></a>#}
+                    {#</li>#}
+                {#</ul>#}
+            {#</div>#}
+            {#<!-- /.box-body -->#}
+        {#</div>#}
+
+        {#<div class="box box-success">#}
+            {#<div class="box-header with-border">#}
+                {#<h3 class="box-title">Soumissions terminées</h3>#}
+            {#</div>#}
+            {#<div class="box-body">#}
+                {#<ul class="nav nav-pills nav-stacked">#}
+                    {#<li class=""><a href="{{ path('js-edition-article-list', {'status': '11'}) }}"><i class="fa fa-inbox"></i>Soumission avec une décision#}
+                            {#<span class="label label-warning pull-right">{{ soumission_avec_decision }}</span></a></li>#}
+                    {#<li class=""><a href="{{ path('js-edition-article-list', {'status': '12'}) }}"><i class="fa fa-inbox"></i>Soumission avec une production achevée#}
+                            {#<span class="label label-success pull-right">{{ soumission_avec_production }}</span></a></li>#}
+                {#</ul>#}
+            {#</div>#}
+            {#<!-- /.box-body -->#}
+        {#</div>#}
+        {#<!-- /.box -->#}
+    {#</section>#}
+{% endblock %}
+
+{% block bodyscript %}
+    <script type="text/javascript">
+        var currentPageConfig={
+            panelClass: "JS.article.AuthorHome",
+            renderTo: "edition-main-container",
+            isAdmin: false
+        };
+    </script>
+{% endblock %}

@@ -1,0 +1,1626 @@
+Description-kn.UTF-8: ಸಕ್ರಿಯವಾದ ಶೆಲ್
+Description-ko.UTF-8: 인터랙티브 쉘
+Description-ku.UTF-8: Qalikê înteraktîf
+Description-lo.UTF-8: ເຊຣ໌ວໂຕ້ຕອບ
+Description-lt.UTF-8: Interaktyvi aplinka (shell)
+Description-lv.UTF-8: Interaktīvā čaula
+Description-mk.UTF-8: Интерактивна конзола
+Description-nb.UTF-8: Interaktivt skall
+Description-nl.UTF-8: Interactieve shell
+Description-nn.UTF-8: Interaktivt skal.
+Description-no.UTF-8: Interaktivt skall
+Description-pl.UTF-8: Powłoka interaktywna
+Description-pt.UTF-8: Shell interactiva
+Description-pt_BR.UTF-8: Shell interativo
+Description-ro.UTF-8: Consolă interactivă
+Description-ru.UTF-8: Интерактивная оболочка
+Description-se.UTF-8: Interaktiivalaš skálžu
+Description-si.UTF-8: අන්තර්ක්‍රියාකාරී ශෙලය
+Description-sk.UTF-8: Interaktívny shell
+Description-sl.UTF-8: Interaktivna lupina
+Description-sq.UTF-8: Shell ndërveprues
+Description-sr.UTF-8: Интерактивни командни интерфејс
+Description-sv.UTF-8: Interaktivt skal
+Description-te.UTF-8: సంవాద(interactive) షెల్
+Description-tg.UTF-8: Восити интерактивӣ
+Description-th.UTF-8: เชลล์โต้ตอบ
+Description-tl.UTF-8: Interactive shell
+Description-tr.UTF-8: Etkileşimli kabuk
+Description-ug.UTF-8: shell سۆزلىشىشى
+Description-uk.UTF-8: Інтерактивний командний процесор
+Description-vi.UTF-8: Trình bao tương tác
+Description-zh_CN.UTF-8: 交互式 shell
+Description-zh_TW.UTF-8: 互動式 shell
+
+Name: debian-installer/terminal-plugin-unavailable
+Type: error
+Description: Terminal plugin not available
+Extended_description: This build of the debian-installer requires the terminal plugin in order to display a shell. Unfortunately, this plugin is currently unavailable.\n\nIt should be available after reaching the "Loading additional components" installation step.\n\n${WORKAROUND}
+Description-ar.UTF-8: إضافة الطرفية غير متوفّرة
+Extended_description-ar.UTF-8: تتطلب هذه البنية من برنامج تثبيت دبيان إلى إضافةٍ للطرفية كي تتمكن من فتح سطر الأوامر. للأسف، هذه الإضافة غير متوفّرة حالياً.\n\nيجب أن تتوفر هذه الإضافة بعد أن تصل إلى خطوة التثبيت "تحميل المكوّنات الإضافية".\n\n${WORKAROUND}
+Description-ast.UTF-8: Módulu complementariu de terminal nun disponible
+Extended_description-ast.UTF-8: Esta versión del debian-installer requier el módulu complementariu de la terminal pa visualizar un shell. Desafortunadamente, esti módulu complementariu nun ta disponible anguaño.\n\nDebiera tar disponible dempués del pasu d'instalación "Carga de componentes adicionales".\n\n${WORKAROUND}
+Description-be.UTF-8: Плагін тэрміналу недаступны
+Extended_description-be.UTF-8: Гэта зборка debian-installer патрабуе плагін тэрміналу, каб паказваць абалонку. Нажаль, гэты плагін зараз недаступны.\n\nЁн мае быць даступным пасля дасягнення кроку "Загрузка дадатковых кампанентаў".\n\n${WORKAROUND}
+Description-bg.UTF-8: Няма налична приставка за терминал
+Extended_description-bg.UTF-8: За да стартира обвивка, инсталаторът има нужда от приставката за терминал, която за съжаление не е налична.\n\nПриставката би трябвало да се зареди след стъпката „Зареждане на допълнителни компоненти“.\n\n${WORKAROUND}
+Description-bo.UTF-8: མཐའ་སྣེའི་ནང་འཛུགས་སྤྱོད་མི་རུང་བ
+Extended_description-bo.UTF-8: debian སྒྲིག་འཇུག་ཆས་ཀྱི་པར་གཞི་འདིར་མཐའ་སྣེའི་ནང་འཛུགས་དེ་སྤྱད་ནས་འཇུག་སྒོ་ཞིག་མངོན་ཐུབ སྟབས་མ་ལེགས་པར་ནང་འཛུགས་དེ་དང་ཐོག་སྤྱོད་རྒྱུ་མེད་པ\n\nསྒྲིག་འཇུག་གི་རྒྱུད་རིམ་"ལྷུ་ལག་གཞན་དག་ཡར་འཇུག་བྱེད་པ" ཞེས་པ་དེའི་མཚམས་སུ་དེ་སྤྱོད་ཐུབ\n\n${WORKAROUND}
+Description-bs.UTF-8: Terminalni plugin nije dostupan
+Extended_description-bs.UTF-8: Ova verzija debian-instalera zahtijeva terminalni plugin da otvorite shell. Nažalost, ovaj plugin trenutno nije dostupan.\n\nTrebao bi biti dostupan nakon "Učitavanje dodatnih komponenti" instalacijskog koraka.\n\n${WORKAROUND}
+Description-ca.UTF-8: El connector del terminal no és disponible
+Extended_description-ca.UTF-8: Aquesta construcció del debian-installer requereix el connector del terminal per a poder mostrar un intèrpret d'ordres. Malauradament, aquest connector no és disponible actualment.\n\nHauria de ser disponible després d'arribar al pas de la instal·lació «Càrrega de components addicionals».\n\n${WORKAROUND}
+Description-cs.UTF-8: Modul s terminálem není dostupný
+Extended_description-cs.UTF-8: Toto sestavení debian-installeru vyžaduje pro zobrazení shellu zásuvný modul s terminálem. Tento modul však momentálně není dostupný.\n\nMěl by být k dispozici po kroku „Nahrávají se dodatečné komponenty“.\n\n${WORKAROUND}
+Description-cy.UTF-8: Nid yw'r ategyn terfynell ar gael
+Extended_description-cy.UTF-8: Mae'r fersiwn hwn o'r sefydlydd-debian angen yr ategyn terfynell er mwyn arddangos cragen. Yn anffodus, nid yw'r ategyn hyn ar gael ar hyn o bryd.\n\nDylai fod ar gael wedi cyrraedd y cam sefydlu "Yn llwytho cydrannau ychwanegol".\n\n${WORKAROUND}
+Description-da.UTF-8: Terminaludvidelsen ikke tilgængelig
+Extended_description-da.UTF-8: Denne udgave af Debian-installationsprogrammet skal bruge terminaludvidelsen for at vise en skal. Desværre er denne udvidelse ikke tilgængelig for øjeblikket.\n\nDen skulle være tilgængelig, når installationen når til trinnet »Indlæsning af yderligere komponenter«.\n\n${WORKAROUND}
+Description-de.UTF-8: Konsolen-Plugin nicht verfügbar
+Extended_description-de.UTF-8: Dieser Bau des Debian-Installers benötigt das Konsolen-Plugin, um eine Shell anzuzeigen. Unglücklicherweise ist dieses Plugin derzeit nicht verfügbar.\n\nEs sollte nach dem Erreichen des Installationsschritts »Zusätzliche Komponenten laden« verfügbar sein.\n\n${WORKAROUND}
+Description-el.UTF-8: Δεν είναι διαθέσιμο το plugin τερματικού
+Extended_description-el.UTF-8: Η παρούσα έκδοση του εγκαταστάτη του Debian απαιτεί το plugin τερματικού για να εμφανίσει ένα κέλυφος. Δυστυχώς το plugin δεν είναι διαθέσιμο αυτή τη στιγμή.\n\nΘα έπρεπε να είναι διαθέσιμο αφού φτάσετε στο βήμα "Φόρτωση επιπρόσθετων συστατικών" της εγκατάστασης.\n\n${WORKAROUND}
+Description-eo.UTF-8: Ne disponeblas kromaĵo por terminalo.
+Extended_description-eo.UTF-8: Tiu ĉi versio de la debian-instalilo postulas la terminalo-kromaĵon por montrigi ŝelon. Malfeliĉe, tiu ĉi kromaĵo de disponeblas.\n\nĜi devos esti disponebla post atingo de la instal-etapo "Ŝargado de kromaj instalpakoj".\n\n${WORKAROUND}
+Description-es.UTF-8: No está disponible el complemento de terminal
+Extended_description-es.UTF-8: Es necesario tener el complemento del terminal para poder mostrar un intérprete de órdenes en esta versión del «debian-installer». Desafortunadamente este complemento no está disponible actualmente.\n\nDebería estar disponible una vez llegue al paso de instalación «Cargando componentes adicionales».\n\n${WORKAROUND}
+Description-et.UTF-8: Terminali plugin pole saadaval
+Extended_description-et.UTF-8: Sellel debian-installer'i kompilatsioonil on kesta näitamiseks vaja terminali pluginat. Kahjuks ei ole see plugin praegu saadaval.\n\nSee peaks olema saadaval pärast paigaldussammu "Lisakomponentide laadimine" läbimist.\n\n${WORKAROUND}
+Description-eu.UTF-8: Terminal plugina ez dago erabilgarri
+Extended_description-eu.UTF-8: Debian-installer bertsio honek terminal plugina behar du shell bat bistaratzeko. Zoritxarrez, plugin hau ez dago eskuragarri momentu honetan.\n\nEskuragarri egon beharko litzateke "Instalatzailearen osagaiak kargatzen" urratsa osatu ondoren.\n\n${WORKAROUND}
+Description-fa.UTF-8: افزونهٔ ترمینال موجود نیست.
+Extended_description-fa.UTF-8: ساختار نصاب دبیان به افزونهٔ ترمینال برای نماش دادن یک پوسته احتیاج دارد. متأسفانه این افزونه هم‌اکنون موجود نیست.\n\nپس از رسیدن به مرحلهٔ نصب «بارگذاری کامپوننت‌های اضافی» می‌بایست در اختیار شما باشد.\n\n${WORKAROUND}
+Description-fi.UTF-8: Pääteliitännäinen ei ole käytettävissä
+Extended_description-fi.UTF-8: Ohjelman debian-installer tämä käännös vaatii pääteliitännäisen näyttääkseen komentotulkin. Ikävä kyllä liitännäinen ei ole nyt saatavilla.\n\nSen pitäisi olla saatavilla asennusvaiheen ”Ladataan lisää asentimen osia” jälkeen.\n\n${WORKAROUND}
+Description-fr.UTF-8: Module d'émulation de terminal indisponible
+Extended_description-fr.UTF-8: Cette version de l'installateur a besoin du module d'émulation de terminal pour donner accès à la ligne de commande. Ce module n'est toutefois pas disponible.\n\nIl devrait devenir disponible après l'étape « charger des composants supplémentaires ».\n\n${WORKAROUND}
+Description-ga.UTF-8: Níl an breiseán teirminéil le fáil
+Extended_description-ga.UTF-8: Tá an breiseán teirminéil de dhíth ar an leagan seo den suiteálaí Debian chun blaosc a thaispeáint.  Faraor, níl an breiseán seo le fáil faoi láthair.\n\nBeidh sé le fáil tar éis duit an chéim "Comhpháirteanna eile á luchtú" a shroicheadh.\n\n${WORKAROUND}
+Description-gl.UTF-8: O módulo de terminal non está dispoñíbel
+Extended_description-gl.UTF-8: Esta versión de debian-installer precisa do módulo do terminal para mostrar unha shell. Porén, este módulo non está dispoñíbel.\n\nDebería estar dispoñíbel despois de chegar ao paso de instalación «A cargar as compoñentes adicionais».\n\n${WORKAROUND}
+Description-he.UTF-8: תוכנת תקע למסוף אינה זמינה
+Extended_description-he.UTF-8: גירסא זו של debian-installer צריכה את תוכנת התקע למסוף כדי להציג מעטפת. לרוע המזל, תוכנת תקע זו אינה זמינה כרגע.\n\nתוכנת תקע זו אמורה להיות זמינה אחרי הגעה לשלב ההתקנה "הטענת רכיבים נוספים".\n\n${WORKAROUND}
+Description-hr.UTF-8: Nije dostupan priključak za terminal
+Extended_description-hr.UTF-8: Ovo izdanje instalacijskog programa zahtijeva priključak za terminal kako bi prikazali ljusku (shell). Nažalost, taj priključak trenutno nije dostupan.\n\nTrebao bi biti dostupan nakon što se dođe do koraka u instalaciji pod nazivom "Učitavanje dodatnih komponenti".\n\n${WORKAROUND}
+Description-hu.UTF-8: Terminál beillesztés nem elérhető
+Extended_description-hu.UTF-8: A debian-telepítő e verziója a terminál beépülő modult igényli a héj megjelenítéséhez. Sajnos e modul jelenleg nem elérhető.\n\nElérhetővé válik a "További összetevők betöltése" telepítő lépéssel.\n\n${WORKAROUND}
+Description-id.UTF-8: Plugin terminal tidak tersedia
+Extended_description-id.UTF-8: Program debian-installer ini membutuhkan plugin terminal untuk menjalankan shell. Sayangnya, plugin ini belum tersedia.\n\nPlugin tersebut biasanya tersedia setelah proses instalasi sampai pada langkah "Memuat komponen tambahan".\n\n${WORKAROUND}
+Description-is.UTF-8: Viðbót fyrir útstöðina ekki fáanleg
+Extended_description-is.UTF-8: Þessi útgáfa af debian-installer þarfnast viðbótar fyrir útstöðina ef hún á að geta birt skelina. Því miður er viðbótin ekki fáanleg.\n\nHún ætti að vera fáanleg þegar þú hefur náð "Bæta við aukahlutum" uppsetningarhlutanum.\n\n${WORKAROUND}
+Description-it.UTF-8: Plugin per il terminale non disponibile
+Extended_description-it.UTF-8: Questa versione di debian-installer necessita del plugin per il terminale per poter visualizzare una shell. Attualmente il plugin non è installato.\n\nDovrebbe essere disponibile dopo aver raggiunto il passo d'installazione «Caricamento componenti aggiuntivi».\n\n${WORKAROUND}
+Description-ja.UTF-8: 端末プラグインは利用できません
+Extended_description-ja.UTF-8: シェルを表示するためにこの debian-installer のビルドは端末プラグインを必要とします。しかし、このプラグインは現在利用できません。\n\n"追加コンポーネントをロードしています" のインストール段階に到達してから利用できるはずです。\n\n${WORKAROUND}
+Description-kk.UTF-8: Терминал плагині жоқ
+Extended_description-kk.UTF-8: Debian орнату бағдарламасы қоршамды бастау үшін терминал плагинін талап етеді. Өкінішке орай, мұндай плагин табылмады.\n\nОл "Қосымша құрама жүктеу" қадамы кезінде табылуы тиіс.\n\n${WORKAROUND}
+Description-kn.UTF-8: ಟರ್ಮಿನಲ್ ಪ್ಲಗಿನ್ ಲಭ್ಯವಿಲ್ಲ
+Extended_description-kn.UTF-8: ಈ ಡೆಬಿಯನ್ ಸಂಸ್ಥಾಪಕ ವ್ಯವಸ್ಥೆಗೆ ಶೆಲ್ ಅನ್ನು ತೋರಿಸಲು ಟರ್ಮಿನಲ್ ಪ್ಲಗಿನ್ ಬೇಕಾಗಿದೆ. ದುರದೃಷ್ಟವಶಾತ್ ಈ ಪ್ಲಗಿನ್ ಸದ್ಯಕ್ಕೆ ಲಭ್ಯವಿಲ್ಲ.\n\nಸಂಸ್ಥಾಪನಾ ಹಂತ "Loading additional components" ಅನ್ನು ತಲುಪಿದ ನಂತರ ಅದು ದೊರೆಯಲಿದೆ.\n\n${WORKAROUND}
+Description-ko.UTF-8: 터미널 플러그인을 사용할 수 없습니다
+Extended_description-ko.UTF-8: 이 debian-installer 빌드는 쉘을 실행하려면 터미널 플러그인이 필요합니다. 하지만 이 플러그인이 없습니다.\n\n이 기능은 "추가 컴포넌트를 읽어들이는 중입니다"까지 설치를 진행하면 사용할 수 있습니다.\n\n${WORKAROUND}
+Description-ku.UTF-8: Plugin a termînalê ne amade ye
+Extended_description-ku.UTF-8: Ev build a debian-installer (sazkarê debian) ji bo nîşandayîna shell'ekê plugin a termînalê pêwist dike. Mixabin, ew plugin niha ne amade ye.\n\nQey piştî gava sazkirinê ya "Barkirina pêkhatiyên pêvekî" dê amade be.\n\n${WORKAROUND}
+Description-lo.UTF-8: ບໍ່ມີປຣັ້ກອີນຮອງຮັບເທີມີນຣັດ
+Extended_description-lo.UTF-8: ໂປຣແກຣມຕິດຕັ້ງເດບຽນລຸ່ນນີ້ ຕ້ອງການປຣັ້ກອີນເທີມີນຣັດຈື່ງຈະໃຊ້ເຊຣວໄດ້ແຕ່ບໍ່ພົບປຣັ້ກອີນດັ່ງກວ່າ.\n\nຄວນມີປຣັ້ກອີນດັ່ງກວ່າຕັ້ງແຕ່ເຖີງຂັ້ນຕອນ "ກຳລັງໂຫຼດອົງປະກອບເພີ່ມເຕີມ" ຂອງການຕິດຕັ້ງແລ້ວ.\n\n${WORKAROUND}
+Description-lt.UTF-8: Terminalo priedas neprieinamas
+Extended_description-lt.UTF-8: Šiam debiano įdiegikliui reikalingas terminalo įskiepis, kad rodytų apvalkalą (shell). Deja, ši papildoma programa yra šiuo metu neprieinama.\n\nTai bus pasiekiama atlikus įdiegimo žingsnį "Papildomų komponentų įkėlimas" \n\n${WORKAROUND}
+Description-lv.UTF-8: Komandrindas spraudnis nav pieejams
+Extended_description-lv.UTF-8: Šai debian-installer versijai ir nepieciešams komandrindas spraudnis, lai attēlotu komandrindu. Diemžēl, tas nav pieejams.\n\nTas varētu kļūt pieejams pēc "Ielādē papildu komponentes" instalēšanas soļa.\n\n${WORKAROUND}
+Description-mk.UTF-8: Додатокот за терминалот не е достапен
+Extended_description-mk.UTF-8: Овој билд на debian инсталерот има потреба од приклучок за терминалот за да може да прикаже школка. За жал, овој приклучок е моментално недостапен.\n\nТреба да биде достапен откако ќе стигнете до  делот од инсталацијата „Вчитување на додатните компоненти“.\n\n${WORKAROUND}
+Description-nb.UTF-8: Terminaltillegget er ikke tilgjengelig
+Extended_description-nb.UTF-8: Denne versjonen av Debian installasjonsprogrammet krever terminaltillegget for å være i stand til å vise et skall. Dessverre er ikke dette tillegget tilgjengelig nå.\n\nDet burde være tilgjengelig etter at du har nådd installasjonssteget «Laster ekstra komponenter».\n\n${WORKAROUND}
+Description-nl.UTF-8: Terminal-plugin is niet beschikbaar
+Extended_description-nl.UTF-8: Om een shell te kunnen tonen in deze versie van het installatiesysteem is de terminal-plugin vereist. Helaas is deze plugin op dit moment niet beschikbaar.\n\nDe plugin zou wel beschikbaar moeten zijn nadat aanvullende componenten van het installatiesysteem zijn geladen.\n\n${WORKAROUND}
+Description-nn.UTF-8: Terminaltillegget er ikkje tilgjengeleg
+Extended_description-nn.UTF-8: Denne versjonen av installasjonsprogrammet til Debian krev terminaltillegget for å vere i stand til å vise eit skal. Dessverre er ikkje dette tillegget tilgjengeleg no.\n\nDet skal vere tilgjengeleg etter at du har nådd installasjonssteget «Lastar ekstra komponentar».\n\n${WORKAROUND}
+Description-no.UTF-8: Terminaltillegget er ikke tilgjengelig
+Extended_description-no.UTF-8: Denne versjonen av Debian installasjonsprogrammet krever terminaltillegget for å være i stand til å vise et skall. Dessverre er ikke dette tillegget tilgjengelig nå.\n\nDet burde være tilgjengelig etter at du har nådd installasjonssteget «Laster ekstra komponenter».\n\n${WORKAROUND}
+Description-pl.UTF-8: Wtyczka terminala niedostępna
+Extended_description-pl.UTF-8: Ta wersja instalatora wymaga podłączonego terminala, by wyświetlić powłokę. Niestety ta wtyczka jest aktualnie niedostępna.\n\nPowinna być dostępna na etapie "Ładowanie dodatkowych składników".\n\n${WORKAROUND}
+Description-pt.UTF-8: Não está disponível o plugin de terminal
+Extended_description-pt.UTF-8: Esta compilação do debian-installer necessita do plugin de terminal para que possa mostrar uma shell. Infelizmente, este plugin está actualmente indisponível.\n\nDeve estar disponível após alcançar a etapa "Carregar os componentes adicionais".\n\n${WORKAROUND}
+Description-pt_BR.UTF-8: Extensão "terminal" não disponível
+Extended_description-pt_BR.UTF-8: Esta compilação do instalador Debian requer a extensão "terminal" para exibir um shell. Infelizmente, esta extensão não está disponível no momento.\n\nEla deveria estar disponível após o passo de instalação "Carregando componentes adicionais".\n\n${WORKAROUND}
+Description-ro.UTF-8: Plugin-ul de terminal nu este disponibil
+Extended_description-ro.UTF-8: Această versiune a Programului de instalare Debian are nevoie de plugin-ul de terminal pentru a afișa un terminal. Din păcate, acest plugin nu este momentan disponibil.\n\nAr trebui să fie disponibil după ce se ajunge la pasul de instalare „Se descarcă componentele adiționale”.\n\n${WORKAROUND}
+Description-ru.UTF-8: Модуль терминала не доступен
+Extended_description-ru.UTF-8: Чтобы отобразить оболочку командной строки для данной сборки debian-installer требуется модуль терминала. К сожалению, в данный момент этот модуль недоступен.\n\nОн будет доступен после завершения этапа установки "Загрузка дополнительных компонентов".\n\n${WORKAROUND}
+Description-si.UTF-8: අග්‍ර ප්ලගිනය නොපවතී
+Extended_description-si.UTF-8: මෙමෙ debian-ස්ථාපකයට ශෙලය පෙන්වීම සඳහා අග්‍ර ප්ලගිනයක් අවශ්‍ය වේ. අවාසනාවට එම ප්ලගිනය දැනට නොපවතී.\n\nඑය "අමතර සංරචක පූර්ණය කරමින්" ස්ථාපන අදියරට පැමිණි පසු ලැබිය හැකිවනු ඇත.\n\n${WORKAROUND}
+Description-sk.UTF-8: Zásuvný modul terminálu nie je k dispozícii
+Extended_description-sk.UTF-8: Toto zostavenie debian-installer vyžaduje zásuvný modul terminálu, aby bolo možné zobraziť shell. Nanešťastie tento modul nie je momentálne dostupný.\n\nMal by byť dostupný po dosiahnutí kroku inštalácie „Načítanie ďalších komponentov“.\n\n${WORKAROUND}
+Description-sl.UTF-8: Vstavek Terminal ni na voljo
+Extended_description-sl.UTF-8: Ta različica namestitvenega orodja Debian zahteva vstavek Terminal, da lahko prikaže ukazno lupino. Na žalost ta vstavek trenutno ni na voljo.\n\nNa razpolago bi moral biti pri namestitvenem koraku  "Nalaganje dodatnih komponent".\n\n${WORKAROUND}
+Description-sq.UTF-8: Shtesa e terminalit nuk gjendet
+Extended_description-sq.UTF-8: Ky debian-instalues ka nevojë për shtesën terminal në mënyrë që të shfaqë një shell. Fatkeqsisht, kjo shtesë nuk gjendet.\n\nShtesën do ta gjeni pasi të arrini hapin e instalimit "Duke ngarkuar përbërësit shtesë".\n\n${WORKAROUND}
+Description-sr.UTF-8: Дотатак за терминал није доступан
+Extended_description-sr.UTF-8: Ова верзија „debian-installer“ програма захтева додатак за терминал да би приказала командни интерфејс. На жалост, овај додатак тренутно није доступан.\n\nТребао би бити доступан након корака инсталације „Учитавање додатних компоненти„.\n\n${WORKAROUND}
+Description-sv.UTF-8: Terminalinsticksmodulen är inte tillgänglig
+Extended_description-sv.UTF-8: Detta bygge av debian-installer kräver terminalinsticksmodulen för att kunna visa ett skal. Tyvärr är denna insticksmodulen inte tillgänglig för tillfället.\n\nDet bör finnas tillgängligt efter att du har nått till installationssteget "Läser in ytterligare komponenter".\n\n${WORKAROUND}
+Description-te.UTF-8: టర్మినల్ ప్లగ్ ఇన్  అందుబాటులో లేదు.
+Extended_description-te.UTF-8: షెల్  చూపించడానికి  ఈ డెబియన్ స్థాపన వ్యవస్థ  నిర్మితి (build) కి  టర్మినల్ ప్లగ్ ఇన్  కావాలి. దురదృష్టవశాత్తు, ఆ ప్లగ్ ఇన్ అందుబాటులో లేదు.\n\n"అదనపు అంశాలు ఎక్కించు" అన్న స్థాపనా అంకం తరువాత, అది అందుబాటులో వుండాలి.\n\n${WORKAROUND}
+Description-tg.UTF-8: Плагири терминал дастрас нест
+Extended_description-tg.UTF-8: Ин сохти насбкунандаи системаи Debian барои намоиш додани восит плагини терминалиро талаб мекунад. Мутаассифона, дар айни ҳол ин плагин дастнорас аст.\n\nОн ҳангоми иҷрои қадами насби "Боркунии унсурҳои иловагӣ" дастрас мешавад.\n\n${WORKAROUND}
+Description-th.UTF-8: ไม่มีปลั๊กอินรองรับเทอร์มินัล
+Extended_description-th.UTF-8: โปรแกรมติดตั้งเดเบียนรุ่นนี้ ต้องการปลั๊กอินรองรับเทอร์มินัลจึงจะใช้เชลล์ได้ แต่ไม่พบปลั๊กอินดังกล่าว\n\nควรมีปลั๊กอินดังกล่าวตั้งแต่ถึงขั้นตอน "กำลังโหลดองค์ประกอบเพิ่มเติม" ของการติดตั้งแล้ว\n\n${WORKAROUND}
+Description-tl.UTF-8: Wala ang terminal plugin
+Extended_description-tl.UTF-8: Kailangan nitong gawa ng debian-installer ang terminal plugin upang makapagpakita ng shell.  Subalit, wala sa ngayon an plugin na ito.\n\nMagagamit ito pagkatapos maabot ang hakbang sa pagluluklok "Ipinapasok ang karagdagang mga bahagi".\n\n${WORKAROUND}
+Description-tr.UTF-8: Uçbirim eklentisi mevcut değil
+Extended_description-tr.UTF-8: Debian kurulum programının bu sürümü, bir kabuk görüntüleyebilmek için uçbirim eklentisine ihtiyaç duyar. Bu eklenti şu an ne yazık ki mevcut değil.\n\nBu eklenti "Ek bileşenler yükleniyor" adımından sonra kullanılabilir.\n\n${WORKAROUND}
+Description-ug.UTF-8: تېرمىنال قىستۇرما دېتالىنى ئىشلەتكىلى بولمايدۇ
+Extended_description-ug.UTF-8: بۇ نەشرىدىكى debian-installer  shell نى كۆرسىتىش ئۈچۈن تېرمىنال قىستۇرمىسىغا ئېھتىياجلىق. ئەپسۇسلىنارلىقى، بۇ قىستۇرمىنى ھازىر ئىشلەتكىلى بولمايدۇ.\n\nئۇ ئورنىتىش باسقۇچى "قوشۇمچە بۆلەكلەرنى يۈكلە" باسقۇچىغا كەلگەندە ئىشلەتكىلى بولىدۇ.\n\n${WORKAROUND}
+Description-uk.UTF-8: Термінальний додаток недоступний.
+Extended_description-uk.UTF-8: Для того, що показувати командну оболонку ця збірка встановлювача Debian потребує термінального додатку. На жаль, на разі термінальний додаток недоступний.\n\nВін повинен з'явитись після досягнення кроку „Завантаження додаткових компонентів“.\n\n${WORKAROUND}
+Description-vi.UTF-8: Phần bổ sung trình bao không sẵn sàng
+Extended_description-vi.UTF-8: Bản xây dựng trình cài đặt Debian này cũng đòi hỏi phần bổ sung trình bao để hiển thị một trình bao. Rất tiếc là phần bổ sung này hiện thời không sẵn sàng.\n\nTuy nhiên, nó nên sẵn sàng sau khi tới bước cài đặt « Đang tải các thành phần thêm ».\n\n${WORKAROUND}
+Description-zh_CN.UTF-8: 终端插件不可用
+Extended_description-zh_CN.UTF-8: 此版本的 debian-installer 需要终端插件以显示 shell。遗憾的是，此插件现在不可用。\n\n它应该会在安装步骤到达“加载附加组件”后可用。\n\n${WORKAROUND}
+Description-zh_TW.UTF-8: 無法取得終端機外掛
+Extended_description-zh_TW.UTF-8: 這個版本的 debian-installer 需要終端機外掛以便能呼叫並顯示 shell。但糟糕的是，目前還無法取得這個外掛。\n\n等進行到 "載入額外的元件" 這個安裝步驟後，應當就能使用了。\n\n${WORKAROUND}
+
+Name: debian-installer/theme
+Type: string
+Description: for internal use; can be preseeded
+Extended_description: Theme to use for the (newt or gtk) frontend
+
+Name: debian-installer/user-setup-udeb/title
+Type: title
+Description: Set up users and passwords
+Description-am.UTF-8: ተጠቃሚዎችንና ማለፊያ ቃላትን ሰይም
+Description-ar.UTF-8: إعداد المستخدمين وكلمات السر
+Description-ast.UTF-8: Afitar usuarios y contraseñes
+Description-be.UTF-8: Наладзіць карыстальнікаў і паролі
+Description-bg.UTF-8: Добавяне на потребители и задаване на пароли
+Description-bn.UTF-8: ব্যবহারকারী ও পাসওয়ার্ড নির্ধারণ করো
+Description-bo.UTF-8: སྤྱོད་མཁན་དང་གསང་གྲངས་སྒྲིག་འཛུགས་བྱེད་པ
+Description-bs.UTF-8: Postavite korisnike i šifre
+Description-ca.UTF-8: Configura els usuaris i les contrasenyes
+Description-cs.UTF-8: Nastavit uživatele a hesla
+Description-cy.UTF-8: Paratoi defnyddwyr a chyfrineiriau
+Description-da.UTF-8: Sæt brugere og adgangskoder op
+Description-de.UTF-8: Benutzer und Passwörter einrichten
+Description-dz.UTF-8: ལག་ལེན་པ་ཚུ་དང་ཆོག་ཡིག་ཚུ་གཞི་སྦྱོར་འབད་ནི།
+Description-el.UTF-8: Ρύθμιση χρηστών και κωδικών πρόσβασης
+Description-eo.UTF-8: Agordi uzulojn kaj pasvortojn
+Description-es.UTF-8: Configurar usuarios y contraseñas
+Description-et.UTF-8: Kasutajate ja paroolide seadistamine
+Description-eu.UTF-8: Konfiguratu erabiltzailea eta pasahitzak
+Description-fa.UTF-8: ایجاد نام‌های کاربری و کلمات عبور.
+Description-fi.UTF-8: Luo käyttäjätunnukset ja salasanat
+Description-fr.UTF-8: Créer les utilisateurs et choisir les mots de passe
+Description-ga.UTF-8: Socraigh úsáideoirí agus focail fhaire
+Description-gl.UTF-8: Configurar os usuarios e contrasinais
+Description-gu.UTF-8: વપરાશકર્તાઓ અને પાસવર્ડો ગોઠવો
+Description-he.UTF-8: קביעת משתמשים וסיסמאות
+Description-hi.UTF-8: उपयोक्ता व पासशब्द सेटअप करें
+Description-hr.UTF-8: Postavi korisnike i lozinke
+Description-hu.UTF-8: Felhasználók és jelszavaik felvétele
+Description-id.UTF-8: Menata pengguna dan kata sandi
+Description-is.UTF-8: Stilla notendur og lykilorð
+Description-it.UTF-8: Impostazione utenti e password
+Description-ja.UTF-8: ユーザとパスワードのセットアップ
+Description-ka.UTF-8: ანგარიშებისა და პაროლების კონფიგურაცია
+Description-kk.UTF-8: Пайдаланушылардың тіркелгілерін мен парольдерін баптау
+Description-km.UTF-8: រៀប​ចំ​អ្នក​ប្រើ និង ពាក្យ​សម្ងាត់​
+Description-kn.UTF-8: ಬಳಕೆದಾರರನ್ನು ಹಾಗು ಗುಪ್ತಪದಗಳನ್ನು ರಚಿಸು
+Description-ko.UTF-8: 사용자 및 암호 설정
+Description-ku.UTF-8: Bikarhêner û şîfreyan çêbike
+Description-lo.UTF-8: ຕັ້ງບັນຊີຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານ
+Description-lt.UTF-8: Naudotojų ir slaptažodžių nustatymas
+Description-lv.UTF-8: Iestatīt lietotājus un paroles
+Description-mk.UTF-8: Постави корисници и лозинки
+Description-ml.UTF-8: ഉപയോക്താക്കളും അടയാള വാക്കുകളും ഒരുക്കുക
+Description-mr.UTF-8: वापरदार व परवलीशब्द निश्चिती करा
+Description-nb.UTF-8: Sett opp brukere og passord
+Description-ne.UTF-8: प्रयोगकर्ताहरू र पासवर्डहरू सेट गर्नुहोस्
+Description-nl.UTF-8: Gebruikers en wachtwoorden instellen
+Description-nn.UTF-8: Set opp brukarar og passord
+Description-no.UTF-8: Sett opp brukere og passord
+Description-pa.UTF-8: ਯੂਜ਼ਰ ਅਤੇ ਪਾਸਵਰਡ ਸੈੱਟਅੱਪ
+Description-pl.UTF-8: Ustaw użytkowników i hasła
+Description-pt.UTF-8: Definir utilizadores e palavras-passe
+Description-pt_BR.UTF-8: Configurar usuários e senhas
+Description-ro.UTF-8: Configurare utilizatori și parole
+Description-ru.UTF-8: Настройка учётных записей пользователей и паролей
+Description-se.UTF-8: Heivet geavaheddjiid ja beassansániid
+Description-si.UTF-8: පරිශීලක සහ රහස්පදය සැකසීම
+Description-sk.UTF-8: Nastavenie používateľov a hesiel
+Description-sl.UTF-8: Nastavitev uporabnikov in gesel
+Description-sq.UTF-8: Përgatit përdoruesit dhe fjalëkalimet
+Description-sr.UTF-8: Подеси кориснике и лозинке
+Description-sv.UTF-8: Skapa användare och lösenord
+Description-ta.UTF-8: பயனர்கள் மற்றும் கடவுச்சொற்களை அமை
+Description-te.UTF-8: వాడుకరులను మరియ సంకేతపదాలను   సృష్టించు
+Description-tg.UTF-8: Танзими корбарон ва паролҳо
+Description-th.UTF-8: ตั้งบัญชีผู้ใช้และรหัสผ่าน
+Description-tl.UTF-8: Ihanda ang mga gagamit at mga kontrasenyas
+Description-tr.UTF-8: Kullanıcıları ve parolaları oluştur
+Description-ug.UTF-8: ئىشلەتكۈچى ۋە ئىم سەپلەش
+Description-uk.UTF-8: Налаштувати користувачів та паролі
+Description-vi.UTF-8: Thiết lập người dùng và mật khẩu
+Description-zh_CN.UTF-8: 设置用户和密码
+Description-zh_TW.UTF-8: 設定使用者及密碼
+
+Name: debian-installer/workaround-gtk
+Type: text
+Description: Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to get back to the installer.
+Description-ar.UTF-8: بدلاً من ذلك، يمكنك الوصول إلى سطر الأوامر بضغط CTRL+ALT+F2. استخدم ALT+F5 للعودة إلى برنامج التثبيت.
+Description-ast.UTF-8: Alternativamente, pues abrir una shell calcando Ctrl+Alt+F2. Usa Alt+F5 pa volver al instalador.
+Description-be.UTF-8: Або вы можаце адкрыць абалонку, націснуўшы Ctrl+Alt+F2. Націсніце Alt+F5, каб вярнуцца ва ўстаноўку.
+Description-bg.UTF-8: Можете да стартирате обвивка и като натиснете Ctrl+Alt+F2. Използвайте Alt+F5 за да се върнете в инсталатора.
+Description-bo.UTF-8: ཡང་ན་ཁྱོད་ཀྱིས་Ctrl+Alt+F2 མནན་ནས་འཇུག་སྒོ་ཞིག་ཁ་ཕྱེ་ཐུབ Alt+F5 སྤྱད་ནས་སྒྲིག་འཇུག་ཆས་ཐོག་ཏུ་ཕར་སྐྱོད་ཐུབ
+Description-bs.UTF-8: Alternativno, možete otvoriti terminal kombinacijom tipki Ctrl+Alt+F2. Koristite Alt+F5 da se vratite u instalaciju.
+Description-ca.UTF-8: Alternativament, podeu obrir un intèrpret d'ordres prement Ctrl+Alt+F2. Empreu Alt+F5 per a tornar a l'instal·lador.
+Description-cs.UTF-8: Alternativně můžete získat shell stiskem Ctrl+Alt+F2. Pro návrat zpět do instalátoru použijte Alt+F5.
+Description-cy.UTF-8: Neu, gallwch agor cragen drwy wasgu Ctrl+Alt+F2. Defnyddiwch Alt+F5 i ddychwelyd i'r sefydlydd.
+Description-da.UTF-8: Alternativt kan du åbne en skal ved at taste Ctrl+Alt+F2. Brug Alt+F5 for at vende tilbage til installationen.
+Description-de.UTF-8: Alternativ können Sie eine Shell durch Drücken von Strg+Alt+F2 öffnen. Verwenden Sie Alt+F5, um zum Installer zurückzukehren.
+Description-el.UTF-8: Εναλλακτικά, μπορείτε να ανοίξετε ένα κέλυφος πληκτρολογώντας Ctrl+Alt+F2.Χρησιμοποιήστε τον συνδυασμό πλήκτρων  Alt+F5 για να επιστρέψετε στον εγκαταστάτη.
+Description-eo.UTF-8: Alternative, vi povas lanĉi ŝelon per premado de Ctrl+Alt+F2. Uzu la kombinon Alt+F5 por retroiri al la instalilo.
+Description-es.UTF-8: También puede abrir un intérprete de órdenes pulsando Ctrl+Alt+F2. Utilice Alt+F5 para volver al instalador.
+Description-et.UTF-8: Lisaks võid sa avad kesta klahvikombinatsiooniga Ctrl+Alt+F2. Paigaldajasse naasmiseks vajuta Alt+F5.
+Description-eu.UTF-8: Bestela, shell bat ireki dezakezu Ktrl+Alt+F2 sakatuz. Alt+F5 erabili instalatzailera itzultzeko.
+Description-fa.UTF-8: همچنین شما می‌توانید یک پوسته با زدن Ctrl+Alt+F5 باز کنید. با زدن کلید Alt+F5 به نصاب باز می‌گردید.
+Description-fi.UTF-8: Vaihtoehtoisesti voit avata komentotulkin painamalla Ctrl+Alt+F2. Näppäinyhdistelmällä Alt+F5 pääset takaisin asentimeen.
+Description-fr.UTF-8: Dans l'intervalle, vous pouvez accéder à la ligne de commande avec la combinaison de touches Ctrl+Alt+F2. Vous pourrez ensuite retourner dans l'installateur avec Alt+F5.
+Description-ga.UTF-8: Mar mhalairt air sin, is féidir leat blaosc a oscailt trí Ctrl+Alt+F2 a bhrú.  Bain úsáid as Alt+F5 chun filleadh ar an suiteálaí.
+Description-gl.UTF-8: De xeito alternativo, pode abrir unha shell premendo Control+Alt+F2. Empregue Alt+F5 para volver ao instalador.
+Description-he.UTF-8: לחלופין, אתה יכול לפתוח מעטפת על ידי הקשת Ctrl+Alt+F2.  השתמש ב-Alt+F5 כדי להגיע חזרה לתוכנית ההתקנה.
+Description-hr.UTF-8: Alternativno, možete otvoriti ljusku tako da pritisnete Ctrl+Alt+F2. Koristite Alt+F5 za povratak u instalacijski program.
+Description-hu.UTF-8: Héj nyitható a Ctrl+Alt+F2 leütésével. Az Alt+F5 visszatér a telepítőhöz.
+Description-id.UTF-8: Sebagai pilihan, Anda dapat membuka shell dengan menekan tombol Ctrl+Alt+F2. Tekan Alt+F5 untuk kembali pada program instalasi.
+Description-is.UTF-8: Einnig er hægt að opna skel með því að ýta á Ctrl+Alt+F2. Notaðu svo Alt+F5 til halda uppsetningu áfram.
+Description-it.UTF-8: In alternativa è possibile aprire una shell premendo Ctrl+Alt+F2. Usare Alt+F5 per tornare al programma d'installazione.
+Description-ja.UTF-8: 別の方法として、Ctrl+Alt+F2 を押してシェルを開くことができます。インストーラに戻るには、Alt+F5 を使います。
+Description-kk.UTF-8: Қоршамды қолдан ашу үшін Ctrl+Alt+F2 басуға болады. Орнату бағдарламасына оралу үшін Alt+F5 басыңыз.
+Description-kn.UTF-8: ಪರ್ಯಾಯವಾಗಿ, ನೀವು ಶೆಲ್ ಅನ್ನು Ctrl+Alt+F2 ಒತ್ತಿ ತೆರೆಯಬಹುದು. ಅನುಸ್ಥಾಪಕ ವ್ಯವಸ್ಥೆಗೆ ಹಿಂತಿರುಗಲು Alt+F5 ಅನ್ನು ಬಳಸಿ
+Description-ko.UTF-8: 다른 방법으로 Ctrl+Alt+F2를 눌러서 쉘을 열 수 있습니다. 설치 프로그램으로 돌아오려면 Alt+F5를 누르십시오.
+Description-ku.UTF-8: Wekî alternatîf, tu dikarî bi Ctrl+Alt+F2 shell'ekê vekî. Bi Alt+F5 tu dê vegerî sazkarê.
+Description-lo.UTF-8: ຫຼືອີກວີທີ່ໜື່ງເຈົ້າສາມາດເປີດເຊຣວໄດ້ໂດ້ກົດ Ctrl+Alt+F2 ແລະກົດ Alt+F5 ເພື່ອຍ້ອນກັບມາທີ່ໂປຣແກຣມຕິດຕັ້ງ.
+Description-lt.UTF-8: Arba kitaip, Jūs galite atidaryti apvalkalą (shell), spausdamas Ctrl+Alt+F2. Naudokite Alt+F5, kad grįžtumėte į įdiegiklį.
+Description-lv.UTF-8: Tāpat jūs varat piekļūt komandrindai nospiežot Ctrl+Alt+F2. Lietojiet taustiņu kombināciju Alt+F5, lai atgrieztos instalēšanas procesā.
+Description-mk.UTF-8: Како алтернатива можете да отворите школка со притискање на Ctrl+Alt+F2. Со Alt+F5 се враќате назад на инсталерот.
+Description-nb.UTF-8: Alternativt kan du åpne et skall ved å trykke Ctrl+Alt+F2. Bruk Alt+F5 for å komme tilbake til installasjonsprogrammet.
+Description-nl.UTF-8: Als alternatief kunt u ook een shell verkrijgen met de toetscombinatie Ctrl+Alt+F2. Gebruik Alt+F5 om de installatie te hervatten.
+Description-nn.UTF-8: Alternativt kan du opne eit skal ved å trykkje Ctrl+Alt+F2. Bruk Alt+F5 for å kome tilbake til installasjonsprogrammet.
+Description-no.UTF-8: Alternativt kan du åpne et skall ved å trykke Ctrl+Alt+F2. Bruk Alt+F5 for å komme tilbake til installasjonsprogrammet.
+Description-pl.UTF-8: Możesz również uruchomić powłokę wciskając Ctrl+Alt+F2. Użyj Alt+F5 by wrócić do instalatora.
+Description-pt.UTF-8: Em alternativa, pode abrir uma shell pressionando Ctrl+Alt+F2. Utilize Alt+F5 para voltar ao instalador.
+Description-pt_BR.UTF-8: Alternativamente, você pode abrir um shell pressionando Ctrl+Alt+F2. Use Alt+F5 para retornar ao instalador.
+Description-ro.UTF-8: Există și posibilitatea să deschideți o consolă apăsând Ctrl+Alt+F2. Folosiți Alt+F5 pentru a vă întoarce la programul de instalare.
+Description-ru.UTF-8: В качестве альтернативы, вы можете открыть оболочку нажав Ctrl+Alt+F2. Комбинация Alt+F5 вернёт вас обратно в программу установки.
+Description-si.UTF-8: ඊට අමතරම ඔබට Ctrl+Alt+F2 එබීමෙන් ශෙලය ලබාගත හැකි අතර. ආපසු ස්ථාපකයට යාමට Alt+F5 යොදාගන්න.
+Description-sk.UTF-8: Namiesto toho môžete otvoriť shell stlačením Ctrl+Alt+F2. Pomocou Alt+F5 sa vrátite späť do inštalátora.
+Description-sl.UTF-8: Kot alternativa lahko odprete ukazno lupino s pritiskom na Ctrl+Alt+F2. Z Alt+F5 se vrnete v namestitveno orodje.
+Description-sq.UTF-8: Ju mund të hapni një shell duke shtypur Ctrl+Alt+F2. Përdorni Alt+F5 për t'u kthyer tek instaluesi.
+Description-sr.UTF-8: Командни интерфејс можете отворити и на други начин, комбинацијом тастера Ctrl+Alt+F2. Користите Alt+F5 за повратак на инсталер.
+Description-sv.UTF-8: Alternativt kan du öppna ett skal genom att trycka Ctrl+Alt+F2. Använd Alt+F5 för att komma tillbaka till installationsprogrammet.
+Description-te.UTF-8: వేరేవిధంగా, షెల్  తెరవడానికి  Ctrl+Alt+F2 నొక్కండి. Alt+F5 వాడి, స్థాపన వ్యవస్థ కి వెళ్లవచ్చు.
+Description-tg.UTF-8: Илова бар ин, шумо метавонед воситро бо пахшкунии тугмаҳои Ctrl+Alt+F2 кушоед. Барои бозгашт ба насбкунанда, тугмаҳои Alt+F5 истифода баред.
+Description-th.UTF-8: หรืออีกวิธีหนึ่ง คุณสามารถเปิดเชลล์ได้โดยกด Ctrl+Alt+F2 และกด Alt+F5 เพื่อย้อนกลับมาที่โปรแกรมติดตั้ง
+Description-tl.UTF-8: Maaari ding piliing magbukas ng shell gamit ang pagpindot ng Ctrl+Alt+F2. Gamitin an Alt+F5 para bumalik sa installer.
+Description-tr.UTF-8: Bunun yerine, Ctrl+Alt+F2 tuşlarına basarak da bir uçbirim açabilirsiniz. Kurulum programına geri dönmek için Alt + F5 tuş bileşimini kullanabilirsiniz.
+Description-ug.UTF-8: ياكى سىز بىرلا ۋاقىتتا Ctrl+Alt+F2 نى بېسىپ shell نى ئاچالايسىز. Alt+F5 ئىشلىتىپ ئورنىتىش پروگراممىسىغا قايتالايسىز.
+Description-uk.UTF-8: Натомість, ви можете відкрити командний рядок, натиснувши Ctrl+Alt+F2. Щоб повернутися назад до встановлювача використовуйте Alt+F5.
+Description-vi.UTF-8: Hoặc bạn có khả năng mở một trình bao bằng cách bấm tổ hợp phím Ctrl+Alt+F2. Hãy sử dụng Alt+F5 để quay lại dùng trình cài đặt.
+Description-zh_CN.UTF-8: 或者，您可以同时按下 Ctrl+Alt+F2 打开 shell。使用 Alt+F5 以回到安装程序。
+Description-zh_TW.UTF-8: 或者，您可以按下 Ctrl+Alt+F2 來開啟 shell。按下 Alt+F5 可以再回到安裝程式。
+
+Name: di-utils-reboot/really_reboot
+Type: boolean
+Default: false
+Description: Are you sure you want to exit now?
+Extended_description: If you have not finished the install, your system may be left in an unusable state.
+Description-ar.UTF-8: هل أنت متأكّد أنّك تريد الخروج الآن؟
+Extended_description-ar.UTF-8: إن لم تنته من التثبيت، قد يترك نظامك بوضع لا يسمح باستخدامه.
+Description-ast.UTF-8: ¿De xuru que quies salir agora?
+Extended_description-ast.UTF-8: Si entá nun finó la instalación, el so sistema pue quedar inutilizable.
+Description-be.UTF-8: Ці вы ўпэўненыя, што хочаце выйсці зараз?
+Extended_description-be.UTF-8: Калі Вы не скончылі працэс усталявання, Вашая сістэма можа застацца ў непрыдатным да працы стане.
+Description-bg.UTF-8: Сигурен ли сте, че искате да излезете веднага?
+Extended_description-bg.UTF-8: Ако не сте довършили инсталацията, Вашата система може да се окаже в неизползваемо състояние.
+Description-bo.UTF-8: ཁྱོད་ཀྱིས་ད་ལྟ་མཚམས་བཞག་པར་གཏན་ཁེལ་ཡིན་ནམ
+Extended_description-bo.UTF-8: སྒྲིག་འཇུག་དེ་མཇུག་རྫོགས་མེད་ན་ཁྱོད་ཀྱི་མ་ལག་སྤྱོད་མི་རུང་བའི་རྣམ་པའི་ཐོག་ཏུ་ཡོད་སྲིད
+Description-bs.UTF-8: Da li sigurno želite sada izaći?
+Extended_description-bs.UTF-8: Ako niste završili instalaciju, Vaš sistem može ostati u neupotrebljivom stanju.
+Description-ca.UTF-8: Esteu segur de voler eixir ara?
+Extended_description-ca.UTF-8: Si no heu finalitzat la instal·lació, el sistema pot quedar en un estat inusable.
+Description-cs.UTF-8: Jste si jisti, že chcete skončit?
+Extended_description-cs.UTF-8: Pokud jste instalaci nedovedli do konce, váš systém může zůstat v nepoužitelném stavu.
+Description-cy.UTF-8: A ydych yn siwr eich bod am adael nawr?
+Extended_description-cy.UTF-8: Os nad ydych wedi gorffen y sefydliad, gall eich system gael ei adael mewn cyflwr annefnyddiol.
+Description-da.UTF-8: Er du sikker på, at du vil afslutte nu?
+Extended_description-da.UTF-8: Hvis du ikke har afsluttet installationen, kan dit system være ubrugeligt.
+Description-de.UTF-8: Sind Sie sicher, dass Sie die Installation beenden möchten?
+Extended_description-de.UTF-8: Wenn Sie Ihre Installation nicht abgeschlossen haben, könnte Ihr System nicht boot-fähig sein.
+Description-el.UTF-8: Είστε σίγουρος/η ότι θέλετε να εγκαταλείψετε τώρα;
+Extended_description-el.UTF-8: Αν δεν έχετε ολοκληρώσει την εγκατάσταση, το σύστημα πιθανόν να αφεθεί σε μη χρησιμοποιήσιμη κατάσταση.
+Description-eo.UTF-8: Ĉu vi certas ke vi volas eliri nun?
+Extended_description-eo.UTF-8: Se vi ne plenumis la instaladon, tiel via sistemo povos iĝi neuzebla.
+Description-es.UTF-8: ¿Seguro que quiere salir ahora?
+Extended_description-es.UTF-8: El sistema podría quedar inutilizable si todavía no ha finalizado la instalación.
+Description-et.UTF-8: Kas oled kindel, et soovid väljuda?
+Extended_description-et.UTF-8: Kui sa pole paigaldamist lõpule viinud, võib su süsteem kasutuskõlbmatusse olekusse jääda.
+Description-eu.UTF-8: Ziur zaude orain irten nahi duzula?
+Extended_description-eu.UTF-8: Instalazioa amaitu ez baduzu, sistema erabilezin gera daiteke.
+Description-fa.UTF-8: آیا مطمئن هستید که هم‌اکنون می‌خواهید خارج شوید؟
+Extended_description-fa.UTF-8: اگر نصب را تمام نکرده‌اید، سیستم شما ممکن است در یک وضعیت ناپایدار قرار داشته باشد.
+Description-fi.UTF-8: Haluatko varmasti lopettaa nyt?
+Extended_description-fi.UTF-8: Jos et ole päättänyt asennusta, järjestelmäsi voi jäädä käyttökelvottomaan tilaan.
+Description-fr.UTF-8: Voulez-vous vraiment quitter maintenant ?
+Extended_description-fr.UTF-8: Si l'installation n'est pas terminée, le système peut être inutilisable.
+Description-ga.UTF-8: An bhfuil tú cinnte gur mian leat scor anois?
+Extended_description-ga.UTF-8: Mura bhfuil an tsuiteáil críochnaithe, seans nach mbeidh do chóras inúsáidte.
+Description-gl.UTF-8: Desexa realmente saír agora?
+Extended_description-gl.UTF-8: Se non rematou a instalación, o sistema pode quedar nun estado non utilizábel.
+Description-he.UTF-8: האם אתה בטוח שברצונך לצאת עכשיו?
+Extended_description-he.UTF-8: אם לא סיימת את ההתקנה, יתכן שהמערכת תישאר במצב לא שמיש.
+Description-hr.UTF-8: Jeste li sigurni da sada želite izaći?
+Extended_description-hr.UTF-8: Ako niste završili instalaciju, sustav će vam možda ostati neupotrebljiv.
+Description-hu.UTF-8: Biztosan kilép?
+Extended_description-hu.UTF-8: A telepítés vége előtt a rendszer használhatatlan állapotban maradhat.
+Description-id.UTF-8: Anda yakin ingin keluar sekarang?
+Extended_description-id.UTF-8: Bila Anda tidak menyelesaikan instalasi, sistem Anda bisa jadi tidak dapat digunakan.
+Description-is.UTF-8: Ertu viss um að þú viljir hætta núna?
+Extended_description-is.UTF-8: Ef þú hefur ekki klárað uppsetningarferlið gæti vélin þín verið í ónothæfu ástandi.
+Description-it.UTF-8: Uscire veramente adesso?
+Extended_description-it.UTF-8: Se l'installazione non è stata completata il sistema potrebbe essere non utilizzabile.
+Description-ja.UTF-8: 本当に今すぐ終了しますか?
+Extended_description-ja.UTF-8: インストールをまだ終えていないのであれば、あなたのシステムは不安定な状態に置かれている可能性があります。
+Description-kk.UTF-8: Жүйеден шығуды шынымен қалайсыз ба?
+Extended_description-kk.UTF-8: Орнатуды аяқтамасаңыз, жүйе қолдануға жарамсыз түрінде қалуы мүмкін.
+Description-kn.UTF-8: ನೀವು ಖಚಿತವಾಗಿಯು ಈಗ ನಿರ್ಗಮಿಸಬೇಕೆ?
+Extended_description-kn.UTF-8: ನೀವು ಅನುಸ್ಥಾಪನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿಲ್ಲದಿದ್ದರೆ, ನಿಮ್ಮ ಗಣಕ ವ್ಯವಸ್ಥೆಯು ನಿರುಪಯೋಗಕ ಸ್ಧಿತಿಯಲ್ಲಿರಬಹುದು.
+Description-ko.UTF-8: 정말로 지금 끝내시겠습니까?
+Extended_description-ko.UTF-8: 설치를 끝마치지 않으면, 시스템이 사용 불가능한 상태로 남게 될 것입니다.
+Description-ku.UTF-8: Ji dil dixwazî niha derkevî?
+Extended_description-ku.UTF-8: Heke te sazkirin temam nekiribe, dibe ku pergala te neyê bikaranîn.
+Description-lo.UTF-8: ເຈັ້າແນ່ໃຈຫຼືບໍ່ວ່າຈະອອກຈາກໂປຣແກຣມ?
+Extended_description-lo.UTF-8: ຖ້າເຈັົ້າຍັງບໍ່ຈົບໃນຂະບວນການຕິດຕັ້ງ ລະບົບຂອງເຈົ້າອາດຈະຢູ່ໃນສະຖານະທີ່ໃຊ້ການບໍ່ໄດ້.
+Description-lt.UTF-8: Ar įsitikinę, kad norite išeiti (nutraukti) dabar?
+Extended_description-lt.UTF-8: Jei nebaigėte įdiegimo, sistema gali likti nepanaudojamoje būsenoje.
+Description-lv.UTF-8: Vai tiešām vēlaties iziet?
+Extended_description-lv.UTF-8: Ja vēl neesat pabeiguši instalēšanu, jūsu sistēma var palikt nelietojamā stāvoklī.
+Description-mk.UTF-8: Дали сте сигурни дека сакате да излезете сега?
+Extended_description-mk.UTF-8: Ако не заврши со инсталацијата, Вашиот систем може да биде остане неупотреблив.
+Description-nb.UTF-8: Er du sikker på at du vil avslutte nå?
+Extended_description-nb.UTF-8: Hvis du ikke fullførte installasjonen, så kan systemet ditt være ubrukelig.
+Description-nl.UTF-8: Weet u zeker dat u wilt afsluiten?
+Extended_description-nl.UTF-8: Het niet afwerken van de installatie kan uw systeem in een onbruikbare staat achterlaten.
+Description-nn.UTF-8: Vil du verkeleg avslutte no?
+Extended_description-nn.UTF-8: Viss du ikkje fullførte installasjonen, så kan systemet ditt vere i ein ubrukeleg tilstand.
+Description-no.UTF-8: Er du sikker på at du vil avslutte nå?
+Extended_description-no.UTF-8: Hvis du ikke fullførte installasjonen, så kan systemet ditt være ubrukelig.
+Description-pl.UTF-8: Na pewno chcesz teraz zakończyć?
+Extended_description-pl.UTF-8: Jeżeli instalacja nie została ukończona, twój system może okazać się bezużyteczny.
+Description-pt.UTF-8: Tem a certeza que quer terminar agora?
+Extended_description-pt.UTF-8: Caso ainda não tenha terminado a instalação o seu sistema pode ficar num estado em que não é possível iniciá-lo.
+Description-pt_BR.UTF-8: Você tem certeza que deseja sair agora?
+Extended_description-pt_BR.UTF-8: Se você não terminou a instalação, seu sistema pode ter sido deixado em um estado inutilizável.
+Description-ro.UTF-8: Sigur doriți să ieșiți acum?
+Extended_description-ro.UTF-8: Dacă nu ați terminat instalarea, sistemul dumneavoastră ar putea fi lăsat într-o stare inutilizabilă.
+Description-ru.UTF-8: Вы уверены, что хотите выйти прямо сейчас?
+Extended_description-ru.UTF-8: Если вы не закончили установку, система может оказаться в неработоспособном состоянии.
+Description-si.UTF-8: ඔබට දැන් පිටවීමට ඇවැසිද?
+Extended_description-si.UTF-8: ඔබ විසින් ස්ථාපනය අවසන් කර නොමැත, ඔබේ පද්ධතිය භාවිත කල නොහැකි තත්වයේ පවතිනු ඇත.
+Description-sk.UTF-8: Ste si istí, že to chcete ukončiť?
+Extended_description-sk.UTF-8: Ak ste neukončili inštaláciu, váš systém môže zostať v nepoužiteľnom stave.
+Description-sl.UTF-8: Ali ste prepričani, da želite končati zdaj?
+Extended_description-sl.UTF-8: Če niste dokončali namestitve bo vaš sistem morda ostal v neuporabnem stanju.
+Description-sq.UTF-8: Je i sigurtë që do të dalësh tani?
+Extended_description-sq.UTF-8: Nëse nuk ke mbaruar instalimin, sistemi mund të ketë mbetur në një gjendje të papërdorshme.
+Description-sr.UTF-8: Да ли сте сигурни да сада желите да изађете?
+Extended_description-sr.UTF-8: Ако нисте завршили инсталацију, ваш систем може бити остављен у нестабилном стању.
+Description-sv.UTF-8: Är du säker på att du vill avsluta nu?
+Extended_description-sv.UTF-8: Om du inte har slutfört installationen kan ditt system ha lämnats ett oanvändbart tillstånd.
+Description-te.UTF-8: నిజంగా నిష్క్రమించాలి అనుకుంటున్నారా?
+Extended_description-te.UTF-8: ప్రతిష్టాపనను పూర్తి చేయకుంటే మీ కంప్యూటరు అస్థిరమైన స్థితిలో ఉండవచ్చు.
+Description-tg.UTF-8: Шумо мутмаин ҳастед, ки мехоҳед ҳозир хориҷ шавед?
+Extended_description-tg.UTF-8: Агар шумо насбро ба анҷом нарасонед, системаи шумо дар вазъияти ноустувор мемонад.
+Description-th.UTF-8: คุณแน่ใจหรือไม่ว่าจะออกจากโปรแกรม?
+Extended_description-th.UTF-8: ถ้าคุณยังไม่จบกระบวนการติดตั้ง ระบบของคุณอาจอยู่ในสถานะที่ใช้การไม่ได้
+Description-tl.UTF-8: Talaga bang gusto niyo nang lumabas ngayon?
+Extended_description-tl.UTF-8: Kung hindi pa natatapos ang pagluklok, maaaring hindi magamit ang inyong kompyuter.
+Description-tr.UTF-8: Şimdi çıkmak istediğinize emin misiniz?
+Extended_description-tr.UTF-8: Eğer kurulumu bitirmediyseniz sisteminiz kullanılamaz bir durumda kalabilir.
+Description-ug.UTF-8: راستىنىلا چېكىنەمسىز؟
+Extended_description-ug.UTF-8: ئورنىتىشنى تاماملىمىغان بولسىڭىز، سىستېمىڭىز ئىشلەتكىلى بولمايدىغان ھالەتتە بولۇشى مۇمكىن.
+Description-uk.UTF-8: Ви впевнені, що хочете вийти зараз?
+Extended_description-uk.UTF-8: Якщо ви не закінчили встановлення, система може виявитися в непрацездатному стані.
+Description-vi.UTF-8: Bạn có chắc muốn thoát ra ngay bây giờ không?
+Extended_description-vi.UTF-8: Nếu bạn chưa cài đặt xong, hệ thống của bạn có thể còn lại vô ích.
+Description-zh_CN.UTF-8: 您确定现在就要退出吗？
+Extended_description-zh_CN.UTF-8: 如果您没有完成安装过程，系统将可能处于无法使用的状态。
+Description-zh_TW.UTF-8: 您是否確定要在此時退出？
+Extended_description-zh_TW.UTF-8: 如果未能完成安裝程序，系統將可能會處於不可使用的狀態。
+
+Name: di-utils-shell/do-shell
+Type: note
+Description: Interactive shell
+Extended_description: After this message, you will be running "ash", a Bourne-shell clone. \n\nThe root file system is a RAM disk. The hard disk file systems are mounted on "/target". The editor available to you is nano. It's very small and easy to figure out. To get an idea of what Unix utilities are available to you, use the "help" command.\n\nUse the "exit" command to return to the installation menu.
+Description-ar.UTF-8: سطر أوامر تفاعلي
+Extended_description-ar.UTF-8: بعد هذه الرسالة، ستكون تعمل على "ash"، وهو شبيه Bourne-shell.\n\nنظام الملفات الجذري هو قرص ذاكرة مؤقتة. أنظمة ملفات القرص الصلب مركّبة على "target". المحرّر المتوفّر لك هو نانو. إنه صغير جداً وسهل الاستخدام. لتحصل على فكرة عن أدوات يونكس المتوفرة لك استخدم الأمر "help".\n\nاستخدم أمر "خروج" للرجوع لقائمة التثبيت.
+Description-ast.UTF-8: Intérprete d'órdenes interactivu
+Extended_description-ast.UTF-8: Dempués d'esti mensax, tienes d'executar "ash", un clon de Bourne-shell.\n\nEl sistema d'archivos raigón ye un discu RAM. Los sistemes d'archivos del discu duru tán montaos en «/target». Pue usar «nano» como editor. Ye un editor enforma pequeñu y cenciellu d'usar. Pa facese una idega de les ferramientes d'Unix que tien disponibles, execute la orde «help».\n\nUse la orde «exit» pa tornar al menú d'instalación.
+Description-be.UTF-8: Камандная абалонка
+Extended_description-be.UTF-8: Пасля гэтага паведамлення Вы запусціце "ash", клон Bourne-shell.\n\nКаранёвая файлавая сістэма ёсць дыскам RAM. Файлавыя сыстэмы жорсткага дыска прымацаваныя да "/target". Даступны рэдактар nano, вельмі лёгкі і інтуітыўна зразумелы. Каб зразумець, якія прылады Unix даступныя ў сеансе, ужывайце каманду "help".\n\nСкарыстайце каманду "Выхад", каб вярнуцца да меню ўсталявання.
+Description-bg.UTF-8: Интерактивна обвивка
+Extended_description-bg.UTF-8: След това съобщение ще сте вътре в „ash“, клонинг на обвивката bash.\n\nКореновата файлова система е RAM диск.  Файловите системи на твърдия диск са монтирани в „/target“. Наличният редактор е nano. Той е много малък и лесен за употреба. За да получите представа какви Unix инструменти са налични, изпълнете командата „help“.\n\nИзползвайте командата „exit“, за да се върнете в инсталационното меню.
+Description-bo.UTF-8: ཕན་ཚུན་འབྲེལ་ཡོད་ཀྱི་འཇུག་ངོགས
+Extended_description-bo.UTF-8: བརྡ་འཕྲིན་འདིའི་རྗེས་སུ་ཁྱོད་ཀྱིས་"ash" འཁོར་སྐྱོད་བྱེད་རྒྱུ་ཡིན དེ་ནི་Bourne-shell འདྲ་བཟོས་ཤིག་ཡིན\n\nརྩ་བའི་ཡིག་ཆ་མ་ལག་ནི་སྐབས་རེར་སྤྱོད་ནུས་ཀྱི་ཡིད་འཛིན་RAM གསོག་སྡེར་ཞིག་ཡིན། གསོག་སྡེར་གྱི་ཡིག་ཆ་མ་ལག་ནི་"/target" ཐོག་ཏུ་བཀར་ཡོད། ཁྱོད་ཀྱིས་སྤྱོད་རུང་བའི་རྩོམ་སྒྲིག་ཆས་ནི་nano ཡིན་པས་དེ་ཧ་ཅང་བག་ཡངས་པ་དང་ཤེས་སླ་བ་ཡོད། Unix ཡོ་བྱད་གང་ཞིག་རང་ཉིད་ཀྱིས་སྤྱོད་རུང་བར་ཤེས་དགོས་ན་ "help" བཀའ་བརྡ་སྤྱོད་དགོས\n\n"exit" བཀའ་བརྡ་སྤྱད་ནས་སྒྲིག་འཇུག་གི་འདེམས་ཐོའི་ཐོག་ཏུ་ལོག་ཐུབ
+Description-bs.UTF-8: Interaktivni shell
+Extended_description-bs.UTF-8: Nakon ove poruke, radit ćete pod "ash", klonom Bourne-shella.\n\nRoot datotečni sistem je RAM disk. Datotečni sistemi hard diska su montirani na "/target". Editor koji Vam je dostupan je nano. On je veoma mal i lagan za upotrebu. Da biste stekli sliku o Unix korisnim programima koji su Vam dostupni, koristite naredbu "help".\n\nKoristite se "exit" naredbom da bi ste se vratili u instalacioni meni.
+Description-ca.UTF-8: Intèrpret d'ordres interactiu
+Extended_description-ca.UTF-8: Després d'aquest missatge, estareu executant «ash», un clon de Bourne-shell.\n\nEl sistema de fitxers arrel és un disc RAM. Els sistemes de fitxers del disc dur estan muntats a «/target». L'editor disponible és nano. És molt petit i fàcil d'entendre. Per a fer-vos una idea de les utilitats de Unix que estan disponibles, feu servir l'ordre «help».\n\nEmpreu l'ordre «exit» per a tornar al menú d'instal·lació.
+Description-cs.UTF-8: Interaktivní shell
+Extended_description-cs.UTF-8: Po této zprávě budete mít spuštěn „ash“, klon Bourne shellu.\n\nKořenový souborový systém leží na RAMdisku, souborové systémy z pevného disku jsou připojeny pod „/target“. K dispozici máte malý a jednoduchý editor nano. Seznam všech dostupných unixových utilit získáte příkazem „help“.\n\nDo instalačního menu se vrátíte příkazem „exit“.
+Description-cy.UTF-8: Cragen rhyngweithiol
+Extended_description-cy.UTF-8: Ar ôl y neges hon, fe fyddwch yn rhedeg "ash", copi o gragen-Bourne.\n\nMae'r system ffeil gwraidd yn ddisg RAM. Mae systemau ffeil y ddisg caled wedi eu clymu ar "/target". Nano yw'r golygydd sydd ar gael. Mae'n fach iawn ac yn hawdd i'w ddefnyddio. Er mwyn cael syniad o ba wasanaethau Unix sydd ar gael, defnyddiwch y gorchymyn "help".\n\nDefnyddiwch y gorchymyn "exit" i ddychwelyd i'r ddewislen sefydlu.
+Description-da.UTF-8: Interaktiv skal
+Extended_description-da.UTF-8: Efter denne besked kører du »ash«, en klon af Bourne-skallen.\n\nRodfilsystemet er en ramdisk. Harddisk-filsystemerne er monteret på »/target«. Den tilgængelige tekstbehandler hedder nano. Den er meget lille og nem at finde ud af. For at få en idé om, hvilke Unix-værktøjer, du har til rådighed, kan du bruge kommandoen »help«.\n\nBrug kommandoen »exit« for at komme tilbage til installationsmenuen.
+Description-de.UTF-8: Interaktive Shell
+Extended_description-de.UTF-8: Nach dieser Nachricht wird »ash«, ein Bourne-Shell-Klon ausgeführt.\n\nDas Root-Dateisystem ist eine RAM-Disk. Die Festplatten-Dateisysteme sind unter »/target« eingebunden. Der zur Verfügung stehende Editor ist »nano«. Er ist sehr klein und sehr einfach zu verwenden. Um herauszufinden, welche UNIX-Werkzeuge zur Verfügung stehen, können Sie das Kommando »help« verwenden.\n\nBenutzen Sie das »exit«-Kommando, um zum Installationsmenü zurückzugelangen.
+Description-el.UTF-8: Διαδραστικό κέλυφος
+Extended_description-el.UTF-8: Μετά το μήνυμα αυτό, θα σας παρουσιαστεί το "ash", ένα κέλυφος τύπου Bourne. \n\nΤο ριζικό σύστημα αρχείων βρίσκεται σε ένα δίσκο μνήμης (RAM disk). Τα συστήματα αρχείων του σκληρού δίσκου βρίσκονται προσαρτημένα στο "/target". Σας είναι διαθέσιμος ο nano, ένας εύκολος και συμπαγής κειμενογράφος. Για να αποκτήσετε μια ιδέα των εργαλείων που είναι διαθέσιμα προς χρήση, χρησιμοποιήστε την εντολή "help" στο κέλυφος.\n\nΔώστε την εντολή "exit" για επιστροφή στο μενού της εγκατάστασης.
+Description-eo.UTF-8: Interaga interpretilo (ŝelo).
+Extended_description-eo.UTF-8: Post tiu ĉi mesaĝo, vi estos uzanta 'ash'-on, klono de la ŝelo 'Bourne'.\n\nLa radikdosiera sistemo estas memordisko. La dosiersistemoj de la fiksita disko estas muntitaj sur '/target'. La disponebla redaktilo nomiĝas 'nano'. Ĝi estas eta kaj facile uzebla. Por ekhavi ideon pri la uniksaj util-rimedoj, kiujn vi disponas, uzu la komandon 'help'.\n\nUzu la komandon 'exit' por reveni al la instalada menuo.
+Description-es.UTF-8: Intérprete de órdenes interactivo
+Extended_description-es.UTF-8: Después de este mensaje, estará ejecutando «ash», un clon del intérprete de órdenes Bourne.\n\nEl sistema de ficheros raíz es un disco RAM. Los sistemas de ficheros del disco duro están montados en «target». Puede utilizar «nano» como editor. Se trata de un editor muy pequeño y sencillo de usar. Para hacerse una idea de las utilidades de Unix que tiene disponibles, ejecute la orden «help».\n\nUtilice la orden «exit» para volver al menú de instalación.
+Description-et.UTF-8: Interaktiivne kest
+Extended_description-et.UTF-8: Pärast seda teadet jooksutad sa "ash"-i, Bourne-kesta klooni.\n\nJuurfailisüsteem on RAM-kettal. Kõvaketta failisüsteemid on haagitud "/target" alla. Saadaval on väike ja lihtne tekstitoimeti nano. Mingi ülevaate saadaolevatest Unixi tööriistadest annab käsk "help".\n\nPaigaldaja menüüsse naasmiseks kasuta käsku "exit".
+Description-eu.UTF-8: Shell elkarreragilea
+Extended_description-eu.UTF-8: Mezu honen ondoren, "ash" exekutatuko duzu, Bourne-shell-aren klona.\n\nErroko fitxategi-sistema RAM diskoa. Disko gogorreko fitxategi-sistemak "/target"-en muntatuta daude. Erabilgarri duzun editorea "nano" da. Hau oso arina da eta erabiltzeko erraza. Erabilgarri dauden Unix-eko tresnak jakiteko erabili "help" komandoa.\n\nErabili "exit" komandoa instalatzeko menura itzultzeko.
+Description-fa.UTF-8: پوسته‌ٔ محاوره‌ای
+Extended_description-fa.UTF-8: بعد از این پیغام، شما «ash»، یک مشابه Bourne-shell را در حال اجرا خواهید داشت.\n\nسیستم‌فایل ریشه یک دیسک RAM است. سیستم‌فایل‌های دیسک سخت در «/target» ماونت شده‌اند. ویرایش‌گر در اختیار شما نانو است. بسیار کوچک بوده و با آسانی قابل فهمیدن است. برای آنکه بدانید چه ابزارهای یونیکسی در اختیار دارید، از فرمان «help» استفاده کنید.\n\nاستفاده از فرمان «exit» برای بازگشت به منوی نصب؟
+Description-fi.UTF-8: Vuorovaikutteinen komentotulkki
+Extended_description-fi.UTF-8: Tämän viestin jälkeen käytössäsi on ”ash”, Bourne-komentotulkin klooni.\n\nJuuritiedostojärjestelmä on muistilevy, ”RAM-levy”. Kiintolevyn tiedostojärjestelmät ovat liitettyinä hakemistossa ”target”. Käytettävissä on nano-editori. Se on erittäin pieni ja helppo oppia. Käytettävissäsi olevat Unix-työkalut selviävät ”help”-komennolla.\n\nKomennolla ”exit” palaat asennusvalikkoon.
+Description-fr.UTF-8: Ligne de commande interactive
+Extended_description-fr.UTF-8: Après ce message, vous utiliserez « ash », un clone du Bourne-shell.\n\nLe système de fichiers racine est un disque mémoire. Les systèmes de fichiers qui se trouvent sur le disque dur sont montés sur « /target ». L'éditeur de texte disponible est nano, un petit éditeur facile à utiliser. Pour vous faire une idée des utilitaires Unix dont vous disposez, utilisez la commande « help ». \n\nVous pouvez utiliser la commande « exit » pour revenir au menu d'installation.
+Description-ga.UTF-8: Blaosc idirghníomhach
+Extended_description-ga.UTF-8: Tar éis na teachtaireachta seo, beidh "ash" á rith agat, clón den bhlaosc Bourne.\n\nIs diosca RAM é an fréamhchóras comhad. Tá na córais chomhad ar an diosca crua feistithe ag "/target". Is féidir leat an t-eagarthóir "nano" a úsáid. Tá sé an-bheag agus ní deacair é a úsáid. Chun na hacmhainní Unix atá ar fáil a fheiceáil, úsáid an t-ordú "help".\n\nÚsáid "scoir" chun filleadh ar an roghchlár suiteála.
+Description-gl.UTF-8: Shell interactiva
+Extended_description-gl.UTF-8: Despois desta mensaxe ha estar dentro de «ash», un clon do Bourne-shell.\n\nO sistema de ficheiros raíz é un disco RAM. Os sistemas de ficheiros do disco duro están montados en «/target». O editor que ten dispoñíbel é nano; é moi pequeno e fácil de empregar. Para ter unha idea dos útiles de Unix que hai dispoñíbeis, empregue a orde «help».\n\nEmpregue a orde «exit» para volver ao menú de instalación.
+Description-he.UTF-8: מעטפת אינטראקטיבית
+Extended_description-he.UTF-8: לאחר הודעה זו יורץ "ash" - מעטפת דמוית Bourne-shell.\n\nשורש מערכת הקבצים הוא כונן RAM. מערכות הקבצים של הדיסק הקשיח מעוגנות על-גבי "/target". עורך הטקסט הזמין לרשותך הוא nano. זהו עורך טקסט קטן מאד ונוח לשימוש. כדי לקבל מושג אילו כלי יוניקס נוספים זמינים לרשותך הרץ את הפקודה "help".\n\nהשתמש בפקודת "exit" על-מנת לחזור לתפריט ההתקנה.
+Description-hr.UTF-8: Interaktivna ljuska (shell)
+Extended_description-hr.UTF-8: Nakon ove poruke, naći ćete se u "ash" ljusci, klonu Bourne ljuske.\n\nKorijenski datotečni sustav je RAM disk. Datotečni sustavi tvrdih diskova montirani su na "/target". Na raspolaganju vam je uređivač teksta nano, koji je vrlo malen, ali jednostavan za shvatiti. Da biste doznali koji su vam Unix alati na raspolaganju, upišite "help".\n\nKoristite naredbu "exit" za povratak u instalacijski izbornik.
+Description-hu.UTF-8: Interaktív héj
+Extended_description-hu.UTF-8: Ezen üzenet után az "ash", egy Bourne-héj másolat indul.\n\nA gyökér fájlrendszer egy RAM lemez. A merevlemez fájlrendszerek a "/target"-ben vannak. Az elérhető szerkesztő a nano. Ez igen kicsi és könnyen használható. Az elérhető Unix eszközök megismerését a "help" parancs segíti.\n\nA telepítő menüjébe az "exit" paranccsal lehet visszatérni.
+Description-id.UTF-8: Shell interaktif
+Extended_description-id.UTF-8: Setelah pesan ini, Anda akan menjalankan "ash", klon dari Bourne-Shell.\n\nSistem berkas root adalah sebuah disk RAM. Sistem berkas hard disk dikaitkan pada "/target". Editor yang tersedia adalah nano. Nano sangat kecil dan mudah digunakan. Untuk mengetahui utilitas Unix apa saja yang tersedia, gunakan perintah "help".\n\nGunakan perintah "exit" untuk kembali ke menu instalasi.
+Description-is.UTF-8: Gagnvirk skel
+Extended_description-is.UTF-8: Eftir þessi skilaboð munt þú vera keyrandi "ash", eftirhermu Bourne-skelarinnar.\n\nRótarskráarkerfið er RAM-diskur. Skráarkerfin á harða disknum eru tengd inn á "/target". Ritillinn sem þér býðst er nano. Hann er mjög lítill og einfaldur. Til að skoða nokkur þeirra UNIX-tóla sem þér býðst getur þú notað "help"-skipunina.\n\nNotaðu "exit" skipunina til að komast aftur í uppsetningarvalmyndina.
+Description-it.UTF-8: Shell interattiva
+Extended_description-it.UTF-8: Dopo questo messaggio verrà usata «ash», un clone della Bourne-shell.\n\nIl file system di root è un disco RAM. I file system dei dischi sono montati in «/target». È disponibile «nano», un editor molto piccolo e facile da usare. Per conoscere i programmi Unix disponibili è possibile usare il comando «help».\n\nUsare il comando «exit» per tornare al menù d'installazione.
+Description-ja.UTF-8: インタラクティブシェル
+Extended_description-ja.UTF-8: このメッセージのあと、Bourne シェルクローンの "ash" が実行されます。\n\nルートファイルシステムは RAM ディスクです。ハードディスクファイルシステムは "/target" にマウントされています。利用できるエディタは nano です。これは非常に小さく理解するのが簡単なものです。利用可能な Unix ユーティリティが何か知りたいときは、"help" コマンドを使ってください。\n\nインストールメニューに戻るには "exit" コマンドを使います。
+Description-kk.UTF-8: Интерактивті қоршам
+Extended_description-kk.UTF-8: Осы хабардан соң Bourne-shell клоны болып табылатын "ash" іске қосылады.\n\nТүбірлік файлдық жүйе жадыда орналасқан. Қатты дисктердің файлдық жүйесі "/target" құрылғысына тіркелген. Сіздің қолыңызда өте кіші әрі оңай редактор – nano бар. "help" командасы мүмкін командалар мен Unix утилиттері туралы айтып береді.\n\nОрнату мәзіріне оралу үшін "exit" командасын қолданыңыз.
+Description-kn.UTF-8: ಸಕ್ರಿಯವಾದ ಶೆಲ್
+Extended_description-kn.UTF-8: ಈ ಸಂದೇಶದ ನಂತರ, ಬೋರ್ನ್ ಶೆಲ್ ಅವಳಿಯಾದ "ash"ಅನ್ನು ನಡೆಸಲಾಗುವುದು.\n\nಮೂಲ ಕಡತ ವ್ಯವಸ್ಥೆಯು ಒಂದು RAM ಡಿಸ್ಕ್ ಆಗಿದೆ. ಹಾರ್ಡ್ ಡಿಸ್ಕಿನ ಕಡತ ವ್ಯವಸ್ಥೆಗಳು "/target" ಮೇಲೆ ಪೇರಿಸಲ್ಪಟ್ಟಿದೆ. ನಿಮಗೆ ಲಭ್ಯವಿರುವ ಎಡಿಟರ್ nano. ಇದು ತುಂಬಾ ಸಣ್ಣದು ಮತ್ತು ಅರ್ಥೈಸಲು ತುಂಬಾ ಸುಲಭವಾದದ್ದು. Unixನಲ್ಲಿ ನಿಮಗೆ ಯಾವ ಸೌಲಭ್ಯಗಳು ಲಭ್ಯವಿವೆ ಎಂದು ತಿಳಿಯಲು "help" ಆಜ್ಞೆಯನ್ನು ಬಳಸಿ.\n\nಅನುಸ್ಧಾಪನ ಪರಿವಿಡಿಗೆ ಹಿಂತಿರುಗಲು "exit" ಎ೦ಬ ಆದೇಶವನ್ನು ಉಪಯೋಗಿಸಿರಿ.
+Description-ko.UTF-8: 인터랙티브 쉘
+Extended_description-ko.UTF-8: 이 메시지가 없어지면, 본 쉘과 비슷한 "ash"를 실행합니다.\n\n루트 파일 시스템은 램디스크입니다. 하드 디스크의 파일 시스템은 "/target"에 마운트되어 있습니다. 사용할 수 있는 에디터는 nano입니다. nano는 크기가 아주 작고 사용법을 쉽게 배울 수 있는 에디터입니다. 어떤 유닉스 명령을 사용할 수 있는 지 알려면, "help" 명령을 실행하십시오.\n\n설치 메뉴로 다시 돌아오려면 "exit" 명령을 사용하십시오.
+Description-ku.UTF-8: Qalikê înteraktîf
+Extended_description-ku.UTF-8: Piştî vê peyamê, tu dê "ash" a ku kopiyeke Bourne-shell' ê ye bi kar bînî.\n\nPergala pelan a rootê dîskeke RAM e. Pergalên pelên hard dîskê li bin "/target" girêdayî ne. Pergalkarê nivîsê yê tu dê bi kar bînî nano ye. Ev pergalkarekî nivîsê yê gelekî biçûk û bikaranîna wê hêsan e. Der barê amûrên Unix de heke tu agahiyan bixwazî, fermana "help" binivîse.\n\nJi bo tu vegerî pêşeka sazkirinê fermana "exit" bi kar bîne.
+Description-lo.UTF-8: ເຊຣ໌ວໂຕ້ຕອບ
+Extended_description-lo.UTF-8: ຫຼັງຈາກຂໍ້ນີ້ເຈົ້າຈະເຂົ້າສູ່ "ash"ເຊຣວຮຽນແບບ Bourne shell ຊະນິດໜື່ງ.\n\nລະບົບແຟ້ມຮາກເປັນແຮນດຣິກ ລະບົບແຟ້ມໃນດຣິກຈະຖືກເມົາໄວ້"/target" ໂປຣແກຮມແກ້ໄຂຂໍ້ຄວາມທີ່ເຈົ້າຈະໃຊ້ໄດ້ຄື nano ຊື່ງເປັນໂປຣແກຣມນ້ອຍໆ ແລະໃຊ້ງ່າຍ ຫາກຕ້ອງການຮູ້ຂໍ້ມູນຂອງເຄື່ອງມືຢູ່ນີກທີ່ມີໃຫ້ໃຊ້ເຈົ້າສາມາດໃຊ້ຄຳສັ່ງ"help" ເພື່ອເບີ່ງໄດ້.\n\nໃຊ້ຄຳສັ່ງ "exit" ເພື່ອກັບເຂົ້າສູ່ລາຍການຕິດຕັ້ງ.
+Description-lt.UTF-8: Interaktyvi aplinka (shell)
+Extended_description-lt.UTF-8: Po šio pranešimo, vykdysite "ash" apvalkalą, Bourne-shell'o kloną.\n\nŠakninė (root) failų sistema yra RAM diskas. Kietojo disko failų sistemos yra prijungtos prie "/target". Jums prieinamas redaktorius - nano. Jis labai mažas ir paprastas naudoti. Kad sužinotumėte, kokios dar pagalbinės Unix programos Jums prieinamos, naudokite komandą "help".\n\nGrįžimui į įdiegiklio meniu naudokite "exit" komandą.
+Description-lv.UTF-8: Interaktīvā čaula
+Extended_description-lv.UTF-8: Pēc šī paziņojuma jūsu rīcībā būs "ash", Bourne čaulas (sh) klons.\n\nSaknes datņu sistēma ir RAM disks. Cieto disku datņu sistēmas ir piemontētas pie "/target". Jums pieejamais teksta redaktors ir nano; tas ir ļoti mazs un viegli apgūstams. Lai noskaidrotu, kādas vēl Unix utilītas ir pieejamas, lietojiet komandu "help".\n\nLietojiet komandu "exit", lai atgrieztos pie instalēšanas izvēlnes.
+Description-mk.UTF-8: Интерактивна конзола
+Extended_description-mk.UTF-8: По оваа порака ќе се стартува „ash“, клон на Bourne школката.\n\nRoot датотечниот систем е РАМ диск. Датотечните системи на тврдиот диск се монтирани на „/target“. Уредувачот кој ти е достапен е nano. Тоа е многу мал и лесен за употреба. За да видиш кои UNIX алатки ти се достапни, користи ја „help“ командата.\n\nКористете ја командата „exit“ за да се вратите во инсталционото мени.
+Description-nb.UTF-8: Interaktivt skall
+Extended_description-nb.UTF-8: Etter denne meldinga startes «ash», en klone av Bourne-skallet.\n\nRotfilsystemet er en RAM-disk. Filsystemene på harddisken er montert på «/target». Skriveprogrammet nano er tilgjengelig. Det er lite og enkelt å bruke. For å få et overblikk over hvilke Unix-verktøy du har tilgjengelig kan du bruke kommandoen «help».\n\nBruk kommandoen «exit» for å komme tilbake til installasjonsmenyen.
+Description-nl.UTF-8: Interactieve shell
+Extended_description-nl.UTF-8: Na deze boodschap maakt u gebruik van "ash", een kloon van de Bourne-shell.\n\nHet basisbestandssysteem is een RAM-schijf. De harde-schijf-bestandssystemen zijn op 'target' aangekoppeld. De erg kleine en eenvoudig te gebruiken editor nano is beschikbaar. Meer informatie betreffende de beschikbare Unix-hulpprogramma's vindt u via het commando 'help'.\n\nVia het 'exit'-commando kunt u naar het installatiemenu terugkeren.
+Description-nn.UTF-8: Interaktivt skal.
+Extended_description-nn.UTF-8: Etter denne meldinga så køyrer du «ash», ein klone av Bourne-skalet.\n\nRotfilsystemet er ein RAM-disk. Filsystema på harddisken er montert på «/target». Skriveprogrammet nano er tilgjengeleg. Det er lite og enkelt å bruka. For å få eit overblikk over kva for Unix-verktøy du har tilgjengeleg kan du bruke «help»-kommandoen.\n\nBruk kommandoen «exit» for å koma tilbake til installasjonsmenyen.
+Description-no.UTF-8: Interaktivt skall
+Extended_description-no.UTF-8: Etter denne meldinga startes «ash», en klone av Bourne-skallet.\n\nRotfilsystemet er en RAM-disk. Filsystemene på harddisken er montert på «/target». Skriveprogrammet nano er tilgjengelig. Det er lite og enkelt å bruke. For å få et overblikk over hvilke Unix-verktøy du har tilgjengelig kan du bruke kommandoen «help».\n\nBruk kommandoen «exit» for å komme tilbake til installasjonsmenyen.
+Description-pl.UTF-8: Powłoka interaktywna
+Extended_description-pl.UTF-8: Po tym komunikacie, uruchomiony zostanie "ash", klon powłoki Bourne'a.\n\nGłówny system plików znajduje się w RAM dysku. Dyskowe systemy plików zamontowane są w "/target". Dostępnym edytorem jest nano. Jest bardzo mały i prosty do zrozumienia. Aby dowiedzieć się jakie narzędzia uniksowe są dostępne, użyj polecenia "help".\n\nPo tym komunikacie, uruchomiony zostanie "ash", klon powłoki Bourne'a.
+Description-pt.UTF-8: Shell interactiva
+Extended_description-pt.UTF-8: Após esta mensagem estará a correr o "ash", um clone do Bourne-shell\n\nO sistema de ficheiros raiz é um disco de RAM. Os sistemas de ficheiros dos discos rígidos encontram-se montados em "/target". O editor disponível para si é o nano. É muito pequeno e fácil de utilizar. Para ter uma ideia de quais as utilidades de Unix que tem disponíveis para si utilize o comando "help".\n\nPara voltar ao menu de instalação utilize o comando "exit".
+Description-pt_BR.UTF-8: Shell interativo
+Extended_description-pt_BR.UTF-8: Após esta mensagem, você estará executando o "ash", um clone do Bourne-shell.\n\nO sistema de arquivos raiz é um disco em RAM. Os sistemas de arquivos do disco rígido estão montados em "/target". O editor disponível para você é o nano. Ele é bem pequeno e fácil de compreender. Para ter uma ideia de quais utilitários Unix estão disponíveis para você, use o comando "help".\n\nUse o comando "exit" para retornar ao menu de instalação.
+Description-ro.UTF-8: Consolă interactivă
+Extended_description-ro.UTF-8: După acest mesaj, veți rula „ash”, o clonă Bourne-shell.\n\nSistemul de fișiere rădăcină este un disc RAM. Sistemele de fișiere de pe disc(-uri) sunt montate la „/target”. Editorul disponibil este nano. Este foarte mic și ușor de înțeles. Pentru a vă face o idee despre ce utilitare Unix vă sunt puse la dispoziție, rulați comanda „help”.\n\nFolosiți comanda „exit” pentru a vă întoarce la meniul de instalare.
+Description-ru.UTF-8: Интерактивная оболочка
+Extended_description-ru.UTF-8: После этого сообщения вы окажетесь в "ash", клоне Bourne-shell.\n\nКорневая файловая система расположена на RAM диске. Файловые системы жёстких дисков смонтированы в "/target". В вашем распоряжении очень маленький и простой редактор nano. Команда "help" расскажет вам о доступных командах и утилитах Unix.\n\nДля возврата в меню установки, используйте команду "exit".
+Description-si.UTF-8: අන්තර්ක්‍රියාකාරී ශෙලය
+Extended_description-si.UTF-8: මෙම පණිවුඩයෙන් පසු, ඔබ "ash" නම් Bourne-shell පිටපත ක්‍රියාකරවනු ඇත.\n\nමූල ගොනු පද්ධතිය වන්නේ RAM තැටියයි. දෘඩ තැටි ගොනු පද්ධති "/target" මත රඳවා ඇත.ඔබ සතුව පවතින සකසනය වන්නේ nano ය. එය ඉතා කුඩා වන අතර භාවිත කිරීම පහසුය. ඔබට භාවිත කල හැකි Unix මෘදුකාංග ගැන අදහසක් ලබාගැනීමට, "help" විධානය භාවිත කරන්න.\n\nස්ථාපන මෙනුවට ආපසු යාමට "exit" විධානය භාවිත කරන්න.
+Description-sk.UTF-8: Interaktívny shell
+Extended_description-sk.UTF-8: Po tejto správe budete mať spustený „ash“, klon Bourne shellu.\n\nKoreňový súborový systém leží na RAM disku. Súborové systémy z pevného disku sú pripojené pod „/target“. K dispozícii máte malý a jednoduchý editor nano. Zoznam všetkých dostupných unixových nástrojov získate príkazom „help“.\n\nDo inštalačného menu sa vrátite príkazom „exit“.
+Description-sl.UTF-8: Interaktivna lupina
+Extended_description-sl.UTF-8: Po tem sporočilu boste poganjali "ash", klon lupine Bourne.\n\nZagonski datotečni sistem je RAM disk. Datotečni sistemi trdega diska so priklopljeni na "/target". Urejevalnik, ki vam je na voljo je nano. Je zelo majhen in nezahteven za uporabo. Če želite videti katera Unixova orodja so vam na voljo, uporabite ukaz "help".\n\nUporabite ukaz "exit" za vrnitev v namestitveni meni.
+Description-sq.UTF-8: Shell ndërveprues
+Extended_description-sq.UTF-8: Pas këtij mesazhi, do jesh duke përdorur "ash", një shell klon i Bourne.\n\nFilesistemi i root është disku RAM. Filesistemet e hard-diskut janë montuar mbi "/target". Editori në dispozicion është nano. Është shumë i vogël dhe i thjeshtë për ta kuptuar. Për të patur një ide çfarë veglash të Unix ke në dispozicion, përdor komandën "ls /bin /sbin /usr/bin /usr/sbin".\n\nPërdor komandën "exit" për tu kthyer tek menuja e intalimit.
+Description-sr.UTF-8: Интерактивни командни интерфејс
+Extended_description-sr.UTF-8: После ове поруке извршаваће се „ash“, клон „bash“ командног интерфејса.\n\nRoot фајл систем је на RAM диску. Фајл системи са хард диска су монтирани у /target. Доступан вам је „nano“ едитор. Он је врло мали и једноставан заупотребу. Списак доступних Unix команди се може добити командом „help“.\n\nКористите команду „exit“ да се вратите у мени за инсталацију.
+Description-sv.UTF-8: Interaktivt skal
+Extended_description-sv.UTF-8: Efter det här meddelandet så kommer du att köra "ash", en klon av Bourne-skalet.\n\nRotfilsystemet är en RAM-disk. Hårddiskens filsystem är monterade på "/target". Den tillgängliga textredigeraren är nano. Den är mycket liten och enkel att förstå sig på. Använd "help"-kommandot för att få en uppfattning om vilka Unixverktyg du har tillgång till.\n\nAnvänd "exit"-kommandot för att återvända till installationsmenyn.
+Description-te.UTF-8: సంవాద(interactive) షెల్
+Extended_description-te.UTF-8: ఈ సందేశం తరవాత మీరు "ash" అనే ఓ బౌర్న్ షెల్ క్లోన్ ని వాడుతుంటారు\n\nరూట్  ఫైల్ సిస్టమ్ ఒక RAM డిస్క్. హార్డ్ డిస్క్  ఫైల్ సిస్టములు  "/target" పై అనుసంధానంచేయబడ్డాయి. nano ఎడిటర్  మీకు అందుబాటులో వుంది. అది చాలా చిన్నది, వాడటం మీరు సులభంగా తెలుసుకోగలరు. "help" కమాండ్ వాడితే, మీకు ఏ యునిక్స్  పరికరాలు అందుబాటులో వున్నాయో తెలుస్తుంది.\n\nస్థాపనమెనూ కి తిరిగి వెళ్ళడానికి "exit" కమాండుని ఉపయోగించండి.
+Description-tg.UTF-8: Восити интерактивӣ
+Extended_description-tg.UTF-8: Баъд аз ин паём раванди "ash" (намунаи восити Bourne) иҷро мешавад.\n\nСистемаи файлии root ин диски RAM аст. Системаҳои файлии диски компютерӣ дар "/target" васл карда мешаванд. Муҳаррири дастрас барои шумо барномаи nano аст. Ин барномаи хурд ва дар истифода осон аст. Барои гирифтани маълумоти муфассал оиди фармонҳои хидматии Unix шумо метавонед фармони "help"-ро истифода баред.\n\nБарои баргаштан ба менюи насбкунӣ, фармони "exit"-ро истифода баред.
+Description-th.UTF-8: เชลล์โต้ตอบ
+Extended_description-th.UTF-8: หลังจากข้อความนี้ คุณจะเข้าสู่ "ash" เชลล์เลียนแบบ Bourne shell ชนิดหนึ่ง\n\nระบบแฟ้มรากเป็นแรมดิสก์ ระบบแฟ้มในดิสก์จะถูกเมานท์ไว้ที่ "/target" โปรแกรมแก้ไขข้อความที่คุณจะใช้ได้คือ nano ซึ่งเป็นโปรแกรมเล็กๆ และใช้ง่าย หากต้องการทราบข้อมูลของเครื่องมือยูนิกซ์ที่มีให้ใช้ คุณสามารถใช้คำสั่ง "help" เพื่อดูได้\n\nใช้คำสั่ง "exit" เพื่อกลับเข้าสู่เมนูติดตั้ง
+Description-tl.UTF-8: Interactive shell
+Extended_description-tl.UTF-8: Matapos nito, tatakbo ang "ash", isang clone ng Bourne-shell.\n\nAng root file system ay RAM disk. Ang mga file system sa hard disk ay naka-mount sa "/target". Ang editor na magagamit niyo ay nano. Ito ay maliit at madaling magamit. Gamitin ang "help" upang malaman kung anong mga UNIX utility ang maaari niyong gamitin.\n\nGamitin ang "exit" upang bumalik sa menu ng pagluklok.
+Description-tr.UTF-8: Etkileşimli kabuk
+Extended_description-tr.UTF-8: Bu iletiden sonra bir tür Bourne kabuğu olan "ash"i kullanıyor olacaksınız.\n\nKök dosya sistemi bir RAM disk. Sabit disk dosya sistemleri "/target" altında bağlı. Kullanacağınız metin düzenleyici "nano". Bu, çok küçük ve kullanımı kolay bir metin düzenleyicisidir. Yararlanabileceğiniz Unix araçları hakkında bir fikir edinmek isterseniz "help" komutunu kullanın.\n\n"exit" komutu ile kurulum menüsüne dönebilirsiniz.
+Description-ug.UTF-8: shell سۆزلىشىشى
+Extended_description-ug.UTF-8: بۇ ئۇچۇردىن كېيىن "ash" كە كىرىسىز، ئۇ Bourne-shell نىڭ كۆپەيتىلمىسى.\n\nroot ھۆججەت سىستېمىسى RAM دىسكىسىدۇر. قاتتىق دىسكا ھۆججەت سىستېمىسى "/target" كە جايلاشقان. بۇ يەردە سىز پەقەت تەھرىرلىگۈچ nano نى ئىشلىتەلەيسىز. بۇ بىر ئىخچام، قوللىنىش ئاسان تەھرىرلىگۈچ. "help" بۇيرۇقى ئارقىلىق قايسى خىلدىكى Unix قوراللىرىنى ئىشلەتكىلى بولىدىغانلىقىنى بىلەلەيسىز.\n\n"exit" بۇيرۇقى ئىشلىتىلسە ئورنىتىش تىزىملىكىگە قايتىدۇ.
+Description-uk.UTF-8: Інтерактивний командний процесор
+Extended_description-uk.UTF-8: Після цього повідомлення ви опинитесь в „ash“, клоні Bourne-shell.\n\nКоренева файлова система зберігається на RAM-диску. Файлові системи жорстких дисків змонтовані в „/target“. У вашому розпорядженні - редактор nano. Він дуже маленький та простий. Щоб мати уяву про те, які програми Unix доступні, запустіть команду „help“.\n\nДля повернення до меню встановлення, використовуйте команду „exit“.
+Description-vi.UTF-8: Trình bao tương tác
+Extended_description-vi.UTF-8: Sau khi xem thông điệp này, bạn sẽ chạy « ash », một bộ nhái trình bao Bourne-shell.\n\nHệ thống tập tin gốc là một đĩa RAM. Các hệ thống tập tin đĩa cứng được lắp vào « /target ». Trình chỉnh sửa có sẵn cho bạn là « nano ». Nó rất nhỏ và dễ hiểu. Để xem các tiện ích UNIX có sẵn, hãy sử dụng lệnh « help » (trợ giúp).\n\nHãy dùng lệnh « exit » (thoát) để trở về trình đơn cài đặt.
+Description-zh_CN.UTF-8: 交互式 shell
+Extended_description-zh_CN.UTF-8: 在这条信息之后，您将进入“ash”，它是一个 Bourne-shell 的克隆。\n\n根文件系统是一个 RAM 盘。硬盘文件系统被挂载到“/target”上。可用的编辑器是 nano。它小巧而且易用。如需要了解其他的 Unix 实用工具，请使用“help”命令。\n\n使用“exit”命令返回到安装菜单。
+Description-zh_TW.UTF-8: 互動式 shell
+Extended_description-zh_TW.UTF-8: 在本訊息之後，您將進入 ash，一個 Bourne-shell 的仿製品。\n\nRoot 檔案系統是一個 RAM 磁碟。硬碟的檔案系統則是掛載於 /target。您可使用的文書編輯器是 nano﹔它非常得短小輕快且易於使用。如果想知道有那些 Unix 工具程式可用，請執行 help 指令。\n\n使用 exit 指令來回到安裝程序選單。
+
+Name: disk-detect/cannot_find
+Type: error
+Description: No partitionable media
+Extended_description: No partitionable media were found.\n\nPlease check that a hard disk is attached to this machine.
+Description-am.UTF-8: ምንም ተከፋይ አካል አልተገኘም።
+Extended_description-am.UTF-8: ምንም ተከፋይ ማጫወቻ አልተገኘም።\n\nእባክዎ ዲስክ ማጫወቻው አስሊው ውስጥ በትክክል መያያዙን ያረጋግጡ።
+Description-ar.UTF-8: لا توجد أوساط قابلة للتجزيء
+Extended_description-ar.UTF-8: لم يعثر على أيّة أوساطٍ قابلة للتجزيء.\n\nالرجاء التحقق من وجود قرصٍ صلب موصول بهذا الجهاز.
+Description-ast.UTF-8: Nun hai medios particionables
+Extended_description-ast.UTF-8: Nun s'alcontraron medios que puedan particionase.\n\nPor favor, tate seguru de que se coneutó un discu duru a esti equipu.
+Description-be.UTF-8: Няма прыдатных для падзелу носьбітаў
+Extended_description-be.UTF-8: Не знойдзена ніводнага носьбіту, прыдатнага для падзелу.\n\nКалі ласка, праверце,каб да машыны быў падключаны жорсткі дыск.
+Description-bg.UTF-8: Няма носител, който може да се разделя
+Extended_description-bg.UTF-8: Не е намерен носител, който да може да се разделя.\n\nМоля, проверете дали е прикачен твърд диск към тази машина.
+Description-bn.UTF-8: পার্টিশনযোগ্য মিডিয়া নেই
+Extended_description-bn.UTF-8: কোন পার্টিশনযোগ্য মিডিয়া খুঁজে পাওয়া যায় নি।\n\nঅনুগ্রহপূর্বক এই কম্পিউটারে কোন হার্ডডিস্ক সংযুক্ত আছে কিনা তা নিশ্চিত হন।
+Description-bo.UTF-8: གསོག་སྡེར་ཁག་བཟོ་རུང་འཇུག་མཛོད་མེད་པ
+Extended_description-bo.UTF-8: ཁག་བཟོ་རུང་བའི་འཇུག་མཛོད་མེད་རྙེད་པ\n\nསྲ་སྡེར་དེ་འཕྲུལ་ཆས་འདི་དང་སྦྲེལ་ཡོད་པར་དག་ཐེར་བྱེད་རོགས
+Description-bs.UTF-8: Nema medija za particionisanje
+Extended_description-bs.UTF-8: Medij za particionisanje nije pronađen.\n\nMolim provjerite da li je hard disk priključen na ovu mašinu.
+Description-ca.UTF-8: No hi ha cap medi que es puga partir
+Extended_description-ca.UTF-8: No s'ha trobat cap medi que es puga partir.\n\nSi us plau, comproveu que hi ha un disc dur connectat a aquest ordinador.
+Description-cs.UTF-8: Žádné rozdělitelné médium
+Extended_description-cs.UTF-8: Nebylo nalezeno žádné rozdělitelné médium.\n\nZkontrolujte, zda je k tomuto počítači připojen pevný disk.
+Description-cy.UTF-8: Dim cyfrwng rhaniadwy
+Extended_description-cy.UTF-8: Ni chanfuwyd unrhyw gyfrwng rhaniadwy.\n\nGwiriwch fod disg galed wedi ei gysylltu i'r peiriant hwn, os gwelwch yn dda.
+Description-da.UTF-8: Ingen partitionerbare medier
+Extended_description-da.UTF-8: Der blev ikke fundet nogen partitionerbare medier.\n\nTjek at der er en harddisk forbundet til denne maskine.
+Description-de.UTF-8: Kein partitionierbares Medium
+Extended_description-de.UTF-8: Es wurde kein Medium gefunden, das partitioniert werden kann.\n\nBitte prüfen Sie, ob eine Festplatte angeschlossen ist.
+Description-dz.UTF-8: བརྡ་ལམ་བར་བཅད་མིན་འདུག
+Extended_description-dz.UTF-8: བཅད་མཚམས་བཅད་བཏུབ་པའི་བརྡ་ལམ་ཅི་ཡང་འཚོལ་མ་ཐོབ\n\nཧརཊི་ཌིཀིསི་དེ་གློག་འཕྲུལ་འདི་ལུ་མཉམ་སྦྲགས་འབད་ནུག་ག་ཞིབ་དཔྱད་འབད་གནང་།
+Description-el.UTF-8: Δεν υπάρχουν μέσα που να μπορούν να διαμεριστούν
+Extended_description-el.UTF-8: Δεν βρέθηκαν μέσα που να μπορούν να διαμεριστούν\n\nΠαρακαλώ βεβαιωθείτε ότι υπάρχει δίσκος τοποθετημένος σ' αυτό το μηχάνημα.
+Description-eo.UTF-8: Neniu partigebla datumportilo
+Extended_description-eo.UTF-8: Neniu partigebla datumportilo estis trovita.\n\nBonvolu kontroli ĉu la fiksita disko estas konektita al tiu ĉi maŝino.
+Description-es.UTF-8: No hay medios particionables
+Extended_description-es.UTF-8: No se encontraron medios que se puedan particionar.\n\nPor favor, asegúrese de que se ha conectado un disco duro a este equipo.
+Description-et.UTF-8: Pole partitsioneeritavat andmekandjat
+Extended_description-et.UTF-8: Ei leitud ühtki partitsioneeritavat andmekandjat.\n\nPalun veendu, et arvutis on kõvaketas.
+Description-eu.UTF-8: Ez dago partizioetan bana daitekeen euskarririk
+Extended_description-eu.UTF-8: Ez da aurkitu partizioetan bana daitekeen euskarririk.\n\nEgiaztatu disko gogor bat makina honi konektatuta dagoela.
+Description-fa.UTF-8: هیچ رسانه‌ٔ قابل پارتیشن‌شدن
+Extended_description-fa.UTF-8: هیچ رسانه‌ٔ قابل پارتیشن‌شدن پیدا نشد.\n\nلطفاً چک کنید که دیسک‌سخت به این ماشین متصل است.
+Description-fi.UTF-8: Ei yhtään osioitavissa olevaa taltiota
+Extended_description-fi.UTF-8: Ei löytynyt yhtään osioitavissa olevaa taltiota.\n\nTarkista, että laitteistossa on kiintolevy asennettuna.
+Description-fr.UTF-8: Aucun périphérique disponible pour le partitionnement
+Extended_description-fr.UTF-8: Aucun périphérique pouvant être partitionné n'a été trouvé.\n\nVeuillez vérifier qu'un disque dur est bien présent sur cette machine.
+Description-ga.UTF-8: Gan mheán indeighilte
+Extended_description-ga.UTF-8: Níor aimsíodh meáin indeighilte ar bith.\n\nCinntigh go bhfuil diosca crua ceangailte leis an ríomhaire seo.
+Description-gl.UTF-8: Non hai soportes particionábeis
+Extended_description-gl.UTF-8: Non se atopou ningún soporte que se poida particionar.\n\nComprobe que teña un disco duro conectado á máquina.
+Description-gu.UTF-8: પાર્ટિશન કરાય તેવું કોઇ માધ્યમ નથી
+Extended_description-gu.UTF-8: પાર્ટિશન કરાય તેવું કોઇ માધ્યમ મળ્યું નથી.\n\nમહેરબાની કરી તપાસો કે હાર્ડ ડિસ્ક મશીન જોડે જોડાયેલ છે.
+Description-he.UTF-8: אין מדיה שניתנת לחלוקה למחיצות
+Extended_description-he.UTF-8: לא נמצאה מדיה שניתנת לחלוקה למחיצות.\n\nבדוק שדיסק קשיח מחובר למחשב זה.
+Description-hi.UTF-8: कोई पार्टिशन योग्य मीडिया नहीं
+Extended_description-hi.UTF-8: कोई पार्टीशन योग्य मीडिया नहीं मिला.\n\nकृपया जाँचें कि इस मशीन में हार्ड डिस्क जुड़ी है.
+Description-hr.UTF-8: Neodgovarajući medij
+Extended_description-hr.UTF-8: Nema medija kojeg se može particionirati.\n\nMolim provjerite je li tvrdi disk spojen na ovo računalo.
+Description-hu.UTF-8: Nincs particionálható adathordozó
+Extended_description-hu.UTF-8: Nem találtam particionálható adathordozót.\n\nKérem ellenőrizze, hogy valóban csatlakozik merevlemez ehhez a géphez!
+Description-id.UTF-8: Tak ada media yang bisa dipartisi 
+Extended_description-id.UTF-8: Tidak ditemukan adanya media yang bisa dipartisi.\n\nSilakan periksa bahwa pada komputer ini terpasang sebuah Hard Disk.
+Description-is.UTF-8: Engir diskar sem hægt er að sneiða niður
+Extended_description-is.UTF-8: Fann enga diska sem hægt er að sneiða niður.\n\nGakktu úr skugga um að harður diskur sé tengdur við þessa vél.
+Description-it.UTF-8: Nessun supporto partizionabile
+Extended_description-it.UTF-8: Non è stato trovato alcun supporto partizionabile.\n\nVerificare che un disco fisso sia collegato a questo computer.
+Description-ja.UTF-8: パーティション可能なメディアがありません
+Extended_description-ja.UTF-8: パーティション可能なメディアが見つかりませんでした。\n\nこのマシンに接続されているハードディスクがあるかどうか確認してください。
+Description-ka.UTF-8: არავითარი დასაყოფი მოწყობილობა
+Extended_description-ka.UTF-8: დაყოფადი მედია ვერ მოიძებნა.\n\nგთხოვთ გადაამოწმოთ, რომ ამ კომპიუტერს მყარი დისკი მიერთებული აქვს.
+Description-kk.UTF-8: Бөлінетін құрылғылар жоқ
+Extended_description-kk.UTF-8: Бөлінетін құрылғылар табылмады.\n\nҚатты дисктің машинаға қосылғанын тексеріңіз.
+Description-km.UTF-8: គ្មាន​មេឌៀ​ដែល​អាច​ចែក​ជា​ភាគ​​បាន
+Extended_description-km.UTF-8: រក​មិន​ឃើញ​មេឌៀ​ដែល​អាច​ចែក​ជា​ភាគ​បាន ។\n\nសូមពិនិត្យ​មើល​ថា បាន​ភ្ជាប់​ថាស​រឹង​ទៅ​ម៉ាស៊ីន​នេះ​ហើយ​ឬ​នៅ ។
+Description-kn.UTF-8: ವಿಭಜಿಸಲ್ಪಡುವ ಮಾಧ್ಯಮಗಳಾವು ಇಲ್ಲ
+Extended_description-kn.UTF-8: ವಿಭಜಿಸಲ್ಪಡುವ ಮಾಧ್ಯಮಗಳಾವು ಪತ್ತೆಯಾಗಿಲ್ಲ.\n\nಈ ಗಣಕಕ್ಕೆ ಒಂದು ಹಾರ್ಡ್ ಡಿಸ್ಕ್ ಜೋಡಿಸಲಾಗಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.
+Description-ko.UTF-8: 파티션할 수 있는 미디어 없음
+Extended_description-ko.UTF-8: 파티션할 수 있는 미디어가 없습니다.\n\n이 컴퓨터에 하드 디스크가 있는 지 확인하십시오.
+Description-ku.UTF-8: Tu mediayeke ji bo dabeşkirinê tune
+Extended_description-ku.UTF-8: Mediaya were dabeşkirin nehat dîtin.\n\nKontol bike ka hard dîskek girêdayî vê makînayê ye yan na.
+Description-lo.UTF-8: ບໍ່ມີຊື່ທີ່ສາມາດແບ່ງພຣາທິຊັນໄດ້
+Extended_description-lo.UTF-8: ບໍ່ພົບສື່ທີ່ສາມາດແບ່ງພຣາທິຊັນໄດ້.\n\nກາລຸນາກວດສອບໃຫ້ໝັ້ນໃຈວ່າໄດ້ຕໍ່ຮາດດິກເຂົ້າກັບເຄື່ອງ.
+Description-lt.UTF-8: Nėra dalintino įrenginio
+Extended_description-lt.UTF-8: Nerasta įrenginių, kuriuos galima būtų dalyti skaidiniais.\n\nPatikrinkite ar kietas diskas prijungtas prie šio kompiuterio.
+Description-lv.UTF-8: Nav disku, ko dalīt
+Extended_description-lv.UTF-8: Netika atrasts neviens disks, ko varētu sadalīt.\n\nLūdzu, pārliecinieties, ka šim datoram ir pievienots cietais disks.
+Description-mk.UTF-8: Нема медиум кој може да се партиционира
+Extended_description-mk.UTF-8: Нема медиум кој може да се партиционира.\n\nПровери дали хард дискот е поврзан со компјутерот.
+Description-ml.UTF-8: വിഭജിക്കാവുന്ന മീഡിയയൊന്നും ലഭ്യമല്ല
+Extended_description-ml.UTF-8: വിഭജിക്കാവുന്ന മീഡിയയൊന്നും കണ്ടുകിട്ടിയില്ല.\n\nഈ കമ്പ്യൂട്ടറില്‍ ഒരു ഹാര്‍ഡ് ഡിസ്‌ക്ക് ഘടിപ്പിച്ചിട്ടുണ്ടെന്നു് ഉറപ്പുവരുത്തുക.
+Description-mr.UTF-8: विभाजन करण्यायोग्य साठवणीचे माध्यम उपलब्ध नाही.
+Extended_description-mr.UTF-8: विभाजन करण्यायोग्य साठवणीचे माध्यम सापडले नाही.\n\nकृपया हार्ड डिस्क मशिनला जोडली आहे का ते तपासा.
+Description-nb.UTF-8: Ingen partisjonerbare media
+Extended_description-nb.UTF-8: Fant ingen partisjonerbare media.\n\nSe etter at det er koblet til en harddisk til denne maskinen.
+Description-ne.UTF-8: कुनै पनि बिभाजन योग्य मेडिया छैन
+Extended_description-ne.UTF-8: कुनै पनि बिभाजन योग्य मेडिया फेला परेन ।\n\nकृपया एउटा हार्ड डिस्क यो मेसिन सँग सलग्न छ भन्ने कुरा जाँच गर्नुहोस् ।
+Description-nl.UTF-8: Geen indeelbare media
+Extended_description-nl.UTF-8: Er zijn geen indeelbare media gevonden.\n\nControleer a.u.b. of er een harde schijf is aangesloten op deze machine.
+Description-nn.UTF-8: Ingen partisjonerbare media
+Extended_description-nn.UTF-8: Fann ingen partisjonerbare media.\n\nSjå etter at det er kobla til ein harddisk til denne maskina.
+Description-no.UTF-8: Ingen partisjonerbare media
+Extended_description-no.UTF-8: Fant ingen partisjonerbare media.\n\nSe etter at det er koblet til en harddisk til denne maskinen.
+Description-pa.UTF-8: ਕੋਈ ਪਾਰਟੀਸ਼ਨ-ਯੋਗ ਮਾਧਿਅਮ ਨਹੀਂ ਹੈ
+Extended_description-pa.UTF-8: ਕੋਈ ਪਾਰਟੀਸ਼ਨ-ਯੋਗ ਮਾਧਿਅਮ ਨਹੀਂ ਲੱਭਿਆ।\n\nਜਾਂਚ ਕਰੋ ਕਿ ਹਾਰਡ ਡਿਸਕ ਇਸ ਮਸ਼ੀਨ ਨਾਲ ਜੁੜੀ ਹੈ ਜੀ।
+Description-pl.UTF-8: Brak urządzenia zdatnego do partycjonowania
+Extended_description-pl.UTF-8: Nie znaleziono urządzenia zdatnego do partycjonowania.\n\nProszę sprawdzić czy twardy dysk jest podłączony do komputera.
+Description-pt.UTF-8: Sem media particionável
+Extended_description-pt.UTF-8: Não foi encontrada media particionável.\n\nPor favor verifique se um disco rígido está ligado a esta máquina.
+Description-pt_BR.UTF-8: Nenhuma mídia particionável
+Extended_description-pt_BR.UTF-8: Nenhuma mídia particionável foi encontrada.\n\nPor favor, confira se realmente existe um disco rígido conectado a esta máquina.
+Description-ro.UTF-8: Nu există mediu partiționabil
+Extended_description-ro.UTF-8: Nu s-a găsit nici un mediu partiționabil.\n\nVă rugăm sa verificați că aveți un disc fix atașat la acest sistem.
+Description-ru.UTF-8: Нет устройств, которые можно разметить
+Extended_description-ru.UTF-8: Не найдено устройств, которые можно разметить.\n\nПроверьте, подключён ли к компьютеру жёсткий диск.
+Description-si.UTF-8: කොටස්කල හැකි මාධ්‍යක් නොවේ
+Extended_description-si.UTF-8: කිසිඳු කොටස්කල හැකි මාධ්‍යයක් හමු නොවිනි.\n\nකරුණාකර මෙම යන්ත්‍රයට ඈදා ඇති දෘඩ තැටිය පිරික්සන්න.
+Description-sk.UTF-8: Žiadne rozdeliteľné médium
+Extended_description-sk.UTF-8: Nebolo nájdené žiadne rozdeliteľné médium.\n\nSkontrolujte pripojenie pevného disku k počítaču.
+Description-sl.UTF-8: Ni medija, ki bi ga lahko razdelil
+Extended_description-sl.UTF-8: Medija za razdeljevanje ni mogoče najti.\n\nPreverite, ali je trdi disk priključen.
+Description-sq.UTF-8: Asnjë mjet i ndashëm
+Extended_description-sq.UTF-8: Nuk u gjet asnjë mjet i ndashëm.\n\nTë lutem kontrollo nëse ky kompjuter ka një disk të ngurtë të lidhur.
+Description-sr.UTF-8: Не постоји медијум који се може партиционисати
+Extended_description-sr.UTF-8: Није пронађен ни један медијум који се може партиционисати.\n\nПроверите да ли је хард диск закачен за ову машину.
+Description-sv.UTF-8: Inget partitioneringsbart media
+Extended_description-sv.UTF-8: Hittade inget partitioneringsbart media.\n\nKontrollera att en hårddisk är ansluten till den här datorn.
+Description-ta.UTF-8: பகுக்கக்கூடிய ஊடகம் ஏதுமில்லை
+Extended_description-ta.UTF-8: பகுக்கக்கூடிய ஊடகம் எதும் கண்டறியப்படவில்லை.\n\nவட்டு இந்த சாதனத்துடன் இணைக்கப்பட்டுள்ளதா என்பதை சரிபார்க்கவும்.
+Description-te.UTF-8: విభజనకు అనువయిన మీడియా లే
+Extended_description-te.UTF-8: విభజనకు అనువయిన మీడియా కనుగొనబడలేదు.\n\nహార్డ్ డిస్క్  ఈ మెషిన్ కి జతచేశారా లేదా తనిఖీ చేయుము.
+Description-tg.UTF-8: Медиаи қисмбандишаванда нест
+Extended_description-tg.UTF-8: Ягон медиаи қисмбандишаванда ёфт нашудааст\n\nЛутфан, санҷед, ки агар диски компютерӣ ба ин компютер васл шуда бошад.
+Description-th.UTF-8: ไม่มีสื่อที่สามารถแบ่งพาร์ทิชันได้
+Extended_description-th.UTF-8: ไม่พบสื่อที่สามารถแบ่งพาร์ทิชันได้\n\nกรุณาตรวจสอบให้แน่ใจว่าได้ต่อฮาร์ดดิสก์เข้ากับเครื่อง
+Description-tl.UTF-8: Walang media na maaaring i-partisyon
+Extended_description-tl.UTF-8: Walang nahanap na media na maaaring i-partisyon.\n\nPakisuri na may hard disk na nakakabit sa makinang ito.
+Description-tr.UTF-8: Bölümlenebilir ortam yok
+Extended_description-tr.UTF-8: Bölümlenebilir bir ortam bulunamadı.\n\nLütfen bu makineye bir sabit disk takılı olduğundan emin olun.
+Description-ug.UTF-8: رايونغا ئايرىلغان ۋاسىتە يوق
+Extended_description-ug.UTF-8: رايونغا ئايرىلغان ۋاسىتە تېپىلمىدى.\n\nقاتتىق دىسكىنىڭ كومپيۇتېرغا چېتىلغان چېتىلمىغانلىقىنى تەكشۈرۈڭ.
+Description-uk.UTF-8: Немає пристрою для розбивки
+Extended_description-uk.UTF-8: Не знайдений жодний пристрій, який можна розбити.\n\nПеревірте, чи приєднаний жорсткий диск до цієї машини.
+Description-vi.UTF-8: Không có vật chứa nào phân vùng được
+Extended_description-vi.UTF-8: Không tìm thấy vật chứa nào có khả năng phân vùng.\n\nHãy kiểm tra xem có đĩa cứng được kết nối đến máy này.
+Description-zh_CN.UTF-8: 无可分区的介质
+Extended_description-zh_CN.UTF-8: 未找到可分区的介质。\n\n请您检查这台计算机是否接有硬盘。
+Description-zh_TW.UTF-8: 沒有可進行磁碟分割的裝置
+Extended_description-zh_TW.UTF-8: 找不到可以進行磁碟分割的裝置。\n\n請確認在該機器上是否有安裝硬碟。
+
+Name: disk-detect/detect_progress_title
+Type: text
+Description: Detecting disks and all other hardware
+Description-am.UTF-8: ዲስኮችንና ሌሎች ጥር አካላቶችን በማግኘት ላይ
+Description-ar.UTF-8: اكتشاف الأقراص و كل ما سواها من العتاد
+Description-ast.UTF-8: Deteición de los discos y el restu del hardware
+Description-be.UTF-8: Вызначэнне дыскаў і астатняга абсталявання
+Description-bg.UTF-8: Разпознаване на дискове и друг хардуер
+Description-bn.UTF-8: ডিস্ক ও অন্যান্য সকল হার্ডওয়্যার সনাক্ত করছি
+Description-bo.UTF-8: གསོག་སྡེར་དབ་སྲ་ཆས་གཞན་ཡོངས་ཚོར་རྟོགས་བྱེད་བཞིན་པ
+Description-bs.UTF-8: Detektiranje diskova i svog drugog hardware-a
+Description-ca.UTF-8: S'estan detectant els discs i la resta de maquinari
+Description-cs.UTF-8: Rozpoznávají se disky a další hardware
+Description-cy.UTF-8: Yn canfod disgiau a phob caledwedd arall
+Description-da.UTF-8: Søger efter diske og alt andet udstyr
+Description-de.UTF-8: Erkennen von Festplatten und anderen Hardware-Geräten
+Description-dz.UTF-8: སྲ་ཆས་གཞན་ཆ་མཉམ་དང་ཌིཀསི་སྐྱོན་འཛིན་ནི།
+Description-el.UTF-8: Ανίχνευση δίσκων και υπόλοιπου υλικού
+Description-eo.UTF-8: Detektado de la diskoj kaj de ĉiu alia aparataro
+Description-es.UTF-8: Detectando los discos y el resto del hardware
+Description-et.UTF-8: Ketaste ja ülejäänud riistvara tuvastamine
+Description-eu.UTF-8: Diskoak eta bestelako hardwarea antzematen
+Description-fa.UTF-8: بازرسیو کشف دیسک‌ها و سایر سخت‌افزارها
+Description-fi.UTF-8: Tunnistetaan kiintolevyjä ja muuta laitteistoa
+Description-fr.UTF-8: Détection des disques et des autres périphériques
+Description-ga.UTF-8: Dioscaí á mbrath agus gach crua-earra eile
+Description-gl.UTF-8: Estanse a detectar os discos e o resto do hardware
+Description-gu.UTF-8: ડિસ્ક અને બીજા બધા હાર્ડવેર ચકાસે છે
+Description-he.UTF-8: זיהוי דיסקים וסוגי חומרה נוספים
+Description-hi.UTF-8: डिस्क तथा अन्य हार्डवेयर खोज रहे हैं
+Description-hr.UTF-8: Tražim diskove i sve ostalo sklopovlje
+Description-hu.UTF-8: Lemezek és más eszközök felderítése
+Description-id.UTF-8: Sedang mencari hard disk dan perangkat keras lainnya
+Description-is.UTF-8: Skoða diska og annan vélbúnað
+Description-it.UTF-8: Rilevamento dischi e del restante hardware
+Description-ja.UTF-8: ディスクとその他のハードウェアを検出しています
+Description-ka.UTF-8: დისკების და ყველა სხვა აპარატურის ამოცნობა
+Description-kk.UTF-8: Дисктер мен басқа құрылғылар анықталуда
+Description-km.UTF-8: កំពុង​រក​ថាស និង ផ្នែករឹង​ផ្សេង​ទៀត
+Description-kn.UTF-8: ಡಿಸ್ಕ್ಗಳು ಮತ್ತು ಇತರೆ ಯಂತ್ರಾಂಶಗಳನ್ನು ಪತ್ತೆ ಮಾಡಲಾಗುತ್ತಿದೆ
+Description-ko.UTF-8: 디스크 및 기타 하드웨어를 찾는 중입니다
+Description-ku.UTF-8: Dîsk û hardware ya din tê tesbîtkirin
+Description-lo.UTF-8: ກຳລັງກວດຫາດີສ໌ ແລະ ຮາດແວຣ໌ອື່ນ ໆ
+Description-lt.UTF-8: Diskų ir visos kitos aparatinės įrangos paieška
+Description-lv.UTF-8: Nosaka diskus un visu pārējo aparatūru
+Description-mk.UTF-8: Детектирање на дискови и сиот останат хардвер
+Description-ml.UTF-8: ഡിസ്ക്കുകളും മറ്റെല്ലാ ഹാര്‍ഡ്‌വെയറുകളും കണ്ടെത്തുന്നു
+Description-mr.UTF-8: डिस्क आणि इतर सर्व हार्डवेअर यांचा शोध होत आहे
+Description-nb.UTF-8: Ser etter harddisker og annen maskinvare
+Description-ne.UTF-8: सबै डिस्कहरू र अन्य सबै हार्डवयेर पत्ता लगाउदै
+Description-nl.UTF-8: Automatische hardwareherkenning wordt uitgevoerd (schijven+rest)
+Description-nn.UTF-8: Ser etter harddiskar og anna maskinvare
+Description-no.UTF-8: Ser etter harddisker og annen maskinvare
+Description-pa.UTF-8: ਡਿਸਕਾਂ ਅਤੇ ਹੋਰ ਜੰਤਰ ਖੋਜੇ ਜਾ ਰਹੇ ਹਨ
+Description-pl.UTF-8: Wykrywanie dysków i innego sprzętu
+Description-pt.UTF-8: A detectar discos e o restante hardware
+Description-pt_BR.UTF-8: Detectando discos e todo o restante do hardware
+Description-ro.UTF-8: Se detectează discurile și toate celelalte componente
+Description-ru.UTF-8: Определение дисков и прочего оборудования
+Description-se.UTF-8: Áicamin garraskearruid ja eará mašiidnagálvvu
+Description-si.UTF-8: තැටි සහ අනෙකුත් සියලු දෘඩාංග හදුනාගනිමින්
+Description-sk.UTF-8: Rozpoznávajú sa disky a ďalšie zariadenia
+Description-sl.UTF-8: Zaznavanje diskov in ostale strojne opreme
+Description-sq.UTF-8: Duke zbuluar disqet dhe të tjera pjesë të kompjuterit
+Description-sr.UTF-8: Детектовање дискова и осталог хардвера
+Description-sv.UTF-8: Identifierar hårddiskar och all annan maskinvara
+Description-ta.UTF-8: வட்டுகள் மற்றும் இதர வன்பொருள்கள் கண்டறியப்படுகின்றன
+Description-te.UTF-8: డిస్క్ లను మరియు ఇతర హార్డ్వేర్ ను  కనుగొనుట
+Description-tg.UTF-8: Муайянкунии дискҳо ва ҳамаи сахтафзори дигар
+Description-th.UTF-8: กำลังตรวจหาดิสก์และฮาร์ดแวร์อื่นๆ
+Description-tl.UTF-8: Hinahanap ang mga disk at iba pang hardware
+Description-tr.UTF-8: Diskler ve diğer donanımlar algılanıyor
+Description-ug.UTF-8: دىسكا ۋە باشقا قاتتىق دېتاللارنى تەكشۈرۈۋاتىدۇ
+Description-uk.UTF-8: Розпізнавання дисків та іншого обладнання
+Description-vi.UTF-8: Đang dò tìm các đĩa và các phần cứng khác
+Description-zh_CN.UTF-8: 正在探测磁盘和其他硬件
+Description-zh_TW.UTF-8: 偵測磁碟及所有其它硬體
+
+Name: disk-detect/dmraid/enable
+Type: boolean
+Default: false
+Description: for internal use; can be preseeded
+Extended_description: Check for the presence of Serial ATA RAID (dmraid) disks?
+
+Name: disk-detect/module_select
+Type: select
+Default: continue with no disk drive
+Choices: continue with no disk drive, ${CHOICES}, none of the above
+Description: Driver needed for your disk drive:
+Extended_description: No disk drive was detected. If you know the name of the driver needed by your disk drive, you can select it from the list.
+Choices-am.UTF-8: ምንም ዲስክ ማጫወቻ ሳይኖር ቀጥል, ${CHOICES}, የትኛውም አይሆንም
+Description-am.UTF-8: ለዲስክ ማጫወቻው ነጂ ስልት ያስፈልጋል፦
+Extended_description-am.UTF-8: ምንም የዲስክ ነጂ አልተገኘም። ዲስክ ማጫወቻው የሚፈያስፈልገውን ነጂ ስልት ስም ካወቁ ከዝርዝሩ ይምረጡ።
+Choices-ar.UTF-8: الاستمرار دون قرص, ${CHOICES}, ليس أياً مما سبق
+Description-ar.UTF-8: بحاجة إلى مُعرّف للقرص:
+Extended_description-ar.UTF-8: لم يتم اكتشاف أي قرص. إن كنت تعرف اسم المُعرّف المطلوب لقرصك، يمكنك اختياره من القائمة.
+Choices-ast.UTF-8: continuar ensin unidá de discu, ${CHOICES}, denguna de les anteriores
+Description-ast.UTF-8: Controladores que necesita la to unidá de discu:
+Extended_description-ast.UTF-8: Nun se deteutó denguna unidá de discu. Pues seleicionar el controlador de la llista si conoces el nome que necesita la unidá de discu.
+Choices-be.UTF-8: працягнуць без дыскавай прылады, ${CHOICES}, ніводнага з пералічаных
+Description-be.UTF-8: Драйвер, патрэбны для Вашай дыскавай прылады:
+Extended_description-be.UTF-8: Не знойдзена ніводнай дыскавай прылады. Калі Вы ведаеце імя патрэбнага драйвера, можна пазначыць яго ў спісе.
+Choices-bg.UTF-8: без дисково устройство, ${CHOICES}, никой от горните
+Description-bg.UTF-8: Драйвер, изискван от Вашия твърд диск:
+Extended_description-bg.UTF-8: Не беше открит твърд диск. Ако знаете името на драйвера за Вашия твърд диск, можете да го изберете от списъка.
+Choices-bn.UTF-8: কোনরকম ডিস্ক ছাড়াই চালিয়ে যাও, ${CHOICES}, উপরের কোনটিও নয়
+Description-bn.UTF-8: আপনার ডিস্ক ড্রাইভের জন্য ড্রাইভার প্রয়োজন:
+Extended_description-bn.UTF-8: কোন ডিস্ক ড্রাইভ সনাক্ত করা যায় নি। আপনার ডিস্ক ড্রাইভের জন্য প্রয়োজনীয় ড্রাইভারটির নাম যদি আপনার জানা থাকে, তবে তালিকা থেকে সেটি বেছে নিন।
+Choices-bo.UTF-8: གསོག་སྡེར་འཇུག་སྣོད་མེད་པར་མུ་མཐུད, ${CHOICES}, གོང་གི་གང་ཡང་མིན་པ
+Description-bo.UTF-8: གསོག་སྡེར་འཇུག་སྣོད་ལ་དགོས་པའི་སྒུལ་ཆས：
+Extended_description-bo.UTF-8: གསོག་སྡེར་སྒུལ་ཆས་མ་རྙེད་པས་ཁྱོད་ཀྱིས་དེར་སྤྱོད་དགོས་པའི་སྒུལ་ཆས་ཀྱི་མིང་ཤེས་ན་འདེམས་ཐོ་འདི་ནས་འདེམས་ཆོག
+Choices-bs.UTF-8: nastaviti bez hard diska, ${CHOICES}, nijedan od gornjih
+Description-bs.UTF-8: Upravljački program potreban za Vaš hard disk:
+Extended_description-bs.UTF-8: Hard disk nije pronađen. Ako znate naziv modula potrebnog za Vaš hard disk, možete ga odabrati sa liste.
+Choices-ca.UTF-8: continuar sense cap unitat de disc, ${CHOICES}, cap de les anteriors
+Description-ca.UTF-8: Mòdul requerit per la unitat de disc:
+Extended_description-ca.UTF-8: No s'ha detectat cap unitat de disc. Si sabeu el nom del controlador que requereix el disc, podeu seleccionar-lo de la llista.
+Choices-cs.UTF-8: pokračovat bez disku, ${CHOICES}, nic z uvedeného
+Description-cs.UTF-8: Ovladač vyžadovaný řadičem pevného disku:
+Extended_description-cs.UTF-8: Nebyly rozpoznány žádné řadiče pevných disků. Pokud znáte název ovladače vyžadovaného vaším řadičem pevného disku, můžete jej vybrat ze seznamu.
+Choices-cy.UTF-8: parhau heb ddisgyrrwr, ${CHOICES}, dim un o'r uchod
+Description-cy.UTF-8: Gyriant sydd angen i'ch disgyrrwr:
+Extended_description-cy.UTF-8: Ni chanfuwyd disgyrrwr. Os ydych yn gwybod enw'r gyriant sydd angen ar eich disgyrrwr, gallwch ei ddewis o'r rhestr.
+Choices-da.UTF-8: fortsæt uden diskdrev, ${CHOICES}, ingen af ovenstående
+Description-da.UTF-8: Den driver, som dit diskdrev skal bruge:
+Extended_description-da.UTF-8: Der blev ikke fundet noget diskdrev. Hvis du kender navnet på den driver, dit diskdrev skal bruge, kan du vælge den fra listen.
+Choices-de.UTF-8: ohne Laufwerk fortfahren, ${CHOICES}, keines der obigen
+Description-de.UTF-8: Treiber werden für Ihr Laufwerk benötigt:
+Extended_description-de.UTF-8: Es wurde kein Laufwerk erkannt. Falls Sie den Namen des Treibers für Ihr Laufwerk kennen, können Sie ihn aus der Liste wählen.
+Choices-dz.UTF-8: ཌིཀསི་འདྲེན་འཕྲུལ་མེད་པར་འཕྲོ་མཐུད་འབད, ${CHOICES}, གོང་གི་འགྲལ་ལས་ཅི་ཡང་མེདཔ།
+Description-dz.UTF-8: ཁྱོད་ཀྱི་ཌིཀསི་འདྲེན་འཕྲུལ་ལུ་འདྲེན་བྱེད་དགོ།
+Extended_description-dz.UTF-8: ཌིཀསི་འདྲེན་འཕྲུལ་སྐྱོན་འཛིན་མ་འབྱུང་ ཁྱོད་ཀྱི་ཌིཀསི་འདྲེན་འཕྲུལ་ལུ་དགོ་པའི་འདྲེན་བྱེད་ཀྱི་མིང་ཤེས་པ་ཅིན་ ཁྱོད་ཀྱིས་ཐོ་ཡིག་ནང་ལས་སེལ་འཐུ་འབད་ཚུགས།
+Choices-el.UTF-8: συνέχιση χωρίς δίσκο, ${CHOICES}, κανένα από τα παραπάνω
+Description-el.UTF-8: Οδηγός που απαιτείται από το δίσκο σας:
+Extended_description-el.UTF-8: Δεν ανιχνεύτηκε δίσκος. Αν γνωρίζετε το όνομα του οδηγού που χρειάζεται ο δίσκος σας, επιλέξτε τον από τη λίστα.
+Choices-eo.UTF-8: daŭrigi sen disk-pelilo, ${CHOICES}, neniu el la antaŭaj
+Description-eo.UTF-8: Pelilo bezonata de via disk-pelilo:
+Extended_description-eo.UTF-8: Neniu disk-pelilo estis detektita. Se vi konas la nomon de la pelilon bezonata de via disko, vi povos elekti ĝin el ĉi tiu listo.
+Choices-es.UTF-8: continuar sin unidad de disco, ${CHOICES}, ninguna de las anteriores
+Description-es.UTF-8: Controladores que necesita su unidad de disco:
+Extended_description-es.UTF-8: No se detectó ninguna unidad de disco. Puede seleccionar el controlador de la lista si conoce el nombre del que necesita la unidad de disco.
+Choices-et.UTF-8: jätka ilma kettaseadmeteta, ${CHOICES}, mitte ükski nimetatuist
+Description-et.UTF-8: Kettaseadmele vajaminev draiver:
+Extended_description-et.UTF-8: Ühtki kettaseadet ei tuvastatud. Kui sa tead, millist draiverit su kettaseade vajab, vali see nimekirjast:
+Choices-eu.UTF-8: jarraitu disko gailurik gabe, ${CHOICES}, hauetako bat ere ez
+Description-eu.UTF-8: Disko gailuaren kontrolatzailea behar da:
+Extended_description-eu.UTF-8: Diskorik ez da detektatu. Ethernet txartelak behar duen kontrolatzailearen izena badakizu, zerrendan hauta dezakezu.
+Choices-fa.UTF-8: بدون دیسک در درایو ادامه بده, ${CHOICES}, هیچ یک از موارد فوق
+Description-fa.UTF-8: راه‌انداز لازم برای گردانندهٔ دیسک:
+Extended_description-fa.UTF-8: هیچ گردانندهٔ دیسکی تشخیص داده نشد. اگر نام راه‌انداز لازم برای گردانندهٔ دیسک خود را می‌دانید، می‌توانید آنرا از لیست انتخاب کنید.
+Choices-fi.UTF-8: jatka ilman levyä, ${CHOICES}, ei mikään edellisistä
+Description-fi.UTF-8: Levyn tarvitsema ajuri:
+Extended_description-fi.UTF-8: Levyä ei löytynyt. Jos tiedät levyasemasi tarvitseman ajurin nimen, voit valita sen listalta.
+Choices-fr.UTF-8: Continuer sans disque dur, ${CHOICES}, Aucun de ces choix
+Description-fr.UTF-8: Module nécessaire pour le disque dur :
+Extended_description-fr.UTF-8: Aucun disque dur n'a été trouvé. Si vous connaissez le nom du pilote nécessaire pour le fonctionnement du disque dur, veuillez le choisir dans la liste.
+Choices-ga.UTF-8: lean ar aghaidh gan tiomántán diosca, ${CHOICES}, níl aon cheann acu thuas
+Description-ga.UTF-8: Tiománaí de dhíth ar do thiomántán diosca:
+Extended_description-ga.UTF-8: Níor braitheadh tiomántán diosca. Más eol duit ainm an tiománaí atá de dhíth ar do thiomántán diosca, is féidir leat é a roghnú ón liosta.
+Choices-gl.UTF-8: continuar sen disco, ${CHOICES}, ningunha das anteriores
+Description-gl.UTF-8: Controlador preciso polo disco duro:
+Extended_description-gl.UTF-8: Non se detectou ningún disco duro. Se coñece o nome do controlador que precisa o disco duro, pode escollelo na lista.
+Choices-gu.UTF-8: ડિસ્ક ડ્રાઇવ વગર ચાલુ રાખો, ${CHOICES}, ઉપરમાંથી કશું નહી
+Description-gu.UTF-8: તમારા ડિસ્ક ડ્રાઇવ માટે જોઇતા ડ્રાઇવર:
+Extended_description-gu.UTF-8: કોઇ ડિસ્ક ડ્રાઇવ મળી નહી. જો તમને તમારી ડિસ્ક ડ્રાઇવને જોઇતા ડ્રાઇવરનું નામ ખબર હોય તો, તમે તેને યાદીમાંથી પસંદ કરી શકો છો.
+Choices-he.UTF-8: המשך ללא כונן דיסקים, ${CHOICES}, אף אחת מהאפשרויות למעלה
+Description-he.UTF-8: מנהל התקן שנדרש עבור כונן הדיסקים שלך:
+Extended_description-he.UTF-8: לא זוהה כונן דיסקים. אם אתה יודע את שם מנהל ההתקן שנדרש עבור כונן הדיסקים שלך, תוכל לבחור אותו מהרשימה.
+Choices-hi.UTF-8: बिना किसी डिस्क ड्राइव के जारी रखें, ${CHOICES}, उपरोक्त में से कोई भी नहीं
+Description-hi.UTF-8: आपकी डिस्क ड्राइव के लिए आवश्यक ड्राइवर:
+Extended_description-hi.UTF-8: कोई भी डिस्क ड्राइव नहीं मिली. यदि आप अपनी डिस्क ड्राइव के ड्राइवर का नाम जानते हैं तो आप सूची में से उसे चुन सकते हैं.
+Choices-hr.UTF-8: nastavi bez diskovnog uređaja, ${CHOICES}, ništa od navedenog
+Description-hr.UTF-8: Upravljački program za vaš diskovni uređaj:
+Extended_description-hr.UTF-8: Diskovni uređaj nije pronađen. Ako znate naziv upravljačkog programa za vaš diskovni uređaj, izaberite ga s popisa.
+Choices-hu.UTF-8: folytatás lemezmeghajtó nélkül, ${CHOICES}, egyik sem
+Description-hu.UTF-8: Lemez meghajtóhoz szükséges illesztőprogram:
+Extended_description-hu.UTF-8: Nem érzékeltem lemezmeghajtót. Ha tudja a szükséges meghajtó nevét, kiválaszthatja a listából.
+Choices-id.UTF-8: lanjutkan tanpa penggerak disk, ${CHOICES}, tak satupun di atas
+Description-id.UTF-8: Driver yang dibutuhkan penggerak disk Anda:
+Extended_description-id.UTF-8: Penggerak disk tidak ditemukan. Jika Anda tahu nama driver yang dibutuhkan oleh hard disk Anda, silakan pilih dari daftar.
+Choices-is.UTF-8: Halda áfram án án harða disks, ${CHOICES}, Ekkert af ofangreindu
+Description-is.UTF-8: Rekill sem þarf fyrir diskinn:
+Extended_description-is.UTF-8: Enginn harður diskur fannst. Ef þú þekkir nafn rekilsins sem diskurinn þarfnast getur þú valið hann úr listanum.
+Choices-it.UTF-8: continuare senza unità a disco, ${CHOICES}, nessuna delle precedenti
+Description-it.UTF-8: Driver necessario per l'unità a disco:
+Extended_description-it.UTF-8: Non è stata rilevata alcuna unità a disco. Se si conosce il nome del driver richiesto dalla propria unità a disco è possibile selezionarlo dall'elenco.
+Choices-ja.UTF-8: ディスクドライブなし, ${CHOICES}, 該当なし
+Description-ja.UTF-8: ディスクドライブに必要なドライバ:
+Extended_description-ja.UTF-8: ディスクドライブが検出されませんでした。あなたのディスクドライブに必要なドライバの名前がわかっているなら、リストからそれを選択できます。
+Choices-ka.UTF-8: გაგრძელება დისკწამყვანის გარეშე, ${CHOICES}, არცერთი მათგანი
+Description-ka.UTF-8: თქვენი დისკწამყვანი დრაივერს საჭიროებს:
+Extended_description-ka.UTF-8: დისკის დრაივერი ვერ იქნა ამოცნობილი. თუ იცით, რომელ დრაივერს საჭიროებს თქვენი დისკწამყვანი, ამოირჩიეთ იგი სიიდან.
+Choices-kk.UTF-8: дисксіз жалғастыра беру, ${CHOICES}, ешқайсысы
+Description-kk.UTF-8: Дискіңіздің драйвері:
+Extended_description-kk.UTF-8: Ешбір диск табылмады. Драйвер атын білсеңіз, төмендегі тізімнен таңдап көруіңізге болады.
+Choices-km.UTF-8: បន្ដ​ដោយ​គ្មាន​ដ្រាយ​ថាស​, ${CHOICES}, ខាងលើ​សុទ្ធ​តែ​មិន​មែន
+Description-km.UTF-8: ដ្រាយ​ដែល​ត្រូវការ​សម្រាប់​ដ្រាយ​ថាស​របស់​អ្នក ៖
+Extended_description-km.UTF-8: រក​មិន​ឃើញ​ដ្រាយ​ថាស​ឡើយ ។ បើ​អ្នក​ស្គាល់​ឈ្មោះ​ដ្រាយ​ដែល​ត្រូវការ​ដោយ​​ដ្រាយ​ថាស​របស់​អ្នក អ្នក​អាចជ្រើស​វា​ពី​បញ្ជី ។
+Choices-kn.UTF-8: ಯಾವುದೇ ಡಿಸ್ಕ್ ಡ್ರೈವ್ ಇಲ್ಲದೇ ಹಾಗೆ ಮುಂದುವರೆಯುವುದೇ?, ${CHOICES}, ಮೇಲೆ ಸೂಚಿಸಿದವು ಯಾವುವು ಅಲ್ಲ‌
+Description-kn.UTF-8: ನಿಮ್ಮ ಡಿಸ್ಕ್ ಡ್ರೈವ್'ಗೆ ಚಾಲನಾ ತಂತ್ರಾಂಶ ಬೇಕಿದೆ:
+Extended_description-kn.UTF-8: ಯಾವುದೇ ಡಿಸ್ಕ್ ಡ್ರೈ ವ್ ಪತ್ತೆಯಾಗಿಲ್ಲ. ನಿಮ್ಮ ಡಿಸ್ಕ್ ಡ್ರೈ ವ್'ಗೆ ಬೇಕಾದ ಚಾಲನಾ ತಂತ್ರಾಂಶದ ಹೆಸರು ಗೊತ್ತಿದ್ದರೆ ನೀವು ಅದನ್ನು ಪಟ್ಟಿಯಿಂದ ಆಯ್ದುಕೊಳ್ಳ ಬಹುದು.
+Choices-ko.UTF-8: 디스크 드라이브 없음, ${CHOICES}, 위에 없음
+Description-ko.UTF-8: 디스크 드라이브에 필요한 드라이버:
+Extended_description-ko.UTF-8: 디스크 드라이브를 찾을 수 없습니다. 지금 사용하고 있는 디스크 드라이브에 필요한 드라이버의 이름을 알고 있다면, 다음 목록에서 고르십시오.
+Choices-ku.UTF-8: bê ajokara dîskê bidomîne, ${CHOICES}, ne yek ji van
+Description-ku.UTF-8: Ajokara ji bo ajokara te ya dîskê pêwist e:
+Extended_description-ku.UTF-8: Tu ajokara dîskan nehate nasîn. Heke tu navê ajokara ku ji ajokara te ya dîskê re pêwist e dizanî, tu dikarî ji lîsteyê hilbijêrî.
+Choices-lo.UTF-8: ດຳເນີນການຕໍ່ໂດຍບໍ່ມີດິກ, ${CHOICES}, ບໍ່ໃຊ້ຕົວເລືອກເບື້ອງຕົ້ນ
+Description-lo.UTF-8: ໄດເວີທີ່ຕ້ອງການສຳລັບດິກໄດຣຂອງເຈົ້າ:
+Extended_description-lo.UTF-8: ກວດບໍ່ພົບດິກໄດຣ ຖ້າເຈົ້າຮູ້ຊື່ຂອງໄດເວີສຳລັບດິກໄດຂອງເຈົ້າ ເຈົ້າສາມາດເລືອກໄດ້ຈາກລາຍການນີ້:
+Choices-lt.UTF-8: be disko įrenginio, ${CHOICES}, niekas iš paminėtų
+Description-lt.UTF-8: Tvarkyklė, reikalinga diskui:
+Extended_description-lt.UTF-8: Neaptiktas disko įrenginys. Jei žinote disko įrenginiui reikiamos tvarkyklės pavadinimą, galite išsirinkti ją iš sąrašo.
+Choices-lv.UTF-8: turpināt bez diskdziņa, ${CHOICES}, neviens no iepriekš minētajiem
+Description-lv.UTF-8: Jūsu diskdzinim vajadzīgais draiveris:
+Extended_description-lv.UTF-8: Nav atrasts neviens diskdzinis. Ja zināt savam diskdzinim vajadzīgā draivera nosaukumu, varat to izvēlēties no saraksta.
+Choices-mk.UTF-8: продолжи без диск уред, ${CHOICES}, ниедна од наведените
+Description-mk.UTF-8: Управувач кој е потребен за твојот диск уред:
+Extended_description-mk.UTF-8: Не беше детектиран мрежна карта. Ако го знаеш името на управувачот за твојата мрежна карта, можеш да го одбереш од листата.
+Choices-ml.UTF-8: ഡിസ്ക്ക്‌ ഡ്രൈവുകളൊന്നും ഇല്ലാതെ തന്നെ തുടരുക, ${CHOICES}, മുകളില്‍ പറഞ്ഞവയില്‍ ഒന്നുമല്ല
+Description-ml.UTF-8: നിങ്ങളുടെ ഡിസ്ക്ക്‌ ഡ്രൈവിനാവശ്യമായ പ്രവര്‍ത്തകം:
+Extended_description-ml.UTF-8: ഡിസ്ക്ക്‌ ഡ്രൈവുകള്‍ ഒന്നും കണ്ടെത്താനായില്ല. ഡിസ്ക്ക് ഡ്രൈവിന്റെ പ്രവര്‍ത്തകത്തിന്റെ പേരു് നിങ്ങള്‍ക്കറിയാമെങ്കില്‍ അതു് ഈ പട്ടികയില്‍ നിന്നു്‌ തെരഞ്ഞെടുക്കാവുന്നതാണു്.
+Choices-mr.UTF-8: डिस्क ड्राइव्ह शिवाय पुढे चालू ठेवा, ${CHOICES}, वरील पैकी कोणतेही नाहीत
+Description-mr.UTF-8: तुमच्या डिस्क ड्राइव्हसाठी जरुरी असणारे ड्रायव्हर:
+Extended_description-mr.UTF-8: कोणताही डिस्क ड्राइव्ह सापडला नाही. जर तुम्हाला तुमच्या डिस्क ड्राइव्हसाठी लागणार्‍या ड्रायव्हरचे नाव माहित असेल तर तुम्ही ते सूचीमधून निवडू शकता.
+Choices-nb.UTF-8: fortsett uten harddisk, ${CHOICES}, ingen av de ovenfor
+Description-nb.UTF-8: Driver som trengs for din harddisk:
+Extended_description-nb.UTF-8: Fant ingen harddisk. Hvis du vet navnet på driveren som din harddisk trenger, så kan du velge den fra lista.
+Choices-ne.UTF-8: डिस्क ड्राइभ बेगर निरन्तरता दिनुहोस्, ${CHOICES}, तलको मध्ये कुनै
+Description-ne.UTF-8: तपाईँको डिस्क ड्राइभलाई आवश्यक पर्ने ड्राइभर:
+Extended_description-ne.UTF-8: कुनै पनि डिस्क ड्राइभ पत्ता लागेन । यदि तपाईँलाई तपाईँको डिस्क ड्राइभलाई आवश्यक पर्ने ड्राइभरको नाम थाहा छ भने तपाईँले यसलाई सूचीबाट चयन गर्न सक्नुहुन्छ ।
+Choices-nl.UTF-8: verder gaan zonder harde schijf, ${CHOICES}, geen van bovenstaande
+Description-nl.UTF-8: Module vereist voor uw harde schijf:
+Extended_description-nl.UTF-8: Er is geen harde schijf gedetecteerd. Als u de naam weet van het door uw harde schijf vereiste stuurprogramma kunt u het in de lijst selecteren.
+Choices-nn.UTF-8: halda fram utan harddisk, ${CHOICES}, ingen av dei ovanfor
+Description-nn.UTF-8: Drivar som trengs for harddisken din:
+Extended_description-nn.UTF-8: Fann ingen harddisk. Viss du veit namnet på drivaren som trengst for harddisken din, kan du velje han frå lista.
+Choices-no.UTF-8: fortsett uten harddisk, ${CHOICES}, ingen av de ovenfor
+Description-no.UTF-8: Driver som trengs for din harddisk:
+Extended_description-no.UTF-8: Fant ingen harddisk. Hvis du vet navnet på driveren som din harddisk trenger, så kan du velge den fra lista.
+Choices-pa.UTF-8: ਕੋਈ ਵੀ ਡਿਸਕ ਡਰਾਈਵ ਤੋਂ ਬਿਨਾਂ ਜਾਰੀ ਰਹੋ, ${CHOICES}, ਉਪਰਲਿਆਂ ਵਿੱਚੋਂ ਕੋਈ ਨਹੀਂ
+Description-pa.UTF-8: ਤੁਹਾਡੀ ਡਿਸਕ ਡਰਾਈਵ ਲਈ ਲਈ ਲੋੜੀਦਾ ਡਰਾਇਵਰ:
+Extended_description-pa.UTF-8: ਕੋਈ ਡਿਸਕ ਡਰਾਈਵਰ ਨਹੀਂ ਲੱਭਿਆ। ਜੇ ਤੁਸੀਂ ਡਿਸਕ ਡਰਾਈਵਰ ਦਾ ਨਾਂ ਜਾਣਦੇ ਹੋ, ਤੁਸੀਂ ਇਸ ਨੂੰ ਸੂਚੀ ਵਿੱਚੋਂ ਚੁਣ ਸਕਦੇ ਹੋ।
+Choices-pl.UTF-8: kontynuuj bez dysku twardego, ${CHOICES}, żaden z powyższych
+Description-pl.UTF-8: Sterownik wymagany przez Twój dysk twardy:
+Extended_description-pl.UTF-8: Nie wykryto żadnego dysku twardego. Jeśli znasz nazwę wymaganego sterownika, możesz wybrać go z listy.
+Choices-pt.UTF-8: continuar sem nenhum disco, ${CHOICES}, nenhuma das acima
+Description-pt.UTF-8: Driver necessário para o seu disco:
+Extended_description-pt.UTF-8: Não foi detectado nenhum disco. Se sabe o nome do driver necessário para o seu disco, pode escolhe-lo a partir da lista.
+Choices-pt_BR.UTF-8: continuar sem nenhuma unidade de disco, ${CHOICES}, nenhuma das acima
+Description-pt_BR.UTF-8: Driver requerido por sua unidade de disco:
+Extended_description-pt_BR.UTF-8: Nenhuma unidade de disco foi detectada. Se você sabe o nome do driver requerido por sua unidade de disco, você pode selecioná-lo a partir da lista.
+Choices-ro.UTF-8: continuare fără unitate de disc, ${CHOICES}, nici una de mai sus
+Description-ro.UTF-8: Module de nucleu necesar unității de disc:
+Extended_description-ro.UTF-8: Nu s-a detectat nici o unitate de disc. Dacă cunoașteți numele modulului de nucleu necesar unității dumneavoastră de disc, îl puteți selecta din listă.
+Choices-ru.UTF-8: продолжить без дисков, ${CHOICES}, ни одно из перечисленных
+Description-ru.UTF-8: Драйвер, необходимый для диска:
+Extended_description-ru.UTF-8: Программа установки не обнаружила дисков. Если вы знаете имя драйвера, нужного для вашего диска, то можете выбрать его из списка.
+Choices-si.UTF-8: තැටි ධාවකයකින් තොරව ඉදිරියට යන්න, ${CHOICES}, ඉහත කිසිවක් නොවේ
+Description-si.UTF-8: ඔබේ තැටි දහාවකයට ඇවැසි ධාවක:
+Extended_description-si.UTF-8: කිසිඳු තැටි ධාවකයක් හමු නොවිනි, ඔබේ තැටි ධාවකයට අවශ්‍ය ධාවකයේ නම දන්නේ නම් ලැයිස්තුවෙන් එය තෝරාගත හැක.
+Choices-sk.UTF-8: pokračovať bez diskovej jednotky, ${CHOICES}, nič z uvedeného
+Description-sk.UTF-8: Ovládač potrebný pre vašu diskovú jednotku:
+Extended_description-sk.UTF-8: Nebola rozpoznaná žiadna disková jednotka. Ak viete názov ovládača, ktorý je potrebný pre vašu diskovú jednotku, môžete si ho zvoliť zo zoznamu.
+Choices-sl.UTF-8: nadaljuj brez diska, ${CHOICES}, nič od tega
+Description-sl.UTF-8: Gonilnik za vaš disk:
+Extended_description-sl.UTF-8: Ni bilo mogoče zaznati nobenega diska. Če poznate ime gonilnika, ki ga potrebuje vaš disk, ga lahko izberete iz seznama.
+Choices-sq.UTF-8: vazhdo pa disk, ${CHOICES}, asnjë e të mësipërmëve
+Description-sq.UTF-8: Nevojitet drejtues për diskun tënd:
+Extended_description-sq.UTF-8: Nuk u gjet asnjë disk. Nëse e njeh emrin e drejtuesit që i nevojitet diskut tënd, mund ta zgjedhësh nga lista.
+Choices-sr.UTF-8: настави без диск драјвова, ${CHOICES}, ни једно од наведеног
+Description-sr.UTF-8: Потребан драјвер за ваш диск драјв:
+Extended_description-sr.UTF-8: Није детектован ниједан диск драјв. Ако знате име драјвера потребногза ваш диск драјв, можете га изабрати са листе.
+Choices-sv.UTF-8: fortsätt utan diskettenhet, ${CHOICES}, ingen av ovanstående
+Description-sv.UTF-8: Drivrutin som behövs för din diskettenhet:
+Extended_description-sv.UTF-8: Hittade ingen diskettenhet. Om du vet namnet på den drivrutin som krävs för din diskettenhet kan du välja den från listan.
+Choices-ta.UTF-8: வட்டு இயக்கி இல்லாமல் தொடருக, ${CHOICES}, மேலுள்ளவை எவையும் அல்ல
+Description-ta.UTF-8: வட்டிற்கு தேவையான இயக்கு நிரல்கள்:
+Extended_description-ta.UTF-8: எந்தவொரு வட்டையும் கண்டறிய இயலவில்லை. தங்கள் வட்டிற்கு தேவையான இயக்கு நிரலை பட்டியலிலிருந்து தேர்வு செய்க.
+Choices-te.UTF-8: డిస్కు డ్రైవ్ లేకుండానే కొసాగించు, ${CHOICES}, పైవేవీ కాదు
+Description-te.UTF-8: మీ డిస్కు డ్రైవ్ కి కావలసిన డ్రైవరు (Driver):
+Extended_description-te.UTF-8: డిస్క్ డ్రైవ్ కనబడలేదు. మీ డిస్క్ డ్రైవ్ కు కావలసిన డ్రైవర్ పేరు తెలిస్తే, దానిని జాబితా నుండిఎంచుకోవచ్చు.
+Choices-tg.UTF-8: идома додан бе диски компютерӣ, ${CHOICES}, на яке аз боло
+Description-tg.UTF-8: Драйвер барои диски компютерии шумо лозим аст:
+Extended_description-tg.UTF-8: Ягон диски драйв муайян нашудааст. Агар шумо номи драйвери лозимиро барои диски драйв донед, метавонед онро аз рӯйхати зерин интихоб кунед.
+Choices-th.UTF-8: ดำเนินการต่อโดยไม่มีดิสก์, ${CHOICES}, ไม่ใช่ตัวเลือกข้างต้น
+Description-th.UTF-8: ไดรเวอร์ที่ต้องการสำหรับดิสก์ไดรว์ของคุณ:
+Extended_description-th.UTF-8: ตรวจไม่พบดิสก์ไดรว์ ถ้าคุณทราบชื่อของไดรเวอร์สำหรับดิสก์ไดรว์ของคุณ คุณสามารถเลือกได้จากรายการนี้
+Choices-tl.UTF-8: magpatuloy na walang disk drive, ${CHOICES}, wala sa itaas
+Description-tl.UTF-8: Driver na kailangan ng inyong disk drive:
+Extended_description-tl.UTF-8: Walang disk drive na nakita. Kung alam niyo ang pangalan ng driver na kailangan ng inyong disk drive ay maaari niyong piliin mula sa talaan.
+Choices-tr.UTF-8: disk sürücü olmadan devam et, ${CHOICES}, yukarıdakilerden hiçbiri
+Description-tr.UTF-8: Diskiniz için gerekli sürücü:
+Extended_description-tr.UTF-8: Herhangi bir disk algılanamadı. Diskiniz için gerekli olan sürücünün adını biliyorsanız, bunu listeden seçebilirsiniz.
+Choices-ug.UTF-8: دىسكا يوق ھالەتتە داۋاملاشتۇر, ${CHOICES}, يۇقىرىقىنىڭ ھېچقايسى
+Description-ug.UTF-8: دىسكا قوزغاتقۇچىڭىزغا لازىملىق قوزغىتىش پروگراممىسى:
+Extended_description-ug.UTF-8: ھېچقانداق دىسكا قوزغاتقۇچ بايقالمىدى. ئەگەر دىسكىڭىزغا لازىملىق قوزغىتىش پروگراممىسىنىڭ ئاتىنى بىلسىڭىز، تىزىملىكتىن تاللاڭ.
+Choices-uk.UTF-8: продовжити без диска, ${CHOICES}, жоден з перерахованих
+Description-uk.UTF-8: Драйвер, що потрібний для вашого сталого:
+Extended_description-uk.UTF-8: Сталий диск не знайдено. Якщо ви знаєте назву драйвера, що потрібен для вашого диска, виберіть його зі списку.
+Choices-vi.UTF-8: tiếp tục lại mà không có ổ đĩa, ${CHOICES}, không có cái nào ở trên
+Description-vi.UTF-8: Trình điều khiển cần cho ổ đĩa của bạn:
+Extended_description-vi.UTF-8: Không có ổ đĩa nào được tìm ra. Nếu bạn biết tên trình điều khiển cần bởi ổ đĩa trong máy tính này, hãy chọn nó trong danh sách.
+Choices-zh_CN.UTF-8: 在无磁盘驱动器情况下继续, ${CHOICES}, 以上都不是
+Description-zh_CN.UTF-8: 您的磁盘驱动器所需的驱动程序：
+Extended_description-zh_CN.UTF-8: 未探测到磁盘驱动器。如果您知道其所需的驱动程序的名称，可从以下列表中选择。
+Choices-zh_TW.UTF-8: 在沒有磁碟裝置的狀況下繼續進行, ${CHOICES}, 以上都不是
+Description-zh_TW.UTF-8: 您的磁碟裝置所需的驅動程式:
+Extended_description-zh_TW.UTF-8: 無法偵測到任何磁碟裝置。如果您知道您的磁碟裝置所使用的驅動程式的名稱，請在列表中選取。
+
+Name: disk-detect/multipath/enable
+Type: boolean
+Default: false
+Description: for internal use; can be preseeded
+Extended_description: Check for the presence of multipath devices?
+
+Name: elilo-installer/apt-install-failed
+Type: boolean
+Default: true
+Description: ELILO installation failed.  Continue anyway?
+Extended_description: The elilo package failed to install into /target/.  Installing ELILO as a boot loader is a required step.  The install problem might however be unrelated to ELILO, so continuing the installation may be possible.
+Description-am.UTF-8: የኤሊሎ ተከላ አልተሳካም፡፡ ቢሆንም ልቀጥል?
+Extended_description-am.UTF-8: የኤሊሎ ጥቅልን በ/target/ ላይ መትከል አልተቻለም፡፡  ኤሊሎን እንደ ቡት ማስነሻ አድርጎ መትከል አስፈላጊ የሆነ ሂደት ነው፡፡ የተከላው ችግር ግን ምናልባት ከኤሊሎ ጋር ያልተገናኘ ሊሆን ይችላል፣ ስለዚህ ተከላውን መቀጠል ይቻል ይሆናል፡፡
+Description-ar.UTF-8: فشل تثبيت ELILO. تريد الاستمرار على أي حال؟
+Extended_description-ar.UTF-8: فشل تثبيت حزمة إيليو على /target/. تثبيت ELILO كمحمّل إقلاع خطوة مطلوبة. مع ذلك، فإنّ مشكلة التثبيت قد لا تكون متعلّقةً ELILO، لذا فإنّ الاستمرار بالتثبيت قد يكون ممكناً.
+Description-ast.UTF-8: Falló instalación ELILO. ¿Quies siguir?
+Extended_description-ast.UTF-8: Falló'l paquete elilo al instalar en /target/. Instalar ELILO como cargador d'arranque ye un pasu requeríu. El problema d'instalación puede nun tar rellacionáu con ELILO, polo que ye dable siguir cola instalación.
+Description-be.UTF-8: Усталёўка ELILO не атрымалася.  Працягнуць, не зважаючы на гэта?
+Extended_description-be.UTF-8: Пакет elilo не атрымалася ўсталяваць у /target/.  Усталяванне ELILO як загрузчыка - неабходны крок.  Аднак, напатканая праблема можа не датычыцца ўласна ELILO, тады ў Вас ёсць шанец працягнуць.
+Description-bg.UTF-8: Грешка при инсталирането на ELILO. Продължение?
+Extended_description-bg.UTF-8: Грешка при инсталиране на пакета elilo върху /target/. Инсталирането на ELILO като програма за начално зареждане е необходима стъпка. Проблемът при инсталирането обаче може да не е свързан с ELILO, така че продължаването на инсталацията може и да е възможно.
+Description-bn.UTF-8: ELILO ইনস্টলেশন ব্যর্থ হল। তবুও এগিয়ে যাব কি?
+Extended_description-bn.UTF-8: elilo প্যাকেজকে /target/-এ ইনস্টল করা যায় নি। ELILO-কে বুট লোডার হিসেবে ইনস্টল করা একটি প্রয়োজনীয় ধাপ। তবে ইনস্টলেশনের সমস্যাটি হয়তো ELILO'র সাথে সম্পর্কিত নয়। সুতরাং এ অবস্থাতেও হয়তো ইনস্টলেশন চালিয়ে যাওয়া সম্ভব।
+Description-bo.UTF-8: ELILO སྒྲིག་འཇུག་མ་ཐུབ་པས་གང་ལྟར་མུ་མཐུད་དགོས་སམ
+Extended_description-bo.UTF-8: elilo ཐུམ་བུ་ཡིས་/target/ ནང་དུ་སྒྲིག་འཇུག་མ་ཐུབ། ELILO འགོ་འཛུགས་ཆས་ལ་སྒྲིག་འཇུག་བྱེད་པ་ནི་དགོས་ངེས་ཀྱི་རིམ་པ་ཡིན། འོན་ཀྱང་སྒྲིག་འཇུག་གི་སྐྱོན་འདི་ELILO དང་འབྲེལ་བ་མེད་སྲིད་པས་སྒྲིག་འཇུག་འདི་མུ་མཐུད་པའི་གོ་སྐབས་ཡོད་སྲིད
+Description-bs.UTF-8: ELILO instalacija nije uspjela.  Nastaviti dalje?
+Extended_description-bs.UTF-8: Paket elilo se nije uspio instalirati na /target/.  Instaliranje ELILO kao boot loadera je zahtijevani korak.  Moguće je da instalacijski problem nije u vezi s ELILO i da je moguće da nastavite instalaciju.
+Description-ca.UTF-8: Ha fallat la instal·lació d'ELILO. Voleu continuar de totes maneres?
+Extended_description-ca.UTF-8: No s'ha pogut instal·lar el paquet elilo a /target/. Instal·lar ELILO com a carregador és un pas requerit. El problema d'instal·lació pot no estar relacionat amb ELILO, així doncs continuar amb la instal·lació potser serà possible.
+Description-cs.UTF-8: Instalace ELILa selhala. Přesto pokračovat?
+Extended_description-cs.UTF-8: Balík elilo se nedokázal nainstalovat do /target. Instalace zavaděče (tedy elila) je vyžadována. Nastalý problém ale nutně nemusí souviset s elilem a možná lze v instalaci pokračovat.
+Description-cy.UTF-8: Methodd sefydliad ELILO. Parhau beth bynnag?
+Extended_description-cy.UTF-8: Methodd y pecyn eilio sefydlu yn /target/. Mae sefydlu ELILO fel llwythwr ymgychwyn yn gam angenrheidiol. Fodd bynnag, mae'n bosib nad yw'r broblem sefydlu yn gysylltiedig a ELILO, felly gall fod yn bosib parhau gyda'r sefydliad.
+Description-da.UTF-8: Installationen af ELILO mislykkedes. Vil du fortsætte alligevel?
+Extended_description-da.UTF-8: Elilo-pakken kunne ikke installeres på /target/. Installering af ELILO som opstartsindlæser er et krævet trin. Det er dog muligt at installationsproblemet ikke havde noget med ELILO at gøre, så installationen kan muligvis lade sig gøre alligevel.
+Description-de.UTF-8: ELILO-Installation fehlgeschlagen. Dennoch fortfahren?
+Extended_description-de.UTF-8: Das Elilo-Paket konnte nicht nach /target/ installiert werden. Die Installation von Elilo als Bootloader ist unbedingt erforderlich. Es besteht aber die Möglichkeit, dass Elilo von diesem Problem nicht betroffen ist; daher könnte es möglich sein, die Installation fortzusetzen.
+Description-dz.UTF-8:  ELILO གཞི་བཙུགས་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོད། གང་རུང་སྦེ་འཕྲོ་མཐུད?
+Extended_description-dz.UTF-8: elilo ཐུམ་སྒྲིལ་འདི་ /target/ ནང་ལུ་གཞི་བཙུགས་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོད། བུཊི་མངོན་གསལ་པ་བཟུམ་སྦེ་ ELILO གཞི་བཙུགས་འབད་ནི་འདི་དགོས་མཁོ་ཅན་གྱི་རིམ་པ་ཨིན། ག་དེ་སྦེ་རང་ཨིན་རུང་གཞི་བཙུགས་དཀའ་ངལ་འདི་ ELILO ལུ་འབྲེལ་བ་ཅན་མེདཔ་འོང་ དེ་འབདཝ་ལས་གཞི་བཙུགས་འབད་ནི་ལུ་འཕྲོ་མཐུད་འབད་མི་འདི་གིས་འབད་ཚུགས་འོང་།
+Description-el.UTF-8: Η εγκατάσταση του ELILΟ απέτυχε.  Θέλετε να συνεχίσετε;
+Extended_description-el.UTF-8: Το πακέτο elilo απέτυχε να εγκατασταθεί στο /target/.  Η εγκατάσταση του ELILO είναι αναγκαίο βήμα.  Ωστόσο, το πρόβλημα της εγκατάστασης μπορεί να είναι ανεξάρτητο του ELILO και ίσως να είναι δυνατή η συνέχιση της εγκατάστασης.
+Description-eo.UTF-8: 'ELILO'-instalado malsukcesis. Ĉu tamen daŭrigi?
+Extended_description-eo.UTF-8: Ne eblis instali la pakon 'ELILO' en '/target/'. Instalo de 'ELILO' kiel ekŝargilon estas bezonata ago. Tamen la problemo povus ne rilati al 'ELILO', tiaokaze eblus daŭrigi la instaladon.
+Description-es.UTF-8: La instalación de ELILO ha fallado. ¿Desea continuar de todos modos?
+Extended_description-es.UTF-8: No se pudo instalar el paquete «elilo» en «/target/». La instalación de ELILO como cargador de arranque es un paso necesario. El problema de instalación puede no estar relacionado con ELILO así que es posible continuar la instalación.
+Description-et.UTF-8: ELILO paigaldamine nurjus. Kas jätkata sellele vaatamata?
+Extended_description-et.UTF-8: Paketi elilo /target/ peale paigaldamine nurjus. Alglaaduri ELILO paigaldamine on küll vajalik samm, kuid ilmnenud probleem ei pruugi üldse ELILO'ga seotud olla, mistõttu võib osutuda võimalikuks jätkata.
+Description-eu.UTF-8: Huts egin du ELILO instalatzean.  Jarraitu nahi duzu hala ere?
+Extended_description-eu.UTF-8: Huts egin du elilo paketea /target/-en instalatzean.  ELILO abioko kargatzaile gisa instalatzea ezinbesteko urratsa da.  Instalatzeko arazoa, ordea, baliteke ELILOrekin lotuta ez egotea; beraz, agian instalatzen jarrai daiteke.
+Description-fa.UTF-8: نصب ELILO با شکست مواجه شد. به هر حال ادامه داده شود؟
+Extended_description-fa.UTF-8: نصب elilo در /target/ با شکست مواجه شد. نصب ELILO به عنوان boot loader یک مرحله ضروری است. مشکل در نصب ممکن است مربوط به ELILO نباشد، بنابراین احتمال دارد ادامه نصب امکان پذیر باشد.
+Description-fi.UTF-8: ELILOn asennus epäonnistui. Jatketaanko silti?
+Extended_description-fi.UTF-8: Ohjelmapaketin elilo asennus hakemistoon /target/ epäonnistui. ELILOn asentaminen alkulatausohjelmaksi on välttämätöntä. Asennusvika ei ehkä kuitenkaan liity ELILOon, joten asennuksen jatkaminen saattaa olla mahdollista.
+Description-fr.UTF-8: Échec de l'installation d'elilo. Continuer malgré tout ?
+Extended_description-fr.UTF-8: Le paquet elilo n'a pas pu être installé dans /target/. L'installation du programme de démarrage elilo est une étape indispensable. Ce problème n'est peut-être pas lié à elilo ; il est peut-être possible de continuer l'installation.
+Description-ga.UTF-8: Theip ar shuiteáil ELILO.  An bhfuil fonn ort dul ar aghaidh mar sin féin?
+Extended_description-ga.UTF-8: Theip ar shuiteáil an phacáiste Elilo i /target/. Caithfear Elilo a shuiteáil mar luchtóir tosaithe.  Seans nach mbaineann an fhadhb shuiteála le hElilo ar chor ar bith agus beidh tú in ann dul ar aghaidh leis an tsuiteáil.
+Description-gl.UTF-8: Produciuse un erro ao instalar ELILO. Desexa continuar aínda así?
+Extended_description-gl.UTF-8: Non foi posíbel instalar o paquete elilo en /target/. Instalar ELILO como cargador de arranque é un paso necesario. Porén, o problema de instalación podería non estar relacionado con ELILO, polo que ao mellor pode continuarse a instalación.
+Description-gu.UTF-8: ELILO સ્થાપન નિષ્ફળ. તેમ છતાં આગળ વધશો?
+Extended_description-gu.UTF-8: elilo પેકેજ /target/ પર સ્થાપિત થવામાં નિષ્ફળ.  ELILO ને બુટ લોડર તરીકે સ્થાપિત કરવું એ જરુરી પગથિયું છે.  સ્થાપન મુશ્કેલી કદાચ ELILO ને સંબંધિત ન પણ હોઇ શકે, એટલે સ્થાપનમાં આગળ વધવું એ કદાચ શક્ય થઇ શકે છે.
+Description-he.UTF-8: ההתקנה של ELILO נכשלה. להמשיך בכל זאת?
+Extended_description-he.UTF-8: החבילה elilo נכשלה בהתקנה לתוך /target/. התקנת ELILO כמנהל אתחול היא שלב חיוני. בעיית ההתקנה לא בהכרח קשורה להתקנת ELILO, כך שאולי ניתן להמשיך בהתקנה.
+Description-hi.UTF-8: इलिलो का संस्थापन असफल रहा. जैसे भी हो जारी रखें?
+Extended_description-hi.UTF-8: /target/ में ईलिलो का संस्थापन असफल रहा. बूटलोडर की भाँति ईलिलो का संस्थापन एक आवश्यक चरण है. संस्थापन की यह समस्या ईलिलो से संबद्ध नहीं भी हो सकती है, अतः संस्थापन को जारी रखना संभव हो सकता है.
+Description-hr.UTF-8: Instalacija ELILO nije uspjela. Da ipak nastavim?
+Extended_description-hr.UTF-8: Nije uspjela instalacija paketa elilo na /target/. Instalacija elilo boot učitavača je zahtijevani korak. Međutim, problem može biti nevezan za elilo pa ćete možda moći nastaviti instalaciju.
+Description-hu.UTF-8: Az ELILO telepítése sikertelen. Mégis folytatja?
+Extended_description-hu.UTF-8: Az elilo csomag /target/-be telepítése meghiúsult. Az ELILO telepítése szükséges lépés. Lehet azonban, hogy a probléma nem az ELILO-hoz kötődik, ezért a telepítés mégis folytatható lehet.
+Description-id.UTF-8: Instalasi ELILO gagal. Tetap dilanjutkan?
+Extended_description-id.UTF-8: Paket elilo gagal diinstal pada /target/. Memasang ELILO sebagai boot loader merupakan tahap penting. Namun masalah instalasi mungkin tidak bersangkutan dengan ELILO, jadi Anda dapat melanjutkan instalasi.
+Description-is.UTF-8: ELILO uppsetning mistókst. Viltu samt halda áfram?
+Extended_description-is.UTF-8: Ekki tókst að setja elilo upp á /target/. Nauðsynlegt er að setja upp ELILO til að klára uppsetningu. Vandamálið gæti samt verið ótengt ELILO, svo það er möguleiki á að hægt sé að halda uppsetningu áfram.
+Description-it.UTF-8: Installazione di Elilo non riuscita. Continuare comunque?
+Extended_description-it.UTF-8: L'installazione del pacchetto elilo in /target/ non è riuscita. L'installazione di ELILO come boot loader è un passo richiesto. Tuttavia, il problema d'installazione potrebbe non essere in relazione con ELILO e l'installazione potrebbe continuare.
+Description-ja.UTF-8: ELILO のインストールに失敗しました。続けますか?
+Extended_description-ja.UTF-8: elilo パッケージを /target/ にインストールするのに失敗しました。ブートローダー ELILO のインストールは必須のステップです。インストールの問題は ELILO と直接関係するものではないかもしれないので、インストールを続けることは可能です。
+Description-ka.UTF-8: elilo-ს ინსტალაცია შეფერხდა. მაინც გავაგრძელოთ?
+Extended_description-ka.UTF-8: elilo-პაკეტი ვერ დადგა /target/-ში. სისტემურ ჩამტვირთველად ELILO-ს დაყენება აუცილებელი ეტაპია, მაგრამ რადგანაც არ არის აუცილებელი, რომ პრობლემა ELILO-ს გამოწვეული იყოს, შეიძლება ინსტალაციის გაგრძელება.
+Description-kk.UTF-8: ELILO-ны орнату сәтсіз. Сонда да жалғастыру керек пе?
+Extended_description-kk.UTF-8: elilo /target/ ішіне орнатыла алмады. ELILO жүктеуші орнату міндетті қадам болып табылады. Орнату қатесі ELILO дестесіне байланыссыз да болуы мүмкін, демек орнатуды жалғастыра аласыз.
+Description-km.UTF-8: ការ​ដំឡើង​ ELILO បាន​បរាជ័យ​ហើយ ។​ យ៉ាង​ណា​ក៏​ដោយ បន្ត ?
+Extended_description-km.UTF-8: បាន​បរាជ័យ​ក្នុង​ការ​ដំឡើង​កញ្ចប់ elilo ទៅ​ក្នុង /target/ ។ ដាច់​ខាត​អ្នក​ត្រូវ​តែ​ដំឡើង ELILO ជា​កម្មវិធី​ចាប់ផ្ដើម​ប្រព័ន្ធ ។ ទោះ​យ៉ាង​ណា បញ្ហា​ការ​ដំឡើង​ប្រហែល​ជា​មិន​ទាក់ទង​នឹង ELILO ឡើយ ដូច្នេះ​អ្នក​ប្រហែល​ជា​អាច​បន្ត​ការ​ដំឡើង​បាន ។
+Description-kn.UTF-8: ಲಿಲೊ ಅನುಷ್ಠಾಪನೆ ವಿಫಲಗೊಂಡಿದೆ.ಎನಾದರಾಗಲಿ ಮುಂದುವರೆ?
+Extended_description-kn.UTF-8: ಲಿಲೊ ಅನ್ನು /target/ನಲ್ಲಿ ಅನುಷ್ಠಾಪಿಸಲಾಗಿಲ್ಲ.ಲಿಲೊ ಅನ್ನು ಬೂಟ್ ಲೋಡರ್ ಆಗಿ ಅನುಷ್ಠಾಪಿಸುವುದೆ ನೀವು ಮಾಡಬೇಕಿರುವ ಮುಂದಿನ ಕಾರ್ಯ.ಅನುಷ್ಠಾಪಿಸಿವ ತೊಂದರೆ ಲಿಲೊಗೆ ಸಂಭಂದವಿರದೆ ಇರಬಹುದು ಆದ್ದರಿಂದ ಅನುಷ್ಠಾಪನೆಗೆ ಯಾವುದೇ ತೊಂದರೆ ಆಗದಿರಬಹುದು
+Description-ko.UTF-8: ELILO 설치가 실패했습니다. 그래도 계속 하시겠습니까?
+Extended_description-ko.UTF-8: elilo 패키지를 /target/에 설치하는데 실패했습니다. ELILO를 부트로더로 설치하는 일은 꼭 필요한 단계입니다. 하지만 이 문제가 ELILO와는 관계없는 문제일 수도 있으므로, 설치를 계속할 수도 있습니다.
+Description-ku.UTF-8: Sazkirina ELILO serneket.  Dîsa bidomîne?
+Extended_description-ku.UTF-8: Pakêta elilo li /target/ ê nehate sazkirin.  Wekî pêşbarkerekê divê ELILO were sazkirin.  Ji ber ku pirsgirêka sazkirinê ne têkildarî ELILO ye, dibe ku tu dikarî sazkirina xwe bidomînî.
+Description-lo.UTF-8: ຕິດຕັ້ງ ELILO ບໍ່ສຳເລັດຈະດຳເນີນການຕໍ່ໄປຫລືບໍ່?
+Extended_description-lo.UTF-8: ຕິດຕັ້ງແພກເກັດ elilo ລົງໃນ /target/ ບໍ່ສຳເລັດ ການຕິດຕັ້ງ ELILO ເປັນບູຕໂຫລດເດີ ເປັນຂັ້ນຕອນທີ່ຈຳເປັນ ແຕ່ປັນຫາຂອງການຕິດຕັ້ງອາດບໍ່ກ່ຽວກັບ ELILO ກໍ່ໄດ້ ດັ່ງນັ້ນ ການດຳເນີນການຕິດຕັ້ງຕໍ່ໄປກໍ່ອາດເຮັດໄດ້.
+Description-lt.UTF-8: Nepavyko įdiegti „ELILO“. Ar vis tiek tęsti?
+Extended_description-lt.UTF-8: Nepavyko įdiegti „elilo“ paketo į /target/. Paleidyklės „ELILO“ įdiegimas yra būtinas žingsnis, tačiau diegimo problema gali būti nesusijusi su „ELILO“, tad įdiegimą galbūt galima tęsti.
+Description-lv.UTF-8: ELILO instalēšana neizdevās. Tomēr turpināt?
+Extended_description-lv.UTF-8: ELILO pakotnes instalēšana beidzās nesekmīgi. ELILO kā palaidēja instalēšana ir nepieciešams solis. Taču instalēšanas problēma varētu būt nesaistīta ar ELILO un tāpēc ir iespējams, ka sistēmas instalēšanu var turpināt.
+Description-mk.UTF-8: ELILO инсталацијата не успеа. Сепак да продолжам?
+Extended_description-mk.UTF-8: Пакетот elilo не успеа да се инсталира на /target/. Инсталирањето на elilo подигнувачот е задолжителен чекор. Сепак инсталационите проблем може да не поврзан со elilo, па инсталацијата може да продолжи.
+Description-ml.UTF-8: ഇലിലോ ഇന്‍സ്റ്റളേഷന്‍ പരാജയപ്പെട്ടു. എന്നാലും തുടരണമോ?
+Extended_description-ml.UTF-8: ഇലിലോ പാക്കേജ് /target/ ലേക്ക് ഇന്‍സ്റ്റോള്‍ ചെയ്യുന്നതില്‍ പരാജയപ്പെട്ടു. ഇലിലോ ബൂട്ട് ലോഡറായി ഇന്‍സ്റ്റോള്‍ ചെയ്യുന്നതു് ഒരു അവശ്യ നടപടിക്രമമാണു്. എന്നിരുന്നാലും ഇന്‍സ്റ്റോള്‍ പ്രശ്നം ഇലിലോയുമായി ബന്ധമില്ലാത്തതാകാം, അതു കൊണ്ടു് തന്നെ ഇന്‍സ്റ്റളേഷന്‍ തുടരാന്‍ സാധ്യമായേക്കാം.
+Description-mr.UTF-8: इलीलो अधिष्ठापना अयशस्वी. तरीही पुढे जायचे?
+Extended_description-mr.UTF-8: /target/ मध्ये इलिलो पॅकेज अधिष्ठापित करणे अयशस्वी झाले. इलीलो हा आरंभ सूचक म्हणून अधिष्ठापित करणे ही आवश्यक पायरी आहे. अधिष्ठापनेतील ही समस्या कदाचीत इलीलो शी संबंधीत नसेलही, त्यामुळे अधिष्ठापना पुढे चालू ठेवणे बहुदा शक्य आहे.
+Description-nb.UTF-8: Klarte ikke å installere Elilo. Vil du fortsette likevel?
+Extended_description-nb.UTF-8: Klarte ikke å installere Elilo-pakka i /target. Å installere Elilo som oppstartssystem er et nødvendig steg. Men det kan likevel hende at problemet er uavhengig av Elilo, så kanskje det går an å fortsette installasjonen.
+Description-ne.UTF-8: ELILO स्थापना असफल भयो । जे भए पनि निरन्तरता दिनुहुन्छ?
+Extended_description-ne.UTF-8: elilo प्याकेज /target/ मा स्थापना गर्न असफल भयो । बुट लोडरको रुपमा ELILO स्थापना गर्नु आवश्यक चरण हो । ELILO सँग सम्बन्धित नभएता पनि स्थापना समस्या देखापर्दछ, त्यसैले स्थापना निरन्तरता दिन सम्भव हुनेछ ।
+Description-nl.UTF-8: ELILO installatie is mislukt. Toch verdergaan?
+Extended_description-nl.UTF-8: Installeren van het pakket 'elilo' in /target/ is mislukt. Het installeren van ELILO als opstartlader is een verplichte stap. Mogelijk is dit installatieprobleem niet gerelateerd aan ELILO, in dat geval is verdergaan misschien mogelijk.
+Description-nn.UTF-8: Klarte ikkje installera ELILO. Vil du likevel halda fram?
+Extended_description-nn.UTF-8: Klarte ikkje installera elilo-pakken på /target/. Å installera ELILO som oppstartslastar er eit påkravd steg. Installeringsproblemet kan vera uavhengig av ELILO, så det kan vera det er mogleg å halda fram.
+Description-no.UTF-8: Klarte ikke å installere Elilo. Vil du fortsette likevel?
+Extended_description-no.UTF-8: Klarte ikke å installere Elilo-pakka i /target. Å installere Elilo som oppstartssystem er et nødvendig steg. Men det kan likevel hende at problemet er uavhengig av Elilo, så kanskje det går an å fortsette installasjonen.
+Description-pa.UTF-8: ELILO ਇੰਸਟਾਲੇਸ਼ਨ ਫੇਲ੍ਹ ਹੋਈ। ਕਿਸੇ ਤਰਾਂ ਜਾਰੀ ਰੱਖੋ?
+Extended_description-pa.UTF-8: /target/ ਉੱਤੇ elilo ਪੈਕੇਜ ਦੀ ਇੰਸਟਾਲੇਸ਼ਨ ਫੇਲ੍ਹ ਹੋਈ। ELILO ਨੂੰ ਬੂਟ ਲੋਡਰ ਤੌਰ ਤੇ ਇੰਸਟਾਲ ਕਰਨਾ ਲੋੜੀਂਦਾ ਪਗ ਹੈ। ਭਾਵੇਂ ਇੰਸਟਾਲੇਸ਼ਨ ਸਮੱਸਿਆ ਦਾ ELILO ਨਾਲ ਕੋਈ ਸੰਬੰਧ ਨਹੀਂ, ਇਸ ਲਈ ਇੰਸਟਾਲੇਸ਼ਨ ਜਾਰੀ ਕਰਨਾ ਸੰਭਵ ਹੈ।
+Description-pl.UTF-8: Instalacja ELILO nie powiodła się. Kontynuować mimo tego?
+Extended_description-pl.UTF-8: Instalacja pakietu elilo w /target/ nie powiodła się. Instalacja ELILO jako programu rozruchowego jest etapem wymaganym. Możliwe jednak, że błąd jest niezwiązany z ELILO i kontynuacja instalacji będzie możliwa.
+Description-pt.UTF-8: A instalação do ELILO falhou.  Continuar à mesma?
+Extended_description-pt.UTF-8: A instalação do pacote elilo em /target/ falhou.  É necessário que o ELILO seja instalado como carregador do sistema. No entanto o problema de instalação pode não estar relacionado com o ELILO, e poderá assim ser possível continuar com a instalação.
+Description-pt_BR.UTF-8: A instalação do ELILO falhou. Continuar mesmo assim?
+Extended_description-pt_BR.UTF-8: A instalação do pacote ELILO em /target/ falhou. A instalação do ELILO como um carregador de inicialização é um passo requerido. No entanto, o problema de instalação pode não estar relacionado ao ELILO e, nesse caso, continuar a instalação pode ser possível.
+Description-ro.UTF-8: Instalarea lui ELILO a eșuat. Continuați oricum?
+Extended_description-ro.UTF-8: Instalarea pachetului ELILO pe /target/ s-a soldat cu eșec. Instalarea ELILO ca încărcător de sistem este un pas necesar. Problema instalării ar putea, totuși, să nu aibă legătură cu ELILO, deci continuarea instalării ar putea fi posibilă.
+Description-ru.UTF-8: Не удалось установить ELILO. Продолжить установку?
+Extended_description-ru.UTF-8: Пакет elilo не удалось установить в /target/. Установка ELILO в качестве системного загрузчика является необходимым этапом установки. Тем не менее, ошибки при установке могут быть не связаны собственно с ELILO, поэтому продолжение установки возможно.
+Description-se.UTF-8: ELILO-sajáiduhttin filtii. Háliidatgo liiká joatkit?
+Extended_description-se.UTF-8: Ii lean vejolaš sajáiduhttit ELILO-páhka /target/-máhpii. Sajáiduhttit ELILO vuolggahangieđahallin lea bákkolaš lávki. Sajáiduhttinváttisvuohta ii dáidde leat ELILO sivva, nu ahte dáidá leat vejolaš joatkit sajáiduhttima.
+Description-si.UTF-8: ELILO ස්ථාපකය ස්ථාපනය අසමත්විය. කෙසෙහෝ ක්‍රියාත්මක වන්න ද?
+Extended_description-si.UTF-8: elilo පැකේජය /target/ ට ස්ථාපනය වීම අසාර්ථක විය. පණගැන්වුම් ප්‍රවේශනයක් ලෙස ELILO ස්ථාපනය අවශ්‍ය පියවරකි. කෙසේ වෙතත් ස්ථාපන ප්‍රශ්නය ELILO ට අදාළ විය හැක. එම නිසා ස්ථාපනය දිගටම කරගෙන යාමට හැක.
+Description-sk.UTF-8: Inštalácia ELILO zlyhala.  Napriek tomu pokračovať?
+Extended_description-sk.UTF-8: Inštalácia balíka elilo do /target/ zlyhala. Inštalácia zavádzača ELILO je nutný krok. Problém pri inštalácii možno nesúvisí so zavádzačom ELILO, takže môžete pokračovať.
+Description-sl.UTF-8: Namestitev paketa ELILO ni uspela.  Naj kljub temu nadaljujem?
+Extended_description-sl.UTF-8: Namestitev paketa elilo v /target/ ni uspela.  Namestitev ELILA kot zagonskega nalagalnika je obvezen korak. Težava pri namestitvi morda ni odvisna od ELILA, torej je morda vseeno mogoče nadaljevati z namestitvijo.
+Description-sq.UTF-8: Instalimi i ELILO-s dështoi.  Të vazhdoj sidoqoftë?
+Extended_description-sq.UTF-8: Instalimi i paketit elilo në /target/ dështoi.  Instalimi i ELILO-s si një ngarkues nisjeje është një hap i detyrueshëm.  Megjithatë problemi i instalimit mund të mos varet nga ELILO, kështu që mund të vazhdosh me instalimin.
+Description-sr.UTF-8: Инсталација пакета ELILO није успела.  Наставити даље?
+Extended_description-sr.UTF-8: Пакет „elilo“ није успео да се инсталира. Инсталирање програма „elilo“ као покретачког програма је обавезан корак. Проблем можда ипак није у вези са програмом ELILO, тако да наставак инсталације може бити могућ.
+Description-sv.UTF-8: ELILO-installationen misslyckades. Fortsätt ändå?
+Extended_description-sv.UTF-8: Installationen av elilo-paketet på /target/ misslyckades. Att installera ELILO som starthanterare är ett obligatoriskt steg. Problemet kan dock var orelaterat till ELILO så det kan ändå vara möjligt att fortsätta installationen.
+Description-ta.UTF-8: இலிலோ நிறுவல் தோல்வியடைந்தது. எப்படியும் தொடரவா?
+Extended_description-ta.UTF-8: /target/ இல் இலிலோ தொகுப்பு நிறுவப் படவில்லை. இலிலோ ஐ நிறுவுதல் அவசியமான படி. நிறுவல் பிரச்சினை இலிலோ க்கு சம்பந்தம் இல்லாததாக இருக்கலாம். ஆகவே நிறுவலை தொடர்தல் கை கூடலாம்.
+Description-te.UTF-8: ELILO స్థాపన లో విఫలమైంది. ఐనా సరే కొనసాగించాలా?
+Extended_description-te.UTF-8: ELILO పాకేజి  /target పై  స్థాపన కుదరలేదు. ఇది  తప్పనిసరిగా చేయవలసిన అంకం. సమస్య ELILOకి సంబంధించినది కాకపోవచ్చు. అందువలన స్థాపనని కొనసాగించటం చేయవచ్చు.
+Description-tg.UTF-8: Насбкунии ELILO бо нокомӣ дучор шудааст. Шумо мехоҳед, ки ба ҳар ҳол идома диҳед?
+Extended_description-tg.UTF-8: Бастаи elilo ба /target/ насб карда нашуд.  Насбкунии ELILO ҳамчун худроҳандозӣ қадами тавсияшуда мебошад.  Аммо, мушкилии насбкунӣ метавонад ба ELILO алоқаманд набошад, барои ҳамин идомадиҳии насбкунӣ имконпазир аст.
+Description-th.UTF-8: ติดตั้ง ELILO ไม่สำเร็จ จะดำเนินการต่อไปหรือไม่?
+Extended_description-th.UTF-8: ติดตั้งแพกเกจ elilo ลงใน /target/ ไม่สำเร็จ การติดตั้ง ELILO เป็นบูตโหลดเดอร์ เป็นขั้นตอนที่จำเป็น แต่ปัญหาของการติดตั้งอาจไม่เกี่ยวกับ ELILO ก็ได้ ดังนั้น การดำเนินการติดตั้งต่อไปก็อาจทำได้
+Description-tl.UTF-8: Bigo ang pagluklok ng ELILO.  Magpatuloy pa rin?
+Extended_description-tl.UTF-8: Bigo ang pagluklok ng elilo pakete sa /target/.  Kinakailangan ang pag-install ng ELILO.  Ang problema sa pagluklok ay maaaring walang kinalaman sa ELILO, kaya maaaring magpatuloy ng pagluklok.
+Description-tr.UTF-8: ELILO kurulumu başarısız.  Yine de devam etmek istiyor musunuz?
+Extended_description-tr.UTF-8: elilo paketi /target/ konumuna kurulamadı. Bir önyükleyici olarak ELILO'nun kurulması gerekiyor. Kurulum problemi ELILO ile ilgili olmayabileceğinden, kuruluma devam etmeniz mümkün olabilir.
+Description-ug.UTF-8: ELILO ئورنىتالمىدى. يەنىلا داۋاملاشتۇرامسىز؟
+Extended_description-ug.UTF-8: ELILO يۇمشاق دېتال بوغچىسىنى /target/ قا ئورنىتالمىدى. بۇ ELILO نى قوزغىتىش يېتەكلىگۈچ قىلىپ ئورنىتىشنىڭ زۆرۈر قەدىمى. بۇ ئورنىتىش مەسىلىسى ELILO بىلەن مۇناسىۋەتسىز بولۇشى مۇمكىن، شۇڭلاشقا داۋاملىق ئورنىتىشقا بولۇۋېرىدۇ.
+Description-uk.UTF-8: Не вдалося встановити ELILO. Всерівно продовжувати?
+Extended_description-uk.UTF-8: Не вдалося встановити пакунок elilo в /target/. Встановлення ELILO як системного завантажувача - це необхідний крок. Проте, ця проблема може і не мати відношення до ELILO, таким чином продовжити встановлення може бути реально.
+Description-vi.UTF-8: Việc cài đặt ELILO bị lỗi. Vẫn cứ tiếp tục không?
+Extended_description-vi.UTF-8: Gói elilo không cài đặt được vào « /target/ ». Việc cài đặt ELILO như là bộ nạp khởi động là bước bắt buộc phải làm. Tuy nhiên, vấn đề cài đặt có thể không liên quan đến ELILO, vậy có thể thử tiếp tục lại cài đặt.
+Description-zh_CN.UTF-8: 安装 ELILO 失败。仍然继续安装？
+Extended_description-zh_CN.UTF-8: 试图把 elilo 软件包安装到 /target/ 失败。安装 ELILO 作为启动程序是一个必需步骤。但是这个安装中的问题可能和 ELILO 并不相关，所以继续安装还是可能的。
+Description-zh_TW.UTF-8: ELILO 的安裝失敗了。是否無論如何仍然繼續？
+Extended_description-zh_TW.UTF-8: 無法將 elilo 套件安裝至 /target/。安裝 ELILO 以作為開機程式乃是不可或缺的步驟；然而，安裝失敗的原因可能並不是出在 ELILO 身上，所以繼續進行安裝或許是無妨的。
+
+Name: elilo-installer/bootpart
+Type: select
+Choices: ${BOOTPARTS}
+Description: Partition for boot loader installation:
+Extended_description: Partitions currently available in your system are listed. Please choose the one you want elilo to use to boot your new system.
+Description-am.UTF-8: የገዢ ስልት ማስነሻ መትከያ ክፋይ፦
+Extended_description-am.UTF-8: በስርዓትዎ ውስጥ የሚገኙ ክፋዮች ከታች ተዘርዝረዋል። እባክዎ elilo ስርዓትዎን ለማስነሳት እንዲጠቀምበት የሚፈልጉትን ክፋይ ይምረጡ።
+Description-ar.UTF-8: الجزء المطلوب تثبيت محمّل الإقلاع عليه:
+Extended_description-ar.UTF-8: الأجزاء المتوفّرة حاليّاً في نظامك مسردة. الرجاء اختيار الذي تريد من elilo استخدامه لإقلاع نظامك الجديد.
+Description-ast.UTF-8: Partición pa la instalación del cargador d'arranque:
+Extended_description-ast.UTF-8: Les particiones disponibles anguaño nel to sistema tán llistaes. Por favor, escueyi una na que quieras usar elilo p'arrancar el to nuevu sistema.
+Description-be.UTF-8: Падзел для ўсталявання загрузчыка:
+Extended_description-be.UTF-8: У спісе пералічаныя падзелы, што даступныя ў Вашай сістэме. Калі ласка, выберыце той, які elilo мусіць выкарыстоўваць для загрузкі Вашай новай сістэмы.
+Description-bg.UTF-8: Дял, в който да се инсталира програмата за начално зареждане:
+Extended_description-bg.UTF-8: Достъпните дялове във Вашата система са изброени. Изберете този, който elilo да използва, за да зарежда Вашата нова система.
+Description-bn.UTF-8: বুট লোডার ইনস্টলেশনের জন্য পার্টিশন:
+Extended_description-bn.UTF-8: আপনার সিস্টেমের বর্তমান পার্টিশনগুলোর একটি তালিকা দেওয়া হল। আপনার নতুন সিস্টেমকে বুট করার জন্য elilo যে পার্টিশন ব্যবহার করবে, অনুগ্রহপূর্বক তাকে বেছে নিন।
+Description-bo.UTF-8: འགོ་འཛུགས་ཆས་སྒྲིག་འཇུག་གི་འཇུག་མཛོད་ཁུལ：
+Extended_description-bo.UTF-8: ཁྱོད་ཀྱི་མ་ལག་ཐོག་ཏུ་སྤྱོད་རུང་བའི་གསོག་སྡེར་ཁག་རྣམ་ཐོག་འགོད་བྱས་ཡོད elilo་སྤྱད་ནས་མ་ལག་གསར་པ་འགོ་འཛུགས་བྱེད་ཀྱི་ཁུལ་དེ་འདེམས་རོགས
+Description-bs.UTF-8: Particija za instalaciju boot loadera:
+Extended_description-bs.UTF-8: Trenutno dostupne particije u Vašem sistemu su izlistane. Molim odaberite jednu koju želite da koristi elilo kako bi podigao Vaš novi sistem.
+Description-ca.UTF-8: Partició on instal·lar el carregador:
+Extended_description-ca.UTF-8: S'han llistat les particions que estan actualment disponibles al sistema. Seleccioneu la que voleu que utilitze elilo per a arrencar el sistema nou.
+Description-cs.UTF-8: Oblast pro instalaci zavaděče:
+Extended_description-cs.UTF-8: Vypsány jsou všechny dostupné oblasti v systému. Vyberte tu, kterou má elilo použít k zavedení nového systému.
+Description-cy.UTF-8: Rhaniad ar gyfer sefydliad llwythwr ymgychwyn:
+Extended_description-cy.UTF-8: Rhestrir rhaniadau sydd ar gael yn eich system. Os gwelwch yn dda, dewiswch yr un hoffwch eilio ddefnyddio er mwyn cychwyn i'ch system newydd.
+Description-da.UTF-8: Partition hvorpå opstartsindlæseren skal installeres:
+Extended_description-da.UTF-8: De partitioner, der er tilgængelige på dit system er vist. Vælg den, du vil have elilo skal bruge til at starte dit nye system op.
+Description-de.UTF-8: Partition für die Installation des Bootloaders:
+Extended_description-de.UTF-8: Die vorhandenen Partitionen Ihres Systems sind hier aufgelistet. Bitte wählen Sie die Partition, die elilo zum Booten Ihres neuen Systems benutzen soll.
+Description-dz.UTF-8: བུཊི་མངོན་གསལ་པ་གཞི་བཙུགས་འབད་ནིའི་དོན་ལུ་རབ་བཅད།
+Extended_description-dz.UTF-8: ད་ལྟོ་ཐོབ་ཚུགས་ནི་ཨིན་མི་བར་བཅད་ཚུ་ཁྱོད་ཀྱི་རིམ་ལུགས་ནང་ཐོ་བཀོད་འདི་ཡོད། ཁྱོད་དགོ་པའི་elilo འདི་ཁྱོད་ཀྱི་རིམ་ལུགས་གསརཔ་བུཊི་འབད་ནི་ལུ་ལག་ལེན་འཐབ་ནི་ལུ་གཅིག་གདམ་ཁ་རྐྱབས་གནང་།
+Description-el.UTF-8: Τμήμα για εγκατάσταση του φορτωτή εκκίνησης:
+Extended_description-el.UTF-8: Καταγράφονται οι διαθέσιμες αυτή την στιγμή κατατμήσεις στο σύστημά σας. Παρακαλώ διαλέξτε αυτήν που θέλετε να χρησιμοποιήσει το elilo για την εκκίνηση του συστήματός σας.
+Description-eo.UTF-8: Diskpartigo kie instali la ekŝargilon:
+Extended_description-eo.UTF-8: Nuntempe disponeblaj disk-partigoj en via sistemo estas listitaj. Bonvolu elekti tiun, kiun la programo 'elilo' uzos por ekŝargi je via nova Debiana sistemo.
+Description-es.UTF-8: Partición donde instalar el cargador de arranque:
+Extended_description-es.UTF-8: Están listadas las particiones disponibles actualmente en el sistema. Por favor, elija la que quiera para que «elilo» arranque su nuevo sistema.
+Description-et.UTF-8: Partitsioon alglaaduri paigaldamiseks:
+Extended_description-et.UTF-8: Nimekirjas on loetletud praegu kättesaadavad süsteemi partitsioonid. Vali, millist neist võib kasutada elilo alglaadimiseks.
+Description-eu.UTF-8: Abioko kargatzailea instalatzeko partizioa:
+Extended_description-eu.UTF-8: Unean sistemako partizio erabilgarriak zerrendan daude. Aukeratu bat elilo-k sistema berria abiarazteko erabiltzeko.
+Description-fa.UTF-8: پارتیشن برای نصب بوت لودر:
+Extended_description-fa.UTF-8: پارتیشن‌هایی که اکنون در سیستم شما موجود است لیست شده است. لطفا یکی را برای انجام عملیات بوت سیستم جدید انتخاب کنید.
+Description-fi.UTF-8: Mihin levyosioon alkulatausohjelma asennetaan:
+Extended_description-fi.UTF-8: Järjestelmäsi käytettävissä olevat levyosiot ovat luettelossa. Valitse mitä elilo käyttää uuden järjestelmän käynnistämiseen.
+Description-fr.UTF-8: Partition où sera installé le programme de démarrage :
+Extended_description-fr.UTF-8: Les partitions actuellement disponibles sur le système sont affichées. Veuillez choisir celle que le programme elilo utilisera pour démarrer le nouveau système.
+Description-ga.UTF-8: Deighilt ar mian leat an luchtóir tosaithe a shuiteáil uirthi:
+Extended_description-ga.UTF-8: Is iad seo na deighiltí atá ar fáil faoi láthair.  Roghnaigh an deighilt ar chóir d'elilo a úsáid chun do chóras nua a thosú.
+Description-gl.UTF-8: Partición na que se instalará o cargador de arranque:
+Extended_description-gl.UTF-8: Na lista enuméranse as particións dispoñíbeis no sistema. Escolla a partición que queira que empregue elilo para arrincar o novo sistema.
+Description-gu.UTF-8: બૂટ લોડર સ્થાપન માટે પાર્ટિશન:
+Extended_description-gu.UTF-8: તમારી સિસ્ટમમાં પ્રાપ્ત પાર્ટિશનોની યાદી આપેલ છે. મહેરબાની કરી તેમાંથી એક elilo વડે તમારી નવી સિસ્ટમ બૂટ કરવા માટે પસંદ કરો.
+Description-he.UTF-8: מחיצה להתקנת מנהל אתחול:
+Extended_description-he.UTF-8: המחיצות שזמינות כרגע רשומות ברשימה. בחר את המחיצה שאתה רוצה ש-elilo ישתמש בה לאתחול המערכת החדשה שלך.
+Description-hi.UTF-8: बूटलोडर के संस्थापन के लिए पार्टिशन:
+Extended_description-hi.UTF-8: आपके तंत्र पर अभी जो पार्टिशन उपलब्ध हैं, यह उनकी सूची है. कृपया वह एक पार्टिशन चुनें जिसे आप ईलिलो द्वारा अपना नया तंत्र बूट करने के लिए प्रयोग करने देना चाहते हैं.
+Description-hr.UTF-8: Particija za instalaciju boot učitavača:
+Extended_description-hr.UTF-8: Popisane su dostupne particije vašega sustava. Molim odredite koju će elilo koristiti za podizanje vašeg novog sustava.
+Description-hu.UTF-8: A rendszerbetöltő e partícióra kerül:
+Extended_description-hu.UTF-8: Az elérhető partíciók listájából válassza ki, melyiket használja az elilo az új rendszer indításához.
+Description-id.UTF-8: Partisi untuk pemasangan boot loader:
+Extended_description-id.UTF-8: Partisi yang tersedia pada sistem Anda ada dalam daftar. Silakan memilih satu yang akan digunakan elilo untuk booting sistem baru anda.
+Description-is.UTF-8: Disksneið sem nota á undir ræsistjóra:
+Extended_description-is.UTF-8: Eftirfarandi sneiðar eru á kerfinu þínu. Veldu þá sem þú vilt setja elilo upp á.
+Description-it.UTF-8: Partizione per l'installazione del boot loader:
+Extended_description-it.UTF-8: Vengono elencate le partizioni al momento disponibili sul sistema. Scegliere quella da fare usare a Elilo per avviare il nuovo sistema.
+Description-ja.UTF-8: ブートローダをインストールするパーティション:
+Extended_description-ja.UTF-8: あなたのシステムで現在利用可能なパーティションをリストします。新しいシステムをブートするのに使う elilo のパーティションを選択してください。
+Description-ka.UTF-8: სისტემური ჩამტვირთველის დანაყოფი:
+Extended_description-ka.UTF-8: თქვენი სისტემის დანაყოფთა სია. აირჩიეთ, რომელზე ჩატვირთოს elilo-მ ახალი სისტემა.
+Description-kk.UTF-8: Жүйелік жүктеуші орнатылатын бөлім:
+Extended_description-kk.UTF-8: Төменде қатты дискінің бар бөлімдері тізілген. Elilo жаңа жүйені қайсысынан жүктейтінін таңдаңыз.
+Description-km.UTF-8: ភាគថាស​សម្រាប់​ដំឡើង​កម្មវិធី​ចាប់ផ្ដើម​ប្រព័ន្ធ ៖
+Extended_description-km.UTF-8: ភាគថាស​ដែល​បច្ចុប្បន្ន​មាន​នៅ​ក្នុង​ប្រព័ន្ធ​របស់​អ្នក ត្រូវ​បាន​រាយ ។ សូម​ជ្រើស​ភាគថាស​មួយ ដែល​អ្នក​ចង់​ឲ្យ elilo ប្រើ​ដើម្បី​ចាប់ផ្ដើម​ប្រព័ន្ធ​ថ្មី​របស់​អ្នក ។
+Description-kn.UTF-8: ಬೂಟ್ ಲೋಡರ್  ಅನುಸ್ಥಾಪನೆಗಾಗಿ ಡಿಸ್ಕ್: 
+Extended_description-kn.UTF-8: ನಿಮ್ಮ ಗಣಕದಲ್ಲಿರುವ ವಿಭಾಗಗಳು ಈ ಪಟ್ಟಿಯಲ್ಲಿವೆ. ಯಾವ ವಿಭಾಗದಲ್ಲಿಎಲಿಲೋ ಸ್ವಯಂ ಸಿದ್ಧತ ಅನುಸ್ಥಾಪಕವನ್ನು ಮಾಡಬೇಕೆಂದು ಆಯ್ಕೆ ಮಾಡಿ
+Description-ko.UTF-8: 부트로더를 설치할 파티션:
+Extended_description-ko.UTF-8: 다음 목록은 현재 시스템에서 사용할 수 있는 파티션입니다. 데비안을 부팅할 때 ELILO가 사용할 파티션을 선택하십시오.
+Description-ku.UTF-8: Partîsiyona ji bo sazkirina boot loader:
+Extended_description-ku.UTF-8: Beşên di pergala te de yên ku mirov dikare wan bikar bîne dî lîsteyê de dixuye. Ji kerema xwe re ji bo pêşbarkirina pergala te temîn bike eliloleyekê hilbijêrî.
+Description-lo.UTF-8: ພາຣທິຊັນທີ່ຈະຕິດຕັ້ງບູຕໂຫລດເດີ:
+Extended_description-lo.UTF-8: ຕໍ່ໄປນີ້ເປັນລາຍການຂອງພາທິຊັນທີ່ມີໃນລະບົບຂອງທ່ານ ກະລຸນາເລືອກພາທິຊັນທີ່ຕ້ອງການໃຫ້ ELILO ໃຊ້ບູຕລະບົບຂອງທ່ານ.
+Description-lt.UTF-8: Disko skaidinys pradinio įkėliklio diegimui:
+Extended_description-lt.UTF-8: Sąraše pateikti sistemoje esami disko skaidiniai. Pasirinkite tą, kurį „elilo“ turėtų naudoti naujosios sistemos paleidimui.
+Description-lv.UTF-8: Nodalījums palaidēja instalācijai:
+Extended_description-lv.UTF-8: Šeit ir visi jūsu sistēmā pieejamie nodalījumi. Izvēlieties to, kuru izmantot elilo, lai palaistu jauno sistēmu.
+Description-mk.UTF-8: Партиција за инсталација на подигнувач:
+Extended_description-mk.UTF-8: Партициите моментално достапни на твојот систем се излистани. Те молам одбери една од која што сакаш elilo да го бутира твојот нов систем.
+Description-ml.UTF-8: ബൂട്ട് ലോഡര്‍ ഇന്‍സ്റ്റളേഷനു് വേണ്ട ഭാഗം:
+Extended_description-ml.UTF-8: നിങ്ങളുടെ സിസ്റ്റത്തില്‍ ഇപ്പോള്‍ ലഭ്യമായിട്ടുള്ള ഭാഗങ്ങള്‍ പട്ടികയിലുണ്ടു്. ദയവായി നിങ്ങളുടെ സിസ്റ്റം ബൂട്ട് ചെയ്യുന്നതിനായി ഇലിലോ ഉപയോഗിക്കണമെന്നു് നിങ്ങളാഗ്രഹിക്കുന്ന ഒരെണ്ണം തെരഞ്ഞെടുക്കുക.
+Description-mr.UTF-8: आरंभ सूचक अधिष्ठापनेसाठी विभाजनः
+Extended_description-mr.UTF-8: तुमच्या प्रणालीतील उपलब्ध विभाजने दर्शविली आहेत. तुमच्या नवीन प्रणालीच्या आरंभाकरिता इलीलो ने त्यापैकी कोणते विभाजन वापरावयाचे ते निवडा.
+Description-nb.UTF-8: Partisjonen der oppstartsprogrammet skal installeres:
+Extended_description-nb.UTF-8: Her er en liste over tilgjengelige partisjoner på systemet ditt. Velg den partisjonen du vil at elilo skal bruke for å starte det nye systemet ditt.
+Description-ne.UTF-8: बुट लोडर स्थापनाका लागि विभाजन:
+Extended_description-ne.UTF-8: हालै तपाईँको प्रणालीमा उपलब्ध विभाजनहरू सूचीकृत छन् । कृपया तपाईँको नयाँ प्रणाली बुट गर्नका लागि elilo प्रयोग गर्न एउटा रोज्नुहोस् ।
+Description-nl.UTF-8: Partitie voor opstartlader-installatie:
+Extended_description-nl.UTF-8: De momenteel op uw systeem beschikbare partities zijn hier opgesomd. Vanaf welke partitie dient elilo uw nieuwe systeem op te starten?
+Description-nn.UTF-8: Partisjon for installasjon av oppstartsprogrammet:
+Extended_description-nn.UTF-8: Her er ei liste over tilgjengelege partisjonar på systemet. Vel partisjonen du vil at Elilo skal bruka for å starta det nye systemet ditt.
+Description-no.UTF-8: Partisjonen der oppstartsprogrammet skal installeres:
+Extended_description-no.UTF-8: Her er en liste over tilgjengelige partisjoner på systemet ditt. Velg den partisjonen du vil at elilo skal bruke for å starte det nye systemet ditt.
+Description-pa.UTF-8: ਬੂਟ ਲੋਡਰ ਇੰਸਟਾਲੇਸ਼ਨ ਲਈ ਪਾਰਟੀਸ਼ਨ:
+Extended_description-pa.UTF-8: ਤੁਹਾਡੇ ਸਿਸਟਮ ਤੇ ਮੌਜੂਦਾ ਉਪਲੱਬਧ ਪਾਰਟੀਸ਼ਨ ਵਿਖਾਏ ਹਨ। ਇੱਕ ਚੁਣੋ ਜਿਸ ਨੂੰ ਤੁਸੀਂ elilo ਰਾਹੀਂ ਨਵੇਂ ਸਿਸਟਮ ਤੇ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ।
+Description-pl.UTF-8: Partycja do instalacji programu rozruchowego:
+Extended_description-pl.UTF-8: Partycje aktualnie dostępne w Twoim systemie są wyświetlone na ekranie. Wybierz tę której elilo ma używać do uruchamiania systemu.
+Description-pt.UTF-8: Partição para a instalação do gestor de arranque:
+Extended_description-pt.UTF-8: As partições actualmente disponíveis no seu sistema estão listadas. Por favor escolha a que quer que o elilo use para arrancar o seu novo sistema.
+Description-pt_BR.UTF-8: Partição a ser usada para a instalação do carregador de inicialização:
+Extended_description-pt_BR.UTF-8: As partições disponíveis em seu sistema no momento estão listadas. Por favor, escolha qual delas você deseja que o elilo use para inicializar seu novo sistema.
+Description-ro.UTF-8: Partiția folosită pentru instalarea încărcătorului de sistem:
+Extended_description-ro.UTF-8: Sunt afișate partițiile disponibile acum în sistem.Vă rugăm să o alegeți pe aceea care doriți să fie folosită de elilo pentru a porni noul sistem.
+Description-ru.UTF-8: Раздел для установки системного загрузчика:
+Extended_description-ru.UTF-8: Ниже перечислены доступные разделы жёсткого диска. Выберите тот, с которого elilo будет загружать новую систему.
+Description-se.UTF-8: Partišuvdna gosa vuolggahangieđahalli bidju:
+Extended_description-se.UTF-8: Partišuvnnat mat gávdnot du vuogádagas leat listtus. Vállje guđe partišuvdnii galggat bidjat elilo mas vuolggahat du ođđa vuogádaga.
+Description-si.UTF-8: ඇරඹුම්කාරකය ස්ථාපනය සඳහා කොටස:
+Extended_description-si.UTF-8: ඔබේ පද්ධතියේ ඇති කොටස් ලැයිස්තුවේ ඇත. කරුණාකර ඔබේ නව පද්ධතිය ඇරඹීමට elilo භාවිතා කළ යුතු කොටස තෝරන්න.
+Description-sk.UTF-8: Oblasť na inštaláciu zavádzača:
+Extended_description-sk.UTF-8: Zoznam obsahuje všetky dostupné oblasti v systéme. Vyberte si tú, ktorú má elilo použiť na zavedenie vášho nového systému.
+Description-sl.UTF-8: Razdelek za namestitev zagonskega nalagalnika:
+Extended_description-sl.UTF-8: Seznam razdelkov, ki so trenutno na razpolago na vašem sistemu. Izberite tistega za katerega želite, da ga elilo uporabi za zagon.
+Description-sq.UTF-8: Ndarja për instalimin e ngarkuesit të nisjes:
+Extended_description-sq.UTF-8: Ndarjet në dispozicion në sistemin janë në listë. Të lutem zgjidh atë ku elilo duhet të nisë sistemin tënd të ri.
+Description-sr.UTF-8: Партиција на којој ће се инсталирати покретачки програм:
+Extended_description-sr.UTF-8: Излистане су тренутно доступне партиције на вашем систему. Изаберите ону коју желите да програм „elilo“ користи да би покренуо ваш нови систем.
+Description-sv.UTF-8: Partition för installation av starthanteraren:
+Extended_description-sv.UTF-8: Partitioner som för närvarande finns tillgängliga i ditt system är listade. Välj den du vill att elilo ska använda för att starta upp ditt nya system.
+Description-ta.UTF-8: துவக்கியை நிறுவ பகிர்வு:
+Extended_description-ta.UTF-8: கணினியில் இப்போதுள்ள பகிர்வுகள் பட்டியலிடப் பட்டுள்ளன. உங்கள் புதிய இயங்கு தளத்தை இலிலோ துவக்குவதற்கு வேண்டிய பகிர்வை தேர்ந்தெடுங்கள்.
+Description-te.UTF-8: బూట్ లోడర్  విభజన స్థాపన:
+Extended_description-te.UTF-8: మీ వ్యవస్థలో ఇప్పుడు వున్న విభజనల  జాబితాలో చూపబడినవి. ELILO మీ  కొత్త వ్యవస్థబూట్ చేయడానికి  వాడవలసిన విభజన ఎంచుకో
+Description-tg.UTF-8: Қисми диск барои насбкунии худроҳандозӣ:
+Extended_description-tg.UTF-8: Қисмҳои диске, ки дар айни ҳол дастрасанд, дар системаи шумо номбар карда шудаанд. Лутфан, якеро интихоб кунед, ки elilo барои роҳандозии системаи нави шумо истифода барад.
+Description-th.UTF-8: พาร์ทิชันที่จะติดตั้งบูตโหลดเดอร์:
+Extended_description-th.UTF-8: ต่อไปนี้เป็นรายการของพาร์ทิชันที่มีในระบบของคุณ กรุณาเลือกพาร์ทิชันที่ต้องการให้ elilo ใช้บูตระบบของคุณ
+Description-tl.UTF-8: Partisyon kung saan magluluklok ng boot loader:
+Extended_description-tl.UTF-8: Nakalista ang mga partisyon na kasalukuyang magagamit sa inyong sistema. Pumili ng isa na gagamitin ng elilo sa pag-boot ng bago ninyong sistema.
+Description-tr.UTF-8: Önyükleyicinin kurulacağı bölüm:
+Extended_description-tr.UTF-8: Sisteminizdeki kullanılabilir bölümler listede görünüyor. Lütfen yeni sisteminiz olarak önyüklenmesini sağlayacak elilo için bunlardan birini seçin.
+Description-ug.UTF-8: قوزغىتىش يېتەكلىگۈچ ئورنىتىدىغان رايون:
+Extended_description-ug.UTF-8: تۆۋەندىكىسى سىستېمىڭىزدا ئىشلەتكىلى بولىدىغان رايونلار. يېڭى سىستېمىنى يېتەكلەش، ELILO ئورنىتىش ئۈچۈن ئۇنىڭ ئىچىدىن بىرنى تاللاڭ.
+Description-uk.UTF-8: Розділ для встановлення завантажувача:
+Extended_description-uk.UTF-8: Розділи що зараз доступні на вашій системі вказано нижче. Виберіть той, з якого elilo буде завантажувати вашу нову систему.
+Description-vi.UTF-8: Phân vùng nơi cần cài đặt bộ nạp khởi động:
+Extended_description-vi.UTF-8: Các phân vùng hiện thời sẵn sàng trong hệ thống của bạn được liệt kê ở đây. Hãy chọn điều mà bạn muốn trình elilo sử dụng để khởi động hệ thống mới.
+Description-zh_CN.UTF-8: 可供安装引导管理器的分区：
+Extended_description-zh_CN.UTF-8: 以下是您的系统中可用的分区。请选择其中之一用来安装 elilo 以引导新系统。
+Description-zh_TW.UTF-8: 用來安裝開機程式的磁碟分割區:
+Extended_description-zh_TW.UTF-8: 以下列出的是您的系統中可供使用的磁碟分割區。請選擇其中之一給 elilo 使用來讓您的新系統能夠開機。
+
+Name: elilo-installer/failed
+Type: error
+Description: ELILO installation failed
+Extended_description: Running "/usr/sbin/elilo" failed with error code "${ERRCODE}".
+Description-am.UTF-8: የኤሊሎ ተከላ አልተሳካም
+Extended_description-am.UTF-8: "/usr/sbin/elilo" ማስኬድ "${ERRCODE}" የሚል ስህተት ተመዝግቧል፡፡
+Description-ar.UTF-8: فشل تثبيت ELILO
+Extended_description-ar.UTF-8: فشل تشغيل "/usr/sbin/elilo" مع رمز الخطأ "${ERRCODE}".
+Description-ast.UTF-8: Falló la instalación ELILO
+Extended_description-ast.UTF-8: Falló executando "/usr/sbin/elilo" col códigu de fallu "${ERRCODE}".
+Description-be.UTF-8: Усталяванне ELILO не атрымалася
+Extended_description-be.UTF-8: Запуск "/usr/sbin/elilo" перарваўся з кодам памылкі "${ERRCODE}".
+Description-bg.UTF-8: Грешка при инсталирането на ELILO
+Extended_description-bg.UTF-8: Грешка при изпълнението на „/usr/sbin/elilo“ с код за грешка „${ERRCODE}“.
+Description-bn.UTF-8: ELILO ইনস্টলেশন ব্যর্থ হল
+Extended_description-bn.UTF-8: "${ERRCODE}" ত্রুটি কোডের সাথে "/usr/sbin/elilo" চলতে ব্যর্থ।
+Description-bo.UTF-8: ELILO སྒྲིག་འཇུག་མ་ཐུབ་པ
+Extended_description-bo.UTF-8: "/usr/sbin/elilo" འཁོར་སྐྱོད་མ་ཐུབ་པའི་ནོར་འཁྲུལ་གྱི་རྟགས "${ERRCODE}"
+Description-bs.UTF-8: ELILO instalacija nije uspjela
+Extended_description-bs.UTF-8: Pokretanje "/usr/sbin/elilo" nije uspjelo, kod greške "${ERRCODE}".
+Description-ca.UTF-8: Ha fallat la instal·lació d'ELILO
+Extended_description-ca.UTF-8: L'execució de «/sbin/elilo» ha fallat amb el codi d'error «${ERRCODE}».
+Description-cs.UTF-8: Instalace ELILa selhala
+Extended_description-cs.UTF-8: Příkaz „/usr/sbin/elilo“ skončil s chybou „${ERRCODE}“.
+Description-cy.UTF-8: Methodd sefydliad ELILO
+Extended_description-cy.UTF-8: Methodd rhedeg "/usr/sbin/elilo" gyda'r côd gwall "${ERRCODE}".
+Description-da.UTF-8: Installationen af ELILO mislykkedes
+Extended_description-da.UTF-8: Kørsel af "/usr/sbin/elilo" fejlede med fejlkoden "${ERRCODE}".
+Description-de.UTF-8: ELILO-Installation fehlgeschlagen
+Extended_description-de.UTF-8: Ausführen von »/usr/sbin/elilo« fehlgeschlagen. Fehler-Code: ${ERRCODE}
+Description-dz.UTF-8: ELILO གཞི་བཙུགས་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོད།
+Extended_description-dz.UTF-8: འཛོལ་བའི་ཨང་རྟགས་ "${ERRCODE}".མཉམ་ "/usr/sbin/elilo"གཡོག་བཀོལ་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོད།
+Description-el.UTF-8: Η εγκατάσταση του ELILΟ απέτυχε
+Extended_description-el.UTF-8: Η εκτέλεση του "/usr/sbin/elilo" απέτυχε με κωδικό λάθους "${ERRCODE}".
+Description-eo.UTF-8: 'ELILO'-instalado malsukcesis
+Extended_description-eo.UTF-8: Lanĉado de "/usr/sbin/elilo" malsukcesis kun erara kodo "${ERRCODE}".
+Description-es.UTF-8: La instalación de ELILO ha fallado
+Extended_description-es.UTF-8: La ejecución de «/usr/sbin/elilo» falló con el código de error «${ERRCODE}».
+Description-et.UTF-8: ELILO paigaldamine nurjus
+Extended_description-et.UTF-8: "/usr/sbin/elilo" käivitamine andis veateate "${ERRCODE}".
+Description-eu.UTF-8: Huts egin du ELILO instalatzean
+Extended_description-eu.UTF-8: Ezin izan da "/usr/sbin/elilo" exekutatu, errore kodea: "${ERRCODE}".
+Description-fa.UTF-8: نصب ELILO با شکست مواجه شد.
+Extended_description-fa.UTF-8: اجرای "/usr/sbin/elilo" با خطای  "${ERRCODE}" متوقف شد.
+Description-fi.UTF-8: ELILOn asennus epäonnistui
+Extended_description-fi.UTF-8: Komennon ”/usr/sbin/elilo” suorittaminen epäonnistui. Virhekoodi oli ”${ERRCODE}”.
+Description-fr.UTF-8: L'installation d'elilo a échoué
+Extended_description-fr.UTF-8: L'exécution de « /usr/sbin/elilo » a échoué avec le code d'erreur « ${ERRCODE} ».
+Description-ga.UTF-8: Theip ar shuiteáil ELILO
+Extended_description-ga.UTF-8: Theip ar "/usr/sbin/elilo" le cód earráide "${ERRCODE}".
+Description-gl.UTF-8: Produciuse un erro ao instalar ELILO
+Extended_description-gl.UTF-8: A execución de «/usr/sbin/elilo» devolveu o código de erro «${ERRCODE}».
+Description-gu.UTF-8: ELILO સ્થાપન નિષ્ફળ
+Extended_description-gu.UTF-8: "/usr/sbin/elilo" ચલાવવાની ક્ષતિ સંજ્ઞા "${ERRCODE}" સાથે નિષ્ફળ.
+Description-he.UTF-8: התקנת ELILO נכשלה
+Extended_description-he.UTF-8: הרצת "/usr/sbin/elilo" נכשלה עם קוד שגיאה "${ERRCODE}".
+Description-hi.UTF-8: इलिलो का संस्थापन असफल हो गया
+Extended_description-hi.UTF-8: "/usr/sbin/elilo" का क्रियान्वयन त्रुटि कोड "${ERRCODE}" के साथ असफल हुआ.
+Description-hr.UTF-8: Instalacija ELILO nije uspjela
+Extended_description-hr.UTF-8: Izvršavanje /usr/sbin/elilo nije uspjelo uz pogrešku "${ERRCODE}".
+Description-hu.UTF-8: Az ELILO telepítése sikertelen
+Extended_description-hu.UTF-8: A "/usr/sbin/elilo" futtatása "${ERRCODE}" hibakóddal kilépett.
+Description-id.UTF-8: Instalasi ELILO gagal
+Extended_description-id.UTF-8: Jalannya "/usr/sbin/elilo" gagal dengan kode kesalahan "${ERRCODE}".
+Description-is.UTF-8: ELILO uppsetning mistókst
+Extended_description-is.UTF-8: Keyrsla "/usr/bin/elilo" mistókst með villukóða "${ERRCODE}".
+Description-it.UTF-8: Installazione di Elilo non riuscita
+Extended_description-it.UTF-8: L'esecuzione di «/usr/sbin/elilo» non è riuscita e ha restituito il codice d'errore «${ERRCODE}».
+Description-ja.UTF-8: ELILO のインストールに失敗しました
+Extended_description-ja.UTF-8: "/sbin/lilo" の実行中にエラーコード "${ERRCODE}" で失敗しました。
+Description-ka.UTF-8: ELILO-ს პაკეტის დაყენება ვერ მოხერხდა
+Extended_description-ka.UTF-8: შეცდომა "/usr/sbin/elilo"-ს გაშვებისას კოდით: "${ERRCODE}".
+Description-kk.UTF-8: ELILO-ны орнату сәтсіз
+Extended_description-kk.UTF-8: "/usr/sbin/elilo" іске қосқанда, "${ERRCODE}" нөмірлі қателік орын алды.
+Description-km.UTF-8: ការ​ដំឡើង ELILO បាន​បរាជ័យ
+Extended_description-km.UTF-8: ការ​រត់ "/usr/sbin/elilo" បាន​បរាជ័យ​ជាមួយ​នឹង​កូដ​កំហុស "${ERRCODE}" ។​
+Description-kn.UTF-8: ಲಿಲೊ ಅನುಸ್ಥಾಪನೆಯು ವಿಫಲಗೊಂಡಿದೆ!
+Extended_description-kn.UTF-8: ಚಾಲ್ತಿಯಲ್ಲಿರುವ "/usr/sbin/elilo" failed with error code "${ERRCODE}".
+Description-ko.UTF-8: ELILO 설치가 실패했습니다
+Extended_description-ko.UTF-8: "/usr/bin/elilo" 실행이 오류 코드 "${ERRCODE}"번으로 실패했습니다.
+Description-ku.UTF-8: Sazkirina ELILO serneket
+Extended_description-ku.UTF-8: Dema "/usr/sbin/elilo" hate xebitandin bi koda çewtiyan ya "${ERRCODE}" hate bidawîkirin.
+Description-lo.UTF-8: ຕິດຕັ້ງ ELILO ບໍ່ສຳເລັດ
+Extended_description-lo.UTF-8: ການໃຊ້ "/usr/sbin/elilo" ບໍ່ສຳເລັດ ໂດຍມີລະຫັດຂໍ້ຜິດພາດ "${ERRCODE}"
+Description-lt.UTF-8: „ELILO“ įdiegti nepavyko
+Extended_description-lt.UTF-8: „/usr/sbin/elilo“ įvykdyti nepavyko. Gauta klaida „${ERRCODE}“.
+Description-lv.UTF-8: ELILO instalēšana neizdevās
+Extended_description-lv.UTF-8: "/usr/sbin/elilo" izpildīšana beidzās nesekmīgi ar kļūdu: "${ERRCODE}".
+Description-mk.UTF-8: Не успеа инсталацијата на ELILO
+Extended_description-mk.UTF-8: Извршувањето на „/usr/sbin/elilo“ не успеа со грешка „${ERRCODE}“.
+Description-ml.UTF-8: ഇലിലോ ഇന്‍സ്റ്റളേഷന്‍ പരാജയപ്പെട്ടു
+Extended_description-ml.UTF-8: "/usr/sbin/elilo" പ്രവര്‍ത്തിപ്പിക്കുന്നതു് "${ERRCODE}" എന്ന തെറ്റു് സൂചിപ്പിയ്ക്കുന്ന കോഡോടുകൂടി പരാജയപ്പെട്ടു.
+Description-mr.UTF-8: इलीलो अधिष्ठापना अयशस्वी
+Extended_description-mr.UTF-8: त्रुटी संकेत "${ERRCODE}" सह "/usr/sbin/elilo" चालवणे अयशस्वी.
+Description-nb.UTF-8: Klarte ikke å installere Elilo
+Extended_description-nb.UTF-8: Kjøringen av «/sbin/elilo» mislyktes, feilkoden var «${ERRCODE}».
+Description-ne.UTF-8: ELILO स्थापना असफल भयो
+Extended_description-ne.UTF-8: त्रुटि कोड "${ERRCODE}" सँगै चलाइएको "/usr/sbin/elilo" असफल भयो ।
+Description-nl.UTF-8: ELILO installatie is mislukt
+Extended_description-nl.UTF-8: Uitvoeren van '/usr/sbin/elilo' is mislukt met foutcode '${ERRCODE}'.
+Description-nn.UTF-8: Klarte ikkje installera ELILO.
+Extended_description-nn.UTF-8: Det oppstod ein feil med feilkode «${ERRCODE}» ved køyring av kommandoen «/usr/sbin/elilo».
+Description-no.UTF-8: Klarte ikke å installere Elilo
+Extended_description-no.UTF-8: Kjøringen av «/sbin/elilo» mislyktes, feilkoden var «${ERRCODE}».
+Description-pa.UTF-8: ELILO ਇੰਸਟਾਲੇਸ਼ਨ ਫੇਲ੍ਹ ਹੋਈ
+Extended_description-pa.UTF-8: "/usr/sbin/elilo" ਨੂੰ ਚਲਾਉਣ ਸਮੇਂ "${ERRCODE}" ਗਲਤੀ ਕੋਡ ਨਾਲ ਅਸਫਲ ਹੋਇਆ।
+Description-pl.UTF-8: Instalacja ELILO nie powiodła się
+Extended_description-pl.UTF-8: Uruchomienie "/usr/sbin/elilo" nie powiodło się - błąd nr "${ERRCODE}".
+Description-pt.UTF-8: A instalação do ELILO falhou
+Extended_description-pt.UTF-8: A execução de "/usr/bin/elilo" falhou com o código de erro "${ERRCODE}".
+Description-pt_BR.UTF-8: A instalação do ELILO falhou
+Extended_description-pt_BR.UTF-8: A execução de "/usr/sbin/elilo" falhou com o código de erro "${ERRCODE}".
+Description-ro.UTF-8: Instalarea lui ELILO a eșuat
+Extended_description-ro.UTF-8: Rularea „/usr/sbin/elilo” a eșuat cu codul de eroare „${ERRCODE}”.
+Description-ru.UTF-8: Не удалось установить ELILO
+Extended_description-ru.UTF-8: Запуск "/sbin/elilo" завершился неудачей. Код возврата - "${ERRCODE}".
+Description-se.UTF-8: ELILO-sajáiduhttin filtii
+Extended_description-se.UTF-8: Prográmma «/usr/sbin/elilo» filtii kodan «${ERRCODE}».
+Description-si.UTF-8: ELILO ස්ථාපකය ස්ථාපනය අසමත්විය
+Extended_description-si.UTF-8: "/usr/sbin/elilo" ක්‍රියාත්මක වීම "${ERRCODE}" දෝෂ කේතය සමඟ අවසන් විය.
+Description-sk.UTF-8: Inštalácia ELILO zlyhala
+Extended_description-sk.UTF-8: Spustenie „/usr/sbin/elilo“ zlyhalo s chybovým kódom „${ERRCODE}“.
+Description-sl.UTF-8: Namestitev paketa ELILO ni uspela
+Extended_description-sl.UTF-8: Zagon "/usr/sbin/elilo" je spodletel, koda napake je "${ERRCODE}".
+Description-sq.UTF-8: Instalimi i ELILO-s dështoi
+Extended_description-sq.UTF-8: Ekzekutimi i "/usr/sbin/elilo" dështoi me kod gabimi "${ERRCODE}".
+Description-sr.UTF-8: ELILO инсталација није успела
+Extended_description-sr.UTF-8: Извршавање „/usr/sbin/elilo“ није успело (код грешке „${ERRCODE}“).
+Description-sv.UTF-8: ELILO-installationen misslyckades
+Extended_description-sv.UTF-8: Körningen av "/usr/sbin/elilo" misslyckades med felkoden "${ERRCODE}".
+Description-ta.UTF-8: இலிலோ நிறுவல் தோல்வியடைந்தது. 
+Extended_description-ta.UTF-8: "/usr/sbin/elilo" இயக்குதல் தோல்வியடைந்தது. பிழை அறிவிப்பு குறியீடு "${ERRCODE}".
+Description-te.UTF-8: ELILO స్థాపన లో విఫలమైంది.
+Extended_description-te.UTF-8: "/usr/sbin/elilo" నడపటం "${ERRCODE}" దోషంతో విఫలమైంది.
+Description-tg.UTF-8: Насбкунии ELILO ба анҷом нарасид
+Extended_description-tg.UTF-8: Иҷроиши "/usr/sbin/elilo" бо рамзи хатогии "${ERRCODE}" бо нокомӣ дучор шудааст.
+Description-th.UTF-8: ติดตั้ง ELILO ไม่สำเร็จ
+Extended_description-th.UTF-8: การทำงานคำสั่ง "/usr/sbin/elilo" ไม่สำเร็จ โดยมีรหัสข้อผิดพลาด "${ERRCODE}"
+Description-tl.UTF-8: Bigo ang pagluklok ng ELILO
+Extended_description-tl.UTF-8: Naghudyat ng error code "${ERRCODE}" ang bigong pagtakbo ng "/usr/sbin/elilo".
+Description-tr.UTF-8: ELILO kurulumu başarısız
+Extended_description-tr.UTF-8: "/usr/sbin/elilo" komutu "${ERRCODE}" hata kodu ile sonlandı.
+Description-ug.UTF-8: ELILO ئورنىتىش مەغلۇپ بولدى
+Extended_description-ug.UTF-8: "/usr/sbin/elilo" ئىجرا قىلىش مەغلۇپ بولدى، خاتالىق كودى "${ERRCODE}".
+Description-uk.UTF-8: Не вдалося встановити ELILO
+Extended_description-uk.UTF-8: Запуск „/usr/sbin/elilo“ завершився з помилкою „${ERRCODE}“.
+Description-vi.UTF-8: Việc cài đặt ELILO bị lỗi
+Extended_description-vi.UTF-8: Việc chạy « /usr/sbin/elilo » bị lỗi với mã lỗi « ${ERRCODE} ».
+Description-zh_CN.UTF-8: 安装 ELILO 失败
+Extended_description-zh_CN.UTF-8: 运行“/usr/sbin/elilo”失败，返回错误代码“${ERRCODE}”。
+Description-zh_TW.UTF-8: ELILO 的安裝失敗了
+Extended_description-zh_TW.UTF-8: 在執行 /usr/sbin/elilo 時失敗了，錯誤代碼為 ${ERRCODE}。
+
+Name: elilo-installer/no-bootpart
+Type: error
+Description: No boot partitions detected
+Extended_description: There were no suitable partitions found for elilo to use.  Elilo needs a partition with a FAT file system, and the boot flag set.
+Description-am.UTF-8: ምንም የገዢ ስልት ማስነሻ መትከያ ክፋይ አልተገኘም
+Extended_description-am.UTF-8: ለelilo ጥቅም ላይ ሊውል የሚችል ምንም ክፋይ አልተገኘም። elilo፣ FAT የፋይል ስርዓትና የቡት ባንዲራው የተሰቀለ ክፋይ ይስፈልገዋል።
+Description-ar.UTF-8: لم يُعثر على أجزاء إقلاع
+Extended_description-ar.UTF-8: لا توجد أيّة أجزاء مناسبة ليستخدمها elilo. يحتاج elilo إلى جزء عليه نظام FAT، وعلامة الإقلاع ممكّنة.
+Description-ast.UTF-8: Nun se deteutaren particiones d'arranque
+Extended_description-ast.UTF-8: Nun s'atoparon particiones disponibles pa usar elilo. Elilo necesita una partición con un sistema de ficheros FAT, y afitada la etiqueta d'arranque.
+Description-be.UTF-8: Не вызначана ніводнага загрузачнага падзела.
+Extended_description-be.UTF-8: Няма падзелаў, прыдатных да выкарыстання загрузчыкам elilo. Загрузчыку Elilo патрэбны падзел з файлавай сістэмай FAT і знакам "загрузачны".
+Description-bg.UTF-8: Не бяха открити зареждащи дялове
+Extended_description-bg.UTF-8: Не са намерени подходящи дялове за използване от elilo. Elilo изисква дял с файлова система FAT и отбелязан като зареждащ дял.
+Description-bn.UTF-8: কোনো বুট পার্টিশন সনাক্ত করা যায় নি
+Extended_description-bn.UTF-8: elilo'র ব্যবহারের জন্য সুবিধাজনক কোন পার্টিশন পাওয়া যায় নি। Elilo'র এমন একটি পার্টিশন প্রয়োজন, যার FAT ফাইল সিস্টেম আছে এবং বুটযোগ্য ফ্ল্যাগটি সক্রিয় অবস্থায় রয়েছে।
+Description-bo.UTF-8: འགོ་འཛུགས་ཀྱི་གསོག་སྡེར་ཁག་གང་ཡང་ཚོར་རྟོགས་མ་ཐུབ་པ
+Extended_description-bo.UTF-8: elilo ལ་འོས་འཚམས་ཀྱི་གསོག་སྡེར་ཁག་མ་རྙེད་པ། Elilo ལ་FAT ཡིག་ཆ་མ་ལག་ཡིན་པའི་གསོག་སྡེར་ཁག་འགོ་འཛུགས་ཀྱི་བརྡ་རྟགས་མེད་པ་ཞིག་དགོས་པ
+Description-bs.UTF-8: Boot particije nisu pronađene
+Extended_description-bs.UTF-8: Nisu pronađene prikladne particije koje bi elilo koristio. Elilo treba particiju sa FAT datotečnim sistemom koja ima postavljenu boot oznaku.
+Description-ca.UTF-8: No s'ha detectat cap partició d'arrencada
+Extended_description-ca.UTF-8: No s'ha trobat cap partició que l'elilo puga utilitzar. L'Elilo necessita una partició amb un sistema de fitxers FAT, i el senyalador d'arrencable establert.
+Description-cs.UTF-8: Nebyly rozpoznány žádné zaváděcí oblasti
+Extended_description-cs.UTF-8: Nebyly nalezeny žádné vhodné oblasti pro zavaděč. Elilo potřebuje oblast  se souborovým systémem FAT a nastaveným příznakem zavádění.
+Description-cy.UTF-8: Ni chanfuwyd rhaniadau ymgychwyn
+Extended_description-cy.UTF-8: Ni chanfuwyd rhaniad sy'n addas i elilo ei ddefnyddio. Mae elilo angen rhaniad gyda system ffeiliau FAT, a'r faner cychwynadwy wedi ei osod.
+Description-da.UTF-8: Fandt ingen opstartspartitioner
+Extended_description-da.UTF-8: Der blev ikke fundet nogen partitioner, som elilo kunne bruge. Elilo kræver en partition med et FAT-filsystem og opstartsflaget sat.
+Description-de.UTF-8: Keine Boot-Partitionen erkannt
+Extended_description-de.UTF-8: Es wurden keine passenden Partitionen für die Benutzung mit elilo gefunden. Elilo benötigt eine Partition mit dem FAT-Dateisystem und mit gesetztem Bootflag.
+Description-dz.UTF-8: བུཊི་བར་བཅད་ཚུ་སྐྱོན་འཛིན་མ་བྱུང་པས།
+Extended_description-dz.UTF-8:  elilo གིས་ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་འོས་འབབ་ཅན་གྱི་བར་བཅད་ཚུ་འཚོལ་མ་ཐོབ།  elilo ལུ་བུཊི་ཟུར་རྟགས་གཞི་སྒྲིག་འབད་འབདཝ་དང་ FAT ཡིག་སྣོད་རིམ་ལུགས་མཉམ་བར་བཅད་ཅིག་དགོ།
+Description-el.UTF-8: Δεν ανιχνεύθηκαν εκκινήσιμες κατατμήσεις
+Extended_description-el.UTF-8: Δεν ανιχνεύθηκαν κατατμήσεις κατάλληλες για χρήση από το elilo. Το elilo χρειάζεται μια κατάτμηση με σύστημα αρχείων FAT και ενεργοποιημένη τη δυνατότητα εκκίνησης.
+Description-eo.UTF-8: Neniu ekŝarga disk-partigo estas detektita
+Extended_description-eo.UTF-8: Neniu disk-partigo taŭgas por esti uzata de 'elilo'. 'Elilo' bezonas disk-partigon kun 'FAT'-dosiersistemo kaj ekŝarga indikilo.
+Description-es.UTF-8: No se han encontrado particiones de arranque
+Extended_description-es.UTF-8: No se han encontrado particiones adecuadas para el funcionamiento de elilo. Elilo necesita una partición con un sistema de ficheros FAT y la opción de arrancable activada.
+Description-et.UTF-8: Ei tuvastatud ühtki alglaaduripartitsiooni
+Extended_description-et.UTF-8: Ei leitud ühtki elilo jaoks sobivat partitsiooni. Elilo vajab alglaadimislipuga FAT failisüsteemi.
+Description-eu.UTF-8: Ez da abioko partiziorik detektatu
+Extended_description-eu.UTF-8: Ez da partizio egokirik aurkitu elilo-k erabiltzeko.  Elilo-k behar duen partizioak FAT fitxategi sistema eta abioko bandera ezarrita izan behar du.
+Description-fa.UTF-8: پارتیشن قابل بوت یافت نشد
+Extended_description-fa.UTF-8: پارتیشن مناسب برای استفاده elilo پیدا نشد. Elilo به یک پارتیشن با فرمت FAT نیاز دارد و boot flag آن هم باید فعال شده باشد.
+Description-fi.UTF-8: Käynnistysosioita ei löytynyt
+Extended_description-fi.UTF-8: Elilo:lle käyttökelpoisia levyosioita ei löytynyt. Elilo tarvitsee osion, jossa on FAT-tiedostojärjestelmä ja joka on merkitty käynnistysosioksi.
+Description-fr.UTF-8: Aucune partition de démarrage détectée
+Extended_description-fr.UTF-8: Aucune partition ne convient à l'utilisation d'elilo. Celui-ci a besoin d'une partition avec un système de fichiers FAT et dotée d'un drapeau de type « boot ».
+Description-ga.UTF-8: Níor braitheadh aon deighiltí tosaithe
+Extended_description-ga.UTF-8: Níor aimsíodh deighilt oiriúnach b'fhéidir le hElilo a úsáid.  Tá deighilt le córas comhad FAT de dhíth ar Elilo, agus lena bratach thosaithe socraithe.
+Description-gl.UTF-8: Non se detectou ningunha partición de arranque
+Extended_description-gl.UTF-8: Non se atoparon particións axeitadas para ser empregadas por elilo. Elilo precisa dunha partición cun sistema de ficheiros FAT e o indicador de arranque activo.
+Description-gu.UTF-8: કોઇ બૂટ પાર્ટિશનો મળ્યા નહી
+Extended_description-gu.UTF-8: elilo ને ઉપયોગ કરવા માટે યોગ્ય પાર્ટિશનો મળ્યાં નહીં. Elilo ને ફેટ ફાઇલ સિસ્ટમ સાથેનાં પાર્ટિશન જોઇએ છે, અને બૂટ નિશાની ગોઠવેલ હોવી જરૂરી છે.
+Description-he.UTF-8: לא נמצאו מחיצות אתחול
+Extended_description-he.UTF-8: לא נמצאו מחיצות מתאימות לשימוש של elilo. Elilo צריך מחיצה עם מערכת קבצים מסוג FAT ודגל מסוג boot.
+Description-hi.UTF-8: कोई बूट पार्टीशन नहीं मिला
+Extended_description-hi.UTF-8: ईलिलो को प्रयोग करने योग्य कोई भी पार्टिशन नहीं मिले. ईलिलो को एफएटी फाइलतंत्र युक्त पार्टिशन चाहिए जिसका कि बूट फ्लैग सेट हो.
+Description-hr.UTF-8: Nema boot particija
+Extended_description-hr.UTF-8: Nema particija koje bi elilo mogao koristiti. Elilo treba particiju s FAT datotečnim sustavom i podešenom boot zastavicom.
+Description-hu.UTF-8: Nincs rendszerbetöltő partíció
+Extended_description-hu.UTF-8: Nincs az elilo számára megfelelő partíció. Az elilo FAT fájlrendszerű, boot zászlóval ellátott partíciót igényel.
+Description-id.UTF-8: Partisi boot tidak ditemukan
+Extended_description-id.UTF-8: Partisi yang cocok untuk digunakan elilo belum ada. Elilo memerlukan sebuah partisi dengan sistem berkas FAT yang tanda bootnya dihidupkan.
+Description-is.UTF-8: Engar ræsidisksneiðar fundust
+Extended_description-is.UTF-8: Engar disksneiðar sem henta fyrir elilo fundust. Elilo þarf disksneið með FAT skráarkerfi og boot flaggið virkt.
+Description-it.UTF-8: Nessuna partizione di avvio trovata
+Extended_description-it.UTF-8: Non è stata trovata alcuna partizione utilizzabile da Elilo. Elilo necessita di una partizione con un file system FAT impostata come avviabile.
+Description-ja.UTF-8: ブートパーティションが検出されませんでした
+Extended_description-ja.UTF-8: elilo に使うための適切なパーティションがありませんでした。elilo は FAT ファイルシステムでブートフラグの付いているパーティションを必要とします。
+Description-ka.UTF-8: ვერ მოინახა ჩატვირთვის დანაყოფები
+Extended_description-ka.UTF-8: ვერ მოინახა დანაყოფები, რომელსაც elilo გამოიყენებდა. elilo-ს სჭირდება FAT სისტემიანი დანაყოფი ჩატვირთვის დაყენებული ალმით.
+Description-kk.UTF-8: Жүктейтін бөлімдер табылмады
+Extended_description-kk.UTF-8: Elilo қолдана алатын бір де бір бөлім табылмады. Elilo-ға жүктейтін деп белгіленген FAT файлдық жүйелері бар бөлімдер қажет.
+Description-km.UTF-8: រក​មិន​ឃើញ​ភាគ​ថាស​ចាប់ផ្តើម ។​
+Extended_description-km.UTF-8: រក​មិន​ឃើញ​ភាគថាស​សមរម្យ​សម្រាប់​ឲ្យ elilo ប្រើ​ឡើយ ។ Elilo ត្រូវការ​ភាគថាស​មួយ​ដែល​មាន​ប្រភេទ​ឯកសារ​ជា FAT ហើយ​បាន​កំណត់​ទង់​ចាប់ផ្ដើម ។
+Description-kn.UTF-8: ಯಾವುದೇ  ಬೂಟ್ ವಿಭಜನೆಗಳು ಪತ್ತೆಯಾಗಲಿಲ್ಲ
+Extended_description-kn.UTF-8: ಸೂಕ್ತ ವಿಭಾಗಗಳು ಎಲಿಲೋ ಬಳಸಲು ದೊರಕಲಿಲ್ಲ.  'ಬೂಟ್' ಪತಾಕೆ ಸಕ್ರಿಯವಾಗಿರುವFAT ಕಡತ ರಚನೆ ಎಲಿಲೋಗೆ ಅಗತ್ಯವಿದೆ
+Description-ko.UTF-8: 부팅 파티션을 찾을 수 없습니다
+Extended_description-ko.UTF-8: ELILO가 사용할 적당한 파티션을 찾을 수 없습니다. ELILO는 부팅 플래그를 설정한 FAT 파일 시스템이 하나 필요합니다.
+Description-ku.UTF-8: Tu partîsiyona boot nehat dîtin
+Extended_description-ku.UTF-8: Ti beşên ji bo xebitandina elilo nehate dîtin.  Hewcedariya Elilo bi perçeyê pergala pelê FAT heye.
+Description-lo.UTF-8: ບໍ່ເຫັນພາທິຊັນສຳຫລັບບູຕ
+Extended_description-lo.UTF-8: ບໍ່ມີພາທິຊັນທີ່ເໝາະສົມສຳຫລັບໃຫ້ elilo ຕ້ອງໃຊ້ພາທິຊັນທີ່ມີລະບົບແຟ້ມແບບ FAT ແລະກຳນົດແຟລັກໃຫ້ບູຕໄດ້ເອົາໄວ້.
+Description-lt.UTF-8: Neaptikta paleidimo skaidinių
+Extended_description-lt.UTF-8: Nerastas paleidyklei „elilo“ tinkamas disko skaidinys. „Elilo“ reikalingas skaidinys su FAT failų sistema ir nustatyta paleidimo žyme.
+Description-lv.UTF-8: Palaižamie nodalījumi nav atrasti
+Extended_description-lv.UTF-8: Nav atrasts neviens piemērots nodalījums, kuru elilo varētu izmantot. Ir nepieciešams nodalījums ar FAT datņu sistēmu un iestatītu palaišanas iezīmi.
+Description-mk.UTF-8: Не беа детектирани партиции
+Extended_description-mk.UTF-8: Не беа беа најдени соодветни партиции за elilo. На Elilo му е потреба партиција со FAT датотечен систем и означена како бутабилна.
+Description-ml.UTF-8: ബൂട്ട് ഭാഗങ്ങളൊന്നും കണ്ടുപിടിക്കപ്പെട്ടിട്ടില്ല
+Extended_description-ml.UTF-8: ഇലിലോയ്ക്ക് ഉപയോഗിക്കാനനുയോജ്യമായ ഭാഗങ്ങളൊന്നും അവിടെയുണ്ടായിരുന്നില്ല. ഇലിലോയ്ക്ക് ബൂട്ട് കൊടി സെറ്റ് ചെയ്ത ഒരു ഫാറ്റ് ഫയല്‍ സിസ്റ്റമാവശ്യമുണ്ടു്.
+Description-mr.UTF-8: कोणतीही आरंभ विभाजने आढळली नाहीत
+Extended_description-mr.UTF-8: इलीलो ने वापरण्यायोग्य कोणतीच विभाजने नव्हती. ज्यावर फॅट फाइल प्रणाली आहे व आरंभ झेंडा निर्धारित केला आहे असे विभाजन इलीलो करीता आवश्यक आहे.
+Description-nb.UTF-8: Fant ingen oppstartspartisjoner
+Extended_description-nb.UTF-8: Fant ingen egnede partisjoner for Elilo. Elilo trenger en partisjon med filsystemet FAT og oppstartsflagget slått på.
+Description-ne.UTF-8: कुनै बुट विभाजनहरू पत्ता लगाइएको छैन
+Extended_description-ne.UTF-8: त्यहाँ elilo प्रयोग गर्न कुनै उचित विभाजनहरू फेला परेन । Elilo लाई FAT फाइल प्रणाली सँगै विभाजन गर्न, र बुट झन्डा सेट गर्न आवश्यक पर्दछ ।
+Description-nl.UTF-8: Er zijn geen opstartpartities gevonden
+Extended_description-nl.UTF-8: Er zijn geen voor elilo geschikte partities gevonden. Elilo vereist een FAT-partitie met actieve opstartvlag.
+Description-nn.UTF-8: Fann ingen oppstartspartisjonar
+Extended_description-nn.UTF-8: Det er ingen eigna partisjonar for Elilo. Elilo treng ein partisjon med eit FAT-filsystem og oppstartsflagget valt.
+Description-no.UTF-8: Fant ingen oppstartspartisjoner
+Extended_description-no.UTF-8: Fant ingen egnede partisjoner for Elilo. Elilo trenger en partisjon med filsystemet FAT og oppstartsflagget slått på.
+Description-pa.UTF-8: ਕੋਈ ਬੂਟ ਪਾਰਟੀਸ਼ਨ ਨਹੀਂ ਲੱਭਿਆ
+Extended_description-pa.UTF-8: ਇੱਥੇ elilo ਦੇ ਵਰਤਣ ਲਈ ਕੋਈ ਜਾਇਜ਼ ਭਾਗ ਨਹੀਂ ਲੱਭਿਆ। Elilo ਨੂੰ FAT ਫਾਇਲ ਸਿਸਟਮ ਵਾਲਾ ਭਾਗ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ ਬੂਟ ਚਿੰਨ ਸੈੱਟ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
+Description-pl.UTF-8: Nie wykryto partycji rozruchowych
+Extended_description-pl.UTF-8: Nie znaleziono odpowiednich dla elilo partycji. Elilo potrzebuje partycji z systemem plików FAT oraz ustawioną flagą rozruchową.
+Description-pt.UTF-8: Não foram detectadas partições de arranque
+Extended_description-pt.UTF-8: Não foram encontradas partições indicadas para o elilo utilizar. Elilo necessita  de uma partição com um sistema de ficheiros FAT, e a flag boot activada.
+Description-pt_BR.UTF-8: Nenhuma partição de inicialização detectada
+Extended_description-pt_BR.UTF-8: Nenhuma partição adequada para ser usada pelo elilo foi localizada. O elilo precisa de uma partição com o sistema de arquivos FAT e com a "flag" de inicialização ativada.
+Description-ro.UTF-8: Nu s-au găsit partiții de pornire
+Extended_description-ro.UTF-8: Nu a fost găsită nici o partiție potrivită pentru a fi folosită de elilo. Elilo are nevoie de o partiție cu un sistem de fișiere FAT, și cu fanionul de pornire activate.
+Description-ru.UTF-8: Загрузочные разделы не найдены
+Extended_description-ru.UTF-8: Не было найдено ни одного раздела, пригодного для использования elilo. Для elilo необходим раздел с файловой системой FAT и с установленным флагом загрузки.
+Description-se.UTF-8: Eai gávdnon vuolggahanpartišuvnnat
+Extended_description-se.UTF-8: Eai lean heivvolaš partišuvnnat maid elilo sáhtii geavahit. Elilo dárbbaša partišuvdna mas lea FAT-fiilavuogádat ja mas lea vuolggahanleavga bidjon.
+Description-si.UTF-8: ඇරඹුම් කොටස හදුනාගෙන නැත
+Extended_description-si.UTF-8: elilo භාවිතා කිරීමට සුදුසු කොටස් හමු නොවුණි. Elilo ට FAT ගොනු පද්ධතියක් සහ ප්‍රවේශ ධජය යොදා ඇති කොටසක් අවශ්‍ය වේ.
+Description-sk.UTF-8: Neboli nájdené žiadne štartovacie oblasti.
+Extended_description-sk.UTF-8: Nie sú tu žiadne oblasti vhodné pre zavádzač elilo.  Elilo potrebuje oblasť so súborovým systémom FAT a nastaveným príznakom štartovania.
+Description-sl.UTF-8: Nobenih zagonskih razdelkov ni mogoče zaznati
+Extended_description-sl.UTF-8: Ni mogoče najti nobenega primernega razdelka, ki bi ga lahko uporabil elilo. Elilo potrebuje razdelek s FAT datotečnim sistemom in nastavljeno zagonsko zastavico.
+Description-sq.UTF-8: Nuk u gjet asnjë ndarje nisëse
+Extended_description-sq.UTF-8: Nuk u gjet asnjë ndarje e përshtatshme për të përdorur elilo.  Elilo ka nevojë për një ndarje më filesistem FAT dhe me flag të nisjes.
+Description-sr.UTF-8: Ниједна покретачка партиција није пронађена
+Extended_description-sr.UTF-8: Није пронађена ниједна одговарајућа партиција за програм „elilo“.  Програм „elilo“ захтева партицију са FAT фајл системом и постављеном покретачком заставицом.
+Description-sv.UTF-8: Hittade inga startpartitioner
+Extended_description-sv.UTF-8: Hittade inga lämpliga partitioner som elilo kan använda. Elilo behöver en partition med FAT-filsystem och startflaggan satt.
+Description-ta.UTF-8: துவக்க ஏதுவான பகிர்வு ஏதும் இல்லை
+Extended_description-ta.UTF-8: உங்கள் புதிய இயங்கு தளத்தை இலிலோ துவக்குவதற்கு ஏதுவான பகிர்வு ஏதும் இல்லை. இலிலோவிற்கு வேண்டியது ஒரு துவக்கி குறியிட்ட பேட்-16 (FAT-16) கோப்பு அமைப்பு உள்ள பகிர்வு.
+Description-te.UTF-8: బూట్ విభజనలు కనబడలేదు
+Extended_description-te.UTF-8: ELILO  వాడటాని�

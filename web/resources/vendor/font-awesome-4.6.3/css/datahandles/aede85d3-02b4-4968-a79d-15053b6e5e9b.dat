@@ -1,0 +1,25 @@
+.nopdfrender {
+	display: none;
+}
+
+.hidefromprinting {
+	display: none;
+}
+
+#blm_1401876299752 > .aw_BorderLayoutManager_east {
+	display: none;
+}
+
+#blm_1401876299752 > .aw_BorderLayoutManager_north {
+	display: none;
+}
+
+#blm_1401876299752 > .aw_BorderLayoutManager_center {
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+
+#blm_1424489799113 > .aw_BorderLayoutManager_north {
+	display: none;
+}

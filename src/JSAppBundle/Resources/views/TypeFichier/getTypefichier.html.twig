@@ -1,0 +1,45 @@
+{% form_theme form 'JSAppBundle:Components:bootstrap_3_layout.html.twig' %}
+{#{{ form(form) }}#}
+
+{{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
+
+<div class="box box-primary">
+    <div class="box-header with-border">
+        <div class="row">
+
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-success btn-flat pull-right" data-action-type=save><i class="fa fa-save"></i>&nbsp;&nbsp;Save</button>
+                <button type="reset" class="btn btn-default  btn-flat pull-right" data-action-type=reset><i class="fa fa-undo"></i>&nbsp;&nbsp;Cancel</button>
+            </div>
+
+        </div>
+        <!-- /.box-tools -->
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+
+        <div class="row">
+
+            <div class="col-md-12">
+                {{ form_row(form.intitule) }}
+                {{ form_row(form.rang) }}
+                {{ form_row(form.inclure) }}
+                {{ form_row(form.obligatoire) }}
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.box-body -->
+    <div class="box-footer">
+        <div class="row">
+
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-success btn-flat pull-right" data-action-type=save><i class="fa fa-save"></i>&nbsp;&nbsp;Save</button>
+                <button type="reset" class="btn btn-default  btn-flat pull-right" data-action-type=reset><i class="fa fa-undo"></i>&nbsp;&nbsp;Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+{{ form_end(form) }}
+

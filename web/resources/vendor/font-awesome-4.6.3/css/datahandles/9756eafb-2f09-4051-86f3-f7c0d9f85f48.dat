@@ -1,0 +1,697 @@
+l.
+Description-pa.UTF-8: ਮਾਊਂਟ ਚੋਣ:
+Extended_description-pa.UTF-8: ਮਾਊਂਟ ਪੁਆਂਇਟ ਫਾਇਲ ਸਿਸਟਮ ਦੇ ਵਰਤਾਓ ਨੂੰ ਬਦਲ ਦਿੰਦਾ ਹੈ।
+Description-pl.UTF-8: Opcje montowania:
+Extended_description-pl.UTF-8: Opcje montowania pozwalają dostroić zachowanie systemu plików.
+Description-pt.UTF-8: Opções de montagem:
+Extended_description-pt.UTF-8: As opções de mount podem afinar o uso do sistema de ficheiros.
+Description-pt_BR.UTF-8: Opções de montagem:
+Extended_description-pt_BR.UTF-8: Opções de montagem podem melhorar o comportamento do sistema de arquivos.
+Description-ro.UTF-8: Opțiuni de montare:
+Extended_description-ro.UTF-8: Opțiunile de montare pot regla comportamentul sistemului de fișiere.
+Description-ru.UTF-8: Параметры монтирования:
+Extended_description-ru.UTF-8: Параметры монтирования позволяют подстроить поведение файловой системы.
+Description-si.UTF-8: රැඳවුම් අභිප්‍රේත:
+Extended_description-si.UTF-8: රැඳවුම් අභිප්‍රේත මගින් ගොනු පද්ධතියක හැසිරීම සීරු මාරු කල හැක.
+Description-sk.UTF-8: Voľby pripojenia:
+Extended_description-sk.UTF-8: Pomocou volieb pripojenia môžete vyladiť správanie súborového systému.
+Description-sl.UTF-8: Priklopne možnosti:
+Extended_description-sl.UTF-8: Priklopne točke lahko uskladijo obnašanje datotečnega sistema.
+Description-sq.UTF-8: Mundësitë e montimit:
+Extended_description-sq.UTF-8: Mundësitë e montimit mund të sintonizojnë sjelljen e filesistemit.
+Description-sr.UTF-8: Опције монирања:
+Extended_description-sr.UTF-8: Опције монтирања могу подесити понашање фајл система.
+Description-sv.UTF-8: Monteringsflaggor:
+Extended_description-sv.UTF-8: Monteringsflaggor kan finjustera filsystemets beteende.
+Description-ta.UTF-8: ஏற்றத்திற்கான விருப்பத்தேர்வுகள்:
+Extended_description-ta.UTF-8: ஏற்ற தேர்வுகள் கோப்பு அமைப்பின் நடத்தையை நிர்ணயிக்கும்.
+Description-te.UTF-8: అనుసంధాన ఎంపికలు:
+Extended_description-te.UTF-8: అనుసంధాన ఎంపికలు ఫైల్ సిస్టమ్ ప్రవర్తన ని  స్వల్పంగా మార్చగలవు.
+Description-tg.UTF-8: Имконоти васлкунӣ:
+Extended_description-tg.UTF-8: Имконоти васлкунӣ метавонанд рафтори системаи файлиро танзим кунанд.
+Description-th.UTF-8: ตัวเลือกการเมานท์:
+Extended_description-th.UTF-8: ตัวเลือกการเมานท์สามารถใช้ปรับแต่งการทำงานของระบบแฟ้มได้
+Description-tl.UTF-8: Mount options:
+Extended_description-tl.UTF-8: Mga options sa mount ay maaaring mapahusay ang pag-andar ng file system.
+Description-tr.UTF-8: Bağlama seçenekleri:
+Extended_description-tr.UTF-8: Bağlama seçenekleri dosya sisteminin davranışını ayarlayabilir.
+Description-ug.UTF-8: ئېگەرلەش تاللانمىسى:
+Extended_description-ug.UTF-8: ئېگەرلەش تاللانمىسى ھۆججەت سىستېمىسىنىڭ ھەرىكىتىنى تەڭشىيەلەيدۇ.
+Description-uk.UTF-8: Опції монтування:
+Extended_description-uk.UTF-8: Опції монтування можуть налаштувати поведінку файлової системи.
+Description-vi.UTF-8: Tùy chọn lắp:
+Extended_description-vi.UTF-8: Các tùy chọn lắp có thể điều chỉnh ứng xử của hệ thống tập tin.
+Description-zh_CN.UTF-8: 挂载选项：
+Extended_description-zh_CN.UTF-8: 挂载选项可以调节文件系统的行为。
+Description-zh_TW.UTF-8: 掛載選項:
+Extended_description-zh_TW.UTF-8: 掛載選項可以用來調整檔案系統的運作方式。
+
+Name: partman-basicfilesystems/mountpoint
+Type: select
+Choices: / - the root file system, /boot - static files of the boot loader, /home - user home directories, /tmp - temporary files, /usr - static data, /var - variable data, /srv - data for services provided by this system, /opt - add-on application software packages, /usr/local - local hierarchy, Enter manually, Do not mount it
+Description: Mount point for this partition:
+Choices-am.UTF-8: / -የስር ፋይል ስርዓት, /boot -የገዢስልት አስነሺ ቋሚ ፋይሎች, /home - የተጠቃሚ ቤት ዶሴዎች, /tmp - ጊዜያዊ ፋይሎች, /usr - ቋሚ መረጃ, /var - ተለዋዋጭ መረጃ, /srv - በዚህ ስርዓት ለሚሰጡ አገልግሎቶች ዴታ, /opt - የተጨማሪ ስልት ጥቅሎች, /usr/local - የከባቢ መዋቅር, በእጅ አስገባ, አትጫን
+Description-am.UTF-8: ለዚህ ክፋይ የመጫኛ ጣቢያ
+Choices-ar.UTF-8: / - نظام الملفّات الجذر, /boot - ملفّات محمّل الإقلاع السّاكنة, /home - أدلة المستخدمين المنزليّة, /tmp - ملفّات مؤقّتة, /usr - بيانات ساكنة, /var - بيانات متغيّرة, /srv - بيانات للخدمات التي يوفّرها هذا النظام, /opt - حزم برامج تطبيقات إضافيّة, /usr/local - هرميّة محليّة, الإدخال يدويّاً, عدم التركيب
+Description-ar.UTF-8: موضع التركيب لهذا الجزء:
+Choices-ast.UTF-8: / - el sistema de ficheros root, /boot - ficheros estáticos pal cargador d'arranque, /home - direutoriu home del usuariu, /tmp - ficheros temporales, /usr - datos estáticos, /var - datos variables, /srv - datos pa fornidores de servicios d'esti sistema, /opt - paquetes de software d'aplicaciones add-on, /usr/local - xerarquía llocal, Introduzlo manualmente, Nun montalo
+Description-ast.UTF-8: Puntu de montaxe pa esta partición:
+Choices-be.UTF-8: / - каранёвая файлавая сістэма, /boot - статычныя файлы загрузчыка, /home - дырэкторыі карыстальнікаў, /tmp - часовыя файлы, /usr - нязменная інфармацыя, /var - інфармацыя\, якая змяняецца, /srv - сістэмная інфармацыя сэрвісаў, /opt - пакеты дадатковых праграм, /usr/local - лакальная іерархія, Увесці самастойна, Не прымацоўваць
+Description-be.UTF-8: Пункт мацавання для гэтага падзела:
+Choices-bg.UTF-8: / - коренова файлова система, /boot - статични файлове на програмата за начално зареждане, /home - потребителски директории, /tmp - временни файлове, /usr - непроменящи се данни, /var - променящи се данни, /srv - данни за услуги\, предоставяни от тази система, /opt - софтуерни пакети с допълнителни приложения, /usr/local - локална йерархия, Ръчно въвеждане, Без монтиране
+Description-bg.UTF-8: Точка на монтиране на този дял:
+Choices-bn.UTF-8: / - রুট ফাইল সিস্টেম, /boot - বুট লোডারের পরিবর্তনশীল ফাইলসমূহ, /home - ব্যবহারকারীর ব্যক্তিগত ডিরেক্টরি, /tmp - অস্থায়ী ফাইল, /usr - অপরিবর্তনশীল তথ্য, /var - পরিবর্তনশীল তথ্য, /srv - এই সিস্টেম কর্তৃক প্রদানকৃত সার্ভিস সংশ্লিষ্ট তথ্য, /opt - অতিরিক্ত অ্যাপলিকেশন সফটওয়্যার প্যাকেজ, /usr/local - স্থানীয় ডিরেক্টরি ট্রি, নিজ হাতে ঢোকান, এটিকে মাউন্ট করবেন না
+Description-bn.UTF-8: এই পার্টিশনটির জন্য মাউন্ট পয়েন্ট:
+Choices-bo.UTF-8: / - རྩ་བའི་ཡིག་ཆ་མ་ལག, /boot - སྒུལ་སློང་ཆས་ཀྱི་གཏན་འཛུགས་ཡིག་ཆ, /home - སྤྱོད་མཁན་གཙོ་ངོས་ཀྱི་གནས་ཁོངས, /tmp - གནས་སྐབས་ཡིག་ཆ, /usr - གཏན་འཛུགས་ཀྱི་གྲངས་རྒྱུན, /var - འགྱུར་གྲངས་ཀྱི་གྲངས་རྒྱུན, /srv - མ་ལག་འདིས་མཁོ་སྤྲོད་བྱས་པའི་ཞབས་ཞུའི་གྲངས་རྒྱུན, /opt - ཟུར་སྣོན་གྱི་ཉེར་སྤྱོད་མཉེན་ཆས, /usr/local - རང་ཁུལ་གྱི་གནས་ཁོངས, ལག་བཟོས་ངང་འཇུག་པ, འདི་བཀར་མི་དགོས་པ
+Description-bo.UTF-8: ཁག་འདིའི་བཀར་སའི་གནས：
+Choices-bs.UTF-8: / - root datotečni sistem, /boot - statične datoteke boot loadera, /home - korisnički home direktoriji, /tmp - privremene datoteke, /usr - statični podaci, /var - promjenljivi podaci, /srv - podaci za servise koje pruža ovaj sistem, /opt - dodatni aplikacijski softverski paketi, /usr/local - lokalna hijerarhija, Unesi ručno, Nemoj montirati
+Description-bs.UTF-8: Tačka montiranja za ovu particiju:
+Choices-ca.UTF-8: / - el sistema de fitxers arrel, /boot - fitxers estàtics del carregador, /home - directoris personals dels usuaris, /tmp - fitxers temporals, /usr - dades estàtiques, /var - dades variables, /srv - dades per als serveis proveïts per aquest sistema, /opt - paquets de programari d'aplicacions afegides, /usr/local - jerarquia local, Introdueix manualment, No el muntes
+Description-ca.UTF-8: Punt de muntatge per a aquesta partició:
+Choices-cs.UTF-8: / - kořenový souborový systém, /boot - statické soubory zavaděče, /home - domovské adresáře uživatelů, /tmp - dočasné soubory, /usr - neměnná data, /var - proměnlivá data, /srv - data pro služby poskytované systémem, /opt - přídavný software třetích stran, /usr/local - lokální hierarchie, Zadat ručně, Nepřipojovat
+Description-cs.UTF-8: Přípojný bod pro tuto oblast:
+Choices-cy.UTF-8: / - system ffeiliau gwraidd, /boot - ffeiliau sefydlog y llwythwyr ymgychwyn, /home - cyfeiriaduron cartref defnyddwyr, /tmp - ffeiliau dros dro, /usr - data sefydlog, /var - data newidiol, /srv - data ar gyfer gwasanaethau a ddarparir gan y system hwn, /opt - pecynnau meddalwedd ychwanegol, /usr/local - hierarchaeth lleol, Mewnosod â llaw, Peidio a'i glymu
+Description-cy.UTF-8: Pwynt clymu ar gyfer y rhaniad hwn:
+Choices-da.UTF-8: / - rodfilsystemet, /boot - opstartsindlæserens statiske filer, /home - Brugernes hjemmemapper, /tmp - midlertidige filer, /usr - statiske data, /var - variable data, /srv - data for services\, tilvejebragt af dette system, /opt - tilføjede programpakker, /usr/local - lokalt hierarki, Angiv manuelt, Montér den ikke
+Description-da.UTF-8: Monteringspunkt for denne partition:
+Choices-de.UTF-8: / - Das Wurzeldateisystem, /boot - Statische Dateien des Bootloaders, /home - Home-Verzeichnisse der Benutzer, /tmp - Temporäre Dateien, /usr - Statische Daten, /var - Sich ändernde Daten, /srv - Daten für Server-Dienste\, die bereitgestellt werden, /opt - Zusätzliche Anwendungen, /usr/local - Lokale Hierarchie, Von Hand angeben, Nicht einbinden
+Description-de.UTF-8: Einbindungspunkt für diese Partition:
+Choices-dz.UTF-8: / -རྩ་བའི་ཡིག་སྣོད་རིམ་ལུགས།, /boot -མངོན་གསལ་འབད་མི་གྱི་རྟག་བརྟན་ཡིག་སྣོད་ཚུ།, /home -ལག་ལེན་པའི་ཁྱིམ་གྱི་སྣོད་ཐོ་ཚུ།, /tmp -གནས་སྐབས་ཀྱི་ཡིག་སྣོད་ཚུ།, /usr -རྟག་བརྟན་གནད་སྡུད།, /var - འགྱུར་ཅན་གནད་སྡུད།, རིམ་ལུགས་འདི་གྱིས་ཞབས་ཏོག་ཚུ /srv -གནད་སྡུད་ཀྱི་དོན་ལུ་བྱིན་ཏེ་ཡོད།, གློག་རིམ་མཉེན་ཆས་ཐུམ་སྒྲིལ་ཚུ་ལུ་/ཨོ་པི་ཊི་ - ཨེཌ-།, /usr/local -ཉེ་གནས་སྡེ་རིམ།, ལག་ཐོག་ལས་ཐོ་བཀོད་འབད།, འདི་སྦྱར་བརྩེགས་མ་འབད།
+Description-dz.UTF-8: བར་བཅད་འདི་གྱི་དོན་ལུ་སྦྱར་བརྩེགས་ས་ཚིགས།
+Choices-el.UTF-8: / - το βασικό σύστημα αρχείων, /boot - στατικά αρχεία του φορτωτή εκκίνησης, /home - προσωπικοί κατάλογοι χρηστών, /tmp - προσωρινά αρχεία, /usr - στατικά δεδομένα, /var - μεταβαλλόμενα δεδομένα, /srv - δεδομένα των υπηρεσιών που παρέχονται από αυτό το σύστημα, /opt - πρόσθετα πακέτα εφαρμογών λογισμικού, /usr/local - τοπική ιεραρχία, Χειροκίνητη εισαγωγή, Να μην προσαρτηθεί
+Description-el.UTF-8: Σημείο προσάρτησης γι' αυτήν την κατάτμηση:
+Choices-eo.UTF-8: / - radika dosiersistemo, /boot - statikaj dosieroj de la ekŝargilo, /home - personaj dosierujoj de uzantoj, /tmp - provizoraj dosieroj, /usr - statika datumaro, /var - variebla datumaro, /srv - datumaro por servoj provizitaj de ĉi tiu sistemo, /opt - aldonaj programaraj pakoj, /usr/local - loka hierarkio, Tajpi mem, Ne munti ĝin
+Description-eo.UTF-8: Munt-punkto por ĉi tiu diskparto:
+Choices-es.UTF-8: / - sistema de ficheros raíz, /boot - ficheros estáticos del cargador de arranque, /home - directorios personales de los usuarios, /tmp - ficheros temporales, /usr - datos estáticos, /var - datos variables, /srv - datos de los servicios que ofrece el sistema, /opt - paquetes de aplicaciones añadidas, /usr/local - jerarquía local, Introducir manualmente, No montarla
+Description-es.UTF-8: Punto de montaje para esta partición:
+Choices-et.UTF-8: / - failisüsteemi juur, /boot - alglaaduri staatilised failid, /home - kasutajate kodukataloogid, /tmp - ajutised failid, /usr - staatilised andmed, /var - muutuvad andmed, /srv - andmed süsteemi poolt pakutavate teenuste jaoks, /opt - lisatavad rakendustarkvara paketid, /usr/local - kohalik hierarhia, Sisesta käsitsi, Ära seda haagi
+Description-et.UTF-8: Selle partitsiooni haakepunkt:
+Choices-eu.UTF-8: / - erroko fitxategi-sistema, /boot - abioko kargatzailearen fitxategi estatikoak, /home - erabiltzaileen etxeko direktorioak, /tmp - aldi baterako fitxategiak, /usr - datu estatikoak, /var - datu aldakorrak, /srv - sistema honek hornitutako zerbitzuen datuak, /opt - aplikazio gehigarrien software paketeak, /usr/local - hierarkia lokala, Sartu eskuz, Ez muntatu
+Description-eu.UTF-8: Partizio honen muntatze-puntua:
+Choices-fa.UTF-8: / - فایل سیستم ریشه, /boot - فایل‌های ثابت بارگذار بوت, /home - شاخه‌های خانگی کاربر, /tmp - فایل‌های موقتی, /usr - داده‌های ثابت, /var -داده‌های متغیر, /srv - داده برای سرویس‌های مهیا شده توسط این سیستم, /opt - بسته‌های نرم‌افزارهای کاربردی اضافی, /usr/local - سلسله‌مراتب محلی, ورود دستی, متصل نکن
+Description-fa.UTF-8: نقطهٔ اتصال برای این پارتیشن:
+Choices-fi.UTF-8: / - juuritiedostojärjestelmä, /boot - alkulatausohjelman muuttumattomat tiedostot, /home - käyttäjien kotihakemistoja, /tmp - tilapäisiä tiedostoja, /usr - muuttumatonta tietoa, /var - muuttuvaa tietoa, /srv - tämän koneen tarjoamien palveluiden tietoja, /opt - lisäohjelmia, /usr/local - paikallisten tiedostojen hakemistopuu, Määritä itse, Älä liitä
+Description-fi.UTF-8: Tämän osion liitoskohta:
+Choices-fr.UTF-8: / - système de fichiers racine, /boot - fichiers statiques du programme de démarrage, /home - répertoires personnels des utilisateurs, /tmp - fichiers temporaires, /usr - données statiques, /var - données variables, /srv - données des services fournis par le système, /opt - ensembles logiciels additionnels, /usr/local - hiérarchie locale, Autre choix, Ne pas utiliser cette partition
+Description-fr.UTF-8: Point de montage pour cette partition :
+Choices-ga.UTF-8: / - an fréamhchóras comhad, /boot - comhaid statacha don luchtóir tosaithe, /home - comhadlanna baile na n-úsáideoirí, /tmp - comhaid shealadacha, /usr - sonraí statacha, /var - sonraí inathraithe, /srv - sonraí le haghaidh na seirbhísí a sholáthraíonn an córas seo, /opt - bogearraí forlíontacha, /usr/local - ordlathas logánta, Iontráil de láimh, Ná feistigh
+Description-ga.UTF-8: Pointe feistithe na deighilte seo:
+Choices-gl.UTF-8: /\, o sistema de ficheiros raíz, /boot\, ficheiros estáticos do cargador de arranque, /home\, directorios persoais dos usuarios, /tmp\, ficheiros temporais, /usr\, datos estáticos, /var\, datos variábeis, /srv\, datos para os servizos fornecidos por este sistema, /opt\, paquetes de software opcional, /usr/local\, xerarquía local, Introducir a man, Non montala
+Description-gl.UTF-8: Punto de montaxe desta partición:
+Choices-gu.UTF-8: / - રૂટ ફાઈલ સિસ્ટમ, /boot - બૂટ લોડરની સ્થિત ફાાઇલો, /home - વપરાશકર્તાની પોતાની ઘર ડિરેક્ટરીઓ, /tmp - કામચલાઉ ફાઇલો, /usr - સ્થિત માહિતી, /var - ચલ માહિતી, /srv - આ સિસ્ટમ દ્વારા અપાયેલ સેવાઓની માહિતી, /opt - વધારાના સોફ્ટવેર પેકેજ કાર્યક્રમો, /usr/local - સ્થાનિક માળખું, જાતે દાખલ કરો, તેને માઉન્ટ ન કરો
+Description-gu.UTF-8: આ પાર્ટિશન માટે માઉન્ટ બિંદુ:
+Choices-he.UTF-8: / - שורש מערכת הקבצים, ‏‎/boot - קבצים סטטיים של מנהל האתחול, ‏‎/‎home - ספריות הבית של המשתמשים, ‏‎‎‏‎‎‏‎/tmp - קבצים זמניים, ‏‎/usr - מידע סטטי, ‏‎/var - מידע משתנה, ‏‎/srv - מידע בשביל שירותים המסופקים על ידי מערכת זו, ‏‎/opt - תוספות של חבילות תוכנה, ‏‎/usr/local - היררכיה מקומית, הזנה באופן ידני, ללא עגינה
+Description-he.UTF-8: נקודת עגינה למחיצה:
+Choices-hi.UTF-8: / - रूट फ़ाइल सिस्टम, /boot - बूट लोडर की स्टैटिक फ़ाइलें, /home - उपयोक्ता का घर डिरेक्ट्रीज़, /tmp - अस्थायी फ़ाइलें, /usr - स्टैटिक डाटा, /var - चर डाटा, /srv - इस तंत्र द्वारा प्रदाय की जाने वाली सेवाओं के लिए डाटा, /opt - एड-ऑन अनुप्रयोग सॉफ़्टवेयर पैकेजेस, /usr/local - स्थानीय हियरार्की, हस्तचालित प्रविष्ट करें, इसे माउन्ट नहीं करें
+Description-hi.UTF-8: इस पार्टीशन हेतु माउन्ट प्वाइंट:
+Choices-hr.UTF-8: / - korijenski datotečni sustav, /boot - statičke datoteke boot učitavača, /home - direktoriji 'običnih' korisnika, /tmp - privremene datoteke, /usr - statički podaci, /var - varijabilni podaci, /srv - podaci za servise sustava, /opt - dodatni programski paketi, /usr/local - stablo s lokalnim stvarima, Unesi ručno, Ne montiraj
+Description-hr.UTF-8: Točka montiranja za ovu particiju:
+Choices-hu.UTF-8: / - a gyökérfájlrendszer, /boot - a rendszerbetöltő statikus fájljai, /home - felhasználói könyvtárak, /tmp - átmeneti fájlok, /usr - statikus adatok, /var - változó adatok, /srv - a rendszer nyújtotta szolgáltatások adatai, /opt - külső alkalmazásszoftver-csomagok, /usr/local - saját  hierarchia, Kézi megadás, Ne legyen felcsatolva
+Description-hu.UTF-8: E partíció csatolási pontja:
+Choices-id.UTF-8: / - sistem berkas root, /boot - berkas-berkas statis dari boot loader, /home - direktori home pengguna, /tmp - berkas-berkas sementara, /usr - data statis, /var - data dinamis, /srv -- data untuk layanan yang disediakan sistem ini, /opt - paket-paket perangkat lunak tambahan, /usr/local - hirarki untuk instalasi lokal, Masukkan secara manual, Jangan kaitkan
+Description-id.UTF-8: Titik kait untuk partisi ini:
+Choices-is.UTF-8: / - rót skráakerfisins, /boot - óbreytilegar skrár ræsistjórans, /home - heimamöppur notenda, /tmp - bráðabirgðaskrár, /usr - óbreytileg gögn, /var - breytileg gögn, /srv - gögn fyrir þjónustur sem þetta kerfi keyrir, /opt - viðbótar hugbúnaðarpakkar, /usr/local - staðbundið stigveldi, Slá inn handvirkt, Ekki tengja
+Description-is.UTF-8: Tengipunktur fyrir þessa sneið:
+Choices-it.UTF-8: / - il file system root, /boot - file del boot loader, /home - home directory degli utenti, /tmp - file temporanei, /usr - dati che cambiano poco, /var - dati che cambiano, /srv - dati per i servizi forniti dal sistema, /opt - pacchetti di applicazioni aggiuntive, /usr/local - gerarchia locale, Inserire manualmente, Non montarla
+Description-it.UTF-8: Punto di mount per questa partizione:
+Choices-ja.UTF-8: / - ルートファイルシステム, /boot - ブートローダの静的ファイル, /home - ユーザのホームディレクトリ, /tmp - テンポラリファイル, /usr - 静的データ, /var - 可変データ, /srv - このシステムで提供されるサービスのデータ, /opt - 追加アプリケーションソフトウェアパッケージ, /usr/local - ローカル階層, 手動で入力, マウントしない
+Description-ja.UTF-8: このパーティションのマウントポイント:
+Choices-ka.UTF-8: / - ძირითადი (root) ფაილური სისტემა, /boot - სისტემური ჩამტვირთველის სტატიკური ფაილები, /home - მომხმარებელთა სათაო კატალოგები, /tmp - დროებითი ფაილები, /usr - სტატიკური ინფორმაცია, /var - ცვალებადი ინფორმაცია, /srv - სისტემური სერვისების მონაცემები, /opt - პროგრამული უზრუნველყოფის დამატებითი პაკეტები, /usr/local - ლოკალური იერარქიული სტრუქტურა, ხელით შეყვანა, არ დავამონტაჟოთ დანაყოფი
+Description-ka.UTF-8: ამ დანაყოფის მონტაჟის პუნქტი:
+Choices-kk.UTF-8: / - түбірлік файлдық жүйе (root file system), /boot – жүйелік жүктеушінің тұрақты файлдары, /home – пайдаланушының үй бумасы, /tmp – уақытша файлдар, /usr – тұрақты деректер, /var – ауыспалы деректер, /srv – жүйе ұсынған сервистер деректері, /opt – бағдарламалық қамтаманың дестелері, /usr/local – жергілікті иерархия, Қолдан енгізу, Тіркемеу
+Description-kk.UTF-8: Осы бөлімнің тіркеу нүктесі:
+Choices-km.UTF-8: / - ប្រព័ន្ធ​ឯកសារ​ root , /boot - ឯកសារ​ថេរ​របស់​កម្មវិធី​ចាប់ផ្ដើម​ប្រព័ន្ធ, /home - ថត​ផ្ទះ​របស់​អ្នក​ប្រើ, /tmp - ឯកសារ​បណ្ដោះ​អាសន្ន, /usr - ទិន្នន័យ​ថេរ, /var - ទិន្នន័យ​ប្រែប្រួល, /srv - ទិន្នន័យ​សម្រាប់​សេវា​ដែល​ផ្ដល់​ដោយ​ប្រព័ន្ធ​នេះ​, /opt - កញ្ចប់​កម្មវិធី​បន្ថែម, /usr/local - ឋានានុក្រម​មូលដ្ឋាន, បញ្ចូល​ដោយ​ដៃ, កុំ​ម៉ោន​វា
+Description-km.UTF-8: ចំណុច​ម៉ោន​សម្រាប់ភាគថាស​នេះ ៖
+Choices-kn.UTF-8: / - ಮೂಲ ಕಡತ ವ್ಯವಸ್ಥೆ, /boot - ಬೂಟ್ ಲೋಡರಿನ ಸ್ಥಿರ ಕಡತಗಳು, /home - ಬಳಕೆದಾರರ ಗೃಹ ಕಡತಕೋಶಗಳು, /tmp - ತಾತ್ಕಾಲಿಕ ಕಡತಗಳು, /usr - ಸ್ಥಿರ ಮಾಹಿತಿ, /var - ಬದಲಾಗುವ ಮಾಹಿತಿ, /srv - ಗಣಕ ವ್ಯವಸ್ಥೆಯಿಂದ ಕೊಡಲಾಗುವ ಸೇವೆಗಳ ಮಾಹಿತಿ, /opt - ಹೆಚ್ಚುವರಿ ಕಾರ್ಯನಿಮ್ಮಿತ್ತ ತಂತ್ರಾಂಶ ಮೆದುಸರಕುಗಳು, /usr/local - ಸ್ಥಳೀಯ ಶ್ರೇಣಿವ್ಯವಸ್ಥೆ, ಕೈಯಾರೆ ದಾಖಲಿಸಿ, ಅದನ್ನು ಏರಿಸಬೇಡಿ
+Description-kn.UTF-8: ಈ ವಿಭಜನೆಯ ಏರು ಬಿಂದು:
+Choices-ko.UTF-8: / - 루트 파일 시스템, /boot - 부트로더가 사용하는 고정 파일들, /home - 사용자 홈 디렉토리, /tmp - 임시 파일, /usr - 고정 데이터, /var - 변하는 데이터, /srv - 시스템에서 제공하는 서비스에 필요한 데이터, /opt - 추가 소프트웨어 패키지, /usr/local - 로컬 저장고, 수동으로 입력, 마운트하지 않음
+Description-ko.UTF-8: 이 파티션을 마운트할 위치:
+Choices-ku.UTF-8: / - pergala pelan ya root, /boot - pelên sabît a boot loader, /home - peldankên mal yên bikarhêneran, /tmp - pelên derbasî, /usr - agahiyên sabît, /var - agahiyên nesabît, /srv - data ji bo hizmetên ku ev pergal pêşkeş dike, /opt - paketên nivîsbariyê yên îlawe, /usr/local - hîerarşiya herêmî, Bi destê xwe binivîse, Mount neke
+Description-ku.UTF-8: Niqteya mount ji bo vê partîsiyonê:
+Choices-lo.UTF-8: / - ລະບົບແຟັມຮາກ, /boot -ແຫຼ່ງແຟ້ມຕາຍຕົວສຳຫຼັບບຣູດໂຫຼດເດີ, /home - ແຫຼ່ງໄດເຮດທໍຮີສ່ວນຕົວຂອງຜູ້ໃຊ້, /tmp - ທີ່ເກັບແຟ້ມຊົວຄາວ, /usr -ແຫຼ່ງຂໍ້ມູນຕາຍຕົວ, /var - ແຫຼ່ງຂໍ້ມູນປ່ຽນແປງ, /srv -  ແຫຼ່ງຂໍ້ມູນສຳລັບບໍລິການຂອງລະບົບ, /opt -  ແຫຼ່ງຊອບແວເພີ້ມຂະຫຍາຍ, /usr/local -  ໂຄງສ້າງລະບົບແຟັມໃຊ້ເປັນການພາຍໃນ, ປ້ອນຊື່ເອງ, ບໍ່ຕອ້ງເມົ້າ
+Description-lo.UTF-8:  ຕຳແໜ່ງເມົາສຳລັບພາທິຊັນນີ້:
+Choices-lt.UTF-8: / – šakninė (root) failų sistema, /boot – paleidyklės statiniai failai, /home – naudotojų namų aplankai, /tmp – laikini failai, /usr – statiniai duomenys, /var – kintantys duomenys, /srv – šios sistemos tiekiamų paslaugų (services) duomenys, /opt – papildomi programinės įrangos paketai, /usr/local – vietinė hierarchija, Įvesti rankiniu būdu, Neprijungti skaidinio
+Description-lt.UTF-8: Šio disko skaidinio prijungimo taškas:
+Choices-lv.UTF-8: / - saknes datņu sistēma, /boot - palaidēja statiskās datnes, /home - lietotāju mājas mapes, /tmp - pagaidu datnes, /usr - statiskie dati, /var - mainīgie dati, /srv - šīs sistēmas pakalpojumu dati, /opt - programmatūras papildinājumu pakotnes, /usr/local - lokālā hierarhija, Norādīt manuāli, Nemontēt to
+Description-lv.UTF-8: Šī nodalījuma montēšanas punkts:
+Choices-mk.UTF-8: / - root датотечниот систем, /boot - статични датотеки за програмот со кој се подига системот, /home - сопствените директориуми на корисниците, /tmp - привремени датотеки, /usr - статички податоци, /var - променливи податоци, /srv - податоци за сервисите кои се користат на овој систем, /opt - додататни софтверски пакети, /usr/local - локална хиерархија, Внеси рачно, Немој да го монтираш
+Description-mk.UTF-8: Точка за монтирање за оваа партиција:
+Choices-ml.UTF-8: / - റൂട്ട് ഫയല്‍ സിസ്റ്റം, /boot - ബൂട്ട് ലോഡറിനു് വേണ്ട സ്ഥിര ഫയലുകള്‍, /home - ഉപയോക്താക്കളുടെ തട്ടകങ്ങള്‍, /tmp - താല്കാലിക ഫയലുകള്‍, /usr - സ്ഥിര ഡാറ്റ, /var - മാറുന്ന ഡാറ്റ, /srv - ഈ സിസ്റ്റം നല്കുന്ന സേവനങ്ങളുടെ ഡാറ്റ, /opt - കൂട്ടിചേര്‍ക്കുന്ന പ്രയോഗ സോഫ്റ്റ്‌വെയര്‍ പാക്കേജുകള്‍, /usr/local - പ്രാദേശിക അധികാരശ്രേണി, മാന്വലായി നല്‍കുക, ഇതു് മൌണ്ട് ചെയ്യരുത്
+Description-ml.UTF-8: ഈ ഭാഗത്തിന്റെ മൌണ്ട് പോയിന്റ്:
+Choices-mr.UTF-8: / - मूल फाइल प्रणाली, /boot - आरंभ सूचकाकरिता स्थायी फायली, /home - वापरदाराच्या घर निर्देशिका, /tmp - तात्पुरत्या फायली, /usr - स्थायी डेटा, /var - परिवर्तनीय डेटा, /srv - या प्रणालीने पुरवलेल्या सेवांचा डेटा, /opt - अतिरिक्त ऍप्लिकेशन सॉफ्टवेअर पॅकेजेस्, /usr/local - स्थानिक उतरंड, स्वहस्ते भरा, हे आरोहित करू नका
+Description-mr.UTF-8: या विभाजनाकरिता आरोह बिंदू:
+Choices-nb.UTF-8: / - rot-filsystemet, /boot - faste filer for oppstartslasteren, /home - hjemmeområder for brukere, /tmp - midlertidige filer, /usr - statiske data, /var - variable data, /srv - data for tjenester som dette systemet tilbyr, /opt - programpakker som legges til manuelt, /usr/local - lokalt hierarki, Skriv inn manuelt, Ikke monter
+Description-nb.UTF-8: Monteringspunkt for denne partisjonen:
+Choices-ne.UTF-8: / - मूल फाइल प्रणाली, /boot - बुट लोडरको स्थिर फाइलहरू, /home - प्रयोगकर्ताको गृह डाइरेक्ट्रीहरू, /tmp - अस्थायी फाइलहरू, /usr - स्थिर डेटा, /var - चल डेटा, /srv - यो प्रणाली द्वारा सेवाहरुका लागि उपलब्ध गराइएको डेटा, /opt - अनुप्रयोग सफ्टवेयर प्याकेजहरुमा थप्नुहोस्, /usr/local - स्थानिय सोपानक्रम , म्यानुअल तरिकाले प्रविष्ट गर्नुहोस्, यसलाई माउन्ट नगर्नुहोस्
+Description-ne.UTF-8: यो विभाजनका लागि विन्दु माउन्ट गर्नुहोस्:
+Choices-nl.UTF-8: / - het basisbestandssysteem, /boot - statische bestanden van de opstartlader, /home - thuismappen van gebruikers, /tmp - tijdelijke bestanden, /usr - statische data, /var - dynamische data, /srv - data voor door het systeem voorziene diensten, /opt - toegevoegde programma's (i.e. niet uit de distributie), /usr/local - lokale hiërarchie, Aankoppelpunt handmatig invoeren, Niet koppelen
+Description-nl.UTF-8: Aankoppelpunt voor deze partitie:
+Choices-nn.UTF-8: / - rotfilsystemet, /boot - statiske filer til oppstartslastaren, /home - brukaren si heimemappe, /tmp - mellombelse filer, /usr - statiske data, /var - variable data, /srv - data for tenester som er tilbydd av dette systemet, /opt - data for tilleggsprogramvare, /usr/local - lokalt hierarki, Skriv inn manuelt, Ikkje monter det
+Description-nn.UTF-8: Monteringspunkt for denne partisjonen:
+Choices-no.UTF-8: / - rot-filsystemet, /boot - faste filer for oppstartslasteren, /home - hjemmeområder for brukere, /tmp - midlertidige filer, /usr - statiske data, /var - variable data, /srv - data for tjenester som dette systemet tilbyr, /opt - programpakker som legges til manuelt, /usr/local - lokalt hierarki, Skriv inn manuelt, Ikke monter
+Description-no.UTF-8: Monteringspunkt for denne partisjonen:
+Choices-pa.UTF-8: / - root ਫਾਇਲ ਸਿਸਟਮ, /boot - ਬੂਟ ਲੋਡ ਦੀਆਂ ਸਥਿਰ ਫਾਇਲਾਂ, /home - ਯੂਜ਼ਰ ਘਰ ਡਾਇਰੈਕਟਰੀਆਂ, /tmp - ਆਰਜੀ ਫਾਇਲਾਂ, /usr - ਸਥਿਰ ਡਾਟਾ, /var - ਤਬਦੀਲੀ ਯੋਗ ਡਾਟਾ, /srv - ਇਸ ਸਿਸਟਮ ਰਾਹੀਂ ਸਰਵਿਸਾਂ ਲਈ ਡਾਟਾ, /opt - ਸ਼ਾਮਲ ਕੀਤੇ ਐਪਲੀਕੇਸ਼ਨ ਸਾਫਟਵੇਅਰ ਪੈਕੇਜ, /usr/local - ਲੋਕਲ ਲੜੀ, ਦਸਤੀ ਭਰੋ, ਇਸ ਨੂੰ ਮਾਊਂਟ ਨਾ ਕਰੋ
+Description-pa.UTF-8: ਇਸ ਪਾਰਟੀਸ਼ਨ ਲਈ ਮਾਊਂਟ ਪੁਆਂਇਟ:
+Choices-pl.UTF-8: / - główny system plików, /boot - statyczne pliki dla programu rozruchowego, /home - domowe katalogi użytkowników, /tmp - pliki tymczasowe, /usr - statyczne dane, /var - zmienne dane, /srv - dane dla usług dostarczanych przez ten system, /opt - opcjonalne pakiety oprogramowania, /usr/local - lokalna hierarchia, Wprowadź ręcznie, Nie montuj tego
+Description-pl.UTF-8: Punkt montowania dla tej partycji:
+Choices-pt.UTF-8: / - sistema de ficheiros raíz, /boot - ficheiros estáticos do gestor de arranque, /home - directórios do utilizador, /tmp - ficheiros temporários, /usr - dados estáticos, /var - dados variáveis, /srv - dados para serviços disponibilizados por este sistema, /opt - pacotes de software de aplicações adicionais, /usr/local - hierarquia local, Introduzir manualmente, Não montar
+Description-pt.UTF-8: Mount point para esta partição:
+Choices-pt_BR.UTF-8: / - o sistema de arquivos raiz, /boot - arquivos estáticos do carregador de inicialização, /home - diretório pessoal dos usuários, /tmp - arquivos temporários, /usr - dados estáticos, /var - dados variáveis, /srv - dados de serviços fornecidos por este sistema, /opt - pacotes de softwares de aplicações adicionais, /usr/local - hierarquia local, Informar manualmente, Não montar
+Description-pt_BR.UTF-8: Ponto de montagem para esta partição:
+Choices-ro.UTF-8: / - sistemul de fișiere rădăcină, /boot - fișiere statice ale încărcătorului de sistem, /home - directoarele „acasă” ale utilizatorilor, /tmp - fișiere temporare, /usr - date statice, /var - date variabile, /srv - date pentru servicii oferite de acest sistem, /opt - pachete de aplicații suplimentare, /usr/local - ierarhie locală, Introducere manuală, Nu monta
+Description-ro.UTF-8: Punctul de montare pentru acestă partiție:
+Choices-ru.UTF-8: / -- корневая файловая система (root file system), /boot -- статические файлы системного загрузчика, /home -- домашние каталоги пользователей, /tmp -- временные файлы, /usr -- статичные данные, /var -- изменяемые данные, /srv -- данные служб\, предоставляемых системой, /opt -- дополнительные пакеты программного обеспечения, /usr/local -- локальные каталоги, Ввести вручную, Не монтировать этот раздел
+Description-ru.UTF-8: Точка монтирования этого раздела:
+Choices-si.UTF-8: / - මූල ගොනු පද්ධතිය, /boot - ආරම්භක පූරකයේ ස්ථිතික ගොනු, /home - පරිශීලක නිවෙස් බහාළුම්, /tmp - තාවකාලික ගොනු, /usr - ස්ථිතික දත්ත, /var - විචල්‍ය දත්ත, /srv - පද්ධතිය මගින් සපයන සේවා සඳහා වන දත්ත, /opt - ඇඩෝන යෙදුම් මෘදුකාංග පැකේජ, /usr/local - ප්‍රාදේශීය ධූරාවලිය, ශ්‍රමිකව එක් කරන්න, රඳවන්න එපා
+Description-si.UTF-8: මෙම කොටස සඳහා රැඳවුම් ස්ථානය
+Choices-sk.UTF-8: / - koreňový súborový systém, /boot - nemenné súbory zavádzača, /home - domáce adresáre používateľov, /tmp - dočasné súbory, /usr - nemenné údaje, /var - premenlivé údaje, /srv - údaje pre služby\, ktoré poskytuje tento systém, /opt - prídavné aplikačné softvérové balíky, /usr/local - lokálna hierarchia, Zadať manuálne, Nepripájať
+Description-sk.UTF-8: Prípojný bod pre túto oblasť:
+Choices-sl.UTF-8: / - korenski datotečni sistem, /boot - statične datoteke zagonskega nalagalnika, /home - uporabnikove domače mape, /tmp - začasne datoteke, /usr - statični podatki, /var - spremenljivi podatki, /srv - podatki za storitve tega sistema, /opt - dodatni programski paketi, /usr/local - lokalna hierarhija, Ročen vnos, Ne priklopi
+Description-sl.UTF-8: Priklopna točka za ta razdelek:
+Choices-sq.UTF-8: / - filesistemi root, /boot - kartelat statike të ngarkuesit të nisjes, /home - dosjet home të përdoruesve, /tmp - kartela të përkohshme, /usr - të dhëna statike, /var - të dhëna të ndryshueshme, /srv - të dhëna për shërbimet që ofron ky sistem, /opt - paketa programesh shtesë, /usr/local - hierarki lokale, Krijo vetë, Mos e monto
+Description-sq.UTF-8: Pika e montimit për këtë ndarje:
+Choices-sr.UTF-8: / - root фајл систем, /boot - статички фајлови бут лоудера, /home - кориснички директоријуми, /tmp - привремени фајлови, /usr - статички подаци, /var - променљиви подаци, /srv - подаци за сервисе које систем обезбеђује, /opt - додатне апликације, /usr/local - локална хијерархија, Ручно унеси, Не монтирај
+Description-sr.UTF-8: Тачка монтирања за ову партицију:
+Choices-sv.UTF-8: / - rotfilsystemet, /boot - starthanterarens statiska filer, /home - användarnas hemkataloger, /tmp - temporära filer, /usr - oföränderlig data, /var - föränderlig data, /srv - data för tjänster som det här systemet erbjuder, /opt - program som installeras i form av tilläggspaket, /usr/local - lokal hierarki, Ange manuellt, Montera den inte
+Description-sv.UTF-8: Monteringspunkt för den här partitionen:
+Choices-ta.UTF-8: / - ரூட்( root) கோப்பு வகை, /boot - துவக்கியின் நிலையான கோப்புகள் உடையது, /home -(இல்லம்) பயனர் இல்ல கோப்புகளுக்கானது., /tmp - தற்காலிக கோப்புகள், /usr - மாறா தகவல்கள், /var - மாறும் தகவல்கள், /srv - இந்த கணிணி அளிக்கும் சேவைகளுக்கான தகவல், /opt - கூடுதல் செயல்பாடு தொகுப்புகள், /usr/local - உள்ளக அடுக்கு அமைப்பு, கைமுறையாக உள்ளீடு செய்ய, ஏற்றாதே
+Description-ta.UTF-8: இந்த பகிர்வுக்கான ஏற்றப்புள்ளி:
+Choices-te.UTF-8: / - రూట్ ఫైల్ సిస్టం, /boot - బూట్ లోడర్ యొక్క స్థిర ఫైళ్లు , /home - వాడుకరి నివాస  డైరెక్టరీలు , /tmp - అశాశ్వతమయిన దస్త్రా, /usr - స్థిర డాటా, /var - మారుతున్న డాటా, /srv - వ్యవస్థ యిచ్చే  సేవల కొరకు డాటా, /opt - తరువాత చేర్చగల అనువర్తన సాఫ్ట్వేర్ పాకేజీలు, /usr/local - స్థానిక   హైర్అర్కీ, స్వయంగా ప్రవేశపెట్టండి, దానిని అనుసంధానం చేయవద్దు
+Description-te.UTF-8: ఈ విభజన కొరకు అనుసంధాన కేంద్రము.
+Choices-tg.UTF-8: / - системаи файлии root, /boot - файлҳои статикии боркунандаи роҳандозӣ, /home - директорияҳои хонагии корбарӣ, /tmp - файлҳои муваққатӣ, /usr - иттилооти статикӣ, /var - иттилооти тағйирёбанда, /srv - иттилооти хидматҳои таъминшуда аз ҷониби система, /opt - бастаҳои нармафзори барномаҳои ҷузъи иловагӣ, /usr/local - иерархияи маҳаллӣ, Ворид кардан ба таври дастӣ, Васл накардан
+Description-tg.UTF-8: Васл кардани нуқта барои ин қисми диск:
+Choices-th.UTF-8: / - ระบบแฟ้มราก, /boot - แหล่งแฟ้มตายตัวสำหรับบูตโหลดเดอร์, /home - แหล่งไดเรกทอรีส่วนตัวของผู้ใช้, /tmp - ที่เก็บแฟ้มชั่วคราว, /usr - แหล่งข้อมูลตายตัว, /var - แหล่งข้อมูลเปลี่ยนแปลง, /srv - แหล่งข้อมูลสำหรับบริการของระบบ, /opt - แหล่งซอฟต์แวร์เพิ่มขยาย, /usr/local - โครงสร้างระบบแฟ้มใช้เป็นการภายใน, ป้อนชื่อเอง, ไม่ต้องเมานท์
+Description-th.UTF-8: ตำแหน่งเมานท์สำหรับพาร์ทิชันนี้:
+Choices-tl.UTF-8: / - ang root file system, /boot - mga talaksan ng boot loader na hindi nagbabago, /home - pamamahay na salansan ng mga gumagamit, /tmp - mga talaksan na pansamantala, /usr - datos na hindi nagbabago, /var - datos na nagbabago, /srv - mga datos ng mga serbisyong nilalaan ng sistemang ito, /opt - mga karagdagang mga pakete ng application software, /usr/local - pang-lokal na mga salansan, Ipasok ng mano-mano, Huwag i-mount
+Description-tl.UTF-8: Mount point para sa partisyon na ito:
+Choices-tr.UTF-8: / - kök dosya sistemi, /boot - önyükleyiciye ait statik dosyalar, /home - kullanıcı ev dizinleri, /tmp - geçici dosyalar, /usr - statik veriler, /var - değişken veriler, /srv - bu sistem tarafından sunulan hizmetlere ait veriler, /opt - sonradan eklenen yazılım paketleri, /usr/local - yerel dizin hiyerarşisi, Elle gir, Bunu bağlama
+Description-tr.UTF-8: Bu bölüm için bağlama noktası:
+Choices-ug.UTF-8: / - root ھۆججەت سىستېمىسى, /boot - يېتەكلىگۈچ(boot loader) ئۈچۈن تىنچ ھۆججەتلەر, /home - ئىشلەتكۈچى ماكان مۇندەرىجىسى, /tmp - ۋاقىتلىق ھۆججەت, /usr - تىنچ سانلىق-مەلۇمات, /var - ئۆزگىرىشچان سانلىق مەلۇمات, /srv - مەزكۇر سىستېما مۇلازىمەتلەر ئۈچۈن تەمىنلىگەن سانلىق-مەلۇمات, /opt - قىستۇرما پروگرامما يۇمشاق دېتال بوغچىسى, /usr/local - يەرلىك مۇندەرىجە قاتلىمى, قولدا كىرگۈزۈڭ, ئېگەرلىمەڭ
+Description-ug.UTF-8: بۇ رايوننىڭ ئېگەرلەش نۇقتىسى:
+Choices-uk.UTF-8: / - коренева файлова система, /boot - статичні файли завантажувача, /home - домашні директорії користувачів, /tmp - тимчасові файли, /usr - статичні дані, /var - змінювані файли, /srv - дані для послуг\, що надаються цією системою, /opt - додаткові пакунки програмного забезпечення, /usr/local - локальна ієрархія, ввести вручну, не монтувати
+Description-uk.UTF-8: Точка монтування для цього розділу:
+Choices-vi.UTF-8: / — hệ thống tập tin gốc, /boot — các tập tin tĩnh của bộ nạp khởi động, /home — thư mục chính của người dùng, /tmp — các tập tin tạm thời, /usr — dữ liệu tĩnh, /var — dữ liêu thay đổi, /srv — dữ liệu cho các dịch vụ được cung cấp bởi hệ thống này, /opt — các gói phần mềm ứng dụng thêm, /usr/local — phân cấp cục bộ, Nhập bằng tay, Không lắp nó
+Description-vi.UTF-8: Điểm lắp cho phân vùng này:
+Choices-zh_CN.UTF-8: / - 根文件系统, /boot - 启动引导器的静态文件, /home - 用户的主目录, /tmp - 临时文件, /usr - 静态数据, /var - 可变数据, /srv - 本系统所提供的服务的数据, /opt - 附加应用软件包, /usr/local - 本地目录树, 手动输入, 不挂载此分区
+Description-zh_CN.UTF-8: 此分区的挂载点：
+Choices-zh_TW.UTF-8: / - root 檔案系統, /boot - 開機程式所使用的靜態檔案, /home - 使用者的主目錄, /tmp - 暫存檔, /usr - 靜態資料, /var - 動態資料, /srv - 此系統所提供的服務的資料, /opt - 額外的應用程式套件, /usr/local - 本機的目錄結構, 手動輸入, 不掛載此分割區
+Description-zh_TW.UTF-8: 此分割區的掛載點:
+Description-se.UTF-8: Dán partišuvnna čatnanbáiki:
+
+Name: partman-basicfilesystems/mountpoint_manual
+Type: string
+Description: Mount point for this partition:
+Description-am.UTF-8: ለዚህ ክፋይ የመጫኛ ጣቢያ
+Description-ar.UTF-8: موضع التركيب لهذا الجزء:
+Description-ast.UTF-8: Puntu de montaxe pa esta partición:
+Description-be.UTF-8: Пункт мацавання для гэтага падзела:
+Description-bg.UTF-8: Точка на монтиране на този дял:
+Description-bn.UTF-8: এই পার্টিশনটির জন্য মাউন্ট পয়েন্ট:
+Description-bo.UTF-8: ཁག་འདིའི་བཀར་སའི་གནས：
+Description-bs.UTF-8: Tačka montiranja za ovu particiju:
+Description-ca.UTF-8: Punt de muntatge per a aquesta partició:
+Description-cs.UTF-8: Přípojný bod pro tuto oblast:
+Description-cy.UTF-8: Pwynt clymu ar gyfer y rhaniad hwn:
+Description-da.UTF-8: Monteringspunkt for denne partition:
+Description-de.UTF-8: Einbindungspunkt für diese Partition:
+Description-dz.UTF-8: བར་བཅད་འདི་གྱི་དོན་ལུ་སྦྱར་བརྩེགས་ས་ཚིགས།
+Description-el.UTF-8: Σημείο προσάρτησης γι' αυτήν την κατάτμηση:
+Description-eo.UTF-8: Munt-punkto por ĉi tiu diskparto:
+Description-es.UTF-8: Punto de montaje para esta partición:
+Description-et.UTF-8: Selle partitsiooni haakepunkt:
+Description-eu.UTF-8: Partizio honen muntatze-puntua:
+Description-fa.UTF-8: نقطهٔ اتصال برای این پارتیشن:
+Description-fi.UTF-8: Tämän osion liitoskohta:
+Description-fr.UTF-8: Point de montage pour cette partition :
+Description-ga.UTF-8: Pointe feistithe na deighilte seo:
+Description-gl.UTF-8: Punto de montaxe desta partición:
+Description-gu.UTF-8: આ પાર્ટિશન માટે માઉન્ટ બિંદુ:
+Description-he.UTF-8: נקודת עגינה למחיצה:
+Description-hi.UTF-8: इस पार्टीशन हेतु माउन्ट प्वाइंट:
+Description-hr.UTF-8: Točka montiranja za ovu particiju:
+Description-hu.UTF-8: E partíció csatolási pontja:
+Description-id.UTF-8: Titik kait untuk partisi ini:
+Description-is.UTF-8: Tengipunktur fyrir þessa sneið:
+Description-it.UTF-8: Punto di mount per questa partizione:
+Description-ja.UTF-8: このパーティションのマウントポイント:
+Description-ka.UTF-8: ამ დანაყოფის მონტაჟის პუნქტი:
+Description-kk.UTF-8: Осы бөлімнің тіркеу нүктесі:
+Description-km.UTF-8: ចំណុច​ម៉ោន​សម្រាប់ភាគថាស​នេះ ៖
+Description-kn.UTF-8: ಈ ವಿಭಜನೆಯ ಏರು ಬಿಂದು:
+Description-ko.UTF-8: 이 파티션을 마운트할 위치:
+Description-ku.UTF-8: Niqteya mount ji bo vê partîsiyonê:
+Description-lo.UTF-8:  ຕຳແໜ່ງເມົາສຳລັບພາທິຊັນນີ້:
+Description-lt.UTF-8: Šio disko skaidinio prijungimo taškas:
+Description-lv.UTF-8: Šī nodalījuma montēšanas punkts:
+Description-mk.UTF-8: Точка за монтирање за оваа партиција:
+Description-ml.UTF-8: ഈ ഭാഗത്തിന്റെ മൌണ്ട് പോയിന്റ്:
+Description-mr.UTF-8: या विभाजनाकरिता आरोह बिंदू:
+Description-nb.UTF-8: Monteringspunkt for denne partisjonen:
+Description-ne.UTF-8: यो विभाजनका लागि विन्दु माउन्ट गर्नुहोस्:
+Description-nl.UTF-8: Aankoppelpunt voor deze partitie:
+Description-nn.UTF-8: Monteringspunkt for denne partisjonen:
+Description-no.UTF-8: Monteringspunkt for denne partisjonen:
+Description-pa.UTF-8: ਇਸ ਪਾਰਟੀਸ਼ਨ ਲਈ ਮਾਊਂਟ ਪੁਆਂਇਟ:
+Description-pl.UTF-8: Punkt montowania dla tej partycji:
+Description-pt.UTF-8: Mount point para esta partição:
+Description-pt_BR.UTF-8: Ponto de montagem para esta partição:
+Description-ro.UTF-8: Punctul de montare pentru acestă partiție:
+Description-ru.UTF-8: Точка монтирования этого раздела:
+Description-se.UTF-8: Dán partišuvnna čatnanbáiki:
+Description-si.UTF-8: මෙම කොටස සඳහා රැඳවුම් ස්ථානය
+Description-sk.UTF-8: Prípojný bod pre túto oblasť:
+Description-sl.UTF-8: Priklopna točka za ta razdelek:
+Description-sq.UTF-8: Pika e montimit për këtë ndarje:
+Description-sr.UTF-8: Тачка монтирања за ову партицију:
+Description-sv.UTF-8: Monteringspunkt för den här partitionen:
+Description-ta.UTF-8: இந்த பகிர்வுக்கான ஏற்றப்புள்ளி:
+Description-te.UTF-8: ఈ విభజన కొరకు అనుసంధాన కేంద్రము.
+Description-tg.UTF-8: Васл кардани нуқта барои ин қисми диск:
+Description-th.UTF-8: ตำแหน่งเมานท์สำหรับพาร์ทิชันนี้:
+Description-tl.UTF-8: Mount point para sa partisyon na ito:
+Description-tr.UTF-8: Bu bölüm için bağlama noktası:
+Description-ug.UTF-8: بۇ رايوننىڭ ئېگەرلەش نۇقتىسى:
+Description-uk.UTF-8: Точка монтування для цього розділу:
+Description-vi.UTF-8: Điểm lắp cho phân vùng này:
+Description-zh_CN.UTF-8: 此分区的挂载点：
+Description-zh_TW.UTF-8: 此分割區的掛載點:
+
+Name: partman-basicfilesystems/no_mount_point
+Type: boolean
+Description: Do you want to return to the partitioning menu?
+Extended_description: No mount point is assigned for the ${FILESYSTEM} file system in partition #${PARTITION} of ${DEVICE}.\n\nIf you do not go back to the partitioning menu and assign a mount point from there, this partition will not be used at all.
+Description-am.UTF-8: ወደ መክፈያ ምናሌው መመለስ ይፈልጋሉ?
+Extended_description-am.UTF-8: በ${DEVICE} ክፋይ #${PARTITION} ላይ ያለው የ${FILESYSTEM} ፋይል ስርዓት ምንም መጫኛ ጣቢያ አልተመደበለትም.\n\nወደ ክፋይ ምናሌው ተመልሰው መጫኛ ጣቢያ ካልመረጡለት ይህን ክፋይ መጠቀም አይችሉም።
+Description-ar.UTF-8: هل تريد العودة إلى قائمة التجزئة؟
+Extended_description-ar.UTF-8: لم تعيّن أيّ موضع تركيب لنظام الملفّات ${FILESYSTEM} في الجزء # ${PARTITION} من ${DEVICE}.\n\nإذا لم تعد إلى قائمة التجزئة وتعين موضع تركيب من هناك فلن يستعمل هذا الجزء إطلاقاً.
+Description-ast.UTF-8: ¿Quies regresar al menu de particionáu?
+Extended_description-ast.UTF-8: Ensin puntu de montaxe asignáu pal sistema de ficheros ${FILESYSTEM} na partición #${PARTITION} de ${DEVICE}.\n\nSi nun vuelves al menú de particionáu y asignes un puntu de montaxe dende ehí, nun va usase esta partición.
+Description-be.UTF-8: Ці хочаце Вы вярнуцца ў меню перадзелу?
+Extended_description-be.UTF-8: Не прызначаны пункт мацавання для файлавай сістэмы ${FILESYSTEM} ў падзеле #${PARTITION} на ${DEVICE}.\n\nКалі Вы не вернецеся ў меню перадзелу дыскаў, каб прызначыць пункт мацаванння, гэты падзел не будзе ўжыты ўвогуле.
+Description-bg.UTF-8: Искате ли да се върнете в менюто за манипулиране на дялове?
+Extended_description-bg.UTF-8: Не е указано място за монтиране на файловата система ${FILESYSTEM} на дял №${PARTITION} на ${DEVICE}.\n\nАко не се върнете в менюто за редактиране на дяловете и не определите място за монтиране, този дял въобще няма да бъде използван.
+Description-bn.UTF-8: আপনি কি পার্টিশনকারী মেনুতে ফিরে আসতে চান?
+Extended_description-bn.UTF-8: ${DEVICE}-এর #${PARTITION} পার্টিশনের ${FILESYSTEM} ফাইল সিস্টেমের জন্য কোন মাউন্ট পয়েন্ট নির্ধারণ করা হয় নি।\n\nআপনি যদি পার্টিশনকারী মেনুতে ফিরে গিয়ে কোন মাউন্ট পয়েন্ট নির্ধারণ না করেন, তবে এই পার্টিশনটি অব্যবহৃতই থেকে যাবে।
+Description-bo.UTF-8: ཁག་བཟོ་སའི་འདེམས་ཐོའི་ཐོག་ཏུ་ཕྱིར་ལོག་དགོས་སམ
+Extended_description-bo.UTF-8: སྒྲིག་ཆས་${DEVICE} ཐོག་གི་ ${PARTITION} ལ་ཡིག་ཆ་མ་ལག་${FILESYSTEM} ལ་བཀར་སའི་གནས་མེད་པ\n\nགལ་སྲིད་ད་ལྟ་ཁག་གི་འདེམས་ཐོའི་ཐོག་ཏུ་ཕྱིར་ལོག་ནས་བཀར་སའི་གནས་མ་བཟོས་ན་ཁག་འདི་སྤྱོད་མི་སྲིད་དོ
+Description-bs.UTF-8: Da li se želite vratiti na meni za particionisanje?
+Extended_description-bs.UTF-8: Nije dodijeljena tačka montiranja za ${FILESYSTEM} datotečni sistem na particiji #${PARTITION} uređaja ${DEVICE}.\n\nAko se ne vratite nazad na meni za particionisanje i tamo ne dodijelite tačku montiranja, particija se neće uopće koristiti.
+Description-ca.UTF-8: Voleu tornar al menú de partició?
+Extended_description-ca.UTF-8: No s'ha assignat cap punt de muntatge per al sistema de fitxers ${FILESYSTEM} a la partició no. ${PARTITION} de ${DEVICE}.\n\nSi no aneu enrere al menú de partició i hi assigneu un punt de muntatge, aquesta partició no s'utilitzarà en absolut.
+Description-cs.UTF-8: Chcete se vrátit do rozdělovacího menu?
+Extended_description-cs.UTF-8: Souborovému systému ${FILESYSTEM} v ${PARTITION}. oblasti na ${DEVICE} není přiřazen žádný přípojný bod.\n\nPokud se nevrátíte zpět do rozdělovacího menu a nepřiřadíte oblasti přípojný bod, oblast se vůbec nepoužije.
+Description-cy.UTF-8: A hoffech ddychwelyd i'r ddewislen rhaniadu?
+Extended_description-cy.UTF-8: Does dim pwynt clymu wedi ei benodi ar gyfer system ffeil ${FILESYSTEM} ar raniad #${PARTITION} o ${DEVICE}.\n\nOs nad ydych chi'n dychwelyd i'r ddewislen rhaniadu a dewis pwynt clymu o'r fan honno, ni chaiff y rhaniad hwn ei ddefnyddio o gwbl.
+Description-da.UTF-8: Vil du tilbage til partitioneringsmenuen?
+Extended_description-da.UTF-8: Der er ikke angivet noget monteringspunkt for ${FILESYSTEM}-filsystemet på partition #${PARTITION} på ${DEVICE}.\n\nHvis du ikke går tilbage til partitioneringsmenuen og angiver et monteringspunkt derfra, vil denne partition slet ikke blive benyttet.
+Description-de.UTF-8: Möchten Sie zum Partitionierungsmenü zurückkehren?
+Extended_description-de.UTF-8: Dem Dateisystem ${FILESYSTEM} der Partition #${PARTITION} auf ${DEVICE} ist kein Einbindungspunkt zugewiesen.\n\nWenn Sie nicht zum Partitionierungsmenü zurückkehren und dort einen Einbindungspunkt zuweisen, können Sie die Partition nicht benutzen.
+Description-dz.UTF-8: ཁྱོད་ བར་བཅད་འབད་མིའི་དཀར་ཆག་ནང་ལུ་སླར་ལོག་འབད་ནི་ཨིན་ན?
+Extended_description-dz.UTF-8: ${DEVICE}གི་བར་བཅད་ #${PARTITION}ནང་ཡིག་སྣོད་རིམ་ལུགས་ ${FILESYSTEM}གི་དོན་ལུ་སྦྱར་བརྩེགས་པོའིནཊི་འགན་སྤྲོད་མ་འབད་བས།\n\nཁྱོད་ཀྱིས་བར་བཅད་འབད་མིའི་དཀར་ཆག་ནང་ལོག་མ་འགྱོ་བར་སྦྱར་བརྩེགས་ས་ཚིགས་དེ་ཁར་ལས་འགན་སྤྲོད་མ་འབད་བ་ཅིན་ འ་ནི་བར་བཅད་འདི་གྱིས་ལག་ལེན་འཐབ་མི་བཏུབ།
+Description-el.UTF-8: Θέλετε να επιστρέψετε στο μενού διαμέρισης;
+Extended_description-el.UTF-8: Δεν έχει οριστεί σημείο προσάρτησης για το σύστημα αρχείων ${FILESYSTEM} στην κατάτμηση #${PARTITION} της συσκευής ${DEVICE}.\n\nΑν δεν επιστρέψετε στο μενού διαμέρισης και δεν ορίσετε ένα σημείο προσάρτησης, η κατάτμηση αυτή δεν θα χρησιμοποιηθεί.
+Description-eo.UTF-8: Ĉu vi volas retroiri al la diskpartiga menuo?
+Extended_description-eo.UTF-8: Neniu munt-punkto estas indikita por la dosiersistemo ${FILESYSTEM} en la diskparto #${PARTITION} de ${DEVICE}.\n\nSe vi ne retroiras al la diskpartigada menuo por indiki munt-punkton el tie, tiu ĉi diskparto tute ne estos uzata.
+Description-es.UTF-8: ¿Desea volver al menú de particionado?
+Extended_description-es.UTF-8: No se ha asignado un punto de montaje para el sistema de ficheros ${FILESYSTEM} en la partición #${PARTITION} de ${DEVICE}.\n\nSi no vuelve al menú de particionado y asigna un punto de montaje allí, no se utilizará esta partición.
+Description-et.UTF-8: Kas soovid minna tagasi partitsioneerimise menüü juurde?
+Extended_description-et.UTF-8: Seadme ${DEVICE} partitsiooni #${PARTITION} failisüsteemile ${FILESYSTEM} pole haakepunkti määratud.\n\nKui sa ei lähe tagasi partitsioneerimise menüüsse ja ei määra seal haakepunkti, jääb see partitsioon täielikult kasutamata.
+Description-eu.UTF-8: Partizioak egiteko menura itzuli nahi duzu?
+Extended_description-eu.UTF-8: Ez da muntatze-punturik ezarri ${FILESYSTEM} fitxategi-sistemarako (${DEVICE} gailuko ${PARTITION} partizioan).\n\nPartizioak egiteko menura itzultzen ez bazara eta muntatze-punturik esleitzen ez baduzu, partizio hau ez da erabiliko.
+Description-fa.UTF-8: آیا می‌خواهید به منوی پارتیشن‌بندی بازگردید؟
+Extended_description-fa.UTF-8: هیچ نقطهٔ اتصالی برای فایل سیستم ${FILESYSTEM} در پارتیشن #${PARTITION} از  ${DEVICE} منسوب نگشته است.\n\nاگر شما به منوی پارتیشن‌بندی بازنگشته و نقطه اتصالی در آنجا مشخص نکنید، پارتیشن استفاده نخواهد شد.
+Description-fi.UTF-8: Haluatko palata osiointivalikkoon?
+Extended_description-fi.UTF-8: Tiedostojärjestelmälle ${FILESYSTEM} laitteen ${DEVICE} osiolla n:ro${PARTITION} ei ole määritetty liitoskohtaa.\n\nMikäli et palaa osiointivalikkoon ja määritä siellä liitoskohtaa, jätetään tämä osio kokonaan käyttämättä.
+Description-fr.UTF-8: Souhaitez-vous revenir au menu de partitionnement ?
+Extended_description-fr.UTF-8: Aucun point de montage n'est affecté au système de fichiers ${FILESYSTEM} de la partition n° ${PARTITION} de ${DEVICE}.\n\nSi vous ne revenez pas au menu de partitionnement pour affecter un point de montage à cette partition, elle ne sera pas utilisée du tout.
+Description-ga.UTF-8: Ar mhaith leat dul ar ais go dtí an roghchlár deighilte?
+Extended_description-ga.UTF-8: Níor tugadh pointe feistithe don chóras comhad ${FILESYSTEM} i ndeighilt #${PARTITION} de ghléas ${DEVICE}.\n\nMura dtéann tú ar ais go dtí an roghchlár deighilte agus pointe feistithe a roghnú, ní úsáidfear an deighilt seo ar chor ar bith.
+Description-gl.UTF-8: Desexa volver ao menú de particionamento?
+Extended_description-gl.UTF-8: Non hai ningún punto de montaxe asignado para o sistema de ficheiros ${FILESYSTEM} na partición núm. ${PARTITION} de ${DEVICE}.\n\nSe non volta ao menú de particionamento e asigna un punto de montaxe, non se ha empregar a partición.
+Description-gu.UTF-8: શું તમે પાર્ટિશન મેનુમાં પાછા જવા માંગો છો?
+Extended_description-gu.UTF-8: ${DEVICE} નાં પાર્ટિશન #${PARTITION} માં ફાઇલ સિસ્ટમ ${FILESYSTEM} માટે કોઇમાઉન્ટ બિંદુ ફાળવેલ નથી.\n\nજો તમે પાર્ટિશન કરવાનાં મેનુમાં પાછા જઇ અને ત્યાંથી માઉન્ટ બિંદુ ફાળવશો નહી તો, આ પાર્ટિશન જરા પણ ઉપયોગમાં લેવાશે નહી.
+Description-he.UTF-8: האם ברצונך לחזור לתפריט החלוקה למחיצות?
+Extended_description-he.UTF-8: לא הוגדרה נקודת עיגון עבור מערכת קבצים מסוג ${FILESYSTEM} במחיצה מספר ${PARTITION} בהתקן ${DEVICE}.\n\nאם לא תחזור לתפריט חלוקת המחיצות ותייעד נקודת עיגון משם, המחיצה לא תהיה בשימוש.
+Description-hi.UTF-8: क्या आप पार्टीशनिंग मेन्यू में वापस लौटना चाहेंगे?
+Extended_description-hi.UTF-8: ${DEVICE} के पार्टिशन #${PARTITION} में ${FILESYSTEM} के लिए कोई माउन्ट प्वाइंट निर्दिष्ट नहीं है.\n\nयदि आप पार्टिशनिंग सूची में वापस जाकर कोई माउन्ट प्वाइन्ट निर्देशित नहीं करते हैं तो यह पार्टिशन प्रयोग में नहीं लाया जाएगा.
+Description-hr.UTF-8: Želite li se vratiti u izbornik particioniranja?
+Extended_description-hr.UTF-8: Datotečnom sustavu ${FILESYSTEM} na particiji br. ${PARTITION} uređaja ${DEVICE} nije određena točka montiranja.\n\nAko se ne vratite u izbornik particioniranja i ne odredite točku montiranja, ta se particija uopće neće koristiti.
+Description-hu.UTF-8: Visszalép a particionáló-menübe?
+Extended_description-hu.UTF-8: Csatolási pont nélküli ${FILESYSTEM} fájlrendszer ${DEVICE} #${PARTITION}. partícióján.\n\nHa nem lép vissza a particionáló menübe, és ad meg csatolási pontot, a partíció nem lesz használva.
+Description-id.UTF-8: Apakah Anda ingin kembali ke menu partisi?
+Extended_description-id.UTF-8: Tidak ada titik kait untuk sistem berkas ${FILESYSTEM} pada partisi #${PARTITION} dari ${DEVICE}.\n\nJika Anda tidak kembali ke menu partisi untuk menentukan titik kait pada menu tersebut, partisi ini tidak akan digunakan sama sekali.
+Description-is.UTF-8: Viltu fara aftur á disksneiðavalmyndina?
+Extended_description-is.UTF-8: Engum tengipunkti hefur verið úthlutað fyrir skráakerfið ${FILESYSTEM} á disksneiðinni #${PARTITION} á ${DEVICE}.\n\nEf þú ferð ekki aftur í disksneiðavalmyndina og úthlutar tengipunkti mun þessi disksneið ekki vera notuð.
+Description-it.UTF-8: Tornare al menù di partizionamento?
+Extended_description-it.UTF-8: Nessun punto di mount assegnato per il file system ${FILESYSTEM} nella partizione n° ${PARTITION} di ${DEVICE}.\n\nSe non si torna al menù di partizionamento per assegnare un punto di mount, la partizione non verrà utilizzata.
+Description-ja.UTF-8: パーティショニングメニューに戻りますか?
+Extended_description-ja.UTF-8: ${DEVICE} にあるパーティション ${PARTITION} の ${FILESYSTEM} ファイルシステムがどのマウントポイントにも割り当てられていません。\n\nパーティショニングメニューに戻るかこれらをマウントポイントに割り当てないと、このパーティションは結局利用できません。
+Description-ka.UTF-8: დავბრუნდეთ დაყოფის მენიუში?
+Extended_description-ka.UTF-8: არ არის მითითებული მონტაჟის პუნქტი ${FILESYSTEM} ფაილური სისტემისათვის, #${DEVICE} მოწყობიობის ${PARTITION} დანაყოფზე.\n\nთუ თქვენ არ დაბრუნდებით დაყოფის მენიუში და არ მიუთითებთ მონტაჟის პუნქტს, ამ დანაყოფის გამოყენება შეუძლებელი იქნება.
+Description-kk.UTF-8: Сіз бөлшектеу мәзіріндегі бөлімдерге оралуды қалайсыз ба?
+Extended_description-kk.UTF-8: ${DEVICE} құрылғысының #${PARTITION} бөліміндегі ${FILESYSTEM} файлдық жүйесі үшін тіркеу нүктесі тағайындалмаған.\n\nЕгер сіз бөлу мәзіріндегі бөлімдерге оралып, онда тіркеу нүктесін белгілемесеңіз, бөлім мүлдем қолданылмайды.
+Description-km.UTF-8: តើ​អ្នកចង់​ត្រឡប់​ទៅ​ម៉ឺនុយ​ចែក​ភាគថាស​វិញ​ឬ​ទេ ?
+Extended_description-km.UTF-8: គ្មាន​ចំណុច​ម៉ោន​ត្រូវបាន​ផ្ដល់​សម្រាប់​ប្រព័ន្ធ​ឯកសារ ${FILESYSTEM} នៅ​ក្នុង​ភាគ​ថាស #${PARTITION} នៃ ${DEVICE} នោះ​ទេ ។\n\nបើ​អ្នក​មិន​ត្រឡប់​ទៅ​ម៉ឺនុយ​ចែក​ភាគថាស ហើយ​ផ្ដល់​ចំណុច​ម៉ោន​នៅ​ទីនោះ​ទេ ភាគថាស​នេះ​នឹង​មិន​ត្រូវ​បាន​ប្រើ​ឡើយ ។
+Description-kn.UTF-8: ವಿಭಜನಾ ಆಯ್ಕೆಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಲು ನೀವು ಬಯಸುವಿರಾ?
+Extended_description-kn.UTF-8: ${DEVICE}ನ #${PARTITION}ನೆ ವಿಭಜನೆಯಲ್ಲಿನ ${FILESYSTEM} ಕಡತ ವ್ಯವಸ್ಥೆಗೆ ಯಾವುದೇ ಏರುಬಿಂದುವನ್ನು ನೇಮಿಸಲಾಗಿಲ್ಲ.\n\nನೀವೀಗ ವಿಭಜನಾ ಆಯ್ಕೆಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಿ ಏರು ಬಿಂದುವನ್ನು ಅಲ್ಲಿಂದ ನೇಮಿಸದಿದ್ದರೆ, ಈ ವಿಭಜನೆಯನ್ನು ಬಳಸಲಾಗುವುದಿಲ್ಲ.
+Description-ko.UTF-8: 파티션 메뉴로 돌아가시겠습니까?
+Extended_description-ko.UTF-8: ${DEVICE} 장치의 파티션 #${PARTITION}의 ${FILESYSTEM} 파일 시스템을 마운트할 위치를 지정하지 않았습니다.\n\n파티션 메뉴로 돌아가서 마운트 위치를 지정하지 않으면, 이 파티션 전체를 사용할 수 없습니다.
+Description-ku.UTF-8: Dixwazî bizivirî menuya partîsiyonkirinê?
+Extended_description-ku.UTF-8: Niqteya mount ji bo pergala pelan ${FILESYSTEM} di partîsiyona #${PARTITION} ya ${DEVICE} nehat diyar kirin.\n\nHeke tu venegerî pêşeka parvekirinê û tu xaleke pêwendiyê çênekî dê ev beş neyê bikaranîn.
+Description-lo.UTF-8:  ເຈົ້າຕອ້ງການກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນຫຼືບໍ່?
+Extended_description-lo.UTF-8: ບໍ່ມີການກຳນົດຕຳແໜ່ງໄວ້ສຳລັບລະບົບແຟັມ ${FILESYSTEM} ໃນພາທິຊັນ #${PARTITION} ຂອງ ${DEVICE}\n\nຖ້າເຈົ້າບໍ່ກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນທ໌ເພື່ອກຳນົດຈຸດຕຳແໜ່ງເມົ້າຈາກນັ້ນ, ລະບົບບໍ່ໃຊ້ພາທິຊັ້ນນີ້ເລີຍ.
+Description-lt.UTF-8: Ar norite grįžti į disko dalijimo meniu?
+Extended_description-lt.UTF-8: Failų sistemai ${FILESYSTEM}, esančiai įrenginio ${DEVICE} skaidinyje Nr. ${PARTITION}, nepriskirtas prijungimo taškas.\n\nJei negrįšite į disko dalijimo meniu ir nepriskirsite prijungimo taško, šis skaidinys apskritai nebus naudojamas.
+Description-lv.UTF-8: Vai vēlaties atgriezties disku dalīšanas izvēlnē?
+Extended_description-lv.UTF-8: Nav norādīts montēšanas punkts datņu sistēmai ${FILESYSTEM}, kas atrodas ierīces ${DEVICE} nodalījuma #${PARTITION}\n\nJa neatgriezīsieties uz disku dalīšanas izvēlni un nenorādīsiet montēšanas punktu, šis nodalījums vispār netiks izmantots.
+Description-mk.UTF-8: Дали сакаш да се вратиш во менито за партиционирање?
+Extended_description-mk.UTF-8: Не е поставена точка за монтирање за датотечниот систем ${FILESYSTEM} на партицијата ${PARTITION} од ${DEVICE}.\n\nАко не се вратиш во менито за партиционирање и не одредиш точка за монтирање, оваа партиција нема да биде воопшто користена.
+Description-ml.UTF-8: വിഭജന മെനുവിലേയ്ക്കു് തിരിച്ചു് പോകണോ?
+Extended_description-ml.UTF-8: ${DEVICE} ലെ #${PARTITION} ഭാഗത്തെ ${FILESYSTEM} ഫയല്‍ സിസ്റ്റത്തിനു് മൌണ്ട് പോയിന്റൊന്നും അനുവദിച്ചിട്ടില്ല.\n\nനിങ്ങള്‍ വിഭജന മെനുവില്‍ തിരിച്ചു് പോയി അവിടെ വച്ച് ഒരു മൌണ്ട് പോയിന്റൊന്നും അനുവദിച്ചില്ലെങ്കില്‍ ഈ ഭാഗം ഉപയോഗിയ്ക്കുകയേ ഇല്ല.
+Description-mr.UTF-8: आपल्याला विभाजनाच्या मेन्यूकडे परत जायचे आहे?
+Extended_description-mr.UTF-8: ${DEVICE} च्या #${PARTITION} या विभाजनावर ${FILESYSTEM} फाइल प्रणालीकरिता कोणताही आरोह बिंदू निश्चित केलेला नाही.\n\nआपण विभाजनाच्या मेन्यूकडे परत जाऊन तिथून आरोह बिंदू निश्चित केला नाही, तर हे विभाजन वापरलेच जाणार नाही.
+Description-nb.UTF-8: Vil du gå tilbake til partisjoneringsmenyen?
+Extended_description-nb.UTF-8: Ingen monteringspunkt er tildelt for filsystemet ${FILESYSTEM} på partisjon nr. ${PARTITION} på ${DEVICE}.\n\nHvis du ikke går tilbake til partisjonsmenyen og oppgir et monteringspunkt der, så vil ikke denne partisjonen bli brukt i det hele tatt.
+Description-ne.UTF-8: के तपाईँ विभाजन मेनुमा फर्कनु चाहानुहुन्छ ?
+Extended_description-ne.UTF-8: बिभाजनमा ${FILESYSTEM} फाइल प्रणाली लो लागि अनुक्रमण विन्दू माउण्ट गरीएको छैन #${PARTITION} of ${DEVICE}.\n\nयदि तपाईँ विभाजन मेनुमा फर्केर जानु हुन्न र त्यहाँबाट माउन्ट विन्दुलाई मानाङ्कन गर्न हुन्छ भने, यो विभाजन सबैमा प्रयोग हुने छैन ।
+Description-nl.UTF-8: Wilt u terugkeren naar het schijfindelingsmenu?
+Extended_description-nl.UTF-8: Er is geen aankoppelpunt toegewezen voor het bestandssysteem ${FILESYSTEM} op partitie #${PARTITION} van ${DEVICE}.\n\nAls u aan deze partitie geen bestandssysteem toewijst (hiertoe dient u terug te gaan naar het schijfindelingsmenu) zal deze helemaal niet gebruikt worden.
+Description-nn.UTF-8: Vil du gå tilbake til partisjoneringsmenyen?
+Extended_description-nn.UTF-8: Ingen monteringspunkt er tildelte for ${FILESYSTEM}-filsystemet på partisjon nr. ${PARTITION} på ${DEVICE}.\n\nViss du ikkje går tilbake til partisjonsmenyen og oppgjev eit monteringspunkt der, vil denne partisjonen ikkje bli brukt i det heile
+Description-no.UTF-8: Vil du gå tilbake til partisjoneringsmenyen?
+Extended_description-no.UTF-8: Ingen monteringspunkt er tildelt for filsystemet ${FILESYSTEM} på partisjon nr. ${PARTITION} på ${DEVICE}.\n\nHvis du ikke går tilbake til partisjonsmenyen og oppgir et monteringspunkt der, så vil ikke denne partisjonen bli brukt i det hele tatt.
+Description-pa.UTF-8: ਕੀ ਤੁਸੀਂ ਪਾਰਟੀਸ਼ਨਿੰਗ ਮੇਨੂ ਉੱਤੇ ਵਾਪਸ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?
+Extended_description-pa.UTF-8: ${DEVICE} ਦੇ ਪਾਰਟੀਸ਼ਨ #${PARTITION} ਵਿੱਚ ${FILESYSTEM} ਫਾਇਲ ਸਿਸਟਮ ਲਈ ਕੋਈ ਮਾਊਂਟ ਪੁਆਇੰਟ ਨਹੀਂ ਦਿੱਤਾ।\n\nਜੇ ਤੁਸੀਂ ਪਿੱਛੇ ਪਾਰਟੀਸ਼ਨਿੰਗ ਮੇਨੂ ਉੱਤੇ ਨਾ ਗਏ ਅਤੇ ਮਾਊਂਟ ਪੁਆਂਇਟ ਨਾ ਦਿੱਤਾ, ਪਾਰਟੀਸ਼ਨ ਉਸੇ ਤਰਾਂ ਹੀ ਤੇ ਵਰਤਿਆ ਜਾਵੇਗਾ।
+Description-pl.UTF-8: Chcesz wrócić do menu partycjonowania?
+Extended_description-pl.UTF-8: Żaden punkt montowania nie jest przydzielony dla systemu plików ${FILESYSTEM} partycji #${PARTITION} urządzenia ${DEVICE}.\n\nJeśli nie wrócisz do menu partycjonowania i nie przydzielisz punktu montowania, ta partycja w ogóle nie zostanie użyta.
+Description-pt.UTF-8: Deseja voltar ao menu de particionamento?
+Extended_description-pt.UTF-8: Não foi atribuído nenhum ponto de montagem para o sistema de ficheiros ${FILESYSTEM} na partição #${PARTITION} de ${DEVICE}.\n\nSe não voltar ao menu de particionamento e atribuir um mount point a partir de lá, esta partição não será utilizada.
+Description-pt_BR.UTF-8: Você deseja voltar ao menu de particionamento?
+Extended_description-pt_BR.UTF-8: Nenhum ponto de montagem foi atribuído para o sistema de arquivos ${FILESYSTEM} na partição #${PARTITION} de ${DEVICE}.\n\nSe você não quiser voltar ao menu de particionamento e atribuir um ponto de montagem a partir de lá, esta partição não será usada.
+Description-ro.UTF-8: Doriți să vă întoarceți la meniul de partiționare?
+Extended_description-ro.UTF-8: Nu este desemnat nici un punct de montare pentru sistemul de fișiere ${FILESYSTEM} pe partiția nr.${PARTITION} a ${DEVICE}.\n\nDacă nu vă întoarceți la meniul de partiționare să asociați un punct de montare de acolo, partiția nu va fi folosită deloc.
+Description-ru.UTF-8: Хотите вернуться в меню разметки?
+Extended_description-ru.UTF-8: Для файловой системы ${FILESYSTEM} на разделе #${PARTITION} устройства ${DEVICE} не назначена точка монтирования.\n\nЕсли вы не вернётесь в меню разметки и не назначите для этого раздела точку монтирования, раздел использоваться не будет.
+Description-si.UTF-8: ඔබට කොටස් මෙනුවට ආපසු යාමට අවශ්‍යද?
+Extended_description-si.UTF-8: ${DEVICE} හී #${PARTITION} කොටසේ ${FILESYSTEM} ගොනු පද්ධතිය සඳහා කිසිඳු රැඳවුම් ස්ථානයක් සකසා නොමැත.\n\nඔබ කොටස්කරණ මෙනුවට ආපසු ගොස් රැඳවුම් ස්ථානයක් නොසකසයි නම්, මෙම කොටස කිසිවිට භාවිත නොවේ.
+Description-sk.UTF-8: Chcete sa vrátiť do menu rozdeľovania?
+Extended_description-sk.UTF-8: Súborovému systému ${FILESYSTEM} na oblasti č.${PARTITION} na ${DEVICE} nie je priradený žiaden prípojný bod.\n\nAk sa nevrátite späť do menu rozdeľovania a nepriradíte odtiaľ prípojný bod, táto oblasť sa vôbec nepoužije
+Description-sl.UTF-8: Se želite vrniti na meni za razdeljevanje?
+Extended_description-sl.UTF-8: Datotečnemu sistemu ${FILESYSTEM} na razdelku #${PARTITION} naprave ${DEVICE} ni dodeljena nobena priklopna točka.\n\nČe se ne boste vrnili na meni za razdeljevanje in dodelili priklopne točke, ta razdelek sploh ne bo uporabljen.
+Description-sq.UTF-8: Dëshiron të kthehesh tek menuja e ndarjes?
+Extended_description-sq.UTF-8: Nuk është caktuar asnjë pikë montimi për filesistemin ${FILESYSTEM} në ndarjen #${PARTITION} të ${DEVICE}.\n\nNëse nuk kthehesh mbrapa tek menuja e ndarjes dhe nuk cakton një pikë montimi që aty, kjo ndarje nuk do përdoret fare.
+Description-sr.UTF-8: Да ли желите да се вратите на мени за партиционисање?
+Extended_description-sr.UTF-8: Ниједна тачка монтирања није додељена ${FILESYSTEM} фајл систему на партицији бр.${PARTITION} уређаја ${DEVICE}.\n\nАко се не вратите назад на мени за партиционисање и не доделите тачку монтирања, партиција се уопште неће користити.
+Description-sv.UTF-8: Vill du återvända till partitioneringsmenyn?
+Extended_description-sv.UTF-8: Ingen monteringspunkt har tilldelats ${FILESYSTEM}-filsystemet på partition nr. ${PARTITION} på ${DEVICE}.\n\nOm du inte går tillbaka till partitioneringsmenyn och tilldelar en monteringspunkt därifrån så kommer inte den här partitionen att användas.
+Description-ta.UTF-8: பகிர்வு பட்டிக்குத் திரும்ப விரும்புகிறீர்களா?
+Extended_description-ta.UTF-8: ${DEVICE}-ன் #${PARTITION}-ல் ${FILESYSTEM} கோப்பு அமைப்புக்கு ஏற்றப்புள்ளி ஏதும் தரப்படவில்லை.\n\nநீங்கள் பகிர்வு பட்டிக்குத் திரும்பி கோப்பு அமைப்புக்கு ஏற்றப்புள்ளி ஏதும் தரவில்லையானால்  இந்த பகிர்வு பயன் படுத்தப் படாது.
+Description-te.UTF-8: మీరు విభజన మెనూ కి తిరిగి  వెళ్లాలనుకుంటున్నారా?
+Extended_description-te.UTF-8: ${DEVICE} యొక్క  #${PARTITION} విభజన  లో   ${FILESYSTEM}ఫైల్ సిస్టమ్ కి అనుసంధాన కేంద్రము  ఇవ్వబడలేదు.\n\nవిభజన మెనూ కి వెనక్కి వెళ్లి, అనుసంధాన కేంద్రము ఇవ్వనిచో, ఈ విభజన వాడబడదు.
+Description-tg.UTF-8: Шумо мехоҳед, ки ба менюи қисмбандӣ баргардонед?
+Extended_description-tg.UTF-8: Барои системаи файлии ${FILESYSTEM} дар қисми диски #${PARTITION} дар ${DEVICE} ягон нуқтаи васлкунӣ таъин нашудааст.\n\nАгар шумо ба менюи қисмбандӣ бар нагардед, ва аз он ҷо нуқтаи васлкуниро таъин накунед, ин қисми диск тамоман истифода намешавад.
+Description-th.UTF-8: คุณต้องการกลับไปยังเมนูแบ่งพาร์ทิชันหรือไม่?
+Extended_description-th.UTF-8: ไม่มีการกำหนดตำแหน่งเมานท์สำหรับระบบแฟ้ม ${FILESYSTEM} ในพาร์ทิชัน #${PARTITION} ของ ${DEVICE}\n\nถ้าคุณไม่กลับไปยังเมนูแบ่งพาร์ทิชันเพื่อกำหนดตำแหน่งเมานท์ ระบบจะไม่ใช้พาร์ทิชันนี้เลย
+Description-tl.UTF-8: Nais ba ninyong bumalik sa menu ng pag-partisyon?
+Extended_description-tl.UTF-8: Walang mount point na nakalaan para sa file system na ${FILESYSTEM} sa partisyon #${PARTITION} ng ${DEVICE}.\n\nKung hindi kayo bumalik sa menu ng pag-partisyon at maglaan ng mount point mula doon, hindi gagamitin ang partisyon na ito.
+Description-tr.UTF-8: Bölümleme menüsüne dönmek ister misiniz?
+Extended_description-tr.UTF-8: ${DEVICE} aygıtının ${FILESYSTEM} dosya sistemine sahip ${PARTITION} numaralı bölümüne bir bağlama noktası atanmamış.\n\nBölümleme menüsüne geri dönerek bir bağlama noktası belirlemezseniz bu bölüm kullanılmayacaktır.
+Description-ug.UTF-8: رايونغا ئايرىش تىزىملىكىگە قايتامسىز؟
+Extended_description-ug.UTF-8: ${DEVICE} ئۈسكۈنىسىدىكى #${PARTITION} رايوندىكى ${FILESYSTEM} ھۆججەت سىستېمىسىغا ئېگەرلەش نۇقتىسى بېكىتمىدى.\n\nرايونغا ئايرىش تىزىملىكىگە قايتماي، بۇ يەردە ئېگەرلەش نۇقتىسىدىن بىرنى بەلگىلىسىڭىز، بۇ رايوننى ئىشلەتكىلى بولمايدۇ.
+Description-uk.UTF-8: Чи бажаєте ви повернутися до меню розбивки?
+Extended_description-uk.UTF-8: Не призначено точку монтування для файлової системи ${FILESYSTEM} на розділі #${PARTITION} пристрою ${DEVICE}.\n\nЯкщо ви не повернетесь до меню розбивки та не призначите точку монтування, то цей розділ не буде використовуватися взагалі.
+Description-vi.UTF-8: Bạn có muốn trở về trình đơn phân vùng chứ ?
+Extended_description-vi.UTF-8: Chưa gán điểm lắp cho hệ thống tập tin ${FILESYSTEM} trong phân vùng #${PARTITION} của ${DEVICE}.\n\nNếu bạn không trở về trình đơn phân vùng để gán điểm lắp từ đó, phân vùng này sẽ không được dùng cả.
+Description-zh_CN.UTF-8: 您是否想返回分区菜单？
+Extended_description-zh_CN.UTF-8: 您没有为 ${DEVICE} 设备上的 #${PARTITION} 分区的 ${FILESYSTEM} 文件系统设定挂载点。\n\n如果您不返回分区菜单并分配一个挂载点，就不会使用此分区。
+Description-zh_TW.UTF-8: 您是否想返回磁碟分割選單？
+Extended_description-zh_TW.UTF-8: 並沒有為 ${DEVICE} 裝置上第 ${PARTITION} 分割區的 ${FILESYSTEM} 檔案系統指派掛載點。\n\n如果您不返回磁碟分割選單並指派一個掛載點，將不能使用此分割區。
+
+Name: partman-basicfilesystems/no_swap
+Type: boolean
+Default: true
+Description: Do you want to return to the partitioning menu?
+Extended_description: You have not selected any partitions for use as swap space. Enabling swap space is recommended so that the system can make better use of the available physical memory, and so that it behaves better when physical memory is scarce. You may experience installation problems if you do not have enough physical memory.\n\nIf you do not go back to the partitioning menu and assign a swap partition, the installation will continue without swap space.
+Description-am.UTF-8: ወደ መክፈያ ምናሌው መመለስ ይፈልጋሉ?
+Extended_description-am.UTF-8: ለመለወጫ ቦታ ምንም ክፋይ አልተመደበም፡፡ የጊዜያዊ አስታዋሽ እጥረት ሲኖርና ያለውን በሚገባ ለመጠቀም የመለውጫ ቦታ መኖር ጠቃሚ ነው፡፡ በቂ ጊዜያዊ አስታዋሽ ከሌሎት የተከላ ችግር ያጋጥሞት ይሆናል፡፡\n\nወደ ክፋይ ምናሌው ተመልሰው መለወጫ ክፋይ ካልሰየሙ ተከላው ያለመለወጫ ቦታ ይቀጥላል።
+Description-ar.UTF-8: هل تريد العودة إلى قائمة التجزئة؟
+Extended_description-ar.UTF-8: لم تقم بتحديد أي أجزاء لاستخدامها كمساحة إبدال. تمكين مساحة الإبدال مستحسن كي يتمكن النظام من استخدام الذاكرة الحقيقية المتوفرة بشكل أفضل، وكي يتصرف بشكل أفضل في حالة قلة الذاكرة. قد تواجه مشاكل في التثبيت إن لم يكن لديك ذاكرة مؤقتة كافية.\n\nإذا لم تعد إلى قائمة التجزئة وتعين جزء إبدال، فسيستمر التثبيت دون تعيين مساحة إبدال.
+Description-ast.UTF-8: ¿Quies regresar al menu de particionáu?
+Extended_description-ast.UTF-8: Nun seleicionó una partición pa que s'use como espaciu d'intercambéu. L'usu d'un espaciu d'intercambéu ye recomendable pa que'l sistema pueda facer un meyor usu de la memoria física disponible y pa que se comporte meyor si la memoria física ye escasa. Pue sofrir dalgún problema durante la instalación si nun tiene abonda memoria física.\n\nSi nun vuelves al menú de particionáu y asignes una partición swap, la instalación siguirá ensin espaciu swap.
+Description-be.UTF-8: Ці хочаце Вы вярнуцца ў меню перадзелу?
+Extended_description-be.UTF-8: Вы не пазначылі ніводнага падзела для выкарыстання ў якасці прасторы swap. Уключэнне прасторы swap рэкамендуецца, каб сістэма магла больш эфектыўна выкарыстоўваць даступную фізічную памяць і паводзіць сябе лепш пры недахопе фізічнай памяці. Вы можаце сутыкнуцца з праблемамі, калі падчас далейшага ўсталявання не хопіць фізічнай памяці.\n\nКалі Вы не вернецеся ў меню перадзелу дыскаў і не прызначыце для swap падзел, усталяванне працягнецца без прасторы swap.
+Description-bg.UTF-8: Искате ли да се върнете в менюто за манипулиране на дялове?
+Extended_description-bg.UTF-8: Не сте избрали никакъв дял за използване като място за виртуална памет. Активирането на място за виртуална памет е препоръчително, така че системата да може по-добре да използва физическата памет и така да се справя по-добре и недостиг на физическа памет. Може да изпитате проблеми при инсталацията, ако нямате достатъчно физическа памет.\n\nАко не се върнете в менюто за редактиране на дяловете и не определите дял за виртуална памет, инсталирането ще продължи без място за виртуална памет.
+Description-bn.UTF-8: আপনি কি পার্টিশনকারী মেনুতে ফিরে আসতে চান?
+Extended_description-bn.UTF-8: সোয়াপ হিসেবে ব্যবহারের জন্য আপনি কোন পার্টিশন নির্বাচন করেন নি। সিস্টেমের প্রকৃত মেমরির সর্বোত্তম ব্যবহার নিশ্চিত করতে সোয়াপ প্রয়োজন; এছাড়া প্রকৃত মেমরি কম থাকলে সোয়াপ সে ঘাটতি অনেকটাই পুষিয়ে নেয়। পর্যাপ্ত প্রকৃত মেমরি না থাকলে ইনস্টলেশন চলাকালে আপনি সমস্যায় পড়তে পারেন।\n\nআপনি যদি পার্টিশনকারী মেনুতে ফিরে গিয়ে কোন সোয়াপ নির্ধারণ না করেন, তবে সোয়াপ ছাড়াই পার্টিশন চলতে থাকবে।
+Description-bo.UTF-8: ཁག་བཟོ་སའི་འདེམས་ཐོའི་ཐོག་ཏུ་ཕྱིར་ལོག་དགོས་སམ
+Extended_description-bo.UTF-8: ཁྱོད་ཀྱིས་ཁག་གང་ཡང་བརྗེ་རེས་བར་སྟོང་བཟོ་རྒྱུ་བྱས་མེད་པ། བརྗེ་རེས་གནས་ཞིག་ཡོད་ན་མ་ལག་གིས་དངོས་ཡོད་ཀྱི་ཡིད་འཛིན་གནས་དེ་ལས་བཟང་བ་སྤྱོད་ཐུབ། སྒོས་སུ་དངོས་ཡོད་ཀྱི་ཡིད་འཛིན་ཆེས་དཀོན་པ་ལ་ཕན་ཐོགས་ཡོད། འདངས་ངེས་ཀྱི་དངོས་ཡོད་ཀྱི་ཡིད་འཛིན་མེད་ན་སྒྲིག་འཇུག་སྐབས་སྐྱོན་འཕྲད་སྲིད།\n\nགལ་སྲིད་ད་ལྟ་ཁག་གི་འདེམས་ཐོའི་ཐོག་ཏུ་ཕྱིར་ལོག་ནས་བརྗེ་རེས་ཁག་ཞིག་མ་བཟོས་ན་བརྗེ་རེས་ཁག་མེད་པར་སྒྲིག་འཇུག་མུ་མཐུད་རྒྱུ་ཡིན
+Description-bs.UTF-8: Da li se želite vratiti na meni za particionisanje?
+Extended_description-bs.UTF-8: Niste odabrali nijednu particiju za swap. Uključivanje swapa se preporučuje kako bi sistem bolje koristio fizičku memoriju i da bi se bolje ponašao kada dođe do oskudice fizičke memorije. Možete iskusiti instalacione probleme ako nemate dovoljno fizičke memorije.\n\nAko se ne vratite nazad na meni za particionisanje i ne napravite swap particiju, instalacija će se nastaviti bez swap particije.
+Description-ca.UTF-8: Voleu tornar al menú de partició?
+Extended_description-ca.UTF-8: No heu seleccionat cap partició per a utilitzar com a espai d'intercanvi. Habilitar espai d'intercanvi és recomanable per a que el sistema puga fer millor ús de la memòria física disponible, i per a que es comporte millor quan la memòria física és escassa. Podeu tindre problemes amb la instal·lació si no teniu suficient memòria física.\n\nSi no aneu enrere al menú de partició i assigneu una partició d'intercanvi, la instal·lació continuarà sense espai d'intercanvi.
+Description-cs.UTF-8: Chcete se vrátit do rozdělovacího menu?
+Extended_description-cs.UTF-8: Nevybrali jste žádné oblasti pro roli odkládacího prostoru. Použití odkládacího prostoru je doporučeno, protože systém tak může lépe využít dostupnou fyzickou paměť, což se projeví obzvláště při jejím nedostatku. Jestliže nemáte dostatek fyzické paměti, můžete se potkat s nejrůznějšími instalačními problémy.\n\nPokud se nevrátíte zpět do rozdělovacího menu a neurčíte odkládací oblast, tak bude instalace pokračovat bez odkládací oblasti.
+Description-cy.UTF-8: A hoffech ddychwelyd i'r ddewislen rhaniadu?
+Extended_description-cy.UTF-8: Nid ydych wedi dewis unrhyw rhaniadau fel defnydd i gofod cyfnewid. Cefnogir gweithredu gofod cyfnewid fel bod y system yn medru gwneud gwell defnydd o'r cof gorfforol sydd ar gael, a fel ei bod yn ymddwyn yn well pan fod prinder cof gorfforol. Mae'n bosibl y cewch problemau gosod os nad oes gennych ddigon o gof gorfforol.\n\nOs nad ydych chi'n dychwelyd i'r ddewislen rhaniadu a penodi rhaniad cyfnewyd o'r fan honno, mi fydd y sefydliad yn parhau heb ddefnyddio gofod cyfnewid.
+Description-da.UTF-8: Vil du tilbage til partitioneringsmenuen?
+Extended_description-da.UTF-8: Du har ikke udvalgt nogen partition til brug som swapområde. Det anbefales at aktivere et swapområde, så systemet kan udnytte den tilgængelige fysiske hukommelse bedre og opføre sig bedre, når der er mangel på fysisk hukommelse. Du kan opleve installationsproblemer, hvis du ikke har nok fysisk hukommelse.\n\nHvis du ikke går tilbage til partitioneringsmenuen og angiver en swap-partition, vil installationen fortsætte uden et swapområde.
+Description-de.UTF-8: Möchten Sie zum Partitionierungsmenü zurückkehren?
+Extended_description-de.UTF-8: Sie haben keine Partition zur Verwendung als Swap-Speicher ausgewählt. Dies wird aber empfohlen, damit der Computer den vorhandenen Arbeitsspeicher effektiver nutzen kann, besonders wenn er knapp ist. Sie könnten Probleme bei der Installation bekommen, wenn Sie nicht genügend physikalischen Speicher haben.\n\nWenn Sie nicht zum Partitionierungsmenü zurückkehren und eine Swap-Partition anlegen, wird die Installation ohne Swap-Speicher fortgesetzt.
+Description-dz.UTF-8: ཁྱོད་ བར་བཅད་འབད་མིའི་དཀར་ཆག་ནང་ལུ་སླར་ལོག་འབད་ནི་ཨིན་ན?
+Extended_description-dz.UTF-8: བརྗེ་སོར་གནམ་སྟོང་སྦེ་ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་ཁྱོད་ཀྱིས་བར་བཅད་ཚུ་གང་རུང་ཅིག་སེལ་འཐུ་མ་འབད་བས། བརྗེ་སོར་གནམ་སྟོང་ལྕོགས་ཅན་བཟོ་ནི་འདི་འོས་སྦྱོར་འབད་འདི་ཡོད་དེ་འབདཝ་ལས་རིམ་ལུགས་འདི་གིས་དངོས་ཅན་དྲན་ཚད་ལངམ་སྦེ་ཡོད་མི་འདི་གི་ལེགས་ཤོམ་སྦེ་ལག་ལེན་འཐབ་ནི་ལུ་བཟོ་ཚུགས་ དེ་འབདཝ་ལས་དངོས་ཅན་དྲན་ཚད་འདི་དཀོནམ་ད་འདི་གིས་ལཱ་ལེགས་ཤོམ་འབདཝ་ཨིན། ཁྱོད་ལུ་དངོས་ཅན་དྲན་ཚད་ལངམ་སྦེ་མེད་པ་ཅིན་ ཁྱོད་ཀྱིས་གཞི་བཙུགས་དཀའ་ངལ་ཚུ་ཉམས་མྱོང་འབད་དགོཔ་འོང་།\n\nཁྱོད་ཀྱིས་བར་བཅད་འབད་མིའི་དཀར་ཆག་ནང་ལོག་མ་འགྱོ་བར་བརྗེ་སོར་བར་བཅད་འགན་སྤྲོད་མ་འབད་བ་ཅིན་ གཞི་བཙུགས་འདི་གྱིས་བརྗེ་སོར་བར་སྟོང་མེད་པར་འཕྲོ་མཐུད་འོང་།
+Description-el.UTF-8: Θέλετε να επιστρέψετε στο μενού διαμέρισης;
+Extended_description-el.UTF-8: Δεν έχετε επιλέξει κάποια κατάτμηση για χρήση ως εικονικής μνήμης. Η ενεργοποίηση της εικονικής μνήμης συνίσταται ώστε το σύστημα να κάνει καλύτερη χρήση της διαθέσιμης φυσικής μνήμης, και για καλύτερη συμπεριφορά όταν η φυσική μνήμη δεν είναι αρκετή. Μπορεί να αντιμετωπίσετε προβλήματα στην εγκατάσταση αν δεν έχετε αρκετή φυσική μνήμη.\n\nΑν δεν επιστρέψετε στο μενού διαμέρισης και δεν ορίσετε μια κατάτμηση εικονικής μνήμης, η εγκατάσταση θα προχωρήσει χωρίς εικονική μνήμη.
+Description-eo.UTF-8: Ĉu vi volas retroiri al la diskpartiga menuo?
+Extended_description-eo.UTF-8: Vi ne elektis diskparton por esti uzata kiel interŝanĝa spaco. Aktivigi interŝanĝan spacon estas tre konsilinde por ke via sistemo plej bone uzu la disponeblan memoron kaj pli bone funkciu kiam memoro mankos. La instalado povos fiaski se vi ne disponas sufiĉan fizikan memorkapablon en via sistemo.\n\nSe vi ne retroiras al diskpartigada menuo por indiki interŝanĝan diskparton, la instalado daŭrigos sen interŝanĝa diskpartigo.
+Description-es.UTF-8: ¿Desea volver al menú de particionado?
+Extended_description-es.UTF-8: No ha seleccionado una partición para que se use como espacio de intercambio. El uso de un espacio de intercambio es recomendable para que el sistema pueda hacer un mejor uso de la memoria física disponible y para que se comporte mejor si la memoria física es escasa. Puede sufrir algún problema durante la instalación si no tiene suficiente memoria física.\n\nLa instalación continuará sin espacio de intercambio si no vuelve al menú de particionado y asigna un punto de montaje a la partición de intercambio.
+Description-et.UTF-8: Kas soovid minna tagasi partitsioneerimise menüü juurde?
+Extended_description-et.UTF-8: Sa pole ühtki partitsiooni valinud saalealana kasutamiseks. Saaleala kasutamine on soovitatav, et süsteem saaks füüsilist mälu tõhusamalt rakendada ning edukalt toimida ka juhul, kui füüsilist mälu hakkab väheks jääma. Juhul, kui süsteemis pole piisavalt füüsilist mälu, võib paigaldamise käigus probleeme esineda.\n\nKui sa ei lähe tagasi partitsioneerimise menüüsse ja ei määra saaleala-partitsiooni, jätkub paigaldamine ilma saalealata.
+Description-eu.UTF-8: Partizioak egiteko menura itzuli nahi duzu?
+Extended_description-eu.UTF-8: Ez duzu partiziorik hautatu swap leku gisa erabiltzeko. Swap lekua gaitzea gomendatzen da sistemak memoria fisikoa egokiago erabiltzeko, eta memoria fisikoa urria denean portaera hobeagoa izateko. Instalazioan arazoak gerta daitezke nahikoa memoria fisikorik ez badago.\n\nPartizioak egiteko menura itzultzen ez bazara eta swap partiziorik esleitzen ez baduzu, instalazioak swap partiziorik gabe jarraituko du.
+Description-fa.UTF-8: آیا می‌خواهید به منوی پارتیشن‌بندی بازگردید؟
+Extended_description-fa.UTF-8: شما هیچ پارتیشن‌ای برای استفاده به عنوان فضای swap انتخاب نکرده‌اید. فعال نمودن فضای swap توصیه می‌شود برای اینکه سیستم بتواند از فضای فیزیکی حافظه بهتر استفاده کند، و بنابراین وقتی حافظهٔ فیزیکی کم است بهتر رفتار نماید. اگر حافظهٔ فیزیکی کافی نداشته باشید ممکن است به مشکلات نصب برخورد کنید.\n\nاگر به منوی پارتیشن‌بندی برنگردید و پارتیشن swap برنگزینید، نصب بدون فضای swap ادامه خواهد یافت.
+Description-fi.UTF-8: Haluatko palata osiointivalikkoon?
+Extended_description-fi.UTF-8: Mitään levyosiota ei ole valittu sivutusosioksi (swap). Sivutusosion käyttöönotto on suositeltavaa, tällöin järjestelmä pystyy käyttämään keskusmuistia tehokkaammin ja toimii paremmin muistin ollessa vähissä. Asennuksessa saattaa tulla vaikeuksia, jos keskusmuistia ei ole riittävästi.\n\nMikäli et palaa osiointivalikkoon ja määritä siellä sivutustilaa, jatkuu asennus käyttämättä sivutustilaa.
+Description-fr.UTF-8: Souhaitez-vous revenir au menu de partitionnement ?
+Extended_description-fr.UTF-8: Aucune partition n'a été choisie comme espace d'échange. L'activation d'un espace d'échange (« swap ») est recommandée pour que le système utilise au mieux la mémoire physique disponible et se comporte mieux quand elle est limitée. Vous pourriez rencontrer des difficultés lors de l'installation si vous ne disposez pas d'assez de mémoire physique.\n\nSi vous ne revenez pas au menu de partitionnement pour choisir une partition pour l'espace d'échange, l'installation continuera sans celui-ci.
+Description-ga.UTF-8: Ar mhaith leat dul ar ais go dtí an roghchlár deighilte?
+Extended_description-ga.UTF-8: Níor roghnaigh tú aon deighilt le haghaidh spáis babhtála.  Moltar duit spás babhtála a chumasú sa chaoi gurbh fhéidir leis an gcóras úsáid níos fearr a bhaint as an gcuimhne fhisiceach atá ar fáil.  Oibríonn sé níos fearr nuair atá cuimhne i ngannchúis freisin. Seans go mbeidh fadhbanna leis an tsuiteáil mura bhfuil go leor cuimhne fhisiceach agat.\n\nMura dtéann tú ar ais go dtí an roghchlár deighilte agus deighilt bhabhtála a roghnú, leanfaidh an tsuiteáil ar aghaidh gan spás babhtála.
+Description-gl.UTF-8: Desexa volver ao menú de particionamento?
+Extended_description-gl.UTF-8: Non escolleu ningunha partición para empregar como espazo de intercambio. Recoméndase activar o espazo de intercambio para que o sistema poida facer un mellor uso da memoria física dispoñíbel, e para que se comporte mellor cando a memoria física sexa escasa. Pode ter problemas de instalación se non ten memoria física de abondo.\n\nSe non volta ao menú de particionamento e asigna unha partición de intercambio, a instalación ha continuar sen espazo de intercambio.
+Description-gu.UTF-8: શું તમે પાર્ટિશન મેનુમાં પાછા જવા માંગો છો?
+Extended_description-gu.UTF-8: તમે કોઇ પણ પાર્ટિશનોને સ્વેપ જગ્યા તરીકે ઉપયોગ કરવાનું પસંદ કર્યું નથી. સ્વેપ જગ્યા સક્રિય કરવાનું સલાહભર્યું છે જેથી સિસ્ટમ પ્રાપ્ત ભૌતિક મેમરીનો પૂરતો ઉપયોગ કરી શકે, અને તેથી તે જ્યારે ભૌતિક મેમરીની અછત હોય ત્યારે સારી રીતે ચાલી શકે. તમારી પાસે જો પૂરતી ભૌતિક મેમરી નહીં હોય તો, તમે સ્થાપન મુશ્કેલીઓ અનુભવી શકો છો.\n\nજો તમે પાર્ટિશન કરવાનાં મેનુમાં પાછા જઇ અને સ્વેપ પાર્ટિશન ફાળવશો નહી તો, સ્થાપન સ્વેપ જગ્યા વગર આગળ વધશે.
+Description-he.UTF-8: האם ברצונך לחזור לתפריט החלוקה למחיצות?
+Extended_description-he.UTF-8: לא בחרת באף מחיצה לשימוש כשטח דפדוף (SWAP). הפעלת שטח דפדוף מומלצת כדי שהמערכת תוכל לפעול טוב יותר כאשר יש מחסור בזיכרון. יתכן ותתקל בבעיות בהתקנה אם אין מספיק זיכרון פיזי.\n\nאם לא תחזור לתפריט חלוקת המחיצות ותקצה מחיצה לשטח דפדוף, ההתקנה תמשיך ללא שטח דפדוף.
+Description-hi.UTF-8: क्या आप पार्टीशनिंग मेन्यू में वापस लौटना चाहेंगे?
+Extended_description-hi.UTF-8: आपने स्वैप स्थान के लिए कोई पार्टिशन नहीं चुने हैं। स्वैप स्थान को समर्थ करने की संस्तुति इसलिए की जातीहै ताकि उपलब्ध भौतिक मैमोरी का सही प्रकार से प्रयोग हो सके और जब भौतिक मैमोरी कम हो तब भी तन्त्र भलीप्रकार चलता रहे। यदि आपके पास समुचित मात्रा में भौतिक मैमोरी नहीं होती है तो संस्थापन में समस्या आ सकती है।\n\nयदि आप पार्टिशनिंग सूची में वापस जाकर स्वैप पार्टिशन नहीं बनाते हैं तो संस्थापन बिना स्वैप स्थान के जारी रहेगा।
+Description-hr.UTF-8: Želite li se vratiti u izbornik particioniranja?
+Extended_description-hr.UTF-8: Niste izabrali nijednu particiju za korištenje kao swap prostor. Korištenje swap prostora se preporučuje tako da sustav može bolje iskorištavati dostupnu fizičku memoriju i zato da bi se bolje ponašao kada fizičke memorije ponestane. Mogli biste naići na probleme u instalaciji ako nemate dovoljno fizičke memorije.\n\nAko se ne vratite u izbornik particioniranja i ne odredite swap particiju, instalacijski proces će se nastaviti bez swap prostora.
+Description-hu.UTF-8: Visszalép a particionáló-menübe?
+Extended_description-hu.UTF-8: Nincs cserehelyként használandó partíció kiválasztva. Cserehely biztosítása ajánlott, így a rendszer jobban használja a fizikai memóriát és jobban működik, ha az fogy. Ha kevés a fizikai memória, gondok adódhatnak a telepítéskor is.\n\nHa nem lép vissza a particionáló menübe és jelöl ki cserepartíciót, a telepítés cserehely nélkül megy tovább.
+Description-id.UTF-8: Apakah Anda ingin kembali ke menu partisi?
+Extended_description-id.UTF-8: Anda belum memilih partisi yang akan digunakan sebagai swap. Disarankan untuk menggunakan swap, karena sistem dapat menggunakan memori fisikal secara lebih efisien. Anda juga dapat menemui masalah saat instalasi bila memori fisikal tidak cukup.\n\nJika Anda tidak kembali ke menu partisi untuk menentukan partisi swap, instalasi akan dilanjutkan tanpa ruang swap.
+Description-is.UTF-8: Viltu fara aftur á disksneiðavalmyndina?
+Extended_description-is.UTF-8: Þú hefur ekki valið neinar disksneiðar til að nota sem diskminni (swap). Það er mælt með því að nota diskminni til að kerfið geti nýtt tiltækt vinnsluminni betur og keyri betur þegar lítið minni er tiltækt. Þú getur lent í vandræðum með uppsetninguna ef þú ert ekki með nægt vinnsluminni.\n\nEf þú ferð ekki aftur í disksneiðavalmynd og úthlutar diskminnissneið (swap partition), mun uppsetningin halda áfram án þess.
+Description-it.UTF-8: Tornare al menù di partizionamento?
+Extended_description-it.UTF-8: Non è stata selezionata alcuna partizione per essere usata come area di swap. È consigliato abilitare uno spazio di swap in modo che il sistema possa fare un miglior uso della memoria fisica disponibile e comportarsi meglio quando la memoria fisica è scarsa. Se non si dispone di sufficiente memoria fisica potrebbero verificarsi dei problemi d'installazione.\n\nSe non si torna al menù di partizionamento per assegnare una partizione di swap, l'installazione proseguirà senza spazio di swap.
+Description-ja.UTF-8: パーティショニングメニューに戻りますか?
+Extended_description-ja.UTF-8: スワップスペースとして使うパーティションを何も選んでいません。システムが物理メモリをより良く利用できるよう、また物理メモリが少ないときにより良くふるまうよう、スワップスペースを有効にすることをお勧めします。十分な物理メモリがない場合には、インストール中に問題に遭遇するかもしれません。\n\nパーティショニングメニューに戻らず、スワップパーティションの割り当てをしない場合、インストールはスワップスペースなしで継続します。
+Description-ka.UTF-8: დავბრუნდეთ დაყოფის მენიუში?
+Extended_description-ka.UTF-8: თქვენ არ მიგითითებიათ დანაყოფი swap-სივრცისათვის. ეს რეკომენდებულია, რათა სისტემამ შეძლოს ფიზიკური მეხსიერების უფრო ოპტიმალურად გამოყენება, განსაკუთრებით მაშინ, როცა ფიზიკური მეხსიერება არ არის საკმარისი, რამაც ინსტალაციის პროცესშივე შეიძლება შეგიქმნათ პრობლემები.\n\nთუკი თქვენ არ დაბრუნდებით დაყოფის მენუში და არ მიუთითებთ swap-სივრცეს, ინსტალაცია გაგრძელდება მის გარეშე.
+Description-kk.UTF-8: Сіз бөлшектеу мәзіріндегі бөлімдерге оралуды қалайсыз ба?
+Extended_description-kk.UTF-8: Сіз бірде-бір своп бөлімін көрсетпедіңіз. Оны қолдану ұсынылады, өйткені ол кезде жүйеңізде бар физикалық жады жақсырақ қолданылады, және физикалық жады таусылған кезде қиындықтар пайда болмайды. Физикалық жадыңыз жетпесе, орнату кезінде қиындықтар пайда болуы мүмкін.\n\nБөлшектеу мәзіріне оралып, своп бөлім көрсетпесеңіз, орнату своп бөлімсіз жалғасады.
+Description-km.UTF-8: តើ​អ្នកចង់​ត្រឡប់​ទៅ​ម៉ឺនុយ​ចែក​ភាគថាស​វិញ​ឬ​ទេ ?
+Extended_description-km.UTF-8: អ្នក​មិន​បាន​ជ្រើស​ភាគថាស ដើម្បី​ប្រើ​ជា​ទំហំ​ស្វប​ឡើយ ។ យក​ល្អ​អ្នក​គួរ​តែ​អនុញ្ញាត​ឲ្យ​ប្រើ​ទំហំ​ស្វប ដូច្នេះ​ទើប​ប្រព័ន្ធអាច​ប្រើ​សតិ​ពិត​បាន​ល្អ​ជាង​មុន ហើយ​ក៏​អាច​នឹង​ដំណើរការ​បាន​ប្រសើរ​ជាង​មុន​ដែរ ពេល​ខ្វះខាត​សតិពិត ។ អ្នក​អាច​នឹង​ជួបប្រទះ​បញ្ហា​នៅ​ពេលដំឡើង​ បើ​អ្នក​មិន​មាន​សតិ​ពិត​គ្រប់គ្រាន់ ។\n\nបើ​អ្នក​មិន​ត្រឡប់​ទៅ​ម៉ឺនុយ​ចែក​ភាគ​ ហើយ​កំណត់​ភាគថាស​ស្វប​ទេ ការ​ដំឡើង​នឹង​បន្ត​ដោយ​គ្មានទំហំ​ស្វប ។
+Description-kn.UTF-8: ವಿಭಜನಾ ಆಯ್ಕೆಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಲು ನೀವು ಬಯಸುವಿರಾ?
+Extended_description-kn.UTF-8: ನೀವು ಯಾವುದೇ ವಿಭಜನೆಯನ್ನು ಸ್ವಾಪ್ ಸ್ಥಳಕ್ಕೆ ಬಳಸಲು ಆಯ್ಕೆ ಮಾಡಿಲ್ಲ. ಸ್ವಾಪ್ ಸ್ಥಳದ ಬಳಕೆಯನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ, ಇದರಿಂದ ಗಣಕವು ಲಭ್ಯವಿರುವ ಭೌತಿಕ ಸ್ಮರಣೆಯನ್ನು ಉತ್ತಮ ಬಳಕೆ ಮಾಡಬಹುದಾಗಿದೆ ಮತ್ತು ಭೌತಿಕ ಸ್ಮರಣೆ ಕಡಿಮೆಯಿರುವಾಗಲೂ ಉತ್ತಮವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸಬಹುದು. ಸಾಕಷ್ಟು ಭೌತಿಕ ಸ್ಮರಣೆಯಿಲ್ಲದಿದ್ದರೆ ನೀವು ಅನುಸ್ಥಾಪನಾ ದೋಷಗಳನ್ನು ಅನುಭವಿಸಬಹುದು.\n\nನೀವೀಗ ವಿಭಜನಾ ಆಯ್ಕೆಪಟ್ಟಿಗೆ ಹಿಂದಿರುಗಿ ಸ್ವಾಪ್ ವಿಭಜನೆಯನ್ನು ನೇಮಿಸದಿದ್ದರೆ, ಅನುಸ್ಥಾಪನೆಯು ಸ್ವಾಪ್ ಸ್ಥಳವಿಲ್ಲದೆಯೇ ಮುಂದುವರೆಯುವುದು.
+Description-ko.UTF-8: 파티션 메뉴로 돌아가시겠습니까?
+Extended_description-ko.UTF-8: 스왑 파티션을 설정하지 않았습니다. 스왑 파티션을 사용하면 메모리를 더 효율적으로 사용할 수 있고 메모리가 부족하지더라도 시스템이 제대로 동작하도록 해 주기 때문에 사용을 권장합니다. 메모리가 부족할 경우 설치 과정 중에 문제가 발생할 수 있습니다.\n\n파티션 메뉴로 돌아가서 스왑 파티션을 지정하지 않으면, 스왑공간을 사용하지 않고 설치를 진행합니다.
+Description-ku.UTF-8: Dixwazî bizivirî menuya partîsiyonkirinê?
+Extended_description-ku.UTF-8: Ji bo bikaranîna cihê swap te tu beşek hilnebijart. Çêkirina cihê swap ji bo ku dikaribî bîra fîzîkî çêtir bi kar bînî divê. Heke bîra fîzîkî têrê neke dibe ku pirsgirêr derkevin holê.\n\nHeke tu venegerî pêşeka parvekirinê û tu beşeke berdêliyê belî nekî sazkirin bêyî cihekî berdêlî dê bidomîne.
+Description-lo.UTF-8:  ເຈົ້າຕອ້ງການກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນຫຼືບໍ່?
+Extended_description-lo.UTF-8: ເຈົ້າຍັງບໍ່ໄດ້ເລືອກພາທິຊັ້ນໃດເພື່ອໃຊ້ເປັນພື້ນທີ່ສະຫຼັບ ຂໍແນະນຳໃຫ້ເປີດໃຊ້ພື້ນທີ່ສະຫຼັບເພື່ອລະບົບຈະສາມາດຫຼຸດໃຊ້ໜວ່ຍຄວາມຈຳຈິງຂອງເຄື່ອງໄດ້ຢ່າງມີປະສິດທິພາບແລະເພື່ອທີ່ລະບົບຈະທຳງານໄດ້ດີຂື້ນໃນສະພາບທີ່ໜວ່ຍຄວາມຈຳເຫຼືອໜອ້ຍເຈົ້າອາດຈະພົບປັນຫາການຕິດຕັ້ງຖ້າເຈົ້າມີໜວ່ຍຄວາມຈຳຈິງບໍ່ພໍ.\n\n  ຖ້າເຈົ້າບໍ່ກັບໄປທີ່ລາຍການແບ່ງພາທິຊັນເພື່ອກຳນົດພາທິຊັ້ນສະຫຼັບ ການຕິດຕັ້ງຈະດຳເນີນຕໍ່ໄປໂດຍບໍ່ອາໃສພື້ນທີ່ສະຫຼັບ
+Description-lt.UTF-8: Ar norite grįžti į disko dalijimo meniu?
+Extended_description-lt.UTF-8: Nenurodėte nė vieno disko skaidinio naudojimui kaip mainų (swap) vieta. Rekomenduojama naudoti mainų vietą, nes tuomet sistema galės geriau išnaudoti savo fizinę atmintį ir veiks geriau, esant fizinės atminties trūkumui. Esant nepakankamam fizinės atminties kiekiui, galite susidurti su diegimo problemomis.\n\nJei negrįšite į disko dalijimo meniu ir nepriskirsite mainų (swap) skaidinio, įdiegimas bus tęsiamas nenaudojant mainų vietos.
+Description-lv.UTF-8: Vai vēlaties atgriezties disku dalīšanas izvēlnē?
+Extended_description-lv.UTF-8: Jūs neizvēlējāties nevienu nodalījumu, ko izmantot kā maiņvietu. Maiņvietas aktivizēšana ļaus jūsu sistēmai labāk izmantot pieejamo fizisko atmiņu, kā arī darboties sekmīgāk atmiņas trūkuma apstākļos. Ja jums nebūs pietiekami daudz fiziskās atmiņas, instalēšanas procesā iespējami sarežģījumi.\n\nJa neatgriezīsieties uz disku dalīšanas izvēlni un nenorādīsiet maiņvietas nodalījumu, instalēšana tiks turpināta bez tās.
+Description-mk.UTF-8: Дали сакаш да се вратиш во менито за партиционирање?
+Extended_description-mk.UTF-8: Не одбра ниту една партиција за swap простор. Овозможување на swap простор е препорачано за да може системот подобро да ја искористи физичката меморија, така системот ќе се однесува подобро кога има малку физичка меморија. Можеби ќе искусиш проблеми со инсталацијата ако нема доволно физичка меморија.\n\nАко не се вратиш во менито за партиционирање и не одредиш swap партиција, инсталацијата ќе продолжи без swap простор.
+Description-ml.UTF-8: വിഭജന മെനുവിലേയ്ക്കു് തിരിച്ചു് പോകണോ?
+Extended_description-ml.UTF-8: നിങ്ങള്‍ സ്വാപ് സ്പേയ്സായി ഉപയോഗിക്കാനായി ഒരു ഭാഗവും തെരഞ്ഞെടുത്തിട്ടില്ല. ഭൌതിക മെമറി വിരളമായിരിക്കുന്ന അവസരത്തില്‍ നല്ല രീതിയില്‍ പെരുമാറുന്നതിനായി സിസ്റ്റത്തിനു് ലഭ്യമായിട്ടുള്ള ഭൌതിക മെമറി നല്ല രീതിയില്‍ ഉപയോഗിക്കുന്നതിമായി സ്വാപ് സ്പേയ്സ് ഇനേബിള്‍ ചെയ്യുന്നത് ശുപാര്‍ശ ചെയ്തിരിയ്ക്കുന്നു. വേണ്ടത്ര ഭൌതിക മെമറി നിങ്ങള്‍ക്കില്ലെങ്കില്‍ നിങ്ങള്‍ക്കു് ഇന്‍സ്റ്റലേഷന്‍ പ്രശ്നങ്ങള്‍ അനുഭവിക്കേണ്ടതായി വന്നേയ്ക്കാം.\n\nനിങ്ങള്‍ വിഭജന മെനുവില്‍ തിരിച്ചു് പോയി ഒരു സ്വാപ് ഭാഗം അനുവദിച്ചില്ലെങ്കില്‍ സ്വാപ് സ്പേയ്സ് ഇല്ലാതെ ഇന്‍സ്റ്റലേഷന്‍ തുടരുന്നതായിരിയ്ക്കും.
+Description-mr.UTF-8: आपल्याला विभाजनाच्या मेन्यूकडे परत जायचे आहे?
+Extended_description-mr.UTF-8: अदलाबदलीची जागा म्हणून वापरण्याकरिता आपण एकही विभाजन निवडलेले नाही. प्रणालीला उपलब्ध भौतिक स्मृतीचा चांगल्या प्रकारे वापर करता यावा, तसेच जेंव्हा भौतिक स्मृती तुटपुंजी असेल तेंव्हा तिचे वर्तन चांगले रहावे याकरिता अदलाबदलीची जागा कार्यसक्षम करण्याची शिफारस केलेली असते. आपल्याकडे भौतिक स्मृती पुरेशी नसल्यास अधिष्ठापनेदरम्यान आपल्याला समस्या येऊ शकतात.\n\nआपण विभाजनाच्या मेन्यूकडे परत जाऊन अदलाबदल विभाजन बनवले नाही, तर अदलाबदल विभाजनाशिवाय अधिष्ठापना पुढे सुरू राहील.
+Description-nb.UTF-8: Vil du gå tilbake til partisjoneringsmenyen?
+Extended_description-nb.UTF-8: Du har ikke valgt en partisjon til bruk som veksleminne. Det anbefales å bruke veksleminne slik at systemet kan gjøre bedre bruk av tilgjengelig fysisk minne, og oppfører seg bedre når det er lite fysisk minne ledig. Du kan få vansker med installasjonen om du ikke har nok fysisk minne.\n\nHvis du ikke går tilbake til partisjonsmenyen og tilordner en vekslepartisjon der, så vil installasjonen fortsette uten vekslepartisjon.
+Description-ne.UTF-8: के तपाईँ विभाजन मेनुमा फर्कनु चाहानुहुन्छ ?
+Extended_description-ne.UTF-8: स्वाप खाली ठाउँको रुपमा प्रयोग गर्नका लागि कुनै पनि विभाजनहरू चयन भएको छैन । स्वाप खाली ठाउँ सक्षम गरिनुलाई सिफारिश गरिएको छ जसले गर्दा प्रणालीले उपलब्ध भौतिक स्मृतिको उत्तम प्रयोग गर्न सक्छ र भौतिक स्मृति दुर्लभतामा यसले राम्रो काम गर्दछ । यदि तपाईँ सँग प्रशस्त भौतिक स्मृति छैन भने तपाईँले स्थापना समस्याहरुको अनुभव गर्नुहुनेछ । \n\nयदि तपाईँ विभाजन मेनुमा फर्केर जानुहुन्न र स्वाप विभाजनलाई मानाङ्कन गर्नुहुन्छ भने, स्थापना स्वाप खाली ठाउँ बिना निरन्तर हुनेछ ।
+Description-nl.UTF-8: Wilt u terugkeren naar het schijfindelingsmenu?
+Extended_description-nl.UTF-8: U heeft geen partities voor gebruik als wisselgeheugen geselecteerd. Gebruik van wisselgeheugen is aan te raden, omdat het systeem dan beter gebruik kan maken van het beschikbare fysieke geheugen, wat ook leid tot betere prestaties wanneer het fysieke geheugen volledig gebruikt wordt. Als u niet voldoende fysieke geheugen heeft kunt u installatieproblemen ondervinden.\n\nAls u niet teruggaat naar het schijfindelingsmenu om een wisselgeheugenpartitie toe te wijzen zal de installatie verder gaan zonder wisselgeheugenruimte.
+Description-nn.UTF-8: Vil du gå tilbake til partisjoneringsmenyen?
+Extended_description-nn.UTF-8: Ingen partisjon er sett av til bruk som vekselminne. Det er tilrådd å bruke vekselminne slik at systemet kan gjere betre bruk av tilgjengeleg fysisk minne, og oppfører seg betre når det er lite fysisk minne ledig. Du kan få vanskar med installasjonen om du ikkje har nok fysisk minne.\n\nViss du ikkje går tilbake til partisjonsmenyen og tilordnar ein vekselpartisjon vil installasjonen halde fram utan vekselpartisjon.
+Description-no.UTF-8: Vil du gå tilbake til partisjoneringsmenyen?
+Extended_description-no.UTF-8: Du har ikke valgt en partisjon til bruk som veksleminne. Det anbefales å bruke veksleminne slik at systemet kan gjøre bedre bruk av tilgjengelig fysisk minne, og oppfører seg bedre når det er lite fysisk minne ledig. Du kan få vansker med installasjonen om du ikke har nok fysisk minne.\n\nHvis du ikke går tilbake til partisjonsmenyen og tilordner en vekslepartisjon der, så vil installasjonen fortsette uten vekslepartisjon.
+Description-pa.UTF-8: ਕੀ ਤੁਸੀਂ ਪਾਰਟੀਸ਼ਨਿੰਗ ਮੇਨੂ ਉੱਤੇ ਵਾਪਸ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?
+Extended_description-pa.UTF-8: ਤੁਸੀਂ ਸਵੈਪ ਸਪੇਸ ਲਈ ਕੋਈ ਭਾਗ ਨਹੀਂ ਚੁਣਿਆ। ਸਵੈਪ ਸਪੇਸ ਯੋਗ ਕਰਨ ਦੀ ਸਿਫਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਤਾਂ ਕਿ ਸਿਸਟਮ ਉਪਲੱਬਧ ਭੋਤਿਕ ਮੈਮੋਰੀ ਦੀ ਸਹੀ ਵਰਤੋਂ ਕਰ ਸਕੇ, ਅਤੇ ਸਿਸਟਮ ਭੌਤਿਕ ਮੈਮੋਰੀ ਦੀ ਕਮੀ ਵਿੱਚ ਠੀਕ ਚੱਲ ਸਕੇ। ਤੁਹਾਨੂੰ ਇੰਸਟਾਲੇਸ਼ਨ ਮੁਸ਼ਕਿਲ ਹੋ ਸਕਦੀ ਹੈ ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਲੋੜੀਂਦੀ ਭੌਤਿਕ ਮੈਮੋਰੀ ਨਹੀਂ ਹੈ।\n\nਜੇ ਤੁਸੀਂ ਪਿੱਛੇ ਪਾਰਟੀਸ਼ਨਿੰਗ ਮੇਨੂ ਉੱਤੇ ਨਾ ਗਏ ਅਤੇ ਸਵੈਪ ਪਾਰਟੀਸ਼ਨ ਨਾ ਸੈੱਟ ਕੀਤਾ, ਇੰਸਟਾਲੇਸ਼ਨ ਸਵੈਪ ਪਾਰਟੀਸ਼ਨ ਤੋਂ ਬਿਨਾਂ ਹੀ ਜਾਰੀ ਰਹੇਗੀ।
+Description-pl.UTF-8: Chcesz wrócić do menu partycjonowania?
+Extended_description-pl.UTF-8: Nie wybrano żadnej partycji jako partycji wymiany. Zalecane jest wybranie takiej partycji, tak by system mógł lepiej używać pamięci fizycznej oraz by lepiej zachowywał się w przypadku wyczerpania zasobów. Jeśli nie posiadasz wystarczającej ilości pamięci fizycznej, możesz doświadczyć problemów podczas instalacji.\n\nJeśli nie wrócisz do menu partycjonowania i nie przydzielisz partycji wymiany, instalacja będzie kontynuowana bez niej.
+Description-pt.UTF-8: Deseja voltar ao menu de particionamento?
+Extended_description-pt.UTF-8: Você não escolheu nenhuma partição para utilizar como espaço swap. É recomendado utilizar espaço swap para que o sistema faça um melhor uso da memória física disponível, e assim comportar-se melhor quando a memória física escassear. Você pode ter problemas de instalação se não tiver memória física suficiente.\n\nSe não voltar ao menu de particionamento e atribuir uma partição de swap, a instalação irá continuar sem espaço swap.
+Description-pt_BR.UTF-8: Você deseja voltar ao menu de particionamento?
+Extended_description-pt_BR.UTF-8: Você não selecionou nenhuma partição para usar como área de troca (swap). Habilitar área de troca (swap) é recomendado para que o sistema possa fazer melhor uso da memória física disponível e para que o mesmo possa se comportar melhor quando a memória física é escassa. Você pode enfrentar problemas de instalação caso não possua memória física suficiente.\n\nSe você não quiser voltar ao menu de particionamento e escolher uma partição de troca, a instalação continuará sem uma área de troca (swap).
+Description-ro.UTF-8: Doriți să vă întoarceți la meniul de partiționare?
+Extended_description-ro.UTF-8: Nu ați selectat nici o partiție pentru a fi utilizată ca spațiu de swap. Activarea spațiului de swap este recomandată pentru ca sistemul să poată utiliza mai bine memoria fizică existentă și se va comporta mai bine când memoria fizică este puțină. Ați putea avea probleme la instalare dacă nu aveți destulă memorie.\n\nDacă nu vă întoarceți la meniul de partiționare să desemnați o partiție de swap, instalarea va continua fără spațiu de swap.
+Description-ru.UTF-8: Хотите вернуться в меню разметки?
+Extended_description-ru.UTF-8: Вы не указали ни одного раздела для пространства подкачки. Рекомендуется использовать пространство подкачки, так как система сможет лучше использовать имеющуюся физическую память, и система будет работать лучше при нехватке физической памяти. У вас могут возникнуть проблемы с установкой, если физической памяти окажется недостаточно.\n\nЕсли вы не вернётесь в меню разметки и не укажите раздел подкачки, то установка продолжится без пространства подкачки.
+Description-si.UTF-8: ඔබට කොටස් මෙනුවට ආපසු යාමට අවශ්‍යද?
+Extended_description-si.UTF-8: ඔබ කිසිඳු කොටසක් ස්වැප් ඉඩ ලෙස සකසා නොමැති නම්, ඔබේ පද්ධතියට වඩාත් හොඳින් භෞතික මතකය භාවිත කිරීමට සැලැස්වීම සඳහා එය සක්‍රීය කිරීම නිර්දේශිතයි. එවිට භෞතික මතකය මඳ විට එය වඩා හොඳින් හැසිරෙනු ඇත. ඔබ සතුව ප්‍රමාණවත් භෞතික මතකයක් නොමැති නම් ස්ථාපන ගැටළු ඇතිවිය හැක.\n\nඔබ කොටස්කිරීමේ මෙනුවට ආපසු ගොස් ස්වැප් කොටසක් නොසැකසුවේ නම්, ස්ථාපනය ස්වැප් කොටසකින් තොරව ඉදිරියට යයි.
+Description-sk.UTF-8: Chcete sa vrátiť do menu rozdeľovania?
+Extended_description-sk.UTF-8: Nezvolili ste žiadnu oblasť pre použitie ako odkladacie miesto (swap). Použitie odkladacieho priestoru sa odporúča kvôli lepšiemu využitiu dostupnej fyzickej pamäte, a to hlavne vtedy, ak je jej málo. Pri nedostatku fyzickej pamäti môžete očakávať problémy pri inštalácii.\n\nAk sa nevrátite späť do menu rozdeľovania a nepriradíte odtiaľ odkladaciu (swap) oblasť, inštalácia bude pokračovať bez odkladacieho miesta (swap).
+Description-sl.UTF-8: Se želite vrniti na meni za razdeljevanje?
+Extended_description-sl.UTF-8: Niste izbrali nobenega razdelka za izmenljivi (swap) prostor. Uporaba izmenljivega prostora je priporočljiva, da lahko sistem boljše izkorišča razpoložljiv fizični pomnilnik in da se boljše obnaša, ko je malo fizičnega pomnilnika. V primeru, da nimate dovolj fizičnega pomnilnika lahko pride do težav med namestitvijo.\n\nČe se ne boste vrnili na meni za razdeljevanje in dodali izmenljivega prostora, bo namestitev nadaljevala brez izmenljivega prostora.
+Description-sq.UTF-8: Dëshiron të kthehesh tek menuja e ndarjes?
+Extended_description-sq.UTF-8: Nuk ke zgjedhur asnjë ndarje për ta përdorur si hapësirë swap. Aktivizimi i hapësirës swap këshillohet në mënyrë që sistemi të ketë një përdorim sa më të mirë të kujtesës fizike në dispozicion, kështu që ai të sillet më qëndrueshëm kur kjo e fundit mungon. Mund të hasni probleme instalimi nëse nuk keni kujtesë fizike të mjaftueshme.\n\nNëse nuk kthehesh prapa tek menuja e ndarjes dhe nuk cakton një ndarje swap, instalimi do të vazhdojë pa hapësirë swap.
+Description-sr.UTF-8: Да ли желите да се вратите на мени за партиционисање?
+Extended_description-sr.UTF-8: Нисте изабрали ниједну партицију за простор за додатну меморију. Укључивање простора за додатну меморију је препоручљиво јер ће систем онда боље користити доступну физичку меморију и понашаће се боље када недостаје иста. Можете искусити проблеме приликом инсталације уколико немате довољно физичке меморије.\n\nАко се не вратите назад на мени за партиционисање и не доделите простор за додатну меморију инсталација ће се наставити без простора за њу.
+Description-sv.UTF-8: Vill du återvända till partitioneringsmenyn?
+Extended_description-sv.UTF-8: Du har inte valt någon partition att använda som växlingsutrymme. Aktivera ett växlingsutrymme rekommenderas så att systemet kan bättre använda det tillgängliga fysiska minnet och att det uppträder på ett bättre sätt när den inte är slut på fysiskt minne. Du kan uppleva problem vid installationen om du inte har tillräckligt med fysiskt minne.\n\nOm du inte går tillbaka till partitioneringsmenyn och tilldelar en växlingspartition så kommer installation att fortsätta utan växlingsutrymme.
+Description-ta.UTF-8: பகிர்வு பட்டிக்குத் திரும்ப விரும்புகிறீர்களா?
+Extended_description-ta.UTF-8: இட மாற்றுக்கு நீங்கள் எந்த பகிர்வையும் தேர்வு செய்யவில்லை. கிடைக்கும் பௌதிக நினைவகத்தை நன்கு உபயோகிக்க இட மாற்று தேவை என பரிந்துரைக்கப் படுகிறது. அப்போதுதான் பௌதிக நினைவகம் குறைவாக கிடைக்கும் போதும் கணினி செயல்பட இயலும். தேவையான பௌதிக நினைவகம் குறைவாக இருப்பின் நிறுவுதல் பிரச்சினை எழலாம்.\n\nநீங்கள் பகிர்வு பட்டிக்குத் திரும்பி இட மாற்றுக்கு நீங்கள் எந்த பகிர்வையும் தேர்வு செய்யவில்லையானால் இட மாற்று இன்றியே நிறுவுதல் தொடரும்.
+Description-te.UTF-8: మీరు విభజన మెనూ కి తిరిగి  వెళ్లాలనుకుంటున్నారా?
+Extended_description-te.UTF-8: మీరు swap స్థలం గా వాడటానికి ఏ విభజన లు ఎంచుకోలేదు.  swap స్థలం చేతనంచెయ్యడం  వలన, వ్యవస్థ , ఉన్నటువంటిభౌతిక మెమొరీని  సరిగా వాడుకొనుట, ఖాళీగా వున్న భౌతిక మెమొరీ  తగ్గినపుడు, వ్యవస్థ  పనితీరు మెరుగుగా వుండటానికి వీలుంటుంది.  భౌతిక మెమొరీ చాలినంత లేకపోతే, స్థాపన లో సమస్యలు ఎదురయ్యే అవకాశం వుంది.  \n\nవిభజన మెనూ కి వెనక్కి వెళ్లి, swap విభజన  ఇవ్వనిచో, స్థాపన  swap స్థలం లేకుండా కొనసాగుతుంది.
+Description-tg.UTF-8: Шумо мехоҳед, ки ба менюи қисмбандӣ баргардонед?
+Extended_description-tg.UTF-8: Шумо ягон қисми дискро барои истифода ҳамчун фазои мубодилакунӣ интихоб накардед. Фаъолкунии фазои мубодилакунӣ тавсия мешавад, то ин ки система ҳофизаи дастраси физикиро хубтар истифода барад, ва ҳангоми кам шудани ҳофизаи дастрас рафтори он беҳтар гардад. Агар миқдори ҳофизаи физикии шумо кофӣ набошад, шумо метавонед ҳангоми насбкунӣ бо мушкилиҳо дучор шавед.\n\nАгар шумо ба менюи қисмбандӣ бар нагардед, ва қисми диски мубодилакуниро таъин накунед, насбкунӣ бе фазои мубодилакунӣ идома медиҳад.
+Description-th.UTF-8: คุณต้องการกลับไปยังเมนูแบ่งพาร์ทิชันหรือไม่?
+Extended_description-th.UTF-8: คุณยังไม่ได้เลือกพาร์ทิชันใดเพื่อใช้เป็นพื้นที่สลับเลย ขอแนะนำให้เปิดใช้พื้นที่สลับ เพื่อที่ระบบจะสามารถใช้หน่วยความจำจริงของเครื่องได้อย่างมีประสิทธิภาพ และเพื่อที่ระบบจะทำงานได้ดีขึ้นในสภาพที่หน่วยความจำเหลือน้อย คุณอาจพบปัญหาการติดตั้งถ้าคุณมีหน่วยความจำจริงไม่พอ\n\nถ้าคุณไม่กลับไปยังเมนูแบ่งพาร์ทิชันเพื่อกำหนดพาร์ทิชันสลับ การติดตั้งจะดำเนินต่อไปโดยไม่อาศัยพื้นที่สลับ
+Description-tl.UTF-8: Nais ba ninyong bumalik sa menu ng pag-partisyon?
+Extended_description-tl.UTF-8: Wala pa kayong napiling mga partisyon na gagamitin bilang swap. Rekomendado na gumamit ng swap space upang mas-magamit ng husto ang pisikal na memory, at upang umandar ng mas-maayos kapag kapos ang pisikal na memory. Maaaring makaranas ng mga problema sa pagluklok kung kulang ang inyong pisikal na memory.\n\nKung hindi kayo bumalik sa menu ng pag-partisyon at maglaan ng swap partition mula doon, magpapatuloy ang pagluklok na walang swap space.
+Description-tr.UTF-8: Bölümleme menüsüne dönmek ister misiniz?
+Extended_description-tr.UTF-8: Takas alanı olarak kullanmak için bir bölüm seçmediniz. Sistemin mevcut fiziksel belleği daha etkin kullanması ve fiziksel bellek azaldığında daha uygun davranış göstermesi için takas alanının etkinleştirilmesi tavsiye edilir. Yeterli fiziksel belleğe sahip değilseniz kurulum sorunlarıyla karşılaşabilirsiniz.\n\nBölümleme menüsüne geri dönerek bir takas bölümü atamazsanız kurulum takas alanı olmadan devam etmeyecektir.
+Description-ug.UTF-8: رايونغا ئايرىش تىزىملىكىگە قايتامسىز؟
+Extended_description-ug.UTF-8: swap ئۈچۈن ئىشلىتىدىغان ھېچقانداق رايون تاللىمىدىڭىز. سىستېمىنىڭ نۆۋەتتە بار بولغان فىزىكىلىق ئەسلەكتىن تېخىمۇ ياخشى پايدىلىنىش، فىزىكىلىق ئەسلەك يېتىشمىگەندە بۇ رايون سىستېمىنىڭ ئىجرا بولۇش ئۈنۈمىنى ياخشىلىشى ئۈچۈن swap بوشلۇقى ئىشلىتىشىڭىزنى تەۋسىيە قىلىمىز، ئەگەر يېتەرلىك فىزىكىلىق ئەسلەك بولمىسا ئورنىتىش مەسىلىسىگە يولۇقۇشىڭىز مۇمكىن.\n\nئەگەر رايونغا ئايرىش تىزىملىكىگە قايتىپ swap بوشلۇقىدىن بىرنى تەقسىملىمىسىڭىز، ئورنىتىش پروگراممىسى swap بوشلۇقى بولمىغان ھالەتتە ئورنىتىشنى داۋاملاشتۇرىدۇ.
+Description-uk.UTF-8: Чи бажаєте ви повернутися до меню розбивки?
+Extended_description-uk.UTF-8: Ви не вибрали жоден розділ для використання як розділу резервної пам’яті. Рекомендується увімкнути створення розділу резервної пам’яті, щоб система могла краще використовувати наявну фізичну пам'ять та краще поводилася при нестачі пам'яті. Ви можете мати проблеми при встановлення, якщо у вас недостатньо фізичної пам'яті.\n\nЯкщо ви не повернетесь до меню розбиття та не призначите розділ резервної пам’яті, то встановлення буде продовжено без розділу резервної пам’яті.
+Description-vi.UTF-8: Bạn có muốn trở về trình đơn phân vùng chứ ?
+Extended_description-vi.UTF-8: Bạn chưa chọn phân vùng nào cần dùng là chỗ trao đổi. Khuyên bạn hiệu lực khả năng sử dụng chỗ trao đổi để cho phép hệ thống dùng bộ nhớ vật lý có sẵn một cách hữu ích hơn, cũng chạy nhanh hơn khi có ít bộ nhớ vật lý. Bạn có thể gặp lỗi cài đặt nếu không có đủ bộ nhớ vật lý.\n\nNếu bạn không trở về trình đơn phân vùng để gán một phân vùng trao đổi, tiến trình cài đặt sẽ tiếp tục lại mà không có chỗ trao đổi.
+Description-zh_CN.UTF-8: 您是否想返回分区菜单？
+Extended_description-zh_CN.UTF-8: 您尚未选择任何分区用作交换空间。我们推荐您启用交换空间，以使系统能更好的利用现有物理内存，这样当物理内存不够用时它还可以改善系统的运行效能。如果没有足够的物理内存，您可以会遇到安装问题。\n\n如果您不返回分区菜单并分配一个交换空间，安装将在不使用无交换空间的情况下继续。
+Description-zh_TW.UTF-8: 您是否想返回磁碟分割選單？
+Extended_description-zh_TW.UTF-8: 您未將任何的分割區指定做為置換空間。建議啟用置換空間來讓系統能更加有效得使用現有的實體記憶體，也能讓系統在記憶體不是那麼足夠時能夠運作得更好。若您沒有足夠的實體記憶體，您在安裝的過程中很可能會遭遇到問題。\n\n如果您不返回磁碟分割選單並指派一個 Swap (置換空間) 分割區，安裝程式將會在沒有置換空間的狀況下繼續進行。
+
+Name: partman-basicfilesystems/posix_filesystem_required
+Type: error
+Description: Invalid file system for this mount point
+Extended_description: The file system type ${FILESYSTEM} cannot be mounted on ${MOUNTPOINT}, because it is not a fully-functional Unix file system. Please choose a different file system, such as ${EXT2}.
+Description-am.UTF-8: ለዚህ የመጫኛ ጣቢያ የማይሰራ የፋይል ስርዓት
+Extended_description-am.UTF-8: የፋይል ስርዓት ዓይነት ${FILESYSTEM}ን በ ${MOUNTPOINT} ላይ መጫን አይቻልም፣ ምክንያቱም ሙሉ በሙሉ ተግባራዊ የሆነ የዩኒክስ ፋይል ስርዓት አይደለም፡፡ እባክዎን እንደ ${EXT2} ያለ ሌላ የፋይል ስርዓት ይምረጡ፡፡
+Description-ar.UTF-8: نظام ملفات غير صالح لموضع التركيب هذا
+Extended_description-ar.UTF-8: نوع نظام الملفات ${FILESYSTEM} لا يمكن تركيبه على ${MOUNTPOINT}، لأنه ليس نظام ملفات يونكس يعمل بالكامل. الرجاء اختيار نظام ملفات آخر، مثل ${EXT2}.
+Description-ast.UTF-8: Sistema de ficheros non válidu pa esti puntu de montaxe
+Extended_description-ast.UTF-8: La triba del sistema de ficheros ${FILESYSTEM} nun puede montase en ${MOUNTPOINT}, porque nun ye un sistema de ficheros Unix totalmente funcional. Por favor, escueyi un sistema de ficheros distintu, como ${EXT2}.
+Description-be.UTF-8: Недарэчная файлавая сістэма для гэтага пункту мацавання.
+Extended_description-be.UTF-8: Файлавая сістэма ${FILESYSTEM} не можа быць прымацавана да ${MOUNTPOINT}, таму што яна не ёсць поўнафункцыянальнай файлавай сістэмай Unix. Калі ласка, выберыце іншую файлавую сістэму, такую, як ${EXT2}.
+Description-bg.UTF-8: Невалидна файлова система за тази точка на монтиране
+Extended_description-bg.UTF-8: Файловата система ${FILESYSTEM} не може да бъде монтирана на ${MOUNTPOINT}, защото не е пълнофункционална файлова система за Unix. Изберете друга файлова система, като например ${EXT2}.
+Description-bn.UTF-8: এমন একটি ফাইল সিস্টেম বরাদ্দ করা হয়েছে যা এই মাউন্ট পয়েন্টের জন্য অবৈধ
+Extended_description-bn.UTF-8: ${FILESYSTEM} ধরনের ফাইল সিস্টেমকে ${MOUNTPOINT}-এ মাউন্ট করা যায় না; এর কারণ হল, এটি কার্যকরি ইউনিক্স ফাইল সিস্টেম নয়। অনুগ্রহপূর্বক ভিন্ন একটি ফাইল সিস্টেম, যেমন ${EXT2}।
+Description-bo.UTF-8: བཀར་སའི་གནས་འདི་ལ་ཡིག་ཆ་མ་ལག་དེ་ཕན་ནུས་མེད་པ
+Extended_description-bo.UTF-8: ཡིག་ཆ་མ་ལག་ ${FILESYSTEM} Unix ཡི་ཡིག་ཆ་མ་ལག་ཡང་དག་ཞིག་མིན་པས་བཀར་སའི་གནས་ ${MOUNTPOINT} བཀར་མི་ཐུབ་པ ཡིག་ཆ་མ་ལག་གཞན་ཞིག་འདེམས་རོགས་དཔེར་ན ${EXT2} ལྟ་བུ
+Description-bs.UTF-8: Neispravan datotečni sistem za ovu tačku montiranja
+Extended_description-bs.UTF-8: Datotečni sistem tipa ${FILESYSTEM} ne može biti montiran na ${MOUNTPOINT}, zato što nije potpuno funkcionalan Unix datotečni sistem. Molim odaberite drugi datotečni sistem poput ${EXT2}.
+Description-ca.UTF-8: El sistema de fitxers és invàlid per a aquest punt de muntatge
+Extended_description-ca.UTF-8: El tipus de sistema de fitxers ${FILESYSTEM} no es pot muntar a ${MOUNTPOINT}, perquè no és un sistema de fitxers UNIX totalment funcional. Seleccioneu un altre sistema de fitxers, com ara ${EXT2}.
+Description-cs.UTF-8: Neplatný souborový systém pro daný přípojný bod
+Extended_description-cs.UTF-8: Souborový systém ${FILESYSTEM} nemůže být připojen jako ${MOUNTPOINT}, protože se nejedná o plně funkční unixový souborový systém. Vyberte si prosím jiný souborový systém, například ${EXT2}.
+Description-cy.UTF-8: System ffeil annilys ar gyfer y pwynt clymu hwn
+Extended_description-cy.UTF-8: Ni ellir clymu math o system ffeil ${FILESYSTEM} ar ${MOUNTPOINT}, oherwydd nad yw'n system ffeil Unix llwyr weithredol. Dewiswch math gwahanol o system ffeil, fel ${EXT2}.
+Description-da.UTF-8: Ugyldigt filsystem for dette monteringspunkt
+Extended_description-da.UTF-8: Filsystemtypen ${FILESYSTEM} kan ikke monteres på ${MOUNTPOINT}, da det ikke er et fuldt funktionsdygtigt Unix-filsystem. Vælg et andet filsystem som f.eks. ${EXT2}.
+Description-de.UTF-8: Ungültiges Dateisystem für diesen Einbindungspunkt
+Extended_description-de.UTF-8: Der Dateisystemtyp ${FILESYSTEM} kann nicht als ${MOUNTPOINT} eingebunden werden, da dies kein voll funktionsfähiges Unix-Dateisystem ist. Bitte wählen Sie ein anderes Dateisystem wie ${EXT2}.
+Description-dz.UTF-8: སྦྱར་བརྩེགས་ས་ཚིགས་འདི་གྱི་དོན་ལུ་ཡིག་སྣོད་རིམ་ལུགས་ནུས་མེད་སོང་ནུག་
+Extended_description-dz.UTF-8: ${MOUNTPOINT}གུ་ཡིག་སྣོད་རིམ་ལུགས་ཀྱི་དབྱེ་བ་${FILESYSTEM}འདི་སྦྱར་བརྩེགས་འབད་མི་བཏུབ་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ འདི་ལས་འགན་ཅན་གྱི་ཡུ་ནིཀསི་ཡིག་སྣོད་རིམ་ལུགས་ཆ་ཚང་མེན་པས། ${EXT2}བཟུམ་གྱི་ཡིག་སྣོད་རིམ་ལུགས་སོ་སོ་གདམ་ཁ་རྐྱབས་གནང་།
+Description-el.UTF-8: Μη έγκυρο σύστημα αρχείων γι' αυτό το σημείο προσάρτησης
+Extended_description-el.UTF-8: Το σύστημα αρχείων τύπου ${FILESYSTEM} δεν μπορεί να προσαρτηθεί στο σημείο ${MOUNTPOINT}, επειδή δεν είναι ένα πλήρως λειτουργικό σύστημα αρχείων Unix. Παρακαλώ επιλέξτε ένα διαφορετικό σύστημα αρχείων, όπως το ${EXT2}.
+Description-eo.UTF-8: Malvalida dosiersistemo por tiu ĉi munt-punkto
+Extended_description-eo.UTF-8: La dosiersistemtipo '${FILESYSTEM}' ne povas esti muntita sur '${MOUNTPOINT}', ĉar ĝi ne disponigas ĉiujn 'Unix'-ajn dosiersistemajn funkciojn. Bonvolu elekti alian dosiersistemon, kiel '${EXT2}'.
+Description-es.UTF-8: Sistema de ficheros inválido para este punto de montaje
+Extended_description-es.UTF-8: No puede montarse el sistema de ficheros del tipo ${FILESYSTEM} en ${MOUNTPOINT} porque no es un sistema de ficheros Unix completamente funcional. Por favor, escoja un sistema de ficheros distinto como, por ejemplo, ${EXT2}.
+Description-et.UTF-8: Antud haakepunktile sobimatu failisüsteem
+Extended_description-et.UTF-8: ${FILESYSTEM}-tüüpi failisüsteemi pole võimalik haakepunkti ${MOUNTPOINT} külge haakida, kuna tegemist pole täielikult Unix'i funktsionaalsust toetava failisüsteemiga. Palun vali mõni teine failisüsteem, näiteks ${EXT2}.
+Description-eu.UTF-8: Fitxategi-sistema baliogabea muntatze-puntu honentzat
+Extended_description-eu.UTF-8: ${FILESYSTEM} fitxategi-sistema ezin da ${MOUNTPOINT}(e)n muntatu, ez baita guztiz funtzionala den UNIX fitxategi-sistema. Aukeratu ${EXT2} bezalako beste fitxategi-sistema.
+Description-fa.UTF-8: فایل سیستم برای این نقطه اتصال نا معتبر است
+Extended_description-fa.UTF-8: نوع سیستم‌فایل ${FILESYSTEM} نمی‌تواند روی ${MOUNTPOINT} ماونت شود، چون فایل‌سیستم کاملاً سازگار یونیکس نیست. لطفاً فایل‌سیستم دیگری انتخاب کنید، مانند ${EXT2}.
+Description-fi.UTF-8: Tämän liitoskohdan tiedostojärjestelmä on kelvoton
+Extended_description-fi.UTF-8: Tiedostojärjestelmää tyypiltään ${FILESYSTEM} ei voitu liittää liitoskohtaan ${MOUNTPOINT} koska siinä ei ole kaikkea Unix-tiedostojärjestelmän toiminnallisuutta. Valitse muu tiedostojärjestelmä, vaikka ${EXT2}.
+Description-fr.UTF-8: Système de fichiers non valable pour ce point de montage
+Extended_description-fr.UTF-8: Un système de fichiers ${FILESYSTEM} ne peut pas être monté sur ${MOUNTPOINT} car il n'offre pas toutes les fonctionnalités d'un système de fichiers Unix. Vous devriez choisir un autre type de système de fichiers comme ${EXT2}.
+Description-ga.UTF-8: Córas comhad neamhbhailí le haghaidh an phointe feistithe seo
+Extended_description-ga.UTF-8: Ní féidir córas comhad de chineál ${FILESYSTEM} a fheistiú ar ${MOUNTPOINT}, toisc nach fíorchóras comhad Unix é. Roghnaigh córas comhad eile, le do thoil, mar shampla ${EXT2}.
+Description-gl.UTF-8: O sistema de ficheiro para este punto de montaxe non é válido
+Extended_description-gl.UTF-8: O sistema de ficheiros de tipo ${FILESYSTEM} non se pode montar en ${MOUNTPOINT} porque non é un sistema de ficheiros Unix totalmente funcional. Escolla un sistema de ficheiros diferente, como ${EXT2}.
+Description-gu.UTF-8: આ માઉન્ટ બિંદુ માટે અયોગ્ય ફાઇલ સિસ્ટમ
+Extended_description-gu.UTF-8: ફાઇલ સિસ્ટમ પ્રકાર ${FILESYSTEM} ${MOUNTPOINT} પર માઉન્ટ કરી શકાતો નથી, કારણકે તે પૂર્ણ-રીતે કામ કરી શકે તેવી યુનિક્સ ફાઇલ સિસ્ટમ નથી. મહેરબાની કરી બીજી ફાઇલ સિસ્ટમ પસંદ કરો, જેવી કે ${EXT2}.
+Description-he.UTF-8: מערכת קבצים לא תקינה בשביל נקודת העגינה הזאת
+Extended_description-he.UTF-8: מערכת קבצים מסוג ${FILESYSTEM} לא ניתנת לעגינה על ${MOUNTPOINT} מאחר והיא לא מערכת קבצים מתפקדת של Unix. בחר מערכת קבצים אחרת, ${EXT2} לדוגמה.
+Description-hi.UTF-8: इस माउंट प्वाइंट के लिए अवैध फाइलसिस्टम
+Extended_description-hi.UTF-8: फाइलसिस्टम प्रकार ${FILESYSTEM} को ${MOUNTPOINT} पर माउन्ट नहीं किया जा सका क्योंकियह एक पूर्णतया समर्थित यूनिक्स फाइलसिस्टम नहीं है। कृपया कोई अन्य फाइलसिस्टम चुनें, जैसे कि ${EXT2}
+Description-hr.UTF-8: Neispravan datotečni sustav za ovu točku montiranja
+Extended_description-hr.UTF-8: Vrsta datotečnog sustava ${FILESYSTEM} se ne može montirati na ${MOUNTPOINT} jer to nije sasvim funkcionalni Unix datotečni sustav. Molim izaberite neki drugi datotečni sustav, npr. ${EXT2}.
+Description-hu.UTF-8: Érvénytelen fájlrendszer e csatolási ponton
+Extended_description-hu.UTF-8: A ${FILESYSTEM} fájlrendszer típus nem csatolható ide: ${MOUNTPOINT}, mert ez nem egy teljes-értékű Unix fájlrendszer. Válasszon másik fájlrendszert, például egy ${EXT2} -et.
+Description-id.UTF-8: Sistem berkas tak sah untuk titik kait ini
+Extended_description-id.UTF-8: Sistem berkas ${FILESYSTEM} tidak dapat dikaitkan pada ${MOUNTPOINT}, karena ia bukan sistem berkas UNIX yang dapat berfungsi penuh. Silakan pilih sistem berkas yang berbeda, misalnya ${EXT2}.
+Description-is.UTF-8: Ógilt skráakerfi fyrir þennan tengipunkt
+Extended_description-is.UTF-8: Skráarkerfistegundin ${FILESYSTEM} getur ekki verið tengd á ${MOUNTPOINT}, af því að það er ekki fullgilt Unix skráarkerfi. Veldu annað skráarkerfi eins og ${EXT2}.
+Description-it.UTF-8: File system non valido per questo punto di mount:
+Extended_description-it.UTF-8: Il file system di tipo ${FILESYSTEM} non può essere montato su ${MOUNTPOINT}, perché non è un file system Unix completamente funzionante. Scegliere un altro file system, per esempio ${EXT2}.
+Description-ja.UTF-8: このマウントポイントには無効なファイルシステムです
+Extended_description-ja.UTF-8: ファイルシステム形式 ${FILESYSTEM} は、Unix ファイルシステムとして完全に機能するものではないため、${MOUNTPOINT} にはマウントできません。${EXT2} のような別のファイルシステムを選んでください。
+Description-ka.UTF-8: დაუშვებელი ფაილური სისტემა ამ მონტაჟის პუნქტისათვის
+Extended_description-ka.UTF-8: ${FILESYSTEM} ტიპის ფაილური სისტემა ვერ დაყენდება ${MOUNTPOINT}-ზე - ეს არ არის Unix-ის სრულფუნქციური ფაილური სისტემა. აირჩიეთ რომელიმე სხვა, მაგ.: ${EXT2}.
+Description-kk.UTF-8: Тіркеу нүктесіне тиісті файлдық жүйе қате
+Extended_description-kk.UTF-8: ${FILESYSTEM} типті файлдық жүйе ${MOUNTPOINT} тіркеу нүктесіне тіркелмейді, өйткені ол Unix-тің толық функционалды файлдық жүйесі емес. Файлдық жүйесінің басқа түрін таңдаңыз, мысалы ${EXT2}.
+Description-km.UTF-8: ប្រព័ន្ធ​ឯកសារ​មិន​ត្រឹមត្រូវ​ឡើយ សម្រាប់​ចំណុច​ម៉ោន​នេះ
+Extended_description-km.UTF-8: មិន​អាច​ម៉ោន​​​ប្រព័ន្ធ​ឯកសារ​ប្រភេទ ​${FILESYSTEM} លើ ${MOUNTPOINT} បាន​ឡើយ ព្រោះ​វា​មិន​មែន​ជា​ប្រព័ន្ធ​ឯកសារ​យូនីក​ដែល​ដំណើរការ​ពេញលេញ​ឡើយ ។ សូម​ជ្រើស​ប្រព័ន្ធ​ឯកសារ​ផ្សេង​មួយ ដូចជា​ ${EXT2} ជា​ដើម ។
+Description-kn.UTF-8: ಈ ಏರು ಬಿಂದುಗೆ ಈ ಕಡತ ವ್ಯವಸ್ಥೆಯು ಅಮಾನ್ಯವಾಗಿದೆ
+Extended_description-kn.UTF-8: ${MOUNTPOINT}ನಲ್ಲಿ ${FILESYSTEM} ಬಗೆಯ ಕಡತವ್ಯವಸ್ಥೆಯನ್ನು ಏರಿಸಲಾಗಿಲ್ಲ, ಏಕೆಂದರೆ ಅದು ಒಂದು ಪೂರ್ಣ ಪ್ರಮಾಣದಲ್ಲಿ ಕಾರ್ಯಕಾರಿ ಯುನಿಕ್ಸ್ ಕಡತ ವ್ಯವಸ್ಥೆಯಲ್ಲ. ದಯಮಾಡಿ ಬೇರೊಂದು ಕಡತ ವ್ಯವಸ್ಥೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ, ಉದಾಹರಣೆಗೆ ${EXT2}.
+Description-ko.UTF-8: 이 마운트 위치의 파일 시스템이 올바르지 않습니다
+Extended_description-ko.UTF-8: ${FILESYSTEM} 파일 시스템은 완전한 유닉스용 파일 시스템이 아니기 때문에 ${MOUNTPOINT}에 이 형식의 파일 시스템을 마운트할 수 없습니다. ${EXT2}와 같은, 다른 종류의 파일 시스템을 선택하십시오.
+Description-ku.UTF-8: Pergala pelan a nederbasdar di vê mountpoint de
+Extended_description-ku.UTF-8: Cureyê pergala pelan ${FILESYSTEM} nikare were siwarkirin li ser  ${MOUNTPOINT}, ji ber ku ew ne pergala pelan a Unix a pêwirdara tam e, wekî ${EXT2}.
+Description-lo.UTF-8:  ລະບົບແຟັມບໍ່ຖືກຕອ້ງສຳລັບຕຳແໜ່ງເມົານີ້
+Extended_description-lo.UTF-8: ບໍ່ສາມ່ດເມົາລະບົບແຟັມ ${FILESYSTEM} ທີ່ ${MOUNTPOINT}ໄດ້ເນື່ອງຈາກບໍ່ໃຊ້ລະບົບແຟັມຢູ່ນິກເຕັມຮູບແບບ ກະລຸນາເລືອກລະບົບແຟັມອື່ນໆເຊັ່ນ.
+Description-lt.UTF-8: Netinkama failų sistemą šiam prijungimo taškui
+Extended_description-lt.UTF-8: Ši, ${FILESYSTEM} tipo failų sistema negali būti prijungta prie prijungimo taško ${MOUNTPOINT}, kadangi ji nėra pilnavertė Unix failų sistema. Pasirinkite kitą failų sistemą, tokią kaip pvz. ${EXT2}.
+Description-lv.UTF-8: Nederīga datņu sistēma šim montēšanas punktam
+Extended_description-lv.UTF-8: ${FILESYSTEM} datņu sistēmu nevar piemontēt ${MOUNTPOINT}, jo tā nav pilnībā funkcionāla Unix datņu sistēma. Lūdzu, izvēlieties citu datņu sistēmu, piemēram, ${EXT2}.
+Description-mk.UTF-8: Невалиден датотечен систем за оваа точка за монтирање
+Extended_description-mk.UTF-8: Типот на датотечен систем ${FILESYSTEM} неможе да биде монтиран на ${MOUNTPOINT}, бидејќи не е целосно функционален Уникс датотечен систем. Те молам одбери друг датотечен систем, како ${EXT2}, на пример.
+Description-ml.UTF-8: ഈ മൌണ്ട് പോയിന്റിനായി അസാധുവായ ഫയല്‍ സിസ്റ്റം
+Extended_description-ml.UTF-8: ${FILESYSTEM} തരം ഫയല്‍ സിസ്റ്റം ${MOUNTPOINT} മൌണ്ട് പോയിന്റില്‍ മൌണ്ട് ചെയ്യാന്‍ പറ്റില്ല, കാരണം ഇതൊരു മുഴുവന്‍-പ്രവര്‍ത്തനസജ്ജമായ യുണിക്സ് ഫയല്‍ സിസ്റ്റം അല്ല. ദയവായി ${EXT2} പോലുള്ള വേറൊരു ഫയല്‍ സിസ്റ്റം തെരഞ്ഞെടുക്കുക.
+Description-mr.UTF-8: या आरोह बिंदूकरिता फाइल प्रणाली अवैध
+Extended_description-mr.UTF-8: ${FILESYSTEM} प्रकारची फाइल प्रणाली ${MOUNTPOINT} या आरोह बिंदूवर आरोहित करता येत नाही, कारण ती एक पूर्ण-कार्यक्षम यूनिक्स फाइल प्रणाली नाही. कृपया अन्य ${EXT2} सारखी फाइल प्रणाली निवडा.
+Description-nb.UTF-8: Ugyldig filsystem for dette monteringspunktet
+Extended_description-nb.UTF-8: Filsystemet av type ${FILESYSTEM} kan ikke monteres på ${MOUNTPOINT}, fordi det ikke er et fullt funksjonelt Unix filsystem. Velg en annen filsystemtype, for eksempel ${EXT2}.
+Description-ne.UTF-8: यो माउन्ट विन्दुका लागि अवैध फाइल प्रणाली
+Extended_description-ne.UTF-8: फाइल प्रणाली प्रकार ${FILESYSTEM} ${MOUNTPOINT} मा माउन्ट हुन सक्दैन, किन भने यो पूर्ण-कार्यत्मक यूनिक्स फाइल प्रणाली होइन । कृपया विभिन्न फाइल प्रणाली रोज्नुहोस् , जस्तै ${EXT2} ।
+Description-nl.UTF-8: Ongeldig bestandssysteem voor dit aankoppelpunt
+Extended_description-nl.UTF-8: Het bestandssysteem-type ${FILESYSTEM} kan niet aangekoppeld worden op ${MOUNTPOINT} omdat dit geen volledig functioneel Unix-bestandssysteem-type is. U dient een ander bestandssysteem-type te kiezen zoals bijvoorbeeld ${EXT2}.
+Description-nn.UTF-8: Ugyldig filsystem for dette monteringspunktet
+Extended_description-nn.UTF-8: Filsystemtypen ${FILESYSTEM} kan ikkje monterast på ${MOUNTPOINT}, fordi det ikkje er eit fullverdig Unix filsystem. Vel ein annen filsystemtype, til dømes ${EXT2}.
+Description-no.UTF-8: Ugyldig filsystem for dette monteringspunktet
+Extended_description-no.UTF-8: Filsystemet av type ${FILESYSTEM} kan ikke monteres på ${MOUNTPOINT}, fordi det ikke er et fullt funksjonelt Unix filsystem. Velg en annen filsystemtype, for eksempel ${EXT2}.
+Description-pa.UTF-8: ਇਸ ਮਾਊਂਟ ਪੁਆਇੰਟ ਲਈ ਗਲਤ ਫਾਇਲ ਟਾਈਪ:
+Extended_description-pa.UTF-8: ਫਾਇਲ ਸਿਸਟਮ ਟਾਈਪ ${FILESYSTEM} ਨੂੰ ${MOUNTPOINT} ਉੱਤੇ ਮਾਊਂਟ ਨਹੀਂ ਕੀਤਾ ਸਕਦਾ, ਕਿਉਂਕਿ ਇਹ ਮੁਕੰਮਲ ਸਫ਼ਲ ਯੂਨੈਕਸ ਸਿਸਟਮ ਨਹੀਂ ਹੈ। ਵੱਖਰਾ ਫਾਇਲ ਸਿਸਟਮ ਚੁਣੋ ਜੀ, ਜਿਵੇਂ ਕਿ ${EXT2}।
+Description-pl.UTF-8: Nieprawidłowy system plików dla tego punktu montowania
+Extended_description-pl.UTF-8: System plików ${FILESYSTEM} nie może być zamontowany w ${MOUNTPOINT}, ponieważ nie jest w pełni funkcjonalnym systemem plików Uniksa. Proszę wybrać inny system plików, np. ${EXT2}.
+Description-pt.UTF-8: Sistema de ficheiros inválido para este ponto de montagem
+Extended_description-pt.UTF-8: O tipo de sistema de ficheiros ${FILESYSTEM} não pode ser montado em ${MOUNTPOINT}, porque não é um sistema de ficheiros Unix totalmente funcional. Por favor escolha um sistema de ficheiros diferente, tal como ${EXT2}.
+Description-pt_BR.UTF-8: Sistema de arquivos inválido para este ponto de montagem
+Extended_description-pt_BR.UTF-8: O tipo de sistema de arquivos ${FILESYSTEM} não pôde ser montado em ${MOUNTPOINT} devido ao mesmo não ser um sistema de arquivos Unix completamente funcional. Por favor, selecione um sistema de arquivos diferente, como ${EXT2}.
+Description-ro.UTF-8: Sistemul de fișiere invalid pentru acest punct de montare
+Extended_description-ro.UTF-8: Sistemul de fișiere de tipul ${FILESYSTEM} nu poate fi montat la ${MOUNTPOINT}, deoarece nu este un sistem de fișiere Unix complet funcțional. Vă rugăm să alegeți un alt sistem de fișiere, cum ar fi ${EXT2}.
+Description-ru.UTF-8: Недопустимая файловая система для этой точки монтирования
+Extended_description-ru.UTF-8: Файловая система с типом ${FILESYSTEM} не

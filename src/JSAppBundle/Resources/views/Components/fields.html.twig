@@ -1,0 +1,238 @@
+{#{% block form_widget %}
+    {% spaceless %}
+        <form class="">
+            {{ form_label(form) }}
+            {{ form_errors(form) }}
+            {{ form_widget(form) }}
+        </form>
+    {% endspaceless %}
+{% endblock contact_row %}#}
+
+{% block form_row %}
+    {% spaceless %}
+        <div class="form_group">
+            {{ form_label(form) }}
+            {{ form_errors(form) }}
+            {{ form_widget(form, { 'attr': {'class': 'form-control'} }) }}
+        </div>
+    {% endspaceless %}
+{% endblock form_row %}
+
+{% block contact_row %}
+    {% spaceless %}
+        <fieldset>
+            {{ form_label(form) }}
+            {{ form_errors(form) }}
+            {{ form_widget(form) }}
+        </fieldset>
+    {% endspaceless %}
+{% endblock contact_row %}
+
+{% block personne_row %}
+    {% spaceless %}
+        <fieldset>
+            {#            {{ form_label(form) }}#}
+            {{ form_errors(form) }}
+            {{ form_widget(form) }}
+        </fieldset>
+    {% endspaceless %}
+{% endblock personne_row %}
+
+{% block utilisateur_row %}
+    {% spaceless %}
+        {{ form_errors(form) }}
+        {{ form_widget(form) }}
+    {% endspaceless %}
+{% endblock utilisateur_row %}
+
+
+
+{# <<<<<<< .mine
+            <fieldset>
+               {{ form_row(form.personne) }}      
+            </fieldset>
+            <fieldset>
+                {{ form_row(form.username) }}
+                {{ form_row(form.password) }}
+                {{ form_row(form.actif) }}
+                {{ form_row(form.role) }}       
+            </fieldset>
+
+
+    </div>
+       {# <div>
+#}
+            <!-- Nav tabs -->
+           {# <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#identification" aria-controls="identification"
+                                                          role="tab" data-toggle="pill">Identification</a></li>
+                <li role="presentation"><a href="#security" aria-controls="security" role="tab" data-toggle="pill">Security</a>
+                </li>
+
+            </ul>#}
+            <!-- Tab panes -->
+           {# <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="identification">#}
+{#                    {{ form_row(form.children['personne']) }}#}
+               {# </div>
+                <div role="tabpanel" class="tab-pane" id="security">#}
+                   {# {{ form_row(form.children['username']) }}
+                    {{ form_row(form.children['password']) }}
+                    {{ form_row(form.children['actif']) }}
+                    {{ form_row(form.children['role']) }}#}
+
+               {# </div>
+            </div>#}
+
+{#        </div>#}
+{#    {% endspaceless %}    }#
+{# {% endblock utilisateur_widget %} #}
+
+{# =======  
+ >>>>>>> .r4945 #}
+
+{% block checkbox_row %}
+    {% spaceless %}
+        {#<div class="checkbox">
+            <label>
+                {{ form_widget(form) }} {{ form_label(form) }}
+            </label>
+        </div>#}
+        <div class="form_group">
+            {{ form_widget(form) }}
+            {{ form_label(form) }}
+            {{ form_errors(form) }}
+        </div>
+    {% endspaceless %}
+{% endblock checkbox_row %}
+
+
+{% block file_row %}
+    {% spaceless %}
+        <!--<div class="form_group fileinput">-->
+        <div class="form_group">
+            {{ form_label(form) }}
+            <!--
+            <div class="photo-panel">
+                <img class="photo" src="">
+            </div>
+            -->
+            {{ form_widget(form) }}
+            {{ form_errors(form) }}
+        </div>
+    {% endspaceless %}
+{% endblock file_row %}
+
+
+{% block submit_widget %}
+    {% spaceless %}
+        <input class="btn btn-primary" type="submit" value="Enregistrer">
+    {% endspaceless %}
+{% endblock submit_widget %}
+
+{% block reset_widget %}
+    {% spaceless %}
+        <input class="btn btn-primary" type="submit" value="Annuler">
+    {% endspaceless %}
+{% endblock reset_widget %}
+
+{#{% import "U2gCapvCoreBundle:Macros:choice_macro.html.twig" as macros %}#}
+{% block hierarchy_choice_widget %}
+    <ul class="listless spaced-listless" id="mainList">
+        {{ _self.choice_items(form.vars.choices, form) }}
+        {#{% for choiceOrOptionGroup,children in form.vars.choices %}#}
+        {#{% if children is iterable %}#}
+        {#<ul>#}
+        {#{% for child,choiceView in children %}#}
+        {#<li>#}
+        {#<label class="checkbox">#}
+        {#{{ form_widget(form.offsetGet(child)) }}#}
+        {#{{ form.offsetGet(child).vars.label }}#}
+        {#</label>#}
+        {#</li>#}
+        {#{% endfor %}#}
+        {#</ul>#}
+        {#{% else %}#}
+
+        {#&#123;&#35; If not first loop, close previous <li> &#35;&#125;#}
+        {#{% if not loop.first %}#}
+        {#</li>#}
+        {#{% endif %}#}
+
+        {#<li>#}
+        {#<label class="checkbox">#}
+        {#{{ form_widget(form.offsetGet(choiceOrOptionGroup)) }}#}
+        {#{{ form.offsetGet(choiceOrOptionGroup).vars.label }}#}
+        {#</label>#}
+        {#{% endif %}#}
+
+        {#&#123;&#35; Last of the loop, there will be an open <li>, close it. &#35;&#125;#}
+        {#{% if loop.last %}#}
+        {#</li>#}
+        {#{% endif %}#}
+        {#{% endfor %}#}
+    </ul>
+
+
+{% endblock %}
+
+{% macro choice_items(choices, form) %}
+    {% for choiceOrOptionGroup,children in choices %}
+        {#{{ dump(children) }}#}
+            {% if children is iterable %}
+                <ul>
+                    {{ _self.choice_items(children, form) }}
+
+                </ul>
+            {% else %}
+                {% if children.data.actionModule is null %}
+                    <li>
+                        {#<label class="checkbox">#}
+                            {#{{ dump(choiceOrOptionGroup) }}#}
+                            {#{{ dump(children.data.id) }}#}
+                            {#{{ form_widget(form.offsetGet(choiceOrOptionGroup)) }}#}
+                            {#{{ form.offsetGet(choiceOrOptionGroup).vars.label }}#}
+                        {#</label>#}
+                        <label class="checkbox">
+                            <input type="checkbox" id="role_action_{{ children.data.id }}" name="role[action][]" value="{{ children.data.id }}"  data-app="{{ children.data.moduleAppCapv.application.id }}">
+                            {{ children.data.translate(app.request.locale).getLibelle() }}
+                        </label>
+                    </li>
+                    {#{{ dump(children.data.fils) }}#}
+                    {% if children.data.fils is iterable %}
+                        {{ _self.display_child(children.data.fils) }}
+                    {% endif %}
+                {% endif %}
+
+
+            {% endif %}
+
+            {# Last of the loop, there will be an open <li>, close it. #}
+            {#{{ loop.index }}#}
+            {#{% if loop.last|default(true) %}#}
+                {#</li>#}
+            {#{% endif %}#}
+            {#{% if loop.last %}#}
+                {#</li>#}
+            {#{% endif %}#}
+    {% endfor %}
+{% endmacro %}
+
+{% macro display_child(childList) %}
+    <ul>
+
+        {% for child in childList %}
+            <li>
+                <label class="checkbox">
+                    <input type="checkbox" id="role_action_{{ child.id }}" name="role[action][]" value="{{ child.id }}"  data-app="{{ child.moduleAppCapv.application.id }}">
+                    {{ child.translate(app.request.locale).getLibelle() }}
+                </label>
+            </li>
+
+            {% if child.fils is iterable %}
+                {{ _self.display_child(child.fils) }}
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endmacro %}
+

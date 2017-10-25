@@ -1,0 +1,10 @@
+$(function() {
+	$(".role-manager-party button").on({
+	mouseenter: function () {
+		$(this).closest(".role-manager-party-container").addClass("role-manager-party-container-highlighted");
+	},
+	mouseleave: function () {
+		$(this).closest(".role-manager-party-container").removeClass("role-manager-party-container-highlighted");
+	}
+});
+});

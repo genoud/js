@@ -1,0 +1,259 @@
+), libgnutls-deb0-28 (>= 3.3.0), libiscsi2 (>= 1.10.0), libjpeg62-turbo (>= 1.3.1), libncurses5 (>= 5.5-5~), libpixman-1-0 (>= 0.19.6), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.1), librados2 (>= 0.72.2), librbd1 (>= 0.72.2), libsasl2-2, libsdl1.2debian (>= 1.2.11), libseccomp2 (>= 0.0.0~20120605), libspice-server1 (>= 0.12.5), libssh2-1 (>= 1.2.8), libtinfo5, libusb-1.0-0 (>= 2:1.0.19), libusbredirparser1 (>= 0.6), libuuid1 (>= 2.16), libvdeplug2, libx11-6, libxen-4.4 (>= 4.4.1), libxenstore3.0 (>= 3.2.0), zlib1g (>= 1:1.2.0), qemu-system-common (>> 2.0.0+dfsg-7~)
+Suggests: samba, vde2
+Breaks: qemu-system (<< 1.3.0+dfsg-5)
+Description: QEMU full system emulation binaries (miscelaneous)
+Homepage: http://www.qemu.org/
+Description-md5: 674392a7ac96dd45bd756ddd59d0917d
+Multi-Arch: foreign
+Recommends: qemu-utils, seabios, ipxe-qemu (>= 1.0.0+git-20131111.c3d1e78-1~)
+Section: otherosfs
+Priority: optional
+Filename: pool/updates/main/q/qemu/qemu-system-misc_2.1+dfsg-12+deb8u6_i386.deb
+Size: 5470492
+MD5sum: f5e5ff7bb83f6944b20a22bc81059849
+SHA1: 3c95517e88e65d73c34a4a5d4377d0a198f9f6d3
+SHA256: 1858f84938bcc2e4cbda6e98b6373b6bace4f708179bd4d3f85c65a0ff73139a
+
+Package: qemu-system-ppc
+Source: qemu
+Version: 1:2.1+dfsg-12+deb8u6
+Installed-Size: 21011
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Architecture: i386
+Replaces: qemu-system (<< 1.3.0+dfsg-5)
+Provides: qemu-system-ppc64, qemu-system-ppcemb
+Depends: libaio1 (>= 0.3.93), libasound2 (>= 1.0.16), libbluetooth3 (>= 4.91), libbrlapi0.6, libc6 (>= 2.15), libcurl3-gnutls (>= 7.16.3), libfdt1, libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.24.0), libgnutls-deb0-28 (>= 3.3.0), libiscsi2 (>= 1.10.0), libjpeg62-turbo (>= 1.3.1), libncurses5 (>= 5.5-5~), libpixman-1-0 (>= 0.19.6), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.1), librados2 (>= 0.72.2), librbd1 (>= 0.72.2), libsasl2-2, libsdl1.2debian (>= 1.2.11), libseccomp2 (>= 0.0.0~20120605), libspice-server1 (>= 0.12.5), libssh2-1 (>= 1.2.8), libtinfo5, libusb-1.0-0 (>= 2:1.0.19), libusbredirparser1 (>= 0.6), libuuid1 (>= 2.16), libvdeplug2, libx11-6, libxen-4.4 (>= 4.4.1), libxenstore3.0 (>= 3.2.0), zlib1g (>= 1:1.2.0), qemu-system-common (>> 2.0.0+dfsg-7~), qemu-slof, openbios-ppc (>= 1.1+svn1229), openhackware
+Suggests: samba, vde2
+Breaks: qemu-system (<< 1.3.0+dfsg-5)
+Description: QEMU full system emulation binaries (ppc)
+Homepage: http://www.qemu.org/
+Description-md5: d03bfc49c2ff5347dead81c4531ac2e0
+Multi-Arch: foreign
+Recommends: qemu-utils, seabios, ipxe-qemu (>= 1.0.0+git-20131111.c3d1e78-1~)
+Section: otherosfs
+Priority: optional
+Filename: pool/updates/main/q/qemu/qemu-system-ppc_2.1+dfsg-12+deb8u6_i386.deb
+Size: 2996142
+MD5sum: ad70942eed4d77fef99dbe23c936e9ba
+SHA1: 77dd0bd391369829dcfe11a513614e1b26f128af
+SHA256: 1acfeff634fbb2c9621646eb314e12c10f871bc4a4cce2270f9a06d116f89ed4
+
+Package: qemu-system-sparc
+Source: qemu
+Version: 1:2.1+dfsg-12+deb8u6
+Installed-Size: 8340
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Architecture: i386
+Replaces: qemu-system (<< 1.3.0+dfsg-5)
+Provides: qemu-system-sparc64
+Depends: libaio1 (>= 0.3.93), libasound2 (>= 1.0.16), libbluetooth3 (>= 4.91), libbrlapi0.6, libc6 (>= 2.15), libcurl3-gnutls (>= 7.16.3), libfdt1, libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.24.0), libgnutls-deb0-28 (>= 3.3.0), libiscsi2 (>= 1.10.0), libjpeg62-turbo (>= 1.3.1), libncurses5 (>= 5.5-5~), libpixman-1-0 (>= 0.19.6), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.1), librados2 (>= 0.72.2), librbd1 (>= 0.72.2), libsasl2-2, libsdl1.2debian (>= 1.2.11), libseccomp2 (>= 0.0.0~20120605), libspice-server1 (>= 0.12.5), libssh2-1 (>= 1.2.8), libtinfo5, libusb-1.0-0 (>= 2:1.0.19), libusbredirparser1 (>= 0.6), libuuid1 (>= 2.16), libvdeplug2, libx11-6, libxen-4.4 (>= 4.4.1), libxenstore3.0 (>= 3.2.0), zlib1g (>= 1:1.2.0), qemu-system-common (>> 2.0.0+dfsg-7~), openbios-sparc (>= 1.1+svn1229)
+Suggests: samba, vde2
+Breaks: qemu-system (<< 1.3.0+dfsg-5)
+Description: QEMU full system emulation binaries (sparc)
+Homepage: http://www.qemu.org/
+Description-md5: cb4be2931f1bb54f137765dca623e91b
+Multi-Arch: foreign
+Recommends: qemu-utils, seabios, ipxe-qemu (>= 1.0.0+git-20131111.c3d1e78-1~)
+Section: otherosfs
+Priority: optional
+Filename: pool/updates/main/q/qemu/qemu-system-sparc_2.1+dfsg-12+deb8u6_i386.deb
+Size: 1829538
+MD5sum: 85ec85cbe28fec19ef1035fa896f7c38
+SHA1: 974f9504008bf6e2979121b5dc0b3f46fd920926
+SHA256: 79968886a20b3794e75c720556f68ffe2a59d3cfcbd920618a870ace1a8a25e5
+
+Package: qemu-system-x86
+Source: qemu
+Version: 1:2.1+dfsg-12+deb8u6
+Installed-Size: 11789
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Architecture: i386
+Replaces: qemu-system (<< 1.3.0+dfsg-5)
+Provides: qemu-system-i386, qemu-system-x86-64
+Depends: libaio1 (>= 0.3.93), libasound2 (>= 1.0.16), libbluetooth3 (>= 4.91), libbrlapi0.6, libc6 (>= 2.15), libcurl3-gnutls (>= 7.16.3), libfdt1, libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.24.0), libgnutls-deb0-28 (>= 3.3.0), libiscsi2 (>= 1.10.0), libjpeg62-turbo (>= 1.3.1), libncurses5 (>= 5.5-5~), libpixman-1-0 (>= 0.19.6), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.1), librados2 (>= 0.72.2), librbd1 (>= 0.72.2), libsasl2-2, libsdl1.2debian (>= 1.2.11), libseccomp2 (>= 0.0.0~20120605), libspice-server1 (>= 0.12.5), libssh2-1 (>= 1.2.8), libtinfo5, libusb-1.0-0 (>= 2:1.0.19), libusbredirparser1 (>= 0.6), libuuid1 (>= 2.16), libvdeplug2, libx11-6, libxen-4.4 (>= 4.4.1), libxenstore3.0 (>= 4.1.0~rc6), zlib1g (>= 1:1.2.0), qemu-system-common (>> 2.0.0+dfsg-7~), seabios (>= 1.7.5~), ipxe-qemu (>= 1.0.0+git-20131111.c3d1e78-1~)
+Suggests: samba, vde2, kmod, sgabios, ovmf
+Breaks: libvirt0 (<< 1.2), qemu-system (<< 1.3.0+dfsg-5)
+Description: QEMU full system emulation binaries (x86)
+Homepage: http://www.qemu.org/
+Description-md5: 5ac9285103b36e8a4d3a9e37920fe122
+Multi-Arch: foreign
+Recommends: qemu-utils
+Section: otherosfs
+Priority: optional
+Filename: pool/updates/main/q/qemu/qemu-system-x86_2.1+dfsg-12+deb8u6_i386.deb
+Size: 2254616
+MD5sum: 7b99cd555201427a815347fd70d2d8fa
+SHA1: 8ae7a10f450430cbed83f6ec92abd60b95dd3d56
+SHA256: 53f3065eb765647e52302326d54174adbb417f5a4bcc1afa369f09bf766c2820
+
+Package: qemu-user
+Source: qemu
+Version: 1:2.1+dfsg-12+deb8u6
+Installed-Size: 48691
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.7), libglib2.0-0 (>= 2.24.0), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4)
+Suggests: sudo
+Description: QEMU user mode emulation binaries
+Homepage: http://www.qemu.org/
+Description-md5: b7a34d8d1377ca0beb573e0e2b4ce914
+Multi-Arch: foreign
+Recommends: qemu-user-binfmt
+Section: misc
+Priority: optional
+Filename: pool/updates/main/q/qemu/qemu-user_2.1+dfsg-12+deb8u6_i386.deb
+Size: 4783464
+MD5sum: ec3660b70eab9801b8d101e92e39174b
+SHA1: 4cfe60d2a09a8babc5066baaa1233e98c3aae608
+SHA256: dd42b89471fefb39c7f9fe63d1267ad7d0399559e472d1595ae5242ce24ac233
+
+Package: qemu-user-binfmt
+Source: qemu
+Version: 1:2.1+dfsg-12+deb8u6
+Installed-Size: 12
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Architecture: i386
+Depends: qemu-user (= 1:2.1+dfsg-12+deb8u6), binfmt-support
+Conflicts: qemu-user-static
+Description: QEMU user mode binfmt registration for qemu-user
+Homepage: http://www.qemu.org/
+Description-md5: b9d172841422ce933839d1a34cce7b20
+Multi-Arch: foreign
+Section: otherosfs
+Priority: optional
+Filename: pool/updates/main/q/qemu/qemu-user-binfmt_2.1+dfsg-12+deb8u6_i386.deb
+Size: 2884
+MD5sum: 48584856238ead17de18bb0923797ad6
+SHA1: 562ec4b82136f0fe6697a0be4abf1c0bbd66482d
+SHA256: 90c2bf229723ee77f5aa3117356a2db30b6278680f2f07ad12fea3ab24ea5f47
+
+Package: qemu-user-static
+Source: qemu
+Version: 1:2.1+dfsg-12+deb8u6
+Installed-Size: 76844
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Architecture: i386
+Provides: qemu-user-binfmt
+Suggests: sudo
+Conflicts: qemu-user-binfmt
+Description: QEMU user mode emulation binaries (static version)
+Homepage: http://www.qemu.org/
+Built-Using: gcc-4.9 (= 4.9.2-10), glib2.0 (= 2.42.1-1), glibc (= 2.19-18+deb8u4), zlib (= 1:1.2.8.dfsg-2)
+Description-md5: 5d8ec17cec68244efa918fa841e2964c
+Multi-Arch: foreign
+Recommends: binfmt-support
+Section: misc
+Priority: optional
+Filename: pool/updates/main/q/qemu/qemu-user-static_2.1+dfsg-12+deb8u6_i386.deb
+Size: 5880472
+MD5sum: 9ee922f7a55670260866dd1f0a726a84
+SHA1: e136015e2dec82d3059cba9485c46c31f3ffb8b3
+SHA256: 17bac7375c507041ad4adcb5e0ead5bcfbf61a3509d336996b2ba5bba3463f9a
+
+Package: qemu-utils
+Source: qemu
+Version: 1:2.1+dfsg-12+deb8u6
+Installed-Size: 3078
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Architecture: i386
+Depends: libaio1 (>= 0.3.93), libc6 (>= 2.12), libcurl3-gnutls (>= 7.16.3), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.24.0), libgnutls-deb0-28 (>= 3.3.0), libiscsi2 (>= 1.10.0), librados2 (>= 0.72.2), librbd1 (>= 0.72.2), libssh2-1 (>= 1.2.8), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Suggests: debootstrap
+Description: QEMU utilities
+Homepage: http://www.qemu.org/
+Description-md5: 2c65298afe6300be7b1ce793bdf9fb81
+Multi-Arch: foreign
+Recommends: sharutils
+Section: misc
+Priority: optional
+Filename: pool/updates/main/q/qemu/qemu-utils_2.1+dfsg-12+deb8u6_i386.deb
+Size: 544976
+MD5sum: 172bd222600aea41f27234eab8591903
+SHA1: 3e0c062d1ad76dc35d0756ead3b703b2ea35ceca
+SHA256: 8b2252ccc41f7bf4a11102c96619577cac3e967a66cc3cfa7d431a5701f86648
+
+Package: qtcreator
+Version: 3.2.1+dfsg-7+deb8u1
+Installed-Size: 43518
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libqt5sql5-sqlite, qml-module-qtquick-controls (>= 5.2.1-4~), qml-module-qtquick2 (>= 5.2.1-5~), qtchooser, qtcreator-data (= 3.2.1+dfsg-7+deb8u1), libbotan-1.10-0, libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.3.1), libqt5declarative5 (>= 5.0.2), libqt5designer5 (>= 5.0.2), libqt5designercomponents5 (>= 5.0.2), libqt5gui5 (>= 5.3.0), libqt5help5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.2.0~beta1), libqt5quick5 (>= 5.1.0), libqt5script5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5webkit5 (>= 5.2.0), libqt5widgets5 (>= 5.2.0), libqt5x11extras5 (>= 5.1.0), libqt5xml5 (>= 5.1.0), libstdc++6 (>= 4.9), libx11-6, qtbase-abi-5-3-2, qtdeclarative-abi-5-3-2, qtquick1-abi-5-2-1
+Suggests: cmake, g++, git, kdelibs5-data, subversion
+Description: lightweight integrated development environment (IDE) for Qt
+Homepage: http://qt-project.org/wiki/Category:Tools::QtCreator
+Description-md5: 7885cd3da2a1e224d06682f5f2a70d2e
+Recommends: gdb, make, qt5-doc, qtbase5-dev-tools, qtcreator-doc, qtdeclarative5-dev-tools, qtquick1-5-dev-tools, qttools5-dev-tools, qttranslations5-l10n, qtxmlpatterns5-dev-tools, xterm | x-terminal-emulator
+Section: devel
+Priority: optional
+Filename: pool/updates/main/q/qtcreator/qtcreator_3.2.1+dfsg-7+deb8u1_i386.deb
+Size: 11848908
+MD5sum: d75c3eb86ad32b4002e4652cdbe6aaeb
+SHA1: 01eb5c4365b523ccc2fb8abcd9a9a35851bc31ef
+SHA256: b90118cde5618746ec269ec0a45d4bc32045ac2e08dc55277dc4af2b3f97f637
+
+Package: qtcreator-data
+Source: qtcreator
+Version: 3.2.1+dfsg-7+deb8u1
+Installed-Size: 14443
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: all
+Replaces: qtcreator (<< 2.8.0-1~)
+Depends: perl
+Breaks: qtcreator (<< 2.8.0-1~)
+Description: application data for Qt Creator IDE
+Homepage: http://qt-project.org/wiki/Category:Tools::QtCreator
+Description-md5: 451e79fe2699670c3a4abfa99f701dd1
+Section: devel
+Priority: optional
+Filename: pool/updates/main/q/qtcreator/qtcreator-data_3.2.1+dfsg-7+deb8u1_all.deb
+Size: 2115832
+MD5sum: 2310d2eb065455aa5618d07dff9c808f
+SHA1: dd07e5930a9218a0d5b9ea0bcd835ad2ea4bde17
+SHA256: aea4867387841c116d20c190d2c2c99870a93cecd606138645e6e4c214619b9a
+
+Package: qtcreator-dbg
+Source: qtcreator
+Version: 3.2.1+dfsg-7+deb8u1
+Installed-Size: 323869
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: qtcreator (= 3.2.1+dfsg-7+deb8u1)
+Description: debugging symbols for Qt Creator IDE
+Homepage: http://qt-project.org/wiki/Category:Tools::QtCreator
+Description-md5: 629e09dcc2d3e8b586610af7dda13220
+Section: debug
+Priority: extra
+Filename: pool/updates/main/q/qtcreator/qtcreator-dbg_3.2.1+dfsg-7+deb8u1_i386.deb
+Size: 319675946
+MD5sum: 32f38d0d8a35465d51bbe13c3d88655a
+SHA1: 263f110b654832956dd22f9a3d61e0322a71b064
+SHA256: 1082c5b080728a5739a00bdd09ebb055eb24a25f420cc79a16c8d6d59a79e2f1
+
+Package: qtcreator-doc
+Source: qtcreator
+Version: 3.2.1+dfsg-7+deb8u1
+Installed-Size: 8365
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: all
+Suggests: qt5-doc
+Description: documentation for Qt Creator IDE
+Homepage: http://qt-project.org/wiki/Category:Tools::QtCreator
+Description-md5: 3222826a78bdc18828e17359c62a98cd
+Section: doc
+Priority: optional
+Filename: pool/updates/main/q/qtcreator/qtcreator-doc_3.2.1+dfsg-7+deb8u1_all.deb
+Size: 8383604
+MD5sum: b0527396f3c5fb25c8eb4660e20515e8
+SHA1: f1842bab393fe262b38d4b0414f6e923f4b52914
+SHA256: d158b572875944389cae2d30bd4b7747c96219f897b37b8722b65db7c6f0a118
+
+Package: quagga
+Version: 0.99.23.1-1+deb8u2
+Installed-Size: 5648
+Maintainer: Christian Hammers <ch@debian.org>
+Architecture: i386
+Replaces: zebra, zebra-pj
+Depends: libc6 (>= 2.15), libcap2 (>= 1:2.10), libpam0g (>= 0.99.7.1), libreadline6 (>= 6.0), libtinfo5, logrotate (>= 3.2-11), iproute2, debconf (>= 0.5) | debconf-2.0
+Suggests: snmpd
+Conflicts: zebra, zebra-pj
+Description: BGP/OSPF/RIP routing daemon
+Homepa

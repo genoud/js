@@ -8,6 +8,8 @@
 
 namespace JSAppBundle\Manager;
 
+use JSAppBundle\Dao\RoleRepository;
+use JSAppBundle\Entity\Role;
 use Symfony\Component\DependencyInjection\ContainerInterface as Container;
 class RoleManager extends CoreManager
 {
@@ -16,5 +18,25 @@ class RoleManager extends CoreManager
     {
         $entityClass="JSAppBundle\Entity\Role";
         parent::__construct($container, $core, $entityClass);
+    }
+
+    /**
+     * @param string $code
+     * @return Role
+     */
+    public function getRoleByCode($code){
+        $repo=$this->getRepository();
+        $roles=$repo->findByCode($code);
+        if(isset($roles) && count($roles)>0){
+            return $roles[0];
+        }
+        return null;
+    }
+    /**
+     * @return RoleRepository
+     */
+    public function getRepository()
+    {
+        return parent::getRepository();
     }
 }

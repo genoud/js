@@ -1,0 +1,1639 @@
+. దయచేసి  పేరు ప్రవేశపెట్టండి.
+Description-tg.UTF-8: Ягон номи ҳаҷми мантиқӣ ворид нашудааст
+Extended_description-tg.UTF-8: Ягон ном барои ҳаҷми мантиқӣ ворид нашудааст. Лутфан, номеро ворид кунед.
+Description-th.UTF-8: ไม่ได้ป้อนชื่อโวลุมลอจิคัล
+Extended_description-th.UTF-8: คุณไม่ได้ป้อนชื่อโวลุมลอจิคัล กรุณาป้อนชื่อด้วย
+Description-tr.UTF-8: Herhangi bir mantıksal cilt adı girilmedi
+Extended_description-tr.UTF-8: Mantıksal cilt için bir ad girilmedi. Lütfen bir ad girin.
+Description-ug.UTF-8: لوگىكىلىق دىسكا ئاتى كىرگۈزۈلمىدى
+Extended_description-ug.UTF-8: لوگىكىلىق دىسكا گۇرۇپپا ئاتىنى بېكىتمىدىڭىز، ئىسىمدىن بىرنى كىرگۈزۈڭ.
+Description-uk.UTF-8: Назва логічного тому не була введена.
+Extended_description-uk.UTF-8: Назва логічного тому не була введена. Введіть назву.
+Description-vi.UTF-8: Chưa nhập tên khối tin hợp lý
+Extended_description-vi.UTF-8: Chưa nhập tên cho khối tin luận lí. Hãy nhập một tên.
+Description-zh_CN.UTF-8: 未输入逻辑卷名
+Extended_description-zh_CN.UTF-8: 尚未设定逻辑卷名，请输入一个名称。
+Description-zh_TW.UTF-8: 沒有輸入任何的 Logical Volume 名稱
+Extended_description-zh_TW.UTF-8: 沒有替該 Logical Volume 輸入名稱。請輸入一個名稱。
+
+Name: partman-lvm/lvcreate_size
+Type: string
+Description: Logical volume size:
+Extended_description: Please enter the size of the new logical volume. The size may be entered in the following formats: 10K (Kilobytes), 10M (Megabytes), 10G (Gigabytes), 10T (Terabytes). The default unit is Megabytes.
+Description-ar.UTF-8: حجم الكتلة الافتراضيّة:
+Extended_description-ar.UTF-8: الرجاء إدخال حجم الكتلة الافتراضيّة الجديدة. يمكنك إدخال الحجم حسب الأنساق التّالية:  10K (كيلوبايت)، 10M (ميجابايت)، 10G (جيجابايت)، 10T (تيرابايت). الوحدة الافتراضيّة هي الميجابايت.
+Description-ast.UTF-8: Tamañu volume llóxicu:
+Extended_description-ast.UTF-8: Por favor, introduz el tamañu del nuevu volume llóxicu. El tamañu puede ser introducíu nos siguientes formatos: 10K (Kilobytes), 10M (Megabytes), 10G (Gigabytes), 10T (Terabytes). La unidá por defeuto ye Megabytes.
+Description-be.UTF-8: Памер лагічнага тома:
+Extended_description-be.UTF-8: Калі ласка, увядзіце памер новага лагічнага тома. Памер можа быць уведзены ў наступных фарматах: 10K (Кілабайты), 10M (Мегабайты), 10G (Гігабайты), 10T (Тэрабайты). Прадвызначанай адзінкай ёсць Мегабайты.
+Description-bg.UTF-8: Големина на новия логически том:
+Extended_description-bg.UTF-8: Въведете големината на новия логически том. Големината може да бъде въведена в един от следните формати: 10K (Килобайти), 10M (Мегабайти), 10G (Гигабайти), 10T (Терабайти). Подразбиращата се мерна единица е Мегабайти.
+Description-bn.UTF-8: লজিকাল ভলিউমের আকার:
+Extended_description-bn.UTF-8: অনুগ্রহপূর্বক নতুন লজিকাল ভলিউমের আকার লিখুন। আকারকে লিখতে পারবেন এইসব পদ্ধতিতে: 10K (কিলোবাইট), 10M (মেগাবাইট), 10G (গিগাবাইট), 10T (টেরাবাইট)। ডিফল্ট একক হল মেগাবাইট।
+Description-bs.UTF-8: Veličina logičke particije:
+Extended_description-bs.UTF-8: Molim unesite veličinu nove logičke particije. Veličina se može unijeti u sljedećem obliku: 10K (kilobajti), 10M (megabajti), 10G (gigabajti), 10T (terabajti). Podrazumijevana jedinica su megabajti.
+Description-ca.UTF-8: Mida del volum lògic:
+Extended_description-ca.UTF-8: Introduïu la mida del volum lògic. La mida es pot introduir en els següents formats: 10K (Kilobytes), 10M (Megabytes), 10G (Gigabytes), 10T (Terabytes). La unitat predeterminada són megabytes.
+Description-cs.UTF-8: Velikost logického svazku:
+Extended_description-cs.UTF-8: Zadejte velikost nového logického svazku. Velikost můžete zadat v následujících formátech: 10K (kilobajty), 10M (megabajty), 10G (gigabajty), 10T (terabajty). Standardní jednotky jsou megabajty.
+Description-cy.UTF-8: Maint y cyfrol rhesymegol:
+Extended_description-cy.UTF-8: Rhowch faint y cyfrol rhesymegol newydd os gwelwch yn dda. Gellir rhoi'r maint yn y ffurfiau canlynol: 10K (Cilobeitiau), 10M (Megabeitiau), 10G (Gigabeitiau), 10T (Terabeitiau). Megabeitiau yw'r uned diofyn.
+Description-da.UTF-8: Størrelse på logisk diskenhed:
+Extended_description-da.UTF-8: Angiv størrelsen på den nye logiske diskenhed. Størrelsen kan angives i følgende formater: 10K (Kilobyte), 10M (Megabyte), 10G (Gigabyte), 10T (Terabyte). Som standard antages Megabyte.
+Description-de.UTF-8: Größe des logischen Volumes:
+Extended_description-de.UTF-8: Bitte geben Sie die Größe des neuen logischen Volumes an. Die Größe kann in folgenden Formaten angegeben werden: 10K (Kilobyte), 10M (Megabyte), 10G (Gigabyte), 10T (Terabyte). Die Standardeinheit ist Megabyte.
+Description-dz.UTF-8: གཏན་ཚིག་ཅན་གྱི་བོ་ལུསམ་ཚད:
+Extended_description-dz.UTF-8: གཏན་ཚིག་ཅན་གྱི་བོ་ལུསམ་གསརཔ་འདི་གི་ཚད་བཙུགས་གནང་། ཚད་འདི་འོག་གི་རྩ་སྒྲིག་ཚུ་ནང་བཙེགས་བཙུགསཔ་འོང་།་10K (Kilobytes), 10M (Megabytes), 10G (Gigabytes), 10T (Terabytes).སྔོན་སྒྲིག་ཆ་ཕྲན་འདི་མེ་ག་བའིཊིསི་ཚུ་ཨིན།
+Description-el.UTF-8: Μέγεθος Λογικού Τόμου:
+Extended_description-el.UTF-8: Δώστε το μέγεθος του νέου Λογικού Τόμου. Το μέγεθος μπορεί να δοθεί σε μία από τις ακόλουθες μορφές: 10K (Kilobytes), 10M (Megabytes), 10G (Gigabytes), 10T (Terabytes). Η προεπιλεγμένη μονάδα μεγέθους είναι Megabytes.
+Description-eo.UTF-8: Logika datumportila amplekso:
+Extended_description-eo.UTF-8: Bonvolu tajpi la amplekson de la nova logika datumportilo. La amplekso povos esti indikata tiamaniere: 10K (Kilobajtoj), 10M (Megabajtoj), 10G (Gigabajtoj), 10T (Terabajtoj). Megabajto estas la implicita mezurunuo.
+Description-es.UTF-8: Tamaño de volumen lógico:
+Extended_description-es.UTF-8: Introduzca el tamaño del nuevo volumen lógico. El tamaño puede ser introducido en los siguientes formatos: 10K (Kilobytes), 10M (Megabytes), 10G (Gigabytes), 10T (Terabytes). La unidad por omisión es megabytes.
+Description-et.UTF-8: Loogilise köite suurus:
+Extended_description-et.UTF-8: Palun sisesta uue loogilise köite suurus. Suurust võib sisestada järgnevates vormingutes: 10K (kilobaite), 10M (megabaite), 10G (gigabaite), 10T (terabaite). Vaikimisi ühik on megabait.
+Description-eu.UTF-8: Bolumen logikoaren tamaina:
+Extended_description-eu.UTF-8: Sartu bolumen logiko berriaren tamaina. Formatua tamaina hauetan sar daiteke: 10K (kilobyte), 10M (megabyte), 10G (gigabyte), 10T (terabyte). Unitate lehenetsia megabyte da.
+Description-fa.UTF-8: اندازه Logical volume:
+Extended_description-fa.UTF-8: لطفا اندازهٔ حجم منطقی جدید را وارد کنید. اندازه می‌تواند به صورت‌های مقابل وارد شود: 10K (کیلوبایت), 10M (مگابایت), 10G (گیگابایت), 10T (ترابایت) . واحد پیشفرض مگابایت می‌باشد .
+Description-fi.UTF-8: Loogisen taltion koko:
+Extended_description-fi.UTF-8: Anna uuden loogisen taltion koko. Koko voidaan ilmoittaa jossakin seuraavista muodoista: 10K (kilotavua), 10M (megatavua), 10G (gigatavua), 10T (teratavua). Oletusyksikkö on megatavu.
+Description-fr.UTF-8: Taille du volume logique :
+Extended_description-fr.UTF-8: Veuillez indiquer la taille du nouveau volume logique. Les tailles peuvent être indiquées aux formats suivants : 10K (kilo-octets), 10M (mégaoctets), 10G (gigaoctets), 10T (téraoctets). L'unité par défaut est le mégaoctet.
+Description-ga.UTF-8: Méid an imleabhair loighciúil:
+Extended_description-ga.UTF-8: Iontráil méid an imleabhair nua loighciúil. Is féidir leat an mhéid a chur isteach i gceann de na formáidí seo a leanas: 10K (Cilibirt), 10M (Meigibirt), 10G (Gigibirt), 10T (Teirbirt). Is é MB an t-aonad réamhshocraithe.
+Description-gl.UTF-8: Tamaño do volume lóxico:
+Extended_description-gl.UTF-8: Introduza o tamaño do novo volume lóxico. O tamaño pódese introducir nos seguintes formatos: 10K (kilobytes), 10M (megabytes), 10G (gigabytes), 10T (terabytes). A unidade predeterminada é megabytes.
+Description-gu.UTF-8: તાર્કિક કદ માપ:
+Extended_description-gu.UTF-8: મહેરબાની કરી નવા તાર્કિક કદનું માપ દાખલ કરો. માપ નીચેનાં બંધારણોમાં દાખલ કરી શકાશે: ૧૦K (કિલોબાઇટ્સ), ૧૦M (મેગાબાઇટ્સ), ૧૦G (Gigaબાઇટ્સ), ૧૦T (Teraબાઇટ્સ). મૂળભુત માપ મેગાબાઇટ્સ છે.
+Description-he.UTF-8: גודל נפח לוגי:
+Extended_description-he.UTF-8: הכנס את הגודל של הנפח הלוגי החדש. את הגודל אפשר להכניס במבנים הבאים: 10K (Kilobytes), 10M (Megabytes), 10G (Gigabytes), 10T (Terabytes). יחידה ברירת המחדל היא Megabytes.
+Description-hi.UTF-8: लॉज़िकल वॉल्यूम आकार:
+Extended_description-hi.UTF-8: कृपया नये लॉजिकल वॉल्यूम का आकार भरें. आकार निम्न संरूप में भरा जा सकता है: 10K (किलोबाइट्स), 10M (मेगाबाइट्स), 10G (गीगाबाइट्स), 10T (टेराबाइट्स). डिफॉल्ट इकाई मेगाबाइट्स है.
+Description-hr.UTF-8: Veličina logičkog prostora:
+Extended_description-hr.UTF-8: Molim unesite veličinu novog logičkog prostora. Ona može biti unesena na sljedeće načine: 10K (kilobajta), 10M (megabajta), 10G (gigabajta), 10T (terabajta). Zadana vrijednost su megabajti.
+Description-hu.UTF-8: Logikai kötet mérete:
+Extended_description-hu.UTF-8: Add meg az új logikai kötet méretét. A méret megadása az alábbi formátumokban történhet: 10K (kilobájt), 10M (megabájt), 10G (gigabájt), 10T (terabájt). Az alapegység a megabájt.
+Description-id.UTF-8: Ukuran Volum Logikal:
+Extended_description-id.UTF-8: Silakan masukkan ukuran Volum Logikal baru. Ukuran dapat dimasukkan dalam format berikut: 10K (Kilobyte), 10M (Megabyte), 10G(Gigabyte), 10T (Terabyte). Satuan bawaan adalah Megabyte.
+Description-is.UTF-8: Stærð rökeintaks:
+Extended_description-is.UTF-8: Settu inn stærð nýja rökeintaksins. Hægt er að slá inn stærðina á eftirfarandi formum: 10K (Kílóbæti), 10M (Megabæti), 10G (Gígabæti) eða 10T (Terabæti). Sjálfgefin eining er Megabæti.
+Description-it.UTF-8: Dimensione del volume logico:
+Extended_description-it.UTF-8: Indicare la dimensione del volume logico. La dimensione può essere indicata nei seguenti formati: 10K (kilobyte), 10M (megabyte), 10G (gigabyte), 10T (terabyte). L'unità predefinita è megabyte.
+Description-ja.UTF-8: 論理ボリュームサイズ:
+Extended_description-ja.UTF-8: 新しい論理ボリュームのサイズを入力してください。サイズは以下の書式で入力できます: 10K (キロバイト)、10M (メガバイト)、10G (ギガバイト)、 10T (テラバイト)。デフォルトの単位はメガバイトです。
+Description-ka.UTF-8: ლოგიკური დისკწამყვანის ზომა:
+Extended_description-ka.UTF-8: მიუთითეთ ახალი ლოგიკური დისკწამყვანის ზომა ფორმატში: 10K (კილობაიტი), 10M (მეგაბაიტი), 10G (გიგაბაიტი), 10T (ტერაბაიტი). თუ მითითებულია მარტო რიცხვი, იგულისხმება მეგაბაიტი.
+Description-kk.UTF-8: Логикалық томның көлемі:
+Extended_description-kk.UTF-8: Жаңа логикалық томның көлемін енгізіңіз. Көлемі келесі түрде көрсетілуі мүмкін: 10K (килобайт), 10M (мегабайт), 10G (гигабайт), 10T (терабайт). Әдетте мегабайт қолданылады.
+Description-km.UTF-8: ទំហំ​ភាគ​ឡូជីខល ៖
+Extended_description-km.UTF-8: សូម​បញ្ចូល​ទំហំ​របស់​ភាគ​ឡូជីខល​ថ្មី ។ អ្នក​អាច​បញ្ចូល​ទំហំ​ក្នុង​ទម្រង់ ៖ 10K (គីឡូបៃ), 10M (មេកាបៃ), 10G (ជីកាបៃ), 10T (តេរ៉ាបៃ) ។ ឯកតា​លំនាំដើម​គឺ មេកាបៃ ។
+Description-kn.UTF-8: ತಾರ್ಕಿಕ ಪರಿಮಾಣ ಗಾತ್ರ:
+Extended_description-kn.UTF-8: ದಯಮಾಡಿ ಹೊಸ ತಾರ್ಕಿಕ ಸಂಪುಟದ ಗಾತ್ರವನ್ನು ದಾಖಲಿಸಿ. ಈ ಮುಂದಿನ ಶೈಲಿಗಳೊಂದರಲ್ಲಿ ದಾಖಲಿಸಬಹುದಾಗಿದೆ: 10K(ಕಿಲೊಬೈಟ್),10M(ಮೆಗಾಬೈಟ್),10G(ಗಿಗಾಬೈಟ್),10T(ಟೆರಾಬೈಟ್). ಪೂರ್ವನಿಯೋಜಿತ ಏಕಮಾನ ಮೆಗಾಬೈಟ್ ಆಗಿದೆ.
+Description-ko.UTF-8: 논리 볼륨 크기:
+Extended_description-ko.UTF-8: 새 논리 볼륨의 크기를 입력하십시오. 크기는 다음과 같은 형식으로 입력할 수 있습니다: 10K (킬로바이트), 10M (메가바이트), 10G (기가바이트), 10T (테라바이트). 기본 단위는 메가바이트입니다.
+Description-ku.UTF-8: Mezinahiya cilta aqilane:
+Extended_description-ku.UTF-8: Ji kerema xwe re mezinahiya cîlda mantikî ya nû binivîse. Dikarî mezinahî bi van formatan binivîsî: 10K (Kîlobayt), 10M (Megabayt), 10G (Gîgabayt) 10T (Terabayt). Yekeya standard Megabayt e.
+Description-lo.UTF-8: ຂະໜາດ logical volume:
+Extended_description-lo.UTF-8: ກາລຸນາປ້ອນຂະໜາດຂອງ logical volume ໃໝ່ທີ່ຈະສ້າງ ທ່ານສາມາດປ້ອນຂະໜາດໃນຮູບແບບຕໍ່ໄປນີ້ໄດ້:  10K ( ກິໂລໄບຣ໌ ), 10M (ເມກາໄບຣ໌), 10G ( ກິກະໄບຣ໌ ), 10T ( ເທຮາໄບຣ໌ )ໜ່ວຍໂດຍປະລິຍາຍຄືເມກາໄບຣ໌
+Description-lt.UTF-8: Loginio tomo (Logical Volume) dydis:
+Extended_description-lt.UTF-8: Prašau įvesti norimą naujo loginio tomo (Logical Volume) dydį. Jį galite nurodyti kilobaitais (pvz., 10K), megabaitais (10M), gigabaitais (10G), terabaitais (10T).  Jei nenurodysite vieneto, dydis bus matuojamas megabaitais.
+Description-lv.UTF-8: Loģiskā sējuma izmērs:
+Extended_description-lv.UTF-8: Ievadiet jaunā loģiskā sējuma izmēru. To var ievadīt šādos veidos: 10K (Kilobaiti), 10M (Megabaiti), 10G (Gigabaiti), 10T (Terabaiti). Noklusētā vienība ir megabaiti.
+Description-mk.UTF-8: Големина на логичкиот простор:
+Extended_description-mk.UTF-8: Те молам внеси ја големината на новиот логички простор. Големината може да биде внесена во следните формати: 10К (килобајти), 10M (мегабајти), 10G (гигабајти), 10Т (терабајти). Предефинираната единица е во мегабајти.
+Description-ml.UTF-8: ലോജിക്കല്‍ വാള്യം വലിപ്പം:
+Extended_description-ml.UTF-8: ദയവായി പുതിയ ലോജിക്കല്‍ വാള്യത്തിന്റെ വലിപ്പം നല്‍കുക. താഴെ കൊടുത്തിരിക്കുന്ന ഫോര്‍മാറ്റുകളില്‍ വലിപ്പം നല്‍കാവുന്നതാണ്: 10K (കിലോബൈറ്റുകള്‍), 10M (മെഗാബൈറ്റുകള്‍), 10G (ഗിഗാബൈറ്റുകള്‍), 10T (ടെറാബൈറ്റുകള്‍). ഡിഫാള്‍ട്ട് യൂണിറ്റ് മെഗാബൈറ്റുകള്‍ ആണു്.
+Description-mr.UTF-8: तार्किक खंडाचा आकार:
+Extended_description-mr.UTF-8: कृपया या नवीन तार्किक खंडाचा आकार ठरवा. आकार पुढील स्वरूपात देता येईल: १०के (किलोबाइटस्), १०एम (मेगॅबाइटस्), १०जी (गीगॅबाइटस्), १०टी (टेरॅबाइटस्). मूलनिर्धारित एकक मेगॅबाइटस् आहे.
+Description-nb.UTF-8: Størrelsen på det logiske dataområdet:
+Extended_description-nb.UTF-8: Skriv inn størrelsen på det nye logiske dataområdet. Størrelsen kan angis i følgende format: 10K (Kilobyte), 10M (Megabyte), 10G (Gigabyte), 10T (Terabyte). Standardenheten er megabyte.
+Description-ne.UTF-8: लोजिकल भोल्युम साइज:
+Extended_description-ne.UTF-8: कृपया नयाँ लोजिकल भोल्युमको साइज प्रविष्ट गर्नुहोस् । साइज निम्न ढाँचाहरुमा प्रविष्टि हुन सक्छ:१०के (किलोबाइट), १०मे (मेगाबाइट), १०गी (गिगाबाइट), १०टे (टेराबाइट) । पूर्वनिर्धारित एकाई मेगाबाइट हो ।
+Description-nl.UTF-8: Grootte voor het logisch volume:
+Extended_description-nl.UTF-8: Wat is de grootte van het nieuw logisch volume? U kunt de grootte opgeven in de volgende formaten: 10K (kilobyte), 10M (megabyte), 10G (gigabyte), 10T (terabyte). De standaard eenheid is megabyte.
+Description-nn.UTF-8: Storleiken på det logisk dataområdet:
+Extended_description-nn.UTF-8: Skriv inn storleiken på det nye logiske dataområdet. Storleiken kan skrivast inn på følgjande format: 10K (Kilobyte), 10M (Megabyte), 10G (Gigabyte), 10T (Terabyte). Standardeininga er Megabyte.
+Description-no.UTF-8: Størrelsen på det logiske dataområdet:
+Extended_description-no.UTF-8: Skriv inn størrelsen på det nye logiske dataområdet. Størrelsen kan angis i følgende format: 10K (Kilobyte), 10M (Megabyte), 10G (Gigabyte), 10T (Terabyte). Standardenheten er megabyte.
+Description-pa.UTF-8: ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਅਕਾਰ:
+Extended_description-pa.UTF-8: ਨਵੇਂ ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਦਾ ਅਕਾਰ ਦਿਓ। ਅਕਾਰ ਹੇਠਲੇ ਫਾਰਮੈਟ ਵਿੱਚ ਦਿੱਤਾ ਜਾ ਸਕਦਾ ਹੈ: 10K (ਕਿਲੋਬਾਈਟ), 10M (ਮੈਗਾਬਾਈਟ), 10G (ਗੈਗਾਬਾਈਟ), 10T (ਟੈਰਾਬਾਈਟ)। ਮੂਲ ਇਕਾਈ ਮੈਗਾਬਾਈਟ ਹੈ।
+Description-pl.UTF-8: Rozmiar woluminu logicznego:
+Extended_description-pl.UTF-8: Proszę wprowadzić rozmiar nowego woluminu logicznego. Rozmiar może zostać wprowadzony w następujących formatach: 10K (kilobajty), 10M (megabajty), 10G (gigabajty), 10T (terabajty). Domyślną jednostką są megabajty.
+Description-pt.UTF-8: Tamanho do volume lógico:
+Extended_description-pt.UTF-8: Por favor introduza o tamanho do novo volume lógico. O tamanho pode ser introduzido nos seguintes formatos: 10K (Kilobytes), 10M (Megabytes), 10G (Gigabytes), 10T (Terabytes). Por omissão a unidade são Megabytes.
+Description-pt_BR.UTF-8: Tamanho do volume lógico:
+Extended_description-pt_BR.UTF-8: Por favor, informe o tamanho do novo volume lógico. O tamanho pode ser informado nos seguintes formatos: 10K (Kilobytes), 10M (Megabytes), 10G (Gigabytes), 10T (Terabytes). A unidade padrão é Megabytes.
+Description-ro.UTF-8: Dimensiunea volumului logic:
+Extended_description-ro.UTF-8: Vă rugăm să introduceți dimensiunea noului volum logic. Dimensiunea poate fi introdusă în următoarele formate: 10K (kiloocteți), 10M (megaocteți), 10G (gigaocteți), 10T (terraocteți). Unitatea de măsură implicită este megaoctetul.
+Description-ru.UTF-8: Размер логического тома:
+Extended_description-ru.UTF-8: Введите размер нового логического тома. Размер может быть указан в следующих форматах: 10K (килобайты), 10M (мегабайты), 10G (гигабайты), 10T (терабайты). По умолчанию используются мегабайты.
+Description-si.UTF-8: න්‍යායික වෙළුම් ප්‍රමාණය:
+Extended_description-si.UTF-8: කරුණාකර නව න්‍යායික වෙළුම සඳහා ප්‍රමාණය ඇතුළත් කරන්න. මෙම අගය පහත ආකාරයන්ට ඇතුළත් කල හැක:  10K (කිලෝබයිට), 10M (මෙගාබයිට), 10G (ගිගාබයිට), 10T (ටෙරාබයිට) පෙරනිමි ඒකකය වන්නේ මෙගාබයිටයි.
+Description-sk.UTF-8: Veľkosť logického zväzku:
+Extended_description-sk.UTF-8: Zadajte veľkosť nového logického zväzku. Veľkosť zväzku môžete zadať v nasledovných formátoch: 10K (Kilobajty), 10M (Megabajty), 10G (Gigabajty), 10T (Terabajty). Štandardnými jednotkami sú Megabajty.
+Description-sl.UTF-8: Velikost logičnega nosilca:
+Extended_description-sl.UTF-8: Vnesite velikost novega logičnega nosilca. Velikost lahko vnesete v naslednjih oblikah: 10K (kilobajti), 10M (megabajti), 10G (gigabajti), 10T (terabajti). Privzeta enota je megabajt.
+Description-sq.UTF-8: Madhësia e Volumit Logjik:
+Extended_description-sq.UTF-8: Të lutem cakto madhësinë e Volumit të ri Logjik. Madhësia mund të caktohet në formatet e mëposhtme: 10K (Kilobyte), !0M (Megabyte), 10G (Gigabyte), 10T (Terabyte). Njësia e prezgjedhur është Megabyte.
+Description-sr.UTF-8: Величина логичког волумена:
+Extended_description-sr.UTF-8: Унесите величину новог логичког волумена. Могући формати су: 10K (килобајти), 10M (мeгабајти), 10G (гигабајти), 10T (тeрабајти). Подразумеване јединице су мегабајти.
+Description-sv.UTF-8: Storlek på logisk volym:
+Extended_description-sv.UTF-8: Ange storleken på den nya logiska volymen. Storleken kan anges på följande format: 10K (Kilobyte), 10M (Megabyte), 10G (Gigabyte), 10T (Terabyte). Standardenheten är Megabyte.
+Description-ta.UTF-8: தர்க்க ரீதியான தொகுதியின் அளவு:
+Extended_description-ta.UTF-8: புதிய தர்க்க ரீதியான தொகுதியின் அளவை உள்ளிடவும். அளவை பின் வரும் பாணியில் உள்ளிடலாம்: 10K (கிலோபைட்டுகள் ), 10M (மெகாபைட்டுகள் ), 10G (கிகாபைட்டுகள் ), 10T (டெராபைட்டுகள் ). முன்னிருப்பு அளவு மெகாபைட்டுகள்.
+Description-te.UTF-8: Logical volume పరిమాణం:
+Extended_description-te.UTF-8: Logical volume పరిమాణం ప్రవేశపెట్టండి.  క్రింది విధమైన తీరులు వాడవచ్చు: 10K (కిలోబైట్లు), 10M (మెగాబైట్లు), 10G (గిగాబైట్లు), 10T (టెరాబైట్లు). అప్రమేయ కొలమానం మెగాబైట్లు.
+Description-tg.UTF-8: Андозаи ҳаҷми мантиқӣ:
+Extended_description-tg.UTF-8: Лутфан, андозаи ҳаҷми нави мантиқиро ворид кунед. Андоза метавонад дар форматҳои зерин ворид карда шавад: 10K (Килобайт), 10M (Мегабайт), 10G (Гигабайт), 10T (Терабайт). Воҳиди пешфарз мегабайт мебошад.
+Description-th.UTF-8: ขนาดโวลุมลอจิคัล:
+Extended_description-th.UTF-8: กรุณาป้อนขนาดของโวลุมลอจิคัลอันใหม่ที่จะสร้าง คุณอาจป้อนขนาดในรูปแบบต่อไปนี้ได้: 10K (กิโลไบต์), 10M (เมกะไบต์), 10G (กิกะไบต์), 10T (เทราไบต์) หน่วยโดยปริยายคือเมกะไบต์
+Description-tl.UTF-8: Laki ng logical volume:
+Extended_description-tl.UTF-8: Ibigay ang laki ng bagong logical volume. Ang laki ay maaaring ipasok sa mga sumusunod ng mga anyo: 10K (Kilobytes), 10M (Megabytes), 10G (Gigabytes), 10T (Terabytes).  Ang default na unit ay Megabytes.
+Description-tr.UTF-8: Mantıksal cilt boyutu:
+Extended_description-tr.UTF-8: Lütfen yeni oluşturulacak mantıksal cildin boyutunu girin. Boyut şu biçimlerde girilebilir: 10K (Kilobyte), 10M (Megabyte), 10G (Gigabyte), 10T (Terabyte). Öntanımlı birim Megabyte'dır.
+Description-ug.UTF-8: لوگىكىلىق دىسكا چوڭلۇقى:
+Extended_description-ug.UTF-8: يېڭى لوگىكىلىق دىسكا چوڭلۇقىنى كىرگۈزۈڭ. تۆۋەندىكىدەك كىرگۈزسىڭىز بولىدۇ: 10K (كىلوبايت)، 10M (مېگابايت)، 10G (گېگابايت)، 10T (تېرابايت). كۆڭۈلدىكى بىرلىك مېگابايت.
+Description-uk.UTF-8: Розмір логічного тому:
+Extended_description-uk.UTF-8: Введіть розмір нового логічного тому. Розмір може бути введений в наступних форматах: 10K (кілобайти), 10M (мегабайти), 10G (гігабайти), 10T (терабайти). За замовчанням використовуються мегабайти.
+Description-vi.UTF-8: Cỡ khối tin hợp lý:
+Extended_description-vi.UTF-8: Hãy gõ kích cỡ của khối tin hợp lý mới. Kích cỡ có thể được nhập theo những định dạng này:\n • 10K 	Kilobyte		(phát âm)  khi-lô-bại-th\n • 10M 	Megabyte				  me-ga-bại-th\n • 10G	Gigabyte				  ghi-ga-bại-th\n • 10T	Terabyte				  the-ra-bại-th\n Đơn vị mặc định là Megabyte.
+Description-zh_CN.UTF-8: 逻辑卷大小：
+Extended_description-zh_CN.UTF-8: 请输入新逻辑卷的大小。输入可以是下列格式：10K (千字节)，10M (兆字节)，10G (GB)，10T (TB)。默认单位是兆字节。
+Description-zh_TW.UTF-8: Logical Volume 大小：
+Extended_description-zh_TW.UTF-8: 請輸入新的 Logical Volume 的大小。在輸入時可以使用以下格式：10K (Kilobytes)，10M (Megabytes)，10G (Gigabytes)，10T (Terabytes)。預設的單位是 Megabytes。
+
+Name: partman-lvm/lvcreate_vgnames
+Type: select
+Choices: ${GROUPS}
+Description: Volume group:
+Extended_description: Please select the volume group where the new logical volume should be created.
+Description-am.UTF-8: የይዘት ግሩፕ፦
+Extended_description-am.UTF-8: እባክዎ አዲስ ሎጂካዊ ይዘት የሚፈጠርበትን የይዘት ግሩፕ ይምረጡ፡፡
+Description-ar.UTF-8: مجموعة الكتل:
+Extended_description-ar.UTF-8: الرجاء اختيار مجموعة الكتل حيث يجب إنشاء الكتلة الافتراضيّة الجديدة.
+Description-ast.UTF-8: Grupu volume:
+Extended_description-ast.UTF-8: Por favor, introduz el grupu de volume onde'l nuevu volume llóxicu será criáu.
+Description-be.UTF-8: Група тамоў:
+Extended_description-be.UTF-8: Калі ласка, пазначце групу тамоў, у якой трэба стварыць новы фізічны том.
+Description-bg.UTF-8: Група от томове:
+Extended_description-bg.UTF-8: Изберете група от томове, в която да бъде създаден новия логически том.
+Description-bn.UTF-8: ভলিউম গ্রুপ:
+Extended_description-bn.UTF-8: নতুন লজিকাল ভলিউমটি যে ভলিউম গ্রুপে তৈরি করা হবে, অনুগ্রহপূর্বক তাকে বেছে নিন।
+Description-bs.UTF-8: Grupa particija:
+Extended_description-bs.UTF-8: Molim izaberite grupu particija na kojoj želite kreirati novu logičku particiju.
+Description-ca.UTF-8: Grup de volums:
+Extended_description-ca.UTF-8: Seleccioneu el grup de volums on s'hauria de crear el nou volum lògic.
+Description-cs.UTF-8: Skupina svazků:
+Extended_description-cs.UTF-8: Vyberte skupinu svazků, na které se má vytvořit nový logický svazek.
+Description-cy.UTF-8: Grŵp cyfrol:
+Extended_description-cy.UTF-8: Os gwelwch yn dda, dewiswch y grŵp cyfrol lle caiff y cyfrol rhesymegol newydd ei greu.
+Description-da.UTF-8: Diskenhedsgruppe:
+Extended_description-da.UTF-8: Vælg den diskenhedsgruppe, hvori den nye logiske diskenhed skal oprettes.
+Description-de.UTF-8: Volume-Gruppe:
+Extended_description-de.UTF-8: Bitte wählen Sie die Volume-Gruppe aus, in der das neue logische Volume erstellt werden soll.
+Description-dz.UTF-8: བོ་ལུསམ་སྡེ་ཚན:
+Extended_description-dz.UTF-8: གཏན་ཚིག་ཅན་གྱི་སྐད་ཤུགས་གསརཔ་འདི་ག་སྟེ་ལུ་གསར་བསྐྲུན་འབད་ནི་ཨིན་ན་བོ་ལུསམ་སྡེ་ཚན་འདི་སེལ་འཐུ་འབད་གནང་།
+Description-el.UTF-8: Ομάδα Τόμων:
+Extended_description-el.UTF-8: Επιλέξτε την Ομάδα Τόμων στην οποία θα ανήκει ο νέος Λογικός Τόμος.
+Description-eo.UTF-8: Datumportil-grupo:
+Extended_description-eo.UTF-8: Bonvolu elekti datumportil-grupon kie la nova logika datumportilo devos esti kreata.
+Description-es.UTF-8: Grupo de Volúmenes:
+Extended_description-es.UTF-8: Seleccione uno de los siguientes grupos de volúmenes donde crear un nuevo volumen lógico.
+Description-et.UTF-8: Köitegrupp:
+Extended_description-et.UTF-8: Palun vali köitegrupp, kuhu uus loogiline köide luua.
+Description-eu.UTF-8: Bolumen taldea:
+Extended_description-eu.UTF-8: Hautatu bolumen taldea (bolumen logiko berria bertan sortzeko).
+Description-fa.UTF-8: گروه Volume:
+Extended_description-fa.UTF-8: لطفا گروه Volume را که logical volume جدید باید ایجاد شود انتخاب کنید.
+Description-fi.UTF-8: Taltioryhmä:
+Extended_description-fi.UTF-8: Valitse mihin taltioryhmään uusi looginen taltio luodaan.
+Description-fr.UTF-8: Groupe de volumes :
+Extended_description-fr.UTF-8: Veuillez choisir un groupe de volumes sur lequel le nouveau volume logique doit être créé.
+Description-ga.UTF-8: Grúpa imleabhar:
+Extended_description-ga.UTF-8: Roghnaigh an grúpa imleabhar ar chóir an t-imleabhar nua loighciúil a chruthú ann.
+Description-gl.UTF-8: Grupo de volumes:
+Extended_description-gl.UTF-8: Escolla o grupo de volumes no que se debería crear o novo volume lóxico.
+Description-gu.UTF-8: કદ જૂથ:
+Extended_description-gu.UTF-8: મહેરબાની કરી કદ સમૂહ પસંદ કરો જ્યાં નવું તાર્કિક કદ બનાવવું જોઇએ.
+Description-he.UTF-8: קבוצת נפחים:
+Extended_description-he.UTF-8: בחר את קבוצת הנפחים שבה ייווצר הנפח הלוגי החדש.
+Description-hi.UTF-8: वॉल्यूम समूह:
+Extended_description-hi.UTF-8: कृपया वह वॉल्यूम समूह चुनें जहाँ आप नया लॉजिकल वॉल्यूम बनाना चाहते हैं.
+Description-hr.UTF-8: Prostorna grupa:
+Extended_description-hr.UTF-8: Molim izaberite prostornu grupu gdje će biti stvoren novi logički prostor.
+Description-hu.UTF-8: Kötetcsoport:
+Extended_description-hu.UTF-8: Válaszd ki az új logikai kötetet befogadó kötetcsoportot.
+Description-id.UTF-8: Grup Volum:
+Extended_description-id.UTF-8: Silakan memilih Grup Volum tempat Volum Logikal baru akan dibuat.
+Description-is.UTF-8: Sýndardiskur:
+Extended_description-is.UTF-8: Veldu sýndardiskinn þar sem búa á til nýja rökeintakið.
+Description-it.UTF-8: Gruppo di volumi:
+Extended_description-it.UTF-8: Selezionare il gruppo di volumi all'interno del quale creare il volume logico.
+Description-ja.UTF-8: ボリュームグループ:
+Extended_description-ja.UTF-8: 新しい論理ボリュームを作成するボリュームグループを選択してください。
+Description-ka.UTF-8: ტომთა ჯგუფი:
+Extended_description-ka.UTF-8: აირჩიეთ ტომთა ჯგუფი, სადაც ლოგიკური დისკწამყვანი უნდა შეიქმნას.
+Description-kk.UTF-8: Томдар тобы:
+Extended_description-kk.UTF-8: Жаңа логиклаық том жасалатын томдар тобын таңдаңыз.
+Description-km.UTF-8: ក្រុម​ភាគ ៖
+Extended_description-km.UTF-8: សូម​ជ្រើស​ក្រុម​ភាគ ដែល​អ្នក​ចង់​បង្កើត​ភាគ​ឡូជីខល​ថ្មី​នៅ​ត្រង់ ។
+Description-kn.UTF-8: ಶೇಖರಣ ಪರಿಮಾಣ:
+Extended_description-kn.UTF-8: ದಯಮಾಡಿ ಹೊಸ ತಾರ್ಕಿಕ ಸಂಪುಟವನ್ನು ಯಾವ ಸಂಪುಟ ಸಮೂಹದಲ್ಲಿ ನಿರ್ಮಿಸಬೇಕು ಎಂದು ಆಯ್ಕೆ ಮಾಡಿ.
+Description-ko.UTF-8: 볼륨 그룹:
+Extended_description-ko.UTF-8: 논리 볼륨을 만들 볼륨 그룹을 선택하십시오.
+Description-ku.UTF-8: Koma cîltan:
+Extended_description-ku.UTF-8: Koma cildan binivîse ku dê cilda nû ya mentiqi tê de bête çêkirin.
+Description-lo.UTF-8: ກຸ່ມໂວລຸມ:
+Extended_description-lo.UTF-8: ກະລຸນາເລືອກກຸ່ມໂວລຸມທີ່ຈະໃຊ້ສ້າງ logical volume ໃໝ່
+Description-lt.UTF-8: Tomų grupė (Volume Group):
+Extended_description-lt.UTF-8: Prašau pasirinkti tomų grupę (Volume Group), kurioje norite sukurti naują loginį tomą (Logical Volume).
+Description-lv.UTF-8: Sējumu grupa:
+Extended_description-lv.UTF-8: Lūdzu, izvēlieties sējumu grupu, kurā izveidot jauno loģisko sējumu.
+Description-mk.UTF-8: Просторна група:
+Extended_description-mk.UTF-8: Те молам одбери ја просторната група каде треба да биде креиран новиот логички простор.
+Description-ml.UTF-8: വാള്യം ഗ്രൂപ്പ്:
+Extended_description-ml.UTF-8: ദയവായി പുതിയ ലോജിക്കല്‍ വാള്യം സൃഷ്ടിക്കേണ്ട വാള്യം ഗ്രൂപ്പ് തെരഞ്ഞെടുക്കുക.
+Description-mr.UTF-8: खंड गट:
+Extended_description-mr.UTF-8: हा नवीन तार्किक खंड बनवण्याकरिता खंड गट निवडा.
+Description-nb.UTF-8: Gruppert dataområde:
+Extended_description-nb.UTF-8: Velg det grupperte dataområdet der det nye, logiske dataområdet skal opprettes.
+Description-ne.UTF-8: भोल्युम समूह:
+Extended_description-ne.UTF-8: कृपया भोल्युम समूह चयन गर्नुहोस् जहाँ नयाँ लोजिकल भोल्युम सिर्जना हुनेछ ।
+Description-nl.UTF-8: Volumegroep:
+Extended_description-nl.UTF-8: In welke volumegroep wilt u het nieuw logisch volume aanmaken?
+Description-nn.UTF-8: Gruppert dataområde:
+Extended_description-nn.UTF-8: Vel det grupperte dataområdet der det nye logiske dataområdet skal opprettast.
+Description-no.UTF-8: Gruppert dataområde:
+Extended_description-no.UTF-8: Velg det grupperte dataområdet der det nye, logiske dataområdet skal opprettes.
+Description-pa.UTF-8: ਵਾਲੀਅਮ ਗਰੁੱਪ:
+Extended_description-pa.UTF-8: ਵਾਲੀਅਮ ਗਰੁੱਪ ਚੁਣੋ ਜਿੱਥੇ ਨਵੇਂ ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਬਣਾਉਣੇ ਹਨ।
+Description-pl.UTF-8: Grupa woluminów:
+Extended_description-pl.UTF-8: Wybierz grupę woluminów w której powinien zostać utworzony nowy wolumin logiczny.
+Description-pt.UTF-8: Grupo de volumes:
+Extended_description-pt.UTF-8: Por favor escolha o grupo de volumes onde o novo volume lógico deve ser criado.
+Description-pt_BR.UTF-8: Grupo de volumes:
+Extended_description-pt_BR.UTF-8: Por favor, selecione o grupo de volumes onde o novo volume lógico deverá ser criado.
+Description-ro.UTF-8: Grupul de volume:
+Extended_description-ro.UTF-8: Vă rugăm să selectați Grupul de volume unde trebuie creat noul volum logic.
+Description-ru.UTF-8: Группа томов:
+Extended_description-ru.UTF-8: Выберите группу томов, где должен быть создан новый логический том.
+Description-si.UTF-8: වෙළුම් කණ්ඩායම:
+Extended_description-si.UTF-8: කරුණාකර නව න්‍යායික වෙළුම් නිර්මාණය වියයුතු වෙළුම් කණ්ඩායම තෝරන්න.
+Description-sk.UTF-8: Skupina zväzkov:
+Extended_description-sk.UTF-8: Zvoľte skupinu zväzkov na vytvorenie nového logického zväzku.
+Description-sl.UTF-8: Skupina nosilcev:
+Extended_description-sl.UTF-8: Izberite skupino nosilcev v kateri naj bo ustvarjen nov logični nosilec.
+Description-sq.UTF-8: Grupi i Volumit:
+Extended_description-sq.UTF-8: Të lutem zgjidh Grupin e Volumit ku Volumi i ri Logjik duhet krijuar.
+Description-sr.UTF-8: Група волумена:
+Extended_description-sr.UTF-8: Изаберите групу волумена где треба бити креиран нови логички волумен.
+Description-sv.UTF-8: Volymgrupp:
+Extended_description-sv.UTF-8: Välj i vilken volymgruppen den nya logiska volymen ska skapas.
+Description-ta.UTF-8: தொகுதிப் பிரிவு:
+Extended_description-ta.UTF-8: புதிய தர்க்க ரீதியான தொகுதி உருவாக்கப் பட வேண்டிய தொகுதிப் பிரிவை தேர்ந்தெடுங்கள்
+Description-te.UTF-8: Volume group:
+Extended_description-te.UTF-8: కొత్త  logical volume సృష్ఠించుటకు Volume groupను ఎంచుకో
+Description-tg.UTF-8: Гурӯҳи ҳаҷм:
+Extended_description-tg.UTF-8: Лутфан, гурӯҳи ҳаҷмҳоеро интихоб кунед, ки ҳаҷми нави мантиқӣ бояд дар он ҷо эҷод карда шавад.
+Description-th.UTF-8: กลุ่มโวลุม:
+Extended_description-th.UTF-8: กรุณาเลือกกลุ่มโวลุมที่จะใช้สร้างโวลุมลอจิคัลอันใหม่
+Description-tl.UTF-8: Volume group:
+Extended_description-tl.UTF-8: Piliin ang volume group kung saan bubuuin ang bagong logical volume.
+Description-tr.UTF-8: Cilt grubu:
+Extended_description-tr.UTF-8: Lütfen yeni mantıksal cildin oluşturulacağı cilt grubunu seçin.
+Description-ug.UTF-8: دىسكا گۇرۇپپىسى:
+Extended_description-ug.UTF-8: يېڭى قۇرغان لوگىكىلىق دىسكا گۇرۇپپىسى تۇرۇشلۇق دىسكا گۇرۇپپىسىنى تاللاڭ.
+Description-uk.UTF-8: Група томів:
+Extended_description-uk.UTF-8: Виберіть групу томів, в якій буде створено новий логічний том.
+Description-vi.UTF-8: Nhóm khối tin:
+Extended_description-vi.UTF-8: Hãy chọn nhóm khối tin nơi cần tạo khối tin hợp lý mới.
+Description-zh_CN.UTF-8: 卷组：
+Extended_description-zh_CN.UTF-8: 请选择新逻辑卷所在的卷组。
+Description-zh_TW.UTF-8: Volume Group：
+Extended_description-zh_TW.UTF-8: 請選擇要在哪個 Volume Group 上建立新的 Logical Volume。
+
+Name: partman-lvm/lvdelete_error
+Type: error
+Description: Error while deleting the logical volume
+Extended_description: The logical volume ${LV} on ${VG} could not be deleted.\n\nCheck /var/log/syslog or see virtual console 4 for the details.
+Description-ar.UTF-8: خطأ أثناء حذف الكتلة الافتراضيّة
+Extended_description-ar.UTF-8: تعذر حذف الكتلة الافتراضية ${LV} على ${VG}.\n\nتفقّد /var/log/syslog أو انظر الطرفية الافتراضية الرابعة للتفاصيل.
+Description-ast.UTF-8: Fallu mientres s'esborraba'l volume llóxicu
+Extended_description-ast.UTF-8: El volume llóxicu (${LV}) en ${VG} nun se desanció.\n\nComprobar /var/log/syslog o ver consola virtual 4 pa los detalles.
+Description-be.UTF-8: Памылка пры выдаленні лагічнага тома
+Extended_description-be.UTF-8: Лагічны том (${LV}) у ${VG} немагчыма выдаліць.\n\nПадрабязнасці чытайце ў /var/log/syslog і на віртуальнай кансолі 4.
+Description-bg.UTF-8: Грешка при изтриване на логически том
+Extended_description-bg.UTF-8: Логическият том ${LV} в групата ${VG} не може да бъде изтрит.\n\nПроверете /var/log/bootstrap.log или вижте виртуална конзола 4 за подробности.
+Description-bn.UTF-8: লজিকাল ভলিউম মুছে ফেলার সময় ত্রুটি
+Extended_description-bn.UTF-8: ${VG} তে (${LV}) যৌক্তিক ভলিউমটি মুছে ফেলা যাবেনা।\n\nবিস্তারিত জানার জন্য /var/log/syslog পড়ুন অথবা চতুর্থ ভার্চুয়াল কনসোল দেখুন।
+Description-bs.UTF-8: Greška pri brisanju logičke particije
+Extended_description-bs.UTF-8: Logička particija ${LV} na ${VG} se ne može obrisati.\n\nProvjerite /var/log/syslog ili pogledajte virtualnu konzolu 4 za detalje.
+Description-ca.UTF-8: S'ha produït un error en suprimir el volum lògic
+Extended_description-ca.UTF-8: No s'ha pogut suprimir el volum lògic ${LV} en ${VG}.\n\nComproveu /var/log/syslog o vegeu la consola virtual 4 per als detalls.
+Description-cs.UTF-8: Chyba při rušení logického svazku
+Extended_description-cs.UTF-8: Logický svazek ${LV} na ${VG} nemohl být zrušen.\n\nPodrobnosti naleznete ve /var/log/syslog nebo na 4. virtuální konzoli.
+Description-cy.UTF-8: Gwall wrth ddileu'r cyfrol rhesymegol
+Extended_description-cy.UTF-8: Methwyd dileu'r cyfrol rhesymegol ${LV} ar ${VG}.\n\nGwiriwch /var/log/syslog neu gwelwch consol rhithwir 4 am y manylion.
+Description-da.UTF-8: Fejl under sletning af logisk diskenhed
+Extended_description-da.UTF-8: Den logiske diskenhed ${LV} på ${VG} kunne ikke slettes.\n\nTjek /var/log/syslog eller kig på den virtuelle konsol 4 for detaljer.
+Description-de.UTF-8: Fehler beim Löschen eines logischen Volumes
+Extended_description-de.UTF-8: Das logische Volume ${LV} auf ${VG} konnte nicht gelöscht werden.\n\nSchauen Sie in /var/log/syslog oder auf die vierte virtuelle Konsole bezüglich detaillierter Informationen.
+Description-dz.UTF-8: གཏན་ཚིག་ཅན་གྱི་བོ་ལུསམ་བཏོན་གཏངམ་ད་འཛོལ་བ།
+Extended_description-dz.UTF-8:  ${VG}ལུ་ཡོད་མི་ གཏན་ཚིག་ཅན་གྱི་བོ་ལུསམ་(${LV})འདི་བཏོན་གཏང་མ་ཚུགས།\n\n/var/log/syslog ཞིབ་དཔྱད་འབད་ཡང་ན་རྒྱས་བཤད་ཀྱི་དོན་ལུ་བར་ཅུ་ཡལ་མ་སྒྲོམ་༤་པ་འདི་བལྟ།
+Description-el.UTF-8: Σφάλμα κατά τη διαγραφή του Λογικού Τόμου
+Extended_description-el.UTF-8: Δεν ήταν δυνατή η διαγραφή του λογικού τόμου (${LV}) στην ομάδα ${VG}.\n\nΕλέγξτε το αρχείο /var/log/syslog ή δείτε την εικονική κονσόλα 4 για λεπτομέρειες.
+Description-eo.UTF-8: Eraro dum forviŝo de logika datumportilo
+Extended_description-eo.UTF-8: La logika datumportilo ${LV} sur ${VG} ne povis esti forviŝata.\n\nKontrolu '/var/log/syslog' aŭ rigardu la virtualan konzolon 4 por havi detalojn.
+Description-es.UTF-8: Se ha producido un error al borrarse el volumen lógico
+Extended_description-es.UTF-8: No se pudo borrar el volumen lógico ${LV} en ${VG}.\n\nCompruebe el fichero /var/log/syslog o la consola virtual número 4 para los detalles.
+Description-et.UTF-8: Loogilise köite kustutamisel ilmnes viga
+Extended_description-et.UTF-8: Loogilist köidet ${LV} pole võimalik ${VG} pealt kustutada.\n\nDetailid leiad failist /var/log/syslog või 4. virtuaalkonsoolilt.
+Description-eu.UTF-8: Errorea bolumen logikoa ezabatzean
+Extended_description-eu.UTF-8: Ezin izan da ${VG} bolumen taldeko ${LV} bolumen logikoa ezabatu.\n\nEgiaztatu /var/log/messages edo ikusi 4. kontsola xehetasunetarako.
+Description-fa.UTF-8: خطا در هنگام حذف logical volume
+Extended_description-fa.UTF-8: logical volume (${LV}) بر ${VG} نمی‌تواند که حذف شود.\n\n/var/log/syslog یا کنسول مجازی ۴ را برای جزئیات ببینید.
+Description-fi.UTF-8: Virhe poistettaessa loogista taltiota
+Extended_description-fi.UTF-8: Loogista taltiota ${LV} ei voitu poistaa taltioryhmästä ${VG}.\n\nTarkista tiedosto /var/log/syslog tai katso tarkempaa tietoa virtuaalikonsolista 4.
+Description-fr.UTF-8: Erreur lors de la suppression du volume logique
+Extended_description-fr.UTF-8: Le volume logique ${LV} sur ${VG} ne peut pas être supprimé.\n\nVeuillez consulter le fichier /var/log/syslog ou la quatrième console virtuelle pour obtenir des précisions.
+Description-ga.UTF-8: Earráid agus an t-imleabhar loighciúil á scriosadh
+Extended_description-ga.UTF-8: Níorbh fhéidir imleabhar loighciúil ${LV} ar ${VG} a scriosadh.\n\nSeiceáil /var/log/syslog nó féach ar chonsól fíorúil 4 le tuilleadh eolais a fháil.
+Description-gl.UTF-8: Erro ao borrar o volume lóxico
+Extended_description-gl.UTF-8: Non foi posíbel borrar o volume lóxico ${LV} en ${VG}.\n\nConsulte os detalles en /var/log/syslog ou na consola virtual 4.
+Description-gu.UTF-8: તાર્કિક કદ દૂર કરતી વખતે ક્ષતિ આવી
+Extended_description-gu.UTF-8: ${VG} પર તાર્કિક કદ ${LV} દૂર કરી શકાતું નથી.\n\n/var/log/syslog તપાસો અથવા માહિતી માટે વર્ચયુઅલ કોન્સોલ ૪ જુઓ.
+Description-he.UTF-8: שגיאה בזמן מחיקת נפח לוגי
+Extended_description-he.UTF-8: הנפח הלוגי ${LV} על ${VG} לא ניתן למחיקה.\n\nבדוק את /var/log/syslog או את הקונסול הווירטואלי מספר 4 בשביל פרטים נוספים.
+Description-hi.UTF-8: लॉजिकल वॉल्यूम को मिटाने में त्रुटि हूई
+Extended_description-hi.UTF-8: लॉजिकल वॉल्यूम (${LV}) जोकि ${VG} पर है, मिटाया नहीं जा सका.\n\nविस्तृत सूचना के लिए /var/log/messages या वर्चुअल कंसोल 4 देखें।
+Description-hr.UTF-8: Greška pri brisanju logičkog prostora
+Extended_description-hr.UTF-8: Logički prostor (${LV}) u grupi ${VG} nije moguće obrisati.\n\nZa pojedinosti provjerite /var/log/syslog ili četvrtu konzolu.
+Description-hu.UTF-8: Hiba a logikai kötet törlése közben
+Extended_description-hu.UTF-8: E logikai kötetet: ${LV} itt: ${VG} nem tudtam törölni.\n\nRészletek a /var/log/syslog-ban vagy a 4. virtuális konzolon találhatók.
+Description-id.UTF-8: Terjadi kesalahan saat menghapus Volum Logikal
+Extended_description-id.UTF-8: Volum Logikal (${LV}) di ${VG} tidak dapat dihapus.\n\nPeriksa /var/log/syslog atau lihat konsol maya no. 4.
+Description-is.UTF-8: Villa við eyðingu rökeintaksins
+Extended_description-is.UTF-8: Ekki var hægt að eyða rökeintakinu (${LV}) á ${VG}.\n\nSkoðaðu skránna /var/log/syslog, eða skipanalínu (virtual console) 4 fyrir nánari upplýsingar.
+Description-it.UTF-8: Errore durante la cancellazione del volume logico
+Extended_description-it.UTF-8: Non è stato possibile eliminare il volume logico ${LV} su ${VG}.\n\nControllare /var/log/syslog o la console virtuale 4 per i dettagli.
+Description-ja.UTF-8: 論理ボリュームの削除中のエラー
+Extended_description-ja.UTF-8: ${VG} の論理ボリューム ${LV} を削除できませんでした。\n\n詳細については、/var/log/syslog を確認するか、仮想コンソール 4 を見てください。
+Description-kk.UTF-8: Логикалық томды жою кезінде қате кетті
+Extended_description-kk.UTF-8: ${VG} тобынан (${LV}) логикалық томын өшіру мүмкін емес.\n\nҚосымша мәліметті /var/log/syslog файлынан не 4 виртуал консольдан қараңыз.
+Description-km.UTF-8: កំហុស​ខណៈ​ពេល​លុប​ភាគ​ឡូជីខល
+Extended_description-km.UTF-8: មិន​អាច​លុប​ភាគ​ឡូជីខល (${LV}) លើ ${VG} បាន​ឡើយ ។\n\nសម្រាប់​ព័ត៌មាន​លម្អិត សូម​ពិនិត្យ​មើល /var/log/syslog ឬ មើលកុងសូល​និម្មិត​ទី ៤ ។
+Description-kn.UTF-8: ತಾರ್ಕಿಕ ಪರಿಮಾಣವ್ನ್ನು ಅಳಿಸುವಾಗ  ದೋಷವುಂಟಾಗಿದೆ
+Extended_description-kn.UTF-8: ${VG} ಮೇಲಿನ ${LV} ತಾರ್ಕಿಕ ಸಂಪುಟವನ್ನು ತೆಗೆದು ಹಾಕಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.\n\n/var/log/syslogನಲ್ಲಿ ಅಥವಾ ಅವಾಸ್ತವಿಕ ಆಜ್ಞಾಫಲಕ ೪ ರಲ್ಲಿ ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ಪರೀಕ್ಷಿಸಿ.
+Description-ko.UTF-8: 논리 볼륨을 삭제하는데 오류가 발생했습니다
+Extended_description-ko.UTF-8: ${VG} 논리 그룹의 ${LV} 논리 볼륨을 삭제할 수 없습니다.\n\n자세한 정보를 확인하시려면 /var/log/messages를 보시거나 가상 콘솔 4을보십시오.
+Description-lo.UTF-8: ເກີດຂໍ້ຜິດພາດຂະນະລົບ logical volume
+Extended_description-lo.UTF-8: ບໍ່ສາມາດລົບ logical volume (${LV}) ໃນ ${VG} ໄດ້\n\nກະລຸນາກວດສອບ /var/log/syslog ຫຼືເບີ່ງທີ່ຄອນໂຊຄວາມແທ້ຈິງທີ 4 ເພື່ອເບິ່ງລາຍລະອຽດ.
+Description-lt.UTF-8: Klaida bandant išmesti loginį tomą (Logical Volume)
+Extended_description-lt.UTF-8: Nepavyko pašalinti loginio tomo „${LV}“ iš grupės „${VG}“.\n\nDetaliau žiūrėkite į /var/log/syslog arba ketvirtojoje virtualioje konsolėje.
+Description-lv.UTF-8: Kļūda, dzēšot loģisko sējumu
+Extended_description-lv.UTF-8: Loģisko sējumu ${LV} grupā ${VG} neizdevās dzēst.\n\nPārbaudiet /var/log/syslog vai skatieties sīkāk ceturtajā virtuālajā konsolē (ALT+F4).
+Description-mk.UTF-8: Грешка при бришење на логичкиот простор
+Extended_description-mk.UTF-8: Логичкиот простор (${LV}) од ${VG} не може да биде избришан.\n\nПровери во /var/log/syslog или види ја виртуелната конзола 4 за детали.
+Description-ml.UTF-8: ലോജിക്കല്‍ വാള്യം നീക്കം ചെയ്യുമ്പോള്‍ തെറ്റ്
+Extended_description-ml.UTF-8: ${VG} ലെ ലോജിക്കല്‍ വാള്യം (${LV}) നീക്കം ചെയ്യാന്‍ സാധ്യമല്ല.\n\nവിവരങ്ങള്‍ക്കായി /var/log/syslog പരിശോധിക്കുക അല്ലെങ്കില്‍ വിര്‍ച്വല്‍ കണ്‍സോള്‍ 4 കാണുക.
+Description-mr.UTF-8: तार्किक खंड काढून टाकताना त्रुटी
+Extended_description-mr.UTF-8: ${VG} वरील ${LV} हा तार्किक खंड काढून टाकता आला नाही.\n\nआधिक माहितीसाठी/var/log/syslog तपासा किंवा आभासी कन्सोल ४ पहा.
+Description-nb.UTF-8: Feil ved sletting av det logiske dataområdet
+Extended_description-nb.UTF-8: Det logiske dataområdet ${LV} på ${VG} kunne ikke slettes.\n\nDetaljer finner du i /var/log/syslog eller på virtuelt konsoll 4.
+Description-nl.UTF-8: Fout tijdens het verwijderen van het logisch volume
+Extended_description-nl.UTF-8: Het logisch volume ${LV} op ${VG} kon niet verwijderd worden.\n\nControleer /var/log/syslog of kijk op de vierde virtuele console (VT4) voor de details.
+Description-no.UTF-8: Feil ved sletting av det logiske dataområdet
+Extended_description-no.UTF-8: Det logiske dataområdet ${LV} på ${VG} kunne ikke slettes.\n\nDetaljer finner du i /var/log/syslog eller på virtuelt konsoll 4.
+Description-pa.UTF-8: ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਹਟਾਉਣ ਸਮੇਂ ਗਲਤੀ
+Extended_description-pa.UTF-8: ${VG} ਉੱਤੇ ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ (${LV}) ਖੋਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।\n\nਵੇਰਵੇ ਵਾਸਤੇ /var/log/syslog ਦੀ ਚੈੱਕ ਕਰੋ ਜਾਂ ਆਰਜੀ ਕੰਸੋਲ 4 ਵੇਖੋ।
+Description-pl.UTF-8: Błąd podczas usuwania woluminu logicznego
+Extended_description-pl.UTF-8: Wolumin logiczny ${LV} w ${VG} nie mógł zostać usunięty.\n\nSprawdź /var/log/messages lub wirtualną konsolę nr 4 po szczegóły.
+Description-pt.UTF-8: Erro ao apagar o volume lógico
+Extended_description-pt.UTF-8: O volume lógico ${LV} em ${VG} não pode ser apagado.\n\nPara detalhes veja /var/log/syslog ou a consola virtual 4.
+Description-pt_BR.UTF-8: Erro na remoção do volume lógico
+Extended_description-pt_BR.UTF-8: Não foi possível excluir o volume lógico ${LV} de ${VG}.\n\nVerifique o arquivo /var/log/syslog ou consulte o console virtual 4 para os detalhes.
+Description-ro.UTF-8: Eroare în timpul ștergerii volumului logic
+Extended_description-ro.UTF-8: Volumul logic ${LV} de pe ${VG} nu a putut fi șters.\n\nVerificați /var/log/syslog sau consola virtuală numărul 4 pentru detalii.
+Description-ru.UTF-8: Ошибка при удалении логического тома
+Extended_description-ru.UTF-8: Не удалось удалить логический том ${LV} из группы ${VG}.\n\nПодробности смотрите в файле /var/log/syslog или на консоли 4.
+Description-si.UTF-8: න්‍යායික වෙළුම මකාදැමීමේ දෝශයක්
+Extended_description-si.UTF-8: ${VG} මත ${LV} තාර්කික පරිමාව මකාදැමිය නොහැක.\n\nතොරතුරු සඳහා /var/log/syslog හෝ 4 වැනි අතත්‍ය කොන්සෝලය පිරික්සන්න.
+Description-sk.UTF-8: Chyba pri mazaní logického zväzku
+Extended_description-sk.UTF-8: Logický zväzok (${LV}) na ${VG} sa nedá zmazať.\n\nPodrobnosti nájdete v súbore /var/log/syslog alebo na štvrtej virtuálnej konzole.
+Description-sl.UTF-8: Pri brisanju logičnega nosilca je prišlo do napake
+Extended_description-sl.UTF-8: Ni bilo mogoče izbrisati logičnega nosilca (${LV}) na ${VG}.\n\nPreverite /var/log/messages ali poglejte navidezno konzolo 4 za podrobnosti.
+Description-sr.UTF-8: Грешка при брисању логичког волумена
+Extended_description-sr.UTF-8: Логички волумен (${LV}) у оквиру ${VG} не може бити обрисан.\n\nЗа детаље погледајте /var/log/syslog или виртуелну конзолу 4.
+Description-sv.UTF-8: Fel när den logiska volymen skulle tas bort
+Extended_description-sv.UTF-8: Den logiska volymen (${LV}) på ${VG} kunde inte tas bort.\n\nKontrollera /var/log/syslog eller se på den virtuella konsollen 4 för mer detaljer.
+Description-ta.UTF-8: தர்க்க ரீதியான தொகுதியை நீக்குவதில் பிழை
+Extended_description-ta.UTF-8: ${VG}இல் உள்ள தர்க்க ரீதியான தொகுதி ${LV} நீக்கப் பட இயலவில்லை.\n\n/var/log/syslog அல்லது மெய்நிகர் முனையம் 4 (virtual console 4) ஐ விளக்கங்களுக்கு பார்க்கவும்.
+Description-te.UTF-8: Logical volume తొలగించుటలోదోషం
+Extended_description-te.UTF-8: ${VG}పై  Logical volume (${LV}) నిర్మూలించుటలో దోషం.\n\nవివరాలకు /var/log/syslog లేక virtual console 4 చూడండి.
+Description-tg.UTF-8: Ҳангоми несткунии ҳаҷми мантиқӣ хатогӣ ба вуҷуд омад
+Extended_description-tg.UTF-8: Ҳаҷми мантиқии ${LV} дар ${VG} нест карда намешавад.\n\nФайли /var/log/syslog -ро санҷед ё барои тафсилот консоли виртуалии 4-ро кушоед.
+Description-th.UTF-8: เกิดข้อผิดพลาดขณะลบโวลุมลอจิคัล
+Extended_description-th.UTF-8: ไม่สามารถลบโวลุมลอจิคัล ${LV} ใน ${VG} ได้\n\nกรุณาตรวจสอบ /var/log/syslog หรือดูที่คอนโซลเสมือนที่ 4 เพื่อดูรายละเอียด
+Description-tr.UTF-8: Mantıksal cilt silinirken hata oluştu
+Extended_description-tr.UTF-8: ${VG} üzerindeki mantıksal cilt ${LV} silinemedi.\n\nAyrıntılı bilgi için /var/log/syslog dosyasına veya 4 numaralı konsola bakın.
+Description-ug.UTF-8: لوگىكىلىق دىسكىنى ئۆچۈرۈشتە خاتالىق كۆرۈلدى
+Extended_description-ug.UTF-8: ${VG} دىكى لوگىكىلىق دىسكا ${LV} نى ئۆچۈرەلمەيدۇ.\n\n/var/log/syslog نى تەكشۈرۈڭ ياكى 4-مەۋھۇم كونترول سۇپىسىنى(console) كۆرۈپ تېخىمۇ كۆپ تەپسىلىي ئۇچۇرغا ئېرىشىڭ.
+Description-uk.UTF-8: Помилка при вилученні логічного тому
+Extended_description-uk.UTF-8: Неможливо вилучити логічний том (${LV}) групи ${VG}.\n\nПодробиці дивіться в /var/log/syslog або на віртуальній консолі 4.
+Description-vi.UTF-8: Gặp lỗi khi xóa khối tin hợp lý.
+Extended_description-vi.UTF-8: Không thể xóa khối tin luận lí ${LV} trên ${VG}.\n\nXem bản ghi hệ thống « /var/log/syslog » hoặc bàn giao tiếp ảo 4 để tìm chi tiết.
+Description-zh_CN.UTF-8: 删除逻辑卷时出错
+Extended_description-zh_CN.UTF-8: ${VG} 上的逻辑卷 ${LV} 不能删除。\n\n请检查 /var/log/syslog 或查看第四虚拟控制台以获得详细信息。
+Description-zh_TW.UTF-8: 在刪除 Logical Volume 時發生錯誤
+Extended_description-zh_TW.UTF-8: 無法刪除位於 ${VG} 上的 Logical Volume (${LV})。\n\n請查看 /var/log/syslog 或是第四個虛擬主控台來獲得詳細訊息。
+
+Name: partman-lvm/lvdelete_lvnames
+Type: select
+Choices: ${LVS}
+Description: Logical volume:
+Extended_description: Please select the logical volume to delete.
+Description-am.UTF-8: ሎጂካል ይዘት፦
+Extended_description-am.UTF-8: እባክዎ መሰረዝ የሚፈልጉትን ሎጂካዊ ይዘት ይምረጡ፡፡
+Description-ar.UTF-8: الكتلة الافتراضيّة:
+Extended_description-ar.UTF-8: الرجاء اختيار الكتلة الافتراضية المطلوب حذفها.
+Description-ast.UTF-8: Volume llóxicu:
+Extended_description-ast.UTF-8: Por favor, seleiciona'l volume llóxicu a desaniciar.
+Description-be.UTF-8: Лагічны том:
+Extended_description-be.UTF-8: Калі ласка, пазначце лагічны том для выдалення.
+Description-bg.UTF-8: Логически том:
+Extended_description-bg.UTF-8: Изберете логически том, който да бъде изтрит.
+Description-bn.UTF-8: লজিকাল ভলিউম:
+Extended_description-bn.UTF-8: মুছার জন্য লজিক্যাল ভলিউম নির্বাচন করুন।
+Description-bs.UTF-8: Logička particija:
+Extended_description-bs.UTF-8: Molim izaberite logičku particiju koju želite obrisati.
+Description-ca.UTF-8: Volum lògic:
+Extended_description-ca.UTF-8: Seleccioneu el volum lògic a suprimir.
+Description-cs.UTF-8: Logický svazek:
+Extended_description-cs.UTF-8: Vyberte logický svazek určený ke zrušení.
+Description-cy.UTF-8: Cyfrol Rhesymegol:
+Extended_description-cy.UTF-8: Dewiswch y cyfrol rhesymegol i'w ddileu.
+Description-da.UTF-8: Logisk diskenhed:
+Extended_description-da.UTF-8: Vælg den logiske diskenhed, der skal slettes.
+Description-de.UTF-8: Logisches Volume:
+Extended_description-de.UTF-8: Bitte wählen Sie das zu löschende logische Volume.
+Description-dz.UTF-8: གཏན་ཚིག་ཅན་གྱི་བོ་ལུསམ་:
+Extended_description-dz.UTF-8: བཏོན་གཏང་ནིའི་དོན་ལས་ གཏན་ཚིགས་ཅན་གྱི་བོ་ལུསམ་ སེལ་འཐུ་འབད་གནང་།
+Description-el.UTF-8: Λογικός Τόμος:
+Extended_description-el.UTF-8: Παρακαλώ, επιλέξτε τον λογικό τόμο για διαγραφή.
+Description-eo.UTF-8: Logika datumportilo:
+Extended_description-eo.UTF-8: Bonvolu elekti la logikan datumportilon, kiun vi volas forviŝi.
+Description-es.UTF-8: Volumen lógico:
+Extended_description-es.UTF-8: Por favor, seleccione el volumen lógico que quiere borrar.
+Description-et.UTF-8: Loogiline köide:
+Extended_description-et.UTF-8: Palun vali kustutatav loogiline köide.
+Description-eu.UTF-8: Bolumen logikoa:
+Extended_description-eu.UTF-8: Hautatu ezabatu beharreko bolumen logikoa.
+Description-fa.UTF-8: Logical volume:
+Extended_description-fa.UTF-8: لطفا حجم منطقی را برای حذف انتخاب کنید.
+Description-fi.UTF-8: Looginen taltio:
+Extended_description-fi.UTF-8: Valitse poistettava looginen taltio.
+Description-fr.UTF-8: Volume logique :
+Extended_description-fr.UTF-8: Veuillez choisir le volume logique à supprimer.
+Description-ga.UTF-8: Imleabhar loighciúil:
+Extended_description-ga.UTF-8: Roghnaigh an t-imleabhar loighciúil is mian leat a scriosadh.
+Description-gl.UTF-8: Volume lóxico:
+Extended_description-gl.UTF-8: Escolla o volume lóxico a borrar.
+Description-gu.UTF-8: તાર્કિક કદ:
+Extended_description-gu.UTF-8: દૂર કરવા માટે તાર્કિક સમૂહ પસંદ કરો.
+Description-he.UTF-8: נפח לוגי:
+Extended_description-he.UTF-8: בחר נפח לוגי למחיקה.
+Description-hi.UTF-8: लॉज़िकल वॉल्यूम:
+Extended_description-hi.UTF-8: मिटाने के लिए लॉज़िकल वॉल्यूम चुनें.
+Description-hr.UTF-8: Logički prostor:
+Extended_description-hr.UTF-8: Molim izaberite logički prostor za brisanje.
+Description-hu.UTF-8: Logikai kötet:
+Extended_description-hu.UTF-8: Válaszd ki a törlendő logikai kötetet.
+Description-id.UTF-8: Volum Logikal:
+Extended_description-id.UTF-8: Silakan pilih volum logikal yang ingin dihapus.
+Description-is.UTF-8: Rökeintak:
+Extended_description-is.UTF-8: Veldu rökeintakið sem á að eyða.
+Description-it.UTF-8: Volume logico:
+Extended_description-it.UTF-8: Selezionare il volume logico da eliminare.
+Description-ja.UTF-8: 論理ボリューム:
+Extended_description-ja.UTF-8: 削除する論理ボリュームを選択してください。
+Description-ka.UTF-8: ლოგიკური დისკწამყვანი:
+Extended_description-ka.UTF-8: აირჩიეთ წასაშლელი ლოგიკური დისკწამყვანი.
+Description-kk.UTF-8: Логикалық том:
+Extended_description-kk.UTF-8: Жойылатын логикалық том таңдаңыз.
+Description-km.UTF-8: ភាគ​ឡូជីខល ៖
+Extended_description-km.UTF-8: សូម​ជ្រើស​ភាគ​​ឡូជីខល​ត្រូវ​លុប ។
+Description-kn.UTF-8: ತಾರ್ಕಿಕ ಪರಿಮಾಣ:
+Extended_description-kn.UTF-8: ತೆಗೆದುಹಾಕಬೇಕೆಂದಿರುವ ತಾರ್ಕಿಕ ಪರಿಮಾಣವನ್ನು ಆಯ್ಕೆಮಾಡಿ..
+Description-ko.UTF-8: 논리 볼륨:
+Extended_description-ko.UTF-8: 볼륨 그룹에서 삭제할 논리 볼륨을 선택하십시오.
+Description-ku.UTF-8: Cîlta aqilane:
+Extended_description-ku.UTF-8: Ji kerema xwe re koma voluman ku dê were jêbirin hilbijêre.
+Description-lo.UTF-8: Logical volume:
+Extended_description-lo.UTF-8: ກາລຸນາເລືອກ logical volume ທີ່ລົບອອກ
+Description-lt.UTF-8: Loginis tomas (Logical Volume):
+Extended_description-lt.UTF-8: Pasirinkti loginį tomą (logical volume), kurį norite pašalinti.
+Description-lv.UTF-8: Loģiskais sējums:
+Extended_description-lv.UTF-8: Lūdzu, izvēlieties, kuru loģisko sējumu dzēst.
+Description-mk.UTF-8: Логички простор:
+Extended_description-mk.UTF-8: Те молам избери го логичкиот простор кој ќе биде избришан.
+Description-ml.UTF-8: ലോജിക്കല്‍ വാള്യം:
+Extended_description-ml.UTF-8: ദയവായി നീക്കം ചെയ്യേണ്ട ലോജിക്കല്‍ വാള്യം തെരഞ്ഞെടുക്കുക.
+Description-mr.UTF-8: तार्किक खंड:
+Extended_description-mr.UTF-8: काढून टाकण्याचा तार्किक खंड निवडा.
+Description-nb.UTF-8: Logisk dataområde:
+Extended_description-nb.UTF-8: Velg det logiske dataområdet som skal slettes.
+Description-ne.UTF-8: लोजिकल भोल्युम:
+Extended_description-ne.UTF-8: कृपया मेट्नुपर्ने लोजिकल भोल्युम चयन गर्नुहोस् ।
+Description-nl.UTF-8: Logisch volume:
+Extended_description-nl.UTF-8: Gelieve het logisch volume te selecteren dat u wilt verwijderen.
+Description-nn.UTF-8: Logisk dataområde:
+Extended_description-nn.UTF-8: Vel det logiske dataområdet som skal slettast.
+Description-no.UTF-8: Logisk dataområde:
+Extended_description-no.UTF-8: Velg det logiske dataområdet som skal slettes.
+Description-pa.UTF-8: ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ:
+Extended_description-pa.UTF-8: ਹਟਾਉਣ ਲਈ ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਚੁਣੋ।
+Description-pl.UTF-8: Logiczny wolumin:
+Extended_description-pl.UTF-8: Proszę wybrać wolumin logiczny do usunięcia.
+Description-pt.UTF-8: Volume lógico:
+Extended_description-pt.UTF-8: Por favor escolha o volume lógico a apagar.
+Description-pt_BR.UTF-8: Volume lógico:
+Extended_description-pt_BR.UTF-8: Por favor, selecione o volume lógico a ser excluído.
+Description-ro.UTF-8: Volum logic:
+Extended_description-ro.UTF-8: Vă rugăm să selectați volumul logic care va fi șters.
+Description-ru.UTF-8: Логический том:
+Extended_description-ru.UTF-8: Выберите логический том для удаления.
+Description-si.UTF-8: න්‍යායික වෙළුම:
+Extended_description-si.UTF-8: කරුණාකර මකාදැමීම සඳහා වන න්‍යායික වෙළුම තෝරන්න.
+Description-sk.UTF-8: Logický zväzok:
+Extended_description-sk.UTF-8: Zvoľte logický zväzok určený na zmazanie.
+Description-sl.UTF-8: Logični nosilec:
+Extended_description-sl.UTF-8: Izberite logični nosilec, ki ga želite izbrisati.
+Description-sq.UTF-8: Volumi Logjik:
+Extended_description-sq.UTF-8: Të lutem zgjidh volumin logjik për tu fshirë.
+Description-sr.UTF-8: Логички волумен:
+Extended_description-sr.UTF-8: Изаберите логички волумен за брисање.
+Description-sv.UTF-8: Logisk volym:
+Extended_description-sv.UTF-8: Välj den logiska volym som ska tas bort.
+Description-ta.UTF-8: தர்க்க ரீதியான தொகுதி:
+Extended_description-ta.UTF-8: நீக்க வேண்டிய தர்க்க ரீதியான தொகுதியை தேர்வு செய்க.
+Description-te.UTF-8: Logical volume:
+Extended_description-te.UTF-8: నిర్మూలించుటకు logical volume ఎంచుకో.
+Description-tg.UTF-8: Ҳаҷми мантиқӣ:
+Extended_description-tg.UTF-8: Лутфан, ҳаҷми мантиқиро барои нест кардан интихоб кунед.
+Description-th.UTF-8: โวลุมลอจิคัล:
+Extended_description-th.UTF-8: กรุณาเลือกโวลุมลอจิคัลที่จะลบ
+Description-tl.UTF-8: Logical volume:
+Extended_description-tl.UTF-8: Piliin ang lohikal na volume na tatanggalin.
+Description-tr.UTF-8: Mantıksal cilt:
+Extended_description-tr.UTF-8: Lütfen silinecek mantıksal cildi seçin.
+Description-ug.UTF-8: لوگىكىلىق دىسكا:
+Extended_description-ug.UTF-8: ئۆچۈرىدىغان لوگىكىلىق دىسكىنى تاللاڭ.
+Description-uk.UTF-8: Логічний том:
+Extended_description-uk.UTF-8: Виберіть, будь ласка, логічний том для вилучення.
+Description-vi.UTF-8: Khối tin hợp lý:
+Extended_description-vi.UTF-8: Hãy chọn khối tin hợp lý cần xóa.
+Description-zh_CN.UTF-8: 逻辑卷：
+Extended_description-zh_CN.UTF-8: 请选择要删除的逻辑卷。
+Description-zh_TW.UTF-8: Logical Volume：
+Extended_description-zh_TW.UTF-8: 請選擇要刪除的 Logical Volume。
+
+Name: partman-lvm/lvdelete_nolv
+Type: error
+Description: No logical volume found
+Extended_description: No logical volume has been found. Please create a logical volume first.
+Description-ar.UTF-8: لم يعثر على أيّة كتلةٍ افتراضيّة
+Extended_description-ar.UTF-8: ليست هناك أية كتل افتراضية. رجاءً أنشئ كتلة افتراضية أولاً.
+Description-ast.UTF-8: Nun atopáu volume llóxicu
+Extended_description-ast.UTF-8: Nun s'alcuentra nengún volume llóxicu. Por favor fai un volume llóxicu enantes.
+Description-be.UTF-8: Не знойдзена ніводнаг лагічнага тома
+Extended_description-be.UTF-8: Не знойдзена лагічнага тома. Калі ласка, спачатку стварыце лагічны том.
+Description-bg.UTF-8: Не е намерен логически том
+Extended_description-bg.UTF-8: Не е намерен логически том. Моля, първо създайте логически том.
+Description-bn.UTF-8: কোন লজিকাল ভলিউম খুঁজে যায় নি
+Extended_description-bn.UTF-8: কোন যৌক্তিক ভলিউম পাওয়া যায় নি। অনুগ্রহ করে প্রথমে একটি যৌক্তিক ভলিউম তৈরি করুন।
+Description-bs.UTF-8: Logička particija nije pronađena
+Extended_description-bs.UTF-8: Nije pronađena logička particija.  Molim prvo kreirajte logičku particiju.
+Description-ca.UTF-8: No s'ha trobat cap volum lògic
+Extended_description-ca.UTF-8: No s'ha trobat cap volum lògic. Creeu-ne un primer.
+Description-cs.UTF-8: Nebyly nalezeny žádné logické svazky
+Extended_description-cs.UTF-8: Nebyl nalezen žádný logický svazek. Nejprve nějaký vytvořte.
+Description-cy.UTF-8: Ni chanfuwyd cyfrol rhesymegol
+Extended_description-cy.UTF-8: Does dim cyfrol rhesymegol wedi ei ganfod. Crëwch gyfrol rhesymegol yn gyntaf os gwelwch yn dda.
+Description-da.UTF-8: Fandt ingen logiske diskenheder
+Extended_description-da.UTF-8: Fandt ingen logiske diskenheder. Opret en logisk diskenhed først.
+Description-de.UTF-8: Kein logisches Volume gefunden
+Extended_description-de.UTF-8: Es wurde kein logisches Volume gefunden. Bitte erstellen Sie zuerst ein logisches Volume.
+Description-dz.UTF-8: གཏན་ཚིག་ཅན་གྱི་བོ་ལུསམ་འཚོལ་མ་ཐོབ།
+Extended_description-dz.UTF-8: གཏན་ཚིག་ཅན་གྱི་བོ་ལུསམ་འཚོལ་མ་ཐོབ། དང་པ་རང་གཏན་ཚིག་ཅན་གྱི་བོ་ལུསམ་ གསར་བསྐྲུན་འབད་གནང་།
+Description-el.UTF-8: Δε βρέθηκαν Λογικοί Τόμοι
+Extended_description-el.UTF-8: Δεν βρέθηκε κάποιος λογικός τόμος. Παρακαλώ δημιουργήστε πρώτα ένανλογικό τόμο.
+Description-eo.UTF-8: Neniu logika datumportilo trovite
+Extended_description-eo.UTF-8: Neniu logika datumportilo estis trovata. Bonvolu unue krei logikan datumportilon.
+Description-es.UTF-8: No se ha encontrado ningún volumen lógico
+Extended_description-es.UTF-8: No se ha encontrado ningún volumen lógico. Por favor, cree primero un volumen lógico.
+Description-et.UTF-8: Ei leitud ühtki loogilist köidet
+Extended_description-et.UTF-8: Ei leitud ühtki loogilist köidet. Palun loo kõigepealt üks loogiline köide.
+Description-eu.UTF-8: Ez da bolumen logikorik aurkitu
+Extended_description-eu.UTF-8: Ez da bolumen logikorik aurkitu.  Lehenbizi, sortu bolumen logiko bat.
+Description-fa.UTF-8: هیچ logical volume پیدا نشد.
+Extended_description-fa.UTF-8: هیچ logical volumeای یافت نشد. لطفا ابتدا یک logical volume ایجاد کنید.
+Description-fi.UTF-8: Yhtään loogista taltiota ei löytynyt
+Extended_description-fi.UTF-8: Yhtään loogista taltiota ei löytynyt. Luo ensin looginen taltio.
+Description-fr.UTF-8: Aucun volume logique trouvé
+Extended_description-fr.UTF-8: Aucun volume logique n'a été trouvé. Veuillez d'abord en créer un.
+Description-ga.UTF-8: Níor aimsíodh imleabhar loighciúil
+Extended_description-ga.UTF-8: Níor aimsíodh imleabhar loighciúil.  Cruthaigh imleabhar loighciúil i dtosach báire.
+Description-gl.UTF-8: Non se atopou ningún volume lóxico
+Extended_description-gl.UTF-8: Non se atopou ningún volume lóxico. Cree antes un volume lóxico.
+Description-gu.UTF-8: કોઇ તાર્કિક કદ મળ્યાં નહી
+Extended_description-gu.UTF-8: કોઇ તાર્કિક કદ મળ્યું નહી. મહેરબાની કરી પ્રથમ તાર્કિક કદ બનાવો.
+Description-he.UTF-8: לא נמצא נפח לוגי
+Extended_description-he.UTF-8: לא נמצא נפח לוגי. נא ליצור קודם נפח לוגי.
+Description-hi.UTF-8: कोई लॉज़िकल वॉल्यूम नहीं मिला
+Extended_description-hi.UTF-8: कोई भी लॉजिकल वॉल्यूम नहीं पाया गया. कृपया पहले एक लॉजिकल वॉल्यूम बनायें.
+Description-hr.UTF-8: Nema logičkog prostora
+Extended_description-hr.UTF-8: Nije pronađen logički prostor. Molim, prvo ga načinite.
+Description-hu.UTF-8: Nincs logikai kötet
+Extended_description-hu.UTF-8: Nem találtam logikai kötetet. Előbb létre kell hozni egyet.
+Description-id.UTF-8: Volum Logikal tidak ditemukan
+Extended_description-id.UTF-8: Volum Logikal tidak ditemukan. Silakan membuat sebuah Volum Logikal dulu.
+Description-is.UTF-8: Engin rökeintök fundust
+Extended_description-is.UTF-8: Ekkert rökeintak fannst. Búðu fyrst til rökeintak.
+Description-it.UTF-8: Nessun volume logico trovato.
+Extended_description-it.UTF-8: Non è stato trovato alcun volume logico. Crearne uno prima.
+Description-ja.UTF-8: 論理ボリュームが見つかりません
+Extended_description-ja.UTF-8: 論理ボリュームが見つかりませんでした。論理ボリュームを最初に作成してください。
+Description-kk.UTF-8: Ешбір логикалық том табылмады
+Extended_description-kk.UTF-8: Бірде-бір логикалық том табылмады. Алдымен логикалық томды жасаңыз.
+Description-km.UTF-8: រក​មិន​ឃើញ​ភាគ​ឡូជីខល
+Extended_description-km.UTF-8: មិន​បាន​រកឃើញ​ភាគ​ឡូជីខល​ឡើយ ។ សូម​បង្កើត​ភាគ​ឡូជីខល​មួយ​សិន ។
+Description-kn.UTF-8: ಯಾವುದೇ ತಾರ್ಕಿಕ ಪರಿಮಾಣವು ಕಂಡುಬಂದಿಲ್ಲ
+Extended_description-kn.UTF-8: ಯಾವುದೇ ತಾರ್ಕಿಕ ಸಂಪುಟ ಪತ್ತೆಯಾಗಿಲ್ಲ. ದಯಮಾಡಿ  ತಾರ್ಕಿಕ ಸಂಪುಟವೊಂದನ್ನು ಮೊದಲು ನಿರ್ಮಿಸಿ.
+Description-ko.UTF-8: 논리 볼륨을 찾을 수 없습니다
+Extended_description-ko.UTF-8: 논리 볼륨이 없습니다. 먼저 논리 볼륨을 만드십시오.
+Description-lo.UTF-8: ບໍ່ພົບ logical volume
+Extended_description-lo.UTF-8: ບໍ່ພົບ logical volume  ກາລຸນາສ້າງ logical volume ກ່ອນ
+Description-lt.UTF-8: Neradau loginių tomų (Logical Volume)
+Extended_description-lt.UTF-8: Nerastas nė vienas loginis tomas. Pirma sukurkite loginį tomą.
+Description-lv.UTF-8: Loģiskie sējumi nav atrasti
+Extended_description-lv.UTF-8: Nav atrasts neviens loģiskais sējums. Lūdzu, vispirms izveidojiet kādu.
+Description-mk.UTF-8: Нема најдено логички простор
+Extended_description-mk.UTF-8: Не беше најден логички простор. Те молам прво создади логички простор.
+Description-ml.UTF-8: ലോജിക്കല്‍ വാള്യമൊന്നും കണ്ടില്ല
+Extended_description-ml.UTF-8: ലോജിക്കല്‍ വാള്യമൊന്നും കണ്ടില്ല. ദയവായി ആദ്യം ലോജിക്കല്‍ വാള്യം സൃഷ്ടിക്കുക.
+Description-mr.UTF-8: कोणताही तार्किक खंड सापडला नाही
+Extended_description-mr.UTF-8: कोणताही तार्किक खंड सापडलेला नाही. प्रथम एखादा तार्किक खंड बनवा.
+Description-nb.UTF-8: Fant intet logisk dataområde
+Extended_description-nb.UTF-8: Fant intet logisk dataområde. Opprett et logisk dataområde først.
+Description-nl.UTF-8: Er is geen logisch volume gevonden
+Extended_description-nl.UTF-8: Er is geen volumegroep gevonden om een logisch volume in te verwijderen. Gelieve eerst een logisch volume aan te maken.
+Description-no.UTF-8: Fant intet logisk dataområde
+Extended_description-no.UTF-8: Fant intet logisk dataområde. Opprett et logisk dataområde først.
+Description-pa.UTF-8: ਕੋਈ ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਨਹੀਂ ਲੱਭੀ
+Extended_description-pa.UTF-8: ਕੋਈ ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਨਹੀਂ ਲੱਭਿਆ ਸੀ। ਪਹਿਲਾਂ ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਬਣਾਓ ਜੀ।
+Description-pl.UTF-8: Nie znaleziono logicznych woluminów
+Extended_description-pl.UTF-8: Nie znaleziono woluminu logicznego. Proszę utworzyć najpierw jakiś wolumin logiczny.
+Description-pt.UTF-8: Não foi encontrado nenhum volume lógico
+Extended_description-pt.UTF-8: Não foi encontrado nenhum volume lógico. Por favor crie primeiro um volume lógico.
+Description-pt_BR.UTF-8: Nenhum volume lógico encontrado
+Extended_description-pt_BR.UTF-8: Nenhum volume lógico foi encontrado. Por favor, crie um volume lógico primeiro.
+Description-ro.UTF-8: Nu s-a găsit un volum logic
+Extended_description-ro.UTF-8: Nu a fost găsit nici un volum logic. Vă rugăm, mai întâi, să creați un volum logic.
+Description-ru.UTF-8: Логический том не найден
+Extended_description-ru.UTF-8: Не найден логический том. Сначала создайте логический том.
+Description-si.UTF-8: කිසිඳු න්‍යායික වෙළුමක් හමු නොවිනි
+Extended_description-si.UTF-8: කිසිඳු තාර්කික පරිමාව හමු නොවිනි. කරුණාකර පළමුව තාර්කික පරිමාවක් තනන්න.
+Description-sk.UTF-8: Nenašli sa žiadne logické zväzky
+Extended_description-sk.UTF-8: Nenašli sa žiadne logické zväzky. Prosím, najskôr logický zväzok vytvorte.
+Description-sl.UTF-8: Ni bilo mogoče najti nobenega logičnega nosilca
+Extended_description-sl.UTF-8: Nobenega logičnega nosilca ni mogoče najti. Najprej ustvarite logični nosilec.
+Description-sr.UTF-8: Није пронађен логички волумен
+Extended_description-sr.UTF-8: Није пронађен логички волумен. Креирајте га.
+Description-sv.UTF-8: Hittade ingen logisk volym
+Extended_description-sv.UTF-8: Hittade ingen logisk volym. Skapa en logisk volym först.
+Description-ta.UTF-8: தர்க்க ரீதியான தொகுதி ஏதும் காணவில்லை
+Extended_description-ta.UTF-8: தர்க்க ரீதியான தொகுதி ஏதும் காணவில்லை. தயவு செய்து தர்க்க ரீதியான தொகுதியை முதலில் உருவாக்குங்கள்.
+Description-te.UTF-8: Logical volume కనబడలేదు
+Extended_description-te.UTF-8: Logical volume కనబడలేదు. మొదటగా   Logical volume ని సృష్ఠించు.
+Description-tg.UTF-8: Ягон диски мантиқӣ ёфт нашуд
+Extended_description-tg.UTF-8: Ягон ҳаҷми мантиқӣ ёфт нашудааст. Лутфан, аввал ҳаҷми мантиқиро эҷод кунед.
+Description-th.UTF-8: ไม่พบโวลุมลอจิคัล
+Extended_description-th.UTF-8: ไม่พบโวลุมลอจิคัล กรุณาสร้างโวลุมลอจิคัลก่อน
+Description-tr.UTF-8: Herhangi bir mantıksal cilt bulunamadı
+Extended_description-tr.UTF-8: Herhangi bir mantıksal cilt bulunamadı. Lütfen önce bir mantıksal cilt oluşturun.
+Description-ug.UTF-8: لوگىكىلىق دىسكا تېپىلمىدى
+Extended_description-ug.UTF-8: لوگىكىلىق دىسكا تېپىلمىدى. ئالدى بىلەن يېڭى لوگىكىلىق دىسكىدىن بىرنى قۇرۇڭ.
+Description-uk.UTF-8: Не знайдені логічні томи
+Extended_description-uk.UTF-8: Не знайдено жодного логічного тому. Спочатку створіть логічний том.
+Description-vi.UTF-8: Không tìm thấy khối tin hợp lý
+Extended_description-vi.UTF-8: Không tìm thấy khối tin luận lí. Hãy tạo một khối tin luận lí trước tiên.
+Description-zh_CN.UTF-8: 未找到逻辑卷
+Extended_description-zh_CN.UTF-8: 没有找到逻辑卷。请先创建一个逻辑卷。
+Description-zh_TW.UTF-8: 未能找到 Logical Volume
+Extended_description-zh_TW.UTF-8: 未能找到 Logical Volume。請先建立一個 Logical Volume。
+
+Name: partman-lvm/mainmenu
+Type: select
+Choices: ${CHOICES_L10N}
+Description: LVM configuration action:
+Extended_description: Summary of current LVM configuration:\n\n Free Physical Volumes:  ${FREE_PVS}\n Used Physical Volumes:  ${USED_PVS}\n Volume Groups:          ${VGS}\n Logical Volumes:        ${LVS}
+Help: partman-lvm/help
+Choices-C: ${CHOICES}
+Description-am.UTF-8: የLVM ግሩፖች ማስተካከል፦
+Extended_description-am.UTF-8: የወቅታዊው የLVM ዝግጅት መረጃ ማጠቅላያ:-\n\n ነጻ አካላዊ ይዘት:  ${FREE_PVS} በጥቅም ላይ ያለ አካላዊ ይዘት:  ${USED_PVS}\n አካላዊ ይዘቶች:          ${VGS}\n ሎጂካዊ ይዘቶች:        ${LVS}
+Description-ar.UTF-8: إجراء تهيئة LVM:
+Extended_description-ar.UTF-8: ملخص تهئية LVM الحالية:\n\n الكتل الافتراضية الشاغرة:  ${FREE_PVS}\n الكتل الافتراضية المستخدمة:  ${USED_PVS}\n مجموعات الكتل:          ${VGS}\n الكتل الافتراضية:        ${LVS}
+Description-ast.UTF-8: Acción configuración LVM:
+Extended_description-ast.UTF-8: Sumariu de la configuración LVM actual:\n\n Volúmenes Físicos Llibres:  ${FREE_PVS}\n Volúmenes Físicos Usaos:  ${USED_PVS}\n Grupos de Volume:          ${VGS}\n Volumenes Llóxicos:        ${LVS}
+Description-be.UTF-8: Дзеянне па наладцы LVM:
+Extended_description-be.UTF-8: Агляд актуальных наладак LVM:\n\n Вольныя фізічныя тамы: ${FREE_PVS}\n Ужытыя фізічныя тамы:  ${USED_PVS}\n Групы тамоў:           ${VGS}\n Лагічныя тамы:         ${LVS}
+Description-bg.UTF-8: Действия по настройването на LVM:
+Extended_description-bg.UTF-8: Текущата конфигурация на LVM накратко:\n\n Свободни физически томове:    ${FREE_PVS}\n Използвани физически томове:  ${USED_PVS}\n Групи томове:                 ${VGS}\n Логически томове:             ${LVS}
+Description-bn.UTF-8: LVM কনফিগারেশন সংক্রান্ত কাজ:
+Extended_description-bn.UTF-8: বর্তমান LVM কনফিগারেশন এর সারমর্ম:\n\n ফাঁকা ফিজিক্যাল ভলিউম:  ${FREE_PVS}\n ব্যবহৃত ফিজিক্যাল ভলিউম:  ${USED_PVS}\n ভলিউম গ্রুপ:          ${VGS}\n লজিক্যাল ভলিউম:        ${LVS}
+Description-bs.UTF-8: LVM konfiguracijska akcija:
+Extended_description-bs.UTF-8: Pregled trenutne LVM konfiguracije:\n\nSlobodne fizičke particije:  ${FREE_PVS} Korištene fizičke particije:  ${USED_PVS} Grupe particija:          ${VGS} Logičke particije:        ${LVS}
+Description-ca.UTF-8: Acció de la configuració d'LVM:
+Extended_description-ca.UTF-8: Resum de la configuració actual d'LVM:\n\n Volums físics lliures:  ${FREE_PVS}\n Volums físics en ús:    ${USED_PVS}\n Grups de volums:        ${VGS}\n Volums lògics:          ${LVS}
+Description-cs.UTF-8: Krok nastavení LVM:
+Extended_description-cs.UTF-8: Přehled aktuálního nastavení LVM:\n\n Volné fyzické svazky:    ${FREE_PVS}\n Použité fyzické svazky:  ${USED_PVS}\n Skupiny svazků:          ${VGS}\n Logické svazky:          ${LVS}
+Description-cy.UTF-8: Gweithred cyfluniad LVM:
+Extended_description-cy.UTF-8: Crynodeb o gyfluniad LVM presennol:\n\n Cyfrolau Corfforol Rhydd:       ${FREE_PVS}\n Cyfrolau Corfforol Defnyddiwyd: ${USED_PVS}\n Grwpiau Cyfrol:                 ${VGS}\n Cyfrolau Rhesymegol:            ${LVS}
+Description-da.UTF-8: LVM-opsætningshandling:
+Extended_description-da.UTF-8: Opsummering af den aktuelle LVM-opsætning:\n\n Ledige fysiske diskenheder:    ${FREE_PVS}\n Benyttede fysiske diskenheder: ${USED_PVS}\n Diskenhedsgrupper:             ${VGS}\n Logiske diskenheder:           ${LVS}
+Description-de.UTF-8: LVM-Konfigurationsaktion:
+Extended_description-de.UTF-8: Übersicht der aktuellen LVM-Konfiguration:\n\n Freie physikalische Volumes:      ${FREE_PVS}\n Verwendete physikalische Volumes: ${USED_PVS}\n Volume-Gruppen:                   ${VGS}\n Logische Volumes:                 ${LVS}
+Description-dz.UTF-8: LVM རིམ་སྒྲིག་འབད་ནིའི་བྱ་བ:
+Extended_description-dz.UTF-8: ད་ལྟོའི་ ཨེལ་ཝི་ཨེམ་རིམ་སྒྲིག་གི་བཅུད་དོན་:\n\nརང་དབང་དངོས་ཅན་གྱི་སྐད་ཤུགས་:  ${FREE_PVS} ལག་ལེན་འཐབ་ཡོད་པའི་དངོས་ཅན་གྱི་སྐད་ཤུགས་:  ${USED_PVS}\n         སྐད་ཤུགས་སྡེ་ཚན་:  ${VGS}\nགཏན་ཚིག་ཅན་གྱི་སྐད་ཤུགས་:        ${LVS}
+Description-el.UTF-8: Εργασία ρύθμισης του LVM:
+Extended_description-el.UTF-8: Σύνοψη της τρέχουσας ρύθμισης του LVM:\n\nΕλεύθεροι φυσικοί τόμοι:  ${FREE_PVS} Φυσικοί τόμοι σε χρήση:  ${USED_PVS}\n Ομάδες τόμων:          ${VGS}\n Λογικοί τόμοι:        ${LVS}
+Description-eo.UTF-8: Agorda ago de LVM (logika datumportila administrilo):
+Extended_description-eo.UTF-8: Resumo de la nuna LVM-agordo:\n\n Liberaj Konkretaj Datumportiloj:  ${FREE_PVS}\n Uzataj Konktretaj Datumportiloj:  ${USED_PVS}\n Datumportilaj Grupoj:             ${VGS}\n Logikaj Datumportiloj:            ${LVS}
+Description-es.UTF-8: Acción de configuración LVM:
+Extended_description-es.UTF-8: Resumen de la configuración LVM actual:\n\n Volúmenes físicos libres: ${FREE_PVS}\n Volúmenes físicos en uso: ${USED_PVS}\n Grupos de volúmenes:      ${VGS}\n Volúmenes lógicos:        ${LVS}
+Description-et.UTF-8: LVM seadistamise tegevus:
+Extended_description-et.UTF-8: Praeguse LVM seadistuse kokkuvõte:\n\n Vabad füüsilised köited:     ${FREE_PVS}\n Kasutatud füüsilised köited: ${USED_PVS}\n Köitegrupid:                 ${VGS}\n Loogilised köited:           ${LVS}
+Description-eu.UTF-8: LVM konfiguratzeko ekintza:
+Extended_description-eu.UTF-8: Uneko LVM konfigurazioaren laburpena:\n\n Bolumen Fisiko Libreak:         ${FREE_PVS}\n Erabilitako Bolumen fisikoak:  ${USED_PVS}\n Bolumen Taldeak:          ${VGS}\n Bolumen Logikoak:        ${LVS}
+Description-fa.UTF-8: عملیات تنظیم LVM :
+Extended_description-fa.UTF-8: :جاری LVMخلاصه تایید  \n\n ${FREE_PVS} حجم‌های فیزیکی آزاد: ${USED_PVS} حجم‌های فیزیکی استفاده شده:${VGS} گروه های صدا:   ${LVS}صداهای منطقی:
+Description-fi.UTF-8: LVM:n asetustoiminto:
+Extended_description-fi.UTF-8: Yhteenveto käytössä olevista LVM:n asetuksista:\n\n Vapaat fyysiset taltiot:  ${FREE_PVS}\n Käyt.  fyysiset taltiot:  ${USED_PVS}\n Taltioryhmät:             ${VGS}\n Loogiset taltiot:         ${LVS}
+Description-fr.UTF-8: Action de configuration de LVM :
+Extended_description-fr.UTF-8: Synthèse de la configuration du gestionnaire de volumes logiques :\n\n Volumes physiques libres :   ${FREE_PVS}\n Volumes physiques utilisés : ${USED_PVS}\n Groupes de volumes :         ${VGS}\n Volumes logiques :           ${LVS}
+Description-ga.UTF-8: Gníomh cumraíochta LVM:
+Extended_description-ga.UTF-8: Achoimre ar an gcumraíocht reatha LVM:\n\n Imleabhair shaora fhisiceacha:   ${FREE_PVS}\n Imleabhair úsáidte fhisiceacha:  ${USED_PVS}\n Grúpaí imleabhar:                ${VGS}\n Imleabhair loighciúla:           ${LVS}
+Description-gl.UTF-8: Acción da configuración de LVM:
+Extended_description-gl.UTF-8: Resumo da configuración actual de LVM:\n\n Volumes físicos libres: ${FREE_PVS}\n Volumes físicos en uso: ${USED_PVS}\n Grupos de volumes:      ${VGS}\n Volumes lóxicos:        ${LVS}
+Description-gu.UTF-8: LVM રૂપરેખાંકન ક્રિયા:
+Extended_description-gu.UTF-8: હાલનાં LVM રૂપરેખાંકનનો સાર:\n\n ખાલી ભૌતિક કદો:  ${FREE_PVS}\n વપરાયેલ ભૌતિક કદો:  ${USED_PVS}\n કદ સમૂહો:          ${VGS}\n તાર્કિક કદો:        ${LVS}
+Description-he.UTF-8: פעולות להגדרת מנהל מחיצות לוגיות:
+Extended_description-he.UTF-8: סיכום של הגדרות מנהל מחיצות לוגיות הנוכחיות:\n\n נפחים פיזיים פנויים:  ${FREE_PVS}\n נפחים פיזיים בשימוש:  ${USED_PVS}\n קבוצות נפחים:         ${VGS}\n נפחים לוגיים:           ${LVS}
+Description-hi.UTF-8: एलवीएम कॉन्फ़िगरेशन क्रिया:
+Extended_description-hi.UTF-8: वर्तमान एलवीएम व्यवस्था का सारांश:\n\n मुक्त फिज़िकल वॉल्यूम:  ${FREE_PVS}\n प्रयुक्त फिज़िकल वॉल्यूम:  ${USED_PVS}\n वॉल्यूम समूह:          ${VGS}\n लॉजिकल वॉल्यूम्स:        ${LVS}
+Description-hr.UTF-8: Postupak podešavanja ULP:
+Extended_description-hr.UTF-8: Sažetak trenutnih postavki za ULP\n\n Slobodni fiz. prostori:  ${FREE_PVS}\n Korišteni fiz. prostori: ${USED_PVS}\n Prostorne grupe:         ${VGS}\n Logički prostori:        ${LVS}
+Description-hu.UTF-8: LVM konfiguráló művelet:
+Extended_description-hu.UTF-8: Jelenlegi LVM konfiguráció összefoglalója:\n\n Szabad fizikai kötetek:      ${FREE_PVS}\n Használt fizikai kötetek:  ${USED_PVS}\n Kötetcsoportok:             ${VGS}\n Logikai kötetek:            ${LVS}
+Description-id.UTF-8: Tindakan untuk pengaturan LVM:
+Extended_description-id.UTF-8: Ringkasan pengaturan LVM saat ini:\n\nVolum Fisik Tersedia:  ${FREE_PVS} Volum Fisika Terpakai:  ${USED_PVS} Grup Volum:          ${VGS} Volum Logikal:             ${LVS}
+Description-is.UTF-8: Stilliaðgerð fyrir sýndardiskastjóra (LVM):
+Extended_description-is.UTF-8: Ágrip af núgildandi uppsetningu sýndardiskastjóra (LVM):\n\n Laus rauneintök: ${FREE_PVS}\n Notuð rauneintök: ${USED_PVS}\n Sýndardiskarar: ${VGS}\n Rökeintök: ${LVS}
+Description-it.UTF-8: Passo di configurazione di LVM:
+Extended_description-it.UTF-8: Riassunto della configurazione attuale di LVM:\n\n Volumi fisici liberi:   ${FREE_PVS}\n Volumi fisici usati:    ${USED_PVS}\n Gruppi di volumi:       ${VGS}\n Volumi logici:          ${LVS}
+Description-ja.UTF-8: LVM 設定アクション:
+Extended_description-ja.UTF-8: 現在の LVM 設定の概要:\n\n 未使用の物理ボリューム: ${FREE_PVS}\n 利用中の物理ボリューム: ${USED_PVS}\n ボリュームグループ:     ${VGS}\n 論理ボリューム:         ${LVS}
+Description-ka.UTF-8: LVM კონფიგურაციის ქმედება:
+Extended_description-ka.UTF-8: LVM-ის მიმდინარე კონფიგურაციის შესახებ:\n\n თავისუფალი ფიზიკური ტომები: ${FREE_PVS}\n დაკავებული ფიზიკური ტომები: ${USED_PVS}\n ტომთა ჯგუფები: ${VGS}\n ლოგიკური ტომები: ${LVS}
+Description-kk.UTF-8: LVM баптауы:
+Extended_description-kk.UTF-8: Ағымдық LVM конфигурациясының қорытындысы:\n\n Бос физикалық том:  ${FREE_PVS}\n Қолданыстағы физикалық том:  ${USED_PVS}\n Томдар тобы:          ${VGS}\n Логикалық томдар:        ${LVS}
+Description-km.UTF-8: អំពើ​ការ​កំណត់​រចនា​សម្ព័ន្ធ LVM ៖
+Extended_description-km.UTF-8: សេចក្ដី​សង្ខេប​របស់​ការ​កំណត់​រចនាសម្ព័ន្ធ LVM បច្ចុប្បន្ន ៖\n\n * ភាគ​ពិត​ទំនេរ ៖  ${FREE_PVS}\n * ភាគ​ពិត​ដែល​បាន​ប្រើ ៖  ${USED_PVS}\n * ក្រុម​ភាគ ៖          ${VGS}\n * ភាគ​ឡូជីខល ៖        ${LVS}
+Description-kn.UTF-8: LVM ಸಂರಚನಾ ಕಾರ್ಯ:
+Extended_description-kn.UTF-8: ಪ್ರಸಕ್ತ LVM ಸಂರಚನೆಯ ಸಾರಾಂಶ:\n\nಬಿಡುವಾದ ಭೌತಿಕ ಸಂಪುಟಗಳು: ${FREE_PVS} ಬಳಕೆಯಾದ ಭೌತಿಕ ಸಂಪುಟಗಳು: ${USED_PVS} ಸಂಪುಟ ಸಮೂಹಗಳು:         ${VGS} ತಾರ್ಕಿಕ ಸಂಪುಟಗಳು:           ${LVS}
+Description-ko.UTF-8: LVM 설정 작업:
+Extended_description-ko.UTF-8: 현재 LVM 설정 요약:\n\n 남은 물리 볼륨:     ${FREE_PVS}\n 사용한 물리 볼륨 :  ${USED_PVS}\n 볼륨 그룹:          ${VGS}\n 논리 볼륨:          ${LVS}
+Description-ku.UTF-8: Çalakiya sazkirinê LVM:
+Extended_description-ku.UTF-8: Kurtasiya veavakirina LVM ya derbasdar:\n\n Volumên Fîzîkî yên Vala:  ${FREE_PVS}\n Volumên Fîzîkî yên Bikaranî:  ${USED_PVS}\n Komên Voluman:          ${VGS}\n Volumên Mantiqî:        ${LVS}
+Description-lo.UTF-8: ກຳລັງດຳເນີນການຕັ້ງຄ່າ LVM:
+Extended_description-lo.UTF-8: ສະຫຼຸບປັບປຸງ LVM ລ່າສຸດ: \n\n Physical Volume ທີ່ວ່າງ:  ${FREE_PVS}\n Physical Volume ທີ່ໃຊ້:   ${USED_PVS}\nກຸ່ມໂວລ້ຳ:               ${VGS}\n Logical Volume:         ${LVS}
+Description-lt.UTF-8: LVM konfigūravimo metodas:
+Extended_description-lt.UTF-8: Dabartinės LVM konfigūracijos santrauka:\n\n Tuščių fizinių tomų (PV):     ${FREE_PVS}\n Naudojamų fizinių tomų (PV):  ${USED_PVS}\n Tomų grupių (VG):             ${VGS}\n Loginių tomų (LV):            ${LVS}
+Description-lv.UTF-8: LVM konfigurēšanas darbība:
+Extended_description-lv.UTF-8: Pašreizējās LVM konfigurācijas kopsavilkums:\n\n Brīvie fiziskie sējumi:   ${FREE_PVS}\n Lietotie fiziskie sējumi: ${USED_PVS}\n Sējumu grupas:            ${VGS}\n Loģiskie sējumi:          ${LVS}
+Description-mk.UTF-8: Акција за конфигурарање на УЛП:
+Extended_description-mk.UTF-8: Пресек на моменталната конфигурација на логичките простори LVM:\n\n Слободни физички простори:  ${FREE_PVS}\n Физички простори во употреба   ${USED_PVS}\n Групи на простори:          ${VGS}\n Логички простори:        ${LVS}
+Description-ml.UTF-8: LVM ക്രമീകരണ നടപടി:
+Extended_description-ml.UTF-8: ഇപ്പോഴത്തെ LVM ക്രമീകരണത്തിന്റ ലഘു വിവരണം:\n\n ഫ്രീ ഭൌതിക വാള്യങ്ങള്‍:	  ${FREE_PVS}\n ഉപയോഗിച്ച ഭൌതിക വാള്യങ്ങള്‍:${USED_PVS}\n വാള്യം ഗ്രൂപ്പുകള്‍:            ${VGS}\n ലോജിക്കല്‍ വാള്യങ്ങള്‍:        ${LVS}
+Description-mr.UTF-8: ताखंव्य संरचना कृतीः
+Extended_description-mr.UTF-8: सध्याच्या ताखंव्य संरचनेचा सारांशः\n\n मोकळे भौतिक खंड:  ${FREE_PVS}\n वापरलेले भौतिक खंड: ${USED_PVS}\n खंड गट:         ${VGS}\n तार्किक खंड:        ${LVS}
+Description-nb.UTF-8: Oppsettsmeny for LVM (logiske dataområder):
+Extended_description-nb.UTF-8: Sammendrag av gjeldende LVM-oppsett:\n\n Frie fysiske områder:       ${FREE_PVS}\n Brukte fysiske områder:   ${USED_PVS}\n Grupperte dataområder:  ${VGS}\n Logiske dataområder:      ${LVS}
+Description-ne.UTF-8: LVM कन्फिगरेशन कार्य:
+Extended_description-ne.UTF-8: हालको LVM कन्फिगरेशनको संक्षेप:\n\n निशुल्क भौतिक भोल्युमहरू:  ${FREE_PVS}\n प्रयोग गरिएको भौतिक भोल्युमहरू:  ${USED_PVS}\n भोल्युम समूहहरू:          ${VGS}\n लोजिकल समूहहरू:        ${LVS}
+Description-nl.UTF-8: LVM-configuratieactie:
+Extended_description-nl.UTF-8: Samenvatting van de huidige LVM-configuratie:\n\n Vrije Fysieke Volumes:      ${FREE_PVS}\n Gebruikte Fysieke Volumes:  ${USED_PVS}\n Volumegroepen:              ${VGS}\n Logische Volumes:           ${LVS}
+Description-nn.UTF-8: Handlingar for oppsett av LVM:
+Extended_description-nn.UTF-8: Samandrag av gjeldande LVM-oppsett:\n\n Frie fysiske område:    ${FREE_PVS}\n Brukte fysiske område:  ${USED_PVS}\n Grupperte dataområde:   ${VGS}\n Logiske dataområde:     ${LVS}
+Description-no.UTF-8: Oppsettsmeny for LVM (logiske dataområder):
+Extended_description-no.UTF-8: Sammendrag av gjeldende LVM-oppsett:\n\n Frie fysiske områder:       ${FREE_PVS}\n Brukte fysiske områder:   ${USED_PVS}\n Grupperte dataområder:  ${VGS}\n Logiske dataområder:      ${LVS}
+Description-pa.UTF-8: LVM ਸੰਰਚਨਾ ਕਾਰਵਾਈ:
+Extended_description-pa.UTF-8: ਮੌਜੂਦਾ LVM ਸੰਰਚਨਾ ਦਾ ਸੰਖੇਪ:\n\n ਖਾਲੀ ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ:  ${FREE_PVS}\n ਵਰਤਿਆ ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ:  ${USED_PVS}\n ਵਾਲੀਅਮ ਗਰੁੱਪ:          ${VGS}\n ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ:        ${LVS}
+Description-pl.UTF-8: Działania konfiguracyjne LVM:
+Extended_description-pl.UTF-8: Podsumowanie aktualnej konfiguracji LVM:\n\n Wolne woluminy fizyczne:  ${FREE_PVS}\n Zajęte woluminy fizyczne: ${USED_PVS}\n Grupy woluminów:          ${VGS}\n Logiczne woluminy:        ${LVS}
+Description-pt.UTF-8: Acção de configuração LVM:
+Extended_description-pt.UTF-8: Sumário da actual configuração do LVM:\n\n Volumes Físicos Livres:  ${FREE_PVS}\n Volumes Físicos Usados:  ${USED_PVS}\n Grupos de Volumes:       ${VGS}\n Volumes Lógicos:         ${LVS}
+Description-pt_BR.UTF-8: Ação de configuração LVM:
+Extended_description-pt_BR.UTF-8: Sumário da configuração LVM atual:\n\n Volumes Físicos Livres: ${FREE_PVS}\n Volumes Físicos Usados: ${USED_PVS}\n Grupos de Volumes:      ${VGS}\n Volumes Lógicos:        ${LVS}
+Description-ro.UTF-8: Acțiunea de configurare LVM:
+Extended_description-ro.UTF-8: Sumarul configurației LVM actuale:\n\n Volume fizice libere:   ${FREE_PVS}\n Volume fizice folosite: ${USED_PVS}\n Grupe de volume:        ${VGS}\n Volume logice:          ${LVS}
+Description-ru.UTF-8: Настройка LVM:
+Extended_description-ru.UTF-8: Кратко о имеющейся конфигурации LVM:\n\n Свободно физических томов(PV):      ${FREE_PVS}\n Использовано физических томов(PV):  ${USED_PVS}\n Групп томов(VG):                    ${VGS}\n Логических томов(LV):               ${LVS}
+Description-si.UTF-8: LVM සැකසුම් ක්‍රියාව:
+Extended_description-si.UTF-8: වත්මන් LVM සැකැස්මේ සාරාංශය:\n\n නිදහස් භෞතික වෙළුම්:  ${FREE_PVS}\n භාවිත භෞතික වෙළුම්:  ${USED_PVS}\n වෙළුම් කණ්ඩායම්:          ${VGS}\n න්‍යායික වෙළුම්:        ${LVS}
+Description-sk.UTF-8: Krok nastavenia LVM:
+Extended_description-sk.UTF-8: Zhrnutie súčasného nastavenia LVM:\n\n Voľné fyzické zväzky:   ${FREE_PVS}\n Použité fyzické zväzky: ${USED_PVS}\n Skupiny zväzkov:        ${VGS}\n Logické zväzky:         ${LVS}
+Description-sl.UTF-8: Dejanje pri nastavljanju LVM:
+Extended_description-sl.UTF-8: Povzetek trenutne nastavitve LVM:\n\n Prosti fizični nosilci:  ${FREE_PVS}\n Uporabljeni fizični nosilci:  ${USED_PVS}\n Skupine nosilcev:          ${VGS}\n Logični nosilci:        ${LVS}
+Description-sq.UTF-8: Konfigurimi i OVL:
+Extended_description-sq.UTF-8: Përmbledhja e konfigurimit të tanishëm OVL:\n\n Volume Fizikë të Lira:         ${FREE_PVS}\n Volume Fizikë të Përdorura:  ${USED_PVS}\n Grupe Volumi:                  ${VGS}\n Volume Logjikë:                   ${LVS}
+Description-sr.UTF-8: Конфигурисање LVM-а:
+Extended_description-sr.UTF-8: Преглед тренутне LVM конфигурације:\n\n Слободни физички волумени:  ${FREE_PVS}\n Искоришћени физички волумени:  ${USED_PVS}\n Групе волумена:          ${VGS}\n Логички волумени:        ${LVS}
+Description-sv.UTF-8: Åtgärd på LVM-konfiguration:
+Extended_description-sv.UTF-8: Sammandrag av aktuell LVM-konfiguration:\n\n Lediga fysiska volymer:  ${FREE_PVS}\n Använda fysiska volymer: ${USED_PVS}\n Volymgrupper:            ${VGS}\n Logiska volymer:         ${LVS}
+Description-ta.UTF-8: எல்விஎம் (LVM) வடிவமைப்பு செயல்:
+Extended_description-ta.UTF-8: தற்போதய எல்விஎம் (LVM) வடிவமைப்பின் சுருக்கம்:\n\n சுதந்திரமான பௌதிகத் தொகுதிகள்:  ${FREE_PVS}\n பயன்படுத்தப்பட்ட பௌதிகத் தொகுதிகள்:  ${USED_PVS}\n தொகுதிப் பிரிவுகள்:          ${VGS}\n தர்க்க ரீதியான தொகுதிகள்::        ${LVS}
+Description-te.UTF-8: LVM అమరిక  చర్య:
+Extended_description-te.UTF-8: ప్రస్తుత LVM అమరిక సంక్షిప్త వివరము:\n\n   ఖా‌ళీ Physical Volumes:  ${FREE_PVS}\n   ఉపయోగంలో వున్న  Physical Volumes:  ${USED_PVS}\n Volume Groups:          ${VGS}\n Logical Volumes:        ${LVS}
+Description-tg.UTF-8: Амали танзимоти LVM:
+Extended_description-tg.UTF-8: Ҷамъбасти конфигуратсияи ҷории LVM:\n\n Ҳаҷмҳои ҷисмонии холӣ:  ${FREE_PVS}\n Ҳаҷмҳои ҷисмонии пур:  ${USED_PVS}\n Гурӯҳҳои ҳаҷм:          ${VGS}\n Ҳаҷмҳои мантиқӣ:        ${LVS}
+Description-th.UTF-8: การดำเนินการตั้งค่า LVM:
+Extended_description-th.UTF-8: สรุปค่าตั้ง LVM ล่าสุด:\n\n Physical Volume ที่ว่าง:   ${FREE_PVS}\n Physical Volume ที่ใช้:    ${USED_PVS}\n กลุ่มโวลุม:                ${VGS}\n Logical Volume:         ${LVS}
+Description-tl.UTF-8: Ginagawang pagsasaayos ng LVM:
+Extended_description-tl.UTF-8: Paglalahat ng kasalukuyang pagkaayos ng LVM:\n\n Hindi gamit na Pisikal na Volume:  ${FREE_PVS}\n Ginagamit na Pisikal na Volume:    ${USED_PVS}\n Mga Volume Group:                  ${VGS}\n Mga Lohikal na Volume:             ${LVS}
+Description-tr.UTF-8: LVM yapılandırma eylemi:
+Extended_description-tr.UTF-8: Geçerli LVM yapılandırması özeti:\n\n Serbest Fiziksel Ciltler:     ${FREE_PVS}\n Kullanılan Fiziksel Ciltler:  ${USED_PVS}\n Cilt Grupları:                ${VGS}\n Mantıksal Ciltler:            ${LVS}
+Description-ug.UTF-8: LVM سەپلەش مەشغۇلاتى:
+Extended_description-ug.UTF-8: نۆۋەتتىكى LVM سەپلىمە يىغىندىسى(Summary):\n\n بوش فىزىكىلىق ئەن: ${FREE_PVS} ئىشلەتكەن فىزىكىلىق ئەن: ${USED_PVS} ئەن گۇرۇپپىسى: ${VGS} لوگىكىلىق ئەن: ${LVS}
+Description-uk.UTF-8: Дія по налаштуванню LVM:
+Extended_description-uk.UTF-8: Огляд поточних налаштувань LVM:\n\n Вільні фізичні томи:      ${FREE_PVS}\n Використані фізичні томи: ${USED_PVS}\n Групи томів:              ${VGS}\n Логічні томи:             ${LVS}
+Description-vi.UTF-8: Hành động cấu hình LVM:
+Extended_description-vi.UTF-8: Bản tóm tắt cấu hình LVM hiện thời:\n\n Khối tin vật lý còn rảnh:	${FREE_PVS}\n Khối tin vật lý đã chiếm:	${USED_PVS}\n Nhóm khối tin:          		${VGS}\n Khối tin hợp lý:        		${LVS}
+Description-zh_CN.UTF-8: LVM 配置动作：
+Extended_description-zh_CN.UTF-8: 当前 LVM 配置的总结：\n\n 空闲物理卷：            ${FREE_PVS}\n 已用物理卷：            ${USED_PVS}\n 卷组：                  ${VGS}\n 逻辑卷：                ${LVS}
+Description-zh_TW.UTF-8: LVM 的設定動作：
+Extended_description-zh_TW.UTF-8: 目前的 LVM 設定的大略資訊\n\n 可用的 Physical Volumes:  ${FREE_PVS}\n 已使用 Physical Volumes:  ${USED_PVS}\n Volume Groups:            ${VGS}\n Logical Volumes:          ${LVS}
+
+Name: partman-lvm/menu/createlv
+Type: text
+Description: Create logical volume
+Description-am.UTF-8: ሎጂካል ይዘት ፍጥር
+Description-ar.UTF-8: إنشاء كتلة افتراضية
+Description-ast.UTF-8: Crear volume llóxicu
+Description-be.UTF-8: Стварыць лагічны том
+Description-bg.UTF-8: Създаване на логически том
+Description-bn.UTF-8: লজিকাল ভলিউম তৈরি করো
+Description-bs.UTF-8: Kreiraj logičku particiju
+Description-ca.UTF-8: Crea un volum lògic
+Description-cs.UTF-8: Vytvořit logický svazek
+Description-cy.UTF-8: Creu cyfrol rhesymegol
+Description-da.UTF-8: Opret logisk diskenhed
+Description-de.UTF-8: Logisches Volume erstellen
+Description-dz.UTF-8: གཏན་ཚིག་ཅན་གྱི་སྡེ་ཚན་གསར་བསྐྲུན་འབད།
+Description-el.UTF-8: Δημιουργία λογικού τόμου
+Description-eo.UTF-8: Krei logikan datumportilon
+Description-es.UTF-8: Crear un volumen lógico
+Description-et.UTF-8: Loo loogiline köide
+Description-eu.UTF-8: Sortu bolumen logikoa
+Description-fa.UTF-8: ایجاد logical volume
+Description-fi.UTF-8: Luo looginen taltio
+Description-fr.UTF-8: Créer un volume logique
+Description-ga.UTF-8: Cruthaigh imleabhar loighciúil
+Description-gl.UTF-8: Crear un volume lóxico
+Description-gu.UTF-8: તાર્કિક સમૂહ બનાવો
+Description-he.UTF-8: יצירת נפח לוגי
+Description-hi.UTF-8: लॉज़िकल वॉल्यूम बनाएँ
+Description-hr.UTF-8: Načini logički prostor
+Description-hu.UTF-8: Logikai kötet létrehozása
+Description-id.UTF-8: Buat Volum Logikal:
+Description-is.UTF-8: Búa til sýndardisk
+Description-it.UTF-8: Creare volume logico
+Description-ja.UTF-8: 論理ボリュームの作成
+Description-ka.UTF-8: ლოგიკური დისკწამყვანის გახსნა
+Description-kk.UTF-8: Логикалық том құру
+Description-km.UTF-8: បង្កើត​ភាគ​ឡូជីខល
+Description-kn.UTF-8: ಕುತಾರ್ಕಿಕ ಪರಿಮಾಣವನ್ನು ಸ್ರುಷ್ಠಿಸು
+Description-ko.UTF-8: 논리 볼륨 만들기
+Description-ku.UTF-8: Logical volume biafirîne
+Description-lo.UTF-8: ສ້າງ logical volume
+Description-lt.UTF-8: Sukurti loginį tomą (logical volume)
+Description-lv.UTF-8: Izveidot loģisko sējumu
+Description-mk.UTF-8: Креирај логички простор
+Description-ml.UTF-8: ലോജിക്കല്‍ വാള്യം സൃഷ്ടിക്കുക
+Description-mr.UTF-8: तार्किक खंड बनवा
+Description-nb.UTF-8: Opprette logisk dataområde
+Description-ne.UTF-8: लोजिकल भोल्युम सिर्जना गर्नुहोस्
+Description-nl.UTF-8: Logisch volume aanmaken
+Description-nn.UTF-8: Opprette logisk dataområde
+Description-no.UTF-8: Opprette logisk dataområde
+Description-pa.UTF-8: ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਬਣਾਓ
+Description-pl.UTF-8: Utwórz logiczny wolumin
+Description-pt.UTF-8: Criar volume lógico
+Description-pt_BR.UTF-8: Criar volume lógico
+Description-ro.UTF-8: Creează volume logice
+Description-ru.UTF-8: Создать логический том
+Description-si.UTF-8: න්‍යායික වෙළුමක් නිර්මාණය කරන්න
+Description-sk.UTF-8: Vytvoriť logický zväzok
+Description-sl.UTF-8: Ustvari logični nosilec
+Description-sq.UTF-8: Krijo volum logjik
+Description-sr.UTF-8: Направити логички волумен
+Description-sv.UTF-8: Skapa logisk volym
+Description-ta.UTF-8: தர்க்க ரீதியான தொகுதியை உருவாக்குக
+Description-te.UTF-8: Logical volume సృష్ఠించు
+Description-tg.UTF-8: Эҷод кардани ҳаҷми мантиқӣ
+Description-th.UTF-8: สร้างโวลุมลอจิคัล
+Description-tl.UTF-8: Bumuo ng mga lohikal na volume
+Description-tr.UTF-8: Mantıksal cilt oluştur
+Description-ug.UTF-8: لوگىكىلىق دىسكا قۇر
+Description-uk.UTF-8: Створити логічний том
+Description-vi.UTF-8: Tạo khối tin hợp lệ
+Description-zh_CN.UTF-8: 创建逻辑卷
+Description-zh_TW.UTF-8: 建立 Logical Volume
+
+Name: partman-lvm/menu/createvg
+Type: text
+Description: Create volume group
+Description-am.UTF-8: የይዘት ግሩፑን ፍጠር
+Description-ar.UTF-8: إنشاء مجموعة كتل
+Description-ast.UTF-8: Crear grupu de volume
+Description-be.UTF-8: Стварыць групу тамоў
+Description-bg.UTF-8: Създаване на група от томове
+Description-bn.UTF-8: ভলিউম গ্রুপ তৈরি করো
+Description-bs.UTF-8: Kreiraj grupu particija
+Description-ca.UTF-8: Crea un grup de volums
+Description-cs.UTF-8: Vytvořit skupinu svazků
+Description-cy.UTF-8: Creu grŵp cyfrol
+Description-da.UTF-8: Opret diskenhedsgruppe
+Description-de.UTF-8: Volume-Gruppe erstellen
+Description-dz.UTF-8: བོ་ལུསམ་སྡེ་ཚན་གསར་བསྐྲུན་འབད།
+Description-el.UTF-8: Δημιουργία ομάδας τόμων
+Description-eo.UTF-8: Krei datumportil-grupon
+Description-es.UTF-8: Crear grupo de volúmenes
+Description-et.UTF-8: Loo köitegrupp
+Description-eu.UTF-8: Sortu bolumen taldea
+Description-fa.UTF-8: ایجاد گروه حجم
+Description-fi.UTF-8: Luo taltioryhmä
+Description-fr.UTF-8: Créer un groupe de volumes
+Description-ga.UTF-8: Cruthaigh grúpa imleabhar
+Description-gl.UTF-8: Crear un grupo de volumes
+Description-gu.UTF-8: કદ સમૂહ બનાવો
+Description-he.UTF-8: יצירת קבוצת נפחים
+Description-hi.UTF-8: वॉल्यूम समूह बनाएँ
+Description-hr.UTF-8: Načini prostornu grupu
+Description-hu.UTF-8: Kötetcsoport létrehozása
+Description-id.UTF-8: Buat Grup Volume
+Description-is.UTF-8: Búa til sýndardisk (volume group)
+Description-it.UTF-8: Creare gruppi di volumi
+Description-ja.UTF-8: ボリュームグループの作成
+Description-ka.UTF-8: ტომთა ჯგუფის გახსნა
+Description-kk.UTF-8: Томдар тобын жасау
+Description-km.UTF-8: បង្កើត​ក្រុម​ភាគ
+Description-kn.UTF-8: ಹೊಸ  ಶೇಖರಣ ಪರಿಮಾಣ ಸಮೂಹವನ್ನು ಸ್ರುಷ್ಠಿಸು
+Description-ko.UTF-8: 볼륨 그룹 만들기
+Description-ku.UTF-8: Komên volume biafirîne
+Description-lo.UTF-8: ສ້າງກຸມໂວລ້ຳ
+Description-lt.UTF-8: Sukurti tomų grupę (volume group)
+Description-lv.UTF-8: Izveidot sējumu grupu
+Description-mk.UTF-8: Креирај просторна група
+Description-ml.UTF-8: വാള്യം ഗ്രൂപ്പ് സൃഷ്ടിക്കുക
+Description-mr.UTF-8: खंड गट बनवा
+Description-nb.UTF-8: Opprette gruppert dataområde
+Description-ne.UTF-8: भोल्युम समूह सिर्जना गर्नुहोस्
+Description-nl.UTF-8: Volumegroep aanmaken
+Description-nn.UTF-8: Opprette gruppert dataområde
+Description-no.UTF-8: Opprette gruppert dataområde
+Description-pa.UTF-8: ਵਾਲੀਅਮ ਗਰੁੱਪ ਬਣਾਓ
+Description-pl.UTF-8: Utwórz grupę woluminów
+Description-pt.UTF-8: Criar grupo de volumes
+Description-pt_BR.UTF-8: Criar grupo de volumes
+Description-ro.UTF-8: Creează grupuri de volume
+Description-ru.UTF-8: Создать группу томов
+Description-si.UTF-8: වෙළුම් කණ්ඩායම නිර්මාණය කරන්න
+Description-sk.UTF-8: Vytvoriť skupinu zväzkov
+Description-sl.UTF-8: Ustvari skupino nosilcev
+Description-sq.UTF-8: Krijo grup volumi
+Description-sr.UTF-8: Направити групу волумена
+Description-sv.UTF-8: Skapa volymgrupp
+Description-ta.UTF-8: தொகுதிப் பிரிவை உருவாக்குக
+Description-te.UTF-8: Volume group సృష్ఠించు
+Description-tg.UTF-8: Эҷод кардани гурӯҳи ҳаҷм
+Description-th.UTF-8: สร้างกลุ่มโวลุม
+Description-tl.UTF-8: Bumuo ng mga volume group
+Description-tr.UTF-8: Cilt grubunu oluştur
+Description-ug.UTF-8: دىسكا گۇرۇپپىلىرى قۇر
+Description-uk.UTF-8: Створити групу томів
+Description-vi.UTF-8: Tạo nhóm khối tin
+Description-zh_CN.UTF-8: 创建卷组
+Description-zh_TW.UTF-8: 建立 Volume Group
+
+Name: partman-lvm/menu/deletelv
+Type: text
+Description: Delete logical volume
+Description-am.UTF-8: ሎጂካል ይዘቱን ሰርዝ
+Description-ar.UTF-8: حذف كتلة افتراضيّة
+Description-ast.UTF-8: Desaniciar volume llóxicu
+Description-be.UTF-8: Выдаліць лагічны том
+Description-bg.UTF-8: Изтриване на логически том
+Description-bn.UTF-8: লজিকাল ভলিউম অপসারণ করো
+Description-bs.UTF-8: Obriši logičku particiju
+Description-ca.UTF-8: Suprimeix el volum lògic
+Description-cs.UTF-8: Zrušit logický svazek
+Description-cy.UTF-8: Dileu cyfrol rhesymegol
+Description-da.UTF-8: Slet logisk diskenhed
+Description-de.UTF-8: Logisches Volume löschen
+Description-dz.UTF-8: གཏན་ཚིག་ཅན་གྱི་སྡེ་ཚན་བཏོན་གཏང་།
+Description-el.UTF-8: Διαγραφή λογικού τόμου
+Description-eo.UTF-8: Forviŝi logikan datumportilon
+Description-es.UTF-8: Borrar un volumen lógico
+Description-et.UTF-8: Kustuta loogiline köide
+Description-eu.UTF-8: Ezabatu bolumen logikoa
+Description-fa.UTF-8: حذف logical volume
+Description-fi.UTF-8: Poista looginen taltio
+Description-fr.UTF-8: Supprimer un volume logique
+Description-ga.UTF-8: Scrios imleabhar loighciúil
+Description-gl.UTF-8: Borrar un volume lóxico
+Description-gu.UTF-8: તાર્કિક સમૂહ દૂર કરો
+Description-he.UTF-8: מחיקת נפח לוגי
+Description-hi.UTF-8: लॉज़िकल वॉल्यूम मिटाएँ
+Description-hr.UTF-8: Obriši logički prostor
+Description-hu.UTF-8: Logikai kötet törlése
+Description-id.UTF-8: Hapus Volum Logikal
+Description-is.UTF-8: Eyða sýndardiski
+Description-it.UTF-8: Eliminare volume logico
+Description-ja.UTF-8: 論理ボリュームの削除
+Description-ka.UTF-8: ლოგიკური დისკწამყვანის წაშლა
+Description-kk.UTF-8: Логикалық томды жою
+Description-km.UTF-8: លុប​ភាគ​ឡូជីខល
+Description-kn.UTF-8: ತಾರ್ಕಿಕ ಪರಿಮಾಣವನ್ನು ತೆಗೆದುಹಾ
+Description-ko.UTF-8: 논리 볼륨 삭제
+Description-ku.UTF-8: Logical volumes jê bibe
+Description-lo.UTF-8: ລົບ logical volume
+Description-lt.UTF-8: Išmesti loginį tomą (logical volume)
+Description-lv.UTF-8: Dzēst loģisko sējumu
+Description-mk.UTF-8: Бриши логички простор
+Description-ml.UTF-8: ലോജിക്കല്‍ വാള്യം നീക്കം ചെയ്യുക
+Description-mr.UTF-8: तार्किक खंड काढून टाका
+Description-nb.UTF-8: Slette logisk dataområde
+Description-ne.UTF-8: लोजिकल भोल्युम मेट्नुहोस्
+Description-nl.UTF-8: Logisch volume verwijderen
+Description-nn.UTF-8: Slette logisk dataområde
+Description-no.UTF-8: Slette logisk dataområde
+Description-pa.UTF-8: ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਹਟਾਓ
+Description-pl.UTF-8: Usuń logiczny wolumin
+Description-pt.UTF-8: Apagar volume lógico
+Description-pt_BR.UTF-8: Excluir volume lógico
+Description-ro.UTF-8: Șterge volume logice
+Description-ru.UTF-8: Удалить логический том
+Description-si.UTF-8: න්‍යායික වෙළුමක් මකන්න
+Description-sk.UTF-8: Zmazať logický zväzok
+Description-sl.UTF-8: Izbriši logični nosilec
+Description-sq.UTF-8: Fshi volum logjik
+Description-sr.UTF-8: Обрисати логички волумен
+Description-sv.UTF-8: Ta bort logisk volym
+Description-ta.UTF-8: தர்க்க ரீதியான தொகுதியை நீக்குக
+Description-te.UTF-8: Logical volume నిర్మూలించు
+Description-tg.UTF-8: Нест кардани ҳаҷми мантиқӣ
+Description-th.UTF-8: ลบโวลุมลอจิคัล
+Description-tl.UTF-8: Magtanggal ng mga lohikal na volume
+Description-tr.UTF-8: Mantıksal cilt sil
+Description-ug.UTF-8: لوگىكىلىق دىسكىنى ئۆچۈر
+Description-uk.UTF-8: Вилучити логічний том
+Description-vi.UTF-8: Xóa khối tin hợp lệ
+Description-zh_CN.UTF-8: 删除逻辑卷
+Description-zh_TW.UTF-8: 刪除 Logical Volume
+
+Name: partman-lvm/menu/deletevg
+Type: text
+Description: Delete volume group
+Description-am.UTF-8: የይዘት ግሩፑን አጥፋ
+Description-ar.UTF-8: حذف مجموعة كتل
+Description-ast.UTF-8: Desaniciar grupu de volume
+Description-be.UTF-8: Выдаліць групу тамоў
+Description-bg.UTF-8: Изтриване на група от томове
+Description-bn.UTF-8: ভলিউম গ্রুপ অপসারণ করো
+Description-bs.UTF-8: Obriši grupu particija
+Description-ca.UTF-8: Suprimeix el grup de volums
+Description-cs.UTF-8: Zrušit skupinu svazků
+Description-cy.UTF-8: Dileu grŵp cyfrol
+Description-da.UTF-8: Slet diskenhedsgruppe
+Description-de.UTF-8: Volume-Gruppe löschen
+Description-dz.UTF-8: བོ་ལུསམ་སྡེ་ཚན་བཏོན་གཏང་།
+Description-el.UTF-8: Διαγραφή ομάδας τόμων
+Description-eo.UTF-8: Forviŝi datumportil-grupon
+Description-es.UTF-8: Borrar un grupo de volúmenes
+Description-et.UTF-8: Kustuta köitegrupp
+Description-eu.UTF-8: Ezabatu bolumen taldea
+Description-fa.UTF-8: حذف گروه حجم
+Description-fi.UTF-8: Poista taltioryhmä
+Description-fr.UTF-8: Supprimer un groupe de volumes
+Description-ga.UTF-8: Scrios grúpa imleabhar
+Description-gl.UTF-8: Borrar un grupo de volumes
+Description-gu.UTF-8: કદ સમૂહ દૂર કરો
+Description-he.UTF-8: מחיקת קבוצת נפחים
+Description-hi.UTF-8: वॉल्यूम समूह मिटाएँ
+Description-hr.UTF-8: Obriši prostornu grupu
+Description-hu.UTF-8: Kötetcsoport törlése
+Description-id.UTF-8: Hapus Grup Volume
+Description-is.UTF-8: Eyða sýndardiski
+Description-it.UTF-8: Eliminare gruppi di volumi
+Description-ja.UTF-8: ボリュームグループの削除
+Description-ka.UTF-8: ტომთა ჯგუფის წაშლა
+Description-kk.UTF-8: Томдар тобын жою
+Description-km.UTF-8: លុប​ក្រុម​ភាគ
+Description-kn.UTF-8:  ಶೇಖರಣ ಪರಿಮಾಣ ಸಮೂಹವನ್ನು ಅಳಿಸು
+Description-ko.UTF-8: 볼륨 그룹 삭제
+Description-ku.UTF-8: Komên volume jê bibe
+Description-lo.UTF-8: ລົບກຸ່ມໂວລ້ຳ
+Description-lt.UTF-8: Išmesti tomų grupę (volume group)
+Description-lv.UTF-8: Dzēst sējumu grupu
+Description-mk.UTF-8: Избриши просторна група
+Description-ml.UTF-8: വാള്യം ഗ്രൂപ്പ് നീക്കം ചെയ്യുക
+Description-mr.UTF-8: खंड गट काढून टाका
+Description-nb.UTF-8: Slette gruppert dataområde
+Description-ne.UTF-8: भोल्युम समूह मेट्नुहोस्
+Description-nl.UTF-8: Volumegroep verwijderen
+Description-nn.UTF-8: Slette gruppert dataområde
+Description-no.UTF-8: Slette gruppert dataområde
+Description-pa.UTF-8: ਵਾਲੀਅਮ ਗਰੁੱਪ ਹਟਾਓ
+Description-pl.UTF-8: Usuń grupę woluminów
+Description-pt.UTF-8: Apagar grupo de volumes
+Description-pt_BR.UTF-8: Excluir grupo de volumes
+Description-ro.UTF-8: Șterge grupuri de volume
+Description-ru.UTF-8: Удалить группу томов
+Description-si.UTF-8: වෙළුම් කණ්ඩායම මකන්න
+Description-sk.UTF-8: Zmazať skupinu zväzkov
+Description-sl.UTF-8: Izbriši skupino nosilcev
+Description-sq.UTF-8: Fshi grup volumi
+Description-sr.UTF-8: Обрисати групу волумена
+Description-sv.UTF-8: Ta bort volymgrupp
+Description-ta.UTF-8: தொகுதிப் பிரிவை நீக்குக
+Description-te.UTF-8: Volume group నిర్మూలించు
+Description-tg.UTF-8: Нест кардани гурӯҳи ҳаҷм
+Description-th.UTF-8: ลบกลุ่มโวลุม
+Description-tl.UTF-8: Magtanggal ng mga volume group
+Description-tr.UTF-8: Cilt grubunu sil
+Description-ug.UTF-8: دىسكا گۇرۇپپىلىرىنى ئۆچۈر
+Description-uk.UTF-8: Вилучити групу томів
+Description-vi.UTF-8: Xóa nhóm khối tin
+Description-zh_CN.UTF-8: 删除卷组
+Description-zh_TW.UTF-8: 刪除 Volume Group
+
+Name: partman-lvm/menu/display
+Type: text
+Description: Display configuration details
+Description-am.UTF-8: የቅንብር ዝርዝሩን ተመልከት
+Description-ar.UTF-8: إظهار تفاصيل التهيئة
+Description-ast.UTF-8: Visualizar detalles de configuración
+Description-be.UTF-8: Паказаць падрабязнасці наладкі
+Description-bg.UTF-8: Подробна конфигурация
+Description-bn.UTF-8: কনফিগারেশনের বর্ননা প্রদর্শন করো
+Description-bs.UTF-8: Prikaži detalje konfiguracije
+Description-ca.UTF-8: Mostra els detalls de la configuració
+Description-cs.UTF-8: Zobrazit podrobné nastavení
+Description-cy.UTF-8: Dangos manylion cyflunio
+Description-da.UTF-8: Vis opsætningsdetaljer
+Description-de.UTF-8: Konfigurationsdetails anzeigen
+Description-dz.UTF-8: རིམ་སྒྲིག་རྒྱས་བཤད་ཚུ་བཀྲམ་སྟོན་འབད།
+Description-el.UTF-8: Εμφάνιση των λεπτομερειών ρύθμισης
+Description-eo.UTF-8: Montrigi detalojn pri agordo
+Description-es.UTF-8: Mostrar los detalles de la configuración
+Description-et.UTF-8: Näita seadistuse pisiasju
+Description-eu.UTF-8: Bistaratu konfigurazioaren xehetasunak
+Description-fa.UTF-8: جزییات تایید را نمایش بده
+Description-fi.UTF-8: Näytä asetukset yksityiskohtaisesti
+Description-fr.UTF-8: Afficher les détails de configuration
+Description-ga.UTF-8: Taispeáin na mionsonraí cumraíochta
+Description-gl.UTF-8: Mostrar os detalles da configuración
+Description-gu.UTF-8: રૂપરેખાંકન વિગતો દર્શાવો
+Description-he.UTF-8: הצגת פרטי הגדרות
+Description-hi.UTF-8: विस्तृत विन्यास  दिखाएँ
+Description-hr.UTF-8: Pokaži pojedinosti postavki
+Description-hu.UTF-8: Beállítási részletek mutatása
+Description-id.UTF-8: Tampilkan rincian pengaturan
+Description-is.UTF-8: Birta stillingu í smáatriðum
+Description-it.UTF-8: Mostra dettagli di configurazione
+Description-ja.UTF-8: 設定の詳細表示
+Description-ka.UTF-8: კონფიგურაციის დეტალები
+Description-kk.UTF-8: Баптау туралы мәліметті көрсету
+Description-km.UTF-8: បង្ហាញ​សេចក្ដី​លម្អិត​ការ​កំណត់​រចនាសម្ព័ន្ធ
+Description-kn.UTF-8: ಸಂರಚನಾ ವಿವರಗಳನ್ನು ತೋರಿಸು
+Description-ko.UTF-8: 설정 내역 보기
+Description-ku.UTF-8: Kîtekîtên veavakirinê nîşan bide
+Description-lo.UTF-8: ສະແດງລາຍລະອຽດຄ່າຕັ້ງ
+Description-lt.UTF-8: Rodyti išsamesnę konfigūraciją
+Description-lv.UTF-8: Parādīt sīkāku informāciju par konfigurāciju
+Description-mk.UTF-8: Прикажи конфигурациски детали
+Description-ml.UTF-8: ക്രമീകരണ വിവരങ്ങള്‍ പ്രദര്‍ശിപ്പിക്കുക
+Description-mr.UTF-8: संरचनेचे तपशील दाखवा
+Description-nb.UTF-8: Vise oppsettsdetaljer
+Description-ne.UTF-8: कन्फिगरेशन विवरणहरू प्रदर्शन गर्नुहोस्
+Description-nl.UTF-8: Toon configuratiedetails
+Description-nn.UTF-8: Vis oppsettsdetaljar
+Description-no.UTF-8: Vise oppsettsdetaljer
+Description-pa.UTF-8: ਸੰਰਚਨਾ ਵੇਰਵਾ ਵੇਖੋ
+Description-pl.UTF-8: Wyświetl szczegóły konfiguracji
+Description-pt.UTF-8: Mostrar os detalhes de configuração
+Description-pt_BR.UTF-8: Exibir detalhes de configuração
+Description-ro.UTF-8: Afișează detaliile de configurare
+Description-ru.UTF-8: Показать настройку подробней
+Description-si.UTF-8: සැකසුම් තොරතුරු පෙන්වන්න
+Description-sk.UTF-8: Zobrazenie podrobností nastavenia
+Description-sl.UTF-8: Prikaz namestitvenih podrobnosti
+Description-sq.UTF-8: Shfaq detajet e konfigurimit
+Description-sr.UTF-8: Приказати детаље кофигурације
+Description-sv.UTF-8: Visa konfigurationsdetaljer
+Description-ta.UTF-8: வடிவமைப்பு விவரங்களை காட்டுக
+Description-te.UTF-8: అమరిక వివరాలు చూపు
+Description-tg.UTF-8: Намоиш додани тафсилоти конфигуратсия
+Description-th.UTF-8: แสดงรายละเอียดค่าตั้ง
+Description-tl.UTF-8: Ipakita ang detalye ng pagkakaayos
+Description-tr.UTF-8: Yapılandırma ayrıntılarını göster
+Description-ug.UTF-8: سەپلىمە تەپسىلاتىنى كۆرسەت
+Description-uk.UTF-8: Показати детальну конфігурацію
+Description-vi.UTF-8: Hiển thị chi tiết cấu hình
+Description-zh_CN.UTF-8: 显示配置详情
+Description-zh_TW.UTF-8: 顯示詳細設定
+
+Name: partman-lvm/menu/extendvg
+Type: text
+Description: Extend volume group
+Description-am.UTF-8: የይዘት ግሩፑን ቀጥል
+Description-ar.UTF-8: تمديد مجموعة الكتل
+Description-ast.UTF-8: Estender grupu de volume
+Description-be.UTF-8: Пашырыць групу тамоў
+Description-bg.UTF-8: Разширяване на група от томове
+Description-bn.UTF-8: ভলিউম গ্রুপ সম্প্রসারিত করো
+Description-bs.UTF-8: Proširi grupu particija
+Description-ca.UTF-8: Estén el grup de volums
+Description-cs.UTF-8: Rozšířit skupinu svazků
+Description-cy.UTF-8: Ymestyn grŵp cyfrol
+Description-da.UTF-8: Udvid diskenhedsgruppe
+Description-de.UTF-8: Volume-Gruppe erweitern
+Description-dz.UTF-8: བོ་ལུསམ་སྡེ་ཚན་རྒྱ་བསྐྱེད་འབད།
+Description-el.UTF-8: Επέκταση ομάδας τόμων
+Description-eo.UTF-8: Ampleksigi datumportil-grupon
+Description-es.UTF-8: Extender un grupo de volúmenes
+Description-et.UTF-8: Laienda köitegruppi
+Description-eu.UTF-8: Hedatu bolumen taldea
+Description-fa.UTF-8: گروه حجم را توسیع دهید
+Description-fi.UTF-8: Laajenna taltioryhmää
+Description-fr.UTF-8: Étendre un groupe de volumes
+Description-ga.UTF-8: Fairsingigh grúpa imleabhar
+Description-gl.UTF-8: Estender un grupo de volumes
+Description-gu.UTF-8: કદ સમૂહ વિસ્તારો
+Description-he.UTF-8: הרחבת קבוצת נפחים
+Description-hi.UTF-8: वॉल्यूम समूह बढ़ाएँ
+Description-hr.UTF-8: Povećaj prostornu grupu
+Description-hu.UTF-8: Kötetcsoport kiterjesztése
+Description-id.UTF-8: Perbesar Grup Volume
+Description-is.UTF-8: Stækka sýndardisk
+Description-it.UTF-8: Estendere gruppo di volumi
+Description-ja.UTF-8: ボリュームグループの拡張
+Description-ka.UTF-8: ტომთა ჯგუფის გაზრდა
+Description-kk.UTF-8: Томдар тобын кеңейту
+Description-km.UTF-8: ពង្រីក​ក្រុម​ភាគ
+Description-kn.UTF-8: ಶೇಖರಣ ಪರಿಮಾಣ ಸಮೂಹವನ್ನು  ವಿಸ್ತರಿಸು
+Description-ko.UTF-8: 볼륨 그룹 늘리기
+Description-ku.UTF-8: Komên volume zêde bike
+Description-lo.UTF-8: ຂະຫຍາຍກຸ່ມໂວລ້ຳ
+Description-lt.UTF-8: Išplėsti tomų grupę (volume group)
+Description-lv.UTF-8: Paplašināt sējumu grupu
+Description-mk.UTF-8: Прошири просторна група
+Description-ml.UTF-8: വാള്യം ഗ്രൂപ്പ് വികസിപ്പിക്കുക
+Description-mr.UTF-8: खंड गट वाढवा
+Description-nb.UTF-8: Utvide gruppert dataområde
+Description-ne.UTF-8: भोल्युम समूह विस्तार गर्नुहोस्
+Description-nl.UTF-8: Volumegroep uitbreiden
+Description-nn.UTF-8: Utvida gruppert dataområde
+Description-no.UTF-8: Utvide gruppert dataområde
+Description-pa.UTF-8: ਵਾਲੀਅਮ ਗਰੁੱਪ ਵਧਾਓ
+Description-pl.UTF-8: Powiększ grupę woluminów
+Description-pt.UTF-8: Estender grupo de volumes
+Description-pt_BR.UTF-8: Estender grupo de volumes
+Description-ro.UTF-8: Extinde grupuri de volume
+Description-ru.UTF-8: Расширить группу томов
+Description-si.UTF-8: වෙළුම් කණ්ඩායම දිගු කරන්න
+Description-sk.UTF-8: Rozšíriť skupinu zväzkov
+Description-sl.UTF-8: Razširi skupino nosilcev
+Description-sq.UTF-8: Zgjero grup volumi
+Description-sr.UTF-8: Проширити групу волумена
+Description-sv.UTF-8: Utöka volymgrupp
+Description-ta.UTF-8: தொகுதிப் பிரிவை விரிவாக்குக
+Description-te.UTF-8: Volume group విస్తరించు
+Description-tg.UTF-8: Густариш додани гурӯҳи ҳаҷм
+Description-th.UTF-8: ขยายกลุ่มโวลุม
+Description-tl.UTF-8: Palakihin ang mga volume group
+Description-tr.UTF-8: Cilt grubunu genişlet
+Description-ug.UTF-8: كېڭەيتىلگەن دىسكا گۇرۇپپىسى
+Description-uk.UTF-8: Розширити групу томів
+Description-vi.UTF-8: Mở rộng nhóm khối tin
+Description-zh_CN.UTF-8: 扩展卷组
+Description-zh_TW.UTF-8: 擴充 Volume Group
+
+Name: partman-lvm/menu/finish
+Type: text
+Description: Finish
+Description-am.UTF-8: ጨርሽ
+Description-ar.UTF-8: إنهاء
+Description-ast.UTF-8: Finar
+Description-be.UTF-8: Скончыць
+Description-bg.UTF-8: Завършване
+Description-bn.UTF-8: সম্পন্ন
+Description-bs.UTF-8: Završi
+Description-ca.UTF-8: Finalitza
+Description-cs.UTF-8: Skončit
+Description-cy.UTF-8: Gorffen
+Description-da.UTF-8: Afslut
+Description-de.UTF-8: Fertigstellen
+Description-dz.UTF-8: རྫོགས་ནི།
+Description-el.UTF-8: Ολοκλήρωση
+Description-eo.UTF-8: Finigi
+Description-es.UTF-8: Terminar
+Description-et.UTF-8: Lõpetamine
+Description-eu.UTF-8: Amaitu
+Description-fa.UTF-8: تمام
+Description-fi.UTF-8: Lopeta
+Description-fr.UTF-8: Terminer
+Description-ga.UTF-8: Críochnaigh
+Description-gl.UTF-8: Rematar
+Description-gu.UTF-8: સંપૂર્ણ
+Description-he.UTF-8: סיום
+Description-hi.UTF-8: पूर्ण
+Description-hr.UTF-8: Završi
+Description-hu.UTF-8: Kész
+Description-id.UTF-8: Selesai
+Description-is.UTF-8: Enda
+Description-it.UTF-8: Termina
+Description-ja.UTF-8: 完了
+Description-ka.UTF-8: დასრულება
+Description-kk.UTF-8: Аяқтау
+Description-km.UTF-8: បញ្ចប់
+Description-kn.UTF-8: ಮುಗಿಸು
+Description-ko.UTF-8: 마치기
+Description-ku.UTF-8: Dawî
+Description-lo.UTF-8: ສຳເລັດ
+Description-lt.UTF-8: Baigti
+Description-lv.UTF-8: Beigt
+Description-mk.UTF-8: Заврши
+Description-ml.UTF-8: പൂര്‍ത്തിയാക്കുക
+Description-mr.UTF-8: पूर्ण करा
+Description-nb.UTF-8: Ferdig
+Description-ne.UTF-8: समाप्त गर्नुहोस्
+Description-nl.UTF-8: Einde
+Description-nn.UTF-8: Ferdig
+Description-no.UTF-8: Ferdig
+Description-pa.UTF-8: ਸਮਾਪਤ
+Description-pl.UTF-8: Zakończ
+Description-pt.UTF-8: Terminar
+Description-pt_BR.UTF-8: Finalizar
+Description-ro.UTF-8: Finalizează
+Description-ru.UTF-8: Закончить
+Description-si.UTF-8: අවසන්
+Description-sk.UTF-8: Ukončiť
+Description-sl.UTF-8: Končaj
+Description-sq.UTF-8: Mbaro
+Description-sr.UTF-8: Завршити
+Description-sv.UTF-8: Slutför
+Description-ta.UTF-8: முடி
+Description-te.UTF-8: ముగించు
+Description-tg.UTF-8: Тайёр
+Description-th.UTF-8: เสร็จสิ้น
+Description-tl.UTF-8: Wakas
+Description-tr.UTF-8: Bitir
+Description-ug.UTF-8: تامام
+Description-uk.UTF-8: Завершити
+Description-vi.UTF-8: Kết thúc
+Description-zh_CN.UTF-8: 完成
+Description-zh_TW.UTF-8: 完成
+
+Name: partman-lvm/menu/reducevg
+Type: text
+Description: Reduce volume group
+Description-am.UTF-8: የይዘት ግሩፑን አሳንስ
+Description-ar.UTF-8: تقليص مجموعة كتل
+Description-ast.UTF-8: Reducir grupu de volume
+Description-be.UTF-8: Зменшыць групу тамоў
+Description-bg.UTF-8: Смаляване на група от томове
+Description-bn.UTF-8: ভলিউম গ্রুপ হ্রাস করো
+Description-bs.UTF-8: Smanji grupu particija
+Description-ca.UTF-8: Redueix el grup de volums
+Description-cs.UTF-8: Zmenšit skupinu svazků
+Description-cy.UTF-8: Lleihau grŵp cyfrol
+Description-da.UTF-8: Reducer diskenhedsgruppe
+Description-de.UTF-8: Volume-Gruppe reduzieren
+Description-dz.UTF-8: བོ་ལུསམ་སྡེ་ཚན་མར་ཕབ་འབད།
+Description-el.UTF-8: Συρίκνωση ομάδας τόμων
+Description-eo.UTF-8: Redukti datumportil-grupon
+Description-es.UTF-8: Reducir un grupo de volúmenes
+Description-et.UTF-8: Vähenda köitegruppi
+Description-eu.UTF-8: Murriztu bolumen taldea
+Description-fa.UTF-8: کاهش گروه حجم
+Description-fi.UTF-8: Supista taltioryhmää
+Description-fr.UTF-8: Réduire un groupe de volumes
+Description-ga.UTF-8: Laghdaigh grúpa imleabhar
+Description-gl.UTF-8: Reducir un grupo de volumes
+Description-gu.UTF-8: કદ સમૂહ નાનાં કરો
+Description-he.UTF-8: צמצום קבוצת נפחים
+Description-hi.UTF-8: वॉल्यूम समूह घटाएँ
+Description-hr.UTF-8: Smanji prostornu grupu
+Description-hu.UTF-8: Kötetcsoport csökkentése
+Description-id.UTF-8: Perkecil Grup Volume
+Description-is.UTF-8: Minnka sýndardisk
+Description-it.UTF-8: Ridurre gruppo di volumi
+Description-ja.UTF-8: ボリュームグループの縮小
+Description-ka.UTF-8: ტომთა ჯგუფის შემცირება
+Description-kk.UTF-8: Томдар тобын қысқарту
+Description-km.UTF-8: កាត់​បន្ថយ​​ក្រុម​ភាគ
+Description-kn.UTF-8: ಶೇಖರಣ ಪರಿಮಾಣ ಸಮೂಹವನ್ನು  ಕುಗ್ಗಿಸು
+Description-ko.UTF-8: 볼륨 그룹 줄이기
+Description-ku.UTF-8: Komên volume kêm bike
+Description-lo.UTF-8: ຫຍໍ້ກຸ່ມໂວລ້ຳ
+Description-lt.UTF-8: Mažinti tomų grupę (volume group)
+Description-lv.UTF-8: Samazināt sējumu grupu
+Description-mk.UTF-8: Намали просторна група
+Description-ml.UTF-8: വാള്യം ഗ്രൂപ്പ് ചുരുക്കുക
+Description-mr.UTF-8: खंड गट कमी करा
+Description-nb.UTF-8: Redusere gruppert dataområde
+Description-ne.UTF-8: भोल्युम समूह घटाउनुहोस्
+Description-nl.UTF-8: Volumegroep verkleinen
+Description-nn.UTF-8: Redusere gruppert dataområde
+Description-no.UTF-8: Redusere gruppert dataområde
+Description-pa.UTF-8: ਵਾਲੀਅਮ ਗਰੁੱਪ ਘਟਾਓ
+Description-pl.UTF-8: Pomniejsz grupę woluminów
+Description-pt.UTF-8: Reduzir grupo de volumes
+Description-pt_BR.UTF-8: Reduzir grupo de volumes
+Description-ro.UTF-8: Reduce grupuri de volume
+Description-ru.UTF-8: Уменьшить группу томов
+Description-si.UTF-8: වෙළුම් කණ්ඩායම අඩු කරන්න
+Description-sk.UTF-8: Zmenšiť skupinu zväzkov
+Description-sl.UTF-8: Zmanjšaj skupino nosilcev
+Description-sq.UTF-8: Zvogëlo grup volumi
+Description-sr.UTF-8: Смањити групу волумена
+Description-sv.UTF-8: Minska volymgrupp
+Description-ta.UTF-8: தொகுதிப் பிரிவை சிறியதாக்குக
+Description-te.UTF-8: Volume group కుదించు
+Description-tg.UTF-8: Хурд кардани гурӯҳи ҳаҷм
+Description-th.UTF-8: หดกลุ่มโวลุม
+Description-tl.UTF-8: Paliitin ang mga volume group
+Description-tr.UTF-8: Cilt grubunu daralt
+Description-ug.UTF-8: دىسكا گۇرۇپپىسىنى كىچىكلەت
+Description-uk.UTF-8: Зменшити групу томів
+Description-vi.UTF-8: Giảm nhóm khối tin
+Description-zh_CN.UTF-8: 缩小卷组
+Description-zh_TW.UTF-8: 縮減 Volume Group
+
+Name: partman-lvm/nolvm
+Type: error
+Description: Logical Volume Manager not available
+Extended_description: The current kernel doesn't support the Logical Volume Manager. You may need to load the lvm-mod module.
+Description-am.UTF-8: ሎጂካዊ ይዘት አስተዳዳሪ አልተገኘም
+Extended_description-am.UTF-8: ያለው ከርነል የሎጂካዊ ይዘት አስተዳዳሪን አይደግፍም፡፡ ምን አልባት የlvm-mod ጥቅልን መጫን ያስፈልግዎታል፡፡
+Description-ar.UTF-8: مدير الكتل الافتراضيّة غير متوفّر
+Extended_description-ar.UTF-8: النّواة الحاليّة لا تدعم استخدام مدير الكتل الافتراضيّة. قد تحتاج إلى تحميل وحدة lvm-mod.
+Description-ast.UTF-8: Xestor Volume Llóxicu nun disponible
+Extended_description-ast.UTF-8: El kernel actual nun sofita'l Xestor de Volume Llóxicu. Pues necesitar cargar el módulu lvm-mod.
+Description-be.UTF-8: Logical Volume Manager не даступны
+Extended_description-be.UTF-8: Зараз ядро не падтрымлівае Logical Volume Manager. Вам трэба загрузіць модуль lvm-mod.
+Description-bg.UTF-8: Няма достъпен Logical Volume Manager
+Extended_description-bg.UTF-8: Текущото ядро не поддържа Logical Volume Manager. Може би се нуждаете от зареждане на модула lvm-mod.
+Description-bn.UTF-8: লজিকাল ভলিউম ম্যানেজার পাওয়া যাচ্ছে না
+Extended_description-bn.UTF-8: বর্তমান কার্নেলটি লজিকাল ভলিউম ব্যবস্থাপক সমর্থন করে না। আপনাকে হয়তো lvm-mod নামক মডিউলটি লোড করতে হবে।
+Description-bs.UTF-8: Logical Volume Manager nije dostupan
+Extended_description-bs.UTF-8: Trenutni kernel nema podršku za Logical Volume Manager. Možda trebate učitati lvm-mod modul.
+Description-ca.UTF-8: El gestor de volums lògics no és disponible
+Extended_description-ca.UTF-8: El nucli actual no suporta el gestor de volums lògics. És possible que necessiteu carregar el mòdul lvm-mod.
+Description-cs.UTF-8: Manažer logických svazků není k dispozici
+Extended_description-cs.UTF-8: Aktuální jádro nepodporuje manažer logických svazků. Možná musíte zavést modul lvm-mod.
+Description-cy.UTF-8: Nid yw'r Rheolydd Cyfrol Rhesymegol ar gael
+Extended_description-cy.UTF-8: Nid yw'r cnewyllyn cyfredol yn cynnal y Rheolydd Cyfrol Rhesymegol. Efallai bo angen i chi lwytho'r modiwl lvm-mod.
+Description-da.UTF-8: Logisk diskenhedshåndtering ikke tilgængelig
+Extended_description-da.UTF-8: Den aktuelle kerne understøtter ikke den logiske diskenhedshåndtering (LVM). Måske skal du indlæse modulet lvm-mod.
+Description-de.UTF-8: Logical Volume Manager ist nicht verfügbar
+Extended_description-de.UTF-8: Der gegenwärtig laufende Kernel unterstützt den Logical Volume Manager nicht. Möglicherweise müssen Sie erst das Modul lvm-mod laden.
+Description-dz.UTF-8: གཏན་ཚིག་ཅན་གྱི་བོ་ལུསམ་འཛིན་སྐྱོང་པ་ཐོབ་ཚུགསཔ་མིན་འདུག།
+Extended_description-dz.UTF-8: ད་ལྟོའི་ཀར་ནེལ་འདི་གིས་གཏན་ཚིག་ཅན་གྱི་བོ་ལུསམ་འཛིན་སྐྱོང་པ་འདི་ལུ་རྒྱབ་སྐྱོར་མི་འབད་བས། ཁྱོད་ཀྱིས་lvm-mod ཚད་གཞི་འདི་མངོན་གསལ་འབད་དགོཔ་འོང་།
+Description-el.UTF-8: Δεν είναι διαθέσιμος ο Διαχειριστής Λογικών Τόμων (Logical Volume Manager)
+Extended_description-el.UTF-8: Ο τρέχων πυρήνας δεν υποστηρίζει Διαχείριση Λογικών Τόμων (LVM). Πιθανόν να χρειάζεται να φορτώσετε το άρθρωμα lvm-mod για την ενεργοποίηση αυτής της λειτουργίας.
+Description-eo.UTF-8: Logika Vatumportila Administrilo ne disponeblas
+Extended_description-eo.UTF-8: La nuntempa kerno ne subtenas la Logikan Datumportilan Administrilon. Eble vi bezonos ŝargi la modulon lvm-mod.
+Description-es.UTF-8: Gestor de Volúmenes Lógicos no disponible
+Extended_description-es.UTF-8: El núcleo actual no soporta el Gestor de Volúmenes Lógicos. Quizás necesite cargar el módulo «lvm-mod».
+Description-et.UTF-8: Loogiliste köidete haldur (LVM) pole saadaval
+Extended_description-et.UTF-8: Käesolev tuum ei toeta Loogiliste köidete haldurit. Tõenäoliselt pead laadima mooduli lvm-mod.
+Description-eu.UTF-8: Bolumen Logikoen Kudeatzailea ez dago erabilgarri
+Extended_description-eu.UTF-8: Uneko nukleoak ez du Bolumen Logikoen Kudeatzailea onartzen. Agian lvm-mod kargatu behar da.
+Description-fa.UTF-8: مدیر حجم منطقی در دسترس نیست
+Extended_description-fa.UTF-8:  را لود کنید.lvm-modکرنل جاری مدیر حجم منطقی را پشتیبانی نمی‌کند. شما نیاز دارید تا ماژول
+Description-fi.UTF-8: Looginen taltiohallinta ei ole käytettävissä
+Extended_description-fi.UTF-8: Nykyinen ydin ei tue loogista taltiohallintaa (LVM). Mahdollisesti on ladattava lvm-mod-moduuli.
+Description-fr.UTF-8: Le gestionnaire de volumes logiques n'est pas disponible
+Extended_description-fr.UTF-8: Le noyau actuel ne gère pas les volumes logiques (il s'agit du « Logical Volume Manager »). Vous devez peut-être charger le module lvm-mod.
+Description-ga.UTF-8: Níl an Bainisteoir Imleabhar Loighciúil ar fáil
+Extended_description-ga.UTF-8: Ní thacaíonn an eithne reatha leis an mBainisteoir Imleabhar Loighciúil. B'fhéidir gur gá modúl lvm-mod a luchtú.
+Description-gl.UTF-8: LVM non está dispoñíbel
+Extended_description-gl.UTF-8: O núcleo actual non ten soporte para LVM. Pode ter que cargar o módulo lvm-mod.
+Description-gu.UTF-8: તાર્કિક કદ વ્યવસ્થાપક પ્રાપ્ત નથી
+Extended_description-gu.UTF-8: હાલનું કર્નલ તાર્કિક કદ વ્યવસ્થાપકને આધાર આપતું નથી. તમારે કદાચ lvm-mod મોડ્યુલ લાવવું પડશે.
+Description-he.UTF-8: אין מנהל מחיצות לוגיות זמין
+Extended_description-he.UTF-8: הליבה הנוכחית לא מכילה תמיכה במנהל מחיצות לוגיות. כדאי לטעון את המודול lvm-mod.
+Description-hi.UTF-8: लॉजिकल वॉल्यूम प्रबंधक अनुपलब्ध है
+Extended_description-hi.UTF-8: वर्तमान कर्नेल लॉजिकल वॉल्यूम प्रबंधक के लिए समर्थित नहीं है. आपको lvm-mod मॉड्यूल लोड करना पड़ सकता है.
+Description-hr.UTF-8: Nije dostupan Upravljač logičkim prostorima
+Extended_description-hr.UTF-8: Trenutna jezgra ne podržava Upravljača logičkim prostorima. Možda trebate učitati ULP modul (lvm-mod).
+Description-hu.UTF-8: Logikaikötet-kezelő nem elérhető
+Extended_description-hu.UTF-8: E rendszermag nem támogatja a Logikai kötetkezelőt. Az lvm-mod modul betöltése segíthet ebben.
+Description-id.UTF-8: Pengelola Volum Logikal (LVM) tidak tersedia
+Extended_description-id.UTF-8: Kernel yang dipakai tidak mendukung Pengelola Volum Logikal (LVM). Anda mungkin perlu memuat modul lvm-mod.
+Description-is.UTF-8: Sýndardiskastjóri (LVM) ekki tiltækur
+Extended_description-is.UTF-8: Núverandi kjarni styður ekki sýndardiskastjórann (LVM). Vera kann að þú þurfir að hlaða lvm-mod einingunni.
+Description-it.UTF-8: Logical Volume Manager non disponibile
+Extended_description-it.UTF-8: Il kernel in uso non supporta il Logical Volume Manager. Potrebbe essere necessario caricare il modulo lvm-mod.
+Description-ja.UTF-8: 論理ボリュームマネージャは利用できません
+Extended_description-ja.UTF-8: 現在のカーネルは論理ボリュームマネージャをサポートしていません。lvm-mod モジュールをロードする必要があるでしょう。
+Description-ka.UTF-8: LVM მიუწვდომელია
+Extended_description-ka.UTF-8: ამ კონფიგურაციის ბირთვს არა აქვს LVM-ის მხარდაჭერა. სცადეთ lvm-mod მოდულის ჩატვირთვა.
+Description-kk.UTF-8: Логикалық Том Менеджері қолжетерсіз
+Extended_description-kk.UTF-8: Бұл ядроның конфигурациясы Логикалық Томдардың Менеджерін қолдамайды. Ядроның бұл функциясы іске қосу үшін lvm-mod модулін жүктеу керек болуы мүмкін.
+Description-km.UTF-8: មិន​មាន Logical Volume Manager ឡើយ
+Extended_description-km.UTF-8: ខឺណែល​បច្ចុប្បន្ន​មិន​គាំ​ទ្រ​ Logical Volume Manager ឡើយ ។​ អ្នក​ប្រហែល​ជា​ត្រូវ​ផ្ទុក​ម៉ូឌុល lvm-mod ហើយ ។
+Description-kn.UTF-8: ತಾರ್ಕಿಕ ಪರಿಮಾಣ ನಿರ್ವಾಹಕ ಲಭ್ಯವಿಲ್ಲ.
+Extended_description-kn.UTF-8: ಪ್ರಸ್ತುತ ಕರ್ನಲ್ ತಾರ್ಕಿಕ ಸಂಪುಟ ವ್ಯವಸ್ಥಾಪಕವನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ನೀವು lvm-mod ಘಟಕವನ್ನು ತುಂಬಬೇಕಾಗಬಹುದು.
+Description-ko.UTF-8: LVM을 사용할 수 없습니다
+Extended_description-ko.UTF-8: 현재 커널은 LVM을 지원하지 않습니다. lvm-mod 모듈을 읽어들여야 할 것입니다.
+Description-ku.UTF-8: Rêveberê Dîska Mantiqî nayê bikaranîn
+Extended_description-ku.UTF-8: Kakilê ku halê hazir tê xebitandin, Rêveberê Dîska Mantiqî (LVM) piştrast nake. Divê tu modula Ivm-mod bar bike.
+Description-lo.UTF-8: ບໍ່ຮອງຮັບ Logical Volume Manager
+Extended_description-lo.UTF-8: ເຄເນຣວທີ່ໃຊ້ຢູ່ບໍ່ຮອງຮັບ Logical Volume Manager ທ່ານຈະຕ້ອງໂຫຼດໂມດູນ lvm-mod
+Description-lt.UTF-8: Loginių tomų tvarkyklės (LVM) nėra
+Extended_description-lt.UTF-8: Esamas branduolys nepalaiko loginių tomų tvarkyklės (LVM).  Galbūt reikia įkelti modulį 'lvm-mod'.
+Description-lv.UTF-8: Logical Volume Manager nav pieejams
+Extended_description-lv.UTF-8: Pašreizējais kodols neatbalsta Logical Volume Manager. Iespējams, jums vajadzētu ielādēt lvm-mod moduli.
+Description-mk.UTF-8: Управувачот за логички простори не е достапен
+Extended_description-mk.UTF-8: Моменталниот кернел не подржува Управувач со логички простори. Можеби треба да го вчиташ lvm-mod модулот.
+Description-ml.UTF-8: ലോജിക്കല്‍ വാള്യം മാനേജര്‍ ലഭ്യമല്ല
+Extended_description-ml.UTF-8: ഇപ്പോഴുള്ള കെര്‍ണല്‍ ലോജിക്കല്‍ വാള്യം മാനേജറിനെ പിന്തുണക്കുന്നില്ല. നിങ്ങള്‍ക്കു് lvm-mod എന്ന മൊഡ്യൂള്‍ ചേര്‍​​ക്കേണ്ടതായി വന്നേയ്ക്കാം.
+Description-mr.UTF-8: तार्किक खंड व्यवस्थापक उपलब्ध नाही
+Extended_description-mr.UTF-8: हा कर्नेल तार्किक खंड व्यवस्थापकाला पाठबळ देऊ शकत नाही. आपल्याला कदाचित  lvm-mod मॉड्यूल भरावे लागेल.
+Description-nb.UTF-8: Håndtereren for logiske dataområder er ikke tilgjengelig
+Extended_description-nb.UTF-8: Nåværende kjerne støtter ikke håndtereren for logiske dataområder. Kanskje du må laste modulen lvm-mod.
+Description-ne.UTF-8: लोजिकल भोल्युम प्रबन्धक उपलब्ध छैन 
+Extended_description-ne.UTF-8: हालको कर्नेलले लोजिकल भोल्युम प्रबन्धकलाई समर्थन गरेन । तपाईँले lvm-mod मोड्युल लोड गर्न आवश्यक हुनेछ ।
+Description-nl.UTF-8: De Logisch Volumebeheerder (LVM) is niet beschikbaar
+Extended_description-nl.UTF-8: De huidige kernel biedt geen ondersteuning voor de logisch volumebeheerder (LVM). Mogelijk dient de lvm-mod module nog geladen te worden.
+Description-nn.UTF-8: Handteraren av logiske dataområde er ikkje tilgjengelig
+Extended_description-nn.UTF-8: Noverande kjerne støttar ikkje styring av logiske dataområde. Du må kanskje laste modulen lvm-mod.
+Description-no.UTF-8: Håndtereren for logiske dataområder er ikke tilgjengelig
+Extended_description-no.UTF-8: Nåværende kjerne støtter ikke håndtereren for logiske dataområder. Kanskje du må laste modulen lvm-mod.
+Description-pa.UTF-8: ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਮੈਨੇਜਰ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ
+Extended_description-pa.UTF-8: ਮੌਜੂਦਾ ਕਰਨਲ ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਨੂੰ ਸਹਿਯੋਗ ਨਹੀਂ ਦਿੰਦਾ। ਤੁਹਾਨੂੰ lvm-mod ਮੋਡੀਊਲ ਲੋਡ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।
+Description-pl.UTF-8: Menedżer woluminów logicznych niedostępny
+Extended_description-pl.UTF-8: Aktualne jądro nie posiada obsługi menedżera woluminów logicznych. Możliwe, że musisz załadować moduł lvm-mod.
+Description-pt.UTF-8: Gestor de Volumes Lógicos não disponível
+Extended_description-pt.UTF-8: O kernel actual não suporta o Gestor de Volumes Lógicos. Você pode precisar de carregar o módulo lvm-mod.
+Description-pt_BR.UTF-8: Gerenciador de Volumes Lógicos não disponível
+Extended_description-pt_BR.UTF-8: O kernel atual não suporta o Gerenciador de Volumes Lógicos. Talvez você precise carregar o módulo lvm-mod.
+Description-ro.UTF-8: Managerul de volume logice nu este disponibil
+Extended_description-ro.UTF-8: Nucleul curent nu suportă Managerul de volume logice. S-ar putea să trebuiască să încărcați modulul lvm-mod.
+Description-ru.UTF-8: Менеджер логических томов не доступен
+Extended_description-ru.UTF-8: Существующее ядро не поддерживает менеджер логических томов. Возможно, вам нужно загрузить модуль lvm-mod.
+Description-si.UTF-8: න්‍යායික වෙළුම් පාලකය හමු නොවිනි
+Extended_description-si.UTF-8: න්‍යායික වෙළුම් පාලකය සඳහා වත්මන් කර්නලය සහාය නොදක්වයි. ඔබට lvm-mod මොඩියුලය පූර්ණය කිරීමට සිදුවිය හැක.
+Description-sk.UTF-8: Správca logických zväzkov nie je k dispozícii
+Extended_description-sk.UTF-8: Aktuálne jadro nepodporuje správcu logických zväzkov (LVM). Možno potrebujete načítať modul lvm-mod.
+Description-sl.UTF-8: Upravljalnik logičnih nosilcev (LVM) ni na voljo
+Extended_description-sl.UTF-8: Trenutno jedro ne podpira Upravljalnika logičnih nosilcev (LVM). Mogoče morate naložiti modul lvm-mod.
+Description-sq.UTF-8: Organizuesi i Volumit Logjik nuk gjendet
+Extended_description-sq.UTF-8: Kerneli i tanishëm nuk suporton Organizuesin e Volumit Logjik. Ndoshta duhet të ngarkosh modulin lvm-mod.
+Description-sr.UTF-8: LVM није доступан
+Extended_description-sr.UTF-8: Тренутни кернел не подржава LVM. Треба да учитате „lvm-mod“ модул.
+Description-sv.UTF-8: Logisk volymhanterare är inte tillgänglig
+Extended_description-sv.UTF-8: Den aktuella kärnan saknar stöd för den logiska volymhanteraren. Du kan behöva läsa in modulen lvm-mod.
+Description-ta.UTF-8: தர்க்க ரீதியான தொகுதி மேலாளர் கிடைக்கவில்லை.
+Extended_description-ta.UTF-8: தற் போதய உட் கூறு தர்க்க ரீதியான தொகுதி மேலாளரை ஆதரிக்கவில்லை. நீங்கள் lvm-mod பகுதியை ஏற்ற வேண்டியிருக்கலாம்.
+Description-te.UTF-8: Logical Volume Manager అందుబాటులోలేదు.
+Extended_description-te.UTF-8: ప్రస్తుత కెర్నెల్   Logical Volume Manager తోడ్పాటు లేదు. తిరిగి  lvm-mod మాడ్యూల్ నింపవలసిన అవసరం వుండవచ్చు.
+Description-tg.UTF-8: Мудири ҳаҷмҳои мантиқӣ дастнорас аст
+Extended_description-tg.UTF-8: Ҳастаи ҷорӣ Мудири ҳаҷмҳои мантиқиро дастгирӣ намекунад. Эҳтимол аст, ки шумо бояд модули "lvm-mod"-ро бор кунед.
+Description-th.UTF-8: ไม่รองรับ Logical Volume Manager
+Extended_description-th.UTF-8: เคอร์เนลที่ใช้อยู่ไม่รองรับ Logical Volume Manager คุณอาจต้องโหลดมอดูล lvm-mod
+Description-tl.UTF-8: Hindi magamit ang Logical Volume Manager
+Extended_description-tl.UTF-8: Hindi suportado ng kasalukuyang kernel ang Logical Volume Manager. Maaaring kailangan niyo na ipasok ang lvm-mod module.
+Description-tr.UTF-8: Mantıksal Disk Yöneticisi kullanılamaz
+Extended_description-tr.UTF-8: Kullanımdaki çekirdek, Mantıksal Disk Yöneticisini (LVM) desteklemiyor. lvm-mod modülünü yüklemeniz gerekebilir.
+Description-ug.UTF-8: لوگىكىلىق دىسكا باشقۇرغۇچنى ئىشلەتكىلى بولمايدۇ
+Extended_description-ug.UTF-8: نۆۋەتتىكى يادرو لوگىكىلىق دىسكا باشقۇرغۇچنى قوللىمايدۇ. سىز lvm-mod بۆلىكىنى يۈكلىسىڭىز بولىدىغان ئوخشايدۇ.
+Description-uk.UTF-8: Менеджер логічних томів недоступний.
+Extended_description-uk.UTF-8: Поточна конфігурація ядра не підтримує менеджер логічних томів. Можливо, вам необхідно завантажити модуль lvm-mod.
+Description-vi.UTF-8: Bộ quản lý khối tin hợp lý (LVM) không sẵn sàng
+Ext

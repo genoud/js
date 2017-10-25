@@ -80,6 +80,16 @@ class Publication
     private $article;
 
     /**
+     * @var NumeroJournal
+     *
+     * @ORM\ManyToOne(targetEntity="NumeroJournal")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="numjournal_id", referencedColumnName="id")
+     * })
+     */
+    private $numeroJournal;
+
+    /**
      * @return int
      */
     public function getId()
@@ -207,6 +217,26 @@ class Publication
         $this->article = $article;
     }
 
+    /**
+     * @return NumeroJournal
+     */
+    public function getNumeroJournal()
+    {
+        return $this->numeroJournal;
+    }
+
+    /**
+     * @param NumeroJournal $numeroJournal
+     */
+    public function setNumeroJournal($numeroJournal)
+    {
+        $this->numeroJournal = $numeroJournal;
+    }
+
+    public function __clone()
+    {
+        $this->id=null;
+    }
 
 
 }

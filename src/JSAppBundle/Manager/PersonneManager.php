@@ -8,6 +8,7 @@
 
 namespace JSAppBundle\Manager;
 
+use JSAppBundle\Entity\Personne;
 use Symfony\Component\DependencyInjection\ContainerInterface as Container;
 class PersonneManager extends CoreManager
 {
@@ -16,5 +17,13 @@ class PersonneManager extends CoreManager
     {
         $entityClass="JSAppBundle\Entity\Personne";
         parent::__construct($container, $core, $entityClass);
+    }
+
+    /**
+     * @param Personne $personne
+     * @return Personne
+     */
+    public function create($personne){
+        return parent::create($personne);
     }
 }

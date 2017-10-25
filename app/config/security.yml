@@ -29,7 +29,7 @@ security:
 
             form_login:
                 login_path: js_login
-                check_path: js_login
+                check_path: js_check
                 csrf_token_generator: security.csrf.token_manager
             logout:
                 path: /logout
@@ -37,17 +37,21 @@ security:
 
     access_control:
         - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/login/check, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/check, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/api, roles: IS_AUTHENTICATED_ANONYMOUSLY }
-        - { path: ^/edition, roles: ROLE_JS_AUTHOR }
-        - { path: ^/admin, roles: ROLE_JS_EDITOR }
+        - { path: ^/author, roles: ROLE_JS_AUTHOR }
+        - { path: ^/reviewer, roles: ROLE_JS_REVIEWER }
+        - { path: ^/admin, roles: [ROLE_JS_EDITOR, ROLE_JS_PUBLISHER, ROLE_JS_SUPER_ADMIN] }
         - { path: ^/public, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/, roles: IS_AUTHENTICATED_ANONYMOUSLY }
 
-
-    role_hierarchy:
-        ROLE_JS_PUBLIC:      [ROLE_ERATING_AGENT]
-        ROLE_JS_AUTHOR:      [ROLE_JS_PUBLIC]
-        ROLE_JS_REVIEWER:    [ROLE_JS_AUTHOR]
-        ROLE_JS_EDITOR:      [ROLE_JS_REVIEWER]
-        ROLE_JS_PUBLISHER:   [ROLE_JS_AUTHOR]
-        ROLE_JS_SUPER_ADMIN: [ROLE_JS_EDITOR]
+#
+#    role_hierarchy:
+#        ROLE_JS_PUBLIC:      []
+#        ROLE_JS_AUTHOR:      [ROLE_JS_PUBLIC]
+#        ROLE_JS_REVIEWER:    [ROLE_JS_AUTHOR]
+#        ROLE_JS_EDITOR:      [ROLE_JS_REVIEWER]
+#        ROLE_JS_PUBLISHER:   [ROLE_JS_AUTHOR]
+#        ROLE_JS_MAIN_EDITOR: [ROLE_JS_EDITOR]
+#        ROLE_JS_SUPER_ADMIN: [ROLE_JS_PUBLIC]

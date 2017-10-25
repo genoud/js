@@ -1,0 +1,9 @@
+magloire
+ObjectRef-PdfOutput-CMN_X26ChkTrustEN__CH;2016-03-10T14:24:24+0100;magloire
+ObjectRef-PdfOutput-CMN_X26ChkLifeInsurancePolicyInsEN__CH;2016-03-10T14:24:38+0100;magloire
+ObjectRef-PdfOutput-CMN_TrustPT__CH;2016-03-10T14:25:41+0100;magloire
+ObjectRef-DataStructure-CMN_LegalEntityTrustFoundation;2016-03-10T14:54:54+0100;magloire
+ObjectRef-PdfOutput-CMN_W06DeclTrustSimDE__CH;2016-03-10T15:01:56+0100;magloire
+ObjectRef-DataStructure-CMN_DocumentHelperParty;2016-03-10T15:07:42+0100;magloire
+ObjectRef-DataStructure-CMN_DocumentHelperLegalEntity;2016-03-10T15:14:58+0100;magloire
+ObjectRef-TestData-W06_Test_Data;2016-03-10T15:15:28+0100;magloire

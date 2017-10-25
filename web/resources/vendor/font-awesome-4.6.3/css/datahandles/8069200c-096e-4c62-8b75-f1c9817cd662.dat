@@ -1,0 +1,883 @@
+en systemet har nu også GRUB 2 opstartsposter installeret på disse diske:\n\n${DISKS}\n\nDet virker sandsynligt at GRUB Legacy ikke længere er i brug, og at du i steden fir skal opgradere GRUB 2-billederne på disse diske og afslutte konverteringen til GRUB 2 ved af fjerne ældre GRUB Legacy-filer. Hvis du ikke opgraderer disse GRUB 2-billeder, så er de måske ikke kompatible med de nye pakker og får dit system til at holde op med at starte korrekt op.\n\nDu bør generelt afslutte konverteringen til GRUB 2 medmindre disse opstartsposter blev oprettet af en GRUB 2-installation på et andet operativsystem.
+Extended_description-de.utf-8: Auf diesem System sind noch Dateien des GRUB-Legacy-Boot-Loaders installiert, aber es sind nun auch GRUB-2-Boot-Sektoren auf den folgenden Datenträgern installiert:\n\n${DISKS}\n\nEs sieht so aus, als ob Sie GRUB Legacy nicht mehr verwenden. Daher sollten Sie stattdessen ein Upgrade der GRUB-2-Images auf diesen Datenträgern durchführen und die Umstellung auf GRUB 2 abschließen, indem Sie die alten GRUB-Legacy-Dateien entfernen. Falls Sie das Upgrade für diese GRUB-2-Images nicht durchführen, könnten diese mit den neuen Paketen nicht kompatibel sein und dazu führen, dass Ihr System nicht mehr einwandfrei startet.\n\nGrundsätzlich sollten Sie die Umstellung auf GRUB 2 abschließen, es sei denn, diese GRUB-2-Boot-Sektoren wurden von einem anderen Betriebssystem installiert.
+Extended_description-dz.utf-8: རིམ་ལུགས་འདི་ལུ་ གཞི་བཙུགས་འབད་ཡོད་པའི་ GRUB  སྔོན་བཤུལ་བུཊི་མངོན་གསལ་འབད་མིའི་ནང་ལས་ཡིག་སྣོད་ཚུ་འདུག ཨིན་རུང་ ད་ལྟོ་འབདཝ་ད་ ཌིཀསི་ཚུ་གུ་ GRUB ༢ བུཊི་དྲན་ཐོ་གཞི་བཙུགས་འབད་དེ་ཡོད:\n\n${DISKS}\n\nGRUB སྤྱོད་ཤུལ་འདི་ ལག་ལེན་འཐབ་སྟེ་མེདཔ་བཟུམ་ཅིག་ཡོདཔ་དང་ འདི་གི་ཚབ་ལུ་ ཌིཀསི་གུ་ཡོད་མི་ GRUB 2 གཟུགས་བརྙན་ཚུ་དུས་མཐུན་བཟོ་ཞིནམ་ལས་ GRUB སྤྱོད་ཤུལ་ཡིག་སྣོད་རྙིངམ་ཚུ་ གཞི་བསྒྱུར་འབད་ནི་མཇུག་བསྡུ། ཁྱོད་ཀྱིས་ GRUB 2 གཟུགས་བརྙན་ཚུ་དུས་མཐུན་མ་བཟོ་བ་ཅིན་ འདི་ཚུ་ ཐུམ་སྒྲིལ་གསརཔ་ཚུ་དང་གཅིག་ཁར་མཐུན་འགྱུར་ཅན་མི་འོང་ནི་ཨིནམ་དང་ ཁྱོད་ཀྱི་རིམ་ལུགས་ཚུལ་མཐུན་སྦེ་ཊི་འབད་ནི་ལས་བཀག་ཆ་འབད་འོང་།\n\nGRUB 2 གཞི་བཙུགས་ཀྱིས་ བཀོད་སྤྱོད་རིམ་ལུགས་ གཞན་གཅིག་གུ་ བུཊི་དྲན་ཐོ་འདི་ཚུ་ གསར་བསྐྲུན་མ་འབདཝ་ལས་ GRUB 2 ལུ་ གཞི་བསྒྱུར་འབད་ཚར་དགོ།
+Extended_description-el.utf-8: Το σύστημα έχει ακόμα εγκατεστημένα αρχεία από τον φορτωτή εκκίνησης GRUB Legacy, αλλά έχει τώρα επίσης εγκατεστημένα αρχεία εκκίνησης του GRUB 2 στους εξής δίσκους:\n\n${DISKS}\n\nΦαίνεται πιθανόν ότι το πρόγραμμα εκκίνησης GRUB Legacy δεν είναι πια σε χρήση και ότι θα πρέπει αντίθετα να αναβαθμίσετε το GRUB 2 στους παρακάτω δίσκους και να ολοκληρώσετε την μετατροπή στο GRUB 2 αφαιρώντας οποιαδήποτε παλιότερα αρχεία του GRUB Legacy. Αν δεν αναβαθμίσετε αυτά τα αντίγραφα του GRUB 2, τότε πιθανόν να είναι ασύμβατα με τα νεότερα πακέτα, με αποτέλεσμα να σταματήσει η κανονική εκκίνηση του συστήματός σας.\n\nΣτη γενική περίπτωση θα πρέπει να τελειώσετε την μετατροπή σε GRUB 2 εκτόςκι αν αυτά τα αρχεία εκκίνησης έχουν δημιουργηθεί από μια εγκατάσταση του GRUB 2 σε ένα άλλο λειτουργικό σύστημα.
+Extended_description-eo.utf-8: Tiu ĉi sistemo ankoraŭ havas dosierojn el la malaktuala ekŝargilo GRUB instalita, sed ĝi nun ankaŭ havas ekŝargajn registrojn de GRUB 2 instalitaj en tiuj ĉi diskoj:\n\n${DISKS}\n\nŜajnas ke la malaktuala GRUB ne plu estas uzata, kaj ke vi devos anstataŭe aktualigi al bildoj GRUB 2 en tiuj ĉi diskoj, kaj finigi la konverton al GRUB 2 forigante malnovajn malaktualajn dosierojn GRUB. Se vi ne aktualigos tiujn ĉi bildojn GRUB 2, tiel ili povos esti malkongruaj al la novaj pakoj igante ke via sistemo ĉesu ekŝargi senprobleme.\n\nVi devos ordinare finigi la konverton al GRUB 2, malkondiĉe ke tiuj ĉi ekŝarg-registroj estu kreitaj de sistemo kun GRUB 2 instalita, en alia operaciuma sistemo.
+Extended_description-es.utf-8: Este sistema todavía tiene ficheros del cargador de inicio de la versión anterior de GRUB instalados, pero ahora también tiene registros de inicio de GRUB 2 instalados en estos discos:\n\n${DISKS}\n\nParece que la versión anterior de GRUB ya no se utiliza, por lo que usted debería actualizar las imágenes de GRUB 2 en estos discos y terminar la conversión a GRUB 2 borrando los ficheros de la versión anterior de GRUB. Si no actualiza estas imágenes de GRUB 2, puede que sean incompatibles con los nuevos paquetes y que provoquen que su sistema no inicie correctamente.\n\nDebería terminar la conversión a GRUB 2 a menos que estos registros de inicio los crease una instalación de GRUB 2 en algún otro sistema operativo.
+Extended_description-eu.utf-8: Sistemak oraindik 'GRUB Legacy' abioko kargatzailearen fitxategiak ditu oraindik, baina orain GRUB 2 bertsioko abioko erregistroak ere baditu honako diskoetan:\n\n${DISKS}\n\nBadirudi 'GRUB Legacy' ez denez aurrerantzean erabiliko, disko hauetako GRUB 2 bertsioko irudiak eguneratu eta 'GRUB Legacy'-ko fitxategiak kenduz GRUB 2-ren eguneraketa amaitu beharko zenuke. GRUB 2-ko irudi hauek ez badituzu eguneratzen, pakete berriekin ez dira bateragarriak izango eta sistema ongi abiatzea galaraz dezake.\n\nGRUB 2-rako bihurketa amaitu beharko zenuke, abioko erregistro hauek beste sistema eragile batzuetako GRUB 2 bertsioaren instalazioan ez badira sortuak izan.
+Extended_description-fa.utf-8: این سیستم هنوز فایل هایی مربوط به GRUB قدیمی را به صورت نصب شده دارد ، اما اکنون بوت رکورد های GRUB2 بر روی این دیسک ها نصب شده است :\n\n${DISKS}\n\nبه نظر می‌آید که احتمالاً GRUB قدیمی دیگر در استفاده نیست، و شما می‌بایست تصاویر GRUB2 را بر روی این دیسک‌ها ارتقاء دهید و با پاک کردن فایل‌های گراب قدیمی تبدیل به GRUB2 را به اتمام برسانید. اگر شما این تصاویر GRUB2 را ارتقا ندهید، ممکن است این تصاویر با بسته‌های جدید ناسازگار باشند و باعث جلوگیری از راه‌اندازی مناسب سیستم شوند.\n\nشما باید معمولاً به ارتباط GRUB2 پایان دهید، مگر آنکه این رکورد های بوت ساخته شده توسط GRUB2 مربوط به سیستم عامل های دیگر باشد.
+Extended_description-fi.utf-8: Järjestelmässä on edelleen GRUBin aiemman version tiedostoja, mutta myös GRUB 2:n käynnistystiedot on asennettu seuraaville levyille:\n\n${DISKS}\n\nGRUBin aiempi versio ei luultavasti ole enää käytössä ja näillä levyillä olevat GRUB 2:n levykuvat tulisi päivittää ja siirtyminen GRUB 2:een saattaa loppuun poistamalla vanhat GRUB-tiedostot. Jos et päivitä GRUB 2:n kuvia, uusien pakettien kanssa voi tulla yhteensopivuusongelmia ja järjestelmän käynnistys ei ehkä toimi oikein.\n\nYleisesti ottaen siirtyminen GRUB 2:een tulisi saattaa loppuun ellei näitä käynnistystietoja luotu johonkin toiseen käyttöjärjestelmään asennetulla GRUB 2:lla.
+Extended_description-fr.utf-8: Ce système comporte encore des fichiers de la version précédente du programme de démarrage GRUB mais comporte également des secteurs d'amorçage de GRUB 2 sur les disques suivants :\n\n${DISKS}\n\nIl est très probable que la version précédente de GRUB ne soit plus utilisée et il est donc conseillé de mettre à jour les images de GRUB 2 sur ces disques, puis terminer la migration vers GRUB 2 en supprimant les anciens fichiers de la version précédente. Si vous ne mettez pas ces images de GRUB 2 à jour, elles pourraient être incompatibles avec de nouvelles versions, ce qui pourrait empêcher un démarrage normal.\n\nIl est donc très probablement nécessaire de terminer la migration vers GRUB 2 à moins que ces secteurs d'amorçage n'aient été créés par une installation de GRUB 2 d'un autre système d'exploitation.
+Extended_description-gl.utf-8: Este sistema aínda ten instalados ficheiros do cargador de arranque GRUB Legacy, pero agora tamén ten rexistros de arranque de GRUB 2 nestes discos:\n\n${DISKS}\n\nAsemella que GRUB Legacy xa non se usa, e que debería actualizar as imaxes de GRUB 2 nestes discos e rematar a conversión a GRUB 2 eliminando os ficheiros vellos de GRUB Legacy. Se non actualiza estas imaxes de GRUB 2, poderían ser incompatíbeis cos novos paquetes e provocar que sistema non arranque correctamente.\n\nEn xeral, debería rematar a conversión a GRUB 2 a menos que estos rexistros de inicio fosen creatos por unha instalación de GRUB 2 en outro sistema operativo.
+Extended_description-gu.utf-8: આ સિસ્ટમમાં સ્થાપિત કરેલ GRUB પરંપરાગત બૂટ લોડરમાંથી ફાઈલ્સ હાજર રહેલ છે, પણ તેમાં નીચેની ડિસ્ક્સ પર GRUB 2 બૂટ રેકોર્ડ્સ સ્થાપિત કરેલ છે:\n\n${DISKS}\n\nએવું જણાય છે કે GRUB પરંપરાગત હવે વપરાશમાં નથી, અને તમારે આ ડિસ્ક્સ પર GRUB 2 ઈમેજ સુધારી અને GRUB 2 માં રુપાંતરણ GRUB પરંપરાગત ફાઈલ્સ દૂર કરીને પુરું કરવું જોઈએ. જો તમે આ GRUB 2 ઈમેજ સુધારશો નહી તો, તે નવાં પેકેજીસ સાથે અસંગત હશે અને તમારી સિસ્ટમને યોગ્ય રીતે શરુ થતા અટકાવી શકે છે.\n\nતમે સામાન્ય રીતે GRUB 2 માં રુપાંતર કરી લીધું છે સિવાય કે આ બૂટ રેકોર્ડ GRUB 2 સ્થાપન વડે કોઈ બીજી ઓપરેટિંગ સિસ્ટમમાં બનાવવામાં આવ્યા હોય.
+Extended_description-he.utf-8: יש במערכת זו עדיין קבצים מההתקנה הישנה של מנהל האתחול GRUB, אבל יש גם רשומות אתחול GRUB 2 מותקנות בדיסקים הבאים:\n\n${DISKS}\n\nסביר שהתקנת GRUB הישנה כבר אינה בשימוש, ושעליך במקום זאת לשדרג את תמונות GRUB 2 בדיסקים אלה ולסיים את ההמרה ל-GRUB 2 על ידי הסרת קבצי GRUB הישנים. אם אינך משדרג תמונות GRUB 2 אלה, הן עלולות להיות בלתי תואמות את החבילות החדשות ולמנוע מהמערכת שלך מלאתחל כהלכה.\n\nבדרך כלל עליך לסיים את ההמרה ל-GRUB 2 אלא אם רשומות אתחול אלה נוצרו על ידי התקנת GRUB 2 במערכת הפעלה אחרת.
+Extended_description-hr.utf-8: Ovaj sustav još uvijek ima instalirane datoteke GRUB Legacy boot učitavača, ali sada ima i GRUB 2 boot zapise instalirane na ovim diskovima:\n\n${DISKS}\n\nVjerojatno je GRUB Legacy izbačen iz uporabe i trebali biste nadograditi na GRUB 2 snimke na ovim diskovima te završiti prebacivanje brisanjem starih GRUB Legacy datoteka. Ako niste nadogradili ove GRUB 2 snimke, onda bi one mogle biti nekompatibilne s novim verzijama paketa, što bi moglo uzrokovati nemogućnost ispravnog pokretanja sustava.\n\nOpćenito, trebali biste dovršiti nadogradnju na GRUB 2, osim ako su navedeni boot zapisi napravljeni instalacijom GRUB 2 na nekom drugom operacijskom sustavu.
+Extended_description-hu.utf-8: Ezen a rendszeren még mindig vannak a régi GRUB rendszerbetöltőhöz tartozó fájlok, de a következő lemezeken már a GRUB 2 rendszerbetöltő van telepítve:\n\n${DISKS}\n\nÚgy tűnik, hogy a régi GRUB már nincs használatban és hogy jobb lenne, ha a GRUB 2 betöltőképekre frissítenénk ezeket a lemezeket és ha a régi GRUB fájlok eltávolításával befejeznénk az áttérést a GRUB 2-re. Ha nem frissíted ezeket a GRUB2 betöltőképeket, akkor inkompatibilisek lehetnek az új csomagokkal és lehet, hogy nem fog elindulni a rendszer.\n\nÁltalában célszerű befejezni a GRUB 2-re áttérést, kivéve ha ezek a rendszerbetöltő rekordok egy másik operációs rendszeren futó GRUB 2 telepítéssel készültek.
+Extended_description-id.utf-8: Sistem ini masih memiliki berkas-berkas dari pemuat boot GRUB Jadul, tapi sekarang juga memiliki rekam boot GRUB2 di piranti berikut:\n\n${DISKS}\n\nTampaknya GRUB Jadul sudah tidak terpakai, dan Anda sebaiknya memasang citra GRUB2 pada harddisk ini, lalu menyelesaikan proses konversi ke GRUB2 dengan menghapus berkas-berkas GRUB Jadul. Jika Anda tidak memutakhirkan citra GRUB2, maka mungkin akan ada masalah inkompatibilitas dengan paket-paket baru dan membuat sistem Anda tidak dapat booting dengan benar.\n\nAnda sebaiknya menyelesaikan konversi ke GRUB2 kecuali jika rekam boot ini dibuat melalui pemasangan GRUB2 pada sistem operasi lain.
+Extended_description-is.utf-8: Þetta kerfi er ennþá með uppsettar skrár frá eldri uppsetningu GRUB, en er núna einnig með GRUB 2 ræsifærslur uppsettar á þessum diskum:\n\n${DISKS}\n\nÞað lítur út fyrir að eldra GRUB sé ekki lengur í notkun og að þú ættir þá að uppfæra GRUB 2 myndirnar á þessum diskum og ljúka svo yfirfærslunni í GRUB 2 með því að fjarlægja gömlu GRUB skrárnar. Ef þú uppfærir ekki þessar GRUB 2 myndir gætu þær orðið ósamhæfðar við nýju pakkana og koma í veg fyrir að kerfið ræsist eðlilega.\n\nAlmennt ættirðu að ljúka umbreytingu í GRUB 2 nema ef þessar ræsifærslur hafi verið útbúnar af GRUB 2 uppsetningu í einhverju öðru stýrikerfi.
+Extended_description-it.utf-8: Su questo sistema sono ancora presenti i file del boot loader GRUB Legacy ma adesso sui seguenti dischi sono installati anche i boot record di GRUB 2:\n\n${DISKS}\n\nSembra che GRUB Legacy non sia più usato, per cui è consigliabile aggiornare le immagini sui dischi con GRUB 2 e completare la conversione a GRUB 2 eliminando i vecchi file di GRUB Legacy. Se non si aggiornano le immagini con GRUB 2, in futuro potrebbero non essere più compatibili con i nuovi pacchetti e potrebbero impedire il corretto avvio del sistema.\n\nSi dovrebbe completare la conversione a GRUB 2 a meno che i boot record non siano stati creati da un'altra installazione di GRUB 2 su un altro sistema operativo.
+Extended_description-ja.utf-8: このシステムには GRUB Legacy のブートローダーがインストールしたファイルがありますが、GRUB 2 のブートレコードも以下のディスクにインストールされています:\n\n${DISKS}\n\nGRUB Legacy はもはや使われてはいないようなので、代わりにこれらのディスク上の GRUB 2 イメージをアップグレードして、古い GRUB Legacy のファイルを削除することで GRUB 2 へのコンバートを完了する必要があります。これらの GRUB 2 イメージをアップグレードしていない場合は、新しいパッケージとの互換性がないためにシステムが正常に起動しない可能性があります。\n\n他の OS 上での GRUB 2 のインストールによって作成されていたブートレコードを除き、GRUB 2 へのコンバートはほぼ完了しました。
+Extended_description-kk.utf-8: Жүйеде әлі де GRUB Legacy жүктеушісі орнатылған, оған қоса GRUB 2 жүктелу жазбалары келесі дискілерге орнатылған:\n\n${DISKS}\n\nGRUB Legacy енді қолданылмайтын сияқты, орнына GRUB 2 бейнелерін ол дискілерде жаңартып, ескі GRUB Legacy файлдарын өшіріңіз. GRUB 2 бейнелерін жаңартпасаңыз, олар жаңа дестелермен үйлеспей, жүйеңіз дұрыс жүктелмеуі мүмкін.\n\nGRUB 2 дейін жаңартуды аяқтауыңыз керек, егер осы жүктелу жазбалары басқа жүйеде орнатылған GRUB 2 көмегімен жасалмаған болса.
+Extended_description-km.utf-8: ប្រព័ន្ធ​នេះ​នៅ​តែ​មាន​ឯកសារ​ពី​កម្មវិធី​ចាប់ផ្ដើម​ប្រព័ន្ធ​ចាស់​ៗ​របស់ GRUB ដែល​បាន​ដំឡើង ប៉ុន្តែ​ឥឡូវ​ក៏​មាន​ផ្នែក​ចាប់ផ្ដើម GRUB 2 បាន​ដំឡើង​នៅ​ក្នុង​ថាស​ទាំង​នេះ​ដែរ ៖\n\n${DISKS}\n\nវា​ហាក់បី​ដូចជា​ភាព​ចាស់ៗ​របស់​ GRUB លែង​ប្រើ​ហើយ ហើយ​អ្នក​គួរ​ជំនួស​ការ​ធ្វើ​ឲ្យ​រូបភាព GRUB 2 ប្រសើ​រឡើង​នៅ​លើ​ថាស​ទាំង​នេះ ហើយ​បញ្ចប់​ការ​បម្លែង​ទៅ GRUB 2 ដោយ​​យក​ឯកសារ​ចាស់ៗ​របស់ GRUB ចាស់​ចេញ ។ ប្រសិន​បើ​អ្នក​មិន​ធ្វើ​ឲ្យ​រូបភាព GRUB 2 ទាំង​នេះ​ប្រសើ​រឡើង​ទេ នោះ​ពួក​វា​អាច​មិន​ត្រូវ​គ្នា​ជា​មួយ​នឹង​កញ្ចប់​ថ្មីៗ ហើយ​ធ្វើ​ឲ្យ​ប្រព័ន្ធ​របស់​អ្នក​បញ្ឈប់​ការ​ចាប់ផ្ដើម​ ។\n\nជា​ទូទៅ អ្នក​គួរ​តែ​បញ្ចប់​ការ​បម្លែង​ទៅ GRUB 2 លុះត្រា​តែ​ផ្នែក​ចាប់ផ្ដើម​ត្រូវ​បាន​បង្កើត​ដោយ​ការ​ដំឡើង GRUB 2 នៅ​លើ​ប្រព័ន្ធ​ប្រតិបត្តិការ​ផ្សេង ។
+Extended_description-ko.utf-8: 이 시스템에는 GRUB 구버전의 부트로더 파일이 아직 설치되어 있습니다. 하지만 GRUB 2 부트레코드도 다음 디스크에 설치되어 있습니다:\n\n${DISKS}\n\n이제 GRUB 구버전을 사용하지 않는 것 같습니다. 그러면 GRUB 2 이미지를 업그레이드하고 GRUB 구버전 파일을 제거해서 GRUB 2 전환을 마치십시오. GRUB 2 이미지를 업그레이드하지 않으면, 새 패키지와 호환되지 않을 수도 있고, 그러면 시스템이 제대로 부팅하지 않습니다.\n\n일반적인 경우 GRUB 2 전환을 마쳐야 합니다. 예외는 부트레코드의 GRUB 2를 다른 운영체제에서 설치한 경우입니다.
+Extended_description-lt.utf-8: Šioje sistemoje vis dar likę įdiegtų senosios „GRUB“ failų, tačiau joje yra įdiegti ir „GRUB 2“ paleidimo įrašai šiuose diskuose:\n\n${DISKS}\n\nPanašu, kad senoji „GRUB“ nebenaudojama ir kad Jums derėtų atnaujinti „GRUB 2“ atvaizdžius šiuose diskuose ir užbaigti migraciją į „GRUB 2“, pašalinant senosios „GRUB“ failus. Neatnaujinus šių „GRUB 2“ atvaizdžių, naujai įdiegti paketai gali būti su jais nesuderinami. Tokiu atveju sistema gali apskritai nepasileisti.\n\nPaprastai derėtų užbaigti migraciją į „GRUB 2“, nebent šiuos paleidimo įrašus sukūrė „GRUB 2“ versija, įdiegta su kokia nors kita operacine sistema.
+Extended_description-lv.utf-8: Šajā sistēmā vēl aizvien ir uzinstalētas datnes no GRUB mantojuma palaidēja, bet tam tagad ir arī GRUB 2 palaišanas ieraksti, kas ir uzinstalēti uz šiem diskiem:\n\n${DISKS}\n\nIzskatās, ka GRUB mantojums vairs netiek izmantots, un jums vajadzētu pabeigt GRUB 2 attēlu uzlabošanu uz šiem diskiem un pabeigt pāreju uz GRUB 2, izdzēšot vecās GRUB mantojuma datnes. Ja nevēlaties uzlabot šos GRUB 2 attēlus, tad tie varētu nebūt savietojami ar jaunajām pakotnēm un var neļaut sistēmai pareizi palaisties.\n\nJums vajadzētu pabeigt pāreju uz GRUB 2, izņemot, ja šos palaišanas ierakstus izveidoja GRUB 2 instalācija no kādas citas operētājsistēmas.
+Extended_description-mr.utf-8: प्रणालीमध्ये अद्यापही लीगसी ग्रब आरंभ सूचक अधिष्ठापनेतील फायली आहेत, पण तिच्यात आता खालील डिस्क्सवर ग्रब 2 आरंभ नोंदीही अधिष्ठापित आहेत:\n\n${DISKS}\n\nग्रब लीगसी आता वापरात नसण्याचा संभव आहे असे भासतेय, आणि या डिस्कवर तुम्ही त्याऐवजी ग्रब 2 प्रतिमा श्रेणिवर्धित केल्या पाहिजेत व ग्रब लीगसी फायली काढून टाकून ग्रब 2 मघ्ये परिवर्तन पूर्ण केले पाहिजे. तुम्ही या ग्रब 2 प्रतिमा श्रेणिवर्धित केल्या नाहीत, तर त्या नवीन पॅकेजेसशी अनुरूप असणार नाहीत व तुमच्या प्रणालीचा योग्य आरंभ होण्यात अडथळा आणू शकतील.\n\nया आरंभ नोंदी अन्य कोणत्यातरी प्रचालन प्रणालीवर ग्रब 2 अधिष्ठापनेने निर्माण केलेल्या नसल्यास तुम्ही सामान्यतः ग्रब 2 मघ्ये परिवर्तन पूर्ण केले पाहिजे.
+Extended_description-nb.utf-8: Dette systemet har fremdeles installert filer fra GRUB Legacy-oppstartslasteren, men systemet har nå også GRUB 2 oppstartsposter installert på disse diskene:\n\n${DISKS}\n\nDet virker sannsynlig at GRUB Legacy ikke lenger er i bruk, og at du i steden for skal oppgradere GRUB 2-bildene på disse diskene og avslutte konverteringen til GRUB 2 ved å fjerne eldre GRUB Legacy-filer. Hvis du ikke oppgraderer disse GRUB 2-bildene, så er de kanskje ikke kompatible med de nye pakkene og kan få ditt system til å stoppe å starte opp skikkelig.\n\nDu bør generelt avslutte konverteringen til GRUB 2 med mindre disse oppstartspostene ble opprettet av en GRUB 2-installasjon på et annet operativsystem.
+Extended_description-nl.utf-8: Er staan op dit systeem nog steeds bestanden van het opstartprogramma GRUB  oude-stijl, maar op de volgende schijven is nu ook een instantie van het opstartprogramma GRUB 2 geïnstalleerd:\n\n${DISKS}\n\nHet lijkt erop dat GRUB oude-stijl niet langer gebruikt wordt en dat u er best aan doet om de images van GRUB 2 op die schijven op te waarderen en de omschakeling naar GRUB 2 af te ronden door de bestanden van GRUB oude-stijl te verwijderen. Indien u de GRUB 2 images niet opwaardeert, is het mogelijk dat ze incompatibel zijn met de nieuwe pakketten en kunnen ze uw systeem verhinderen correct op te starten.\n\nIn het algemeen zult u de conversie naar GRUB 2 willen afmaken, tenzij deze opstart-images gemaakt zijn bij het installeren van GRUB 2 met een ander besturingssysteem.
+Extended_description-no.utf-8: Dette systemet har fremdeles installert filer fra GRUB Legacy-oppstartslasteren, men systemet har nå også GRUB 2 oppstartsposter installert på disse diskene:\n\n${DISKS}\n\nDet virker sannsynlig at GRUB Legacy ikke lenger er i bruk, og at du i steden for skal oppgradere GRUB 2-bildene på disse diskene og avslutte konverteringen til GRUB 2 ved å fjerne eldre GRUB Legacy-filer. Hvis du ikke oppgraderer disse GRUB 2-bildene, så er de kanskje ikke kompatible med de nye pakkene og kan få ditt system til å stoppe å starte opp skikkelig.\n\nDu bør generelt avslutte konverteringen til GRUB 2 med mindre disse oppstartspostene ble opprettet av en GRUB 2-installasjon på et annet operativsystem.
+Extended_description-pl.utf-8: System ma wciąż zainstalowane pliki z programu rozruchowego GRUB Legacy, ale na następujących dyskach zainstalowano także wpisy rozruchowe GRUB-a 2:\n\n${DISKS}\n\nWygląda na to, że GRUB Legacy nie jest już dłużej używany i należy zaktualizować obrazy GRUB-a 2 na tych dyskach oraz zakończyć przejście na GRUB-a 2 przez usunięcie starych plików GRUB Legacy. Jeśli nie zaktualizowano tych obrazów GRUB-a 2, mogą być one niekompatybilne z nowymi pakietami i spowodować problemy z poprawnym uruchamianiem systemu.\n\nMożna zakończyć przejście na GRUB-a 2, chyba że te wpisy rozruchowe zostały stworzone przez GRUB-a 2 zainstalowanego w jakimś innym systemie operacyjnym.
+Extended_description-pt.utf-8: Este sistema ainda tem ficheiros instalados do gestor de arranque GRUB Legacy, no entanto agora também tem registos de arranque do GRUB 2 instalados nos discos seguintes:\n\n${DISKS}\n\nParece provável que o GRUB Legacy não esteja a ser usado, deve fazer a actualização das imagens do GRUB 2 nestes discos e finalizar a conversão para o GRUB 2 removendo os ficheiros antigos do GRUB Legacy. Se não actualizar estas imagens GRUB 2 então estas podem ser incompatíveis com novos pacotes e provocar uma falha no arranque do sistema.\n\nNormalmente deverá finalizar a conversão para o GRUB 2 a não ser que estes registos de arranque tenham sido criados por uma instalação do GRUB 2 noutro sistema operativo.
+Extended_description-pt_br.utf-8: Este sistema ainda tem arquivos do carregador de inicialização do GRUB Legado instalados, mas agora também tem registros de inicialização do GRUB 2 instalados nestes discos:\n\n${DISKS}\n\nParece provável que o GRUB Legado não está mais em uso, e que você deve atualizar as imagens do GRUB 2 nestes discos e completar a conversão para o GRUB 2, removendo arquivos antigos do GRUB Legado. Se você não atualizar essas imagens do GRUB 2, então elas podem ser incompatíveis com os novos pacotes e fazer com que o sistema deixe de inicializar corretamente.\n\nVocê normalmente deveria completar a conversão para o GRUB 2, a menos que esses registros de inicialização tenham sido criados por uma instalação do GRUB 2 em algum outro sistema operacional.
+Extended_description-ro.utf-8: Acest sistem mai are instalate fișiere din GRUB Legacy, dar acum are instalat și GRUB 2 pe aceste discuri:\n\n${DISKS}\n\nEste foarte probabil ca GRUB Legacy să nu mai fie folosit și ar trebui să actualizați imaginile GRUB 2 pe aceste discuri și să definitivați trecerea la GRUB 2 îndepărtând fișierele GRUB Legacy vechi. Dacă nu actualizați aceste imagini GRUB 2, ele ar putea fi incompatibile cu noile pachete și ar putea împiedica sistemul să pornească corespunzător.\n\nÎn general este bine să încheiați conversia la GRUB 2, în afara cazului în care acele fișiere au fost create de o instalare GRUB 2 a altui sistem de operare.
+Extended_description-ru.utf-8: В системе остались файлы от старого системного загрузчика GRUB Legacy, но теперь на те же диски установлена загрузочная запись GRUB 2:\n\n${DISKS}\n\nВероятно, GRUB Legacy больше не используется и вам нужно обновить образы GRUB 2 на этих дисках и завершить переход к GRUB 2, удалив старые файлы GRUB Legacy. Если вы не обновите данные образы GRUB 2, то они могут оказаться несовместимыми с новыми пакетами и система больше не загрузится.\n\nОбычно, вам нужно завершить переход к GRUB 2, если нет загрузочных записей, созданных установкой GRUB 2 в какой-то другой операционной системе.
+Extended_description-si.utf-8: තවමත් මෙම පද්ධතිය සතුව පැරණි GRUB ආරම්භක පූරකය ස්ථාපිතව පවතී. නමුත් පහත තැටි තුළ දැනට GRUB 2 ආරම්භක වාර්ථා ස්ථාපිතව ඇත.\n\n${DISKS}\n\nපැරණි GRUB භාවිතයේ නොපවතින ලෙසක් දිස්වේ. එනම් ඔබට එම තැටි වල GRUB 2 පිළිබිඹු යාවත් කිරීමට හා GRUB 2 වෙත හැරවීම සම්පූර්ණ කිරීමට පැරණි GRUB ගොනු ඉවත්කිරීමට සිදුවන බවයි. ඒවා නව පැකේජ සමඟ සහාය නොදක්වනු ඇති අතර ඔබේ පද්ධතිය නිසිලෙස ආරම්භ නොවනු ඇත.\n\nGRUB 2 ස්ථාපනය මගින් වෙනත් මෙහෙයුම් පද්ධතියක් මත මෙම ආරම්භක වාර්ථා නිර්මාණය කර නොමැති නම්, ඔබ සාමාන්‍යෙන් GRUB 2 වෙත හැරවීම අවසන් කල යුතුයි.
+Extended_description-sk.utf-8: Tento systém má stále nainštalované súbory zo starého zavádzača GRUB (Legacy), ale má nainštalované aj nové zavádzacie záznamy GRUB 2 na týchto diskoch:\n\n${DISKS}\n\nVyzerá to, že starý GRUB (Legacy) už nie je používaný, a tak môžete na týchto diskoch aktualizovať obrazy GRUB 2 a dokončiť konverziu na GRUB 2 odstránením súborov starého GRUB (Legacy). Ak nezaktualizuje tieto obrazy GRUB 2, potom nemusia byť kompatibilné s novými balíkmi a môžu narušiť správne zavádzanie systému.\n\nMali by ste dokončiť konverziu na GRUB 2, ibaže boli tieto zavádzacie záznamy vytvorené inštaláciou GRUB 2 iného operačného systému.
+Extended_description-sl.utf-8: Na tem sistemu so še nameščene datoteke iz zastarelega GRUBa, a zdaj je nameščen tudi zagonski zapis GRUB 2 na sledečih diskih:\n\n${DISKS}\n\nZdi se verjetno, da zastareli GRUB ni več v uporabi in da bi morali namesto tega nadgraditi te diske na GRUB 2 ter dokončati pretvorbo v GRUB 2 z odstranitvijo datotek za zastareli GRUB. V primeru, da ne boste izvedli nadgradnje na GRUB 2 lahko pride do nezdružljivosti z novimi paketi in težav pri zagonu.\n\nObičajno bi morali dokončati pretvorbo v GRUB 2 razen, če so bili ti zagonski zapisi ustvarjeni pri nameščanju GRUB 2 na drugem operacijskem sistemu.
+Extended_description-sv.utf-8: Detta system har fortfarande filer från den äldre GRUB-uppstartshanteraren installerade men nu finns det dessutom GRUB 2 uppstartsinformation på följande enheter:\n\n${DISKS}\n\nDet är troligt att den äldre GRUB-versionen inte längre används och du bör istället uppgradera till GRUB 2-avbildningar på dessa enheter och avsluta konverteringen till GRUB 2 genom att ta bort äldre GRUB-filer. Om du inte vill uppgradera dessa GRUB 2-avbildningar kan de bli oanvändbara tillsammans med det nya paketet och systemet sluta att fungera korrekt.\n\nDet generella rådet är att avsluta konverteringen till GRUB 2 om dessa filer inte skapats av en GRUB 2-installation på ett annat operativsystem.
+Extended_description-ta.utf-8: இந்த கணினியில் இன்னும் க்ரப் பாரம்பரிய துவக்கி நிறுவப்பட்டுள்ளது. ஆனால் இப்போது க்ரப் 2 பூட் பதிவுகளும் பின் வரும் வட்டுகளில் நிறுவப்பட்டுள்ளது:\n\n${DISKS}\n\nபாரம்பரிய க்ரப் இப்போது புழக்கத்தில் இல்லை என்று தெரிகிறது. நீங்கள் இந்த வட்டுகளில் உள்ள க்ரப் 2 பிம்பங்களை மேம்படுத்த வேண்டும். பழைய பார்மபரிய க்ரப் கோப்புக்களை நீக்கி மாற்றத்தை இறுதி செய்ய வேண்டும். நீங்கள் இந்த பிம்பங்களை மேம்படுத்தாவிட்டால் புதிய பொதிகளுடன் அவை பொருத்தமில்லாமல் போய் உங்கள் கணினி சரியாக துவங்க முடியாமல் போகலாம்.\n\nஇந்த பூட் பதிவுகள் வேறு ஒரு இயங்கு தளத்தை நிறுவும் போது க்ரப் 2 ஆல் உருவாக்கப்பட்டிருந்தால் ஒழிய  நீங்கள் பொதுவாக க்ரப் 2 மாற்றத்தை முடிக்க வேண்டும்.
+Extended_description-th.utf-8: ระบบนี้มีแฟ้มจากบูตโหลดเดอร์ GRUB รุ่นเก่าติดตั้งอยู่ แต่ตอนนี้มีบูตเรคอร์ดของ GRUB 2 ติดตั้งไว้ในดิสก์ต่อไปนี้เช่นกัน:\n\n${DISKS}\n\nดูเหมือน GRUB รุ่นเก่าจะไม่มีการใช้งานอีกต่อไป และดูเหมือนว่าคุณควรจะปรับรุ่นอิมเมจของ GRUB 2 ในดิสก์เหล่านี้แทน พร้อมทั้งจบขั้นตอนสุดท้ายของการแปลงไปเป็น GRUB 2 โดยลบแฟ้มของ GRUB รุ่นเก่าทิ้ง ถ้าคุณไม่ปรับรุ่นอิมเมจ GRUB 2 เหล่านี้ขึ้น อิมเมจก็อาจไม่เข้ากันกับแพกเกจรุ่นใหม่ๆ และทำให้ระบบของคุณบูตไม่ขึ้นได้\n\nโดยทั่วไปแล้ว คุณควรจะจบขั้นตอนสุดท้ายของการแปลงไปเป็น GRUB 2 นี้ นอกเสียจากว่าบูตเรคอร์ดเหล่านี้จะถูกสร้างโดย GRUB 2 ที่ติดตั้งในระบบปฏิบัติการอื่น
+Extended_description-tr.utf-8: Bu sistemde eski GRUB kurulumundan kalmış dosyalar var; ama şimdi bir de şu disklere yazılmış GRUB 2 önyükleme kayıtları var:\n\n${DISKS}\n\nGöründüğü kadarı ile eski GRUB kurulumu artık kullanılmıyor, dolayısıyla bu disklerdeki eski GRUB dosyalarını kaldırıp GRUB 2 görüntülerine yükseltme yaparak dönüşümü tamamlamalısınız. Eğer bu GRUB 2 görüntülerini yükseltmezseniz, yeni paketlerle uyum sorunları yaşanabilir ve bu durum sisteminizin düzgün bir biçimde başlamasına engel olabilir.\n\nBu önyükleme kayıtları başka bir işletim sistemindeki bir GRUB 2 kurulumu tarafından oluşturulmamışsa GRUB 2 kurulumunu tamamlamanız gerekmektedir.
+Extended_description-ug.utf-8: بۇ سىستېمىدا يەنىلا GRUB Legacy قوزغىتىش يېتەكلىگۈچ ئورناتقان ھۆججەت مەۋجۇت ئەمما ھازىرمۇ دىسكىغا GRUB 2 يېتەكلەش خاتىرىسىنى ئورناتتى:\n\n${DISKS}\n\nقارىغاندا GRUB Legacy ئىشلىتىلمىگەندەك تۇرىدۇ، ھەمدە سىز بۇ دىسكىلاردا GRUB 2 تەسۋىرىگە يېڭىلىشىڭىز لازىم، كونا GRUB Legacy ھۆججەتلىرىنى ئۆچۈرۈش ئارقىلىق GRUB 2 تەسۋىرىنى ئايلاندۇرۇشنى تاماملايدۇ. ئەگەر بۇ GRUB 2 تەسۋىرىنى يېڭىلىمىغاندا ئۇلار يېڭى بوغچا بىلەن ماسلاشمىغانلىقتىن سىستېمىڭىزنىڭ نورمال يېتەكلىنىپ قوزغالماسلىقىنى كەلتۈرۈپ چىقىرىدۇ.\n\nسىز ئادەتتە GRUB 2 نىڭ ئايلاندۇرۇشىنى تاماملىشىڭىز لازىم، بۇ يېتەكلەش خاتىرىسى باشقا مەشغۇلات سىستېمىسىغا ئورنىتىلغان GRUB 2 قۇرغان بولسا بۇ باشقا گەپ.
+Extended_description-uk.utf-8: Ваша система містить встановлені файли з GRUB Legacy, але на наступних дисках присутній завантажувач GRUB 2:\n\n${DISKS}\n\nСхоже, GRUB 2 більше не використовується, тому ви можете замінити його, оновивши образи GRUB 2 на цих дисках та завершити перехід до GRUB 2, вилучивши старі файли від GRUB Legacy. Якщо ви не оновите ці образи, вони можуть бути несумісні з новими пакунками і ваша система не зможе нормально завантажуватися.\n\nВи маєте повністю завершити перехід на GRUB 2, якщо ці завантажувальні записи було створено GRUB 2 іншої операційної системи.
+Extended_description-vi.utf-8: Hệ thống này vẫn còn có tập tin được cài đặt bởi bộ nạp khởi động GRUB Cũ (Legacy), nhưng mà cũng có mục ghi GRUB2 được cài đặt vào những đĩa này:\n\n${DISKS}\n\nRất có thể là GRUB Cũ (Legacy) không còn được sử dụng, vì thế bạn nên nâng cấp các ảnh GRUB2 trên những đĩa này và kết thúc chuyển đổi sang GRUB2 bằng cách gỡ bỏ tất cả các tập tin GRUB Cũ. Không nâng cấp các ảnh GRUB2 thì chúng có thể không tương thích với gói mới và gây ra hệ thống này không khởi động đúng.\n\nNói chung bạn nên kết thúc chuyển đổi sang GRUB2 nếu các mục ghi khởi động này không được tạo bởi một bản cài đặt GRUB2 trên một hệ điều hành khác.
+Extended_description-zh_cn.utf-8: 此系统仍然有 GRUB Legacy 引导器安装的文件，但是现在也在磁盘上安装了 GRUB 2 引导记录：\n\n${DISKS}\n\n好像 GRUB Legacy 已经不再使用了，并且您应该在这些磁盘上转而升级到 GRUB 2 映像，并且通过删除旧的 GRUB Legacy 文件来完成到 GRUB 2 的转换。如果不升级这些 GRUB 2 映像，他们将可能不能与新包兼容而造成您的系统不能正常引导。\n\n您通常应该完成到 GRUB 2 的转换，除非这些引导记录是由安装到其它操作系统上的 GRUB 2 创建的。
+Extended_description-zh_tw.utf-8: 這個系統上仍保有之前安裝 GRUB Legacy 所遺留下來的檔案，但它已有 GRUB 2 安裝於以下磁碟的開機磁區：\n\n${DISKS}\n\n這很可能表示再也用不到 GRUB Legacy 了，您應該替而升級這些裝置上的 GRUB 2 影像檔，並移除這些 GRUB Legacy 所遺留下來的檔案，以結束 GRUB 2 的轉換過程。如果您沒升級這些 GRUB 2 影像檔的話，它們可能和新的套件不相容，且會導致您的系統無法正常開機。\n\n您應當逐漸得結束 GRUB 2 的轉換過程，除非這些開機記錄是由其它的作業系統所安裝的 GRUB 2 建立的。
+Type: boolean
+Owners: grub-pc/mixed_legacy_and_grub2
+
+Name: grub-pc/partition_description
+Description: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-ast.utf-8: ${DEVICE} (${SIZE} MB; ${PATH})
+Description-be.utf-8: - ${DEVICE} (${SIZE} Мб; ${PATH})
+Description-bg.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-ca.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-cs.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-cy.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-da.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-de.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-dz.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-el.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-eo.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-es.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-eu.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-fa.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-fi.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-fr.utf-8: - ${DEVICE} (${SIZE} Mo; ${PATH})
+Description-gl.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-gu.utf-8: - ${DEVICE} (${SIZE} એમબી; ${PATH})
+Description-he.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-hr.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-hu.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-id.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-is.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-it.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-ja.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-kk.utf-8: - ${DEVICE} (${SIZE} МБ; ${PATH})
+Description-km.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-ko.utf-8: - ${DEVICE} (${SIZE} MB, ${PATH})
+Description-lt.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-lv.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-mr.utf-8: - ${DEVICE} (${SIZE} एमबी; ${PATH})
+Description-nb.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-nl.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-no.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-pl.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-pt.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-pt_br.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-ro.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-ru.utf-8: - ${DEVICE} (${SIZE} МБ; ${PATH})
+Description-si.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-sk.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-sl.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-sv.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-ta.utf-8: - ${DEVICE} (${SIZE} எம்பி(MB); ${PATH})
+Description-th.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-tr.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-ug.utf-8: - ${DEVICE} (${SIZE} MB, ${PATH})
+Description-uk.utf-8: - ${DEVICE} (${SIZE} МБ; ${PATH})
+Description-vi.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-zh_cn.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Description-zh_tw.utf-8: - ${DEVICE} (${SIZE} MB; ${PATH})
+Type: text
+Owners: grub-pc/partition_description
+
+Name: grub-pc/postrm_purge_boot_grub
+Default: false
+Description: Remove GRUB 2 from /boot/grub?
+Description-ast.utf-8: ¿Desaniciar GRUB 2 de /boot/grub?
+Description-be.utf-8: Выдаліць GRUB 2 з /boot/grub?
+Description-bg.utf-8: Изтриване на GRUB 2 от /boot/grub?
+Description-ca.utf-8: Voleu suprimir el GRUB 2 de /boot/grub?
+Description-cs.utf-8: Odstranit GRUB 2 z /boot/grub?
+Description-cy.utf-8: Dileu GRUB 2 o /boot/grub?
+Description-da.utf-8: Fjern GRUB 2 fra /boot/grub?
+Description-de.utf-8: GRUB 2 aus /boot/grub entfernen?
+Description-dz.utf-8: /boot/grub  ནང་ལས་GRUB 2 རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན?
+Description-el.utf-8: Να αφαιρεθεί το GRUB 2 από το /boot/grub;
+Description-eo.utf-8: Ĉu forviŝi GRUB 2 el /boot/grub?
+Description-es.utf-8: ¿Desea eliminar GRUB 2 de «/boot/grub»?
+Description-eu.utf-8: Kendu 'GRUB 2' /boot/grub direktoriotik?
+Description-fa.utf-8: GRUB 2 از /boot/grub برداشته شود؟
+Description-fi.utf-8: Poistetaanko GRUB 2 kohteesta /boot/grub?
+Description-fr.utf-8: Faut-il supprimer GRUB 2 de /boot/grub ?
+Description-gl.utf-8: Quere eliminar GRUB 2 de /boot/grub ?
+Description-gu.utf-8: /boot/grub માંથી GRUB ૨ દૂર કરશો?
+Description-he.utf-8: הסר GRUB 2 מ-/boot/grub?
+Description-hr.utf-8: Želite li ukloniti GRUB 2 iz /boot/grub?
+Description-hu.utf-8: Kiszedjem a GRUB 2-t a /boot/grub-ból?
+Description-id.utf-8: Hapus GRUB 2 dari /boot/grub?
+Description-is.utf-8: Fjarlægja GRUB 2 úr /boot/grub?
+Description-it.utf-8: Rimuovere GRUB 2 da /boot/grub?
+Description-ja.utf-8: /boot/grub から GRUB 2 を削除しますか?
+Description-kk.utf-8: GRUB 2 /boot/grub ішінен өшіру керек пе?
+Description-km.utf-8: យក GRUB 2 ចេញ ពី /boot/grub?
+Description-ko.utf-8: /boot/grub에서 GRUB 2를 제거하시겠습니까?
+Description-lt.utf-8: Pašalinti „GRUB 2“ iš „/boot/grub“?
+Description-lv.utf-8: Izņemt GRUB 2 no /boot/grub?
+Description-mr.utf-8: /boot/grub मधून ग्रब 2 काढून टाकायचा?
+Description-nb.utf-8: Fjern GRUB 2 fra /boot/grub?
+Description-nl.utf-8: GRUB 2 uit /boot/grub verwijderen?
+Description-no.utf-8: Fjern GRUB 2 fra /boot/grub?
+Description-pl.utf-8: Usunąć GRUB-a 2 z /boot/grub?
+Description-pt.utf-8: Remover o GRUB 2 de /boot/grub?
+Description-pt_br.utf-8: Remover o GRUB 2 do /boot/grub?
+Description-ro.utf-8: Se îndepărtează GRUB 2 din /boot/grub?
+Description-ru.utf-8: Удалить GRUB 2 из /boot/grub?
+Description-si.utf-8:  /boot/grub වෙතින් GRUB 2 ඉවත් කරන්නද?
+Description-sk.utf-8: Odstrániť GRUB 2 z /boot/grub?
+Description-sl.utf-8: Želite odstraniti GRUB 2 iz /boot/grub?
+Description-sv.utf-8: Radera GRUB 2 från /boot/grub?
+Description-ta.utf-8: க்ரப் 2 ஐ  /boot/grub இலிருந்து நீக்கவா?
+Description-th.utf-8: จะลบ GRUB 2 ออกจาก /boot/grub หรือไม่?
+Description-tr.utf-8: GRUB 2, /boot/grub yolundan kaldırılsın mı?
+Description-ug.utf-8: /boot/grub دىن GRUB 2 نى چىقىرىۋېتەمدۇ؟
+Description-uk.utf-8: Вилучити GRUB 2 з /boot/grub?
+Description-vi.utf-8: Gỡ bỏ GRUB 2 khỏi /boot/grub không?
+Description-zh_cn.utf-8: 从 /boot/grub 移除 GRUB 2 ?
+Description-zh_tw.utf-8: 是否將 GRUB 2 從 /boot/grub 移除？
+Extended_description: Do you want to have all GRUB 2 files removed from /boot/grub?\n\nThis will make the system unbootable unless another boot loader is installed.
+Extended_description-ast.utf-8: ¿Quiés desaniciar tolos ficheros de GRUB 2 de /boot/grub?\n\nEsto fadrá qué nun puedas aniciar el sistema a nun ser qu'instales otru xestor d'arranque.
+Extended_description-be.utf-8: Хочаце выдаліць усе файлы GRUB 2 з /boot/grub?\n\nЗ-за гэтага сістэма будзе не ў стане запусціцца, пакуль не будзе ўсталяваны іншы пачатковы запускальнік.
+Extended_description-bg.utf-8: Желаете ли да изтриете всички файлове на GRUB от папката /boot/grub?\n\nТова ще възпрепятства зареждането на системата, до инсталиране на друга програма за начално зареждане.
+Extended_description-ca.utf-8: Voleu suprimir tots els fitxers del GRUB 2 de /boot/grub?\n\nAixò farà que el sistema no arrenque si no s'instaŀla un altre carregador.
+Extended_description-cs.utf-8: Chcete z /boot/grub odstranit všechny soubory GRUBu 2?\n\nTímto se stane systém nezaveditelným do doby, než nainstalujete jiný zavaděč.
+Extended_description-cy.utf-8: Ydych am i holl ffeiliau GRUB 2 cael eu dileu o /boot/grub?\n\nMi fydd hyn yn golygu na fydd y system yn gallu cychwyn nes i lwythwr ymgychwyn arall ei sefydlu.
+Extended_description-da.utf-8: Ønsker du at alle GRUB 2-filer skal fjernes fra /boot/grub?\n\nDette vil medføre, at systemet ikke kan opstartes med mindre en anden opstarter (boot loader) er installeret.
+Extended_description-de.utf-8: Wollen Sie alle Daten von GRUB 2 aus /boot/grub entfernen lassen?\n\nWenn kein anderer Boot-Loader installiert ist, kann Ihr System anschließend nicht mehr booten (hochfahren).
+Extended_description-dz.utf-8: /boot/grub ནང་ལས་ GRUB 2 ཡིག་སྣོད་ཆ་མཉམ་ རྩ་བསྐྲད་གཏང་ནི་ཨིན་ན?\n\nའདི་གིས་ བུཊི་མངོན་གསལ་པ་སོ་སོ་གཅིག་གཞི་བཙུགས་མ་འབད་ཚུན་ རིམ་སྒྲིག་འདི་ བུཊི་འབད་མ་བཏུབ་བཟོ་འོང་།
+Extended_description-el.utf-8: Θέλετε να αφαιρεθούν όλα τα αρχεία του GRUB 2 από τον κατάλογο /boot/grub;\n\nΚάτι τέτοιο θα καταστήσει το σύστημα μη εκκινήσιμο εκτός αν εγκαταστήσετε κάποιο άλλο πρόγραμμα εκκίνησης.
+Extended_description-eo.utf-8: Ĉu vi volas forviŝi ĉiujn dosierojn GRUB 2 el /boot/grub?\n\nTio ĉi igos la sistemon ne ekŝargebla, krom se alia ekŝargilo estu instalita.
+Extended_description-es.utf-8: ¿Desea eliminar todos los ficheros de GRUB 2 de «/boot/grub»?\n\nEsto hará que el sistema no inicie a menos que otro gestor de inicio esté instalado.
+Extended_description-eu.utf-8: Nahi duzu GRUB 2ren fitxategi guztiak /boot/grub-etik kentzea?\n\nHonek sistema ezin abiaraztea eragingo du bestelako abioko kargatzaile bat instalatzen ez bada.
+Extended_description-fa.utf-8: آیا می‌خواهید همهٔ فایل‌های GRUB 2 از /boot/grub برداشته شود؟\n\nاین باعث غیر قابل بوت‌شدن سیستم می‌شود مگر آنکه بارگذار بوت دیگری نصب است.
+Extended_description-fi.utf-8: Haluat poistaa kaikki GRUB 2 -tiedostot kohteesta /boot/grub?\n\nTämä tekee järjestelmästä käynnistyskelvottoman, ellei toista käynnistyslatainta ole asennettu.
+Extended_description-fr.utf-8: Veuillez choisir si vous voulez vraiment supprimer tous les fichiers de GRUB 2 de /boot/grub.\n\nCela peut rendre le système impossible à démarrer tant qu'un autre chargeur d'amorçage ne sera pas installé.
+Extended_description-gl.utf-8: Quere que todos os ficheiros de GRUB 2 se eliminen de /boot/grub ?\n\nIsto fará que o sistema non poida arrancar, a menos que teña outro cargador de arranque instalado.
+Extended_description-gu.utf-8: તમે /boot/grub માંથી બધી GRUB 2 ફાઈલ્સ દૂર કરવા માંગો છો?\n\nઆ તમારી સિસ્ટમને શરુ ન કરવા જેવી બનાવશે જ્યાં સુધી બીજું બૂટ લોડર સ્થાપિત નહી હોય.
+Extended_description-he.utf-8: האם ברצונך להסיר את כל קבצי GRUB 2 מ-/boot/grub?\n\nפעולה זו תמנע מהמערכת מלאתחל אלא אם תתקין מנהל אתחול אחר.
+Extended_description-hr.utf-8: Želite li ukloniti sve GRUB 2 datoteke iz /boot/grub?\n\nOvo će onemogućiti učitavanje sustava ako nije instaliran drugi boot učitavač.
+Extended_description-hu.utf-8: Azt szeretnéd, hogy minden GRUB 2 fájlt kiszedjek a /boot/grub-ból?\n\nEzzel a rendszert indulásra képtelen állapotba hozod, hacsak nem telepítesz másik rendszerbetöltőt.
+Extended_description-id.utf-8: Yakinkah Anda ingin menghapus semua berkas GRUB 2 dari /boot/grub?\n\nHal ini akan membuat sistem tidak dapat booting kecuali Anda memasang pemuat boot lainnya.
+Extended_description-is.utf-8: Viltu láta fjarlægja allar GRUB 2 skrár úr /boot/grub?\n\nÞetta mun gera kerfið óræsanlegt nema einhver annar ræsistjóri sé settur upp.
+Extended_description-it.utf-8: Rimuovere tutti i file di GRUB 2 da /boot/grub?\n\nQuesto potrebbe rendere il sistema non avviabile a meno che non sia installato un altro boot loader.
+Extended_description-ja.utf-8: /boot/grub から GRUB 2 のファイルをすべて削除しますか?\n\nこの作業は、別のブートローダーがインストールされていないとシステムが起動できなくなります。
+Extended_description-kk.utf-8: GRUB 2 барлық файлдарын /boot/grub ішінен өшіруді шынымен қалайсыз ба?\n\nБұл әрекет басқа жүктеуші орнатылмаған болса, жүйеңізді жүктелмейтін қылады.
+Extended_description-km.utf-8: តើ​អ្នក​ចង់​​យក​ឯកសារ​របស់ GRUB 2 ទាំង​អស់​ចេញ​ពី /boot/grub?\n\nវា​នឹង​ធ្វើ​ឲ្យ​ប្រព័ន្ធ​មិន​អាច​ចាប់ផ្ដើម​បាន លុះត្រា​តែ​​ដំឡើង​កម្មវិធី​ចាប់ផ្ដើម​ប្រព័ន្ធ​ផ្សេង ។
+Extended_description-ko.utf-8: /boot/grub에서 모든 GRUB 2 파일을 제거하시겠습니까?\n\n이렇게 하면 또 다른 부트로더를 설치하지 않는 한 시스템이 부팅 불가능해집니다.
+Extended_description-lt.utf-8: Ar pašalinti visus „GRUB 2“ failus iš „/boot/grub“ aplanko?\n\nTai atlikus, sistemą paleisti gali tapti neįmanoma, nebent joje įdiegta kita paleidyklė.
+Extended_description-lv.utf-8: Vai vēlaties, lai visi GRUB 2 faili tiktu izņemti no /boot/grub?\n\nTas padarīs sistēmu nepalaižamu, ja vien nav uzinstalēts kāds cits palaidējs.
+Extended_description-mr.utf-8: /boot/grub मधून ग्रब 2 च्या सर्व फायली तुम्ही काढून टाकू इच्छिता?\n\nअन्य आरंभ सूचक अधिष्ठापित न केल्यास यामुळे तुमची प्रणाली आरंभ न होण्याजोगी होईल.
+Extended_description-nb.utf-8: Vil du at alle filer for GRUB 2 skal fjernes fra /boot/grub?\n\nDette vil gjøre at systemet ikke kan starte med mindre en annen oppstartslaster er installert.
+Extended_description-nl.utf-8: Wilt u dat alle GRUB 2 bestanden worden verwijderd uit /boot/grub?\n\nDit heeft tot gevolg dat het systeem niet opgestart kan worden tenzij er een ander opstartprogramma is geïnstalleerd.
+Extended_description-no.utf-8: Vil du at alle filer for GRUB 2 skal fjernes fra /boot/grub?\n\nDette vil gjøre at systemet ikke kan starte med mindre en annen oppstartslaster er installert.
+Extended_description-pl.utf-8: Czy usunąć wszystkie pliki GRUB-a 2 z /boot/grub?\n\nMoże to spowodować brak możliwości uruchomienia systemu, chyba że zainstalowany jest inny program rozruchowy.
+Extended_description-pt.utf-8: Deseja remover todos os ficheiros do GRUB 2 de /boot/grub?\n\nIsto fará com que o sistema não arranque até que seja instalado outro gestor de arranque.
+Extended_description-pt_br.utf-8: Você deseja ter todos os arquivos do GRUB 2 removidos de /boot/grub?\n\nIsto fará com que seu sistema não inicialize a menos que outro carregador de inicialização esteja instalado.
+Extended_description-ro.utf-8: Doriți ca toate fișierele GRUB 2 să fie îndepărtate din /boot/grub?\n\nAceasta va împiedica pornirea sistemului, în afara cazului în care este instalat un alt încărcător de sistem.
+Extended_description-ru.utf-8: Удалить все файлы GRUB 2 из /boot/grub?\n\nЕсли не установлен другой системный загрузчик это сделает систему незагружаемой.
+Extended_description-si.utf-8: ඔබට /boot/grub වෙතින් සියළු GRUB 2 ගොනු ඉවත් කිරිමට ඇවැසිද?\n\nමෙය වෙනත් ආරම්භක පූරකයක් ස්ථාපනය කරන තුරු පද්ධතිය ආරම්භ කල නොහැකි කරයි.
+Extended_description-sk.utf-8: Chcete odstrániť všetky súbory GRUB 2 z /boot/grub?\n\nTýmto nebude možné váš systém naštartovať, kým nebude nainštalovaný iný zavádzač.
+Extended_description-sl.utf-8: Želite odstraniti iz /boot/grub vse datoteke, ki se nanašajo na GRUB 2?\n\nZaradi tega se sistem ne bo mogel zagnati, razen, če uporabite drugi zagonski nalagalnik.
+Extended_description-sv.utf-8: Vill du att alla GRUB 2-filer ska raderas från /boot/grub?\n\nDetta innebär att systemet inte kan starta om ingen annan uppstartshanterare är installerad.
+Extended_description-ta.utf-8: எல்லா க்ரப் 2 கோப்புக்களையும் /boot/grub இலிருந்து நீக்க விருப்பமா?\n\nஇது வேறு ஒரு துவக்கியை நிறுவி இருந்தால் ஒழிய கணினியை துவக்க முடியாமல் ஆக்கும்.
+Extended_description-th.utf-8: คุณต้องการจะลบแฟ้มของ GRUB 2 ทั้งหมดออกจาก /boot/grub หรือไม่?\n\nการลบนี้จะทำให้ระบบไม่สามารถบูตได้ ยกเว้นมีบูตโหลดเดอร์ตัวอื่นติดตั้งอยู่
+Extended_description-tr.utf-8: /boot/grub yolundan bütün GRUB 2 dosyalarının kaldırılmasını istiyor musunuz?\n\nBaşka bir önyükleyici kurulu değilse yapılan bu işlem sistemi başlatılamaz kılacaktır.
+Extended_description-ug.utf-8: /boot/grub تىن GRUB 2 نىڭ ھەممە ھۆججەتلىرىنى چىقىرىۋېتەمسىز؟\n\nبۇنداق بولغاندا سىستېمىنى يېتەكلىگىلى بولمايدۇ، باشقا قوزغىتىش يېتەكلىگۈچ ئورنىتىلسا بۇ باشقا گەپ.
+Extended_description-uk.utf-8: Ви бажаєте вилучити всі файли GRUB 2 з /boot/grub?\n\nЦя дія зробить систему не здатною завантажитися, доки інший завантажувач не буде встановлено.
+Extended_description-vi.utf-8: Bạn có muốn gỡ bỏ tất cả tập tin GRUB 2 khỏi /boot/grub không?\n\nViệc này làm cho hệ thống không khởi động được trừ khi trình nạp khởi động khác được cài đặt.
+Extended_description-zh_cn.utf-8: 确定想从 /boot/grub 移除全部 GRUB 2 文件吗？\n\n这会使系统不能引导，除非另外安装其它引导器。
+Extended_description-zh_tw.utf-8: 您是否想將所有 GRUB 2 的檔案從 /boot/grub 移除？\n\n除非安裝另一個開機程式，否則將會造成系統無法開機。
+Type: boolean
+Owners: grub-pc/postrm_purge_boot_grub
+
+Name: grub-pc/timeout
+Default: 5
+Description: GRUB timeout; for internal use
+Type: string
+Owners: grub-pc/timeout
+
+Name: grub2/device_map_regenerated
+Description: /boot/grub/device.map has been regenerated
+Description-ast.utf-8: /boot/grub/device.map foi xeneráu
+Description-be.utf-8: /boot/grub/device.map быў перагенераваны
+Description-bg.utf-8: /boot/grub/device.map е създаден наново
+Description-ca.utf-8: S'ha regenerat el fitxer «/boot/grub/device.map»
+Description-cs.utf-8: /boot/grub/device.map byl aktualizován
+Description-cy.utf-8: Mae'r ffeil /boot/grub/device.map wedi ei ail-greu
+Description-da.utf-8: /boot/grub/device.map er blevet gendannet
+Description-de.utf-8: /boot/grub/device.map wurde neu erstellt.
+Description-dz.utf-8: /boot/grub/device.map འདི་ ལོག་བཟོ་ཡོདཔ།
+Description-el.utf-8: Το αρχείο /boot/grub/device.map έχει αναδημιουργηθεί
+Description-eo.utf-8: /boot/grub/device.map estas regenerita
+Description-es.utf-8: Se ha regenerado el fichero «/boot/grub/device.map»
+Description-eu.utf-8: /boot/grub/device.map berriro sortu da
+Description-fa.utf-8: /boot/grub/device.map بازسازی شده است.
+Description-fi.utf-8: /boot/grub/device.map on luotu uudelleen
+Description-fr.utf-8: Recréation de /boot/grub/device.map
+Description-gl.utf-8: /boot/grub/device.map foi rexenerado.
+Description-gu.utf-8: /boot/grub/device.map ફરી બનાવવામાં આવી છે
+Description-he.utf-8: הקובץ ‎/boot/grub/device.map נוצר מחדש
+Description-hr.utf-8: /boot/grub/device.map je regeneriran
+Description-hu.utf-8: A /boot/grub/device.map fájlt újraépítettem.
+Description-id.utf-8: /boot/grub/device.map telah dibuat ulang.
+Description-is.utf-8: /boot/grub/device.map var endurskrifað
+Description-it.utf-8: /boot/grub/device.map è stato rigenerato
+Description-ja.utf-8: /boot/grub/device.map が再生成されました
+Description-kk.utf-8: /boot/grub/device.map қайта құрылды
+Description-km.utf-8: /boot/grub/device.map ត្រូវ​បាន​បង្កើត​ឡើង​វិញ
+Description-ko.utf-8: /boot/grub/device.map 파일을 다시 만들었습니다
+Description-lt.utf-8: Failas „boot/grub/device.map“ pergeneruotas
+Description-lv.utf-8: /boot/grub/device.map tika reģistrēts
+Description-mr.utf-8: /boot/grub/device.map पुनर्निर्मिला गेला आहे
+Description-nb.utf-8: /boot/grub/device.map er regenerert
+Description-nl.utf-8: /boot/grub/device.map is opnieuw aangemaakt
+Description-no.utf-8: /boot/grub/device.map er regenerert
+Description-pl.utf-8: /boot/grub/device.map został odtworzony
+Description-pt.utf-8: O /boot/grub/device.map foi recriado
+Description-pt_br.utf-8: /boot/grub/device.map foi gerado novamente
+Description-ro.utf-8: /boot/grub/device.map a fost regenerat
+Description-ru.utf-8: Пересоздан файл /boot/grub/device.map
+Description-si.utf-8: /boot/grub/device.map නැවත ජනනය වී ඇත
+Description-sk.utf-8: /boot/grub/device.map bol aktualizovaný
+Description-sl.utf-8: ustvarjena je bila datoteka /boot/grub/device.map
+Description-sv.utf-8: /boot/grub/device.map har skapats på nytt
+Description-ta.utf-8: /boot/grub/device.map மறு உருவாக்கப்பட்டது
+Description-th.utf-8: สร้าง /boot/grub/device.map ใหม่เรียบร้อยแล้ว
+Description-tr.utf-8: /boot/grub/device.map dosyası yeniden oluşturuldu
+Description-ug.utf-8: /boot/grub/device.map ھاسىل قىلىندى
+Description-uk.utf-8: /boot/grub/device.map було створено наново
+Description-vi.utf-8: Tập tin /boot/grub/device.map đã được tạo lại.
+Description-zh_cn.utf-8: /boot/grub/device.map 已经生成
+Description-zh_tw.utf-8: 已重新產生 /boot/grub/device.map
+Extended_description: The file /boot/grub/device.map has been rewritten to use stable device names. In most cases, this should significantly reduce the need to change it in future, and boot menu entries generated by GRUB should not be affected.\n\nHowever, since more than one disk is present in the system, it is possible that the system is depending on the old device map. Please check whether there are any custom boot menu entries that rely on GRUB's (hdN) drive numbering, and update them if necessary.\n\nIf you do not understand this message, or if there are no custom boot menu entries, you can ignore this message.
+Extended_description-ast.utf-8: El ficheru /boot/grub/device.map foi sobroescritu pa usar nomes estables pal preséu. Na mayoría de los casos, esto va a amenorgar considerablemente la necesidá de camudar nel futuru, y les entraes del menú d'arranque GRUB xeneraos nun deberíen vese afectaes.\n\nSicasí, ya tienes más d'un discu nel to sistema, ye posible que dependieres del mapa antigüu del preséu. Por favor, comprueba si tienes o non entraes d'arranque del menú personalizaes que se basen na númberación de la unidá GRUB's (hdN), y anovalos si ye necesario.\n\nSi nun entiendes esti mensaxe, o si nun tienes nenguna entrada personalizada nel menú d'arranque, puedes ignorar esti mensaxe.
+Extended_description-be.utf-8: Файл /boot/grub/device.map быў перапісаны, каб выкарыстоўваць стабільныя імёны прыладаў. У бальшыні выпадкаў гэта значна знізіць неабходнасць змяняць яго ў будучыні, і пункты загрузачнага меню, згенераваныя GRUB, не давядзецца закрануць.\n\nАднак, паколькі ў вашай сістэме больш за адзін дыск, то магчыма, што ў сістэме выкарыстоўваецца старая табліца прыладаў. Праверце, ці ёсць пункты загрузкавага меню, што ўжываюць нумарацыю прыладаў GRUB (hdN) і абнавіце іх, калі патрэбна.\n\nКалі вы не зразумелі гэтае паведамленне, альбо калі вы не маеце ўласных пунктаў загрузкавага меню, вы можаце ігнараваць гэтае паведамленне.
+Extended_description-bg.utf-8: Файлът /boot/grub/device.map е създаден наново, използвайки постоянни имена на устройства. В повечето случаи това води до намаляване на нуждата да се правят промени в бъдеще. Елементите в менюто за начално зареждане на GRUB не са засегнати.\n\nВсе пак, понеже в системата има повече от един диск, е възможно съдържанието на стария файл да е от критична важност. Проверете дали имате елементи в менюто за начално зареждане на GRUB, в които да се използват устройства от вида „(hdN)“ и ако е нужно ги коригирайте.\n\nАко не разбирате предупреждението или ако нямате ръчно-въведени елементи в менюто на GRUB, не обръщайте внимание на това съобщение.
+Extended_description-ca.utf-8: S'ha reescrit el fitxer «/boot/grub/device.map» per a usar noms estables de dispositiu. En la majoria dels casos, això hauria de reduir la necessitat de canviar-ho en el futur, i no hauria d'afectar les entrades del menú d'arrencada generades pel GRUB.\n\nTanmateix, com hi ha més d'un disc al sistema, és possible que el sistema depenga del mapa de dispositius antic. Comproveu si hi ha entrades del menú d'arrencada personalitzades que requerisquen la numeració d'unitats del GRUB (hdN), i actualitzeu-les si és necessari.\n\nSi no enteneu aquest missatge, o si no hi ha cap entrada del menú d'arrencada personalitzada, podeu descartar aquest missatge.
+Extended_description-cs.utf-8: Soubor /boot/grub/device.map byl přepsán tak, aby používal stabilní jména zařízení. Ve většině případů by to mělo výrazně snížit potřebu jejich změny v budoucnosti a položky v zaváděcí nabídce vygenerované GRUBem by neměly být nijak ovlivněny.\n\nNicméně je možné (protože je v systému více než jeden disk), že se systém spoléhal na starý soubor device.map. Zkontrolujte prosím, zda používáte vlastní upravené položky zaváděcí nabídky, které spoléhají na GRUBovské číslování disků (hdN) a podle potřeby je aktualizujte.\n\nNerozumíte-li této zprávě, nebo pokud žádné vlastní upravené položky zaváděcí nabídky nemáte, můžete tuto zprávu ignorovat.
+Extended_description-cy.utf-8: Mae'r ffeil /boot/grub/device.map wedi ei ailsgrifennu i ddefnyddio enwau dyfeisiau sefydlog. Yn y rhan fwyaf o achosion, fe ddylai hwn leihau'n sylweddol yr angen i'w newid yn dyfodol, a ni ddylai hyn effeithio ar y cofnodion bwydlen ymgychwyn a gynhyrchir gan GRUB.\n\nFodd bynnag, gan fod mwy na un disg yn bresennol yn y system, mae'n bosib fod y system yn dibynnu ar hen fap dyfais. Gwiriwch os oes unrhyw gofnodion bwydlen ymgychwyn sydd wedi'i addasu ac yn dibynnu ar rhifo disg GRUB (hdN), a diweddarwch nhw os oes angen.\n\nOs nad ydych yn deall y neges hwn, neu os nad oes unrhyw gofnodion bwydlen ymgychwyn wedi'i addasu, fe allwch chi anwybyddu'r neges hwn.
+Extended_description-da.utf-8: Filen /boot/grub/device.map er blevet genskrevet til at bruge stabile enhedsnavne. I de fleste tilfælde vil dette markant reducere behovet for at ændre filen fremover, og opstartsmenupunkter oprettet af GRUB vil ikke blive påvirket.\n\nDa du har mere end en disk i dit sytem, er det dog muligt, at du har en afhængighed af det gamle enhedskort. Tjek venligst om der er nogle tilpassede opstartsmenupunkter som afhænger af GRUB's (hdn) drevnummerering, og opdater dem om nødvendigt.\n\nHvis du ikke forstår denne besked, eller der ikke er nogen tilpassede opstartsmenupunkter, kan du ignorere denne besked.
+Extended_description-de.utf-8: Die Datei /boot/grub/device.map wurde umgeschrieben, um stabile Gerätenamen zu verwenden. In der Mehrzahl der Fälle sollte dies die Notwendigkeit zukünftiger Änderungen deutlich verringern. Von GRUB erstellte Boot-Menü-Einträge sollten nicht betroffen sein.\n\nDa sich in diesem System mehrere Festplatten befinden, ist es möglich, dass das System von der alten »device map« abhängig ist. Bitte überprüfen Sie, obbenutzerdefinierte Boot-Menü-Einträge mit der (hdn)-Laufwerkszählung von GRUB vorhanden sind und aktualisieren Sie diese gegebenenfalls.\n\nWenn Sie diese Nachricht nicht verstehen oder wenn keine modifizierten Boot-Menü-Einträge vorhanden sind, können Sie diese Nachricht ignorieren.
+Extended_description-dz.utf-8: ཡིག་སྣོད་ /boot/grub/device.map འདི་ རྩ་བརྟན་ ཐབས་འཕྲུལ་མིང་ཚུ་ལག་ལེན་འཐབ་སྦེ་ལོག་འབྲི་ཡོདཔ་ཨིན། གནད་དོན་མང་ཤོས་ཅིག་ནང་ འདི་གིས་ མ་འོངས་པའི་ནང་བསྒྱུར་བཅོས་འབད་ནི་མར་ཕབ་འབད་དགོཔ་་ཨིནམ་དང་ GRUB གིས་ བཟོ་བཏོན་འབད་ཡོད་པའི་ བུཊི་དཀར་ཆག་ཐོ་བཀོད་ཚུ་ལུ་གནོད་སྐྱོན་འབྱུ་ཕཅུག་ནི་མི་འོང་།\n\nག་དེ་སྦེ་རངུ་  ཁྱོད་ཀྱི་རིམ་ལུགས་ནང་  ཌིཀསི་གཅིག་ལས་ལྷགཔ་སྦེ་ཡོདཔ་ལས་ ཁྱོད་ ཐབས་འཕྲུ་ས་ཁྲ་རྙིངམ་འདི་ལུ་བརྟེན་ཚུགས།  ཁྱོད་ལུ་ GRUB's (hdN) འདྲེན་འཕྲུལ་ ཨང་བཏགས་ནིའི་་སྲོལ་སྒྲིག་ བུཊི་དཀར་ཆག་ཐོ་བཀོད་ཚུ་ཡོད་མེད་ཞིབ་དཔྱད་འབད་ཞིནམ་ལས་  དགོས་མཁོ་དང་བསྟུན་ཏེ་ དུས་མཐུན་བཟོ།\n\nའཕྲིན་དོན་འདི་ཧ་མ་གོཝ་ ཡང་ན་  ཁྱོད་ལུ་ སྲོལ་སྒྲིག་དཀར་ཆག་ཐོ་བཀོད་གང་རངུ་མེད་པ་ཅིན་ འཕྲིན་དོན་འདི་སྣང་མེད་སྦེ་བཞག།
+Extended_description-el.utf-8: Το αρχείο /boot/grub/device.map έχει ξαναγραφεί ώστε να χρησιμοποιεί σταθερά ονόματα συσκευών. Στις περισσότερες περιπτώσεις αυτό θα μειώσει αισθητά την ανάγκη αλλαγής του στο μέλλον, τα δε στοιχεία του μενού εκκίνησης που παράγονται από το GRUB δεν θα επηρεάζονται.\n\nΠαρ' όλα αυτά και αφού στο σύστημά σας υπάρχουν περισσότεροι από έναν δίσκους,είναι πιθανόν το σύστημά σας να εξαρτάται από το παλιότερο αρχείο απεικόνισης συσκευών device.map. Παρακαλώ ελέγξτε αν υπάρχουν οποιεσδήποτε ειδικές είσοδοι στο μενού εκκίνησης που βασίζονται στην αρίθμηση των συσκευών από το GRUB (hdN) και ενημερώστε τις αν είναι απαραίτητο.\n\nΑν δεν καταλαβαίνετε το παρόν μήνυμα ή δεν έχετε οποιεσδήποτε ειδικές εισόδους στο μενού εκκίνησης, μπορείτε να το αγνοήσετε.
+Extended_description-eo.utf-8: La dosiero /boot/grub/device.map estas reskribita por uzi stabilajn aparat-nomojn. En la plejparto de la situacioj, tio devus multe malpliigi la bezonon ŝanĝi ĝin estonte, kaj ekŝarg-menueroj kreitaj de GRUB ne devos esti influataj.\n\nTamen, ĉar vi havas pli ol unu disko en via sistemo, eblas ke la sistemo dependas de malnova aparat-mapo. Bonvolu kontroli ĉu ekzistas iun personigitan ekŝarg-menueron, kiu surbaziĝas en disk-numerigo de GRUB (hdN), kaj ĝisdatigu ĝin se necese.\n\nSe vi ne komprenas tiun ĉi mesaĝon, aŭ se vi havas neniun personigitan ekŝargan menueron, vi povas preteratenti ĉi tiun mesaĝon.
+Extended_description-es.utf-8: El fichero «/boot/grub/device.map» se ha rescrito para utilizar los nombres de dispositivos estables. En la mayoría de los casos, esto debería reducir significativamente la necesidad de cambiarlo en el futuro, y las entradas del menú que generó GRUB no se verán afectadas.\n\nSin embargo, ya que hay más de un disco en el sistema, es posible que el sistema dependa de un mapa de dispositivos antiguo. Compruebe si tiene entradas personalizadas en el menú de inicio que dependan de la numeración de los dispositivos de GRUB (hdN) y actualícela si es necesario.\n\nPuede ignorar este mensaje si no lo entiende o si no tiene entradas personalizadas en el menú de inicio.
+Extended_description-eu.utf-8: /boot/grub/device.map fitxategia berriro idatzi da gailuen izen egonkorrak erabiltzeko. Gehienetan, etorkizunean hau aldatzeko beharra asko murriztu beharko luke, eta GRUBek sortutako menuko sarrerei ez die eragingo.\n\nHala ere, sisteman disko bat baino gehiago dagoenez, baliteke sistema gailuen mapa zaharrean mende egotea. Egiaztatu ezazu GRUBen unitateko zenbaketan oinarrituta abioaren menuko sarrera pertsonalizaturen bat duzun edo ez, eta egunera itzazu beharrezkoa izanez gero.\n\nMezu hau ez baduzu ulertzen, edo abioaren menuko sarrera pertsonalizaturik ez baduzu, ezikusi egin diezaiokezu mezu honi.
+Extended_description-fa.utf-8: فایل /boot/grub/device.map به منظور استفاده از نام تجهیزات دائمی و پایدار، بازنویسی شده است. در بیشتر موارد، این می‌بایست به شدت نیاز به تغییر درآینده را کاهش دهد، و مدخل‌های منوی بوت ایجاد شده توسط GRUB نبایست تحت تأثیر قرار گرفته باشد.\n\nاگرچه، از آنجا که بیش از یک دیسک در سیستم موجود است، ممکن است سیستم به device map قدیمی وابسته باشد. لطفاً بررسی کنید اگر مدخل‌های سفارشی بوت که روی نام‌گذاری درایو (hdN) گراب تکیه دارند وجود داشته باشند، و در صورت نیاز آنها را به روز نمائید.\n\nاگر این پیام را متوجه نمی‌شوید، یا اگر هیچ مدخل سفارشی منوی بوت وجود ندارد، می‌توانید این پیام را نادیده بگیرید.
+Extended_description-fi.utf-8: Tiedosto /boot/grub/device.map on kirjoitettu uudelleen käyttäen pysyviä laitenimiä. Useimmissa tapauksissa tämän pitäisi huomattavasti vähentää tarvetta sen muuttamiseen ja GRUBin luomien käynnistysvalikon rivien pitäisi toimia edelleen.\n\nKoska järjestelmässä kuitenkin on useampia levyjä, on mahdollista, että järjestelmä on riippuvainen vanhasta laitekartasta. Tarkista onko käynnistysvalikossa rivejä, joissa käytetään GRUBin laitenumerointia (hdN), ja päivitä ne tarvittaessa.\n\nJos et ymmärrä tätä viestiä tai käynnistysvalikossa ei ole erityisiä rivejä, voit jättää tämän viestin huomiotta.
+Extended_description-fr.utf-8: Le fichier /boot/grub/device.map a été réécrit afin d'utiliser des noms de périphériques stables. Dans la majorité des cas, cela devrait éviter d'avoir à le modifier dans le futur et les entrées de menu créées par GRUB ne devraient pas être affectées par ce changement.\n\nCependant, si la machine comporte plus d'un disque, il est possible que le démarrage dépende de l'ancien système de cartographie des périphériques (« device map »). Vous devriez vérifier s'il existe des entrées de menu de démarrage personnalisées qui se servent encore de la numérotation de disques de GRUB (hdN), puis les mettre à jour si nécessaire.\n\nSi vous ne comprenez pas ces explications ou n'utilisez pas d'entrées personnalisées dans le menu de démarrage, vous pouvez ignorer cet avertissement.
+Extended_description-gl.utf-8: O ficheiro /boot/grub/device.map foi reescrito para usar nomes de dispositivos estábeis. Na maioría dos casos isto debería reducir significativamente a necesidade de cambialos en un futuro, e as entradas no menú de GRUB non se verían afectadas.\n\nPorén, como ten máis de un disco no seu sistema, pode que dependa do vello «device map». Comprobe se ten algunha entrada personalizada no menú de arranque que use a numeración de unidades de GRUB (hdN) e actualícea de ser necesario.\n\nSe non comprende esta mensaxe, ou se non ten ningunha entrada personalizada no menú de arranque, pode ignorala.
+Extended_description-gu.utf-8: ફાઈલ /boot/grub/device.map સ્થિત ઉપકરણ નામો ઉપયોગ કરવા માટે ફરી લખાઈ છે. મોટાભાગનાં કિસ્સાઓમાં, આ ભવિષ્યમાં મોટાભાગે તેને બદલવાની જરુરિયાત ઓછી કરી દેશે, અને GRUB વડે બનાવેલ દાખલાઓ પર અસર નહી કરે.\n\nતેમ છતાં, સિસ્ટમમાં એક કરતાં વધુ ડિસ્ક હાજર હોવાથી, એ શક્ય છે કે સિસ્ટમ જૂનાં ઉપકરણ નકશા પર આધાર રાખતી હોય. મહેરબાની કરી ચકાસો કે અહીં કોઈ પોતાની મેનુ યાદી છે જે GRUB ના (hdN) ડ્રાઈવ આંકડાઓ પર આધાર રાખતી હોય, અને તેને જરુરી હોય તો સુધારો.\n\nજો તમને આ સંદેશ સમજવામાં ન આવે, અથવા કોઈ પોતાની બૂટ મેનુ રીત ન હોય તો, તમે આ સંદેશ અવગણી શકો છો.
+Extended_description-he.utf-8: הקובץ ‎/boot/grub/device.map נכתב מחדש כדי להשתמש בשמות התקנים יציבים. ברוב המקרים, הדבר אמור לצמצם בצורה משמעותית את הצורך לשנותו בעתיד, והבחירות בתפריט האתחול הנוצר על ידי GRUB לא אמורות להיות מושפעות משינוי זה.\n\nאבל, מכיוון שיש במערכת שלך יותר מדיסק אחד, ייתכן שהמערכת מסתמכת על קובץ מיפוי ההתקנים הישן. אנא בדוק אם יש לך בחירות מותאמות אישית בתפריט האתחול, שמשתמשות בשיטת מספור ההתקנים (hdN) של GRUB, ועדכן אותן אם צריך.\n\nאם אינך מבין הודעה זו, או אם אין לך ברירות מותאמות אישית בתפריט האתחול, אזי ניתן להתעלם מהודעה זו.
+Extended_description-hr.utf-8: Datoteka /boot/grub/device.map je prepisana kako bi se u njoj koristila stabilna imena uređaja. U većini slučajeva, to bi trebalo značajno smanjiti potrebu za njenim budućim mijenjanjem, a boot stavke koje generira GRUB ne bi trebale biti pod utjecajem ove promjene.\n\nIpak, budući da imate više od jednog diska u vašem sustavu, moguće je da ste ovisili o staroj mapi uređaja. Molim provjerite imate li nekih prilagođenih boot zapisa koji ovise o GRUB-ovom (hdN) označavanju uređaja, i ažurirajte ih ako je potrebno.\n\nAko ne razumijete ovu poruku, ili ako nemate prilagođenih boot zapisa, ovu poruku možete zanemariti.
+Extended_description-hu.utf-8: A /boot/grub/device.map fájlt újraírtam, így már stabil eszköznevek szerepelnek benn. A legtöbb esetben ez jelentősen csökkenti a szükséges változtatások számát a jövőben, és a GRUB által készített menüpontoknak ettől nem kéne megváltozniuk változniuk.\n\nMivel azonban egynél több lemez van a rendszervben, lehetséges, hogy a rendszernek szüksége van a régi eszköztérképre. Kérelk ellenőrizd, hogy van-e olyan saját készítésű rendszerbetöltő menüpontod amelyik a GRUB (hdN) eszközszámozását használja, és frissítsd, ha szükséges.\n\nHa nem érted ezt az üzenetet, vagy ha nem csináltal saját készítésű rendszerbetöltő menüpontot, ne is törődj vele, lépj tovább.
+Extended_description-id.utf-8: Berkas /boot/grub/device.map telah ditulis ulang agar menggunakan nama piranti yang stabil. Dalam kebanyakan kasus, hal ini berarti mengurangi kemungkinan perubahan di masa datang, dan isian menu boot yang dibuat oleh GRUB tidak akan terpengaruh.\n\nAkan tetapi, karena ada lebih dari satu harddisk pada sistem ini, sangat mungkin bahwa Anda bergantung pada peta piranti yang lama. Mohon periksa apakah Anda memiliki isian menu boot GRUB secara manual yang menggunakan penomoran harddisk (hdN). Jika ya, perbaiki yang diperlukan.\n\nJika Anda tidak mengerti pesan ini atau jika tidak memiliki isian menu boot secara manual, Anda bisa mengabaikan pesan ini.
+Extended_description-is.utf-8: Skráin /boot/grub/device.map hefur verið endurskrifuð til að nota föst tækjaheiti. Í flestum tilfellum þýðir þetta að færri ástæður geta komið upp til að breyta þeim í framtíðinni og að færslur í GRUB ræsivalmyndinni ættu síður að verða fyrir breytingum.\n\nAftur á móti, þar sem fleiri en einn diskur eru til staðar í kerfinu, þá er alveg hugsanlegt að kerfið reiði sig á gömlu tækjaskrána (device map). Athugaðu hvort það séu einhverjar sérsniðnar ræsifærslur sem nota eldri GRUB (hdN) diskaskilgreiningar, og uppfærðu þær þá ef nauðsyn krefur.\n\nEf þú skilur ekki þessi skilaboð, eða ef þú hefur engar sérsniðnar ræsifærslur, þá geturðu hunsað skilaboðin.
+Extended_description-it.utf-8: Il file /boot/grub/device.map è stato riscritto in modo da usare i nomi stabili dei device. In molti casi questo dovrebbe ridurre in modo significativo la necessità di cambiarli in futuro e le voci nel menu di GRUB non dovrebbero essere influenzate.\n\nComunque, visto che sul sistema ci sono più dischi, è possibile che il sistema sia dipendente dalla vecchia mappa dei device. Controllare se nel menu di GRUB ci sono delle voci personalizzate che usano la numerazione dei dischi di GRUB (hdN) e, se necessario, aggiornarle.\n\nSe non si capisce questo messaggio o non ci sono voci di menu personalizzate, ignorare questo messaggio.
+Extended_description-ja.utf-8: /boot/grub/device.map ファイルは固定のデバイス名を使うように書き換えられました。多くの場合は、今後このファイルを変更する必要が大幅に減っており、GRUB によって生成される起動メニューの項目は影響を受けないはずです。\n\nしかし、システムに 2 個以上ディスクがあるので、起動メニューの項目が古いデバイス情報に依存していた可能性があります。起動メニューの項目が GRUB でのドライブの順番 (hdN) に関連していないかどうかを確認して、必要であれば更新してください。\n\nこのメッセージの意味が分からない、あるいは変更した起動メニュー項目が無い場合は、このメッセージを無視して構いません。
+Extended_description-kk.utf-8: /boot/grub/device.map файлы құрылғылардың тұрақты аттарын қолданатындай түзетілген. Көп жағдайда, болашақта өзгерту керек емес болады, және GRUB жасаған мәзір элементтері өзгеріссіз-ақ қалады.\n\nАлайда, жүйеңізде бірден көп диск болған соң, ескі device map-қа тәуелді болуыңыз мүмкін. GRUB-ң (hdN) түріндегі дисктер нөмірленуі мәзірде жоқ болуына көз жеткізіңіз, керек болса, оларды жаңартыңыз.\n\nЕгер сіз осы хабарламаны түсінбесеңіз, немесе сізде таңдауыңызша жүктелу мәзірінің элементтері жоқ болса, бұл хабарламаны елемеңіз.
+Extended_description-km.utf-8: ឯកសារ /boot/grub/device.map ត្រូវ​បាន​សរសេរ​ឡើង​វិញ ដើម្បី​ប្រើ​ឈ្មោះ​ឧបករណ៍​ថេរ ។ ក្នុង​ករណី​ភាគ​ច្រើន វា​គួរ​កាត់​បន្ថយ​តម្រូវការ ដើម្បី​ផ្លាស់ប្ដូរ​វា​​នា​ពេល​អនាគត់ ហើយ​ធាតុ​ម៉ឺមុយ​ចាប់ផ្ដើម​ដែល​បាន​បង្កើត​ដោយ GRUB មិន​គួរ​ប៉ះពាល់​ទេ ។\n\nទោះ​ជា​យ៉ាង​ណា​ក៏​ដោយ ព្រោះ​ថា​មាន​ថាស​ច្រើន​ជាង​មួយ​នៅ​ក្នុង​ប្រព័ន្ធ ​ប្រព័ន្ធ​អាស្រ័យ​លើ​ការ​ផ្គូផ្គង​ឧបករណ៍​ចាស់ ។ សូម​ពិនិត្យ​មើល​ថាតើ មាន​ធាតុ​​ម៉ឺនុយ​ចាប់ផ្ដើម​ផ្ទាល់ខ្លួន​ដែល​អាស្រ័យ​លើ​​ចំនួន​ដ្រាយ GRUB's (hdN) ហើយ​ធ្វើ​បច្ចុប្បន្ន​ភាព​ពួក​វា​ប្រសិនបើ​ចាំបាច់ ។\n\nប្រសិន​បើ​អ្នក​មិន​យល់​សារ​នេះ​ទេ ឬ​ប្រសិនបើ​គ្មាន​ធាតុម៉ឺនុយ​ចាប់ផ្ដើម​ផ្ទាល់​ខ្លួន អ្នក​អាច​មិនអើពើ​សារ​នេះ ។
+Extended_description-ko.utf-8: 안정된 장치 이름을 사용하도록 /boot/grub/device.map 파일을 다시 썼습니다. 대부분의 경우 이렇게 하면 앞으로 또 수정할 필요가 매우 줄어듭니다. 그리고 GRUB에서 만들어낸 부팅 메뉴 항목은 영향을 받지 않습니다.\n\n하지만 시스템에 여러 개의 디스크가 들어 있으므로, 시스템이 과거 장치 맵 파일에 의존할 수도 있습니다. 사용자가 수정한 부팅 메뉴 항목 중에 GRUB 방식 (hdN 형식) 드라이브 번호를 사용하는 항목이 들어있는지 확인하십시오.\n\n이 메시지가 이해되지 않거나, 수정한 부팅 메뉴 항목이 없으면 이 메시지를 무시하십시오.
+Extended_description-lt.utf-8: Failas „/boot/grub/device.map“ perrašytas taip, kad naudotų stabilius įrenginių vardus. Tai turėtų žymiai sumažinti poreikį šį failą ateityje redaguoti, o „GRUB“ sugeneruotų paleidimo įrašų tai neturėtų įtakoti.\n\nTačiau kadangi šiame kompiuteryje yra daugiau nei vienas diskas, gali būti, jog sistema pasikliauna senuoju įrenginių planu. Patikrinkite, ar neturite rankiniu būdu sukūrę paleidimo įrašų, naudojančių „(hdN)“ diskų numeravimą ir jei reikia, juos patikslinkite.\n\nJeigu nesuprantate šio pranešimo, arba neturite rankiniu būdu sukurtų paleidimo įrašų, šio pranešimo galite nepaisyti.
+Extended_description-lv.utf-8: Fails /boot/grub/device.map tika pārrakstīts, lai izmantotu stabilos ierīču nosaukumus. Vairumā gadījumu tam vajadzētu būtiski samazināt vajadzību to mainīt nākotnē, un palaišanas izvēlnes ierakstiem, ko veidojis GRUB, nevajadzētu tikt skartiem.\n\nTomēr, tā kā sistēmā atrodas vairāki diski, iespējams, ka sistēma ir atkarīga no vecās ierīču kartes. Lūdzu, pārliecinieties, vai ir kādi pielāgoti palaišanas izvēlnes ieraksti, kas balstās uz GRUB (hdN) disku numurēšanas, un atjauniniet tos, ja tā ir.\n\nJa jūs nesaprotat šo ziņojumu, vai arī nav pielāgotu palaišanas izvēlnes ieraktu, jūs varat ignorēt šo ziņojumu.
+Extended_description-mr.utf-8: फाईल /boot/grub/device.map स्थीर उपकरण नावे वापरण्यासाठी पुन्हा लिहिली गेली आहे. बहुतांश बाबतील, यामुळे तीत भविष्यात बदल करण्याची गरज लक्षणीयरित्या कमी झाली पाहिजे, व ग्रबने निर्माण केलेल्या आरंभ मेन्यू नोंदींवर परिणाम होता कामा नये.\n\nतथापि, प्रणालीमध्ये एकाहून अधिक डिस्क अस्तित्वात असल्याने, प्रणाली जुन्या उपकरण नकाशावर अवलंबून असणे शक्य आहे. ग्रबच्या (hdN) ड्राईव्ह क्रमांकांवर विसंबणार्‍या एखाद्या आरंभ मेन्यू नोंदी आहेत का हे कृपया तपासा, व आवश्यकता भासल्यास त्या अद्ययावत करा.\n\nतुम्हाला या संदेशाचा अर्थ समजत नसेल, वा अशा आरंभ मेन्यू नोंदी नसतील, तर तुम्ही या संदेशाकडे दुर्लक्ष करू शकता.
+Extended_description-nb.utf-8: Filen /boot/grub/device.map er oppdatert til å bruke stabile enhetsnavn. I de fleste tilfeller vil dette markant redusere behovet for å endre filen fremover, og oppstartsmenupunkter opprettet av GRUB skal ikke bli påvirket.\n\nSiden det er mer enn en disk i sytemet, er det mulig at systemet er avhengig av det gamle enhetskartet. Sjekk om det er noen tilpassede oppstartsmenupunkter som er avhengig av GRUBs (hdN) disknummerering, og oppdater dem om nødvendig.\n\nHvis du ikke forstår denne beskjeden, eller det ikke er noen tilpassede oppstartsmenypunkter, kan du ignorere denne beskjeden.
+Extended_description-nl.utf-8: Het bestand /boot/grub/device.map is zo herschreven dat het stabiele namen gebruikt voor apparaten. In de meeste gevallen zal dit toekomstige veranderingen minder noodzakelijk maken. Dit heeft geen invloed op de door GRUB gegenereerde opstartmenu-items.\n\nAangezien het systeem meer dan één schijf heeft, is het evenwel mogelijk dat het steunde op de oude lijst van apparaten. Ga daarom na of het opstartmenu lokaal aangepaste items bevat die gebruik maken van het systeem dat GRUB gebruikte bij het nummeren van schijven (hdN) en pas ze zo nodig aan.\n\nU kunt deze melding negeren indien u deze melding niet begrijpt, of als er geen zelfgemaakte menu-items aanwezig zijn.
+Extended_description-no.utf-8: Filen /boot/grub/device.map er oppdatert til å bruke stabile enhetsnavn. I de fleste tilfeller vil dette markant redusere behovet for å endre filen fremover, og oppstartsmenupunkter opprettet av GRUB skal ikke bli påvirket.\n\nSiden det er mer enn en disk i sytemet, er det mulig at systemet er avhengig av det gamle enhetskartet. Sjekk om det er noen tilpassede oppstartsmenupunkter som er avhengig av GRUBs (hdN) disknummerering, og oppdater dem om nødvendig.\n\nHvis du ikke forstår denne beskjeden, eller det ikke er noen tilpassede oppstartsmenypunkter, kan du ignorere denne beskjeden.
+Extended_description-pl.utf-8: Plik /boot/grub/device.map został odtworzony tak, aby używał stabilnych nazw urządzeń. W większości przypadków powinno to ograniczyć konieczność jego zmian w przyszłości, a wpisy menu wygenerowane przez GRUB-a nie powinny zostać naruszone.\n\nJednakże, ponieważ w systemie jest więcej niż jeden dysk, istnieje możliwość, że system korzysta ze starej mapy urządzeń. Proszę sprawdzić, czy istnieją jakieś specjalne wpisy rozruchowe menu, które polegają na numeracji GRUB-a (hdN) i zaktualizować je, jeśli to konieczne.\n\nJeśli ta wiadomość jest niezrozumiała lub jeśli nie tworzono żadnych specjalnych wpisów menu, można ją zignorować.
+Extended_description-pt.utf-8: O ficheiro /boot/grub/device.map foi reescrito para usar nomes de dispositivos estáveis. Na maioria dos casos, esta acção reduz significativamente a necessidade de alterações no futuro e as entradas de menu geradas pelo GRUB não deverão ser afectadas.\n\nNo entanto, desde que está presente no sistema mais do que um disco, é possível que o sistema esteja dependente do mapa antigo de dispositivos (device map). Por favor verifique se tem algumas entradas personalizadas no menu de arranque que dependam da numeração de drives do GRUB (hdN), e actualize-as se necessário.\n\nSe não entende esta mensagem ou se não tiver entradas personalizadas no menu de arranque, pode ignorar esta mensagem.
+Extended_description-pt_br.utf-8: O arquivo /boot/grub/device.map foi reescrito para usar nomes estáveis de dispositivo. Na maioria dos casos, isto pode reduzir de forma significativa a necessidade de mudá-los no futuro, e as entradas do menu de inicialização geradas pelo GRUB não devem ser afetadas.\n\nEntretanto, como mais de um disco está presente no sistema, é possível que o sistema esteja dependendo do antigo mapa de dispositivos. Por favor, verifique se existem quaisquer outras entradas personalizadas no menu de inicialização que dependam da numeração de unidade do GRUB (hdN), e atualize-as se necessário.\n\nSe você não compreende esta mensagem, ou se não existem entradas personalizadas no menu de inicialização, você pode ignorar esta mensagem.
+Extended_description-ro.utf-8: Fișierul /boot/grub/device.map a fost rescris să folosească nume stabile de dispozitive. În majoritatea cazurilor, acest lucru va reduce semnificativ nevoia de a-l modifica ulterior și intrările în meniu generate de grub nu ar trebui să fie afectate.\n\nTotuși, deoarece există mai mult de un disc în sistem, este posibil ca sistemul să depindă de vechea hartă de dispozitive. Verificați dacă aveți intrări personalizate în meniu care depind de numerotarea GRUB (hdN) și actualizați-le dacă este cazul.\n\nDacă nu înțelegeți acest mesaj, sau nu există poziții personalizate în meniu, îl puteți ignora.
+Extended_description-ru.utf-8: Файл /boot/grub/device.map перезаписан, согласно имеющимся стабильным именам устройств. В большинстве случаев, это должно значительно сократить необходимость изменения его в будущем, и пункты загрузочного меню, созданного GRUB, не должны быть затронуты.\n\nОднако, так как у вас в системе более одного диска, возможно, что была зависимость от старого именования устройств. Проверьте, что во всех настроенных вручную пунктах загрузочного меню используется нумерация устройств GRUB (hd№), и измените их, если нужно.\n\nЕсли вы не понимаете о чём речь, или у вас нет настроенных вручную пунктов загрузочного меню, то игнорируйте это сообщение.
+Extended_description-si.utf-8: ස්ථාවර උපකරණ නාම භාවිතය සඳහා /boot/grub/device.map නැවත ලියවිනි. බොහෝ අවස්ථාවල, මෙය ඉදිරියේදී වෙනස් කිරීමට ඇවැසි නොවේ, තවද GRUB මගින් ජනිත ආරම්භක මෙනු ඇතුළත් කිරීම් වෙනස් නොකල යුතුයි.\n\nකෙසේ වුවත් පද්ධතියේ තැටි එකකට වඩා පවතින බැවින්, පද්ධතිය පැරණි උපකරණ සිතියමක් මත රඳාපවතිනවා විය හැක. කරුණාකර GRUB හි (hdN) ධාවක අංකකරණය මත රඳාපවතින රුචි ආරම්භක මෙනු ඇතුළත් කිරීම් පවතීදැයි සොයන්න. ඇවැසිනම් ඒවා යාවත් කරන්න.\n\nමෙම පණිවුඩය ඔබට තේරුම්ගත නොහැකි නම් හෝ, කිසිඳු රුචි ආරම්භක මෙනු ඇතුළත්කිරිමක් නොමැති නම් ඔබට මෙම පණිවුඩය මඟහැරිය හැක.
+Extended_description-sk.utf-8: Súbor /boot/grub/device.map bol upravený tak, aby používal stabilné mená zariadení. Väčšinou to významne zníži potrebu zmien v budúcnosti a položky zavádzacieho menu, generované GRUBom, by tým nemali byť ovplyvnené.\n\nAvšak, keďže máte vo svojom systéme viac ako jeden disk, je možné, že systém závisí na starej mape zariadení. Skontrolujte prosím, že nepoužívate žiadne položky menu, ktoré závisia na číslovaní zariadení GRUBu (hdN) a prípadne ich aktualizuje.\n\nAk nerozumiete tejto správe, alebo ak nemáte žiadne vlastné položky zavádzacieho menu, môžete túto správu ignorovať.
+Extended_description-sl.utf-8: Datoteka  /boot/grub/device.map je bila prepisana s stabilnimi imeni naprav. V večini primerov bo to v prihodnosti močno zmanjšalo potrebo po njenih spremembah. Na vnose v zagonskem meniju, ki jih ustvari GRUB to ne bi smelo imeti učinka.\n\nKer imate več kot en disk na vašem sistemu je možno, da ste bili odvisni od starega spiska naprav. Preverite prosim ali imate kakšen vnos po meri v zagonskem meniju, ki se naslanja na poimenovanje diskov (hdN) v GRUBu  in ga posodobite, če je to potrebno.\n\nV primeru, da tega sporočila ne razumete ali nimate nobenih vnosov  po meri v zagonskem meniju se za to sporočilo ne menite.
+Extended_description-sv.utf-8: Filen /boot/grub/device.map har skrivits om för att använda stabila enhetsnamn. I de allra flesta fall kommer detta innebära att anledningarna att byta namn i framtiden minskar drastiskt. Posterna i uppstartsmenyn som skapas av GRUB ska inte påverkas.\n\nDock, eftersom mer än en disk finns i systemet kan det innebära att systemet är beroende av den gamla enhetskopplingen. Kontrollera om det finns manuellt införda poster i uppstartsmenyn som är beroende av GRUB:s enhetsnumrering (hdN) och uppdatera dessa om nödvändigt.\n\nOm du inte förstår detta meddelande eller om du inte har några alternativa menyposter kan du ignorera detta meddelande.
+Extended_description-ta.utf-8:  /boot/grub/device.map கோப்பு நிலையான சாதனங்களின் பெயரை பயன்படுத்துமாறு மீண்டும் உருவாக்கப்பட்டது. பெரும்பாலான சமயங்களில் இது எதிர்காலத்தில் மாற்ற வேன்டிய அவசியம் ஏற்படாது. க்ரப் ஆல் உருவாக்கப்படும் பூட் மெனு உள்ளீடுகள் பாதிக்கப்படாது.\n\n\nஇருப்பினும் கணினியில் ஒன்றுக்கு மேற்பட்ட வட்டுகள் இருப்பதால் கணினி பழைய சாதன வரைபடத்தை சார்ந்து  பயன்படுத்திக்கொண்டு இருக்க வாய்ப்பு உண்டு. க்ரப் இன் (hdN) எண்ணிடலை சார்ந்த தனிப்பயன் பூட் மெனு ஏதும் உள்ளதா என தயை செய்து சோதிக்கவும்; அப்படி இருப்பின் அவற்றை மேம்படுத்தவும்.\n\nஇந்த செய்தி உங்களுக்குப் புரியவில்லையானால், அல்லது தனிப்பயன் பூட் மெனு உள்ளீடுகள் இல்லையானால் இந்த செய்தியை உதாசீனம் செய்யலாம்.
+Extended_description-th.utf-8: เขียนแฟ้ม /boot/grub/device.map ใหม่เพื่อใช้ชื่ออุปกรณ์ที่ไม่เปลี่ยนแปลงง่ายเรียบร้อยแล้ว โดยส่วนใหญ่แล้ว ชื่อแบบนี้ควรจะช่วยลดความจำเป็นในการเปลี่ยนข้อมูลอีกในอนาคตได้อย่างมาก และรายการเมนูบูตต่างๆ ที่สร้างโดย GRUB ก็ไม่ควรได้รับผลกระทบ\n\nอย่างไรก็ดี เนื่องจากมีดิสก์หลายดิสก์อยู่ในระบบ จึงเป็นไปได้ที่ระบบจะอาศัยผังอุปกรณ์แบบเก่า กรุณาตรวจสอบว่ามีรายการเมนูบูตที่คุณกำหนดเองที่อ้างถึงไดรว์ด้วยหมายเลขในรูป (hdN) ของ GRUB อยู่หรือไม่ และกรุณาปรับแก้ถ้าจำเป็น\n\nถ้าคุณไม่เข้าใจข้อความนี้ หรือถ้าไม่มีรายการเมนูบูตที่คุณกำหนดเอง คุณก็สามารถข้ามข้อความนี้ไปได้
+Extended_description-tr.utf-8: /boot/grub/device.map dosyası kararlı aygıt isimlerini kullanacak şekilde yeniden yazıldı. Bu işlem çoğu durumda ileride gerekebilecek bir düzenleme gereksinimini ciddi biçimde azaltır ve GRUB tarafından oluşturulan önyükleme menüsü seçeneklerini etkilemez.\n\nÖte yandan sistemde birden fazla disk olduğu için, sistemin eski aygıt eşlemine bağlı kalmış olması olasıdır. GRUB'un (hdN) sürücü numaralandırmasını kullanan herhangi bir özel önyükleme menüsü seçeneği olup olmadığını denetleyin ve gerekirse bunları güncelleyin.\n\nBu uyarıyı anlayamadıysanız veya herhangi bir özel önyükleme menüsü seçeneği yok ise, bu uyarıyı gözardı edebilirsiniz.
+Extended_description-ug.utf-8: مۇقىم ئۈسكۈنە ئىسمىنى ئىشلىتىش ئۈچۈن  /boot/grub/device.map ھۆججىتى قايتا يېزىلدى. كۆپ قىسىم ئەھۋالدا بۇ ئۇنى قايتا ئۆزگەرتىش ئېھتىياجىنى ئازايتىشى لازىم، GRUB ھاسىل قىلغان يېتەكلەش تىزىملىكى تەسىرگە ئۇچرىماسلىقى لازىم.\n\nھالبۇكى، سىستېمىڭىزدا قانچە دىسكا بار، سىستېما كونا ئۈسكۈنە تەسۋىرىگە تايىنىشى مۇمكىن. ئۆزىڭىز بەلگىلىگەن ھەر قانداق GRUB نىڭ (hdN) قوزغاتقۇچ نومۇرىنىڭ يېتەكلەش تىزىملىكى بار يوقلۇقىنى تەكشۈرۈڭ، ئەگەر ئېھتىياجلىق بولسىڭىز ئۇلارنى يېڭىلاڭ.\n\nئەگەر بۇ ئۇچۇرنى چۈشەنمىسىڭىز ياكى ھەر قانداق ئۆزلەشتۈرگەن يېتەكلەش تىزىملىكى بولمىسا بۇ ئۇچۇرغا پەرۋا قىلمىسىڭىزمۇ بولىدۇ.
+Extended_description-uk.utf-8: Файл /boot/grub/device.map було переписано з використанням сталих імен пристроїв. В більшості випадків це значно зменшить потребу змінювати його в майбутньому і пункти меню завантажувача GRUB не будуть змінюватися.\n\nЯкщо в системі наявний більше, ніж один дисковий пристрій, можливо вона налаштована на стару карту пристроїв. Будь ласка, перевірте, чи не використано в користувацьких пунктах меню завантажувача нумерації дисків типу hdN, та оновіть їх, якщо потрібно.\n\nЯкщо ви не розумієте цього повідомлення, або не маєте користувацьких пунктів меню завантажувача, проігноруйте це повідомлення.
+Extended_description-vi.utf-8: Tập tin /boot/grub/device.map đã được ghi nhớ lại để sử dụng tên thiết bị kiểu ổn định. Trong phần lớn các trường hợp, bản cập nhật này nên giảm một cách đáng kể sự cần sửa đổi về sau, và không nên tác động trình đơn khởi động được GRUB tạo.\n\nTuy nhiên, vì bạn có nhiều hơn một ổ đĩa trong hệ thống, có thể là hệ thống này vẫn còn phụ thuộc vào sơ đồ thiết bị cũ. Hãy kiểm tra xem có những mục trình đơn khởi động tùy thích nào dựa vào số thứ tự ổ đĩa của GRUB (hdN), và cập nhật chúng nếu cần.\n\nNếu bạn không hiểu thông điệp này, hoặc nếu không có mục trình đơn khởi động tùy thích nào, thì bạn có thể bỏ qua thông điệp này.
+Extended_description-zh_cn.utf-8: 文件 /boot/grub/device.map 已经重写以使用稳定的设备名。多数情况下，这应该显著地减少以后修改它的需要，并且 GRUB 产生的引导菜单项不会受影响。\n\n然而，因为您的系统上有多个磁盘，系统可能依赖旧的设备映射。请检查您是否有任何自定义的依赖 GRUB 的 (hdN) 驱动器号的引导菜单项，如果需要请更新它们。\n\n如果您不理解此消息，或者没有任何自定义的引导菜单项，您可以忽略此消息。
+Extended_description-zh_tw.utf-8: /boot/grub/device.map 這個檔案已使用不變的裝置名稱重新寫入。在大多數的狀況之下，如此可以有效得避免在日後還會有什麼變動，且也不會影響到 GRUB 所產生的選單項目。\n\n但由於您的系統上不只安裝了一顆硬碟，舊的裝置對應表可能還在使用中。請檢視您是否有還在使用著 GRUB 的 (hdN) 磁碟命名規則的自訂開機項目，若有必要請加以更新。\n\n如果您不了解這些訊息，或著沒有任何自訂的開機項目，您可以忽略這個訊息。
+Type: note
+Owners: grub2/device_map_regenerated
+
+Name: grub2/force_efi_extra_removable
+Default: false
+Description: Force extra installation to the EFI removable media path?
+Description-be.utf-8: Прымусова ўсталяваць дадаткова па адрасе EFI на зменным носьбце?
+Description-bg.utf-8: Допълнително инсталиране в резервния път на EFI за преносими устройства?
+Description-cs.utf-8: Vynutit další instalaci do EFI cesty pro výměnná média?
+Description-de.utf-8: Zusätzliche Installation in den Pfad für EFI-Wechselmedien erzwingen?
+Description-el.utf-8: Να γίνει εξαναγκασμένη εγκατάσταση στην αποσπώμενη EFI συσκευή;
+Description-eo.utf-8: Ĉu perforti kroma instalo al la vojo de demetebla datumportilo EFI?
+Description-es.utf-8: ¿Desea forzar la instalación extra a la ruta del medio extraíble EFI?
+Description-eu.utf-8: Behartu instalazio gehigarria EFI euskarri aldagarriaren bide-izenean?
+Description-fi.utf-8: Pakotetaanko lisäasennus irrotettavissa olevan median EFI-polkuun?
+Description-fr.utf-8: Faut-il forcer une installation supplémentaire sur le chemin des supports amovibles EFI ?
+Description-he.utf-8: לאלץ התקנה נוספת לנתיב מדיה EFI הניתן להסרה?
+Description-is.utf-8: Þvinga aukauppsetningu inn á EFI-slóðina fyrir útskiptanlega miðla?
+Description-it.utf-8: Forzare l'installazione sul percorso dei supporti removibili EFI?
+Description-kk.utf-8: EFI ауыстырмалы тасушыға қосымша орнатуды мәжбүрлету керек пе?
+Description-lt.utf-8: Papildomai priverstinai įdiegti į EFI keičiamųjų laikmenų kelią?
+Description-mr.utf-8: ईएफआय काढण्याजोग्या मिडीया मार्गात अतिरिक्त अधिष्ठापना जबरदस्ती करायची?
+Description-nl.utf-8: Een extra installatie verplichten in het EFI-pad voor verwijderbare media?
+Description-pl.utf-8: Wymusić dodatkową instalację do ścieżki nośników wymiennych EFI?
+Description-pt_br.utf-8: Forçar instalação extra no caminho de mídia removível EFI?
+Description-ro.utf-8: Forțează o instalare suplimentară în calea EFI pentru medii externe
+Description-ru.utf-8: Выполнить принудительную установку в путь съёмных носителей EFI?
+Description-sl.utf-8: Prisilna dodatna namestitev v pot EFI na odstranljivem mediju?
+Description-sv.utf-8: Forcera installation till flyttbar EFI-media?
+Description-th.utf-8: จะบังคับติดตั้งส่วนพิเศษเพิ่มเติมลงในพาธของสื่อถอดเสียบของ EFI หรือไม่?
+Description-tr.utf-8: EFI taşınabilir ortam yoluna fazladan bir kurulum yapılsın mı?
+Description-zh_tw.utf-8: 強制額外的安裝到 EFI 可移動媒體的路徑？
+Extended_description: Some EFI-based systems are buggy and do not handle new bootloaders correctly. If you force an extra installation of GRUB to the EFI removable media path, this should ensure that this system will boot Debian correctly despite such a problem. However, it may remove the ability to boot any other operating systems that also depend on this path. If so, you will need to make sure that GRUB is configured successfully to be able to boot any other OS installations correctly.
+Extended_description-be.utf-8: Некаторыя EFI-сістэмы утрымліваюць памылкі і некарэктна працуюць з новымі пачатковымі загрузчыкамі. Калі вы прымусова ўсталюеце дадаткова па адрасе EFI на зменным носьбіце, трэба ўпэўніцца, што гэтая сістэма карэктна загрузіць Debian, нягледзячы на такую праблему. Аднак, з-за гэтага можа страціцца магчымасць запусціць любую іншую аперацыйную сістэму (АС), якая таксама выкарыстоўвае гэты носьбіт і шлях. У гэтым выпадку трэба ўпэўніцца, што GRUB правільна сканфігураваны для карэктнага запуску іншай АС.
+Extended_description-bg.utf-8: Някои базирани на EFI системи съдържат грешки и не работят добре с добавени програми за начално зареждане (като GRUB). Допълнителното инсталиране на GRUB в резервния път за преносими устройства ще осигури правилно зареждане на Дебиан дори и ако системата има такъв проблем. Това обаче ще попречи на зареждането на други операционни системи, които може да разчитат на този път. В такъв случай трябва да се уверите, че GRUB е настроен да зарежда другите операционни системи.
+Extended_description-cs.utf-8: Některé systémy používající EFI obsahují chyby a neumí správně pracovat s novými zavaděči. Vynutíte-li další instalaci GRUBu do EFI cesty pro výměnná, média, mělo by to zajistit, že se na tomto systému bude Debian zavádět i přes zmíněné chyby. Tím však můžete přijít o možnost zavádění jiných operačních systémů, které na této cestě také závisí. V takovém případě si budete muset pohlídat nastavení GRUBu, aby zvládlo zavést ostatní operační systémy.
+Extended_description-de.utf-8: Einige EFI-basierte Systeme haben einen Fehler und handhaben neue Bootloader nicht korrekt. Falls Sie eine zusätzliche Installation von GRUB in den Pfad  für EFI-Wechselmedien erzwingen, sollten Sie gewährleisten, dass das System Debian trotz dieses Problems korrekt startet. Es besteht jedoch die Möglichkeit, dass ein anderes von diesem Pfad abhängiges Betriebssystem nicht mehr starten kann. In diesem Fall müssen Sie sicherstellen, dass GRUB erfolgreich konfiguriert wurde und Installationen beliebiger anderer Betriebssystem korrekt starten können.
+Extended_description-el.utf-8: Μερικά συστήματα που βασίζουνται στο EFI είναι ελλειπώς ανεπτυγμένα και δεν διαχειρίζονται τα νέα προγράμματα εκκίνησης σωστά. Αν εξαναγκάσετε το σύστημα να κάνει εγκατάσταση του GRUB στην αποσπώμενη EFI συσκευή, είναι βέβαιο ότι αυτό το σύστημα θα δύναται να εκκινεί το Debian σωστά, ακόμα και να εμφανιστεί τέτοιο πρόβλημα. Παρόλα αυτά, ίσβς αφαιρέσει τη δυνατότητα να εκκινείτε οποιοδήποτε άλλο λειτουργικό σύστημα που ίσως εξαρτάται από αυτή τη συσκευή. Αν υπάρχει άλλο λειτουργικό σύστημα, θα χρειαστεί να σιγουρέψετε ότι ο GRUB είναι σωστά ρυθμισμένος να φορτώνει όλα τα άλλα λειτουργικά.
+Extended_description-eo.utf-8: Kelkaj sistemoj surbazitaj je EFI estas problemplenaj kaj ne traktas ĝuste novajn ekŝargilojn. Se vi perfortos kroman instalon de GRUB al la vojo de demetebla datumportilo EFI, tio povos sekurigi ke tiu ĉi sistemo ekŝargos Debian perfekte malgraŭ tia problemo. Tamen, tio povos mortigi la kapablon ekŝargi iun ajn alian operaciuman sistemon kiu ankaŭ dependas de tiu vojo. Tiaokaze, vi devas certigi ke GRUB estas sukcese agordita tiel ke ĝi kapablos ekŝargi iun ajn alian OS-instalon ĝuste.
+Extended_description-es.utf-8: Algunos sistemas basados en EFI son defectuosos y no manejan los nuevos cargadores de inicio correctamente. Si fuerza la instalación extra de GRUB en la ruta del medio extraíble EFI, debería asegurarse de que este sistema iniciará Debian correctamente a pesar de semejante problema. Sin embargo, esto puede eliminar la capacidad de iniciar cualquier otro sistema operativo que dependa de esta ruta. Si fuera así, necesitará asegurarse que GRUB se ha configurado correctamente para ser capaz de iniciar sin problemas cualquier otro sistema operativo instalado.
+Extended_description-eu.utf-8: EFIn oinarritutako sistema batzuk akastunak dira, eta ez dituzte abioko kargatzaile berriak ongi kudeatzen. EFI euskarri aldagarriaren bide-izenean GRUBen instalazio gehigarria behartzen baduzu, ziurtatu beharko luke sistema honek Debian ongi abiatuko duela arazo horrez gain. Hala ere, honek bide-izen honen mende dauden beste edozer sistema eragile abiatzeko gaitasuna ken dezake. Horrela bada, ziurtatu zaitez GRUB ongi konfiguratuta dagoela beste edozer SE-ren instalazioak ongi abiatzeko.
+Extended_description-fi.utf-8: Jotkin EFI-järjestelmät sisältävät ohjelmavirheitä joidenka takia ne eivät käsittele alkulatausohjelmia oikein. Jos pakotat GRUB:n lisäasentamisen irrotettavissa olevan median EFI-polkuun, järjestelmän pitäisi kyetä käynnistämään Debian riippumatta kyseisenkaltaisista ongelmista. Tämä kuitenkin saattaa poistaa mahdollisuuden muiden käyttöjärjestelmien käynnistämiseen, mikäli ne riippuvat samasta polusta. Tässä tapauksessa tulee varmistaa, että GRUBin asetukset on tehty niin, että GRUBista voidaan käynnistää nämä muut käyttöjärjestelmät oikein.
+Extended_description-fr.utf-8: Certains systèmes EFI ne gèrent pas correctement les nouveaux chargeurs d'amorçage. Si vous forcez l'installation de GRUB sur le chemin des supports amovibles EFI, cela garantira que ce système pourra malgré tout démarrer Debian. Par contre, cela interdira le démarrage de tout autre système d'exploitation qui dépendrait aussi de ce chemin. Si c'est le cas, vous devez vous assurer que GRUB lui-même est configuré pour démarrer les autres systèmes d'exploitation.
+Extended_description-he.utf-8: כמה מערכות מבוססות EFI מכילות בגים ואינן מתמודדות נכונות עם מאתחלים חדשים. אם הינך מאלץ התקנה נוספת של GRUB לנתיב מדיה EFI הניתן להסרה, הדבר אמור להבטיח שהמערכת תאתחל נכון את Debian למרות בעיה כזו. עם זאת, הדבר עלול למנוע אתחול כל מערכת הפעלה אחרת שתלויה גם כן בנתיב זה. אם זה המצב, תצטרך לוודא ש-GRUB הוגדר בהצלחה כדי שתוכל לאתחל נכון כל מערכת הפעלה מותקנת אחרת.
+Extended_description-is.utf-8: Sum EFI-kerfi eru ekki villulaus og meðhöndla nýja ræsistjóra (bootloaders) ekki rétt. Ef þú þvingar aukauppsetningu af GRUB inn á EFI-slóðina fyrir útskiptanlega miðla, ætti það að tryggja að Debian ræsist rétt þrátt fyrir slíka galla. Hinsvegar, þetta gæti líka skemmt hæfnina til að ræsa önnur stýrikerfi sem einnig eru háð notkun á þessari slóð. Ef sú er raunin, þá verður þú að ganga úr skugga um að GRUB sé sett upp á fullnægjandi máta til þess að geta ræst rétt öll önnur stýrikerfi.
+Extended_description-it.utf-8: Alcuni sistemi EFI hanno degli errori e non gestiscono correttamente i nuovi bootloader. Forzando un'installazione aggiuntiva di GRUB sul percorso dei supporti removibili, si garantisce che il sistema avvierà Debian nonostante questo tipo di problemi. Tuttavia ciò potrebbe impedire l'avvio di qualsiasi altro sistema operativo che dipende dallo stesso percorso; in tal caso occorre accertarsi che GRUB sia configurato in modo che possa avviare correttamente qualsiasi altro SO installato.
+Extended_description-kk.utf-8: Кейбір EFI негізіндегі жүйелер толығымен дұрыс жасамайды және жаңа жүктеушілерді дұрыс өңдемейді. Егер сіз қосымша түрде GRUB-ты EFI ауыстырмалы тасушыға орнатсаңыз, осы мәселеге қарамастан, бұл әрекет бұл жүйенің Debian-ды дұрыс жүктейтінін қамтамасыз етуі тиіс. Алайда, ол тасушыға тәуелді басқа операциялық жүйелердің жүктеле алмауына әкеп соғуы мүмкін. Олай болса сізге GRUB барлық басқа ОЖ-ды жүктей алатындай етіп дұрыс бапталғанына көз жеткізу керек.
+Extended_description-lt.utf-8: Kai kurios EFI veiksena veikiančios sistemos turi klaidų ir negeba korektiškai dirbti su naujomis paleidyklėmis. „GRUB“ paleidyklę papildomai priverstinai įdiegus į EFI keičiamųjų laikmenų kelią, turėtų būti užtikrintas korektiškas „Debian“ paleidimas tokiose sistemose. Kita vertus, tai galimai užkirstų kelią paleisti kitas operacines sistemas, paleidimui taip pat naudojančias šį kelią. Jeigu taip nutiktų, jums tektų užtikrinti, kad „GRUB“ paleidyklė sukonfigūruota tinkamai ir geba korektiškai paleisti šias operacines sistemas.
+Extended_description-mr.utf-8: काही ईएफआय-आधारित प्रणाली दोषपूर्ण असतात व नवीन आरंभसूचकांना योग्य रीतीने हाताळत नाहीत. तुम्ही ईएफआय काढण्याजोग्या मिडीया मार्गात ग्रबची अतिरिक्त अधिष्ठापना जबरदस्ती केल्यास, त्यामुळे अशी समस्या असूनही ही प्रणाली डेबियन योग्यरीत्या आरंभ करेल याची खात्री होईल. तथापि, त्यामुळे याच मार्गावर अवलंबून असणारी अन्य एखादी प्रचालन प्रणाली आरंभ होण्याची क्षमता काढून टाकली जाऊ शकते. असे असल्यास, अन्य एखादी प्रणाली योग्य रीतीने आरंभ होण्यासाठी ग्रब यशस्वीपणे संरचित केला गेला असल्याची खातरजमा तुम्ही करणे गरजेचे आहे.
+Extended_description-nl.utf-8: Sommige op EFI gebaseerde systemen bevatten fouten en gaan niet correct om met de nieuwe opstartprogramma's. Indien u een extra installatie van GRUB in het EFI-pad voor verwijderbare media vraagt, zou dit moeten garant staan voor het feit dat dit systeem ondanks dit probleem Debian toch correct zal opstarten. Dit kan er evenwel toe leiden dat andere besturingssystemen die ook van dit pad gebruik maken, niet langer in staat zullen zijn op te starten. In voorkomend geval zult u er moeten zorg voor dragen dat GRUB succesvol geconfigureerd wordt om eventueel andere geïnstalleerde besturingssystemen correct te kunnen opstarten.
+Extended_description-pl.utf-8: Niektóre oparte na EFI systemy mają błędy i nie obsługują poprawnie nowych programów rozruchowych. Jeśli wymusisz dodatkową instalację GRUB-a do ścieżki nośników wymiennych EFI, powinno to zapewnić, że system załaduje Debiana prawidłowo mimo tego problemu. Jednak może to także uniemożliwić ładowanie innych systemów operacyjnych, które również zależą od tej ścieżki. W takiej sytuacji będziesz musiał upewnić się, że GRUB jest skonfigurowany poprawnie i będzie mógł ładować te systemy.
+Extended_description-pt_br.utf-8: Alguns sistemas baseados em EFI contém bugs e não lidam corretamente com novos carregadores de inicialização. Se você forçar uma instalação extra do GRUB no caminho de mídia removível EFI, isso deverá assegurar que este sistema inicializará o Debian corretamente, apesar desse problema. No entanto, isso pode remover a habilidade de inicializar quaisquer outros sistemas operacionais que também dependam desse caminho. Caso afirmativo, você precisará certificar-se de que o GRUB seja configurado com sucesso para ser capaz de inicializar corretamente quaisquer instalações de outros sistemas operacionais.
+Extended_description-ro.utf-8: Anumite sisteme EFI au probleme și nu funcționează corect cu încărcători de sistem noi. Forțând o instalare GRUB suplimentară în calea EFI pentru medii externe ar trebui să asigure o încărcare corectă a sistemului Debian chiar și în cazul acestor probleme. Totuși, în acest fel este posibil să pierdeți posibilitatea de încărcare a altor sisteme care depind de aceiași metodă. În acest caz va trebui să vă asigurați că GRUB este configurat corect pentru a putea încărca și orice alte sisteme de operare.
+Extended_description-ru.utf-8: Некоторые системы на основе EFI содержат ошибки и неправильно работают с новыми системными загрузчиками. Если выполнить принудительную установку GRUB в путь съёмных носителей EFI, то на такой системе Debian будет запускаться несмотря на эту проблему. Однако это может привести к отказу запуска всех остальных операционных систем, которые также зависят от этого пути. Проверьте, что GRUB правильно настроен для загрузки любой другой ОС.
+Extended_description-sl.utf-8: Nekateri sistemi na osnovi EFI imajo napake in ne morejo pravilno uporabljati novih zagonskih nalagalnikov. Če prisilno dodatno namestite GRUB v pot EFI na odstranljivem mediju, bi to moralo zadostovati, da bo, kljub tem težavam, lahko sistem zagnal Debian. Zaradi tega pa mogoče ne boste mogli več zagnati drugih operacijskih sistemov, ki so odvisni od te poti. V takem primeru morate preveriti, da je GRUB pravilno nastavljen in boste lahko zagnali tudi druge operacijske sisteme.
+Extended_description-sv.utf-8: Vissa EFI-baserade system beter sig felaktigt och kan inte hantera nyare uppstartshanterare korrekt. Om Grub-installationen forceras in i en flyttbar EFI-enhet så ska detta säkerställa att systemet kommer att starta Debian korrekt oavsett sådana problem. Å andra sidan kan detta innebära att andra operativsystem inte kan startas eftersom de är beroende av den sökvägen. Om detta är fallet behöver du säkerställa att Grub ställts in komplett för att kunna starta andra operativsystem korrekt.
+Extended_description-th.utf-8: ระบบที่อิง EFI บางระบบมีข้อบกพร่อง และไม่ได้จัดการบูตโหลดเดอร์ตัวใหม่ๆ อย่างถูกต้อง ถ้าคุณบังคับติดตั้งส่วนพิเศษเพิ่มเติมของ GRUB ลงในพาธของสื่อถอดเสียบของ EFI ก็จะช่วยให้แน่ใจได้ว่าระบบนี้จะบูตเดเบียนได้อย่างถูกต้องแม้จะมีปัญหาดังกล่าว อย่างไรก็ตาม การติดตั้งดังกล่าวอาจทำให้ไม่สามารถบูตระบบปฏิบัติการอื่นที่อิงอาศัยพาธนี้อยู่ด้วยได้ ซึ่งหากเป็นเช่นนั้น คุณจะต้องตรวจสอบให้แน่ใจว่าได้ตั้งค่า GRUB ได้สำเร็จเพื่อให้สามารถบูตระบบปฏิบัติการอื่นได้อย่างถูกต้องด้วย
+Extended_description-tr.utf-8: Bazı EFI tabanlı sistemler hatalı olduklarından yeni önyükleyicileri olması gerektiği gibi yönetemeyebilirler. Buna rağmen GRUB'un fazladan bir kopyasının EFI taşınabilir ortam yoluna kurulmasını zorlamanız, Debian'ın düzgün bir biçimde başlamasını sağlayacaktır. Öte yandan bu durum aynı ortam yoluna bağlı başka işletim sistemleri varsa, onların önyüklenebilirliğini ortadan kaldırabilir. Böyle bir durumda, GRUB'un diğer işletim sistemlerini de düzgün bir biçimde başlatabilecek şekilde başarı ile yapılandırıldığından emin olmalısınız.
+Extended_description-zh_tw.utf-8: 一些基於 EFI 的系統是不穩定的，無法正確處理新的引導程序。如果強制額外安裝 GRUB 到可移動 EFI 媒體路徑，應該可以確保這個系統將正常啟動 Debian。但是，它可能會移除其它需要這個路徑的作業系統的啟動能力。如果是這樣，您需要確保 GRUB 設定成功，這樣其它的作業系統才能正常開機。
+Type: boolean
+Owners: grub2/force_efi_extra_removable
+
+Name: grub2/kfreebsd_cmdline
+Description: kFreeBSD command line:
+Description-ast.utf-8: Linia comandos kFreeBSD:
+Description-be.utf-8: Радок камандаў для ядра kFreeBSD:
+Description-bg.utf-8: Команден ред за kFreeBSD:
+Description-ca.utf-8: Línia d'ordres de kFreeBSD:
+Description-cs.utf-8: Parametry pro kFreeBSD:
+Description-cy.utf-8: Llinell orchymyn kFreeBSD:
+Description-da.utf-8: Kommandolinje for kFreeBSD:
+Description-de.utf-8: Befehlszeile für kFreeBSD:
+Description-dz.utf-8: kFreeBSD བརྡ་བཀོད་གྲལ་ཐིག་:
+Description-el.utf-8: Γραμμή εντολών kFreeBSD:
+Description-eo.utf-8: Ordon-linio de kFreeBSD:
+Description-es.utf-8: Línea de órdenes de kFreeBSD:
+Description-eu.utf-8: KFreeBSD-ko komando-lerroa:
+Description-fa.utf-8: خط فرمان kFreeBSD:
+Description-fi.utf-8: kFreeBSD:n komentorivi:
+Description-fr.utf-8: Ligne de commande de kFreeBSD :
+Description-gl.utf-8: Liña de comando de kFreeBSD:
+Description-gu.utf-8: kFreeBSD આદેશ:
+Description-he.utf-8: שורת הפקודה של kFreeBSD:
+Description-hr.utf-8: kFreeBSD naredbeni redak:
+Description-hu.utf-8: kFreeBSD parancssor:
+Description-id.utf-8: Baris perintah kFreeBSD:
+Description-is.utf-8: kFreeBSD skipanalína:
+Description-it.utf-8: Riga di comando kFreeBSD:
+Description-ja.utf-8: kFreeBSD コマンドライン:
+Description-kk.utf-8: kFreeBSD командалық жолы:
+Description-km.utf-8: ពាក្យ​បញ្ជា kFreeBSD ៖
+Description-ko.utf-8: kFreeBSD 명령어:
+Description-lt.utf-8: „kFreeBSD“ komandos eilutė:
+Description-lv.utf-8: kFreeBSD komandrinda:
+Description-mr.utf-8: केफ्रीबीएसडी आदेश ओळ:
+Description-nb.utf-8: Kommandolinje i kFreeBSD:
+Description-nl.utf-8: kFreeBSD-commandoregel:
+Description-no.utf-8: Kommandolinje i kFreeBSD:
+Description-pl.utf-8: Wiersz poleceń do kFreeBSD:
+Description-pt.utf-8: linha de comandos kFreeBSD:
+Description-pt_br.utf-8: Linha de comando kFreeBSD:
+Description-ro.utf-8: Linia de comandă kFreeBSD:
+Description-ru.utf-8: Командная строка kFreeBSD:
+Description-si.utf-8: kFreeBSD විධාන රේඛාව:
+Description-sk.utf-8: Príkazový riadok kFreeBSD:
+Description-sl.utf-8: Ukazna vrstica kFreeBSD:
+Description-sv.utf-8: Kommandorad för kFreeBSD:
+Description-ta.utf-8: கேப்ரீபிஎஸ்டி கட்டளை வரி:
+Description-th.utf-8: พารามิเตอร์สำหรับบูต kFreeBSD:
+Description-tr.utf-8: kFreeBSD komut satırı:
+Description-ug.utf-8: kFreeBSD بۇيرۇق قۇرى:
+Description-uk.utf-8: Рядок параметрів ядра kFreeBSD:
+Description-vi.utf-8: Dòng lệnh kFreeBSD:
+Description-zh_cn.utf-8: kFreeBSD 参数：
+Description-zh_tw.utf-8: kFreeBSD 命令列：
+Extended_description: The following kFreeBSD command line was extracted from /etc/default/grub or the `kopt' parameter in GRUB Legacy's menu.lst. Please verify that it is correct, and modify it if necessary. The command line is allowed to be empty.
+Extended_description-ast.utf-8: La siguiente llinia de comandu kFreeBSD salió de /etc/default/grub o del parámetru `kopt' nel menú Legacy GRUB menu.lst. Por favor, comprueba que ye correuto, y modificalo si ye necesario. La lliniea de comandu puede tar erma.
+Extended_description-be.utf-8: Гэты радок камандаў для kFreeBSD узяты з файлу /etc/default/grub або з параметру `kopt' у файле наладак (menu.lst) папярэдняй версіі GRUB (Legacy). Калі ласка, пераканайцеся, што каманды запісаныя правільна, або папраўце іх, калі трэба. Гэты радок камандаў можа быць пустым.
+Extended_description-bg.utf-8: Следния команден ред за зареждане на kFreeBSD беше извлечен от /etc/default/grub или от параметъра „kopt“ от файла menu.lst на стария GRUB. Проверете го и ако е нужно го коригирайте. Допустимо е командният ред да бъде празен.
+Extended_description-ca.utf-8: La línia d'ordres de kFreeBSD següent ha sigut extreta de /etc/default/grub o del paràmetre «kopt» del fitxer menu.lst del GRUB Legacy. Verifiqueu que és correcta, i modifiqueu-la si és necessari. La línia d'ordres pot ser buida.
+Extended_description-cs.utf-8: Následující řádka s parametry pro kFreeBSD byla získána ze starého souboru menu.lst z parametru „kopt“ nebo ze souboru /etc/default/grub. Zkontrolujte prosím, zda jsou parametry v pořádku a případně je upravte do požadované podoby. Řádka s parametry může být i prázdná.
+Extended_description-cy.utf-8: Mae'r llinell orchymyn kFreeBSD canlynol wedi ei dynnu o /etc/default/grub neu'r paramedr 'kopt' yn ffeil menu.lst GRUB etifeddol. Gwiriwch fod hyn yn gywir a newidwch os oes angen. Caniateir i'r linell orchymyn fod yn wag.
+Extended_description-da.utf-8: Den følgende kommandolinje i kFreeBSD blev udtrukket fra /etc/default/grub eller fra parameteren `kopt' i GRUB Legacys menu.lst. Verificer venligst at den er korrekt, og ændre den om nødvendigt. Kommandolinjen må være tom.
+Extended_description-de.utf-8: Die folgende kFreeBSD-Befehlszeile wurde aus /etc/default/grub oder dem Parameter »kopt« in der Datei menu.lst von GRUB Legacy extrahiert. Bitte überprüfen Sie, ob diese korrekt ist und passen Sie sie an, wenn das erforderlich ist. Diese Befehlszeile darf leer sein.
+Extended_description-dz.utf-8: འོག་གི་  kFreeBSD བརྡ་བཀོད་གྲལ་ཐིག་འདི་ /etc/default/grub or the `kopt' parameter in GRUB Legacy's menu.lst ལས་ ཕྱིར་འདོན་འབད་འབདཝ་ཨིན། འདི་ངེས་དེན་ཨིནམ་བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ དགོས་མཁོ་ཡོད་པ་ཅིན་ ལེགས་བཅོས་འབད། བརྡ་བཀོད་གྲལ་ཐིག་འདི་ སྟོངམ་ཨིན་རུང་བཏུབ།
+Extended_description-el.utf-8: Η επόμενη γραμμή εντολών του kFreeBSD έχει εξαχθεί από το αρχείο /etc/default/grub ή από την παράμετρο `kopt' στο αρχείο menu.lst του GRUB Legacy.  Παρακαλώ επιβεβαιώστε ότι είναι ορθή και τροποποιήστε την αν είναι απαραίτητο. Η γραμμή επιτρέπεται να είναι κενή.
+Extended_description-eo.utf-8: La jena linuksa komand-linio de kFreeBSD estas elprenita el /etc/default/grub aŭ el la parametro 'kopt' en la menu.lst de malaktuala GRUB. Bonvolu kontroli ĉu ĝi estas korekta, kaj modifu ĝin laŭ neceso. Estas permesate ke la komand-linio estu malplena.
+Extended_description-es.utf-8: La siguiente línea de órdenes de kFreeBSD se extrajo del fichero «/etc/default/grub» o del parámetro «kopt» en el fichero «menu.lst» de la versión anterior de GRUB. Compruebe que es correcta y modifíquela si es necesario. La línea de órdenes se puede dejar en blanco.
+Extended_description-eu.utf-8: KFreeBSD-ko komando-lerro hau /etc/default/grub edo GRUB zaharraren menu.lst fitxategiko 'kopt' parametrotik atera da. Egiaztatu zuzena dela, eta eraldatu behar izanez gero. Komando-lerroa hutsik egotea baimenduta dago.
+Extended_description-fa.utf-8: خط فرمان kFreeBSD ذیل از /etc/default/grub یا پارامتر های `kopt' در فایل menu.lst از گراب قدیمی استخراج شده است. لطفاً صحت آن را بررسی کنید، و در صورت لزوم آن را تغییردهید. این خط فرمان می‌تواند خالی باشد.
+Extended_description-fi.utf-8: GRUBin aiemman version tiedostosta menu.lst parametrista ”kopt” tai tiedostosta /etc/default/grub löydettiin seuraava kFreeBSD:n komentorivi. Varmista, että se on kunnossa ja muuta sitä tarvittaessa. Komentorivin on sallittua myös olla tyhjä.
+Extended_description-fr.utf-8: La ligne de commande de kFreeBSD suivante a été récupérée via le fichier /etc/default/grub ou le paramètre « kopt » du fichier menu.lst utilisé par la version originelle de GRUB. Veuillez contrôler qu'elle est correcte et la modifier si nécessaire. Cette ligne de commande peut être vide.
+Extended_description-gl.utf-8: A seguinte liña de comando de kFreeBSD sacouse de /etc/default/grub, ou do parámetro «kopt» no ficheiro menu.lst de GRUB Legacy. Verifique que sexa correcta e modifíquea de ser preciso. A liña de comando pódese deixar baleira.
+Extended_description-gu.utf-8: નીચેનાં kFreeBSD આદેશ /etc/default/grub અથવા GRUB પરંપરાગત menu.lst ના `kopt' પરિમાણમાંથી નીકાળવામાં આવ્યા છે. મહેરબાની કરી ખાતરી કરો કે એ સાચા છે, અને જરુરી હોય તો તેને બદલો. આદેશ ખાલી રાખવાનું માન્ય છે.
+Extended_description-he.utf-8: שורת פקודת kFreeBSD הבאה נשלפה מ-‎/etc/default/grub או מפרמטר'kopt' ב-menu.lst הישן של GRUB. בבקשה לוודא ששורת פקודה זו נכונה ועדכן אותה אם צריך. ניתן להשאיר שורת פקודה זו ריקה.
+Extended_description-hr.utf-8: Ovaj naredbeni redak za kFreeBSD kernel je izvađen iz /etc/default/grub ili iz parametra 'kopt' u GRUB Legacy datoteci menu.lst. Molim provjerite je li ispravan, i ako je potrebno uredite ga. Naredbeni redak smije biti prazan.
+Extended_description-hu.utf-8: A következő kFreeBSD parancssor az /etc/default/grub vagy a régi GRUB menu.lst fájljában lévő `kopt' paraméterből származik. Kérlek ellenőrizd, hogy helyes-e, és módosítsd, ha szükséges. A parancssor lehet üres is.
+Extended_description-id.utf-8: Baris perintah kFreeBSD berikut ini disadur dari /etc/default/grub atau parameter 'kopt' di menu.lst pada GRUB jadul. Pastikan kebenarannya dan suntinglah bila perlu. Baris perintahnya diperbolehkan dikosongi.
+Extended_description-is.utf-8: Eftirfarandi kFreeBSD skipanalína fannst í /etc/default/grub eða í `kopt' viðfanginu í eldri GRUB menu.lst. Gakktu úr skugga um að þetta sé rétt og breyttu því ef það er nauðsynlegt. Skipanalínan má vera auð.
+Extended_description-it.utf-8: La seguente riga di comando kFreeBSD è stata estratta da /etc/default/grub oppure dal parametro "kopt" presente nel file menu.lst di GRUB Legacy. Controllare che sia corretta e modificarla se necessario. La riga di comando può essere vuota.
+Extended_description-ja.utf-8: 以下の kFreeBSD のコマンドラインは、/etc/default/grub か GRUB Legacy の menu.lst 上の「kopt」パラメータから取得されています。これが正しいものであるかを確認して、必要であれば修正してください。コマンドラインは空でも構いません。
+Extended_description-kk.utf-8: Келесі kFreeBSD командасы /etc/default/grub ішінен не GRUB Legacy menu.lst ішіндегі `kopt' параметрінен алынды. Оның дұрыстығын тексеріп, керек болса, өзгертіңіз. Бұл командалық жол бос болса да болады.
+Extended_description-km.utf-8: ពាក្យ​បញ្ជា kFreeBSD ដូច​ខាង​ក្រោម​ត្រូវ​បាន​ដកស្រង់​ចេញ​ពី /etc/default/grub ឬ menu.lst ចាស់ៗ​នៅ​ក្នុង GRUB ។ សូម​ផ្ទៀងផ្ទាត់​ថា​វា​ត្រឹមត្រូវ ។ ពាក្យ​បញ្ជា​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​ទទេ ។
+Extended_description-ko.utf-8: 다음 kFreeBSD 명령어를 /etc/default/grub 파일 또는 GRUB 구버전의 menu.lst의 `kopt' 파라미터에서 뽑아냈습니다. 명령어가 올바른지 확인하고 필요하다면 수정하십시오. 명령어는 비워 둘 수도 있습니다.
+Extended_description-lt.utf-8: Iš „/etc/default/grub“ failo arba senosios „GRUB“ konfigūraciniame faile „menu.lst“ nurodyto „kopt“ parametro išrinkta žemiau pateikta „kFreeBSD“ komandos eilutė. Patikrinkite, ar ji tinkama ir jei reikia, ją patikslinkite. Komandos eilutė gali būti ir tuščia.
+Extended_description-lv.utf-8: Sekojošā kFreeBSD komandrinda tika izvilkta no /etc/default/grub vai `kopt' parametra GRUB mantojuma menu.lst. Lūdzu, pārliecinieties, ka tā ir pareiza un, ja vajag, mainiet to. Komandrinda drīkst būt tukša.
+Extended_description-mr.utf-8: पुढील केफ्रीबीएसडी आदेश ओळ /etc/default/grub ग्रब लीगसीच्या menu.lst मधील `kopt' घटकमूल्यामधून मिळवली आहे. कृपया ती योग्य आहे का, याची खातरजमा करा व आवश्यकता असल्यास बदल करा. आदेश ओळ रिकामी ठेवण्याची अनुमती असते.
+Extended_description-nb.utf-8: Den følgende kFreeBSD-kommandolinjen ble trukket ut fra /etc/default/grub eller fra parameteren `kopt' i GRUB Legacys menu.lst. Verifiser at den er korrekt, og endre den om nødvendig. Det er lov at kommandolinjen er tom.
+Extended_description-nl.utf-8: De volgende kFreeBSD-commandoregel is gebaseerd op /etc/default/grub of op de 'kopt'-parameter, gevonden in het bestand menu.lst van GRUB oude-stijl. Gelieve deze op correctheid te controleren en indien nodig aan te passen. De commandoregel mag leeg zijn.
+Extended_description-no.utf-8: Den følgende kFreeBSD-kommandolinjen ble trukket ut fra /etc/default/grub eller fra parameteren `kopt' i GRUB Legacys menu.lst. Verifiser at den er korrekt, og endre den om nødvendig. Det er lov at kommandolinjen er tom.
+Extended_description-pl.utf-8: Następujące polecenie do kFreeBSD zostało wyodrębnione z /etc/default/grub lub z parametru "kopt" w menu.lst GRUB-a Legacy. Proszę sprawdzić czy jest właściwe i zmodyfikować go, jeśli to konieczne. Wiersz z poleceniem może być pusty.
+Extended_description-pt.utf-8: A seguinte linha de comandos kFreeBSD foi extraída a partir de /etc/default/grub ou do parâmetro `kopt' no menu.lst do GRUB Legacy. Por favor verifique que está correcta, e modifique se necessário. É permitido que a linha esteja vazia.
+Extended_description-pt_br.utf-8: A linha de comando kFreeBSD a seguir foi extraída de /etc/default/grub ou do parâmetro 'kopt' do menu.lst do GRUB Legado. Por favor, verifique se ela está correta, e modifique-a se necessário. A linha de comando pode ser vazia.
+Extended_description-ro.utf-8: Această linie de comandă kFreeBSD a fost extrasă din /etc/default/grub sau parametrul „kopt” din fișierul menu.lst al vechiului GRUB. Verificați corectitudinea acesteia și modificați-o, dacă este nevoie. Linia de comandă poate fi goală.
+Extended_description-ru.utf-8: Представленная ниже строка команд kFreeBSD была извлечена из /etc/default/grub или параметра «kopt» файла menu.lst старой версии GRUB. Проверьте, что всё правильно, или измените её, если требуется. Также командная строка может быть пустой.
+Extended_description-si.utf-8: පහත kFreeBSD විධානය /etc/default/grub හෝ පැරණි GRUB හි menu.lst හි 'kopt' පරාමිතියෙන් උපුටාගන්නා ලදී. කරුණාකර එය නිවැරදි දැයි තහවුරු කරන්න, ඇවැසිනම් වෙනස්කම් කරන්න. විධාන රේඛාව හිස්ව පැවතීමට ඉඩදෙයි.
+Extended_description-sk.utf-8: Nasledujúci príkazový riadok kFreeBSD bol získaný z /etc/default/grub alebo z parametra 'kopt' z menu.lst starého GRUB (Legacy). Skontrolujte prosím jeho správnosť a prípadne ho upravte. Príkazový riadok môže byť aj prázdny.
+Extended_description-sl.utf-8: Sledeči ukaz za kFreeBSD je vzet iz datoteke /etc/default/grub ali iz parametra `kopt' v datoteki  menu.lst sistema GRUB Legacy.  Preverite prosim, da je točen in ga po potrebi popravite. Ukazna vrstica je lahko tudi prazna.
+Extended_description-sv.utf-8: Följande kFreeBSD-kommandorad hämtades från /etc/default/grub eller "kopt"-parametern i gamla GRUB:s menu.lst. Verifiera att den är korrekt och modifiera den om nödvändigt. Kommandoraden kan vara tom.
+Extended_description-ta.utf-8: பின் வரும் கேப்ரீபிஎஸ்டி கட்டளை வரி /etc/default/grub இலிருந்து அல்லது க்ரப் இன் பாரம்பரிய menu.lst இன் `kopt' அளபுருவிலிருந்து பெறப்பட்டது. இது சரியா என்று சோதித்து தேவையானால் மற்றவும். இந்த கட்டளை வரி காலியாக இருக்க அனுமதி உண்டு.
+Extended_description-th.utf-8: พารามิเตอร์สำหรับบูต kFreeBSD ต่อไปนี้ดึงออกมาจาก /etc/default/grub หรือพารามิเตอร์ `kopt' ใน menu.lst ของ GRUB รุ่นเก่า กรุณาตรวจสอบว่าค่านี้ถูกต้องหรือไม่ และกรุณาแก้ไขถ้าจำเป็น พารามิเตอร์นี้สามารถปล่อยเป็นค่าว่างเปล่าได้
+Extended_description-tr.utf-8: Aşağıdaki kFreeBSD komut satırı /etc/default/grub'dan ya da eski GRUB menu.lst dosyasındaki 'kopt' parametresinden alınmıştır. Lütfen doğruluğundan emin olun ve gerekirse düzeltin. Komut satırı boş bırakılabilir.
+Extended_description-ug.utf-8: تۆۋەندىكى kFreeBSD بۇيرۇق قۇرى /etc/default/grub ياكى GRUB Legacy نىڭ menu.lst دىكى `kopt' پارامېتىرىدىن ئاجرىتىدۇ. ئۇنىڭ توغرىلىقىنى جەزملەپ، ئېھتىياجغا ئاساسەن ئۆزگەرتىڭ. بۇيرۇق قۇرىنىڭ بوش قالدۇرۇلۇشىغا يول قويۇلىدۇ.
+Extended_description-uk.utf-8: Наступний рядок параметрів ядра kFreeBSD було взято із /etc/default/grub чи з параметру 'kopt' в menu.lst із GRUB Legacy. Перевірте будь ласка його правильність і, за потреби, внесіть зміни.  Рядок параметрів ядра може бути порожнім.
+Extended_description-vi.utf-8: Dòng lệnh kFreeBSD sau đây đã được trích ra từ /etc/default/grub hoặc từ tham số `kopt' trong menu.lst của GRUB Thừa Tự. Hãy kiểm tra rằng nó vẫn đúng, và sửa đổi nó nếu cần. Dòng lệnh có thể được để trống.
+Extended_description-zh_cn.utf-8: 已从 /etc/default/grub 或者 GRUB Legacy 的 menu.lst 中的 `kopt' 参数中提取如下 kFreeBSD 命令行参数。请请检查是否正确，并且根据需要进行修改。此命令行可以为空。
+Extended_description-zh_tw.utf-8: 以下的 kFreeBSD 命令列是由 /etc/default/grub，或是由 GRUB Legacy 的 menu.lst 中的 `kopt' 參數所擷取出來的。請確認它是否正確，若有必要請加以修改。此命令列可以留空。
+Type: string
+Owners: grub2/kfreebsd_cmdline
+
+Name: grub2/kfreebsd_cmdline_default
+Default: quiet
+Description: kFreeBSD default command line:
+Description-ar.utf-8: سطر أوامر KFreeBSD الافتراضي:
+Description-ast.utf-8: Llínia comandos por defeutu kFreeBSD:
+Description-be.utf-8: Прадвызначаны радок камандаў для ядра kFreeBSD:
+Description-bg.utf-8: Параметри на Линукс по подразбиране:
+Description-ca.utf-8: Línia d'ordres de kFreeBSD per defecte:
+Description-cs.utf-8: Výchozí parametry pro kFreeBSD:
+Description-cy.utf-8: Llinell orchymyn ddiofyn kFreeBSD:
+Description-da.utf-8: Standardkommandolinje i kFreeBSD:
+Description-de.utf-8: Standard-Befehlszeile für kFreeBSD:
+Description-dz.utf-8: kFreeBSD སྔོན་སྒྲིག་བརྡ་བཀོད་གྲལ་ཐིག་:
+Description-el.utf-8: Προκαθορισμένη γραμμή εντολών kFreeBSD:
+Description-eo.utf-8: Implicita komand-linio de kFreeBSD:
+Description-es.utf-8: Línea de órdenes predeterminada de kFreeBSD:
+Description-eu.utf-8: KFreeBSD-ko komando-lerro lehenetsia:
+Description-fa.utf-8: خط فرمان پیش فرض kFreeBSD:
+Description-fi.utf-8: kFreeBSD:n oletuskomentorivi:
+Description-fr.utf-8: Ligne de commande par défaut de kFreeBSD :
+Description-gl.utf-8: Liña de comando por defecto para kFreeBSD:
+Description-gu.utf-8: kFreeBSD મૂળભૂત આદેશ:
+Description-he.utf-8: ברירת מחדל לשורת הפקודה של kFreeBSD:
+Description-hr.utf-8: Pretpostavljeni kFreeBSD naredbeni redak:
+Description-hu.utf-8: Az alapértelmezett kFreeBSD parancssor:
+Description-id.utf-8: Baris perintah standar kFreeBSD:
+Description-is.utf-8: Sjálfgefin kFreeBSD skipanalína:
+Description-it.utf-8: Riga di comando kFreeBSD predefinita:
+Description-ja.utf-8: kFreeBSD デフォルトコマンドライン:
+Description-ka.utf-8: kFreeBSD-ის სტანდარტული ბრძანების სტრიქონი:
+Description-kk.utf-8: kFreeBSD бастапқы командалық жолы:
+Description-km.utf-8: ពាក្យ​បញ្ជា​លំនាំដើម​របស់ kFreeBSD ៖
+Description-ko.utf-8: kFreeBSD 기본 명령어:
+Description-lt.utf-8: Numatytoji „kFreeBSD“ komandos eilutė:
+Description-lv.utf-8: kFreeBSD noklusējuma komandrinda:
+Description-mr.utf-8: केफ्रीबीएसडी मूलनिर्धारीत आदेश ओळ:
+Description-nb.utf-8: Standardkommandolinje i kFreeBSD:
+Description-nl.utf-8: Standaard kFreeBSD-commandoregel:
+Description-no.utf-8: Standardkommandolinje i kFreeBSD:
+Description-pl.utf-8: Domyślny wiersz poleceń do kFreeBSD:
+Description-pt.utf-8: Linha de comandos padrão do kFreeBSD:
+Description-pt_br.utf-8: Linha de comando padrão kFreeBSD:
+Description-ro.utf-8: Linia de comandă implicită kFreeBSD:
+Description-ru.utf-8: Командная строка kFreeBSD по умолчанию:
+Description-si.utf-8: kFreeBSD පෙරනිමි විධාන රේඛාව:
+Description-sk.utf-8: Predvolený príkazový riadok kFreeBSD:
+Description-sl.utf-8: Privzeta ukazna vrstica kFreeBSD:
+Description-sv.utf-8: Standardkommandorad för kFreeBSD:
+Description-ta.utf-8: கேப்ரீபிஎஸ்டி முன்னிருப்பு கட்டளை வரி:
+Description-th.utf-8: พารามิเตอร์สำหรับบูต kFreeBSD แบบปกติ:
+Description-tr.utf-8: Öntanımlı kFreeBSD komut satırı:
+Description-ug.utf-8: kFreeBSD كۆڭۈلدىكى بۇيرۇق قۇرى:
+Description-uk.utf-8: Типовий рядок параметрів ядра kFreeBSD:
+Description-vi.utf-8: Dòng lệnh kFreeBSD mặc định:
+Description-zh_cn.utf-8: kFreeBSD 默认命令行：
+Description-zh_tw.utf-8: kFreeBSD 預設命令列：
+Extended_description: The following string will be used as kFreeBSD parameters for the default menu entry but not for the recovery mode.
+Extended_description-ar.utf-8: سيتم استخدام النص التالي كمُعطى KFreeBSD لمُدخل القائمة الافتراضي ولكن ليس لوضع الإنقاذ.
+Extended_description-ast.utf-8: La siguiente cadena será usada cómo parametros kFreeBSD pa la entrada del menú por defeutu, pero non pal mou recuperación.
+Extended_description-be.utf-8: Наступны радок будзе выкарыстаны ў якасці параметраў ядра kFreeBSD для прадвызначанага пункту меню (але не для рэжыму аднаўлення).
+Extended_description-bg.utf-8: Следните параметри ще бъдат използвани по подразбиране при зареждане на kFreeBSD, освен в авариен режим.
+Extended_description-ca.utf-8: La cadena següent serà emprada com a paràmetres del kFreeBSD per al menú d'entrada per defecte però no per al mode de recuperació.
+Extended_description-cs.utf-8: Následující parametry pro kFreeBSD se použijí pro výchozí položku menu, ale ne pro záchranný režim.
+Extended_description-cy.utf-8: Defnyddir y llinyn canlynol fel paramedrau kFreeBSD ar gyfer y cofnod bwydlen diofyn ond ddim ar gyfer y modd achub.
+Extended_description-da.utf-8: Den følgende streng vil blive brugt som kFreeBSD-parametre for standardmenupunktet men ikke for gendannelsestilstanden.
+Extended_description-de.utf-8: Die folgende Zeichenkette wird als kFreeBSD-Parameter für den Standardmenüeintrag, nicht aber für den Rettungsmodus verwandt.
+Extended_description-dz.utf-8: འོག་གི་ཡིག་རྒྱུན་ཚུ་ སྔོན་སྒྲིག་དཀར་ཆག་ཐོ་བཀོད་ཀྱི་དོན་ལུ་ kFreeBSD སྦེ་ལག་ལེན་འཐབ་འོང་ དེ་འབདཝད་ སླར་གསོ་ཐབས་ལམ་གྱི་དོན་ལུ་ལག་ལེན་མི་འཐབ།
+Extended_description-el.utf-8: Η ακόλουθη συμβολοσειρά θα χρησιμοποιηθεί για τις παραμέτρους kFreeBSD στην προκαθορισμένη είσοδο του μενού εκκίνησης αλλά όχι για την κατάσταση διάσωσης (recovery mode).
+Extended_description-eo.utf-8: La jena ĉeno estos uzata kiel parametrojn de kFreeBSD por la ordinara menuero sed ne por la restariga reĝimo.
+Extended_description-es.utf-8: La siguiente cadena se utilizará como parámetros de kFreeBSD para la entrada predeterminada del menú pero no para el modo de recuperación.
+Extended_description-eu.utf-8: Honako katea menuko sarrera lehenetsiaren KFreeBSD-ko parametro gisa erabiliko da, baina ez berreskuratzeko moduan.
+Extended_description-fa.utf-8: این رشته به عنوان یکی از پارامتر های kFreeBSD برای منوی پیش فرض استفاده خواهد شد و نه برای حالت بازیابی.
+Extended_description-fi.utf-8: Seuraavaa merkkijonoa käytetään kFreeBSD:n käynnistysvalikon oletusvalinnan parametreina, mutta ei toipumistilassa.
+Extended_description-fr.utf-8: Les paramètres indiqués seront utilisés pour le noyau kFreeBSD de l'entrée de menu par défaut mais pas pour le mode de secours.
+Extended_description-gl.utf-8: A seguinte cadea usarase como parámetros para kFreeBSD para a entrada por defecto do menú, pero non para o modo de recuperación.
+Extended_description-gu.utf-8: નીચેનું વાક્ય મૂળભૂત મેનુ રીત માટે kFreeBSD પરિમાણો માટે વાપરવામાં આવશે પણ રીકવરી સ્થિતિ માટે નહી.
+Extended_description-he.utf-8: המחרוזת הבאה תשמש כפרמטרי kFreeBSD עבור ברירת המחדל בתפריט אבל לא עבור מצב recovery.
+Extended_description-hr.utf-8: Sljedeći izraz će biti korišten kao parametar za kFreeBSD stavke u izborniku, osim za spasonosni način rada.
+Extended_description-hu.utf-8: A következő sort fogjuk kFreeBSD paraméternek használni az alapértelmezett (default) menüben, de a rendszervisszaállító (recovery) módban nem.
+Extended_description-id.utf-8: String berikut ini digunakan sebagai parameter kFreeBSD untuk menu standar, tetapi tidak digunakan untuk modus darurat.
+Extended_description-is.utf-8: Eftirfarandi strengur verður notaður sem kFreeBSD viðfang í sjálfgefnu valmyndarfærslunni en ekki í viðgerðarham.
+Extended_description-it.utf-8: Questa stringa verrà usata come parametri per kFreeBSD nella voce di menu predefinita, ma non nella modalità di ripristino.
+Extended_description-ja.utf-8: 以下の文字列はリカバリーモードではない通常のメニューエントリでの kFreeBSD パラメータとして使われます。
+Extended_description-ka.utf-8: შემდეგი სტრიქონი გამოყენებულ იქნება როგორც kFreeBSD-ს პარამეტრები მენიუს სტანდარტული შენატანისათვის, მაგრამ არა აღდგენის რეჟიმისათვის.
+Extended_description-kk.utf-8: Келесі жол kFreeBSD параметрлері бастапқы мәзірі үшін, бірақ қалпына келтіру үшін емес, қолданылатын болады.
+Extended_description-km.utf-8: ឃ្លា​ដូច​ខាង​ក្រោម​នឹង​ត្រូវ​បាន​ប្រើ​ជា​ប៉ារ៉ាម៉ែត្រ kFreeBSD សម្រាប់​ធាតុ​ម៉ឺនុយ​លំនាំដើម ប៉ុន្តែ​មិន​សម្រាប់​របៀប​សង្គ្រោះ​ទេ ។
+Extended_description-ko.utf-8: 다음 문자열을 기본 메뉴 항목의 kFreeBSD 파라미터로 사용합니다. 복구 모드에서는 사용하지 않습니다.
+Extended_description-lt.utf-8: Ši eilutė bus naudojama kaip įprastiniai „kFreeBSD“ branduolio parametrai, bet ne pasirinkus atkūrimo veikseną.
+Extended_description-lv.utf-8: Sekojošā virkne tiks izmantota kā kFreeBSD parametri izvēlnes noklusējuma ierakstam, bet ne sistēmas atgūšanas režīmā.
+Extended_description-mr.utf-8: मुलनिर्धारित मेन्यू नोंदीकरिता केफ्रीबीएसडी घटकमूल्ये म्हणून खालील श्रुंखला वापरली जाईल, पण रिकव्हरी मोडसाठी नाही.
+Extended_description-nb.utf-8: Den følgende teksten vil bli brukt som kFreeBSD-parametre for standardmenupunktet men ikke for gjenopprettelsesmodus.
+Extended_description-nl.utf-8: De volgende regel zal, behalve in de herstelmodus, gebruikt worden voor de kFreeBSD parameters in de standaard menuoptie.
+Extended_description-no.utf-8: Den følgende teksten vil bli brukt som kFreeBSD-parametre for standardmenupunktet men ikke for gjenopprettelsesmodus.
+Extended_description-pl.utf-8: Następujący ciąg będzie użyty jako parametry przekazywane do jądra kFreeBSD w domyślnym wpisie menu (ale nie w trybie ratunkowym).
+Extended_description-pt.utf-8: A seguinte linha será utilizada como parâmetros para o kFreeBSD para a entrada por omissão do menu, mas não para o modo de recuperação.
+Extended_description-pt_br.utf-8: O seguinte texto será usado como lista de parâmetros do kFreeBSD para a entrada padrão do menu, mas não para o modo de recuperação.
+Extended_description-ro.utf-8: Următorul șir va fi folosit ca parametru pentru kFreeBSD pentru poziția implicită din meniu, dar nu și pentru cea de recuperare.
+Extended_description-ru.utf-8: Данная строка будет использоваться в качестве параметров kFreeBSD в пункте меню по умолчанию, кроме режима восстановления.
+Extended_description-si.utf-8: පහත යෙදුම පෙරනිමි මෙනු ඇතුළත් කිරීම් සඳහා kFreeBSD පරාමිතියක් ලෙස භාවිත වන නමුත් ගැලවීම් ප්‍රකාරයට නොවේ.
+Extended_description-sk.utf-8: Nasledujúci reťazec bude použitý ako kFreeBSD parametre predvolenej položky menu, ale nie pre záchranný režim.
+Extended_description-sl.utf-8: Sledeča vrstica bo uporabljena kot parameter kFreeBSD za privzeti vnos v meniju, ne pa za reševalni način.
+Extended_description-sv.utf-8: Följande sträng kommer användas som Linux-parametrar för standardmenyvalet men inte för återhämtningsläge (eng. recovery).
+Extended_description-ta.utf-8: பின் வரும் சரங்கள் முன்னிருப்பு மெனு உள்ளீட்டுக்கு கேப்ரீபிஎஸ்டி அளபுருக்களாக பயன்படுத்தப்படும்; ஆனால் மீட்டெடுப்பு பாங்குக்கு அல்ல
+Extended_description-th.utf-8: พารามิเตอร์ต่อไปนี้จะใช้ในเมนูสำหรับบูต kFreeBSD แบบปกติ แต่จะไม่ใช้กับโหมดกู้ระบบ
+Extended_description-tr.utf-8: Aşağıdaki dizgi öntanımlı menü girişinin kFreeBSD parametreleri olarak kullanılacak; fakat kurtarma kipi için kullanılmayacaktır.
+Extended_description-ug.utf-8: تۆۋەندىكى ھەرپ تىزىقى كۆڭۈلدىكى تىزىملىك تۈرىنىڭ kFreeBSD پارامېتىرىغا ئىشلىتىلىدۇ ئەمما ئەسلىگە كەلتۈرۈش ھالىتىگە قوللىنىلمايدۇ.
+Extended_description-uk.utf-8: Даний рядок буде використано як параметри ядра kFreeBSD для типового пункту меню, проте не для режиму відновлення.
+Extended_description-vi.utf-8: Chuỗi theo đây sẽ được sử dụng làm các tham số kFreeBSD cho mục nhập trình đơn mặc định, mà không phải cho chế độ phục hồi.
+Extended_description-zh_cn.utf-8: 如下字符串将用于默认菜单项的 kFreeBSD 参数，但不会用于恢复模式。
+Extended_description-zh_tw.utf-8: 以下的字串將會用在預設的選單項目中做為 kFreeBSD 參數，但不會用於回復模式。
+Type: string
+Owners: grub2/kfreebsd_cmdline_default
+
+Name: grub2/linux_cmdline
+Description: Linux command line:
+Description-ast.utf-8: Linia comandos Linux:
+Description-be.utf-8: Радок камандаў для ядра Linux:
+Description-bg.utf-8: Команден ред на Линукс:
+Description-ca.utf-8: Línia d'ordres de Linux:
+Description-cs.utf-8: Parametry pro Linux:
+Description-cy.utf-8: Llinell orchymyn Linux:
+Description-da.utf-8: Kommandolinje til Linux:
+Description-de.utf-8: Linux-Befehlszeile:
+Description-dz.utf-8: ལི་ནགསི་བརྡ་བཀོད་གྲལ་ཐིག་:
+Description-el.utf-8: Γραμμή εντολής Linux:
+Description-eo.utf-8: Linuksa komand-linio:
+Description-es.utf-8: Línea de órdenes de Linux:
+Description-eu.utf-8: Linux-eko komando-lerroa:
+Description-fa.utf-8: خط فرمان لینوکس:
+Description-fi.utf-8: Linuxin komentorivi:
+Description-fr.utf-8: Ligne de commande de Linux :
+Description-gl.utf-8: Liña de comando de Linux:
+Description-gu.utf-8: લિનક્સ આદેશ:
+Description-he.utf-8: שורת הפקודה של Linux:
+Description-hr.utf-8: Linux naredbeni redak:
+Description-hu.utf-8: Linux parancssor:
+Description-id.utf-8: Baris perintah Linux:
+Description-is.utf-8: Linux skipanalína:
+Description-it.utf-8: Riga di comando Linux:
+Description-ja.utf-8: Linux コマンドライン:
+Description-kk.utf-8: Linux командалық жолы:
+Description-km.utf-8: ពាក្យ​បញ្ជា​លីនុច ៖
+Description-ko.utf-8: 리눅스 명령어:
+Description-lt.utf-8: „Linux“ komandos eilutė:
+Description-lv.utf-8: Linux komandrinda:
+Description-mr.utf-8: लिनक्स आदेश ओळ:
+Description-nb.utf-8: Kommandolinje i Linux:
+Description-nl.utf-8: Linux-commandoregel:
+Description-no.utf-8: Kommandolinje i Linux:
+Description-pl.utf-8: Wiersz poleceń do Linuksa:
+Description-pt.utf-8: Linha de comandos do Linux:
+Description-pt_br.utf-8: Linha de comando Linux:
+Description-ro.utf-8: Linia de comandă Linux:
+Description-ru.utf-8: Командная строка Linux:
+Description-si.utf-8: Linux විධාන රේඛාව:
+Description-sk.utf-8: Linuxový príkazový riadok:
+Description-sl.utf-8: Ukazna vrstica Linux:
+Description-sv.utf-8: Kommandorad för Linux:
+Description-ta.utf-8: லீனக்ஸ் கட்டளை வரி:
+Description-th.utf-8: พารามิเตอร์สำหรับบูตลินุกซ์:
+Description-tr.utf-8: Linux komut satırı:
+Description-ug.utf-8: Linux بۇيرۇق قۇرى:
+Description-uk.utf-8: Рядок параметрів ядра Linux:
+Description-vi.utf-8: Dòng lệnh Linux:
+Description-zh_cn.utf-8: Linux 命令行：
+Description-zh_tw.utf-8: Linux 命令列：
+Extended_description: The following Linux command line was extracted from /etc/default/grub or the `kopt' parameter in GRUB Legacy's menu.lst. Please verify that it is correct, and modify it if necessary. The command line is allowed to be empty.
+Extended_description-ast.utf-8: La siguiente llinia de comandu Linux salió de /etc/default/grub o del parámetru `kopt' nel menú Legacy GRUB menu.lst. Por favor, comprueba que ye correuto, y modificalo si ye necesario. La llinia de comandu puede tar erma.
+Extended_description-be.utf-8: Гэты радок камандаў для ядра Linux узяты з файла /etc/default/grub або з параметра `kopt' у файле наладак (menu.lst) папярэдняй версіі GRUB (Legacy). Калі ласка, пераканайцеся, што каманды запісаныя правільна, або папраўце іх, калі трэба. Гэты радок камандаў можа быць пустым.
+Extended_description-bg.utf-8: Следния команден ред за зареждане на Линукс беше извлечен от /etc/default/grub или от параметъра „kopt“ от файла menu.lst на стария GRUB. Проверете го и ако е нужно го коригирайте. Допустимо е командният ред да бъде празен.
+Extended_description-ca.utf-8: La línia d'ordres de Linux següent ha sigut extreta de /etc/default/grub o del paràmetre «kopt» del fitxer menu.lst del GRUB Legacy. Verifiqueu que és correcta, i modifiqueu-la si és necessari. La línia d'ordres pot ser buida.
+Extended_description-cs.utf-8: Následující řádka s parametry pro Linux byla získána ze starého souboru menu.lst z parametru „kopt“ nebo ze souboru /etc/default/grub. Zkontrolujte prosím, zda jsou parametry v pořádku a případně je upravte do požadované podoby. Řádka s parametry může být i prázdná.
+Extended_description-cy.utf-8: Mae'r llinell orchymyn Linux canlynol wedi ei dynnu o /etc/default/grub neu'r paramedr 'kopt' yn ffeil menu.lst GRUB etifeddol. Gwiriwch fod hyn yn gywir a newidwch os oes angen. Caniateir i'r linell orchymyn fod yn wag.
+Extended_description-da.utf-8: Den følgende kommandolinje i Linux blev udtrukket fra /etc/default/grub eller parameteren `kopt' i GRUB Legacys menu.lst. Verificer venligst at den er korrekt, og ændre den om nødvendigt. Kommandolinjen må være tom.
+Extended_description-de.utf-8: Die folgende Linux-Befehlszeile wurde aus /etc/default/grub oder dem Parameter »kopt« in der Datei menu.lst von GRUB Legacy extrahiert. Bitte überprüfen Sie, ob die Befehlszeile korrekt ist und ändern Sie diese, wenn es notwendig ist. Diese Befehlszeile darf leer sein.
+Extended_description-dz.utf-8: འོག་གི་ ལི་ནགསི་བརྡ་བཀོད་གྲལཐིག་འདི་ from from /etc/default/grub or the `kopt' parameter in GRUB Legacy's menu.lst. ལས་ ཕྱིར་དོན་འབད་འབདཝ་ཨིན། འདི་ངེས་བདེན་ཨིནམ་བདེན་སྦྱོར་འབད་ཞིནམ་ལས་ དགོས་མཁོ་ཡོད་པ་ཅིན་ལེགས་བཅོས་འབད། བརྡ་བཀོད་གྲལ་ཐིག་འདི་སྟོངམ་ཨིན་རུང་བཏུབ།
+Extended_description-el.utf-8: Η επόμενη γραμμή εντολών για  Linux έχει εξαχθεί από το αρχείο /etc/default/grub ή από την παράμετρο `kopt' στο αρχείο menu.lst του GRUB Legacy.  Παρακαλώ επιβεβαιώστε ότι είναι ορθή και τροποποιήστε την αν είναι απαραίτητο. Η γραμμή επιτρέπεται να είναι κενή.
+Extended_description-eo.utf-8: La jena linuksa komand-linio estas elprenita el /etc/default/grub aŭ el la parametro 'kopt' en la menu.lst de malaktuala GRUB. Bonvolu kontroli ĉu ĝi estas korekta, kaj modifu ĝin laŭ neceso. Estas permesate ke la komand-linio
+Extended_description-es.utf-8: La siguiente línea de órdenes de Linux se extrajo del fichero «/etc/default/grub» o del parámetro «kopt» en el fichero «menu.lst» de la versión anterior de GRUB. Compruebe que es correcta y modifíquela si es necesario. La línea de órdenes se puede dejar en blanco.
+Extended_description-eu.utf-8: Linux-eko komando-lerro hau /etc/default/grub edo GRUB zaharraren menu.lst fitxategiko 'kopt' parametrotik atera da. Egiaztatu zuzena dela, eta eraldatu behar izanez gero. Komando-lerroa hutsik egotea baimenduta dago.
+Extended_description-fa.utf-8: خط فرمان لینوکس ذیل از /etc/default/grub یا پارامتر های `kopt' در فایل menu.lst از گراب قدیمی استخراج شده است. لطفاً صحت آن را بررسی کنید، و در صورت لزوم آن را تغییردهید. این خط فرمان می‌تواند خالی باشد.
+Extended_description-fi.utf-8: GRUBin aiemman version tiedostosta menu.lst parametrista ”kopt” tai tiedostosta /etc/default/grub löydettiin seuraava Linuxin komentorivi. Varmista, että se on kunnossa ja muuta sitä tarvittaessa. Komentorivin on sallittua myös olla tyhjä.
+Extended_description-fr.utf-8: La ligne de commande de Linux suivante a été récupérée via le fichier /etc/default/grub ou le paramètre « kopt » du fichier menu.lst utilisé par la version originelle de GRUB. Veuillez contrôler qu'elle est correcte et la modifier si nécessaire. Cette ligne de commande peut être vide.
+Extended_description-gl.utf-8: A seguinte liña de comando de Linux sacouse de /etc/default/grub ou do parámetro «kopt» no ficheiro menu.lst de GRUB Legacy. Verifique que sexa correcta e modifíquea de ser preciso. A liña de comando pódese deixar baleira.
+Extended_description-gu.utf-8: નીચેનાં લિનક્સ આદેશ /etc/default/grub અથવા GRUB પરંપરાગત menu.lst ના `kopt' પરિમાણમાંથી નીકાળવામાં આવ્યા છે. મહેરબાની કરી ખાતરી કરો કે એ સાચા છે, અને જરુરી હોય તો તેને બદલો. આદેશ ખાલી રાખવાનું માન્ય છે.
+Extended_description-he.utf-8: שורת פקודת Linux הבאה נשלפה מ-‎/etc/default/grub או מפרמטר 'kopt' ב-menu.lst הישן של GRUB. נא לוודא ששורת פקודה זו נכונה ועדכן אותה אם צריך. ניתן להשאיר שורת פקודה זו ריקה.
+Extended_description-hr.utf-8: Ovaj naredbeni redak za sam Linux kernel je izvađen iz /etc/default/grub ili iz parametra 'kopt' u GRUB Legacy datoteci menu.lst. Molim provjerite je li ispravan, i ako je potrebno uredite ga. Naredbeni redak smije biti prazan.
+Extended_description-hu.utf-8: A következő Linux parancssor az /etc/default/grub vagy a régi GRUB menu.lst fájljában lévő `kopt' paraméterből származik. Kérlek ellenőrizd, hogy helyes-e, és módosítsd, ha szükséges. A parancssor lehet üres is.
+Extended_description-id.utf-8: Baris perintah Linux berikut ini disadur dari /etc/default/grub atau parameter 'kopt' di menu.lst pada GRUB jadul. Pastikan kebenarannya dan suntinglah bila perlu. Baris perintahnya diperbolehkan dikosongi.
+Extended_description-is.utf-8: Eftirfarandi Linux skipanalína fannst í /etc/default/grub eða í `kopt' viðfanginu í eldri GRUB menu.lst. Gakktu úr skugga um að þetta sé rétt og breyttu því ef það er nauðsynlegt. Skipanalínan má vera auð.
+Extended_description-it.utf-8: La seguente riga di comando Linux è stata estratta da /etc/default/grub oppure dal parametro "kopt" presente nel file menu.lst di GRUB Legacy. Controllare che sia corretta e modificarla se necessario. La riga di comando può essere vuota.
+Extended_description-ja.utf-8: 以下の Linux のコマンドラインは /etc/default/grub か GRUB Legacy の menu.lst 上の「kopt」パラメータから取得されています。これが正しいものであるかを確認して、必要であれば修正してください。コマンドラインは空でも構いません。
+Extended_description-kk.utf-8: Келесі Linux командасы /etc/default/grub ішінен не GRUB Legacy menu.lst ішіндегі `kopt' параметрінен алынды. Оның дұрыстығын тексеріп, керек болса, өзгертіңіз. Бұл командалық жол бос болса да болады.
+Extended_description-km.utf-8: ពាក្យ​បញ្ជា​លីនុច​ដូច​ខាង​ក្រោម​ត្រូវ​បាន​ដកស្រង់​ចេញ​ពី /etc/default/grub ឬ​ប៉ារ៉ាម៉ែត្រ `kopt' នៅ​ក្នុង menu.lst ចាស់​របស់​ GRUB ។ សូម​ផ្ទៀងផ្ទាត់​ថា​តើ​វា​ត្រឹមត្រូវ​ដែរឬទេ ហើយ​កែប្រែ​វា​ប្រសិន​បើ​ចាំបាច់ ។ ពាក្យ​បញ្ជា​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​ទទេរ ។
+Extended_description-ko.utf-8: 다음 리눅스 명령어를 /etc/default/grub 파일 또는 GRUB 구버전의 menu.lst의 `kopt' 파라미터에서 뽑아냈습니다. 명령어가 올바른지 확인하고 필요하다면 수정하십시오. 명령어는 비워 둘 수도 있습니다.
+Extended_description-lt.utf-8: Iš „/etc/default/grub“ failo arba senosios „GRUB“ konfigūraciniame faile „menu.lst“ nurodyto „kopt“ parametro išrinkta žemiau pateikta „Linux“ komandos eilutė. Patikrinkite, ar ji tinkama ir jei reikia, ją patikslinkite. Komandos eilutė gali būti ir tuščia.
+Extended_description-lv.utf-8: Sekojošā Linux komandrinda tika izvilkta no /etc/default/grub vai `kopt' parametra GRUB mantojuma menu.lst. Lūdzu, pārliecinieties, ka tā ir pareiza un, ja vajag, mainiet to. Komandrinda drīkst būt tukša.
+Extended_description-mr.utf-8: पुढील लिनक्स आदेश ओळ /etc/default/grub ग्रब लीगसीच्या menu.lst मधील `kopt' घटकमूल्यामधून मिळवली आहे. कृपया ती योग्य आहे का, याची खातरजमा करा व आवश्यकता असल्यास बदल करा. आदेश ओळ रिकामी ठेवण्याची अनुमती असते.
+Extended_description-nb.utf-8: Den følgende Linux-kommandolinjen ble trukket ut fra /etc/default/grub eller parameteren `kopt' i GRUB Legacys menu.lst. Verifiser at den er korrekt og endre den om nødvendig. Det er lov at kommandolinjen er tom.
+Extended_description-nl.utf-8: De volgende Linux-commandoregel is gebaseerd op /etc/default/grub of op de 'kopt'-parameter, gevonden in het bestand menu.lst van GRUB oude-stijl. Gelieve deze op correctheid te controleren en indien nodig aan te passen. De commandoregel mag leeg zijn.
+Extended_description-no.utf-8: Den følgende Linux-kommandolinjen ble trukket ut fra /etc/default/grub eller parameteren `kopt' i GRUB Legacys menu.lst. Verifiser at den er korrekt og endre den om nødvendig. Det er lov at kommandolinjen er tom.
+Extended_description-pl.utf-8: Następujące polecenie do Linuksa zostało wyodrębnione z /etc/default/grub lub z parametru "kopt" w menu.lst GRUB-a Legacy. Proszę sprawdzić czy jest właściwe i zmodyfikować go, jeśli to konieczne. Wiersz z poleceniem może być pusty.
+Extended_description-pt.utf-8: A seguinte linha de comandos Linux foi extraída de /etc/default/grub ou do parâmetro `kopt' no menu.lst do GRUB Legacy. Por favor verifique que está correcta, e modifique se necessário. É permitido que a linha de comandos esteja vazia.
+Extended_description-pt_br.utf-8: A linha de comando Linux a seguir foi extraída de /etc/default/grub ou do parâmetro 'kopt' do menu.lst do GRUB Legado. Por favor, verifique se ela está correta, e modifique-a se necessário. A linha de comando pode ser vazia.
+Extended_description-ro.utf-8: Această linie de comandă Linux a fost extrasă din /etc/default/grub sau parametrul „kopt” din fișierul menu.lst al vechiului GRUB. Verificați corectitudinea acesteia și modificați-o, dacă este nevoie. Linia de comandă poate fi goală.
+Extended_description-ru.utf-8: Представленная ниже строка команд Linux была извлечена из /etc/default/grub или параметра «kopt» файла menu.lst старой версии GRUB. Проверьте, что всё правильно, или измените её, если требуется. Также командная строка может быть пустой.
+Extended_description-si.utf-8: පහත Linux විධානය /etc/default/grub හෝ පැරණි GRUB හි menu.lst හි 'kopt' පරාමිතියෙන් උපුටාගන්නා ලදී. කරුණාකර එය නිවැරදි දැයි තහවුරු කරන්න, ඇවැසිනම් වෙනස්කම් කරන්න. විධාන රේඛාව හිස්ව පැවතීමට ඉඩදෙයි.
+Extended_description-sk.utf-8: Nasledujúci príkazový riadok Linuxu bol získaný z /etc/default/grub alebo z parametra 'kopt' z menu.lst starého GRUB (Legacy). Skontrolujte prosím jeho správnosť a prípadne ho upravte. Príkazový riadok môže byť aj prázdny.
+Extended_description-sl.utf-8: Sledeči ukaz za Linux je vzet iz datoteke /etc/default/grub ali iz parametra `kopt' v datoteki  menu.lst sistema GRUB Legacy.  Preverite prosim, da je točen in ga po potrebi popravite. Ukazna vrstica je lahko tudi prazna.
+Extended_description-sv.utf-8: Följande Linux-kommandorad hämtades från /etc/default/grub eller "kopt"-parametern i gamla GRUB:s menu.lst. Verifiera att den är korrekt och modifiera den om nödvändigt. Kommandoraden kan vara tom.
+Extended_description-ta.utf-8: பின் வரும் லீனக்ஸ் கட்டளை வரி /etc/default/grub இலிருந்து அல்லது க்ரப் இன் பாரம்பரிய menu.lst இன் `kopt' அளபுருவிலிருந்து பெறப்பட்டது. இது சரியா என்று சோதித்து தேவையானால் மற்றவும். இந்த கட்டளை வரி காலியாக இருக்க அனுமதி உண்டு.
+Extended_description-th.utf-8: พารามิเตอร์สำหรับบูตลินุกซ์ต่อไปนี้ดึงออกมาจาก /etc/default/grub หรือพารามิเตอร์ `kopt' ใน menu.lst ของ GRUB รุ่นเก่า กรุณาตรวจสอบว่าค่านี้ถูกต้องหรือไม่ และกรุณาแก้ไขถ้าจำเป็น พารามิเตอร์นี้สามารถปล่อยเป็นค่าว่างเปล่าได้
+Extended_description-tr.utf-8: Aşağıdaki Linux komut satırı /etc/default/grub'dan ya da eski GRUB menu.lst dosyasındaki 'kopt' parametresinden alınmıştır. Lütfen doğruluğundan emin olun ve gerekirse düzeltin. Komut satırı boş bırakılabilir.
+Extended_description-ug.utf-8: تۆۋەندىكى Linux بۇيرۇق قۇرى /etc/default/grub ياكى GRUB Legacy نىڭ menu.lst دىكى `kopt' پارامېتىرىدىن ئاجرىتىدۇ. ئۇنىڭ توغرىلىقىنى جەزملەپ، ئېھتىياجغا ئاساسەن ئۆزگەرتىڭ.بۇيرۇق قۇرىنىڭ بوش قالدۇرۇلۇشىغا يول قويۇلىدۇ.
+Extended_description-uk.utf-8: Наступний рядок параметрів ядра Linux було взято із /etc/default/grub чи з параметру 'kopt' в menu.lst із GRUB Legacy. Перевірте будь ласка його правильність і, за потреби, внесіть зміни. Рядок параметрів ядра може бути порожнім.
+Extended_description-vi.utf-8: Dòng lệnh Linux theo đây đã được trích ra từ /etc/default/grub hoặc từ tham số `kopt' trong menu.lst của GRUB Thừa Tự. Hãy kiểm tra rằng nó vẫn đúng, và sửa đổi nó nếu cần. Dòng lệnh có thể được để trống.
+Extended_description-zh_cn.utf-8: 已从 /etc/default/grub 或 GRUB Legacy 的 menu.lst 中的 `kopt' 参数中提取如下 Linux 命令行。请检查是否正确的，并且根据需要进行修改。此命令行可以为空。
+Extended_description-zh_tw.utf-8: 以下的 Linux 命令列是由 /etc/default/grub，或是由 GRUB Legacy 的 menu.lst 中的 `kopt' 參數所擷取出來的。請確認它是否正確，若有必要請加以修改。此命令列可以留空。
+Type: string
+Owners: grub2/linux_cmdline
+
+Name: grub2/linux_cmdline_default
+Default: quiet
+Description: Linux default command line:
+Description-ar.utf-8: سطر أوامر لينكس الافتراضي:
+Description-ast.utf-8: Linia comandos por defeutu de Linux:
+Description-be.utf-8: Прадвызначаны радок камандаў для ядра Linux:
+Description-bg.utf-8: Параметри на Линукс по подразбиране:
+Description-ca.utf-8: Línia d'ordres de Linux per defecte:
+Description-cs.utf-8: Výchozí parametry pro Linux:
+Description-cy.utf-8: Llinell orchymyn ddiofyn Linux:
+Description-da.utf-8: Standardkommandolinje i Linux:
+Description-de.utf-8: Standard-Befehlszeile für Linux:
+Description-dz.utf-8: ལི་ནགསི་སྔོན་སྒྲིག་བརྡ་བཀོད་གྲལ་ཐིག་:
+Description-el.utf-8: Προκαθορισμένη γραμμή εντολών Linux:
+Description-eo.utf-8: Linuksa implicita komand-linio:
+Description-es.utf-8: Línea de órdenes predeterminada de Linux:
+Description-eu.utf-8: Linux-eko komando-lerro lehenetsia:
+Description-fa.utf-8: خط فرمان پیش فرض لینوکس:
+Description-fi.utf-8: Linuxin oletuskomentorivi:
+Description-fr.utf-8: Ligne de commande par défaut de Linux :
+Description-gl.utf-8: Liña de comando por defecto para Linux:
+Description-gu.utf-8: લિનક્સ મૂળભૂત આદેશ:
+Description-he.utf-8: ברירת מחדל לשורת הפקודה של Linux:
+Description-hr.utf-8: Pretpostavljeni Linux naredbeni redak:
+Description-hu.utf-8: Az alapértelmezett Linux parancssor:
+Description-id.utf-8: Baris perintah standar Linux:
+Description-is.utf-8: Sjálfgefin Linux skipanalína:
+Description-it.utf-8: Riga di comando Linux predefinita:
+Description-ja.utf-8: Linux デフォルトコマンドライン:
+Description-ka.utf-8: ლინუქსის სტანდარტული ბრძანების სტრიქონი:
+Description-kk.utf-8: Linux бастапқы командалық жолы:
+Description-km.utf-8: ពាក្យ​បញ្ជា​លំនាំ​ដើម​របស់​លីនុច ៖
+Description-ko.utf-8: 리눅스 기본 명령어:
+Description-lt.utf-8: Numatytoji „Linux“ komandos eilutė:
+Description-lv.utf-8: Linux noklusējuma komandrinda:
+Description-mr.utf-8: लिनक्स मूलनिर्धारीत आदेश ओळ:
+Description-nb.utf-8: Standardkommandolinje i Linux:
+Description-nl.utf-8: Standaard Linux-commandoregel:
+Description-no.utf-8: Standardkommandolinje i Linux:
+Description-pl.utf-8: Domyślny wiersz poleceń do Linuksa:
+Description-pt.utf-8: Linha de comandos padrão do Linux:
+Description-pt_br.utf-8: Linha de comando padrão Linux:
+Description-ro.utf-8: Linia de comandă implicită Linux:
+Description-ru.utf-8: Командная строка Linux по умолчанию:
+Description-si.utf-8: පෙරනිමි Linux විධාන රේඛාව:
+Description-sk.utf-8: Predvolený Linuxový príkazový riadok:
+Description-sl.utf-8: Privzeta ukazna vrstica Linux:
+Description-sv.utf-8: Standardkommandorad för Linux:
+Description-ta.utf-8: லீனக்ஸ் முன்னிருப்பு கட்டளை வரி:
+Description-th.utf-8: พารามิเตอร์สำหรับบูตลินุกซ์แบบปกติ:
+Description-tr.utf-8: Öntanımlı Linux komut satırı:
+Description-ug.utf-8: Linux كۆڭۈلدىكى بۇيرۇق قۇرى:
+Description-uk.utf-8: Типовий рядок параметрів ядра Linux:
+Description-vi.utf-8: Dòng lệnh Linux mặc định:
+Description-zh_cn.utf-8: Linux 默认命令行：
+Description-zh_tw.utf-8: Linux 預設命令列：
+Extended_description: The following string will be used as Linux parameters for the default menu entry but not for the recovery mode.
+Extended_description-ar.utf-8: سيتم استخدام سلسلة الحروف التالية كمُعطيات لتشغيل النظام لمُدخل القائمة الافتراضي ولكن ليس لوضع الإنقاذ.
+Extended_description-ast.utf-8: La siguiente cadena será usada como parámetros Linux pa la entrada del menú por defeutu, pero non pal mou recuperación.
+Extended_description-be.utf-8: Наступны радок будзе выкарыстаны ў якасці параметраў ядра Linux для прадвызначанага пункту меню (але не для рэжыму аднаўлення).
+Extended_description-bg.utf-8: Следните параметри ще бъдат използвани по подразбиране при зареждане на Линукс, освен в авариен режим.
+Extended_description-ca.utf-8: La cadena següent serà emprada com a paràmetres del Linux per al menú d'entrada per defecte però no per al mode de recuperació.
+Extended_description-cs.utf-8: Následující parametry pro Linux se použijí pro výchozí položku menu, ale ne pro záchranný režim.
+Extended_description-cy.utf-8: Defnyddir y llinyn canlynol fel paramedrau Linux ar gyfer y cofnod bwydlen diofyn ond ddim ar gyfer y modd achub.
+Extended_description-da.utf-8: Den følgende streng vil blive brugt som Linuxparametre for standardmenupunktet men ikke for gendannelsestilstanden.
+Extended_description-de.utf-8: Die folgende Zeichenkette wird als Linux-Parameter für den Standardmenüeintrag, nicht aber für den Rettungsmodus verwandt.
+Extended_description-dz.utf-8: འོག་གི་ཡིག་རྒྱུན་འདི་ སྔོན་སྒྲིག་དཀར་ཆག་ཐོ་བཀོད་ཀྱི་དོན་ལུ་ ལི་ནགསི་ཚད་འཛིན་སྦེ་ལག་ལེན་འཐབ་ནི་ཨིན་ དེ་འབདཝ་ད་ སླར་གསོ་ཐབས་ལམ་གྱི་དོན་ལུ་མེན།
+Extended_description-el.utf-8: Η ακόλουθη συμβολοσειρά θα χρησιμοποιηθεί για τις παραμέτρους Linux στην προκαθορισμένη είσοδο του μενού εκκίνησης αλλά όχι για την κατάσταση διάσωσης (recovery mode).
+Extended_description-eo.utf-8: La jena ĉeno estos uzata kiel linuksajn parametrojn por la ordinara menuero sed ne por la restariga reĝimo.
+Extended_description-es.utf-8: La siguiente cadena se utilizará como parámetros de Linux para la entrada predeterminada del menú pero no para el modo de recuperación.
+Extended_description-eu.utf-8: Honako katea menuko sarrera lehenetsiaren Linux-eko parametro gisa erabiliko da, baina ez berreskuratzeko moduan.
+Extended_description-fa.utf-8: این رشته به عنوان یکی از پارامتر های لینوکس برای منوی پیش فرض استفاده خواهد شد و نه برای حالت بازیابی.
+Extended_description-fi.utf-8: Seuraavaa merkkijonoa käytetään Linuxin käynnistysvalikon oletusvalinnan parametreina, mutta ei toipumistilassa.
+Extended_description-fr.utf-8: Les paramètres indiqués seront utilisés pour le noyau Linux de l'entrée de menu par défaut mais pas pour le mode de secours.
+Extended_description-gl.utf-8: A seguinte liña será usada como parámetros para Linux na entrada por defecto do menú, pero non no modo de recuperación.
+Extended_description-gu.utf-8: નીચેનું વાક્ય મૂળભૂત મેનુ રીત માટે લિનક્સ પરિમાણો માટે વાપરવામાં આવશે પણ રીકવરી સ્થિતિ માટે નહી.
+Extended_description-he.utf-8: המחרוזת הבאה תשמש כפרמטרי Linux עבור ברירת המחדל בתפריט אבל לא עבור מצב recovery.
+Extended_description-hr.utf-8: Sljedeći izraz će biti korišten kao parametar za Linux stavke u izborniku, osim za spasonosni način rada.
+Extended_description-hu.utf-8: A következő sort fogjuk Linux paraméternek használni az alapértelmezett (default) menüben, de a rendszervisszaállító (recovery) módban nem.
+Extended_description-id.utf-8: String berikut ini akan digunakan sebagai parameter Linux untuk menu standar tetapi tidak digunakan untuk modus darurat.
+Extended_description-is.utf-8: Eftirfarandi strengur verður notaður sem Linux viðfang í sjálfgefnu valmyndarfærslunni en ekki í viðgerðarham.
+Extended_description-it.utf-8: Questa stringa verrà usata come parametri per Linux nella voce di menu predefinita, ma non nella modalità di ripristino.
+Extended_description-ja.utf-8: 以下の文字列は、リカバリーモードではない通常のメニューエントリでの Linux パラメータとして使われます。
+Extended_description-ka.utf-8: შემდეგი სტრიქონი გამოყენებულ იქნება როგორც ლინუქსის პარამეტრები მენიუს სტანდარტული შენატანისათვის, მაგრამ არა აღდგენის რეჟიმისათვის.
+Extended_description-kk.utf-8: Келесі жол Linux параметрлері бастапқы мәзірі үшін, бірақ қалпына келтіру үшін емес, қолданылатын болады.
+Extended_description-km.utf-8: ឃ្លា​ដូច​ខាង​ក្រោម​នឹង​ត្រូវ​បាន​ប្រើ​ជា​ប៉ារ៉ាម៉ែត្រ​លីនុច​សម្រាប់​ធាតុ​ម៉ឺនុយ​លំនាំដើម ប៉ុន្តែ​មិន​សម្រាប់​របៀប​សង្គ្រោះ​ទេ ។
+Extended_description-ko.utf-8: 다음 문자열을 기본 메뉴 항목의 리눅스 파라미터로 사용합니다. 복구 모드에서는 사용하지 않습니다.
+Extended_description-lt.utf-8: Ši eilutė bus naudojama kaip įprastiniai „Linux“ branduolio parametrai, bet ne pasirinkus atkūrimo veikseną.
+Extended_description-lv.utf-8: Sekojošā virkne tiks izmantota kā Linux parametri izvēlnes noklusējuma ierakstam, bet ne sistēmas atgūšanas režīmā.
+Extended_description-mr.utf-8: मुलनिर्धारित मेन्यू नोंदीकरिता लिनक्स घटकमूल्ये म्हणून खालील श्रुंखला वापरली जाईल, पण रिकव्हरी मोडसाठी नाही.
+Extended_description-nb.utf-8: Den følgende teksten vil bli brukt som Linux-parametre for standardmenupunktet, men ikke for gjenopprettelsesmodus.
+Extended_description-nl.utf-8: De volgende regel zal, behalve in de herstelmodus, gebruikt worden voor de Linux parameters in de standaard menuoptie.
+Extended_description-no.utf-8: Den følgende teksten vil bli brukt som Linux-parametre for standardmenupunktet, men ikke for gjenopprettelsesmodus.
+Extended_description-pl.utf-8: Następujący ciąg będzie użyty jako parametry przekazywane do jądra Linux w domyślnym wpisie menu (ale nie w trybie ratunkowym).
+Extended_description-pt.utf-8: A seguinte linha será utilizada como parâmetros para o Linux na entrada predefinida do menu, mas não para o modo de recuperação.
+Extended_description-pt_br.utf-8: O seguinte texto será usado como lista de parâmetros do Linux para a entrada padrão do menu, mas não para o modo de recuperação.
+Extended_description-ro.utf-8: Următorul șir va fi folosit ca parametru pentru Linux pentru poziția implicită din meniu, dar nu și pentru cea de recuperare.
+Extended_description-ru.utf-8: Данная строка будет использоваться в качестве параметров Linux в пункте меню по умолчанию, кроме режима восстановления.
+Extended_description-si.utf-8: පහත යෙදුම පෙරනිමි මෙනු ඇතුළත් කිරීම් සඳහා Linux පරාමිතියක් ලෙස භාවිත වන නමුත් ගැලවීම් ප්‍රකාරයට නොවේ.
+Extended_description-sk.utf-8: Nasledujúci reťazec bude použitý ako Linuxové parametre predvolenej položky menu, ale nie pre záchranný režim.
+Extended_description-sl.utf-8: Sledeča vrstica bo uporabljena kot parameter Linuxa za privzeti vnos v meniju, ne pa za reševalni način.
+Extended_description-sv.utf-8: Följande sträng kommer användas som Linux-parametrar för standardmenyvalet men inte för återhämtningsläge (eng. recovery).
+Extended_description-ta.utf-8: பின் வரும் சரங்கள் முன்னிருப்பு மெனு உள்ளீட்டுக்கு லீனக்ஸ் அளபுருக்களாக பயன்படுத்தப்படும்; ஆனால் மீட்டெடுப்பு பாங்குக்கு அல்ல
+Extended_description-th.utf-8: พารามิเตอร์ต่อไปนี้จะใช้ในเมนูสำหรับบูตลินุกซ์แบบปกติ แต่จะไม่ใช้กับโหมดกู้ระบบ
+Extended_description-tr.utf-8: Aşağıdaki dizgi öntanımlı menü girişinin Linux parametreleri olarak kullanılacak; fakat kurtarma kipi için kullanılmayacaktır.
+Extended_description-ug.utf-8: تۆۋەندىكى ھەرپ تىزىقى كۆڭۈلدىكى تىزىملىك تۈرىنىڭ Linux پارامېتىرىغا ئىشلىتىلىدۇ ئەمما ئەسلىگە كەلتۈرۈش ھالىتىگە قوللىنىلمايدۇ.
+Extended_description-uk.utf-8: Даний рядок буде використано як параметри ядра Linux для типового пункту меню, проте не для режиму відновлення.
+Extended_description-vi.utf-8: Chuỗi theo đây sẽ được sử dụng làm các tham số Linux cho mục nhập trình đơn mặc định, mà không phải cho chế độ phục hồi.
+Extended_description-zh_cn.utf-8: 如下字符串将被用于默认菜单项的 Linux 参数，但是不会用于恢复模式。
+Extended_description-zh_tw.utf-8: 以下的字串將會用在預設的選單項目中做為 Linux 參數，但不會用於回復模式。
+Type: string
+Owners: grub2/linux_cmdline_default
+
+Name: keyboard-configuration/altgr
+Choices: The default for the keyboard layout, No AltGr key, Right Alt (AltGr), Right Control, Right Logo key, Menu key, Left Alt, Left Logo key, Keypad Enter key, Both Logo keys, Both Alt keys
+Choices-am.utf-8: ለፊደል ገበታው ቀዳሚ አጣጣል, AltGr ቁልፍ አልተገኘም, ቀኝ Alt (AltGr), ቀኝ Control, ቀኝ Logo key, ምናሌ ቁልፍ, ግራ Alt, ግራ Logo key, መልስ ቁልፍ, ሁለቱ Logo key, ሁለቱም Alt ቁልፎ
+Choices-ar.utf-8: تخطيط لوحة المفاتيح الافتراضي, لا تستخدم مفتاح AltGr, زر Alt اليمين (AltGr), زر Control الأيمن, مفتاح الشعار الأيمن, مفتاح القائمة, مفتاح Alt الأيسر, مفتاح الشعار الأيسر, مفتاح الإدخال في لوحة الأرقام, مفتاحي الشعار سويّة, مفتاحا Alt سويّة
+Choices-ast.utf-8: La disposición por defeutu pal tecláu, Ensin tecla AltGr, Alt drecha (AltGr), Control Derecha, Tecla Logu Derecha, Tecla Menú, Alt Izquierda, Tecla Logu Izquierda, Tecla Enter del Keypad, Dambes Tecles de Logu, Dambes tecles Alt
+Choices-be.utf-8: Перадвызначаная раскладка клавіятуры, Няма кнопкі AltGr, Правы Alt (AltGr), Правы Control, Правая кнопка Logo, Кнока меню, Левы Alt, Левая кнопка Logo, Enter на лічбавай клавіятуры, Дзве Logo кнопкі, Кнопкі Alt разам
+Choices-bg.utf-8: Избиране на клавиатурна подредба, Без клавиш AltGr, Десен Alt (AltGr), Десен Control, Десен клавиш с лого, Клавиш меню, Ляв Alt, Ляв клавиш с лого, Клавиш Enter (цифров блок), И двата клавиша с лого, Двата клавиша Alt
+Choices-bn.utf-8: কীবোর্ডের জন্য ডিফল্ট লেআউট, কোন AltGr কী নয়, ডান Alt  (AltGr), ডান কন্ট্রোল, ডান লোগো কী, মেনু কী, বাম Alt, বাম লোগো কী, কীপ্যাড এন্টার কী, উভয় লোগো কী, উভয় Alt কী
+Choices-bo.utf-8: མཐེབ་གཞོང་བཀོད་པ་དེའི་སྔོན་སྒྲིག, AltGr མཐེབ་མེད་པ, Alt གཡས (AltGr), Control གཡོན, མཚོན་རྟགས་མཐེབ་གཡས, འདེམས་ཐོ་མཐེབ, Alt གཡོན, མཚོན་རྟགས་མཐེབ་གཡོན, ཨང་གྲངས་ཁུལ་གྱི་Enter མཐེབ, མཚོན་རྟགས་མཐེབ་གཉིས་པོ, Alt མཐེབ་གཉིས་ཀ
+Choices-bs.utf-8: Standardni izbor za raspored tastature, Bez AltGr tipke, Desni Alt (AltGr), Desni Control taster, Desni Logo taster, Meni taster, Lijevi Alt, Lijevi Logo taster, Tastatura Enter tipka, Obje Logo tipke, Obje Alt tipke
+Choices-ca.utf-8: El predeterminat per a la disposició de teclat, Sense tecla AltGr, Alt dret (AltGr), Control dret, Tecla de logotip dreta, Tecla de menú dreta, Alt esquerra, Tecla de logotip esquerra, Tecla Intro del teclat numèric, Ambdues tecles de logotip, Ambues tecles Alt
+Choices-cs.utf-8: Výchozí pro klávesové rozložení, Bez klávesy AltGr, Pravý Alt (AltGr), Pravý Control, Pravá klávesa logo, Klávesa Menu, Levý Alt, Levá klávesa logo, Klávesa Enter v numerickém bloku, Obě klávesy logo, Obě klávesy Alt
+Choices-cy.utf-8: Y dewis diofyn ar gyfer cynllun y bysellfwrdd, Dim bysell AltGr, Alt Dde (AltGr), Control Dde, Bysell Logo Dde, Bysell bwydlen, Alt Chwith, Bysell Logo Chwith, Bysell Enter ar y rhifau, Y ddau fysell Logo, Y ddau fysell Alt
+Choices-da.utf-8: Standard for tastaturlayoutet, Ingen AltGr-tast, Højre Alt (AltGr), Højre Control, Højre Logo-tast, Menu-tast, Venstre Alt, Venstre Logo-tast, Enter-tast på numerisk tastatur, Begge Logo-taster, Begge ALT-taster
+Choices-de.utf-8: Der Standard für die Tastenbelegung, Keine AltGr-Taste, Alt rechts (AltGr), Strg rechts, Windows-Taste rechts, Menütaste, Alt links, Windows-Taste links, Eingabetaste des numerischen Feldes, Beide Windows-Tasten, Beide Alt-Tasten (Alt+AltGr)
+Choices-dz.utf-8: ལྡེ་སྒྲོམ་སྒྲིག་བཀོད་ཀྱི་དོན་ལུ་སྔོན་སྒྲིག་, AltGr ལྡེ་ཡིག་མེད།, གཡས་ཀྱི་གདམ་ལྡེ་ (AltGr), གཡས་ཀྱི་ཚད་འཛིན།, གཡས་ཀྱི་ལས་རྟགས་ལྡེ་ཡིག, དཀར་ཆག་ལྡེ་ཡིག, གཡོན་གྱི་གདམ་ལྡེ།, གཡོན་གྱི་ལས་རྟགས་ལྡེ་ཡིག, ལྡེ་གདན་བཙུགས་ལྡེ།, ལས་རྟགས་ལྡེ་ཡིག་གཉིས་ཆ་ར།, གདམ་ལྡེ་གཉིས་ཆ་ར།
+Choices-el.utf-8: Η προκαθορισμένη επιλογή για τη διάταξη πληκτρολογίου, Μη διαθέσιμο πλήκτρο AltGr, Δεξί Alt (AltGr), Right Control, Πλήκτρο Right Logo, Πλήκτρο Menu, Left Alt, Πλήκτρο Left Logo, πλήκτρο Enter για το keypad, Και τα δυο πλήκτρα Logo, Και τα δύο πλήκτρα Alt
+Choices-eo.utf-8: La originalo por la klavar-aranĝo, Neniu klavo AltGr, Dekstra Alt (AltGr), Dekstra Control, Dekstra Emblemo-klavo, Menu-klavo, Maldekstra Alt, Maldekstra Emblemo-klavo, Enig-klavo de ciferklavaro, Ambaŭ klavoj Logo, Ambaŭ klavoj Alt
+Choices-es.utf-8: Distribución por omisión del teclado, Sin tecla AltGr, Alt derecho (AltGr), Control derecho, Tecla derecha de logo, Tecla de menú, Alt izquierdo, Tecla izquierda de logo, Tecla «Intro» del teclado numérico, Ambas teclas del logo, Ambas teclas de Alt
+Choices-et.utf-8: Vaikimisi klaviatuuripaigutus, Pole AltGr klahvi, Parem Alt (AltGr), Parem Control, Parem logoklahv, Menüüklahv, Vasak Alt, Vasak logoklahv, Numbriklahvistiku Enter-klahv, Mõlemad logoklahvid, Mõlemad Alt-klahvid
+Choices-eu.utf-8: Teklatuaren diseinu lehenetsia, AltGr teklarik ez, Eskuineko Alt (AltGr), Eskuineko Ktrl, Eskuineko logotipoaren tekla, Menua tekla, Ezkerreko Alt, Ezkerreko Logotipoa tekla, Zenbakizko teklatuko Sartu tekla, Bi logotipo teklak, Bi Alt teklak
+Choices-fa.utf-8: طرح بندی پیش فرض صفحه کلید, No AltGr key, کلید Alt (AltGr) راست, کلید Control راست, کلید Logo راست, کلید MenuQ, کلید Alt چپ, کلید Logo چپ, Keypad Enter key, هر دو کلید Logo, هر دو کلید Alt
+Choices-fi.utf-8: Valitse näppäinasettelun oletusarvo, Ei AltGr-näppäintä, Oikea Alt (AltGr), Oikea Control, Oikea Logo-näppäin, Menu-näppäin, Vasen Alt, Vasen Logo-näppäin, Numeronäppäimistön Enter-näppäin, Molemmat Logo-näppäimet, Molemmat Alt-näppäimet
+Choices-fr.utf-8: Disposition par défaut pour le clavier, Pas de touche AltGr, Touche Alt de droite (AltGr), Touche Ctrl de droite, Touche « logo » de droite, Touche Menu, Touche Alt de gauche, Touche « logo » de gauche, Entrée (pavé numérique), Les deux touches « logo », Les deux touches Alt ensemble
+Choices-ga.utf-8: Leagan amach réamhshocraithe, Gan eochair AltGr, Alt Ar Dheis (AltGr), Ctrl Ar Dheis, Eochair lógó ar dheis, Eochair roghchláir, Alt Ar Chlé, Eochair lógó ar chlé, Eochair Enter ar an eochaircheap, An dá eochair lógó, An dá eochair Alt
+Choices-gl.utf-8: A disposición de teclado predeterminada, Sen tecla Alt Gr, Tecla Alt dereita (Alt Gr), Tecla Ctrl dereita, Tecla Logo dereita, Tecla Menú, Tecla Alt esquerda, Tecla Logo esquerda, Tecla Intro do teclado numérico, Ambas as dúas teclas Logo, Ambas as dúas teclas Alt
+Choices-gu.utf-8: કીબોર્ડ દેખાવ માટે મૂળભૂત, અલ્ટર કળ નહી, જમણી અલ્ટ (AltGr), જમણી કંટ્રોલ, જમણી લોગો કળ, મેનુ કળ, ડાબી અલ્ટ, ડાબી લોગો કળ, કીપેડ એન્ટર કળ, બન્ને લૉગો કળો, બન્ને અલ્ટર કળો
+Choices-he.utf-8: ברירת המחדל עבור פריסת המקלדת, ללא מקש AltGr, Alt ימני (AltGr), Control ימני, מקש לוגו ימני, מקש תפריט, Alt שמאלי, מקש לוגו שמאלי, מקש Enter ב-Keypad, שני מקשי הלוגו, שני מקשי Alt
+Choices-hi.utf-8: कुंजीपटल का डिफॉल्ट अभिन्यास, ऑल्ट-जीआर (AltGr) कुंजी नहीं., दाहिना ऑल्ट (AltGr), दाहिना कन्ट्रोल, दाहिनी चिह्न कुंजी, मेनु कुंजी, बाहिना ऑल्ट, बाहिनी चित्र कुंजी, कुंजी पैड एंटर कुंजी, दोनों लोगो वाले कुंजी, दोनों ऑल्ट कुंजी
+Choices-hr.utf-8: Izbor zadane tipkovnice, Nema AltGr tipke, Desni Alt (AltGr), Desna Control tipka, Desna Logo tipka, Tipka izbornika, Lijeva Alt tipka, Lijeva Logo tipka, Enter tipka na numeričkom dijelu, Obje Logo tipke, Obje tipke Alt
+Choices-hu.utf-8: Alapértelmezés a billentyűzetkiosztáshoz, Nincs AltGr billentyű, Jobb Alt (AltGr), Jobb Control, Jobb logó billentyű, Menü billentyű, Bal Alt, Bal logó billentyű, Numerikus Enter, Mindkét logó billentyű, Mindkét Alt billentyű
+Choices-id.utf-8: Pola keyboard standar, Tanpa tombol AltGr, Alt (AltGr) kanan, Ctrl Kanan, Tombol Logo Kanan, Tombol Menu, Alt Kiri, Tombol Logo Kiri, Tombol Enter numerik, Kedua tombol Logo, Kedua tombol Alt
+Choices-is.utf-8: Sjálfgefið í lyklaborðsuppsetningu, Enginn AltGr hnappur, Hægri Alt lykill (AltGr), Vinstri Ctrl, Hægri Merkja-lykill (Win), Menu-lykill, Vinstri Alt, Vinstri Merkja-lykill (Win), Enter-lykill á talnaborði, Báðir Merkja-lyklarnir (Win), Báðir Alt-lyklarnir
+Choices-it.utf-8: La disposizione predefinita della tastiera, Tasto Alt destro mancante, Alt destro (AltGr), Ctrl destro, Tasto Windows destro, Tasto menù, Alt sinistro, Tasto Windows sinistro, Tasto Enter del tastierino numerico, Entrambi i tasti Windows, Entrambi i tasti Alt
+Choices-ja.utf-8: キーボード配置のデフォルト, AltGr キーなし, 右 Alt (AltGr), 右 Control, 右ロゴキー, メニューキー, 左 Alt, 左ロゴキー, キーパッドの Enter キー, 両ロゴキー, 両 Alt キー
+Choices-kk.utf-8: Пернетақта жаймасы үшін бастапқы, AltGr пернесі жоқ, Оң жақ Alt (AltGr), Оң жақ Control, Оң жақ Logo пернесі, Menu пернесі, Сол жақ Alt, Сол жақ Logo пернесі, Сандық жақтағы Enter пернесі, Екі Logo пернесі, Екі Alt пернесі
+Choices-km.utf-8: លំនាំដើម​សម្រាប់​ប្លង់​ក្ដារចុច, គ្មាន​គ្រាប់ចុច​ AltGr, Alt (AltGr) ខាង​ស្ដាំ, គ្រាប់ចុច​បញ្ជា (Ctrl) ខាង​ស្ដាំ, គ្រាប់ចុច Logo ខាង​ស្ដាំ, គ្រាប់ចុច​ម៉ឺនុយ, គ្រាប់ Alt ខាង​ឆ្វេង, គ្រាប់ Logo ខាង​ឆ្វេង, គ្រាប់ចុច​បញ្ចូល​នៅ​លើ​បន្ទះ​លេខ, គ្រាប់ចុច​ Logo ទាំង​ពីរ, គ្រាប់ចុច Alt
+Choices-kn.utf-8: ಅಕ್ಷರಫಲಕದ ಪೂರ್ವನಿರ್ಧಾರಿತ ವಿನ್ಯಾಸ, AltGr ಕೀಲಿ ಇರುವುದಿಲ್ಲ, ಬಲ ಆಲ್ಟ್ (AltGr), ಬಲ ಕಂಟ್ರೋಲ್, ಬಲ ಲೋಗೊ ಕೀಲಿ, ಮೆನು ಕೀಲಿ, ಎಡ ಆಲ್ಟ್, ಎಡ ಲೋಗೊ ಕೀಲಿ, ಅಕ್ಷರಮಣೆಯ ಎಂಟರ್ ಕೀಲಿ, ಎರಡೂ ಲೋಗೋ ಕೀಲಿಗಳು, ಎರಡೂ Alt ಕೀಲಿಗಳು
+Choices-ko.utf-8: 기본 키보드 배치, AltGr 키 없음, 오른쪽 Alt (AltGr), 오른쪽 Control, 오른쪽 로고 키, 메뉴 키, 왼쪽 Alt, 왼쪽 로고 키, 키패드 Enter 키, 양쪽 로고 키, 양쪽 Alt 키
+Choices-ku.utf-8: Standarda cureyê klavyeyê, Ne bişkoja AltGr, Rast Alt (AlrGr), control a rastê, Bişkoka logo ya rastê, Mifteya Pêşekê, Alt a çepê, Bişkoka logo ya çepê, Klavye kilîlê binivîse, Herdu bişkokên logo yê, Her du bişkojên Alt bi hev re
+Choices-lo.utf-8: ຄ່າເລີ່ມຕົ້ນຂອງຜັງແປ້ນພິມ, AltGrສຳຄັນບໍ່ມີ, Alt ຂວາ (AltGr), ຄວບຄຸມຂວາ, ແປ້ນໂລໂກ້ຂວາ, ເມນູສຳຄັນ, Alt ຂ້າງຊ້າຍ, ແປ້ນໂລໂກ້ຊ້າຍ, ປຸ່ມກົດປຸ່ມ Enter, ທັ້ງສອງຄຣີໂລໂກ້, ທັ້ງສອງຄຣີ Alt
+Choices-lt.utf-8: Numatytasis klaviatūros išdėstyme, Lyg3 klavišo nenaudoti, Dešinysis Alt (Lyg3), Dešinysis Vald, Dešinysis Logo klavišas, Meniu klavišas, Kairysis Alt, Kairysis Logo klavišas, Skaitmenų srities klavišas Įvesti, Abu Logo klavišai, Abu Alt klavišai
+Choices-lv.utf-8: Tastatūras izklājuma noklusējuma vērtība, Bez AltGr taustiņa, Labais Alt (AltGr), Labais Ctrl, Labais Logo taustiņš, Izvēlnes taustiņš, Kreisais Alt, Kreisais Logo taustiņš, Ciparu tastatūras Enter, Abi Logo taustiņi, Abi Alt taustiņi
+Choices-mk.utf-8: Основен избор за распоредот на тастатурата, Без AltGr копче, Десен Alt (AltGr), Десен Control, Десното Лого копче, Мени копче, Лев Alt, Левото лого копче, Ентер на нумеричка тастатура, Двете лого копчиња, Двете Alt копчиња
+Choices-ml.utf-8: ഒരു കീബോര്‍ഡ് വിന്യാസത്തിന്റെ സഹജവില, ആള്‍ട്ട്ജിആര്‍ കീ ഇല്ല, വലത് ആള്‍ട്ട് (AltGr), വലത് കണ്ട്രോള്‍, വലത് ലോഗോ കീ, മെനു കീ, ഇടത് ആള്‍ട്ട്, ഇടത് ലോഗോ കീ, കീപാഡ് എന്‍ര്‍ കീ, രണ്ടു് ലോഗോ കീകളും, രണ്ടു് ആള്‍ട്ട് കീകളും
+Choices-mr.utf-8: कळफलकाचा मूलनिर्धारित आरखडा, AltGr कळ नाही, उजवी Alt (AltGr), उजवी Control, उजवी लोगो कळ, मेनू कळ, डावी Alt, डावी लोगो कळ, कळपॅड एंटर कळ, दोन्ही लोगो कळी, दोन्ही Alt कळी
+Choices-nb.utf-8: Standarden for tastaturutformingen, Ingen AltGr-tast, Høyre Alt (Alt Gr), Høyre Ctrl, Høyre logotast, Menytast, Venstre Alt, Venstre logotast, Enter-tasten på det numeriske tastaturet, Begge Logo-tastene, Begge Alt-tastene
+Choices-nl.utf-8: De standaard voor de toetsenbordindeling, Geen AltGr-toets, Alt-Rechts (AltGr), Control-Rechts, Logotoets-Rechts, Menutoets, Alt-Links, Logotoets-Links, Keypad Enter-toets, Beide Logotoetsen, Beide Alt-toetsen
+Choices-no.utf-8: Standarden for tastaturutformingen, Ingen AltGr-tast, Høyre Alt (Alt Gr), Høyre Ctrl, Høyre logotast, Menytast, Venstre Alt, Venstre logotast, Enter-tasten på det numeriske tastaturet, Begge Logo-tastene, Begge Alt-tastene
+Choices-pa.utf-8: ਆਪਣਾ ਕੀ-ਬੋਰਡ ਲੇਆਉਟ ਚੁਣੋ, ਕੋਈ altGr ਸਵਿੱਚ ਨਹੀਂ, ਸੱਜਾ Alt (AltGr), ਸੱਜਾ Ctrl, ਸੱਜੀ ਲੋਗੋ ਸਵਿੱਚ, ਮੇਨੂ ਸਵਿੱਚ, ਖੱਬਾ Alt, ਖੱਬੀ ਲੋਗੋ ਸਵਿੱਚ, ਕੀ-ਪੈਡ Enter ਸਵਿੱਚ, ਦੋਵੇਂ ਲੋਗੋ ਸਵਿੱਚ, ਦੋਵੇਂ Alt ਸਵਿੱਚ
+Choices-pl.utf-8: Domyślne ustawienie dla danego układu klawiatury, Bez klawisza AltGr, Prawy Alt (AltGr), Prawy Control, Prawy klawisz logo, Klawisz menu, Lewy Alt, Lewy klawisz logo, Klawisz ENTER klawiatury pomocniczej, Oba klawisze logo, Oba klawisze Alt
+Choices-pt.utf-8: O predefinido para a disposição do teclado, Sem tecla AltGr, Alt direito (AltGr), Control Direito, Tecla Logotipo Direito, Tecla Menu, Alt Esquerdo, Tecla de Logotipo Esquerdo, Tecla Enter do teclado numérico, Ambas as teclas de Logotipo, Ambas as teclas Alt
+Choices-pt_br.utf-8: O padrão para o layout de teclado, Sem tecla AltGr, Alt Direito (AltGr), Control Direito, Tecla Logo Direita, Tecla Menu, Alt Esquerdo, Tecla Logo Esquerda, Tecla Enter do teclado numérico, Ambas teclas Logo, Ambas teclas Alt
+Choices-ro.utf-8: Valoarea implicită a aranjamentului de tastatură, Fără tastă AltGr, Alt dreapta (AltGr), Control dreapta, Tasta logo dreapta, Tasta meniu, Alt stânga, Tasta logo stânga, Tasta Enter de pe keypad, Ambele taste Logo, Ambele taste Alt
+Choices-ru.utf-8: Раскладка клавиатуры по умолчанию, нет клавиши AltGr, правый Alt (AltGr), правый Control, правая клавиша с логотипом, клавиша с меню, левый Alt, левая клавиша с логотипом, Enter на цифр. клавиатуре, обе клавиши с логотипом, о�

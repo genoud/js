@@ -1,0 +1,1467 @@
+sition>238.20000000000005</topposition>
+            <width>134.83870866141734</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getMobilePhone1().getCountry()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076799310_195</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.007874015748</height>
+            <leftposition>264.0272965879267</leftposition>
+            <topposition>261.8215053763449</topposition>
+            <width>134.83870866141734</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getMobilePhone2().getCountry()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076799561_196</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>264.0272965879267</leftposition>
+            <topposition>286.2215053763458</topposition>
+            <width>134.83870866141734</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getMobilePhone3().getCountry()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076799819_197</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>264.0272965879267</leftposition>
+            <topposition>325.9903225806449</topposition>
+            <width>134.83870866141734</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getFaxPhone().getCountry()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076800069_198</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>415.41116755566867</leftposition>
+            <topposition>238.20000000000005</topposition>
+            <width>134.83870967741927</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getMobilePhone1().getDescription()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076800308_199</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.007874015748</height>
+            <leftposition>415.41116755566867</leftposition>
+            <topposition>261.8215053763449</topposition>
+            <width>134.83870967741927</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getMobilePhone2().getDescription()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076800566_200</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>415.41116755566867</leftposition>
+            <topposition>286.2215053763458</topposition>
+            <width>134.83870967741927</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getMobilePhone3().getDescription()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076800788_201</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>415.41116755566867</leftposition>
+            <topposition>325.9903225806449</topposition>
+            <width>134.8387086614173</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getFaxPhone().getDescription()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076801027_202</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.007874015747973</height>
+            <leftposition>300.4047155905512</leftposition>
+            <topposition>369.06666666666814</topposition>
+            <width>250.4000000000002</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getJointlyBySignature('authorizedSignature')</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076801313_203</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>300.4047155905512</leftposition>
+            <topposition>395.53333333333006</topposition>
+            <width>250.4000000000002</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getJointlyWithNumberSignature('authorizedSignature')</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076801563_204</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>12.0</height>
+            <leftposition>160.7666666666669</leftposition>
+            <topposition>423.3999999999948</topposition>
+            <width>22.0</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.isAsPairAttachedSignature('authorizedSignature')</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076801833_205</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>300.4047146401986</leftposition>
+            <topposition>422.2333333333308</topposition>
+            <width>250.4000000000002</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getAsPairAttachedSignature('authorizedSignature')</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076915009_206</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>14.666666666666629</height>
+            <leftposition>56.76666666666668</leftposition>
+            <topposition>186.50000000000003</topposition>
+            <width>17.000000000000014</width>
+            <zindex>1</zindex>
+            <expression>IF($partyAuthSignHelperD.getPhone3().isValid(), 'X', ' ')</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076915274_207</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>16.66666666666663</height>
+            <leftposition>81.64904749809511</leftposition>
+            <topposition>185.60967741935428</topposition>
+            <width>23.333333333333343</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getPhone3().getInternationalPrefix()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076915587_208</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>119.69569892473129</leftposition>
+            <topposition>185.60967741935428</topposition>
+            <width>134.83870866141734</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getPhone3().getInternationalNumberWithoutPrefix()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076915845_209</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>264.20967741935493</leftposition>
+            <topposition>185.60967741935428</topposition>
+            <width>134.83870866141734</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getPhone3().getCountry()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076916117_210</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>415.4268817204302</leftposition>
+            <topposition>185.60967741935428</topposition>
+            <width>134.8387096774195</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getPhone3().getDescription()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076916401_211</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>14.666666666666515</height>
+            <leftposition>56.76666666666668</leftposition>
+            <topposition>162.64301075268835</topposition>
+            <width>17.000000000000014</width>
+            <zindex>1</zindex>
+            <expression>IF($partyAuthSignHelperD.getPhone2().isValid(), 'X', ' ')</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076916691_212</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>16.666666666666742</height>
+            <leftposition>81.64904749809511</leftposition>
+            <topposition>162.0</topposition>
+            <width>23.333333333333343</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getPhone2().getInternationalPrefix()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076916967_213</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>119.69569892473129</leftposition>
+            <topposition>162.0</topposition>
+            <width>134.83870866141734</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getPhone2().getInternationalNumberWithoutPrefix()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076917232_214</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>264.20967741935493</leftposition>
+            <topposition>162.0</topposition>
+            <width>134.83870866141734</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getPhone2().getCountry()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076917519_215</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>415.4268817204302</leftposition>
+            <topposition>162.0</topposition>
+            <width>134.8387096774195</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getPhone2().getDescription()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076917806_216</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>14.666666666666742</height>
+            <leftposition>56.76666666666668</leftposition>
+            <topposition>139.10967741935497</topposition>
+            <width>17.000000000000014</width>
+            <zindex>1</zindex>
+            <expression>IF($partyAuthSignHelperD.getPhone1().isValid(), 'X', ' ')</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076918076_217</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>16.666666666666742</height>
+            <leftposition>81.64904749809511</leftposition>
+            <topposition>137.90215053763472</topposition>
+            <width>23.333333333333343</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getPhone1().getInternationalPrefix()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076918336_218</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>119.69569892473129</leftposition>
+            <topposition>137.90215053763472</topposition>
+            <width>134.83870866141734</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getPhone1().getInternationalNumberWithoutPrefix()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076918606_219</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>264.20967741935493</leftposition>
+            <topposition>137.90215053763472</topposition>
+            <width>134.83870866141734</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getPhone1().getCountry()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1431076918858_220</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.00787401574803</height>
+            <leftposition>415.4268817204302</leftposition>
+            <topposition>137.90215053763472</topposition>
+            <width>134.8387096774195</width>
+            <zindex>1</zindex>
+            <expression>$partyAuthSignHelperD.getPhone1().getDescription()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+    </outputformpage>
+    <outputformpage>
+        <rotation>0</rotation>
+        <visibility/>
+        <replicationstrategy>0</replicationstrategy>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1339667055416_25</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <bgcolor>255,255,255</bgcolor>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.0</height>
+            <leftposition>162.5</leftposition>
+            <topposition>167.0</topposition>
+            <width>129.0</width>
+            <zindex>1</zindex>
+            <expression>$businessRelationshipHelper.getOpeningDate()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+            <valuefieldparameter>
+                <name>valign</name>
+                <value>'middle'</value>
+            </valuefieldparameter>
+        </formfield>
+        <formfield>
+            <name/>
+            <description/>
+            <formfieldid>field_1339667055428_26</formfieldid>
+            <nextformfieldid/>
+            <replicationstrategy>0</replicationstrategy>
+            <emptyvisibility>false</emptyvisibility>
+            <transparency>1.0</transparency>
+            <fieldMarkerExpression/>
+            <fieldMarkerVisible>false</fieldMarkerVisible>
+            <copy>nocopy</copy>
+            <height>17.0</height>
+            <leftposition>162.5</leftposition>
+            <topposition>140.0</topposition>
+            <width>388.0</width>
+            <zindex>1</zindex>
+            <expression>$businessRelationshipHelper.getOpeningPlace()</expression>
+            <visibility/>
+            <blank>false</blank>
+            <valuefieldtype>TEXT</valuefieldtype>
+            <valuefieldparameter>
+                <name>indent</name>
+                <value>0</value>
+            </valuefieldparameter>
+        </formfield>
+    </outputformpage>
+</outputform>
+
+pdfFile=3380e8a7-359f-4e85-bf68-bb9ef417ba4e
+pdffile=3380e8a7-359f-4e85-bf68-bb9ef417ba4e
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       1,924,2064,0
+<?xml version="1.0" encoding="UTF-8"?>
+<object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="object.xsd">
+    <id>CMN_OptionalServiceFactory__vCI</id>
+    <uuid>13d07362-2c85-4331-ad5f-47bf33bfd343</uuid>
+    <type>ScriptFunction</type>
+    <name/>
+    <description/>
+    <creator>odoherty</creator>
+    <creationTime>1471614307375</creationTime>
+    <modifier>bernard</modifier>
+    <modificationTime>1473172866461</modificationTime>
+    <active>true</active>
+    <versionUuid>58a1bf8c-04da-4e44-a2d7-83dd272c6077</versionUuid>
+    <parentVersionUuid>113f3d71-abf1-401d-ba9e-9319ad4df3ea</parentVersionUuid>
+    <timestamp>1475260129806</timestamp>
+    <systemId>h-global-predev.appway.com</systemId>
+    <copyOfUuid>e3fd2759-60e6-4a7f-a49f-6aece165519c</copyOfUuid>
+    <committed>true</committed>
+    <deleted>false</deleted>
+    <userId>magloire</userId>
+    <metaData/>
+</object>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<scriptfunction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="scriptfunction.xsd">
+    <definition><![CDATA[Function CMN_OptionalServiceFactory__vCI(String $optionID) : CMN_OptionalService Begin
+   If false Then
+      GETBUSINESSOBJECT('Catalog', 'CMN_Options');
+   End
+   If $optionID == 'fiduciaryTimeDepositMandate' Then
+      Return NEW(CMN_OptionalServiceFiducTimeDepMandate, 'fiduciaryTimeDepositMandate');
+   ElseIf $optionID == 'fiduciaryDepositHighRisk' Then
+      Return NEW(CMN_OptionalServiceFiducTimeDepMandateHighRisk, 'fiduciaryDepositHighRish');
+   ElseIf $optionID == 'generalDeedPledge' Then
+      Return NEW(CMN_OptionalServiceDeedPledge, 'generalDeedPledge');
+   ElseIf $optionID == 'generalPledgeThird' Then
+      Return NEW(CMN_OptionalServiceThirdPartyPledge, 'generalPledgeThird');
+   ElseIf $optionID == 'generalAgreementTradeOperation' Then
+      Return NEW(CMN_OptionalServiceGenAgrTradeOper, 'generalAgreementTradeOperation');
+   ElseIf $optionID == 'safeDepositBox' Then
+      Return NEW(CMN_OptionalServiceSafeDepositBox, 'safeDepositBox');
+   ElseIf $optionID == 'internetBanking' Then
+      Return NEW(CMN_OptionalServiceInternetBanking, 'internetBanking');
+   ElseIf $optionID == 'internetAccess' Then
+      Return NEW(CMN_OptionalServiceInternetBanking, 'internetAccess');
+   ElseIf $optionID == 'internetBankingViewOnlyService' Then
+      Return NEW(CMN_OptionalService, 'internetBankingViewOnlyService');
+   ElseIf $optionID == 'directInternetAccessHSBCSite' Then
+      Return NEW(CMN_OptionalServiceDirectInternetAccess, 'directInternetAccessHSBCSite');
+   ElseIf $optionID == 'creditCard' Then
+      Return NEW(CMN_OptionalServiceCreditCard, 'creditCard');
+   ElseIf $optionID == 'purposeOfAccount' Then
+      Return NEW(CMN_OptionalService, 'purposeOfAccount');
+   ElseIf $optionID == 'paymentsAndCashMngService' Then
+      Return NEW(CMN_OptionalService, 'paymentsAndCashMngService');
+   End
+   Return null;
+End]]></definition>
+</scriptfunction>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1,905,4113,0
+<?xml version="1.0" encoding="UTF-8"?>
+<object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="object.xsd">
+    <id>COB_NegativeNews</id>
+    <uuid>13ffb32f-4e4a-4bf1-be06-7b24828da91a</uuid>
+    <type>Catalogue</type>
+    <name/>
+    <description/>
+    <creator>turinetti</creator>
+    <creationTime>1421853913223</creationTime>
+    <modifier>bernard</modifier>
+    <modificationTime>1474030958530</modificationTime>
+    <active>true</active>
+    <versionUuid>7c5273e8-7bd9-4a8a-a2b1-075f38c7c529</versionUuid>
+    <parentVersionUuid>ff4e720e-b99e-428d-b86b-71da634e0778</parentVersionUuid>
+    <timestamp>1475260129806</timestamp>
+    <systemId>h-global-predev.appway.com</systemId>
+    <copyOfUuid>ffa6cb57-4100-4b20-a076-5ea1393f0347</copyOfUuid>
+    <committed>true</committed>
+    <deleted>false</deleted>
+    <userId>magloire</userId>
+    <metaData/>
+</object>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalogue.xsd">
+    <parameterDefinitions/>
+    <source class="com.nm.sdk.data.catalogues.sources.stat.StaticSource">
+        <content>
+            <columns>
+                <column name="id" width="100"/>
+                <column name="title" width="100"/>
+                <column name="questions" width="321"/>
+                <column name="date" width="100"/>
+                <column name="comment" width="100"/>
+                <column name="isMandatory" width="100"/>
+                <column name="sil_id" width="100"/>
+            </columns>
+            <records>
+                <record>
+                    <cell column="id">worldcheck</cell>
+                    <cell column="title">Worldcheck</cell>
+                    <cell column="questions">NoHit|FalseHit|Match</cell>
+                    <cell column="date">true</cell>
+                    <cell column="comment">true</cell>
+                    <cell column="isMandatory">true</cell>
+                    <cell column="sil_id">worldcheck</cell>
+                </record>
+                <record>
+                    <cell column="id">lexisNexis</cell>
+                    <cell column="title">Lexis - Nexis</cell>
+                    <cell column="questions">NoHit|FalseHit|Match|NotApplicable</cell>
+                    <cell column="date">true</cell>
+                    <cell column="comment">true</cell>
+                    <cell column="isMandatory">true</cell>
+                    <cell column="sil_id">lexisNexis</cell>
+                </record>
+                <record>
+                    <cell column="id">rdc</cell>
+                    <cell column="title">RDC</cell>
+                    <cell column="questions">NoHit|FalseHit|Match|NotApplicable</cell>
+                    <cell column="date">true</cell>
+                    <cell column="comment">true</cell>
+                    <cell column="isMandatory">true</cell>
+                    <cell column="sil_id">RDC</cell>
+                </record>
+                <record>
+                    <cell column="id">globalExitWatchList</cell>
+                    <cell column="title">Global Exit Watch List</cell>
+                    <cell column="questions">NoHit|FalseHit|Match|NotApplicable</cell>
+                    <cell column="date">true</cell>
+                    <cell column="comment">true</cell>
+                    <cell column="isMandatory">true</cell>
+                    <cell column="sil_id">globalExitWatch</cell>
+                </record>
+                <record>
+                    <cell column="id">localWatchList</cell>
+                    <cell column="title">Local Watch List</cell>
+                    <cell column="questions">NoHit|FalseHit|Match|NotApplicable</cell>
+                    <cell column="date">true</cell>
+                    <cell column="comment">true</cell>
+                    <cell column="isMandatory">true</cell>
+                    <cell column="sil_id">localWatchList</cell>
+                </record>
+                <record>
+                    <cell column="id">internet</cell>
+                    <cell column="title">Internet</cell>
+                    <cell column="questions">NoHit|FalseHit|Match|NotApplicable</cell>
+                    <cell column="date">true</cell>
+                    <cell column="comment">true</cell>
+                    <cell column="isMandatory">true</cell>
+                    <cell column="sil_id">internet</cell>
+                </record>
+                <record>
+                    <cell column="id">other</cell>
+                    <cell column="title"/>
+                    <cell column="questions">NoHit|FalseHit|Match|NotApplicable</cell>
+                    <cell column="date">true</cell>
+                    <cell column="comment">true</cell>
+                    <cell column="isMandatory">false</cell>
+                    <cell column="sil_id">other</cell>
+                </record>
+            </records>
+        </content>
+    </source>
+</catalog>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       1,925,4324,0
+<?xml version="1.0" encoding="UTF-8"?>
+<object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="object.xsd">
+    <id>INT_SILMappingSILtoCMNVariation__HK</id>
+    <uuid>a249aebb-f3d2-4a30-a8b2-11505818c1e7</uuid>
+    <type>DataStructure</type>
+    <name/>
+    <description/>
+    <creator>bellanca</creator>
+    <creationTime>1466165893635</creationTime>
+    <modifier>pezzi</modifier>
+    <modificationTime>1472459361478</modificationTime>
+    <active>true</active>
+    <versionUuid>a1ec154a-d8d5-4eec-acb5-c3337f8dcfee</versionUuid>
+    <parentVersionUuid>d5d99781-163a-439a-999e-539ae658d606</parentVersionUuid>
+    <timestamp>1475260129806</timestamp>
+    <systemId>h-global-predev.appway.com</systemId>
+    <copyOfUuid>1a1b692c-b292-42fa-9109-40e32a5ad91c</copyOfUuid>
+    <committed>true</committed>
+    <deleted>false</deleted>
+    <userId>magloire</userId>
+    <metaData/>
+</object>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<class dname="" name="INT_SILMappingSILtoCMNVariation__HK" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dataitemclass.xsd">
+    <superclasses>
+        <superclass class="INT_SILMappingSILtoCMNVariation"/>
+    </superclasses>
+    <properties/>
+    <methods>
+        <method name="createCMNBusinessRelationshipFromSILAccount" userId="pezzi" uuid="00000000-0cb3-c4c1-0000-000000000000">
+            <definition><![CDATA[/**
+  Description of function 'createCMNBusinessRelationshipFromSILAccount'.
+  @param $value Description of parameter '$value'.
+  @return       Description of return value.
+*/
+StaticFunction createCMNBusinessRelationshipFromSILAccount(CMN_BusinessRelationship $cmnBusinessRelationship, SIL_ACCOUNTaccount $silAccount) : Nothing Begin
+   If $silAccount.nbceClassification != null Then
+      $cmnBusinessRelationship.regulatoryProfile.nbceClassification.remark := INT_SILMappingSILtoCMN._mapString($cmnBusinessRelationship.regulatoryProfile.nbceClassification.remark, $silAccount.nbceClassification.nBCEComment);
+      $cmnBusinessRelationship.regulatoryProfile.nbceClassification.classificationOverride := INT_SILMappingSILtoCMN._mapString($cmnBusinessRelationship.regulatoryProfile.nbceClassification.classificationOverride, LIST($silAccount.nbceClassification.nBCEOverride, 'CMN_NBCEClassification__HK', 'id', 'sil_Id'));
+   End
+   $cmnBusinessRelationship.kytProfile.purposeOfAccount.reasonAccountNotPersonal := INT_SILMappingSILtoCMN._mapString($cmnBusinessRelationship.kytProfile.purposeOfAccount.reasonAccountNotPersonal, $silAccount.nomineeArrangementReason);
+End]]></definition>
+        </method>
+        <method name="createCMNLegalEntity" userId="pezzi" uuid="ffffffff-897c-8034-0000-000000000000">
+            <definition><![CDATA[/**
+  Description of function 'createCMNLegalEntity'.
+  @param $value Description of parameter '$value'.
+  @return       Description of return value.
+*/
+StaticFunction createCMNLegalEntity(SIL_INVOLVEDPARTYorganization $silOrganization, CMN_LegalEntity $cmnLegalEntity) : Nothing Begin
+   If LIB_Validator.validateNotEmptyIndexed($silOrganization.nbceList) Then
+      SIL_INVOLVEDPARTYnbce $silNBCE := $silOrganization.nbceList[1];
+      $cmnLegalEntity.regulatoryProfile.nbceIndicators.entityType := INT_SILMappingSILtoCMN._mapString($cmnLegalEntity.regulatoryProfile.nbceIndicators.entityType, LIST($silNBCE.nBCEType, 'CMN_NBCEPRCGovernments__HK', 'id', 'sil_Id'));
+      $cmnLegalEntity.regulatoryProfile.nbceIndicators.beneficialOwnershipRate := INT_SILMappingSILtoCMN._mapString($cmnLegalEntity.regulatoryProfile.nbceIndicators.beneficialOwnershipRate, $silNBCE.beneficialOwnershipRatio);
+      $cmnLegalEntity.regulatoryProfile.nbceIndicators.beneficialOwnershipMainlandInterest := INT_SILMappingSILtoCMN._mapBoolean($cmnLegalEntity.regulatoryProfile.nbceIndicators.beneficialOwnershipMainlandInterest, $silNBCE.beneficialOwnershipMainlandInterestIndicator);
+   End
+   If $silOrganization.isSubOrganizationOf != null && LIB_Validator.validateNotEmptyIndexed($silOrganization.isSubOrganizationOf.nbceList) Then
+      SIL_INVOLVEDPARTYnbce $silNBCE := $silOrganization.isSubOrganizationOf.nbceList[1];
+      $cmnLegalEntity.regulatoryProfile.nbceIndicators.ownedByPRCCorporation := INT_SILMappingSILtoCMN._mapBoolean($cmnLegalEntity.regulatoryProfile.nbceIndicators.ownedByPRCCorporation, $silNBCE.mainlyOwnedByPRCIndicator);
+      $cmnLegalEntity.regulatoryProfile.nbceIndicators.owningPRCCorporationType := INT_SILMappingSILtoCMN._mapString($cmnLegalEntity.regulatoryProfile.nbceIndicators.owningPRCCorporationType, LIST($silNBCE.nBCECorporationType, 'CMN_NBCEPRCCorporations__HK', 'id', 'sil_Id'));
+      $cmnLegalEntity.regulatoryProfile.nbceIndicators.entityOwnerType := INT_SILMappingSILtoCMN._mapString($cmnLegalEntity.regulatoryProfile.nbceIndicators.entityOwnerType, LIST($silNBCE.nBCEType, 'CMN_NBCEPRCGovernments__HK', 'id', 'sil_Id'));
+   End
+   $cmnLegalEntity.regulatoryProfile.nbceIndicators.ownershipRate := INT_SILMappingSILtoCMN._mapString($cmnLegalEntity.regulatoryProfile.nbceIndicators.ownershipRate, LIST(TOSTRING($silOrganization.parentOwnshipRatio), 'CMN_NBCEOwnershipRate__HK', 'id', 'sil_Id'));
+End]]></definition>
+        </method>
+    </methods>
+</class>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                1,907,86229,0
+<?xml version="1.0" encoding="UTF-8"?>
+<object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="object.xsd">
+    <id>CMN_IncludeFCCRiskSummary</id>
+    <uuid>7d383d7d-45f4-4979-aab1-8d9680ead1c6</uuid>
+    <type>Screen</type>
+    <name/>
+    <description/>
+    <creator>sabino</creator>
+    <creationTime>1433420459722</creationTime>
+    <modifier>gurcay</modifier>
+    <modificationTime>1465384727539</modificationTime>
+    <active>true</active>
+    <versionUuid>3c4437a1-5070-410b-94ba-cbc63a71e404</versionUuid>
+    <parentVersionUuid>ce50a608-fd01-45ae-8655-ea481fa191ed</parentVersionUuid>
+    <timestamp>1475260129806</timestamp>
+    <systemId>h-global-predev.appway.com</systemId>
+    <copyOfUuid>093e3921-6402-4ad4-9f47-bf068d2d2178</copyOfUuid>
+    <committed>true</committed>
+    <deleted>false</deleted>
+    <userId>magloire</userId>
+    <metaData/>
+</object>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<screen version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="screen.xsd">
+    <parameterDefinitions>
+        <parameterDefinition collectionType="none" defaultExpression="" description="(inherited from COB_StageRMApproves) (inherited from CMN_FCRRCalculation) (inherited from CMN_FCRRCalculation) (inherited from CMN_CustomerFCRRCalculation)" mode="inherited" type="CMN_Root" variable="root"/>
+        <parameterDefinition collectionType="none" defaultExpression="" description="(inherited from COB_StageRMApproves) (inherited from CMN_FCRRCalculation) (inherited from CMN_FCRRCalculation) (inherited from CMN_CustomerFCRRCalculation)" mode="inherited" type="String" variable="action"/>
+        <parameterDefinition collectionType="none" defaultExpression="" description="" mode="assigned" type="CMN_BusinessRelationship" variable="businessRelationship"/>
+        <parameterDefinition collectionType="none" defaultExpression="" description="" mode="assigned" type="CMN_Party" variable="party"/>
+        <parameterDefinition collectionType="none" defaultExpression="If $party.type.isPhysicalPerson() Then&#xa;   Return CAST(CMN_PhysicalPerson, $party).contact;&#xa;Else&#xa;   Return CAST(CMN_LegalEntity, $party).contact;&#xa;End" description="" mode="local" type="CMN_Contact" variable="contract"/>
+    </parameterDefinitions>
+    <view class="com.nm.sdk.data.pages.views.components.View" id="0">
+        <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayout" id="1">
+            <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="2">
+                <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="7" text="[LABEL:CMN_FCCRiskSummary.fcc.risk.summary]" textStyle="h3"/>
+            </customContainer>
+            <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutGroup" id="3">
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutGroupHeader" id="224">
+                    <component class="com.nm.sdk.data.pages.views.components.Switch" expression="$party.FCCRiskRating.calculatedFCCRRCountryCode" id="226">
+                        <component class="com.nm.sdk.data.pages.views.components.Case" id="227" result="'L'">
+                            <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="225" label="=LIST($party.FCCRiskRating.calculatedFCCRRCountryCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingLow">
+                                <style>
+                                    <property name="color" value="#8DC216"/>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="padding-left" value="10px"/>
+                                    <property name="cursor" value="default"/>
+                                </style>
+                            </component>
+                        </component>
+                        <component class="com.nm.sdk.data.pages.views.components.Case" id="230" result="'M'">
+                            <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="239" label="=LIST($party.FCCRiskRating.calculatedFCCRRCountryCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingMedium">
+                                <style>
+                                    <property name="color" value="#ECC216"/>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="padding-left" value="10px"/>
+                                    <property name="cursor" value="default"/>
+                                </style>
+                            </component>
+                        </component>
+                        <component class="com.nm.sdk.data.pages.views.components.Case" id="233" result="'H'">
+                            <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="240" label="=LIST($party.FCCRiskRating.calculatedFCCRRCountryCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingHigh">
+                                <style>
+                                    <property name="color" value="#EC8B16"/>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="padding-left" value="10px"/>
+                                    <property name="cursor" value="default"/>
+                                </style>
+                            </component>
+                        </component>
+                        <component class="com.nm.sdk.data.pages.views.components.Case" id="236" result="'S'">
+                            <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="241" label="=LIST($party.FCCRiskRating.calculatedFCCRRCountryCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingUltraHigh">
+                                <style>
+                                    <property name="color" value="#E51700"/>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="padding-left" value="10px"/>
+                                    <property name="cursor" value="default"/>
+                                </style>
+                            </component>
+                        </component>
+                    </component>
+                </customContainer>
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="4">
+                    <component class="com.nm.sdk.data.pages.views.components.Infobox" id="17" orientation="vertical">
+                        <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="19" text="[LABEL:CMN_FCCRiskSummary.country.hsbc.booking.center]"/>
+                    </component>
+                </customContainer>
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="5">
+                    <component class="com.nm.sdk.data.pages.views.components.Infobox" id="18" orientation="vertical">
+                        <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="20" text="=LIST($businessRelationship.bookingCenter, 'CMN_BookingCenter__selector', 'description', 'id')">
+                            <style>
+                                <property name="font-weight" value="bold"/>
+                                <property name="margin-left" value="5px"/>
+                            </style>
+                        </component>
+                    </component>
+                </customContainer>
+                <component class="com.nm.sdk.data.pages.views.components.If" condition="true;&#xa;//$businessRelationship.useCase == 'trust' or $businessRelationship.useCase == 'operatingCompany'" id="162">
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="84">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="85" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="86" text="[LABEL:CMN_FCCRiskSummary.country.of.incorporation]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="81">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="82" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="83" text="=If $party.contact.getMainAddress() != null Then&#xa;   CMN_CountryHelper.getCountryDescription($party.contact.getMainAddress().country);&#xa;Else&#xa;   Return '-';&#xa;End">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="78">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="79" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="80" text="[LABEL:CMN_FCCRiskSummary.country.of.registration]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="75">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="76" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="77" text="=If LIB_Validator.validateNotEmptyIndexed($party.contact.genericAddresses) Then&#xa;   CMN_CountryHelper.getCountryDescription($party.contact.genericAddresses[1].country);&#xa;Else&#xa;   Return '-';&#xa;End">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                </component>
+                <component class="com.nm.sdk.data.pages.views.components.If" condition="$businessRelationship.useCase == 'trust'" id="160">
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="72">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="73" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="74" text="[LABEL:CMN_FCCRiskSummary.country.trust.establishment]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="69">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="70" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="71" text="-">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                </component>
+                <component class="com.nm.sdk.data.pages.views.components.If" condition="true;&#xa;//$businessRelationship.useCase == 'trust' or $businessRelationship.useCase == 'operatingCompany'" id="163">
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="66">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="67" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="68" text="[LABEL:CMN_FCCRiskSummary.country.business.focus]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="63">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="64" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="65" text="=If $party.type.isLegalEntity() Then&#xa;   Return CMN_CountryHelper.getCountriesDescriptions(CAST(CMN_LegalEntity, $party).getKYCProfile().sourceOfWealth.countryOfOperation);&#xa;Else&#xa;   Return CMN_CountryHelper.getCountriesDescriptions(CAST(CMN_PhysicalPerson, $party).getKYCProfile().sourceOfWealth.getSowCountries());&#xa;End">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                </component>
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="60">
+                    <component class="com.nm.sdk.data.pages.views.components.Infobox" id="61" orientation="vertical">
+                        <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="62" text="[LABEL:CMN_FCCRiskSummary.country.sow]"/>
+                    </component>
+                </customContainer>
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="57">
+                    <component class="com.nm.sdk.data.pages.views.components.Infobox" id="58" orientation="vertical">
+                        <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="59" text="=If $party.type.isLegalEntity() Then&#xa;   Return CMN_CountryHelper.getCountriesDescriptions(CAST(CMN_LegalEntity, $party).getKYCProfile().sourceOfWealth.getCountriesOfBusinessExposure(), ', ', '-');&#xa;Else&#xa;   Return CMN_CountryHelper.getCountriesDescriptions(CAST(CMN_PhysicalPerson, $party).getKYCProfile().sourceOfWealth.getCountriesOfBusinessOperations(), ', ', '-');&#xa;End">
+                            <style>
+                                <property name="font-weight" value="bold"/>
+                                <property name="margin-left" value="5px"/>
+                            </style>
+                        </component>
+                    </component>
+                </customContainer>
+                <component class="com.nm.sdk.data.pages.views.components.If" condition="$businessRelationship.useCase == 'individual' or $businessRelationship.useCase == 'joint' or $businessRelationship.useCase == 'privateInvestmentCompany'" id="164">
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="54">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="55" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="56" text="[LABEL:CMN_FCCRiskSummary.country.nationality]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="51">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="52" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="53" text="=If $party.type.isPhysicalPerson() Then&#xa;   Return CMN_CountryHelper.getCountriesDescriptions(CAST(CMN_PhysicalPerson, $party).getNationalities());&#xa;Else&#xa;   Indexed String $nationalities := NewIndexed(String);&#xa;   ForEach CMN_Party $p In $businessRelationship.getInvolvedPartiesNotCustomers() Do&#xa;      If $p.type.isPhysicalPerson() Then&#xa;         $nationalities.addAll(CAST(CMN_PhysicalPerson, $p).getNationalities());&#xa;      End&#xa;   End&#xa;   Return IF(LIB_Validator.validateNotEmptyIndexed($nationalities), CMN_CountryHelper.getCountriesDescriptions(UNIQUE($nationalities)), '');&#xa;End">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="48">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="49" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="87" text="[LABEL:CMN_FCCRiskSummary.country.citizenship]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="45">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="46" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="47" text="=If $party.type.isPhysicalPerson() Then&#xa;   Return CMN_CountryHelper.getCountriesDescriptions($contract.getCountriesOfResidence());&#xa;Else&#xa;   Indexed String $countries := NewIndexed(String);&#xa;   ForEach CMN_Party $p In $businessRelationship.getInvolvedPartiesNotCustomers() Do&#xa;      If $p.type.isPhysicalPerson() Then&#xa;         $countries.addAll(CAST(CMN_PhysicalPerson, $party).contact.getCountriesOfResidence());&#xa;      End&#xa;   End&#xa;   Return CMN_CountryHelper.getCountriesDescriptions(UNIQUE($countries));&#xa;End">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="42">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="43" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="44" text="[LABEL:CMN_FCCRiskSummary.country.current.residential.address]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="39">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="40" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="41" text="=If $party.type.isPhysicalPerson() Then&#xa;   If $contract.getMainAddress() != null Then&#xa;      Return CMN_CountryHelper.getCountryDescription($contract.getMainAddress().country);&#xa;   Else&#xa;      Indexed String $countries := NewIndexed(String);&#xa;      ForEach CMN_Party $p In $businessRelationship.getInvolvedPartiesNotCustomers() Do&#xa;         If $p.type.isPhysicalPerson() Then&#xa;            $countries.addElement(CAST(CMN_PhysicalPerson, $party).contact.getMainAddress().country);&#xa;         End&#xa;      End&#xa;      Return CMN_CountryHelper.getCountriesDescriptions(UNIQUE($countries));&#xa;   End&#xa;End">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                </component>
+                <component class="com.nm.sdk.data.pages.views.components.If" condition="$businessRelationship.useCase == 'individual' or $businessRelationship.useCase == 'joint'" id="161">
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="36">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="37" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="38" text="[LABEL:CMN_FCCRiskSummary.country.previous.address]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="33">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="34" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="35" text="=CMN_CountryHelper.getCountriesDescriptions(CAST(CMN_PhysicalPerson, $party).contact.getCountriesOfPreviousAddresses())">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="30">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="31" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="32" text="[LABEL:CMN_FCCRiskSummary.country.current.correspondence.address]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="27">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="28" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="29" text="=CMN_CountryHelper.getCountriesDescriptions(CAST(CMN_PhysicalPerson, $party).contact.getCountriesOfCorrespondenceAddresses())">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                </component>
+                <component class="com.nm.sdk.data.pages.views.components.If" condition="$businessRelationship.useCase == 'trust' or $businessRelationship.useCase == 'operatingCompany'" id="165">
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="24">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="25" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="26" text="[LABEL:CMN_FCCRiskSummary.country.ultimate.parent.incorporation]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="21">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="22" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="23" text="-">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                </component>
+                <property name="groupHasLayout" value="true"/>
+                <property name="groupTitle" value="[LABEL:CMN_FCCRiskSummary.country.risk.factor]"/>
+                <property name="inheritAllParentProperties" value="true"/>
+                <property name="labelWidthPercentage"/>
+                <property name="labelWidthPixels"/>
+                <property name="labelWidthType"/>
+                <property name="maxElementPixelWidth"/>
+                <property name="maxElementsPerRow"/>
+                <property name="targetElementPixelWidth"/>
+                <property name="topLabelCutoff"/>
+                <property name="validationExpression"/>
+                <property name="validationMessage"/>
+            </customContainer>
+            <component class="com.nm.sdk.data.pages.views.components.If" condition="true;&#xa;//$businessRelationship.useCase != 'operatingCompany'" id="166">
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutGroup" id="8">
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutGroupHeader" id="242">
+                        <component class="com.nm.sdk.data.pages.views.components.Switch" expression="$party.FCCRiskRating.calculatedFCCRRBusinessOccCode" id="243">
+                            <component class="com.nm.sdk.data.pages.views.components.Case" id="244" result="'L'">
+                                <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="245" label="=LIST($party.FCCRiskRating.calculatedFCCRRBusinessOccCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingLow">
+                                    <style>
+                                        <property name="color" value="#8DC216"/>
+                                        <property name="font-weight" value="bold"/>
+                                        <property name="padding-left" value="10px"/>
+                                        <property name="cursor" value="default"/>
+                                    </style>
+                                </component>
+                            </component>
+                            <component class="com.nm.sdk.data.pages.views.components.Case" id="246" result="'M'">
+                                <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="247" label="=LIST($party.FCCRiskRating.calculatedFCCRRBusinessOccCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingMedium">
+                                    <style>
+                                        <property name="color" value="#ECC216"/>
+                                        <property name="font-weight" value="bold"/>
+                                        <property name="padding-left" value="10px"/>
+                                        <property name="cursor" value="default"/>
+                                    </style>
+                                </component>
+                            </component>
+                            <component class="com.nm.sdk.data.pages.views.components.Case" id="248" result="'H'">
+                                <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="249" label="=LIST($party.FCCRiskRating.calculatedFCCRRBusinessOccCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingHigh">
+                                    <style>
+                                        <property name="color" value="#EC8B16"/>
+                                        <property name="font-weight" value="bold"/>
+                                        <property name="padding-left" value="10px"/>
+                                        <property name="cursor" value="default"/>
+                                    </style>
+                                </component>
+                            </component>
+                            <component class="com.nm.sdk.data.pages.views.components.Case" id="250" result="'S'">
+                                <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="251" label="=LIST($party.FCCRiskRating.calculatedFCCRRBusinessOccCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingUltraHigh">
+                                    <style>
+                                        <property name="color" value="#E51700"/>
+                                        <property name="font-weight" value="bold"/>
+                                        <property name="padding-left" value="10px"/>
+                                        <property name="cursor" value="default"/>
+                                    </style>
+                                </component>
+                            </component>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="91">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="92" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="93" text="[LABEL:CMN_FCCRiskSummary.employment.status]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="88">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="89" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="168" text="=String $contributorToSow := '';&#xa;String $employmentStatus := '';&#xa;If $party.type.isPhysicalPerson() Then&#xa;   $contributorToSow := '[LABEL:COB_kyc.customer.sow.contributor]: ' &amp; CAST(CMN_PhysicalPerson, $party).getKYCProfile().sourceOfWealth.getCustomerOccupationStatus();&#xa;   CMN_KycSow $sourceOfWealt := CAST(CMN_PhysicalPerson, $party).getKYCProfile().sourceOfWealth;&#xa;   If LIB_Validator.validateNotEmptyIndexed($sourceOfWealt.sowEmployment) Then&#xa;      $employmentStatus := '\n [LABEL:COB_kyc.customer.sow.employment]: \n';&#xa;      ForEach CMN_KycSowEmployment $employment In $sourceOfWealt.sowEmployment Do&#xa;         $employmentStatus := $employmentStatus &amp; '- ' &amp; LIST($employment.employmentStatus, 'CMN_KycEmploymentStatus', 'description', 'id') &amp; IF($employment.positionUntil != 0, ' ([LABEL:COB_kyc.sow.position.until]: ' &amp; $employment.positionUntil, '') &amp; ')\n';&#xa;      End&#xa;   End&#xa;Else&#xa;   ForEach CMN_Party $p In $businessRelationship.getInvolvedPartiesNotCustomers() Do&#xa;      If $p.type.isPhysicalPerson() Then&#xa;         CMN_KycSow $sourceOfWealt := CAST(CMN_PhysicalPerson, $p).getKYCProfile().sourceOfWealth;&#xa;         If LIB_Validator.validateNotEmptyIndexed($sourceOfWealt.sowEmployment) Then&#xa;            $employmentStatus := '\n [LABEL:COB_kyc.customer.sow.employment]: \n';&#xa;            ForEach CMN_KycSowEmployment $employment In $sourceOfWealt.sowEmployment Do&#xa;               $employmentStatus := $employmentStatus &amp; '- ' &amp; LIST($employment.employmentStatus, 'CMN_KycEmploymentStatus', 'description', 'id') &amp; IF($employment.positionUntil != 0, ' ([LABEL:COB_kyc.sow.position.until]: ' &amp; $employment.positionUntil, '') &amp; ')\n';&#xa;            End&#xa;         End&#xa;      End&#xa;   End&#xa;End&#xa;Return $contributorToSow &amp; $employmentStatus;">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="103">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="104" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="105" text="[LABEL:CMN_FCCRiskSummary.employment.role]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="100">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="101" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="169" text="=String $emplRole := '';&#xa;CMN_KycSow $sourceOfWealt;&#xa;If $party.type.isPhysicalPerson() Then&#xa;   $sourceOfWealt := CAST(CMN_PhysicalPerson, $party).getKYCProfile().sourceOfWealth;&#xa;   If LIB_Validator.validateNotEmptyIndexed($sourceOfWealt.sowEmployment) Then&#xa;      $emplRole := '[LABEL:COB_kyc.customer.sow.employment]: \n';&#xa;      ForEach CMN_KycSowEmployment $employment In $sourceOfWealt.sowEmployment Do&#xa;         $emplRole := $emplRole &amp; ' - ' &amp; LIST($employment.professionalTitle, 'COB_KycEmploymentPositionProfessionalTitle', 'description', 'id') &amp; '\n';&#xa;      End&#xa;   End&#xa;   If LIB_Validator.validateNotEmptyIndexed($sourceOfWealt.sowBusinessOwner) Then&#xa;      $emplRole := $emplRole &amp; '\n[LABEL:COB_kyc.customer.sow.business.owner.self.employment]: \n';&#xa;      ForEach CMN_KycSowBusinessOwner $employment In $sourceOfWealt.sowBusinessOwner Do&#xa;         $emplRole := $emplRole &amp; ' - ' &amp; LIST($employment.professionalTitle, 'COB_KycEmploymentPositionProfessionalTitle', 'description', 'id') &amp; '\n';&#xa;      End&#xa;   End&#xa;Else&#xa;   ForEach CMN_Party $p In $businessRelationship.getInvolvedPartiesNotCustomers() Do&#xa;      If $party.type.isPhysicalPerson() Then&#xa;         $sourceOfWealt := CAST(CMN_PhysicalPerson, $p).getKYCProfile().sourceOfWealth;&#xa;         If LIB_Validator.validateNotEmptyIndexed($sourceOfWealt.sowEmployment) Then&#xa;            $emplRole := '\n[LABEL:COB_kyc.customer.sow.employment]: \n';&#xa;            ForEach CMN_KycSowEmployment $employment In $sourceOfWealt.sowEmployment Do&#xa;               $emplRole := $emplRole &amp; ' - ' &amp; LIST($employment.professionalTitle, 'COB_KycEmploymentPositionProfessionalTitle', 'description', 'id') &amp; '\n';&#xa;            End&#xa;         End&#xa;         If LIB_Validator.validateNotEmptyIndexed($sourceOfWealt.sowBusinessOwner) Then&#xa;            $emplRole := $emplRole &amp; '\n [LABEL:COB_kyc.customer.sow.business.owner.self.employment]: \n';&#xa;            ForEach CMN_KycSowBusinessOwner $employment In $sourceOfWealt.sowBusinessOwner Do&#xa;               $emplRole := $emplRole &amp; ' - ' &amp; LIST($employment.professionalTitle, 'COB_KycEmploymentPositionProfessionalTitle', 'description', 'id') &amp; '\n';&#xa;            End&#xa;         End&#xa;      End&#xa;   End&#xa;End&#xa;Return $emplRole;">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="97">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="98" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="99" text="[LABEL:CMN_FCCRiskSummary.business.type]"/>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="94">
+                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="95" orientation="vertical">
+                            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="96" text="=String $toReturn := '';&#xa;CMN_KycSow $sourceOfWealt;&#xa;If $party.type.isPhysicalPerson() Then&#xa;   $sourceOfWealt := CAST(CMN_PhysicalPerson, $party).getKYCProfile().sourceOfWealth;&#xa;   If LIB_Validator.validateNotEmptyIndexed($sourceOfWealt.sowEmployment) Then&#xa;      $toReturn := '[LABEL:COB_kyc.customer.sow.employment]: \n';&#xa;      ForEach CMN_KycSowEmployment $employment In $sourceOfWealt.sowEmployment Do&#xa;         $toReturn := $toReturn &amp; ' - ' &amp; LIST($employment.mainBusiness.activity, 'CMN_KYCBusinessActivityMainSector', 'description', 'id') &amp; '\n';&#xa;      End&#xa;   End&#xa;   If LIB_Validator.validateNotEmptyIndexed($sourceOfWealt.sowBusinessOwner) Then&#xa;      $toReturn := $toReturn &amp; '\n [LABEL:COB_kyc.customer.sow.business.owner.self.employment]: \n';&#xa;      ForEach CMN_KycSowBusinessOwner $employment In $sourceOfWealt.sowBusinessOwner Do&#xa;         $toReturn := $toReturn &amp; ' - ' &amp; LIST($employment.mainBusiness.activity, 'CMN_KYCBusinessActivityMainSector', 'description', 'id') &amp; '\n';&#xa;      End&#xa;   End&#xa;Else&#xa;   ForEach CMN_Party $p In $businessRelationship.getInvolvedPartiesNotCustomers() Do&#xa;      If $party.type.isPhysicalPerson() Then&#xa;         $sourceOfWealt := CAST(CMN_PhysicalPerson, $p).getKYCProfile().sourceOfWealth;&#xa;         If LIB_Validator.validateNotEmptyIndexed($sourceOfWealt.sowEmployment) Then&#xa;            $toReturn := '\n [LABEL:COB_kyc.customer.sow.employment]: \n';&#xa;            ForEach CMN_KycSowEmployment $employment In $sourceOfWealt.sowEmployment Do&#xa;               $toReturn := $toReturn &amp; ' - ' &amp; LIST($employment.mainBusiness.activity, 'CMN_KYCBusinessActivityMainSector', 'description', 'id') &amp; '\n';&#xa;            End&#xa;         End&#xa;         If LIB_Validator.validateNotEmptyIndexed($sourceOfWealt.sowBusinessOwner) Then&#xa;            $toReturn := '\n [LABEL:COB_kyc.customer.sow.business.owner.self.employment]: \n';&#xa;            ForEach CMN_KycSowBusinessOwner $employment In $sourceOfWealt.sowBusinessOwner Do&#xa;               $toReturn := $toReturn &amp; ' - ' &amp; LIST($employment.mainBusiness.activity, 'CMN_KYCBusinessActivityMainSector', 'description', 'id') &amp; '\n';&#xa;            End&#xa;         End&#xa;      End&#xa;   End&#xa;End&#xa;Return $toReturn;">
+                                <style>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="margin-left" value="5px"/>
+                                </style>
+                            </component>
+                        </component>
+                    </customContainer>
+                    <property name="groupHasLayout" value="true"/>
+                    <property name="groupTitle" value="[LABEL:CMN_FCCRiskSummary.business.type.occupation.risk.fatcor]"/>
+                    <property name="inheritAllParentProperties" value="true"/>
+                    <property name="labelWidthPercentage"/>
+                    <property name="labelWidthPixels"/>
+                    <property name="labelWidthType"/>
+                    <property name="maxElementPixelWidth"/>
+                    <property name="maxElementsPerRow"/>
+                    <property name="targetElementPixelWidth"/>
+                    <property name="topLabelCutoff"/>
+                    <property name="validationExpression"/>
+                    <property name="validationMessage"/>
+                </customContainer>
+            </component>
+            <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutGroup" id="11">
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutGroupHeader" id="252">
+                    <component class="com.nm.sdk.data.pages.views.components.Switch" expression="$party.FCCRiskRating.calculatedFCCRRLegalStructCode" id="253">
+                        <component class="com.nm.sdk.data.pages.views.components.Case" id="254" result="'L'">
+                            <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="255" label="=LIST($party.FCCRiskRating.calculatedFCCRRLegalStructCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingLow">
+                                <style>
+                                    <property name="color" value="#8DC216"/>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="padding-left" value="10px"/>
+                                    <property name="cursor" value="default"/>
+                                </style>
+                            </component>
+                        </component>
+                        <component class="com.nm.sdk.data.pages.views.components.Case" id="256" result="'M'">
+                            <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="257" label="=LIST($party.FCCRiskRating.calculatedFCCRRLegalStructCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingMedium">
+                                <style>
+                                    <property name="color" value="#ECC216"/>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="padding-left" value="10px"/>
+                                    <property name="cursor" value="default"/>
+                                </style>
+                            </component>
+                        </component>
+                        <component class="com.nm.sdk.data.pages.views.components.Case" id="258" result="'H'">
+                            <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="259" label="=LIST($party.FCCRiskRating.calculatedFCCRRLegalStructCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingHigh">
+                                <style>
+                                    <property name="color" value="#EC8B16"/>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="padding-left" value="10px"/>
+                                    <property name="cursor" value="default"/>
+                                </style>
+                            </component>
+                        </component>
+                        <component class="com.nm.sdk.data.pages.views.components.Case" id="260" result="'S'">
+                            <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="261" label="=LIST($party.FCCRiskRating.calculatedFCCRRLegalStructCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingUltraHigh">
+                                <style>
+                                    <property name="color" value="#E51700"/>
+                                    <property name="font-weight" value="bold"/>
+                                    <property name="padding-left" value="10px"/>
+                                    <property name="cursor" value="default"/>
+                                </style>
+                            </component>
+                        </component>
+                    </component>
+                </customContainer>
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="109">
+                    <component class="com.nm.sdk.data.pages.views.components.Infobox" id="110" orientation="vertical">
+                        <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="111" text="[LABEL:CMN_FCCRiskSummary.legal.entity.structure]"/>
+                    </component>
+                </customContainer>
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="106">
+                    <component class="com.nm.sdk.data.pages.views.components.Infobox" id="107" orientation="vertical">
+                        <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="108" text="=LIST($businessRelationship.useCase, 'COB_UseCases', 'description', 'id')">
+                            <style>
+                                <property name="font-weight" value="bold"/>
+                                <property name="margin-left" value="5px"/>
+                            </style>
+                        </component>
+                    </component>
+                </customContainer>
+                <property name="groupHasLayout" value="true"/>
+                <property name="groupTitle" value="[LABEL:CMN_FCCRiskSummary.lega.entity.structure.risk.factor]"/>
+                <property name="inheritAllParentProperties" value="true"/>
+                <property name="labelWidthPercentage"/>
+                <property name="labelWidthPixels"/>
+                <property name="labelWidthType"/>
+                <property name="maxElementPixelWidth"/>
+                <property name="maxElementsPerRow"/>
+                <property name="targetElementPixelWidth"/>
+                <property name="topLabelCutoff"/>
+                <property name="validationExpression"/>
+                <property name="validationMessage"/>
+            </customContainer>
+            <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutGroup" id="14">
+                <component class="com.nm.sdk.data.pages.views.components.If" condition="true;&#xa;//$businessRelationship.useCase != 'individual' and $businessRelationship.useCase != 'joint'" id="167">
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutGroupHeader" id="262">
+                        <component class="com.nm.sdk.data.pages.views.components.Switch" expression="$party.FCCRiskRating.calculatedFCCRRProductCode" id="263">
+                            <component class="com.nm.sdk.data.pages.views.components.Case" id="264" result="'L'">
+                                <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="265" label="=LIST($party.FCCRiskRating.calculatedFCCRRProductCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingLow">
+                                    <style>
+                                        <property name="color" value="#8DC216"/>
+                                        <property name="font-weight" value="bold"/>
+                                        <property name="padding-left" value="10px"/>
+                                        <property name="cursor" value="default"/>
+                                    </style>
+                                </component>
+                            </component>
+                            <component class="com.nm.sdk.data.pages.views.components.Case" id="266" result="'M'">
+                                <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="267" label="=LIST($party.FCCRiskRating.calculatedFCCRRProductCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingMedium">
+                                    <style>
+                                        <property name="color" value="#ECC216"/>
+                                        <property name="font-weight" value="bold"/>
+                                        <property name="padding-left" value="10px"/>
+                                        <property name="cursor" value="default"/>
+                                    </style>
+                                </component>
+                            </component>
+                            <component class="com.nm.sdk.data.pages.views.components.Case" id="268" result="'H'">
+                                <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="269" label="=LIST($party.FCCRiskRating.calculatedFCCRRProductCode, 'CMN_FCCRiskRates', 'description')" type="button" visualType="Primary" workspaceIcon="true" workspaceIconId="ext.hsbcrethinking.hsbcRiskRatingHigh">
+                                    <style>
+                                        <property name="color" value="#EC8B16"/>
+                                        <property name="font-weight" value="bold"/>
+                                        <property name="padding-left" value="10px"/>
+                                        <property name="cursor" value="default"/>
+                                    </style>
+                                </component>
+                            </component>
+                            <component class="com.nm.sdk.data.pages.views.components.Case" id="270" result="'S'">
+                                <component borderType="Borderless" class="com.nm.sdk.data.pages.views.components.Button" id="271" label="=LIST($party.FCCRiskRating.calculatedFCCRRProductCode, 'CMN_FCCRiskRates', 'description')" type="button" 

@@ -1,0 +1,14 @@
+@import  "style.css";
+@import  "panels.css";
+/*@import "../../vendor/datatables/css/dataTables.css";*/
+/*@import "../../vendor/datatables/css/responsive.bootstrap.min.css";*/
+/*@import "../../vendor/datatables/css/select.bootstrap.min.css";*/
+/*@import "../../vendor/bootstrap/css/bootstrap-switch.min.css";*/
+/*@import "../../vendor/bootstrap/css/select2.min.css";*/
+/*@import "../../vendor/bootstrap/css/checkbox-x.min.css";*/
+@import "../../vendor/bootstrap/css/bootstrap-clockpicker.css";
+
+@import "forms.css";
+@import "../../vendor/icons/icons-style.css";
+@import "menu.css";
+@import "console-app.css";

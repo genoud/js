@@ -1,1 +1,53 @@
-Hello World!
+<div class="login-box-body">
+    <p class="login-box-msg">Sign in to start your session</p>
+
+    <form action="{{ path('js_login') }}" method="post">
+        <div class="form-group has-feedback">
+            {{ form_widget(form.username) }}
+            {#<input id="username" type="text" class="form-control" placeholder="Login"#}
+            {#required="required" name="_username" value="{{ last_username }}"/>#}
+            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+        </div>
+        <div class="form-group has-feedback">
+            {{ form_widget(form.motDePasse) }}
+            {#<input type="password" class="form-control" placeholder="Mot de passe" required="" id="password"#}
+            {#name="_password"/>#}
+            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+        </div>
+        <input type="hidden" name="_csrf_token"
+               value="{{ csrf_token('authenticate') }}">
+        <div class="row">
+            {#<div class="col-xs-4">#}
+                {#<div class="checkbox icheck">#}
+                    {#<label>#}
+                        {#<input type="checkbox"> Remember Me#}
+                    {#</label>#}
+                {#</div>#}
+            {#</div>#}
+
+
+            <!-- /.col -->
+            <div class="col-xs-4">
+                <button type="submit" class="btn btn-primary btn-block btn-flat " id="js-login-author-btn"><small>Sign In as </small>Author</button>
+            </div>
+            <!-- /.col -->
+            <!-- /.col -->
+            <div class="col-xs-4">
+                <button type="submit" class="btn btn-primary btn-block btn-flat bg-red" id="js-login-reviewer-btn"><small>Sign In as </small>Reviewer</button>
+            </div>
+            <!-- /.col -->
+            <!-- /.col -->
+            <div class="col-xs-4">
+                <button type="submit" class="btn btn-primary btn-block btn-flat bg-green" id="js-login-editor-btn"><small>Sign In as </small>Editor</button>
+            </div>
+            <!-- /.col -->
+        </div>
+    </form>
+    <!-- /.social-auth-links -->
+    <br/>
+
+    <a href="#">I forgot my password</a><br>
+    <a href="{{ path('js_registration') }}" class="text-center">Register a new membership</a>
+
+</div>
+<!-- /.login-box-body -->

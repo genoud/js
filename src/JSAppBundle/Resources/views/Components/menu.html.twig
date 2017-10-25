@@ -1,0 +1,86 @@
+<!-- sidebar menu: : style can be found in sidebar.less -->
+<ul class="sidebar-menu">
+    <li class="header">MAIN MENU</li>
+    <li class="treeview">
+        <a href="#" data-class="JS.dashboard.Main" id="js-app-dashboard">
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            {#<span class="pull-right-container">#}
+              {#<i class="fa fa-angle-left pull-right"></i>#}
+            {#</span>#}
+        </a>
+    </li>
+    {% if is_granted('ROLE_JS_EDITOR') %}
+        <li class="treeview">
+            <a href="#" data-class="JS.article.List" id="js-app-article">
+                <i class="fa fa-book"></i> <span>Manage Manuscripts</span>
+                {#<span class="pull-right-container">#}
+                {#<i class="fa fa-angle-left pull-right"></i>#}
+                {#</span>#}
+            </a>
+        </li>
+        <li class="treeview">
+            <a href="#" data-class="JS.reviewrequest.ListAdmin" id="js-app-reviewrequest">
+                <i class="fa fa-book"></i> <span>Review Requests</span>
+            </a>
+        </li>
+        <li class="treeview">
+            <a href="#" data-class="JS.review.ListAdmin" id="js-app-review">
+                <i class="fa fa-book"></i> <span>Reviews</span>
+            </a>
+        </li>
+    {% endif %}
+
+
+    {% if is_granted('ROLE_JS_PUBLISHER') %}
+        <li class="treeview">
+            <a href="#" data-class="JS.publication.List" id="js-app-publications">
+                <i class="fa fa-briefcase"></i> <span>Publications</span>
+                {#<span class="pull-right-container">#}
+                {#<i class="fa fa-angle-left pull-right"></i>#}
+                {#</span>#}
+            </a>
+        </li>
+    {% endif %}
+
+
+    {% if is_granted('ROLE_JS_SUPER_ADMIN') %}
+        <li class="treeview">
+            <a href="#" data-class="JS.categorie.List" id="js-app-article-type">
+                <i class="fa fa-files-o"></i>
+                <span>Article Types</span>
+                {#<span class="pull-right-container">#}
+                {#<span class="label label-primary pull-right"></span>#}
+                {#</span>#}
+            </a>
+        </li>
+        <li class="treeview">
+            <a href="#" data-class="JS.categorie.List" id="js-app-article-categorie">
+                <i class="fa fa-files-o"></i>
+                <span>Categories / Sections</span>
+                {#<span class="pull-right-container">#}
+                {#<span class="label label-primary pull-right"></span>#}
+                {#</span>#}
+            </a>
+        </li>
+        <li class="treeview">
+            <a href="#" data-class="JS.categorie.List" id="js-app-article-fichier">
+                <i class="fa fa-paperclip"></i>
+                <span>Attachement types</span>
+                {#<span class="pull-right-container">#}
+                {#<span class="label label-primary pull-right"></span>#}
+                {#</span>#}
+            </a>
+        </li>
+        <li>
+            <a href="#" data-class="JS.utilisateur.List" id="js-app-users">
+                <i class="fa fa-user"></i> <span>Users</span>
+                {#<span class="pull-right-container">#}
+                {#<small class="label pull-right bg-green"></small>#}
+                {#</span>#}
+            </a>
+        </li>
+    {% endif %}
+
+
+</ul>
+<!-- /.sidebar -->

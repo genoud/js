@@ -1,0 +1,898 @@
+sponse.party := INT_SILMappingSILtoCMN_v2.createCMNPartyFromSILTaxInformation($response.party, $response.silTaxInformation);
+            // PARTY ACCOUNT DETAIL
+            If LIB_Validator.validateNotEmptyIndexed($response.silAccountSummaryList) Then
+               $response.party := INT_SILMappingSILtoCMN_v2.createCMNPartyFromSILAccounts($response.party, $response.silAccountSummaryList);
+            End
+            // Connected Party
+            If LIB_Validator.validateNotEmptyIndexed($response.silParties) Then
+               $response.party := INT_SILMappingSILtoCMN_v2.convertSILRelationshipToCMNConnectedParties($response.party, $response.silParties);
+            End
+            // PARTY CONTACT ACTIVITY
+            /*If LIB_Validator.validateNotEmptyIndexed($response.silContactActivity) Then
+         $response.party := INT_SILMappingSILtoCMN_v2.createCMNPartyFromSILContactActivities($response.party, $response.silContactActivity);
+      End*/
+         End
+      End
+   Catch
+      LIB_Logger.integrationError($exception.getMessage());
+   End
+End]]></definition>
+        </method>
+        <method name="convertSILPartyObjectIdsToCMNPartyObjectIds" userId="pezzi" uuid="00000000-4bc5-7446-0000-000000000000">
+            <definition><![CDATA[/**
+  Description of function 'convertSILPartyObjectIdsToCMNPartyObjectIds'.
+  @param $value Description of parameter '$value'.
+  @return       Description of return value.
+*/
+StaticFunction convertSILPartyObjectIdsToCMNPartyObjectIds(INT_SILStorePartyResponse $response, CMN_Party $cmnParty, CMN_SilIds $silIds) : Nothing Begin
+   If $cmnParty == null Then
+      Return null;
+   End
+   If $silIds == null Then
+      $silIds := NEW(CMN_SilIds);
+   End
+   If $cmnParty.type.isLegalEntity() Then
+      If $response.silBusinessOrganization != null Then
+         CAST(CMN_LegalEntity, $cmnParty).getKYCProfile().sourceOfWealth.setSILID($response.silBusinessOrganization.id);
+      End
+      If LIB_Validator.validateNotEmptyIndexed($response.silAffiliate) Then
+         For Integer $i := 1 Condition $i <= TOINTEGER(MIN($response.silAffiliate.size(), LIB_ConfigHelper.getMaximumNumberOfAffiliate())) Step $i := $i + 1 Do
+            SIL_INVOLVEDPARTYorganization $silAffiliate := $response.silAffiliate[$i];
+            If $silAffiliate != null Then
+               CAST(CMN_LegalEntity, $cmnParty).getKYCProfile().sourceOfWealth.affiliate[$i].setSILID($silAffiliate.id);
+            End
+         End
+      End
+      If LIB_Validator.validateNotEmptyIndexed($response.silAffiliatesDeleted) Then
+         ForEach String $silAffiliatesDeleted In $response.silAffiliatesDeleted Do
+            $silIds.silAffiliate.removeElement($silAffiliatesDeleted);
+         End
+      End
+      If $response.silEstimatedNetWorth != null Then
+         CAST(CMN_LegalEntity, $cmnParty).getKYCProfile().financialInformation.setSILID($response.silEstimatedNetWorth.id);
+      End
+      If $response.silTaxInfomation != null Then
+         CAST(CMN_LegalEntity, $cmnParty).regulatoryProfile.setSILID($response.silTaxInfomation.id);
+      End
+   ElseIf $cmnParty.type.isPhysicalPerson() Then
+      If LIB_Validator.validateNotEmptyIndexed($response.silIndividualSourceOfWealth) Then
+         ForEach SIL_SOWindividualSourceOfWealth $silSOW In $response.silIndividualSourceOfWealth Do
+            CAST(CMN_PhysicalPerson, $cmnParty).getKYCProfile().sourceOfWealth.setSILID($silSOW.id);
+            Break;
+         End
+      End
+      If LIB_Validator.validateNotEmptyIndexed($response.silProfessionalActivity) Then
+         For Integer $i := 1 Condition $i <= TOINTEGER(MIN($response.silProfessionalActivity.size(), LIB_ConfigHelper.getMaximumNumberOfSOW())) Step $i := $i + 1 Do
+            SIL_INVOLVEDPARTYemployeeRole $silEmployeeRole := $response.silProfessionalActivity[$i];
+            CAST(CMN_PhysicalPerson, $cmnParty).getKYCProfile().sourceOfWealth.sowEmployment[$i].setSILID($silEmployeeRole.id);
+         End
+      End
+      If LIB_Validator.validateNotEmptyIndexed($response.silProfessionalActivityDeleted) Then
+         ForEach String $silEmployeeToDelete In $response.silProfessionalActivityDeleted Do
+            $silIds.silProfessionalActivity.removeElement($silEmployeeToDelete);
+         End
+      End
+      If LIB_Validator.validateNotEmptyIndexed($response.silOwnedBusiness) Then
+         For Integer $i := 1 Condition $i <= TOINTEGER(MIN($response.silOwnedBusiness.size(), LIB_ConfigHelper.getMaximumNumberOfSOW())) Step $i := $i + 1 Do
+            SIL_INVOLVEDPARTYbusinessOwner $silBusinessOwner := $response.silOwnedBusiness[$i];
+            CAST(CMN_PhysicalPerson, $cmnParty).getKYCProfile().sourceOfWealth.sowBusinessOwner[$i].setSILID($silBusinessOwner.id);
+         End
+      End
+      If LIB_Validator.validateNotEmptyIndexed($response.silOwnedBusinessDeleted) Then
+         ForEach String $silOwnedBusinessToDelete In $response.silOwnedBusinessDeleted Do
+            $silIds.silOwnedBusiness.removeElement($silOwnedBusinessToDelete);
+         End
+      End
+      If $response.silEstimatedNetWorth != null Then
+         CAST(CMN_PhysicalPerson, $cmnParty).getKYCProfile().overallNetWorthAndIncome.setSILID($response.silEstimatedNetWorth.id);
+      End
+      If $response.silTaxInfomation != null Then
+         CAST(CMN_PhysicalPerson, $cmnParty).regulatoryProfile.setSILID($response.silTaxInfomation.id);
+      End
+   End
+   If LIB_Validator.validateNotEmptyIndexed($response.silEstimatedNetWorthDeleted) Then
+      ForEach String $silEstimatedNetWorthDeleted In $response.silEstimatedNetWorthDeleted Do
+         $silIds.silEstimatedNetWorth.removeElement($silEstimatedNetWorthDeleted);
+      End
+   End
+   If $response.silSpecialCategoryCustomer != null Then
+      $cmnParty.kycProfile.pepSCCDetails.setSILID($response.silSpecialCategoryCustomer.id);
+   End
+   /**** FINDINGS ***/
+   If LIB_Validator.validateNotEmptyIndexed($response.silFindings) Then
+      For Integer $i := 1 Condition $i <= $response.silFindings.size() Step $i := $i + 1 Do
+         SIL_INVOLVEDPARTYSCREENINGfinding $silFinding := $response.silFindings[$i];
+         $cmnParty.kycProfile.screening.connectedPartyNegativeNews[$i].setSILID($silFinding.id);
+      End
+   End
+   If LIB_Validator.validateNotEmptyIndexed($response.silFindingsDeleted) Then
+      ForEach String $silFindingToDelete In $response.silFindingsDeleted Do
+         $silIds.silFindings.removeElement($silFindingToDelete);
+      End
+   End
+End]]></definition>
+        </method>
+        <method name="convertSILReadRelationToPEDRClientLifeCycleData" userId="pezzi" uuid="ffffffff-8072-b6f6-0000-000000000000">
+            <definition><![CDATA[StaticFunction convertSILReadRelationToPEDRClientLifeCycleData(INT_SILReadAccountResponse $response, CMN_ClientLifecycleData $clientLifeCycleData := null) : CMN_BusinessRelationship Begin
+   CMN_BusinessRelationship $businessRelationship := $response.businessRelationship;
+   /******************************* BUILD CLIENT LIFE CYCLE DATA *****************************************/
+   If $clientLifeCycleData == null Then
+      $clientLifeCycleData := NewObject(CMN_ClientLifecycleData);
+   End
+   If $businessRelationship == null Then
+      $businessRelationship := CMN_BusinessRelationshipFactory__selector($clientLifeCycleData);
+   Else
+      $businessRelationship.setClientLifecycleData($clientLifeCycleData);
+   End
+   $clientLifeCycleData.businessRelationships.addElement($businessRelationship);
+   /****************************** READ BUSINESS RELATIONSHIP FROM THE SIL ACCOUNT ***********************/
+   //
+   $businessRelationship := INT_SILMappingSILtoCMN_v2.createCMNBusinessRelationshipFromSILAccount($businessRelationship, $response.silAccountDetails);
+   //
+   $businessRelationship := INT_SILMappingSILtoCMN_v2.createCMNBusinessRelationshipFromSILAccountFunding($businessRelationship, $response.silAccountFunding);
+   //
+   $businessRelationship := INT_SILMappingSILtoCMN_v2.createCMNBusinessRelationshipFromSILAccountFundingTransfer($businessRelationship, $response.silAccountFundingTransfer);
+   //
+   $businessRelationship := INT_SILMappingSILtoCMN_v2.createCMNBusinessRelationshipFromSILAccountTransferActivity($businessRelationship, $response.silKycAccountTransferActivity);
+   //
+   $businessRelationship := INT_SILMappingSILtoCMN_v2.createCMNBusinessRelationshipFromSILAccountActivity($businessRelationship, $response.silKycAccountActivity);
+   //
+   $businessRelationship := INT_SILMappingSILtoCMN_v2.createCMNBusinessRelationshipFromSILAccountTaxInformation($businessRelationship, $response.silTaxInformation);
+   //
+   $businessRelationship := INT_SILMappingSILtoCMN_v2.createCMNBusinessRelationshipFromSILSubAccount($businessRelationship, $response.silSubAccount);
+   // Parties already mapped using their own mapping functions
+   // Require to set the business relationship id to valid
+   $businessRelationship.numberCheckedFromAppway := true;
+   /******************************* STORE RESULT IN RESPONSE *******************************************/
+   // Store BusinessRelationship 
+   $response.pedrClientLifeCycleData := $clientLifeCycleData;
+   LIB_Logger.integrationError('end setting BR: ' & $businessRelationship);
+   Return $businessRelationship;
+End]]></definition>
+        </method>
+        <method name="convertSILRelationshipToCMNConnectedParties" userId="pezzi" uuid="ffffffff-ab66-f069-0000-000000000000">
+            <definition><![CDATA[/**
+  Description of function 'convertSILRelationshipToCMNConnectedParties'.
+  @param $value Description of parameter '$value'.
+  @return       Description of return value.
+*/
+StaticFunction convertSILRelationshipToCMNConnectedParties(CMN_Party $cmnParty, Indexed Record $connectedPartyRecords) : CMN_Party Begin
+   If $cmnParty != null && $cmnParty.type != null && ($cmnParty.type.isPhysicalPerson() or $cmnParty.type.isCommercialOperatingBusiness()) Then
+      $cmnParty.kycProfile.connectedParties.connectedParty.clear();
+      CMN_ConnectedParty $cmnConnectedParty;
+      ForEach $connectedPartyRecord In $connectedPartyRecords Do
+         String $relationshipType := TOSTRING($connectedPartyRecord.getValue('relationshipType'));
+         //String $relationshipRole := TOSTRING($connectedPartyRecord.getValue('relationshipRole'));
+         //String $relationshipSubType := TOSTRING($connectedPartyRecord.getValue('relationshipSubType'));
+         IF($relationshipType == null, $relationshipType := '');
+         //IF($relationshipRole == null, $relationshipRole := '');
+         //IF($relationshipSubType == null, $relationshipSubType := '');
+         //ForEach Record $relationTypeRecord In RECORDS('CMN_KYCPartyRelationType') Do
+         /*If TOSTRING($relationTypeRecord.getValue('relationshipType')) == $relationshipType && TOSTRING($relationTypeRecord.getValue('relationshipRole')) == $relationshipRole && TOSTRING($relationTypeRecord.getValue('relationshipSubType')) == $relationshipSubType Then
+               $typeRelationship := TOSTRING($relationTypeRecord.getValue('id'));
+            End*/
+         String $typeRelationship := LIST($relationshipType, 'CMN_KYCPartyRelationType', 'id', 'sil_Id');
+         If NotEmpty($typeRelationship) Then
+            SIL_INVOLVEDPARTYinvolvedParty $silParty := CAST(SIL_INVOLVEDPARTYinvolvedParty, $connectedPartyRecord.getValue('silParty'));
+            $cmnConnectedParty := NewObject(CMN_ConnectedParty);
+            $cmnConnectedParty.typeRelationship := INT_SILMappingSILtoCMN_v2._mapString($cmnConnectedParty.typeRelationship, $typeRelationship);
+            $cmnConnectedParty.idCRM := INT_SILMappingSILtoCMN_v2._mapString($cmnConnectedParty.idCRM, $silParty.id);
+            $cmnConnectedParty.setSILID(INT_SILMappingSILtoCMN_v2._mapString($cmnConnectedParty.getSILID(), TOSTRING($connectedPartyRecord.getValue('SILID'))));
+            If ISA($silParty, SIL_INVOLVEDPARTYorganization) Then
+               $cmnConnectedParty.setType(CMN_ConnectedParty.typeOrganization());
+               If ISA($silParty, SIL_INVOLVEDPARTYtrust) and LIB_Validator.validateNotEmptyIndexed($silParty.names) && ISA($silParty.names[1], SIL_INVOLVEDPARTYtrustName) Then
+                  $cmnConnectedParty.fullName := CAST(SIL_INVOLVEDPARTYtrustName, $silParty.names[1]).fullName;
+               ElseIf LIB_Validator.validateNotEmptyIndexed($silParty.names) && ISA($silParty.names[1], SIL_INVOLVEDPARTYorganizationName) Then
+                  $cmnConnectedParty.fullName := CAST(SIL_INVOLVEDPARTYorganizationName, $silParty.names[1]).fullName;
+               End
+            ElseIf ISA($silParty, SIL_INVOLVEDPARTYindividual) Then
+               $cmnConnectedParty.setType(CMN_ConnectedParty.typeIndividual());
+               If LIB_Validator.validateNotEmptyIndexed($silParty.names) && ISA($silParty.names[1], SIL_INVOLVEDPARTYindividualName) Then
+                  $cmnConnectedParty.fullName := CAST(SIL_INVOLVEDPARTYindividualName, $silParty.names[1]).fullName;
+               End
+            End
+            $connectedPartyRecords.removeElement($connectedPartyRecords);
+            $cmnParty.kycProfile.connectedParties.connectedParty.addElement($cmnConnectedParty);
+         End
+         //End
+      End
+      $cmnParty.kycProfile.connectedParties.hasOtherConnectedParty := LIB_Validator.validateNotEmptyIndexed($cmnParty.kycProfile.connectedParties.connectedParty);
+   End
+   Return $cmnParty;
+End]]></definition>
+        </method>
+        <method name="convertSILSearchResultsToCMNBusinessRelationship" userId="pezzi" uuid="00000000-7f30-4af6-0000-000000000000">
+            <definition><![CDATA[/**
+  Description of function 'convertSILSearchResultsToCMNBusinessRelationship'.
+  @param $value Description of parameter '$value'.
+  @return       Description of return value.
+*/
+StaticFunction convertSILSearchResultsToCMNBusinessRelationship(INT_SILSearchAccountResponse $silResponse) : Nothing Begin
+   SIL_ACCOUNTaccount $silAccount;
+   If LIB_Validator.validateNotEmptyIndexed($silResponse.silAccountList) Then
+      ForEach $silAccount In $silResponse.silAccountList Do
+         Try
+            $silResponse.accountList.addElement(INT_SILMappingSILtoCMN_v2.createCMNSearchedAccountFromSILAccount(null, $silAccount));
+         Catch
+            LIB_Logger.integrationError('[INT_SILMappingSILtoCMN]: Exception during mapping of Account: ' & $exception.getMessage() & ', ' & TOSTRING(ExceptionRootCause($exception)));
+         End
+      End
+   End
+End]]></definition>
+        </method>
+        <method name="convertSILSearchResultsToCMNPartyList" userId="pezzi" uuid="ffffffff-a91e-da86-0000-000000000000">
+            <definition><![CDATA[/**
+  Description of function 'convertSILSearchResultsToCMNPartyList'.
+  @param $value Description of parameter '$value'.
+  @return       Description of return value.
+*/
+StaticFunction convertSILSearchResultsToCMNPartyList(INT_SILSearchInvolvedPartyResponse $silResponse) : Nothing Begin
+   SIL_INVOLVEDPARTYinvolvedParty $silInvolvedParty;
+   SIL_INVOLVEDPARTYindividual $silIndividual;
+   SIL_INVOLVEDPARTYorganization $silOrganization;
+   String $silLegalType := INT_SILMatchingTools_v2.matchCMNIdToSILFCCRAMCustomerTypesDescription($silResponse.legalEntityType);
+   If LIB_Validator.validateNotEmptyIndexed($silResponse.silInvolvedPartyList) Then
+      ForEach $silInvolvedParty In $silResponse.silInvolvedPartyList Do
+         If ISA($silResponse.search, SIL_TOOLSsearchInvolvedParty) && ISA($silInvolvedParty, SIL_INVOLVEDPARTYindividual) Then
+            // Search for Physical Person
+            $silIndividual := CAST(SIL_INVOLVEDPARTYindividual, $silInvolvedParty);
+            $silResponse.partyList.addElement(INT_SILMappingSILtoCMN_v2.createCMNSearchedPartyFromSILInvolvedParty(null, $silIndividual));
+         ElseIf ISA($silResponse.search, SIL_TOOLSsearchInvolvedParty) && ISA($silInvolvedParty, SIL_INVOLVEDPARTYtrust) Then
+            // Search for Organization
+            $silOrganization := CAST(SIL_INVOLVEDPARTYtrust, $silInvolvedParty);
+            $silResponse.partyList.addElement(INT_SILMappingSILtoCMN_v2.createCMNSearchedPartyFromSILInvolvedParty(null, $silOrganization));
+         ElseIf ISA($silResponse.search, SIL_TOOLSsearchInvolvedParty) && ISA($silInvolvedParty, SIL_INVOLVEDPARTYorganization) Then
+            // Search for Organization
+            $silOrganization := CAST(SIL_INVOLVEDPARTYorganization, $silInvolvedParty);
+            If EQUAL($silOrganization.entityType, $silLegalType) or EQUAL(LIST(ERROR($silOrganization.businessTypes[1], '0'), 'SIL_BusinessType', 'entityType', 'id'), $silLegalType) Then
+               $silResponse.partyList.addElement(INT_SILMappingSILtoCMN_v2.createCMNSearchedPartyFromSILInvolvedParty(null, $silOrganization));
+               /*CMN_Party $cmnParty := INT_SILMappingSILtoCMN_v2.createCMNPartyFromSILInvolvedParty(null, $silOrganization);
+               If $cmnParty != null Then
+                  $silResponse.partyList.addElement($cmnParty);
+               End*/
+            Else
+               $silResponse.unvalidPartyList.addElement(INT_SILMappingSILtoCMN_v2.createCMNSearchedPartyFromSILInvolvedParty(null, $silOrganization));
+               LIB_Logger.integrationError('[INT_SILMappingSILtoCMN]: Unknown type 1: ' & TOSTRING(TypeOf($silInvolvedParty, true)) & ', ' & $silResponse.legalEntityType);
+            End
+         Else
+            $silResponse.unvalidPartyList.addElement(INT_SILMappingSILtoCMN_v2.createCMNSearchedPartyFromSILInvolvedParty(null, $silOrganization));
+            LIB_Logger.integrationError('[INT_SILMappingSILtoCMN]: Unknown type 2: ' & TOSTRING(TypeOf($silInvolvedParty, true)) & ', ' & $silResponse.legalEntityType);
+         End
+      End
+   End
+End]]></definition>
+        </method>
+        <method name="createCMNBusinessRelationship" userId="NM" uuid="ffffffff-a156-2ce0-0000-000000000000">
+            <definition><![CDATA[StaticFunction createCMNBusinessRelationship(SIL_ACCOUNTAccount $silAccount) : CMN_BusinessRelationship Begin
+   Return INT_SILMappingSILtoCMN_v2.createCMNBusinessRelationshipFromSILAccount(null, $silAccount);
+End]]></definition>
+        </method>
+        <method name="createCMNBusinessRelationshipFromSILAccount" userId="pezzi" uuid="00000000-0cb3-c4c1-0000-000000000000">
+            <definition><![CDATA[StaticFunction createCMNBusinessRelationshipFromSILAccount(CMN_BusinessRelationship $cmnBusinessRelationship, SIL_ACCOUNTaccount $silAccount) : CMN_BusinessRelationship Begin
+   If $cmnBusinessRelationship == null Then
+      $cmnBusinessRelationship := CMN_BusinessRelationshipFactory__selector(NewObject(CMN_ClientLifecycleData));
+   End
+   /********************************** FIELDS from SIL_Account ****************************************/
+   If $silAccount != null Then
+      $cmnBusinessRelationship.setSILID($silAccount.accountId);
+      $cmnBusinessRelationship.number := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.number, $silAccount.number);
+      $cmnBusinessRelationship.openingDate := INT_SILMappingSILtoCMN_v2._mapDate($cmnBusinessRelationship.openingDate, $silAccount.openingDate);
+      If LIB_Validator.validateNotEmptyIndexed($silAccount.relationships) Then
+         $cmnBusinessRelationship.relationshipCode := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.relationshipCode, $silAccount.relationships[1].id);
+         $cmnBusinessRelationship.kytProfile.purposeOfAccount.actualRelationshipSize := INT_SILMappingSILtoCMN_v2._mapLong($cmnBusinessRelationship.kytProfile.purposeOfAccount.actualRelationshipSize, TOLONG($silAccount.relationships[1].expectedAUM));
+      End
+      $cmnBusinessRelationship.bookingCenter := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.bookingCenter, LIST($silAccount.society, 'CMN_BookingCenter__selector', 'id', 'sil_Id'));
+      If $silAccount.openningTeam != null Then
+         $cmnBusinessRelationship.openingTeamGroup := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.openingTeamGroup, $silAccount.openningTeam.costCenterId);
+         If $silAccount.openningTeam.isRelatedToUnit != null && ISA($silAccount.openningTeam.isRelatedToUnit, SIL_INVOLVEDPARTYdepartment) Then
+            SIL_INVOLVEDPARTYdepartment $silDepartment := CAST(SIL_INVOLVEDPARTYdepartment, $silAccount.openningTeam.isRelatedToUnit);
+            $cmnBusinessRelationship.bookingCenter := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.bookingCenter, $silDepartment.bookingCenter);
+         End
+      End
+      IF($silAccount.accountMarketPurityCountry != null, $cmnBusinessRelationship.relationshipCountry := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.relationshipCountry, $silAccount.accountMarketPurityCountry.code));
+      $cmnBusinessRelationship.kytProfile.generalInformation.accountHeadingType := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.accountHeadingType, LIST($silAccount.accountHeadingType, 'COB_AccountHeadingTypes', 'id', 'sil_Id'));
+      $cmnBusinessRelationship.kytProfile.generalInformation.dormantCode := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.dormantCode, $silAccount.status);
+      $cmnBusinessRelationship.kytProfile.generalInformation.isCoreMarket := INT_SILMappingSILtoCMN_v2._mapBoolean($cmnBusinessRelationship.kytProfile.generalInformation.isCoreMarket, $silAccount.accountInCoreMarketIndicator);
+      $cmnBusinessRelationship.kytProfile.generalInformation.descriptionCoreMarket := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.descriptionCoreMarket, $silAccount.nonCoreMarketApprovalDescription);
+      $cmnBusinessRelationship.kytProfile.purposeOfAccount.hasPCM := INT_SILMappingSILtoCMN_v2._mapBoolean($cmnBusinessRelationship.kytProfile.purposeOfAccount.hasPCM, $silAccount.pcmProductIndicator);
+      $cmnBusinessRelationship.kytProfile.purposeOfAccount.PCMId := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.purposeOfAccount.PCMId, $silAccount.pcmProductReferenceId);
+      IF($cmnBusinessRelationship.regulatoryProfile.cies != null, $cmnBusinessRelationship.regulatoryProfile.cies.hasCies := INT_SILMappingSILtoCMN_v2._mapBoolean($cmnBusinessRelationship.regulatoryProfile.cies.hasCies, $silAccount.subjectToCIESIndicator));
+      // MATCHING CLIENT TYPE @STODO NEEDS MORE CODES CURRENTLY ONLY ONE
+      String $clientType := LIST($silAccount.clientCode, 'SIL_ClientCode', 'cmn_id', 'sil_id');
+      If ! EMPTY($clientType) Then
+         $cmnBusinessRelationship.clientType := $clientType;
+      Else
+         LIB_Logger.integrationError('[INT_SILMappingCMNToSIL]: Client Category Value does not exist in mapping table ( ' & $silAccount.clientCategory & ')');
+      End
+      // MATCHING USE CASE @STODO NEEDS MORE CODES CURRENTLY ONLY ONE
+      /*String $useCase := LIST($silAccount.clientCategory, 'SIL_ClientCategory', 'cmn_id', 'sil_id');
+      If ! EMPTY($useCase) Then
+         $cmnBusinessRelationship.useCase := $useCase;
+      Else
+         LIB_Logger.integrationError('[INT_SILMappingCMNToSIL]: Use Case Value does not exist in mapping table ( ' & $silAccount.clientCode & ')');
+      End*/
+      If $silAccount.defaultCurrency != null Then
+         $cmnBusinessRelationship.currency := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.currency, $silAccount.defaultCurrency.code);
+      End
+      /******** KYT - General Information ************/
+      If LIB_Validator.validateNotEmptyIndexed($silAccount.accountEmployees) Then
+         ForEach SIL_INVOLVEDPARTYRELATIONemployeeContractRelation $relation In $silAccount.accountEmployees Do
+            SIL_INVOLVEDPARTYemployeeRole $silEmployeeRole := $relation.employeeRole;
+            If ISA($silEmployeeRole, SIL_INVOLVEDPARTYaccountOfficer) Then
+               SIL_INVOLVEDPARTYaccountOfficer $silINVOLVEDPARTYrelationshipManager := CAST(SIL_INVOLVEDPARTYaccountOfficer, $silEmployeeRole);
+               String $silManagerType := LIST($relation.employeeRole.type, 'CMN_KYTAccountManager__selector', 'id', 'sil_id');
+               If NotEmpty($silManagerType) Then
+                  $cmnBusinessRelationship.kytProfile.generalInformation.accountManager := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.accountManager, $silManagerType);
+                  If ISA($silEmployeeRole.inContext, SIL_INVOLVEDPARTYorganization) Then
+                     SIL_INVOLVEDPARTYorganization $silDepartment := CAST(SIL_INVOLVEDPARTYorganization, $silEmployeeRole.inContext);
+                     If LIB_Validator.validateNotEmptyIndexed($silDepartment.documentationItems) Then
+                        ForEach SIL_INVOLVEDPARTYdocumentationItem $silDocumentationItem In $silDepartment.documentationItems Do
+                           If ISA($silDocumentationItem, SIL_INVOLVEDPARTYincorporation) Then
+                              SIL_INVOLVEDPARTYincorporation $silIncorporation := CAST(SIL_INVOLVEDPARTYincorporation, $silDocumentationItem);
+                              If $silIncorporation.incorporateCountry != null && NotEmpty($silIncorporation.incorporateCountry.code) Then
+                                 $cmnBusinessRelationship.kytProfile.generalInformation.country := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.country, $silIncorporation.incorporateCountry.code);
+                              End
+                           End
+                        End
+                     End
+                  End
+                  If EQUAL($cmnBusinessRelationship.kytProfile.generalInformation.accountManager, 'grou') Then
+                     //$silDepartment.id
+                     If ISA($silEmployeeRole.party, SIL_INVOLVEDPARTYorganization) Then
+                        //business	
+                        SIL_INVOLVEDPARTYorganization $silOrganization := CAST(SIL_INVOLVEDPARTYorganization, $silEmployeeRole.party);
+                        If LIB_Validator.validateNotEmptyIndexed($silOrganization.names) Then
+                           If ISA($silOrganization.names[1], SIL_INVOLVEDPARTYorganizationName) Then
+                              $cmnBusinessRelationship.kytProfile.generalInformation.companyName := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.companyName, CAST(SIL_INVOLVEDPARTYorganizationName, $silOrganization.names[1]).businessName);
+                           End
+                        End
+                     End
+                  Else
+                     If $silEmployeeRole.party != null Then
+                        $cmnBusinessRelationship.kytProfile.generalInformation.id := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.id, $silEmployeeRole.party.id);
+                        If ISA($silEmployeeRole.party, SIL_INVOLVEDPARTYorganization) Then
+                           //business	
+                           SIL_INVOLVEDPARTYorganization $silOrganization := CAST(SIL_INVOLVEDPARTYorganization, $silEmployeeRole.party);
+                           If LIB_Validator.validateNotEmptyIndexed($silOrganization.names) Then
+                              If ISA($silOrganization.names[1], SIL_INVOLVEDPARTYorganizationName) Then
+                                 $cmnBusinessRelationship.kytProfile.generalInformation.companyName := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.companyName, CAST(SIL_INVOLVEDPARTYorganizationName, $silOrganization.names[1]).businessName);
+                              End
+                           End
+                        Else
+                           //individual
+                           SIL_INVOLVEDPARTYindividual $silIndividual := CAST(SIL_INVOLVEDPARTYindividual, $silEmployeeRole.party);
+                           If LIB_Validator.validateNotEmptyIndexed($silIndividual.names) Then
+                              If ISA($silIndividual.names[1], SIL_INVOLVEDPARTYindividualName) Then
+                                 $cmnBusinessRelationship.kytProfile.generalInformation.firstName := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.firstName, CAST(SIL_INVOLVEDPARTYindividualName, $silIndividual.names[1]).firstName);
+                                 $cmnBusinessRelationship.kytProfile.generalInformation.lastName := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.lastName, CAST(SIL_INVOLVEDPARTYindividualName, $silIndividual.names[1]).lastName);
+                              End
+                           End
+                        End
+                     End
+                     If $silINVOLVEDPARTYrelationshipManager.secondary != null Then
+                        SIL_INVOLVEDPARTYaccountOfficer $silINVOLVEDPARTYSecondrelationshipManager := $silINVOLVEDPARTYrelationshipManager.secondary;
+                        $cmnBusinessRelationship.kytProfile.generalInformation.id2nd := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.id2nd, $silINVOLVEDPARTYSecondrelationshipManager.party.id);
+                        If ISA($silINVOLVEDPARTYSecondrelationshipManager.inContext, SIL_INVOLVEDPARTYorganization) Then
+                           SIL_INVOLVEDPARTYorganization $silDepartment := CAST(SIL_INVOLVEDPARTYorganization, $silINVOLVEDPARTYSecondrelationshipManager.inContext);
+                           If LIB_Validator.validateNotEmptyIndexed($silDepartment.documentationItems) Then
+                              ForEach SIL_INVOLVEDPARTYdocumentationItem $silDocumentationItem In $silDepartment.documentationItems Do
+                                 If ISA($silDocumentationItem, SIL_INVOLVEDPARTYincorporation) Then
+                                    SIL_INVOLVEDPARTYincorporation $silIncorporation := CAST(SIL_INVOLVEDPARTYincorporation, $silDocumentationItem);
+                                    If $silIncorporation.incorporateCountry != null && NotEmpty($silIncorporation.incorporateCountry.code) Then
+                                       $cmnBusinessRelationship.kytProfile.generalInformation.country2nd := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.country2nd, $silIncorporation.incorporateCountry.code);
+                                    End
+                                 End
+                              End
+                           End
+                        End
+                        //individual
+                        SIL_INVOLVEDPARTYindividual $silIndividual := CAST(SIL_INVOLVEDPARTYindividual, $silINVOLVEDPARTYSecondrelationshipManager.party);
+                        If LIB_Validator.validateNotEmptyIndexed($silIndividual.names) Then
+                           If ISA($silIndividual.names[1], SIL_INVOLVEDPARTYindividualName) Then
+                              $cmnBusinessRelationship.kytProfile.generalInformation.firstName2nd := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.firstName2nd, CAST(SIL_INVOLVEDPARTYindividualName, $silIndividual.names[1]).firstName);
+                              $cmnBusinessRelationship.kytProfile.generalInformation.lastName2nd := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.lastName2nd, CAST(SIL_INVOLVEDPARTYindividualName, $silIndividual.names[1]).lastName);
+                           End
+                        End
+                     End
+                  End
+               End
+            ElseIf ISA($relation.employeeRole, SIL_INVOLVEDPARTYemployeeRole) Then
+               $cmnBusinessRelationship.kytProfile.generalInformation.businessAreaDeskHead := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.businessAreaDeskHead, $relation.employeeRole.id);
+            End
+         End
+      End
+      //$cmnBusinessRelationship.kytProfile.generalInformation.fccrmCustomerType := INT_SILMatchingTools_v2.matchSILFCCRAMCustomerTypesIdToCMNId($silAccount.accountType);
+      //Default the accountManager to RM
+      //$cmnBusinessRelationship.kytProfile.generalInformation.accountManager := INT_SILMatchingTools_v2.matchSILAccountManagerIdToCMNId('01');
+      //RM Id - is the people soft Id which is the LDAP User
+      /*  If NotEmpty($silAccount.internalAccountOfficer) Then
+         LIB_User $user := NEW(LIB_User, $silAccount.internalAccountOfficer);
+         If $user.exist() and $user.isRelationshipManager() Then
+            $cmnBusinessRelationship.kytProfile.generalInformation.firstName := $user.getUser().getFirstName();
+            $cmnBusinessRelationship.kytProfile.generalInformation.lastName := $user.getUser().getLastName();
+            If EMPTY($cmnBusinessRelationship.kytProfile.generalInformation.country) Then
+               $cmnBusinessRelationship.kytProfile.generalInformation.country := GetActiveVariationID();
+            End
+            $cmnBusinessRelationship.kytProfile.generalInformation.id := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.id, $silAccount.internalAccountOfficer);
+         End
+      End*/
+      //@STODO - extract from LDAP, the RM First Name, RM Last Name 
+      // $cmnBusinessRelationship.kytProfile.generalInformation.firstName := CAST(SIL_IndividualName, $silEmployeeDetails.party.names[1]).firstName;
+      // $cmnBusinessRelationship.kytProfile.generalInformation.lastName := CAST(SIL_IndividualName, $silEmployeeDetails.party.names[1]).lastName;
+      // RM Country @STODO - to be extracted from somewhere - 
+      // $cmnBusinessRelationship.kytProfile.generalInformation.country := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.generalInformation.country, CAST(SIL_CountryAddress, $addresses[1]).country.code);
+      $cmnBusinessRelationship.name := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.name, $silAccount.longName);
+      /*************** Purpose of account **************/
+      $cmnBusinessRelationship.kytProfile.purposeOfAccount.reasonAccountOpened := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.purposeOfAccount.reasonAccountOpened, $silAccount.openingReason);
+      
+      $cmnBusinessRelationship.kytProfile.purposeOfAccount.purposeSelection.clear();
+      SIL_ACCOUNTaccountPurpose $silAccountPurpose;
+      ForEach $silAccountPurpose In $silAccount.accountPurposes Do
+         If $silAccountPurpose != null Then
+            String $cmnAccountPurpose := INT_SILMatchingTools_v2.matchSILAccountPurposeIdToCMNId($silAccountPurpose.purposeType);
+            If NotEmpty($cmnAccountPurpose) Then
+               $cmnBusinessRelationship.kytProfile.purposeOfAccount.purposeSelection.addElement($cmnAccountPurpose);
+               If $cmnAccountPurpose == 'others' Then
+                  $cmnBusinessRelationship.kytProfile.purposeOfAccount.otherPurpose := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.purposeOfAccount.otherPurpose, $silAccountPurpose.description);
+               End
+            End
+         End
+      End
+      /*******Aount Investment && NBCE *****/
+      INT_SILMappingSILtoCMNVariationFactory__selector().createCMNBusinessRelationshipFromSILAccount($cmnBusinessRelationship, $silAccount);
+      /*************** Account Profile **************/
+      $cmnBusinessRelationship := INT_SILMappingSILtoCMN_v2.createCMNBusinessRelationshipFromSILAccountProfile($cmnBusinessRelationship, $silAccount);
+      /*************** Visitation **************/
+      $cmnBusinessRelationship := INT_SILMappingSILtoCMN_v2.createCMNBusinessRelationshipFromSILAccountInitialVisit($cmnBusinessRelationship, $silAccount);
+      /*************** Referral **************/
+      $cmnBusinessRelationship := INT_SILMappingSILtoCMN_v2.createCMNBusinessRelationshipFromSILAccountReferrals($cmnBusinessRelationship, $silAccount);
+   End
+   $cmnBusinessRelationship.isTakenFromSIL := true;
+   Return $cmnBusinessRelationship;
+End]]></definition>
+        </method>
+        <method name="createCMNBusinessRelationshipFromSILAccountActivity" userId="pezzi" uuid="00000000-776d-caf0-0000-000000000000">
+            <definition><![CDATA[StaticFunction createCMNBusinessRelationshipFromSILAccountActivity(CMN_BusinessRelationship $cmnBusinessRelationship, Indexed SIL_KYCaccountActivity $silKycAccountActivity) : CMN_BusinessRelationship Begin
+   If $cmnBusinessRelationship == null Then
+      $cmnBusinessRelationship := CMN_BusinessRelationshipFactory__selector(NewObject(CMN_ClientLifecycleData));
+   End
+   /********************************** FIELDS from SIL_accountActivity ****************************************/
+   If LIB_Validator.validateNotEmptyIndexed($silKycAccountActivity) Then
+      //$cmnBusinessRelationship.kytProfile.expectedAccountActivity.hasExpectedInflowsOrOutflows := true;
+      For Integer $i := 1 Condition $i <= $silKycAccountActivity.size() Step $i := $i + 1 Do
+         SIL_KYCaccountActivity $silAccActivity := $silKycAccountActivity[$i];
+         /************ transfers In *******************/
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersIn[$i] := NEW(CMN_KYTTransferActivity);
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersIn[$i].cashTransNumber := $silAccActivity.numberCashCreditTransaction;
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersIn[$i].cashTotalAmount := $silAccActivity.valueCashCreditTransaction;
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersIn[$i].wireTransfersTransNumber := $silAccActivity.numberIntWireCreditPayment;
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersIn[$i].wireTransfersTotalAmount := $silAccActivity.valueIntWireCreditPayment;
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersIn[$i].wireHrjTransfersTotalNumber := $silAccActivity.numberIntWireHrjCreditPayment;
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersIn[$i].wireHrjTransfersTotalAmount := $silAccActivity.valueIntWireHrjCreditPayment;
+         /************ transfers Out *******************/
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersOut[$i] := NEW(CMN_KYTTransferActivity);
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersOut[$i].cashTransNumber := $silAccActivity.numberCashDebitTransaction;
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersOut[$i].cashTotalAmount := $silAccActivity.valueCashDebitTransaction;
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersOut[$i].wireTransfersTransNumber := $silAccActivity.numberIntWireDebitPayment;
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersOut[$i].wireTransfersTotalAmount := $silAccActivity.valueIntWireDebitPayment;
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersOut[$i].wireHrjTransfersTotalNumber := $silAccActivity.numberIntWireHrjDebitPayment;
+         $cmnBusinessRelationship.kytProfile.actualAccountActivity.transfersOut[$i].wireHrjTransfersTotalAmount := $silAccActivity.valueIntWireHrjDebitPayment;
+      End
+   Else
+      $cmnBusinessRelationship.kytProfile.actualAccountActivity := NEW(CMN_KYTActualAccountActivity);
+      $cmnBusinessRelationship.kytProfile.actualAccountActivity.clearTwelveMonthsActivities();
+      //$cmnBusinessRelationship.kytProfile.expectedAccountActivity.hasExpectedInflowsOrOutflows := false;
+   End
+   /********************************** RETURN ****************************************/
+   Return $cmnBusinessRelationship;
+End]]></definition>
+        </method>
+        <method name="createCMNBusinessRelationshipFromSILAccountFunding" userId="pezzi" uuid="ffffffff-cfe2-eafc-0000-000000000000">
+            <definition><![CDATA[StaticFunction createCMNBusinessRelationshipFromSILAccountFunding(CMN_BusinessRelationship $cmnBusinessRelationship, SIL_ACCOUNTaccountFunding $silAccountFunding) : CMN_BusinessRelationship Begin
+   If $cmnBusinessRelationship == null Then
+      $cmnBusinessRelationship := CMN_BusinessRelationshipFactory__selector(NewObject(CMN_ClientLifecycleData));
+   End
+   /********************************** FIELDS from SIL_AccountFunding ****************************************/
+   If $silAccountFunding != null Then
+      /**************** PURPOSE OF ACCOUNT **********************/
+      $cmnBusinessRelationship.kytProfile.initialFunding.fundsExplanation := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.initialFunding.fundsExplanation, $silAccountFunding.initialFundingExplanation);
+      $cmnBusinessRelationship.kytProfile.purposeOfAccount.comments := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.purposeOfAccount.comments, $silAccountFunding.comments);
+      $cmnBusinessRelationship.kytProfile.purposeOfAccount.expectedAccountSize := TOLONG(INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.purposeOfAccount.expectedAccountSize, $silAccountFunding.expectedAmount));
+      $cmnBusinessRelationship.kytProfile.purposeOfAccount.deadlineToFundAccount := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.purposeOfAccount.deadlineToFundAccount, TOINTEGER(DATEFORMAT($silAccountFunding.expectedAmountDeadline, 'yyyy')));
+   End
+   /********************************** RETURN ****************************************/
+   Return $cmnBusinessRelationship;
+End]]></definition>
+        </method>
+        <method name="createCMNBusinessRelationshipFromSILAccountFundingTransfer" userId="pezzi" uuid="ffffffff-9ee9-4b07-0000-000000000000">
+            <definition><![CDATA[/**
+  Description of function 'createCMNBusinessRelationshipFromSILAccountFundingTransfer'.
+  @param $value Description of parameter '$value'.
+  @return       Description of return value.
+*/
+StaticFunction createCMNBusinessRelationshipFromSILAccountFundingTransfer(CMN_BusinessRelationship $cmnBusinessRelationship, Indexed SIL_ORDERtransfer $silAccountFundingsTransfer) : CMN_BusinessRelationship Begin
+   If $cmnBusinessRelationship == null Then
+      $cmnBusinessRelationship := CMN_BusinessRelationshipFactory__selector(NewObject(CMN_ClientLifecycleData));
+   End
+   If not LIB_Validator.validateNotEmptyIndexed($silAccountFundingsTransfer) Then
+      Return $cmnBusinessRelationship;
+   End
+   Indexed CMN_KYTSourceOfFund $previousCMNSourceOfFundCheques := NewIndexed(CMN_KYTSourceOfFund);
+   Indexed CMN_KYTSourceOfFund $previousCMNSourceOfFundSecurities := NewIndexed(CMN_KYTSourceOfFund);
+   Indexed CMN_KYTSourceOfFund $previousCMNSourceOfFundWireTransfers := NewIndexed(CMN_KYTSourceOfFund);
+   /*****    Keep CMN Object without ID, copy one with ID to merge with SIL Objects *****/
+   ForEach CMN_KYTSourceOfFund $previousCMNSourceOfFundCheque In $cmnBusinessRelationship.kytProfile.initialFunding.cheque Do
+      If NotEmpty($previousCMNSourceOfFundCheque.getSILID()) Then
+         $cmnBusinessRelationship.kytProfile.initialFunding.cheque.removeElement($previousCMNSourceOfFundCheque);
+         $previousCMNSourceOfFundCheques.addElement($previousCMNSourceOfFundCheque);
+      End
+   End
+   ForEach CMN_KYTSourceOfFund $previousCMNSourceOfFundSecuritiy In $cmnBusinessRelationship.kytProfile.initialFunding.securities Do
+      If NotEmpty($previousCMNSourceOfFundSecuritiy.getSILID()) Then
+         $cmnBusinessRelationship.kytProfile.initialFunding.securities.removeElement($previousCMNSourceOfFundSecuritiy);
+         $previousCMNSourceOfFundSecurities.addElement($previousCMNSourceOfFundSecuritiy);
+      End
+   End
+   ForEach CMN_KYTSourceOfFund $previousCMNSourceOfFundWireTransfer In $cmnBusinessRelationship.kytProfile.initialFunding.wireTransfers Do
+      If NotEmpty($previousCMNSourceOfFundWireTransfer.getSILID()) Then
+         $cmnBusinessRelationship.kytProfile.initialFunding.wireTransfers.removeElement($previousCMNSourceOfFundWireTransfer);
+         $previousCMNSourceOfFundWireTransfers.addElement($previousCMNSourceOfFundWireTransfer);
+      End
+   End
+   SIL_ORDERtransfer $silOrderTransfer;
+   ForEach $silOrderTransfer In $silAccountFundingsTransfer Do
+      If $silOrderTransfer != null Then
+         /*************** EXPECTED ACCOUNT ACTIVITY ****************/
+         If NotEmpty($silOrderTransfer.type) Then
+            If EQUAL($silOrderTransfer.type, '6') Then
+               $cmnBusinessRelationship.kytProfile.initialFunding.phyAssetsCashAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.initialFunding.phyAssetsCashAmount, $silOrderTransfer.amount);
+               $cmnBusinessRelationship.kytProfile.initialFunding.phyAssetsCashAmountId := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.initialFunding.phyAssetsCashAmountId, $silOrderTransfer.id);
+               /****************** physicalCash ******************/
+            ElseIf EQUAL($silOrderTransfer.type, '8') Then
+               $cmnBusinessRelationship.kytProfile.initialFunding.phyAssetsPreciousMetalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.initialFunding.phyAssetsPreciousMetalAmount, $silOrderTransfer.amount);
+               $cmnBusinessRelationship.kytProfile.initialFunding.phyAssetsPreciousMetalAmountId := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.initialFunding.phyAssetsPreciousMetalAmountId, $silOrderTransfer.id);
+               /****************** physicalPreciousMetal ******************/
+            ElseIf EQUAL($silOrderTransfer.type, '9') Then
+               $cmnBusinessRelationship.kytProfile.initialFunding.phyAssetsSecuritiesAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.initialFunding.phyAssetsSecuritiesAmount, $silOrderTransfer.amount);
+               $cmnBusinessRelationship.kytProfile.initialFunding.phyAssetsSecuritiesAmountId := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.initialFunding.phyAssetsSecuritiesAmountId, $silOrderTransfer.id);
+               /****************** physicalSecurities ******************/
+            Else
+               CMN_KYTSourceOfFund $cmnSourceOfFund := NewObject(CMN_KYTSourceOfFund, '');
+               If EQUAL($silOrderTransfer.type, '5') Then
+                  /****************** CHEQUE ******************/
+                  ForEach CMN_KYTSourceOfFund $otherCMNKycSourceOfFund In $previousCMNSourceOfFundCheques Do
+                     If $otherCMNKycSourceOfFund.getSILID() == $silOrderTransfer.id Then
+                        $cmnSourceOfFund := $otherCMNKycSourceOfFund;
+                        Break;
+                     End
+                  End
+                  $cmnBusinessRelationship.kytProfile.initialFunding.cheque.addElement($cmnSourceOfFund);
+               ElseIf EQUAL($silOrderTransfer.type, '4') Then
+                  /****************** SECURITY ******************/
+                  ForEach CMN_KYTSourceOfFund $otherCMNKycSourceOfFund In $previousCMNSourceOfFundSecurities Do
+                     If $otherCMNKycSourceOfFund.getSILID() == $silOrderTransfer.id Then
+                        $cmnSourceOfFund := $otherCMNKycSourceOfFund;
+                        Break;
+                     End
+                  End
+                  $cmnBusinessRelationship.kytProfile.initialFunding.securities.addElement($cmnSourceOfFund);
+               ElseIf EQUAL($silOrderTransfer.type, '3') Then
+                  /****************** WIRE TRANSFER ******************/
+                  ForEach CMN_KYTSourceOfFund $otherCMNKycSourceOfFund In $previousCMNSourceOfFundWireTransfers Do
+                     If $otherCMNKycSourceOfFund.getSILID() == $silOrderTransfer.id Then
+                        $cmnSourceOfFund := $otherCMNKycSourceOfFund;
+                        Break;
+                     End
+                  End
+                  $cmnBusinessRelationship.kytProfile.initialFunding.wireTransfers.addElement($cmnSourceOfFund);
+               End
+               $cmnSourceOfFund.setSILID(INT_SILMappingSILtoCMN_v2._mapString($cmnSourceOfFund.getSILID(), TOSTRING($silOrderTransfer.id)));
+               $cmnSourceOfFund.expectedAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnSourceOfFund.expectedAmount, $silOrderTransfer.amount);
+               If $silOrderTransfer.debtorRole != null Then
+                  $cmnSourceOfFund.orderingParty := INT_SILMatchingTools_v2.matchSILDebtorRoleTypeToCMNDebtorRoleType($silOrderTransfer.debtorRole);
+                  If $cmnSourceOfFund.orderingParty == 'thirdParty' and LIB_Validator.validateNotEmptyIndexed($silOrderTransfer.debtorRole.party.names) Then
+                     $cmnSourceOfFund.thirdPartyName := INT_SILMappingSILtoCMN_v2._mapString($cmnSourceOfFund.thirdPartyName, $silOrderTransfer.debtorRole.party.names[1].fullName);
+                  End
+               End
+               If $silOrderTransfer.debtorBank != null Then
+                  $cmnSourceOfFund.bank := INT_SILMappingSILtoCMN_v2._mapString($cmnSourceOfFund.bank, LIST(TOSTRING($silOrderTransfer.debtorBank.type), 'SIL_KYTBank', 'id', 'sil_id'));
+                  If LIB_Validator.validateNotEmptyIndexed($silOrderTransfer.debtorBank.names) && ISA($silOrderTransfer.debtorBank.names[1], SIL_INVOLVEDPARTYorganizationName) Then
+                     $cmnSourceOfFund.bankName := CAST(SIL_INVOLVEDPARTYorganizationName, $silOrderTransfer.debtorBank.names[1]).businessName;
+                  ElseIf LIB_Validator.validateNotEmptyIndexed($silOrderTransfer.debtorBank.names) Then
+                     $cmnSourceOfFund.entity := LIST($silOrderTransfer.debtorBank.names[1].fullName, 'CMN_HSBCEntities__selector', 'id', 'description');
+                  End
+               End
+               If $silOrderTransfer.subAccountSell != null Then
+                  $cmnSourceOfFund.accountNumber := INT_SILMappingSILtoCMN_v2._mapString($cmnSourceOfFund.accountNumber, $silOrderTransfer.subAccountSell.id);
+               End
+               If $silOrderTransfer.originOfFundsCountry != null Then
+                  $cmnSourceOfFund.country := INT_SILMappingSILtoCMN_v2._mapString($cmnSourceOfFund.country, $silOrderTransfer.originOfFundsCountry.code);
+               End
+               $cmnSourceOfFund.type := INT_SILMappingSILtoCMN_v2._mapString($cmnSourceOfFund.type, $silOrderTransfer.type);
+            End
+         End
+      End
+   End
+   Return $cmnBusinessRelationship;
+End]]></definition>
+        </method>
+        <method name="createCMNBusinessRelationshipFromSILAccountInitialVisit" userId="43880320-CH01" uuid="ffffffff-aad4-efc8-0000-000000000000">
+            <definition><![CDATA[/**
+  Description of function 'createCMNBusinessRelationshipFromSILAccountInitialVisit'.
+  @param $value Description of parameter '$value'.
+  @return       Description of return value.
+*/
+StaticFunction createCMNBusinessRelationshipFromSILAccountInitialVisit(CMN_BusinessRelationship $cmnBusinessRelationship, SIL_ACCOUNTaccount $silAccount) : CMN_BusinessRelationship Begin
+   If $cmnBusinessRelationship == null Then
+      $cmnBusinessRelationship := CMN_BusinessRelationshipFactory__selector(NewObject(CMN_ClientLifecycleData));
+   End
+   /********************************** FIELDS from SIL_Account Visitation****************************************/
+   If $silAccount != null && $silAccount.initialVisit != null Then
+      $cmnBusinessRelationship.kytProfile.visitation.reasonCustomerNotVisited := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.visitation.reasonCustomerNotVisited, $silAccount.initialVisit.nextVisitPlanDescription);
+      $cmnBusinessRelationship.kytProfile.visitation.plannedFirstVisitDate := INT_SILMappingSILtoCMN_v2._mapDate($cmnBusinessRelationship.kytProfile.visitation.plannedFirstVisitDate, $silAccount.initialVisit.nextVisitDate);
+      $cmnBusinessRelationship.kytProfile.visitation.descriptionFirstVisitNewClient := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.visitation.descriptionFirstVisitNewClient, $silAccount.initialVisit.report);
+      If LIB_Validator.validateNotEmptyIndexed($silAccount.initialVisit.initialVisitLocations) Then
+         SIL_STATIClocation $location;
+         ForEach $location In $silAccount.initialVisit.initialVisitLocations Do
+            If NotEmpty($location.type) Then
+               $cmnBusinessRelationship.kytProfile.visitation.placesFirstVisit.addElement(LIST($location.type, 'CMN_PlaceOfFirstVisit__selector', 'id', 'sil_id'));
+            End
+            If NotEmpty($location.name) Then
+               $cmnBusinessRelationship.kytProfile.visitation.placesFirstVisit.addElement('others');
+               $cmnBusinessRelationship.kytProfile.visitation.othersPlacesVisit := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.visitation.othersPlacesVisit, $location.name);
+            End
+         End
+      End
+      If $cmnBusinessRelationship.kytProfile.visitation.hasCustomerVisitedPremises and LIB_Validator.validateNotEmptyIndexed($silAccount.initialVisit.contactActivities) Then
+         SIL_CONTACTACTIVITYcontactActivity $silCONTACTACTIVITYcontactActivity;
+         ForEach $silCONTACTACTIVITYcontactActivity In $silAccount.initialVisit.contactActivities Do
+            If ISA($silCONTACTACTIVITYcontactActivity, SIL_CONTACTACTIVITYvisitComplete) Then
+               SIL_CONTACTACTIVITYvisitComplete $visit := CAST(SIL_CONTACTACTIVITYvisitComplete, $silCONTACTACTIVITYcontactActivity);
+               CMN_Partner $cmnPartner := NEW(CMN_Partner);
+               $cmnPartner.isVisited := true;
+               If LIB_Validator.validateNotEmptyIndexed($visit.visitedRoles) Then
+                  SIL_INVOLVEDPARTYinvolvedPartyRole $silRole := $visit.visitedRoles[1];
+                  $cmnPartner.role := INT_SILMappingSILtoCMN_v2._mapString($cmnPartner.role, $silRole.type);
+                  If $silRole.party != null Then
+                     $cmnPartner.id := INT_SILMappingSILtoCMN_v2._mapString($cmnPartner.id, $silRole.party.id);
+                     If LIB_Validator.validateNotEmptyIndexed($silRole.party.names) and ISA($silRole.party.names[1], SIL_INVOLVEDPARTYindividualName) Then
+                        $cmnPartner.firstName := INT_SILMappingSILtoCMN_v2._mapString($cmnPartner.firstName, CAST(SIL_INVOLVEDPARTYindividualName, $silRole.party.names[1]).firstName);
+                        $cmnPartner.lastName := INT_SILMappingSILtoCMN_v2._mapString($cmnPartner.lastName, CAST(SIL_INVOLVEDPARTYindividualName, $silRole.party.names[1]).lastName);
+                        If EMPTY($cmnPartner.firstName) and EMPTY($cmnPartner.lastName) Then
+                           Indexed String $names := SPLIT($silRole.party.names[1].fullName, ' ');
+                           If LIB_Validator.validateNotEmptyIndexed($names) Then
+                              If $names.size() > 0 Then
+                                 $cmnPartner.firstName := $names[1];
+                                 $names.removeElementAt(1);
+                              End
+                              IF($names.size() > 0, $cmnPartner.lastName := JOINLIST($names, ' '));
+                           End
+                        End
+                     End
+                  End
+               End
+               $cmnPartner.role := INT_SILMappingSILtoCMN_v2._mapString($cmnPartner.role, $visit.type);
+               If $visit.responsibleRole != null && $visit.responsibleRole.party != null && ISA($visit.responsibleRole.party, SIL_INVOLVEDPARTYindividual) and LIB_Validator.validateNotEmptyIndexed($visit.responsibleRole.party.names) Then
+                  $cmnPartner.visitedbyFirstName := INT_SILMappingSILtoCMN_v2._mapString($cmnPartner.visitedbyFirstName, CAST(SIL_INVOLVEDPARTYindividualName, CAST(SIL_INVOLVEDPARTYindividual, $visit.responsibleRole.party).names[1]).firstName);
+                  $cmnPartner.visitedbyLastName := INT_SILMappingSILtoCMN_v2._mapString($cmnPartner.visitedbyLastName, CAST(SIL_INVOLVEDPARTYindividualName, CAST(SIL_INVOLVEDPARTYindividual, $visit.responsibleRole.party).names[1]).lastName);
+               End
+               $cmnPartner.visitedDate := INT_SILMappingSILtoCMN_v2._mapDate($cmnPartner.visitedDate, $visit.dateOfVisit);
+               $cmnBusinessRelationship.kytProfile.partners.addElement($cmnPartner);
+            End
+         End
+      Else
+         $cmnBusinessRelationship.kytProfile.visitation.reasonCustomerNotVisited := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.visitation.reasonCustomerNotVisited, $silAccount.initialVisit.nextVisitPlanDescription);
+         $cmnBusinessRelationship.kytProfile.visitation.plannedFirstVisitDate := INT_SILMappingSILtoCMN_v2._mapDate($cmnBusinessRelationship.kytProfile.visitation.plannedFirstVisitDate, $silAccount.initialVisit.nextVisitDate);
+      End
+   End
+   Return $cmnBusinessRelationship;
+End]]></definition>
+        </method>
+        <method name="createCMNBusinessRelationshipFromSILAccountProfile" userId="pezzi" uuid="ffffffff-dbd1-b1a8-0000-000000000000">
+            <definition><![CDATA[/**
+  Description of function 'createCMNBusinessRelationshipFromSILAccountProfile'.
+  @param $value Description of parameter '$value'.
+  @return       Description of return value.
+*/
+StaticFunction createCMNBusinessRelationshipFromSILAccountProfile(CMN_BusinessRelationship $cmnBusinessRelationship, SIL_ACCOUNTaccount $silAccount) : CMN_BusinessRelationship Begin
+   If $cmnBusinessRelationship == null Then
+      $cmnBusinessRelationship := CMN_BusinessRelationshipFactory__selector(NewObject(CMN_ClientLifecycleData));
+   End
+   /********************************** FIELDS from SIL_Account Profile****************************************/
+   If $silAccount != null && $silAccount.accountProfile != null Then
+      $cmnBusinessRelationship.kytProfile.referrals.isReferred := INT_SILMappingSILtoCMN_v2._mapBoolean($cmnBusinessRelationship.kytProfile.referrals.isReferred, INT_SILMatchingTools_v2.matchSILYesNoToCMNBoolean($silAccount.accountProfile.isReferred));
+      $cmnBusinessRelationship.kytProfile.visitation.hasCustomerVisitedPremises := INT_SILMappingSILtoCMN_v2._mapBoolean($cmnBusinessRelationship.kytProfile.visitation.hasCustomerVisitedPremises, $silAccount.accountProfile.hasClientBeenVisited);
+      INT_SILMappingSILtoCMNVariationFactory__selector().createCMNBusinessRelationshipFromSILAccountProfile($cmnBusinessRelationship, $silAccount);
+   End
+   Return $cmnBusinessRelationship;
+End]]></definition>
+        </method>
+        <method name="createCMNBusinessRelationshipFromSILAccountReferrals" userId="bernard" uuid="00000000-32fa-1cb5-0000-000000000000">
+            <definition><![CDATA[/**
+  Description of function 'createCMNBusinessRelationshipFromSILAccountReferrals'.
+  @param $value Description of parameter '$value'.
+  @return       Description of return value.
+*/
+StaticFunction createCMNBusinessRelationshipFromSILAccountReferrals(CMN_BusinessRelationship $cmnBusinessRelationship, SIL_ACCOUNTaccount $silAccount) : CMN_BusinessRelationship Begin
+   If $cmnBusinessRelationship == null Then
+      $cmnBusinessRelationship := CMN_BusinessRelationshipFactory__selector(NewObject(CMN_ClientLifecycleData));
+   End
+   /*************** Referral **************/
+   If $silAccount != null && $silAccount.accountReferrals != null Then
+      $cmnBusinessRelationship.kytProfile.referrals.isReferred := true;
+      If LIB_Validator.validateNotEmptyIndexed($silAccount.accountReferrals.referredPartnerRoles) Then
+         SIL_INVOLVEDPARTYinvolvedPartyRole $silRole := $silAccount.accountReferrals.referredPartnerRoles[1];
+         CMN_Partner $cmnPartner := NEW(CMN_Partner);
+         $cmnPartner.role := INT_SILMappingSILtoCMN_v2._mapString($cmnPartner.role, $silRole.type);
+         If $silRole.party != null Then
+            $cmnPartner.id := INT_SILMappingSILtoCMN_v2._mapString($cmnPartner.id, $silRole.party.id);
+            $cmnPartner.referralSelected := $cmnPartner.getId();
+            If LIB_Validator.validateNotEmptyIndexed($silRole.party.names) and ISA($silRole.party.names[1], SIL_INVOLVEDPARTYindividualName) Then
+               $cmnPartner.firstName := INT_SILMappingSILtoCMN_v2._mapString($cmnPartner.firstName, CAST(SIL_INVOLVEDPARTYindividualName, $silRole.party.names[1]).firstName);
+               $cmnPartner.lastName := INT_SILMappingSILtoCMN_v2._mapString($cmnPartner.lastName, CAST(SIL_INVOLVEDPARTYindividualName, $silRole.party.names[1]).lastName);
+               If EMPTY($cmnPartner.firstName) and EMPTY($cmnPartner.lastName) Then
+                  Indexed String $names := SPLIT($silRole.party.names[1].fullName, ' ');
+                  If LIB_Validator.validateNotEmptyIndexed($names) Then
+                     If $names.size() > 0 Then
+                        $cmnPartner.firstName := $names[1];
+                        $names.removeElementAt(1);
+                     End
+                     IF($names.size() > 0, $cmnPartner.lastName := JOINLIST($names, ' '));
+                  End
+               End
+            End
+         End
+      End
+      If $silAccount.accountReferrals.referrerRole != null Then
+         If $silAccount.accountReferrals.referrerRole.party != null && $silAccount.accountReferrals.referrerRole.party.existingCustomerIndicator Then
+            $cmnBusinessRelationship.kytProfile.referrals.isAnExistingPbrsClient6months := 'moreSixMonths';
+         Else
+            $cmnBusinessRelationship.kytProfile.referrals.isAnExistingPbrsClient6months := null;
+            If EQUAL(TOSTRING($silAccount.accountReferrals.referrerRole.referredByType), '08') Then
+               $cmnBusinessRelationship.kytProfile.referrals.isAnExistingPbrsClient6months := 'moreSixMonths';
+            Else
+               $cmnBusinessRelationship.kytProfile.referrals.referredType := INT_SILMatchingTools_v2.matchSILRefferalNameToCMNRefferedBy(TOSTRING($silAccount.accountReferrals.referrerRole.referredByType));
+            End
+            $cmnBusinessRelationship.kytProfile.referrals.referredBy.type := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.referrals.referredBy.type, LIST($silAccount.accountReferrals.referrerRole.referredBySubType, 'CMN_ReferredTypeByReferralsReferredType', 'id', 'sil_Id'));
+            If $silAccount.accountReferrals.referrerRole.party != null Then
+               $cmnBusinessRelationship.kytProfile.referrals.referredBy.id := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.referrals.referredBy.id, $silAccount.accountReferrals.referrerRole.party.id);
+               If ISA($silAccount.accountReferrals.referrerRole.party, SIL_INVOLVEDPARTYindividual) Then
+                  $cmnBusinessRelationship.kytProfile.referrals.referredBy.firstName := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.referrals.referredBy.firstName, CAST(SIL_INVOLVEDPARTYindividualName, $silAccount.accountReferrals.referrerRole.party.names[1]).firstName);
+                  $cmnBusinessRelationship.kytProfile.referrals.referredBy.surname := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.referrals.referredBy.surname, CAST(SIL_INVOLVEDPARTYindividualName, $silAccount.accountReferrals.referrerRole.party.names[1]).lastName);
+                  If EMPTY($cmnBusinessRelationship.kytProfile.referrals.referredBy.firstName) and EMPTY($cmnBusinessRelationship.kytProfile.referrals.referredBy.surname) Then
+                     Indexed String $names := SPLIT($silAccount.accountReferrals.referrerRole.party.names[1].fullName, ' ');
+                     If LIB_Validator.validateNotEmptyIndexed($names) Then
+                        If $names.size() > 0 Then
+                           $cmnBusinessRelationship.kytProfile.referrals.referredBy.firstName := $names[1];
+                           $names.removeElementAt(1);
+                        End
+                        IF($names.size() > 0, $cmnBusinessRelationship.kytProfile.referrals.referredBy.surname := JOINLIST($names, ' '));
+                     End
+                  End
+               End
+               If ISA($silAccount.accountReferrals.referrerRole.party, SIL_INVOLVEDPARTYorganization) Then
+                  SIL_INVOLVEDPARTYorganization $organization := CAST(SIL_INVOLVEDPARTYorganization, $silAccount.accountReferrals.referrerRole.party);
+                  If LIB_Validator.validateNotEmptyIndexed($organization.documentationItems) and ISA($organization.documentationItems[1], SIL_INVOLVEDPARTYincorporation) Then
+                     $cmnBusinessRelationship.kytProfile.referrals.referredBy.hsbcGroupCountry := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.referrals.referredBy.hsbcGroupCountry, LIST(CAST(SIL_INVOLVEDPARTYincorporation, $organization.documentationItems[1]).incorporateCountry.code, 'CMN_ReferralEntity__selector', 'id', 'countryCode'));
+                  ElseIf NotEmpty($organization.id) Then
+                     $cmnBusinessRelationship.kytProfile.referrals.referredBy.hsbcGroupCountry := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.referrals.referredBy.hsbcGroupCountry, LIST($organization.id, 'CMN_ReferralEntity__selector', 'id', 'sil_id'));
+                  End
+               End
+               $cmnBusinessRelationship.kytProfile.referrals.referredBy.referredDate := INT_SILMappingSILtoCMN_v2._mapDate($cmnBusinessRelationship.kytProfile.referrals.referredBy.referredDate, $silAccount.accountReferrals.referrerRole.knowsReferredPartnerSince);
+               $cmnBusinessRelationship.kytProfile.referrals.referredBy.relationship := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.referrals.referredBy.relationship, $silAccount.accountReferrals.referrerRole.relationshipWithReferredPartner);
+            End
+         End
+      End
+   End
+   Return $cmnBusinessRelationship;
+End]]></definition>
+        </method>
+        <method name="createCMNBusinessRelationshipFromSILAccountTaxInformation" userId="pezzi" uuid="00000000-03a9-1fa2-0000-000000000000">
+            <definition><![CDATA[/**
+  Description of function 'createCMNBusinessRelationshipFromSILAccountTaxInformation'.
+  @param $value Description of parameter '$value'.
+  @return       Description of return value.
+*/
+StaticFunction createCMNBusinessRelationshipFromSILAccountTaxInformation(CMN_BusinessRelationship $cmnBusinessRelationship, SIL_INVOLVEDPARTYtaxInformation $silTaxInformation) : CMN_BusinessRelationship Begin
+   If $cmnBusinessRelationship == null Then
+      $cmnBusinessRelationship := CMN_BusinessRelationshipFactory__selector(NewObject(CMN_ClientLifecycleData));
+   End
+   If $silTaxInformation != null Then
+      If LIB_Validator.validateNotEmptyIndexed($silTaxInformation.taxDetails) Then
+         ForEach SIL_INVOLVEDPARTYtaxDetail $silTD In $silTaxInformation.taxDetails Do
+            /********** Tax Statements and for Tax Reclaim *********/
+            INT_SILMappingSILtoCMNVariationFactory__selector().createCMNBusinessRelationshipFromSILTaxDetail($silTD, $cmnBusinessRelationship);
+         End
+      End
+   End
+   Return $cmnBusinessRelationship;
+End]]></definition>
+        </method>
+        <method name="createCMNBusinessRelationshipFromSILAccountTransferActivity" userId="pezzi" uuid="00000000-0e2a-5afb-0000-000000000000">
+            <definition><![CDATA[StaticFunction createCMNBusinessRelationshipFromSILAccountTransferActivity(CMN_BusinessRelationship $cmnBusinessRelationship, Indexed SIL_KYCaccountTransferActivity $silKycAccountActivity) : CMN_BusinessRelationship Begin
+   If $cmnBusinessRelationship == null Then
+      $cmnBusinessRelationship := CMN_BusinessRelationshipFactory__selector(NewObject(CMN_ClientLifecycleData));
+   End
+   /********************************** FIELDS from SIL_accountActivity ****************************************/
+   If LIB_Validator.validateNotEmptyIndexed($silKycAccountActivity) Then
+      SIL_KYCaccountTransferActivity $silAccActivity;
+      ForEach $silAccActivity In $silKycAccountActivity Do
+         If $silAccActivity.isAnyTransferExpected Then
+            $cmnBusinessRelationship.kytProfile.expectedAccountActivity.hasExpectedInflowsOrOutflows := true;
+         End
+         $cmnBusinessRelationship.kytProfile.expectedAccountActivity.inflowsOrOutflowsReason := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.expectedAccountActivity.inflowsOrOutflowsReason, $silAccActivity.reason);
+         $cmnBusinessRelationship.kytProfile.expectedAccountActivity.isHighRiskOrSensitive := INT_SILMappingSILtoCMN_v2._mapBoolean($cmnBusinessRelationship.kytProfile.expectedAccountActivity.isHighRiskOrSensitive, $silAccActivity.transferHighRiskCountryIndicator);
+         String $type := $silAccActivity.transferType;
+         If ISA($silAccActivity, SIL_KYCaccountTransferInActivity) Then
+            $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.silIds[$type] := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.silIds[$type], $silAccActivity.id);
+         Else
+            $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.silIds[$type] := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.silIds[$type], $silAccActivity.id);
+         End
+         If $type == 'PHYSICAL' Then
+            If ISA($silAccActivity, SIL_KYCaccountTransferInActivity) Then
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.cashTransNumber := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.cashTransNumber, $silAccActivity.cashNumberOfTransactions);
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.cashTotalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.cashTotalAmount, $silAccActivity.cashTotalAmountInUSD);
+            ElseIf ISA($silAccActivity, SIL_KYCaccountTransferOutActivity) Then
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.cashTransNumber := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.cashTransNumber, $silAccActivity.cashNumberOfTransactions);
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.cashTotalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.cashTotalAmount, $silAccActivity.cashTotalAmountInUSD);
+            End
+            If ISA($silAccActivity, SIL_KYCaccountTransferInActivity) Then
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.securitiesTransNumber := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.securitiesTransNumber, $silAccActivity.securitiesNumberOfTransactions);
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.securitiesTotalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.securitiesTotalAmount, $silAccActivity.securitiesTotalAmountInUSD);
+            ElseIf ISA($silAccActivity, SIL_KYCaccountTransferOutActivity) Then
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.securitiesTransNumber := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.securitiesTransNumber, $silAccActivity.securitiesNumberOfTransactions);
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.securitiesTotalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.securitiesTotalAmount, $silAccActivity.securitiesTotalAmountInUSD);
+            End
+            If ISA($silAccActivity, SIL_KYCaccountTransferInActivity) Then
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.preciousMetalTransNumber := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.preciousMetalTransNumber, $silAccActivity.preciousMetalNumberOfTransactions);
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.preciousMetalTotalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.preciousMetalTotalAmount, $silAccActivity.preciousMetalTotalAmountInUSD);
+            ElseIf ISA($silAccActivity, SIL_KYCaccountTransferOutActivity) Then
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.preciousMetalTransNumber := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.preciousMetalTransNumber, $silAccActivity.preciousMetalNumberOfTransactions);
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.preciousMetalTotalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.preciousMetalTotalAmount, $silAccActivity.preciousMetalTotalAmountInUSD);
+            End
+            $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.nonPhyPurposeDescription := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.purposeDescription, $silAccActivity.transactionPurpose);
+         ElseIf $type == 'NONPHYSICAL' Then
+            If ISA($silAccActivity, SIL_KYCaccountTransferInActivity) Then
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.chequeTransNumber := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.chequeTransNumber, $silAccActivity.chequeNumberOfTransactions);
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.chequeTotalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.chequeTotalAmount, $silAccActivity.cashTotalAmountInUSD);
+               If LIB_Validator.validateNotEmptyIndexed($silAccActivity.chequeCountries) and NotEmpty($silAccActivity.chequeCountries[1].code) Then
+                  $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.chequeCountries := $silAccActivity.chequeCountries[1].code;
+               End
+            ElseIf ISA($silAccActivity, SIL_KYCaccountTransferOutActivity) Then
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.chequeTransNumber := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.chequeTransNumber, $silAccActivity.chequeNumberOfTransactions);
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.chequeTotalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.chequeTotalAmount, $silAccActivity.cashTotalAmountInUSD);
+               If LIB_Validator.validateNotEmptyIndexed($silAccActivity.chequeCountries) and NotEmpty($silAccActivity.chequeCountries[1].code) Then
+                  $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.chequeCountries := $silAccActivity.chequeCountries[1].code;
+               End
+            End
+            If ISA($silAccActivity, SIL_KYCaccountTransferInActivity) Then
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.nonPhySecuritiesTransNumber := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.nonPhySecuritiesTransNumber, $silAccActivity.securitiesNumberOfTransactions);
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.nonPhySecuritiesTotalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.nonPhySecuritiesTotalAmount, $silAccActivity.securitiesTotalAmountInUSD);
+               If LIB_Validator.validateNotEmptyIndexed($silAccActivity.securitiesCountries) and NotEmpty($silAccActivity.securitiesCountries[1].code) Then
+                  $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.nonPhySecurietiesCountries := $silAccActivity.securitiesCountries[1].code;
+               End
+            ElseIf ISA($silAccActivity, SIL_KYCaccountTransferOutActivity) Then
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.nonPhySecuritiesTransNumber := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.nonPhySecuritiesTransNumber, $silAccActivity.securitiesNumberOfTransactions);
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.nonPhySecuritiesTotalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.nonPhySecuritiesTotalAmount, $silAccActivity.securitiesTotalAmountInUSD);
+               If LIB_Validator.validateNotEmptyIndexed($silAccActivity.securitiesCountries) and NotEmpty($silAccActivity.securitiesCountries[1].code) Then
+                  $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.nonPhySecurietiesCountries := $silAccActivity.securitiesCountries[1].code;
+               End
+            End
+            If ISA($silAccActivity, SIL_KYCaccountTransferInActivity) Then
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.wireTransfersTransNumber := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.wireTransfersTransNumber, $silAccActivity.wireTransferNumberOfTransactions);
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.wireTransfersTotalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.wireTransfersTotalAmount, $silAccActivity.wireTransferTotalAmountInUSD);
+               If LIB_Validator.validateNotEmptyIndexed($silAccActivity.wireTransferCountries) and NotEmpty($silAccActivity.wireTransferCountries[1].code) Then
+                  $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.wireTransferCountries := $silAccActivity.wireTransferCountries[1].code;
+               End
+            ElseIf ISA($silAccActivity, SIL_KYCaccountTransferOutActivity) Then
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.wireTransfersTransNumber := INT_SILMappingSILtoCMN_v2._mapInteger($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.wireTransfersTransNumber, $silAccActivity.wireTransferNumberOfTransactions);
+               $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.wireTransfersTotalAmount := INT_SILMappingSILtoCMN_v2._mapDouble($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.wireTransfersTotalAmount, $silAccActivity.wireTransferTotalAmountInUSD);
+               If LIB_Validator.validateNotEmptyIndexed($silAccActivity.wireTransferCountries) and NotEmpty($silAccActivity.wireTransferCountries[1].code) Then
+                  $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferOut.wireTransferCountries := $silAccActivity.wireTransferCountries[1].code;
+               End
+            End
+            $cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.nonPhyPurposeDescription := INT_SILMappingSILtoCMN_v2._mapString($cmnBusinessRelationship.kytProfile.expectedAccountActivity.transferIn.purposeDescription, $silAccActivity.transactionPurpose);
+         End
+      End
+   End
+   If $cmnBusinessRelationship.kytProfile.expectedAccountActivity.hasExpectedInflowsOrOutflows

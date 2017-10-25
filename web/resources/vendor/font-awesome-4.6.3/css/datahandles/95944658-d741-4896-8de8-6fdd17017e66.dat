@@ -1,0 +1,1029 @@
+n nastavitvah v /etc/X11/xorg.conf.\n\nV primeru, da ohranite te možnosti, ne bo postavljeno nobeno vprašanje o možnostih postavitve tipkovnice.
+Description-sr.UTF-8: Задржати подразумеване опције тастатуре (${XKBOPTIONS})?
+Extended_description-sr.UTF-8: Подразумевана вредност за опције распореда тастатуре је XKBOPTIONS=„${XKBOPTIONS}“.  Базирана је на тренутно дефинисаним језику/региону и подешавањима у /etc/X11/xorg.conf.\n\nАко изабетере да је задржите, неће бити питања о опцијама тастатуре.
+Description-sr@latin.UTF-8: Zadržati podrazumevane opcije tastature (${XKBOPTIONS})?
+Extended_description-sr@latin.UTF-8: Podrazumevana vrednost za opcije rasporeda tastature je XKBOPTIONS=„${XKBOPTIONS}“.  Bazirana je na trenutno definisanim jeziku/regionu i podešavanjima u /etc/X11/xorg.conf.\n\nAko izabetere da je zadržite, neće biti pitanja o opcijama tastature.
+Description-sv.UTF-8: Behåll standardalternativ för tangentbord (${XKBOPTIONS})?
+Extended_description-sv.UTF-8: Standardvärdet för tangentbordslayoutens alternativ är XKBOPTIONS="${XKBOPTIONS}".  Det är baserat på definierat språk/region samt inställningarna i /etc/X11/xorg.conf.\n\nOm du väljer att behålla detta så kommer inga frågor om tangentbordsalternativ att ställas.
+Description-te.UTF-8: అప్రమేయ కీబోర్డు ఐచ్ఛికాలు  (${XKBOPTIONS}) అలాగే వుంచాలా?
+Extended_description-te.UTF-8: కీ బోర్డు నమూనా అప్రమేయ విలువలు XKBLAYOUT="${XKBLAYOUT}" . ఈ అప్రమేయ విలువ  /etc/X11/xorg.conf లో నిర్వచించబడిన ప్రస్తుత  భాషా/ప్రాంతపు ఎంపికపై ఆధారపడినవి.\n\nదీనిని కొనసాగించదలచుకుంటే, కీబోర్డు ఐచ్ఛికాల గురించి ప్రశ్నలు అడగబడవు.
+Description-tg.UTF-8: Имконоти пешфарзи клавиатураи (${XKBOPTIONS})-ро нигоҳ медоред?
+Extended_description-tg.UTF-8: Қимати пешфарзи тарҳбандии клавиатура XKBOPTIONS="${XKBOPTIONS}" мебошад.  Он бо забон/минтақаи муайяншудаи ҷорӣ ва танзимоти /etc/X11/xorg.conf асос ёфтааст.\n\nАгар шумо интихоб кунед, ки онро нигощ медоред, ягон савол дар бораи имконоти клавиатура пурсида намешавад.
+Description-th.UTF-8: จะคงค่าตัวเลือกปริยายของแป้นพิมพ์ (${XKBOPTIONS}) หรือไม่?
+Extended_description-th.UTF-8: ค่าปริยายของตัวเลือกประกอบผังแป้นพิมพ์คือ XKBOPTIONS="${XKBOPTIONS}" โดยค่านี้จะอ้างอิงจากภาษา/ภูมิภาคที่กำหนดอยู่ในปัจจุบัน และค่าตั้งใน /etc/X11/xorg.conf\n\nถ้าคุณเลือกคงค่านี้ไว้ ก็จะไม่มีการถามเกี่ยวกับตัวเลือกของแป้นพิมพ์อีก
+Description-tr.UTF-8: Öntanımlı klavye seçenekleri (${XKBOPTIONS}) kullanılmaya devam edilsin mi?
+Extended_description-tr.UTF-8: Klavye düzeninin öntanımlı değeri XKBOPTIONS=" ${XKBOPTIONS}" şeklindedir ve bu değer  /etc/X11/xorg.conf dosyasındaki dil/bölge ayarlarına göre yapılmıştır.\n\nBu değeri değiştirmemeyi seçerseniz klavye düzeni hakkında sorularla karşılaşmayacaksınız.
+Description-ug.UTF-8: كۆڭۈلدىكى ھەرپتاختا تاللانمىسى (${XKBOPTIONS})نى ساقلاپ قالامدۇ؟
+Extended_description-ug.UTF-8: ھەرپتاختا جايلاشتۇرۇشنىڭ كۆڭۈلدىكى قىممىتى XKBOPTIONS="${XKBOPTIONS}" ۋە XKBVARIANT="${XKBVARIANT}". بۇ كۆڭۈلدىكى قىممەت نۆۋەتتە بەلگىلەنگەن تىل/رايون شۇنداقلا /etc/X11/xorg.conf دىكى تەڭشەككە ئاساسەن جەزملىنىدۇ.\n\nئەگەر ئۇنى ساقلاپ قېلىشنى تاللىسىڭىز، بۇنىڭدىن كېيىن سىزدىن ھەرپتاختا جايلاشتۇرۇش توغرىسىدىكى سۇئال سورالمايدۇ.
+Description-uk.UTF-8: Залишити звичні налаштування клавіатури (${XKBOPTIONS})?
+Extended_description-uk.UTF-8: Звичним значенням для налаштувань клавіатури є XKBOPTIONS="${XKBOPTIONS}". Воно встановлюється відповідно до поточних значень мови/регіону та налаштувань у файлі /etc/X11/xorg.conf.\n\nЯкщо ви виберете залишити цей варіант, жодних питань стосовно розкладки клавіатури більше задаватись не буде.
+Description-vi.UTF-8: Giữ tùy chọn phím mặc định (${XKBOPTIONS})?
+Extended_description-vi.UTF-8: Giá trị mặc định của tùy chọn bố cục bàn phím là XKBOPTIONS="${XKBOPTIONS}".  Nó dựa trên ngôn ngữ/vùng hiện tại và thiết lập trong /etc/X11/xorg.conf.\n\nNếu bạn chọn giữ nó, sẽ không có thêm câu hỏi nào về bố cục bàn phím.
+Description-zh_CN.UTF-8: 保留默认键盘选项 (${XKBOPTIONS})？
+Extended_description-zh_CN.UTF-8: 键盘布局选项的默认值为 XKBOPTIONS="${XKBOPTIONS}"。它基于当前定义的语言/区域以及 /etc/X11/xorg.conf 的设置。\n\n如果选择保留，将不会询问有关键盘选项的问题。
+Description-zh_TW.UTF-8: 保留預設的鍵盤選項（${XKBOPTIONS}）
+Extended_description-zh_TW.UTF-8: 鍵盤排列方式的預設選項為 XKBOPTIONS="${XKBOPTIONS}"。這個預設值乃是取決於目前所設定的語言/地區，及 /etc/X11/xorg.conf 裡的設定。\n\n如果您選擇將其保留，將不會再詢問任何有關鍵盤選項的問題。
+
+Name: keyboard-configuration/variant
+Type: select
+Choices: ${CHOICES}
+Description: Keyboard layout:
+Extended_description: Please select the layout matching the keyboard for this machine.
+Description-ar.UTF-8: تخطيط لوحة المفاتيح:
+Extended_description-ar.UTF-8: رجاء اختر تخطيط لوحة المفاتيح الذي يتوافق مع هذا الجهاز.
+Description-ast.UTF-8: Distribución de tecláu
+Extended_description-ast.UTF-8: Por favor, seleiciona la distribución del tecláu pa esta máquina.
+Description-be.UTF-8: Раскладка клавіятуры:
+Extended_description-be.UTF-8: Калі ласка, пазначце раскладку клавіятуры гэтае машыны.
+Description-bg.UTF-8: Клавиатурна подредба:
+Extended_description-bg.UTF-8: Моля, проверете дали е прикачен твърд диск към тази машина.
+Description-bo.UTF-8: མཐེབ་གཞོང་གི་བཀོད་པ：
+Extended_description-bo.UTF-8: འཕྲུལ་ཆས་འདིའི་མཐེབ་གཞོང་ལ་འཚམས་པའི་བཀོད་པ་ཞིག་འདེམས་རོགས
+Description-bs.UTF-8: Raspored tastature:
+Extended_description-bs.UTF-8: Molimo izaberite raspored na tastaturi za ovu mašinu.
+Description-ca.UTF-8: Disposició del teclat:
+Extended_description-ca.UTF-8: Seleccioneu la disposició que concorda amb el teclat de l'ordinador.
+Description-cs.UTF-8: Rozložení klávesnice:
+Extended_description-cs.UTF-8: Vyberte rozložení klávesnice odpovídající tomuto počítači.
+Description-cy.UTF-8: Cynllun bysellfwrdd:
+Extended_description-cy.UTF-8: Dewiswch y cynllun sy'n cyfateb i'r bysellfwrdd ar gyfer y peiriant hwn.
+Description-da.UTF-8: Tastaturlayout:
+Extended_description-da.UTF-8: Vælg venligst det layout, der passer til tastaturet på denne maskine.
+Description-de.UTF-8: Tastaturbelegung:
+Extended_description-de.UTF-8: Bitte wählen Sie eine Tastaturbelegung, die zur Tastatur dieses Rechners passt.
+Description-el.UTF-8: Διάταξη πληκτρολογίου:
+Extended_description-el.UTF-8: Παρακαλώ επιλέξτε τη διάταξη που ταιριάζει στο πληκτρολόγιο αυτού του μηχανήματος.
+Description-eo.UTF-8: Klavar-aranĝo:
+Extended_description-eo.UTF-8: Bonvolu elekti la aranĝon kongruan al la klavaro de tiu ĉi maŝino.
+Description-es.UTF-8: Distribución de teclado:
+Extended_description-es.UTF-8: Por favor, seleccione la distribución del teclado de este equipo.
+Description-et.UTF-8: Klaviatuuripaigutus:
+Extended_description-et.UTF-8: Vali selle arvuti klaviatuurile vastav paigutus.
+Description-eu.UTF-8: Teklatuaren diseinua:
+Extended_description-eu.UTF-8: Hautatu ordenagailu honen teklatuari dagokion diseinua.
+Description-fa.UTF-8: طرح بندی صفحه کلید:
+Extended_description-fa.UTF-8: لطفا طرح بندیی که با صفحه کلید این سیستم مطابقت دارد را انتخاب کنید.
+Description-fi.UTF-8: Näppäinasettelu:
+Extended_description-fi.UTF-8: Valitse koneen näppäimistöä vastaava näppäinasettelu.
+Description-fr.UTF-8: Disposition du clavier :
+Extended_description-fr.UTF-8: Veuillez choisir la disposition qui correspond au clavier de cette machine.
+Description-ga.UTF-8: Leagan amach an mhéarchláir:
+Extended_description-ga.UTF-8: Roghnaigh leagan amach an mhéarchláir le haghaidh an ríomhaire seo.
+Description-gl.UTF-8: Disposición do teclado:
+Extended_description-gl.UTF-8: Escolla a disposición que encaixe co seu teclado.
+Description-he.UTF-8: פריסת מקלדת:
+Extended_description-he.UTF-8: בחר בבקשה את הפריסה המתאימה למקלדת של מכונה זאת.
+Description-hr.UTF-8: Raspored tipkovnice:
+Extended_description-hr.UTF-8: Molim provjerite odgovarajući raspored tipkovnice za ovo računalo.
+Description-hu.UTF-8: Billentyűkiosztás:
+Extended_description-hu.UTF-8: Kérlek, jelöld ki a billentyűzethez illő kiosztást e számítógéphez.
+Description-id.UTF-8: Pola keyboard:
+Extended_description-id.UTF-8: Silakan pilih pola keyboard yang cocok untuk mesin ini.
+Description-is.UTF-8: Skipulag lyklaborðs:
+Extended_description-is.UTF-8: Veldu lyklaborðsuppsetningu sem samsvarar lyklaborðinu á þessari vél.
+Description-it.UTF-8: Disposizione della tastiera:
+Extended_description-it.UTF-8: Selezionare la disposizione corrispondente alla tastiera di questo computer.
+Description-ja.UTF-8: キーボードのレイアウト:
+Extended_description-ja.UTF-8: このマシンのキーボードに適したレイアウトを選んでください。
+Description-kk.UTF-8: Пернетақта жаймасы:
+Extended_description-kk.UTF-8: Бұл компьютер пернетақтасына сай жайманы таңдаңыз.
+Description-kn.UTF-8: ಕೀಲಿಮಣೆಯ ವಿನ್ಯಾಸವನ್ನು ಸೂಚಿಸು
+Extended_description-kn.UTF-8: ದಯವಿಟ್ಟು ಈ ಗಣಕಯಂತ್ರದ ಕೀಲಿಮಣೆಗೆ ಹೊಂದುವ ವಿನ್ಯಾಸವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ
+Description-ko.UTF-8: 키보드 배치:
+Extended_description-ko.UTF-8: 이 컴퓨터의 키보드와 맞는 키보드 배치를 선택하십시오.
+Description-ku.UTF-8: Rengê klavyeyê
+Extended_description-ku.UTF-8: Tika ye ji bo vê makîneyê hevgirtina klavyeyê hilbijêre.
+Description-lo.UTF-8: ໂຄງຮ່າງແປ້ນພິມ
+Extended_description-lo.UTF-8: ກະລຸນາເລືອກຮູບແບບທີ່ຄືກັບແປ້ນພິມສຳຫລັບເຄື່ອງນີ້
+Description-lt.UTF-8: Klaviatūros išdėstymas:
+Extended_description-lt.UTF-8: Pasirinkite tinkamiausią klaviatūros išdėstymą.
+Description-lv.UTF-8: Tastatūras izkārtojums:
+Extended_description-lv.UTF-8: Izvēlieties izkārtojumu, kas atbilst šī datora tastatūrai.
+Description-mk.UTF-8: Распоред на тастатура:
+Extended_description-mk.UTF-8: Изберете го распоредот што одговара на тастатурата на овој компјутер.
+Description-nb.UTF-8: Tastaturutforming:
+Extended_description-nb.UTF-8: Velg utformingen som stemmer med tastaturet på denne maskinen.
+Description-nl.UTF-8: Toetsenbordindeling:
+Extended_description-nl.UTF-8: Selecteer de indeling die overeenkomt met uw toetsenbord.
+Description-no.UTF-8: Tastaturutforming:
+Extended_description-no.UTF-8: Velg utformingen som stemmer med tastaturet på denne maskinen.
+Description-pl.UTF-8: Układ klawiatury:
+Extended_description-pl.UTF-8: Proszę wybrać układ pasujący do klawiatury tej maszyny.
+Description-pt.UTF-8: Disposição do teclado:
+Extended_description-pt.UTF-8: Por favor escolha a disposição que coincide com o teclado desta máquina.
+Description-pt_BR.UTF-8: Layout do teclado:
+Extended_description-pt_BR.UTF-8: Por favor, selecione o layout que confere com o teclado para esta máquina.
+Description-ro.UTF-8: Aranjamentul de tastatură:
+Extended_description-ro.UTF-8: Selectați aranjamentul care se potrivește cu tastatura acestui sistem.
+Description-ru.UTF-8: Раскладка клавиатуры:
+Extended_description-ru.UTF-8: Выберите подходящую раскладку клавиатуры.
+Description-si.UTF-8: යතුරුපුවරු ආකෘතිය:
+Extended_description-si.UTF-8: කරුණාකර මෙම යන්ත්‍රයේ යතුරුපුවරුවට ගැලපෙන සැකැස්ම තෝරන්න.
+Description-sk.UTF-8: Rozloženie klávesnice:
+Extended_description-sk.UTF-8: Prosím, vyberte rozloženie klávesnice tohto počítača.
+Description-sl.UTF-8: Postavitev tipkovnice:
+Extended_description-sl.UTF-8: Izberite prosim postavitev, ki se sklada s tipkovnico tega stroja.
+Description-sr.UTF-8: Распоред тастатуре:
+Extended_description-sr.UTF-8: Изаберите распоред који одговара тастатури ове машине.
+Description-sr@latin.UTF-8: Raspored tastature:
+Extended_description-sr@latin.UTF-8: Izaberite raspored koji odgovara tastaturi ove mašine.
+Description-sv.UTF-8: Tangentbordslayout:
+Extended_description-sv.UTF-8: Välj den layout som matchar tangentbordet på den här datorn.
+Description-te.UTF-8: కీబోర్డు లేఔటు:
+Extended_description-te.UTF-8: మీ కీబోర్డు అమరిక ఎలాంటిదో ఎన్నుకోండి.
+Description-tg.UTF-8: Тарҳбандии клавиатура:
+Extended_description-tg.UTF-8: Лутфан, тарҳбандиеро интихоб кунед, ки ба клавиатураи ин компютер мувофиқат мекунад.
+Description-th.UTF-8: ผังแป้นพิมพ์แบบย่อย:
+Extended_description-th.UTF-8: กรุณาเลือกผังแป้นพิมพ์ที่ตรงกับของเครื่องนี้
+Description-tr.UTF-8: Klavye düzeni:
+Extended_description-tr.UTF-8: Lütfen klavyenize uygun bir klavye düzeni seçin.
+Description-ug.UTF-8: ھەرپتاختا جايلاشتۇرۇلۇشى:
+Extended_description-ug.UTF-8: بۇ ماشىنىنىڭ ھەرپتاختىسى ماس كېلىدىغان جايلاشتۇرۇشنى تاللاڭ.
+Description-uk.UTF-8: Розкладка клавіатури:
+Extended_description-uk.UTF-8: Будь ласка, виберіть актуальну розкладку клавіатури.
+Description-vi.UTF-8: Bố trí bàn phím:
+Extended_description-vi.UTF-8: Hãy chọn bố trí tương ứng với bàn phím cho máy này.
+Description-zh_CN.UTF-8: 键盘布局：
+Extended_description-zh_CN.UTF-8: 请选择匹配这台机器键盘的布局。
+Description-zh_TW.UTF-8: 鍵盤排列方式:
+Extended_description-zh_TW.UTF-8: 請選擇一個合乎這台機器的鍵盤所使用的排列方式。
+
+Name: keyboard-configuration/variantcode
+Type: string
+Description: for internal use
+
+Name: keyboard-configuration/xkb-keymap
+Type: select
+Choices: American English, Albanian, Arabic, Asturian, Bangladesh, Belarusian, Bengali, Belgian, Bosnian, Brazilian, British English, Bulgarian, Bulgarian (phonetic layout), Burmese, Canadian French, Canadian Multilingual, Catalan, Chinese, Croatian, Czech, Danish, Dutch, Dvorak, Dzongkha, Esperanto, Estonian, Ethiopian, Finnish, French, Georgian, German, Greek, Gujarati, Gurmukhi, Hebrew, Hindi, Hungarian, Icelandic, Irish, Italian, Japanese, Kannada, Kazakh, Khmer, Kirghiz, Korean, Kurdish (F layout), Kurdish (Q layout), Lao, Latin American, Latvian, Lithuanian, Macedonian, Malayalam, Nepali, Northern Sami, Norwegian, Persian, Philippines, Polish, Portuguese, Punjabi, Romanian, Russian, Serbian (Cyrillic), Sindhi, Sinhala, Slovak, Slovenian, Spanish, Swedish, Swiss French, Swiss German, Tajik, Tamil, Telugu, Thai, Tibetan, Turkish (F layout), Turkish (Q layout), Ukrainian, Uyghur, Vietnamese
+Description: Keymap to use:
+Choices-C: us, al, ara, es(ast), bd, by, in(ben), be, ba, br, gb, bg, bg(phonetic), mm, ca, ca(multi), es(cat), cn, hr, cz, dk, nl, us(dvorak), bt, epo, ee, et, fi, fr(latin9), ge, de, gr, in(guj), in(jhelum), il, in, hu, is, ie, it, jp, in(kan), kz, kh, kg, kr(kr104), tr(ku_f), tr(ku), la, latam, lv, lt, mk, in(mal), np, no(smi), no, ir, ph, pl, pt, in(guru), ro, ru, rs(latin), pk(snd), lk, sk, si, es, se, ch(fr), ch, tj, in(tam), in(tel), th, cn(tib), tr(f), tr, ua, cn(ug), vn
+Choices-ar.UTF-8: الأميركية, الألبانية, العربية, الأستورية, بنغلادش, البيلاروسية, البنغالية, البلجيكية, البوسنية, البرازيلية, البريطانية, البلغارية, البلغارية - تخطيط phonetic, Burmese, الفرنسيّة الكندية, الكندية متعددة اللغات, كاتالان, الصينية, الكرواتية, التشيكية, الدنماركية, الهولندية, dvorak, الزونخاية, الإسبرانتو, الإستونية, الإثيوبية, الفنلندية, الفرنسية, الجرجية, الألمانية, اليونانية, الغوجاراتية, الجرمخى, العبرية, الهندية, المجرية, الآيسلندية, الأيرلندية, الإيطالية, اليابانية, الكنّادا, الكازاخيّة, الخميرية, قيرغيز, الكورية, الكرديّة (التخطيط F), الكردية (التخطيط Q), اللاو, اللاتينية, اللاتفية, اللثوانية, المقدونية, الماليالامية, النيبالية, الساميّة الشمالية, النرويجية, الفارسية, Philippines, البولندية, البرتغالية, البنجابية, الرومانية, الروسية, الصربية - السيريلية, السنديّة, السنهالية, السلوفاكية, السلوفينية, الإسبانية, السويدية, الفرنسية السويسرية, الألمانية السويسرية, الطاجيكية, التاميلية, التيلوغو, التايلندية, التيبت, التركية (التخطيط F), التركية (التخطيط Q), الأوكرانية, الأويغورية, الفييتنامية
+Description-ar.UTF-8: خارطة المفاتيح التي ستستخدم:
+Choices-ast.UTF-8: Inglés americanu, Albanu, Árabe, Asturianu, Bangladesh, Bielorrusu, Bengalí, Belga, Bosniu, Brasileñu, Inglés británicu, Búlgaru, Búlgaru (disposición fonética), Burmese, Francés canadianu, Canadianu multillingüaxe, Catalán, Chinu, Croata, Checu, Danés, Holandés, Dvorak, Dzongkha, Esperantu, Estoniu, Etíope, Finladés, Francés, Xeorxanu, Alemán, Griegu, Gujarati, Gurmuqui, Hebréu, Hindí, Húngaru, Islandés, Irlandés, Italianu, Xaponés, Kannada, Kazaḥu, Camboyanu, Kirghiz, Coreanu, Kurdu (F layout), Kurdu (Q layout), Laosianu, Llatinoamericanu, Letón, Lituanu, Macedoniu, Malayalam, Nepalí, Sami del norte, Noruegu, Persa, Philippines, Polacu, Portués, Panyabi, Rumanu, Rusu, Serbiu (Cirílicu), Sindhi, Cingalés, Eslovacu, Eslovenu, Castellanu, Suecu, Francés de Suiza, Alemán de Suiza, Tajik, Tamil, Telugu, Tailandés, Tibetan, Turcu (F layout), Turcu (Q layout), Ucraín, Uigur, Vietnamín
+Description-ast.UTF-8: Keymap a usar:
+Choices-be.UTF-8: Амерыканская англійская, Албанская, Арабская, Астурыйская, Бангладэш, Беларуская, Бенгальская, Бельгійская, Баснійская, Бразільская, Брытанская англійская, Балгарская, Балгарская (раскладка phonetic), Burmese, Канадская французская (amiga), Канадская шматмоўная, Каталонская, Кітайская, Харвацкая, Чэшская, Дацкая, Галандская, Дворак, Дзонг-хэ, Эсперанта, Эстонская, Эфіёпская, Фінская, Французская, Грузінская, Нямецкая, Грэцкая, Гуджараці, Гурмукхі, Ізраільская, Хіндзі, Венгерская, Ісландская, Ірландская, Італьянская, Японская, Канада, Казахская, Кхмерская, Кыргізская, Карэйская, Курдская (раскладка F), Курдская (раскладка Q), Лаоская, Лацінаамерынская, Латышская, Літоўская, Македонская, Малаялам, Непалі, Паўночна-саамская, Нарвежская, Персідская, Philippines, Польская, Партугальская, Панджабі, Румынская, Руская, Сербская (кірыліца), Сіндхі, Сінгальская, Славацкая, Славенская, Іспанская, Шведская, Швейцарская французская, Швейцарская нямецкая, Таджыкская, Тамільская, Тэлугу, Тайская, Тыбецкая, Турэцкая (раскладка F), Турэцкая (раскладка Q), Украінская, Уйгурская, В'етнамская
+Description-be.UTF-8: Ужываць кодавы набор:
+Choices-bg.UTF-8: Американски английски, Албански, Арабски, Астурска, Бангладеш, Беларуска, Бенгалски, Белгийска, Босненски, Бразилска, Британски английски, Българска, Българска (подредба phonetic), Burmese, Канадски френски, Канадска многоезична, Каталунска, Китайски, Хърватска, Чешка, Датска, Датска, Дворак, Дзонгкха, Есперанто, Естонска, Етиопска, Финландска, Френска, Грузински, Германска, Гръцка, Гуджаратски, Гурмукхи, Еврейска, Хинди, Унгарска, Исландска, Ирландски, Италианска, Японска, Каннада, Казахски, Кхмерска, Киргизка, Корейски, Кюрдски (подредба F), Кюрдски (подредба Q), Лаоски, Латински американски, Латвийски, Литовска, Македонска, Малаялам, Непалски, Северносаамска, Норвежка, Персийски (Фарси), Philippines, Полска, Португалска, Панджабска, Румънска, Руска, Сръбска (кирилица), Синдхи, Синхалска, Словашка, Словенска, Испанска, Шведска, Швейцарски френски, Швейцарска, Таджикска, Тамилски, Телугу, Тайска, Тибетска, Турска (подредба F), Турска (подредба Q), Украинска, Уйгурска, Виетнамски
+Description-bg.UTF-8: Клавишна подредба за ползване:
+Choices-bo.UTF-8: ཨ་རིའི་དབྱིན་སྐད, ཨར་པ་མི་ཡ་སྐད, ཨ་རབ་སྐད, ཨོ་སི་ཁྲུ་རི་ཡ་སྐད, བྷང་ག་ལའི་སྐད, བེ་ལ་ཨུ་རུ་སུ་སྐད, བྷང་ག་་ལའི་སྐད, བེར་གྲེམ་སྐད, པོ་སི་ནི་ཡ་སྐད, པ་ར་ཟིའི་སྐད, དབྱིན་ཇིའི་དབྱིན་སྐད, པུར་ཀ་རི་ཡ་སྐད, པུར་ཀ་རི་ཡ་སྐད (གསལ་བྱེད་ཀྱི་བཀོད་པ), Burmese, ཁ་ན་ཏའི་ཧྥ་རན་སེའི་སྐད, ཁ་ན་ཏའི་སྐད་རིགས་སྣ་མང, ཁ་ཏ་ལའི་སྐད, རྒྱ་ནག་སྐད, ཁུ་རོ་ཨ་ཏིའི་སྐད, ཅེ་ཁེའི་སྐད, ཏེན་མག་སྐད, ཧོ་ལན་སྐད, Dvorak ཡི་མཐེབ་གཞོང, རྫོང་ཁའི་སྐད, འཛམ་གླིང་སྐད, ཨེ་སོ་ནི་ཡ་སྐད, ཨེ་ཚི་ཨོ་ཕི་ཡ་སྐད, ཧྥིན་ལན་སྐད, ཧྥ་རན་སེའི་སྐད, གེ་རོ་ཇི་ཡ་སྐད, འཇར་མན་སྐད, ཀེ་རི་སེའི་སྐད, གུ་ཇ་ར་ཏིའི་སྐད, གུ་རུ་མུ་ཁི་སྐད, ཧེ་པོ་རུ་སྐད, ཧིན་རྡིའི་སྐད, ཧང་ག་རིའི་སྐད, འཁྱགས་གླིང་གི་སྐད, ཨིར་ལན་གྱི་སྐད, དབྱི་ཐ་ལིའི་སྐད, འཇར་པན་སྐད, ཀན་ན་དའི་སྐད, ཁ་ས་ཁའི་སྐད, ཁེ་མེར་སྐད, གི་རི་ཇི་སི་སྐད, ཀོ་རི་ཡ་སྐད, གུར་དི་སྐད (F ཡི་བཀོད་པ), གུར་དི་སྐད (Q ཡི་བཀོད་པ), ལའོ་ཝོ་སྐད, ལ་ཏིང་ཨ་རིའི་སྐད, ལ་ཏོ་ཝི་ཡ་སྐད, ལི་ཐུ་ཝན་མི་ཡ་སྐད, མ་ཆི་དོ་ནི་ཡ་སྐད, མ་ལ་ཡ་ལམ་སྐད, ནེ་པ་ལའི་སྐད, བྱང་ས་མིའི་སྐད, ནོར་ཝེའི་སྐད, པར་སིའི་སྐད, Philippines, ཕོ་ལན་སྐད, ཕོར་ཐིའུ་ཀལ་སྐད, ཕང་ཇི་པེ་སྐད, རོ་མའི་སྐད, ཨུ་རུ་སི་སྐད, སེ་རེ་པེ་ཡ་སྐད (Cyrillic གསལ་བྱེད), སིན་རྡི་སྐད, སིན་ཧ་ལ་སྐད, སི་ལོ་ཝ་ཁེའི་སྐད, སི་ལོ་ཝེ་ནི་ཡ་སྐད, སི་ཕེན་སྐད, སུའེ་ཏེན་སྐད, སུའེ་ཙེར་གྱི་ཧྥ་རན་སེའི་སྐད, སུའེ་ཙེར་གྱི་མཇར་མན་སྐད, Tajik, ཐ་མི་ལི་སྐད, ཐེ་ལུ་རྒུ་སྐད, ཐེ་ལན་སྐད, Tibetan, ཐུར་ཁེའི་སྐད (F ཡི་བཀོད་པ), ཐུར་ཁེའི་སྐད (Q ཡི་བཀོད་པ), ཨུ་ཁུ་རན་ནི་ཡ་སྐད, ཡུ་གུར་སྐད, ཝེ་ཐེ་ནམ་གྱི་སྐད
+Description-bo.UTF-8: སྤྱོད་དགོས་པའི་མཐེབ་གཞོང་སྒྲིག་བཀོད：
+Choices-bs.UTF-8: Američki engleski, Albanski, Arapski, Asturijski, Bangladeš, Bjeloruski, Bengalski, Belgijski, Bosanski, Brazilski, Britanski engleski, Bugarski, Bugarski (fonetski raspored), Burmese, Kanadski francuski, Kanadski višejezični, Katalonski, Kineski, Hrvatski, Češki, Danski, Holandski, Dvorak, Dzongkha, Esperanto, Estonski, Etiopijski, Finski, Francuski, Gruzijski, Njemački, Grčki, Gudžaratski, Gurmukijski, Hebrejski, Hindi, Mađarski, Islandski, Irski, Italijanski, Japanski, Kannada, Kazahstanski, Kmerski, Kirgiški, Korejski, Kurdski (F raspored), Kurdski (Q raspored), Laoski, Latinoamerički, Latvijski, Litvanski, Makedonski, Malayalam, Nepalski, Sjeverni Sami, Norveški, Perzijski, Philippines, Poljski, Portugalski, Pandžabi, Rumunski, Ruski, Srpski (ćirilični), Sindi, Sinhala, Slovački, Slovenski, Španski, Švedski, Švicarski francuski, Švicarski njemački, Tadžički, Tamilski, Telugu, Tajlandski, Tibetanski, Turski (F raspored), Turski (Q raspored), Ukrajinski, Ujgurski, Vijetnamski
+Description-bs.UTF-8: Raspored tipki za upotrebu:
+Choices-ca.UTF-8: Anglès americà, Albanès, Àrab, Asturià, Bangla Desh, Bielorús, Bengalí, Belga, Bosnià, Brasiler, Anglès britànic, Búlgar, Búlgar (disposició fonètica), Birmà, Francès canadenc, Canadenc multilingüe, Català, Xinès, Croat, Txec, Danès, Holandès, Dvorak, Bhutanès, Esperanto, Estonià, Etíop, Finès, Francès, Georgià, Alemany, Grec, Gujarati, Gurmukhi, Hebreu, Hindi, Hongarès, Islandès, Irlandès, Italià, Japonès, Kanarès, Kazakh, Khmer, Kirguís, Coreà, Kurd (disposició F), Kurd (disposició Q), Laosià, Llatinoamericà, Letó, Lituà, Macedoni, Malaiàlam, Nepalès, Sami septrentional, Noruec, Persa, Filipí, Polonès, Portuguès, Panjabi, Romanès, Rus, Serbi (Ciríl·lic), Sindhi, Singalès, Eslovac, Eslovè, Espanyol, Suec, Francès suís, Alemany suís, Tadjik, Tàmil, Telugu, Tai, Tibetà, Turc (disposició F), Turc (disposició Q), Ucraïnès, Uigur, Vietnamita
+Description-ca.UTF-8: Mapa de teclat a emprar:
+Choices-cs.UTF-8: americká angličtina, albánská, arabská, asturská, bangladéšská, běloruská, bengálská, belgická, bosenská, brazilská, britská angličtina, bulharská, bulharská (rozložení phonetic), barmská, kanadská francouzština, kanadská vícejazyčná, katalánská, čínská, chorvatská, česká, dánská, holandská, dvořák, bhútánská, esperanto, estonská, etiopská, finská, francouzská, gruzínská, německá, řecká, gudžarátská, Gurmukhí, hebrejská, hindská, maďarská, islandská, irská, italská, japonská, kannadská, kazašská, khmerská, kirgizská, korejská, kurdská (rozložení F), kurdská (rozložení Q), laoská, latinsko americká, lotyšská, litevská, makedonská, malajálamská, nepálská, Severní Sami, norská, perská, filipínská, polská, portugalská, paňdžábská, rumunská, ruská, srbská (azbuka), sindhská, sinhálská, slovenská, slovinská, španělská, švédská, švýcarská - francouzština, švýcarská - němčina, tádžická, tamilská, telugu, thajská, tibetská, turecká (rozložení F), turecká (rozložení Q), ukrajinská, ujgurská, vietnamská
+Description-cs.UTF-8: Klávesová mapa:
+Choices-cy.UTF-8: Saesneg Americanaidd, Albaneg, Arabeg, Astwrieg, Bangladesh, Belarwseg, Bengaleg, Belgeg, Bosnieg, Brasilaidd, Saesneg Prydeinig, Bwlgareg, Bwlgareg (cynllun ffonetig), Burmese, Ffrangeg Canadiaidd, Amlieithog Canadiaidd, Catalaneg, Tsieinëeg, Croateg, Tsieceg, Daneg, Iseldireg, Dvorak, Dsonca, Esperanto, Estoneg, Ethiopeg, Ffineg, Ffrangeg, Georgeg, Almaeneg, Groeg, Gwjwrati, Gurmukhi, Hebraeg, Hindi, Hwngareg, Islandeg, Gwyddeleg, Eidaleg, Siapaneeg, Canareg, Cazacheg, Khmer, Kirghiz, Corëeg, Cwrdeg (Cynllun F), Cwrdeg (Cynllun Q), Laoeg, America Ladin, Latfieg, Lithwaneg, Macedoneg, Malaialameg, Nepaleg, Sami Gogleddol, Norwyeg, Perseg, Philippines, Pwyleg, Portiwgaleg, Pwnjabeg, Romaneg, Rwsieg, Serbeg (Syrilig), Sindi, Sinhaleg, Slofeg, Slofeneg, Sbaeneg, Swedeg, Ffrangeg y Swistir, Almaeneg y Swistir, Tajik, Tamileg, Telwgw, Siameg, Tibetan, Tyrceg (Cynllun F), Tyrceg (Cynllun Q), Wcreineg, Uighur, Fietnameg
+Description-cy.UTF-8: Map bysell i'w ddefnyddio:
+Choices-da.UTF-8: Amerikansk-engelsk, Albansk, Arabisk, Asturiansk, Bangladesh, Hviderussisk, Bengali, Belgisk, Bosnisk, Brasiliansk, Britisk-engelsk, Bulgarsk kyrillisk, Bulgarsk kyrillisk (phonetic-udgave), Burmesisk, Fransk-canadisk, Canadisk flersproget, Catalansk, Kinesisk, Kroatisk, Tjekkisk, Dansk, Hollandsk, Dvorak, Dzongkha, Esperanto, Estisk, Etiopisk, Finsk, Fransk, Georgisk, Tysk, Græsk, Gujarati, Gurmukhi, Hebraisk, Hindi, Ungarsk, Islandsk, Irsk; Gælisk (irsk), Italiensk, Japansk, Kannaresisk, Kasakhisk, Khmerisk, Kirgisisk, Koreansk, Kurdisk (F-udgave), Kurdisk (Q-udgave), Laotisk, Latin-amerikansk, Lettisk, Litauisk, Makedonsk, Malayalam, Nepalesisk, Nordligt samisk, Norsk, Persisk, Filippinsk, Polsk, Portugisisk, Punjabi, Rumænsk, Russisk, Serbisk (kyrillisk), Sindhi, Singalesisk, Slovakisk, Slovensk, Spansk, Svensk, Schweitzerfransk, Schweitzertysk, Tadsjikisk, Tamilsk, Telugu, Thailandsk, Tibetansk, Tyrkisk (F-udgave), Tyrkisk (Q-udgave), Ukrainsk, Uyghur, Vietnamesisk
+Description-da.UTF-8: Tastaturudlæg der skal bruges:
+Choices-de.UTF-8: Amerikanisches Englisch, Albanisch, Arabisch, Asturisch, Bangladesch, Weißrussisch, Bengali, Belgisch, Bosnisch, Brasilianisch, Britisches Englisch, Bulgarisch, Bulgarisch (Phonetic-Anordnung), Burmesisch, Kanadisches Französisch, Kanadisch (mehrsprachig), Katalanisch, Chinesisch, Kroatisch, Tschechisch, Dänisch, Niederländisch, Dvorak, Dzongkha, Esperanto, Estnisch, Äthiopisch, Finnisch, Französisch, Georgisch, Deutsch, Griechisch, Gujarati-Sprache, Gurmukhi, Hebräisch, Hindi, Ungarisch, Isländisch, Irisch, Italienisch, Japanisch, Kannada, Kasachisch, Khmer, Kirgisisch, Koreanisch, Kurdisch (F-Anordnung), Kurdisch (Q-Anordnung), Laotisch, Lateinamerikanisch, Lettisch, Litauisch, Mazedonisch, Malayalam, Nepali, Nordsamisch, Norwegisch, Persisch, Philippinen, Polnisch, Portugiesisch, Panjabi, Rumänisch, Russisch, Serbisch (Kyrillisch), Sindhi, Singhalesisch, Slowakisch, Slowenisch, Spanisch, Schwedisch, Schweizerisches Französisch, Schweizerdeutsch, Tadschikisch (Neupersisch), Tamil, Telugu, Thailändisch, Tibetanisch, Türkisch (F-Anordnung), Türkisch (Q-Anordnung), Ukrainisch, Uigurisch, Vietnamesisch
+Description-de.UTF-8: Wählen Sie das Layout der Tastatur aus:
+Choices-el.UTF-8: Αγγλική ΗΠΑ, Αλβανικά, Αραβικά, Αστουρίας, Μπανγκλαντές, Λευκορωσική, Βεγκάζης, Βελγική, Βοσνιακά, Βραζιλιάνικη, Αγγλική, Βουλγάρικη, Βουλγάρικη (φωνητική διάταξη), Burmese, Γαλλική Καναδά, Καναδική πολυγλωσσική , Καταλανική, Κινέζικα, Κροατική, Τσεχική, Δανέζικη, Ολλανδική, Dvorak, Dzongkha, Εσπεράντο, Εσθονική, Αιθιοπική, Φινλανδική, Γαλλική, Γεωργιανά, Γερμανική, Ελληνική, Gujarati, Gurmukhi, Εβραϊκή, Ινδουικά, Ουγγρική, Ισλανδική, Ιρλανδέζικα, Ιταλική, Ιαπωνική, Kannada, Καζακική, Χμερ, Κιργιζική, Κορεάτικα, Κούρδικα (διάταξη F), Κούρδικα (διάταξη Q), Λαοτινή, Λατινικής Αμερικής, Λεττονική, Λιθουανική, Σλαβομακεδονική, Μαλαισιανή, Νεπάλ, Βόρεια Σάμι, Νορβηγική, Περσικά, Philippines, Πολωνική, Πορτογαλική, Punjabi, Ρουμανική, Ρωσική, Σερβική (Κυριλλική), Σίντι, Sinhala, Σλοβακική, Σλοβενική, Ισπανική, Σουηδική, Γαλλική Ελβετίας, Γερμανική Ελβετίας, Τατζικική, Ταϊλανδέζικα, Telugu, Ταϊλανδική , Θιβετιανή, Τουρκική (διάταξη F), Τουρκική (διάταξη Q), Ουκρανική, Uyghur, Βιετναμέζικα
+Description-el.UTF-8: Απεικόνιση πληκτρολογίου για χρήση:
+Choices-eo.UTF-8: Usona, Albana, Araba, Astura, Bangladeŝo, Belorusa, Bengala, Belga, Bosna, Brazila, Brita, Bulgara, Bulgara (phonetic), Burmese, Kanada (franclingvo), Kanada plurlingva, Kataluna, Ĉina, Kroata, Ĉeĥa, Dana, Nederlanda, Dvoraka, Dzonka, Esperanto, Estona, Etiopia, Finna, Franca, Kartvela, Germana, Greka, Guĝarata, Gurmuka, Hebrea, Hindia, Hungara, Islanda, Irlanda, Itala, Japana, Kanara, Kazaĥa, Kmera, Kirgiza, Korea, Kurda (F), Kurda (Q), Laosa, Latin-amerika, Latva, Litava, Makedona, Malajala, Nepala, Nord-Samea, Norvega, Persa, Philippines, Pola, Portugala, Panĝaba, Rumana, Rusa, Cirila serba, Sinda, Sinhala, Slovaka, Slovena, Hispana, Sveda, Romanda svisa, Alemana svisa, Taĝika, Tamila, Telugua, Tajlanda, Tibeta, Turka (F), Turka (Q), Ukraina, Ujgura, Vjetnama
+Description-eo.UTF-8: Uzota klavmapo :
+Choices-es.UTF-8: Inglés estadounidense, Albanés, Árábe, Asturiano, Bangladesh, Bielorruso, Bengalí, Belga, Bosnio, Brasileño, Inglés británico, Búlgaro, Búlgaro (variante fonética), Birmano, Francés canadiense, Canadiense multilingüe, Catalán, Chino, Croata, Checo, Danés, Holandés, Dvorak, Butaní, Esperanto, Estonio, Etíope, Finlandés, Francés, Georgiano, Alemán, Griego, Guyaratí, Gurmukhi, Hebreo, Hindi, Húngaro, Islandés, Irlandés, Italiano, Japonés, Canarés, Kazajo, Jemer, Kirghizo, Coreano, Kurdo (variante F), Kurdo (variante Q), Laosiano, Latinoamericano, Letón, Lituano, Macedonio, Malayalamo, Nepalés, Sami septentrional, Noruego, Persa, Filipino, Polaco, Portugués, Panyabí, Rumano, Ruso, Serbio (cirílico), Sindhi, Cingalés, Eslovaco, Esloveno, Español, Sueco, Francés suizo, Alemán suizo, Tayiko, Tamil, Telugú, Tailandés, Tibetano, Turco (variante F), Turco (variante Q), Ucraniano, Uigur, Vietnamita
+Description-es.UTF-8: Mapa de teclado a usar:
+Choices-et.UTF-8: ameerika inglise, Albaania, Araabia, astuuria, Bangladesh, valgevene, bengali, belgia, bosnia, brasiilia, briti inglise, bulgaaria, bulgaaria (foneetiline asetus), Burmese, kanada prantsuse, kanada mitmekeelne, katalaani, Hiina, horvaatia, tšehhi, taani, hollandi, Dvoraki, dzongkha, Esperanto, eesti, etioopia, soome, prantsuse, gruusia, saksa, kreeka, gudžarati, gurmukhi, heebrea, hindi, ungari, islandi, Iiri, itaalia, jaapani, kannada, kasahhi, khmeeri, kirgiisi, Korea, kurdi (F asetus), kurdi (Q asetus), lao, ladina-ameerika, läti, leedu, makedoonia, malajalami, nepali, põhjasaami, norra, pärsia, Philippines, poola, portugali, pandžabi, rumeenia, vene, serbia (krillits), sindhi, singali, slovakkia, sloveenia, hispaania, rootsi, šveitsi prantsuse, šveitsi, Tadžiki, tamili, telugu, Tai, Tiibeti, türgi (F asetus), türgi (Q asetus), ukraina, uiguuri, Vietnami
+Description-et.UTF-8: Kasutatav klahvide asetus:
+Choices-eu.UTF-8: AEBko ingelesa, Albaniera, Arabiera, Asturiarra, Bangladesh, Bielorrusiarra, Bengalera, Belgikarra, Bosniera, Brasildarra, Erresuma Batuko ingelesa, Bulgariarra, Bulgariarra (diseinu fonetikoa), Burmese, Kanadako frantsesa, Kanadar eleanitza, Katalana, Txinera, Kroaziarra, Txekiarra, Daniarra, Nederlandera, Dvorak, Dzongkha, Esperantoa, Estoniarra, Etiopiarra, Finlandiarra, Frantsesa, Georgiera, Alemaniarra, Greziarra, Gujeratera, Gurmukhi, Hebrearra, Hindi, Hungariarra, Islandiarra, Irlandera, Italiarra, Japoniarra, Kannada, Kazakhera, Khmer, Kirghizarra, Koreera, Kurduera (F diseinua), Kurduera (Q diseinua), Laosera, Latinoamerikarra, Letoniarra, Lituaniarra, Mazedoniarra, Malayalamera, Nepalera, Iparraldeko Samiarra, Norvegiarra, Persiera, Philippines, Poloniarra, Portugesa, Panjabiarra, Errumaniarra, Errusiarra, Serbiarra (Zirilikoa), Sindhia, Sinhala, Eslovakiarra, Esloveniarra, Espainiarra, Suediarra, Suitzako frantsesa, Suitzako alemaniarra, Tajik, Tamil-a, Telugu-a, Thailandiarra, Tibetan, Turkiarra (F diseinua), Turkiarra (Q diseinua), Ukraniarra, Uyghur, Vietnamera
+Description-eu.UTF-8: Erabiliko den teklatu-mapa:
+Choices-fa.UTF-8: انگليسي (امريكايي) , آلبانیایی, عربی, Asturian, بنگلادش, بلاروس, بنگالی, بلژيكي, بوسنیایی, برزیلی, انگليسي بريتانيا, بلغاري, بلغاري (phonetic layout), Burmese, كانادايي فرانسه, كانادا چند زبانه, Catalan, چینی, كرواسي, چك, دانماركي, هلندي, Dvorak, بوتانی, اسپرانتو, استوني, اتیوپیایی, فنلاندي, فرانسه, گرجی, الماني, يوناني, گجراتی, Gurmukhi, عبري, هندی, مجارستاني, ايسلندي, ایرلندی, ايتالييايي, ژاپني, کاناده‌ای, قزاقی, Khmer, قرقيزي, کره‌ای, کردی (طرح F), کردی (طرح Q), لائوسی, امريكاي لاتين, لتوني, لیتوانیایی, مقدونی, مالایالامی, نپالی, سامی شمالی, نروژي, فارسی, Philippines, لهستاني, پرتغالي, Punjabi, روماني, روسي, صربی (سیریلیک), سندی, Sinhala, اسلواک, اسلوونیایی, اسپانيايي, سوئدي, سوييس( فرانسه), سوييس الماني, Tajik, تامیلی, تلوگویی, تايلندي, Tibetan, تركي, تركي, اكرايني, Uyghur, ویتنامی
+Description-fa.UTF-8: ﻦﻘﺸﻫ ﻚﻠﻳﺪﻫﺍ
+Choices-fi.UTF-8: amerikanenglantilainen, Albania, Arabia, Asturia, Bangladesh, valkovenäläinen, Bengali, belgialainen, Bosnia, brasilialainen, brittienglantilainen, bulgarialainen, bulgarialainen (phonetic-asettelu), Burmese, kanadanranskalainen, Kanadan monikielinen, katalaani, Kiina, kroatialainen, tšekkiläinen, tanskalainen, hollantilainen, Dvorak, Dzongkha, Esperanto, virolainen, etiopialainen, suomalainen, ranskalainen, Georgia, saksalainen, kreikkalainen, Gujarati, Gurmukhi, heprealainen, Hindi, unkarilainen, islantilainen, Iiri, italialainen, japanilainen, Kannada, Kazakki, Khmer, kirgiisi, Korea, Kurdi (F-asettelu), Kurdi (Q-asettelu), Lao, latinalaisamerikkalainen, latvianlainen, liettualainen, makedonialainen, Malayalam, Nepali, pohjoissaame, norjalainen, Persia, Philippines, puolalainen, portugalilainen, punjabi, romanialainen, venäläinen, serbialainen (kyrillinen), sindhi, sinhala, slovakialainen, slovenialainen, espanjalainen, ruotsalainen, sveitsinranskalainen, sveitsinsaksalainen, Tajik, Tamili, Telugu, thai, Tibetan, turkkilainen (F-asettelu), turkkilainen (Q-asettelu), ukrainalainen, uiguuri, Vietnam
+Description-fi.UTF-8: Käytettävä näppäinkartta:
+Choices-fr.UTF-8: États-Unis, Albanais, Arabe, Asturien, Bangladesh, Bélarusse, Bengali, Belge, Bosniaque, Brésilien, Britannique, Bulgare, Bulgare (phonétique), Birman, Canadien français, Canadien multilingue, Catalan, Chinois, Croate, Tchèque, Danois, Néerlandais, Dvorak, Dzongkha, Espéranto, Estonien, Éthiopien, Finnois, Français, Géorgien, Allemand, Grec, Gujarati, Gourmoukhî, Hébreu, Hindi, Hongrois, Islandais, Irlandais, Italien, Japonais, Kannada, Kazakh, Khmer, Kirghize, Coréen, Kurde (f), Kurde (q), Lao, Amérique latine, Letton, Lithuanien, Macédonien, Malayalam, Népalais, Sami septentrional, Norvégien, Persan, Philippines, Polonais, Portugais, Punjabi, Roumain, Russe, Serbe cyrillique, Sindhi, Singhalais, Slovaque, Slovène, Espagnol, Suédois, Suisse romand, Suisse alémanique, Tadjik, Tamoul, Télougou, Thaï, Tibétain, Turc (trfu), Turc (trqu), Ukrainien, Ouïgour, Vietnamien
+Description-fr.UTF-8: Disposition de clavier à utiliser :
+Choices-ga.UTF-8: Béarla Meiriceánach, Albánach, Arabach, Astúrach, An Bhanglaidéis, Bealarúiseach, Beangálach, Beilgeach, Boisniach, Brasaíleach, Béarla Sasanach, Bulgárach, Bulgárach (leagan amach phonetic), Burmais, Francach (Ceanada), Ceanadach Ilteangach, Catalónach, Síneach, Crótach, Seiceach, Danmhargach, Ollannach, Dvorak, Seoiniach, Esperanto, Eastónach, Aetópach, Fionlannach, Francach, Seoirseach, Gearmánach, Gréagach, Gúisearátach, Gurmúcaí, Eabhrach, Hiondúis, Ungárach, Íoslannach, Gaeilge, Iodálach, Seapánach, Cannadach, Casacach, Ciméarach, Cirgiseach, Cóiréach, Coirdínach (leagan amach F), Coirdíneach (leagan amach Q), Laoch, Meiriceánach Laidineach, Laitviach, Liotuánach, Macadónach, Mailéalamach, Neipealach, Sáimis Thuaidh, Ioruach, Peirseach, Na hOileáin Fhilipíneacha, Polannach, Portaingéalach, Puinseábach, Rómánach, Rúiseach, Seirbiach (Coireallach), Sindeach, Siolónach, Slóvacach, Slóivéanach, Spáinneach, Sualannach, Francach (An Eilvéis), Gearmánach (An Eilvéis), Táidsíceastánach, Tamalach, Teileagúch, Téalannach, Tibéadach, Turcach (leagan amach F), Turcach (leagan amach Q), Úcránach, Uigiúrach, Vítneamach
+Description-ga.UTF-8: Eochairmhapáil le húsáid:
+Choices-gl.UTF-8: Inglés americano, Albanés, Árabe, Asturiano, Bangladesh, Bielorruso, Bengalí, Belga, Bosnio, Brasileiro, Inglés británico, Búlgaro, Búlgaro (esquema phonetic), Birmano, Francés do Canadá, Canadense multilingüe, Catalán, Chinés, Croata, Checo, Dinamarqués, Holandés, Dvorak, Dzongkha, Esperanto, Estoniano, Etíope, Finés, Francés, Xeorxiano, Alemán, Grego, Guxaratí, Gurmukhi, Hebreo, Hindi, Húngaro, Islandés, Irlandés; Gaélico irlandés, Italiano, Xaponés, Canarés, Kazaxo, Camboxano, Quirguiz, Coreano, Kurdo (esquema F), Kurdo (esquema Q), Laosiano, Latinoamericano, Letón, Lituano, Macedonio, Malaio, Nepalés, Sami do norte, Noruegués, Persa, Filipino, Polaco, Portugués, Panxabi, Romanés, Ruso, Serbio (cirílico), Sindhi, Sinhala, Eslovaco, Esloveno, Español, Sueco, Francés de Suíza, Alemán de Suíza, Taxico, Tamil, Telugu, Thai, Tibetano, Turco (esquema F), Turco (esquema Q), Ucraíno, Uigure, Vietnamita
+Description-gl.UTF-8: Esquema de teclado a empregar:
+Choices-he.UTF-8: אנגלית אמריקאית, אלבנית, ערבית, אסטורית, בנגלדש, בלרוסית, בנגלית, בלגית, בוסנית, ברזילאית, אנגלית בריטית, בולגרית, בולגרית (פריסה פונטית), Burmese, צרפתית קנדית, קנדית (ריבוי שפות), קטלאנית, סינית, קרואטית, צ'כית, דנית, הולנדית, דובראק, דזונגקה, אספרנטו, אסטונית, אתיופית, פינית, צרפתית, גאורגית, גרמנית, יוונית, גוג'ראטית, גורמוקהי, עברית, הינדי, הונגרית, איסלנדית, אירית, איטלקית, יפנית, קאנדה, קזחית, קמרית, קירגיזית, קוריאנית, כורדית (פריסת F), כורדית (פריסת Q), לאו, לטינית אמריקאית, לאטבית, ליטואנית, מקדונית, מלאיאלאם, נפאלית, סאמי צפוני, נורבגית, פרסית, Philippines, פולנית, פורטוגזית, פנג'אבי, רומנית, רוסית, סרבית (קרילית), סינדהי, סינהלה, סלובקית, סלובנית, ספרדית, שוודית, צרפתית שווצרית, גרמנית שווצרית, טג'יקית, טמילית, טלוגו, תיאלנדית, טיבטית, טורקית (פריסת F), טורקית (פריסת Q), אוקראינית, אויגור, וייטנאמית
+Description-he.UTF-8: מפת תווים לשימוש:
+Choices-hr.UTF-8: američka engleska, albanska, arapska, asturijska, bangladeška, bjeloruska, bengalska, belgijska, bosanska, brazilska, britanska engleska, bugarska, bugarska (fonetski raspored), burmanska, kanadska francuska, kanadska višejezična, katalonska, kineska, hrvatska, češka, danska, nizozemska, Dvorak, Dzongkha, Esperanto, estonska, etiopska, finska, francuska, gruzijska, njemačka, grčka, Gujarati, Gurmukhi, hebrejska, Hindi, mađarska, islandska, irska, talijanska, japanska, Kannada, kazaška, kmerska, kirgiška, korejska, kurdska (F raspored), kurdska (Q raspored), Lao, latinoamerička, latvijska, litavska, makedonska, Malayalam, nepalska, Northern Sami, norveška, perzijska, filipinska, poljska, portugalska, Punjabi, rumunjska, ruska, srpska (ćirilična), Sindhi, Sinhala, slovačka, slovenska, španjolska, švedska, švicarsko-francuska, švicarsko-njemačka, tadžikistanska, tamilska, Telugu, tajlandska, tibetska, turska (F raspored), turska (Q raspored), ukrajinska, ujgurska, vijetnamska
+Description-hr.UTF-8: Tipkovnička mapa:
+Choices-hu.UTF-8: amerikai angol, albán, arab, asztúriai, bangladesi, belorusz, bengáli, belga, bosnyák, brazil, brit angol, bolgár, bolgár (fonetikus elrendezés), Burmese, kanadai francia, kanadai többnyelvű, katalán, kínai, horvát, cseh, dán, holland, Dvorak, dzongkha, eszperantó, észt, etióp, finn, francia, grúz, német, görög, gudzsaráti, gurmukhi, héber, hindi, magyar, izlandi, Ír, olasz, japán, kannada, kazak, khmer, kirgiz, koreai, kurd (F kiosztású), kurd (Q kiosztású), lao, latin-amerikai, lett, litván, macedón, malajálam, nepáli, északi számi, norvég, perzsa, Philippines, lengyel, portugál, pandzsábi, román, orosz, szerb (cirill), sindhi, sinhala, szlovák, szlovén, spanyol, svéd, svájci francia, svájci német, tádzsik, tamil, telugu, thai, tibeti, török (F kiosztású), török (Q kiosztású), ukrán, ujgur, vietnami
+Description-hu.UTF-8: Használni kívánt billentyűkiosztás:
+Choices-hy.UTF-8: American English, Albanian, Arabic, Asturian, Bangladesh, Belarusian, Bengali, Belgian, Bosnian, Brazilian, British English, Bulgarian, Bulgarian (phonetic layout), Burmese, Canadian French, Canadian Multilingual, Catalan, Chinese, Croatian, Czech, Danish, Dutch, Dvorak, Dzongkha, Esperanto, Estonian, Ethiopian, Finnish, French, Georgian, German, Greek, Gujarati, Gurmukhi, Hebrew, Hindi, Hungarian, Icelandic, Irish, Italian, Japanese, Kannada, Kazakh, Khmer, Kirghiz, Korean, Kurdish (F layout), Kurdish (Q layout), Lao, Latin American, Latvian, Lithuanian, Macedonian, Malayalam, Nepali, Northern Sami, Norwegian, Persian, Philippines, Polish, Portuguese, Punjabi, Romanian, Russian, Serbian (Cyrillic), Sindhi, Sinhala, Slovak, Slovenian, Spanish, Swedish, Swiss French, Swiss German, Tajik, Tamil, Telugu, Thai, Tibetan, Turkish (F layout), Turkish (Q layout), Ukrainian, Uyghur, Vietnamese
+Choices-id.UTF-8: Inggris Amerika, Albania, Arab, Asturia, Banglades, Belarusia, Bengali, Belgia, Bosnia, Brasil, Inggris Inggris, Bulgaria, Bulgaria (phonetic), Burmese, Perancis Kanada, Kanada Multibahasa, Catalan, Cina, Kroasia, Ceko, Denmark, Belanda, Dvorak, Dzongkha, Esperanto, Estonia, Ethiopia, Finlandia, Perancis, Georgia, Jerman, Yunani, Gujarati, Gurmukhi, Ibrani, Hindi, Hongaria, Islandia, Irlandia, Italia, Jepang, Kanada, Kazakh, Khmer, Kirghiz, Korea, Kurdish (Pola F), Kurdish (Pola Q), Lao, Amerika Latin, Latvia, Lithuania, Macedonia, Malayalam, Nepal, Sami Utara, Norwegia, Persia, Philippines, Polandia, Portugis, Punjabi, Rumania, Rusia, Serbia (Cyrillic), Sindh, Sinhala, Slovakia, Slovenia, Spanyol, Swedia, Prancis Swiss, Jerman Swiss, Tajik, Tamil, Telugu, Thailand, Tibetan, Turki (Pola F), Turki (Pola Q), Ukrania, Uygur, Vietnam
+Description-id.UTF-8: Peta tombol yang dipakai:
+Choices-is.UTF-8: Bandarísk enskt, Албански, Arabískt, Astúrískt, Bangladess, Hvítrússneskt, Bengalst, Belgískt, Bosnískt, Brasilískt, Bresk enskt, Búlgarskt, Búlgarskt (phonetic uppsetning), Burmese, Kanadískt franskt, Kanadískt fjöltyngt, Katalónska, Kínverskt, Króatískt, Tékkneskt, Danskt, Hollenskt, Dvorak, Dzongkha, Esperantó, Eistneskt, Eþíópískt, Finnskt, Franskt, Georgísk skrift, Þýskt, Grískt, Gújaratí, Gurmukískt, Hebreskt, Hindí, Ungverskt, Íslenskt, Írskt, Ítalskt, Japanskt, Kannadískt, Kasakískt, Khmerískt, Kirgisískt, Kóreskt, Kúrdískt (F uppsetning), Kúrdískt (Q uppsetning), Laóskt, Latínu-amerískt, Lettneskt, Litháískt, Makedónískt, Malayanskt, Nepalskt, Norðursamískt, Norskt, Persneskt, Philippines, Pólskt, Portúgalskt, Punjabískt, Rúmenskt, Rússneskt, Serbneskt (kýrílískt letur), Sindí, Sinhala, Slóvakíska, Slóvenska, Spænskt, Sænskt, Svissnensk franskt, Svissnesk þýskt, Tadzjikiskt, Tamílskt, Telúgú, Taílenskt, Tíbetskt, Tyrkneskt (F uppsetning), Tyrkneskt (Q uppsetning), Úkraínskt, Uyghur, Víetnamskt
+Description-is.UTF-8: Lyklaborðsvörpun sem á að nota:
+Choices-it.UTF-8: Inglese (Stati Uniti), Albanese, Arabo, Asturiano, Bangladesh, Bielorussa, Bengalese, Belga, Bosniaco, Brasiliana, Inglese (Gran Bretagna), Bulgara, Bulgara (layout fonetico), Birmana, Francese (Canada), Canadese (multilingua), Catalano, Cinese, Croata, Ceca, Danese, Olandese, Dvorak, Dzongkha, Esperanto, Estone, Etiope, Finlandese, Francese, Georgiano, Tedesca, Greca, Gujarati, Gurmukhi, Ebraica, Hindi, Ungherese, Islandese, Irlandese, Italiana, Giapponese, Kannada, Kazako, Khmer, Chirghisa, Coreano, Curdo (layout F), Curdo (layout Q), Lao, Latino-americana, Lettone, Lituana, Macedone, Malayalam, Nepalese, Sami del Nord, Norvegese, Persiano, Filippino, Polacca, Portoghese, Punjabi, Rumena, Russa, Serba (cirillica), Sindhi, Sinhala, Slovacca, Slovena, Spagnola, Svedese, Francese (Svizzera), Tedesca (Svizzera), Tagica, Tamil, Telugu, Tailandese, Tibetana, Turca (layout F), Turca (layout Q), Ucraina, Uyghur, Vietnamita
+Description-it.UTF-8: Mappa della tastiera da usare:
+Choices-ja.UTF-8: 米国, アルバニア語, アラビア語, アストゥリアス語, バングラデシュ語, ベラルーシ語, ベンガル語, ベルギー語, ボスニア語, ブラジル語, イギリス英語, ブルガリア語, ブルガリア語 (phonetic レイアウト), ビルマ語, カナダ (フランス語), カナダ (多言語), カタルニア語, 中国語, クロアチア語, チェコ語, デンマーク語, オランダ語, Dvorak, ゾンカ語, エスペラント語, エストニア語, エチオピア語, フィンランド語, フランス語, グルジア語, ドイツ語, ギリシャ語, グジャラーティー語, グルムキー文字, ヘブライ語, ヒンディー語, ハンガリー語, アイスランド語, アイルランド語, イタリア語, 日本語, カンナダ語, カザーフ語, クメール語, キルギス語, 朝鮮語, クルド語 (F 配置), クルド語 (Q レイアウト), ラオ語, ラテンアメリカ, ラテン ラテン4, リトアニア語, マケドニア語, マラヤーラム語, ネパール語, 北サーメ, ノルウェー語, ペルシア語, フィリピン, ポーランド語, ポルトガル語, パンジャブ語, ルーマニア語, ロシア語, セルビア語 (キリル文字), シンド語, シンハラ語, スロバキア語, スロベニア語, スペイン語, スウェーデン語, スイス (フランス語), スイス (ドイツ語), タジク語, タミル語, テルグ語, タイ語, チベット語, トルコ語 (F 配置), トルコ語 (Q レイアウト), ウクライナ語, ウイグル語, ベトナム語
+Description-ja.UTF-8: 利用するキーマップ:
+Choices-kk.UTF-8: Американ ағылшын, Албаниялық, Араб, Астуриялық, Бангладеш, Беларус, Бенгал, Бельгиялық, Босниялық, Бразилиялық, Ұлыбританиялық ағылшын, Болгар, Болгар (phonetic layout), Бирмалық, Канадалық француз, Канадалық көптілді, Каталан, Қытайша, Хорват, Чех, Даниялық, Голланд, Дворак, Дзонг-кэ, Эсперанто, Эстон, Эфиопиялық, Финн, Француз, Грузия, Неміс, Грек, Гуджарати, Гурмукхи, Иврит, Хинди, Венгр, Исландиялық, Ирландиялық, Италиян, Жапон, Каннада, Қазақ, Хмер, Қырғыз, Кореялық, Курд (F layout), Курд (Q layout), Лао, Латын америкалық, Латвиялық, Литвалық, Македон, Малаялам, Непалдық, Солтүстік Сами, Норвегиялық, Парсы, Филиппин, Польшалық, Португал, Панджаби, Румын, Орыс, Серб (Cyrillic), Синди, Синхала, Словакиялық, Словениялық, Испан, Швециялық, Швейцариялық француз, Швейцариялық неміс, Тәжік, Тамил, Телугу, Тай, Тибет, Түрік (F layout), Түрік (Q layout), Украин, Ұйғыр, Вьетнам
+Description-kk.UTF-8: Қолданылатын пернетақта жаймасы:
+Choices-kn.UTF-8: ಅಮೆರಿಕನ್ ಇಂಗ್ಲೀಷ, ಅಲ್ಬೇನಿಯನ್, ಅರೇಬಿಕ್, ಅಸ್ತುರಿಯನ್, ಬಾಂಗ್ಲಾದೇಶ, ಬೆಲಾರೂಸಿಯನ್, ಬೆಂಗಾಲಿ, ಬೆಲ್ಜಿಯನ್, ಬೋಸ್ನಿಯನ್, ಬ್ರೆಝಿಲಿನ, ಬ್ರಿಟಿಷ್ ಇಂಗ್ಲೀಷ್, ಬಲ್ಗೇರಿಯನ್, ಬಲ್ಗೇರಿಯನ್ (ಉಚ್ಚಾರಣಾನುರೂಪವಾಗಿರುವ ವಿನ್ಯಾಸ), Burmese, ಕೆನೆಡಿಯನ್ ಫ್ರೆಂಚ್, ಕೆನೆಡಿಯನ್ Multilingual, ಕ್ಯಾಟಲಾನ್, ಚೈನೀಸ್, ಕ್ರೊಏಶಿಯನ್, ಝೆಕ್, ಡ್ಯಾನಿಶ್, ಡಚ್, ಡೊರಾಕ್, ಜೋಂಗ್‌ಕಾ, ಎಸ್ಪರಾಂಟೊ, ಎಸ್ಟೊನಿಯನ್, ಇತಿಯೋಪಿಯನ್ನಿನ, ಫಿನ್ನಿಶ್, ಫ್ರೆಂಚ್, ಜಾರ್ಜಿಯನ್, ಜರ್ಮನ್, ಗ್ರೀಕ್, ಗುಜರಾತಿ, ಗುರ್ಮುಖಿ, ಹೀಬ್ರೂ, ಹಿಂದಿ, ಹಂಗೇರಿಯನ್, ಐಸ್ಲಾಂಡಿಕ್, ಐರಿಶ್, ಇಟಾಲಿಯನ್, ಜಪನೀಸ್, ಕನ್ನಡ, ಕಜಕ್, ಖ್ಮೆರ್, ಕಿರ್ಘಿಸ್, ಕೊರಿಯನ್, ಕುರ್ದಿಶ್ (F ವಿನ್ಯಾಸ), ಕುರ್ದಿಶ್ (Q ವಿನ್ಯಾಸ), ಲಾವೋ, ಲತಿನ್ ಅಮೆರಿಕನ್, ಲಾಟ್ವಿಯನ್, ಲಿಥುವೆನಿಯನ್, ಮೆಸಿಡೊನಿಯನ್, ಮಲಯಾಳಂ, ನೇಪಾಲಿ, ಉತ್ತರ ಸಾಮಿ, ನೊರ್ವೆಜಿಯನ್, ಪರ್ಶಿಯನ್, Philippines, ಪೋಲಿಶ್, ಪೋರ್ಚುಗೀಸ್, ಪಂಜಾಬಿ, ರೊಮೇನಿಯನ್, ರಷಿಯನ್, ಸರ್ಬಿಯನ್ (ಸಿರಿಲಿಕ್), ಸಿಂಧಿ, ಸಿನ್ಹಲ, ಸ್ಲೋವಾಕ್, ಸ್ಲೋವೆನಿಯನ್, ಸ್ಪಾನಿಷ್ , ಸ್ವೀಡಿಷ್, ಸ್ವಿಸ್ ಫ್ರೆಂಚ್, ಸ್ವಿಸ್ ಜರ್ಮನ್, ತಾಜೀಕ್, ತಮಿಳು, ತೆಲುಗು, ಥಾಯ್, ಟಿಬೆಟ, ತುರ್ಕಿಶ್ (F ವಿನ್ಯಾಸ), ತುರ್ಕಿಶ್ (Q ವಿನ್ಯಾಸ), ಉಕ್ರೇನಿಯನ್, ಉಯ್ಘುರ್, ವಿಯೆಟ್ನಾಮೀಸ್
+Description-kn.UTF-8: ಉಪಯೇಗಿಸುವ ಕೀಲಿ ಗಾತ್ರ::
+Choices-ko.UTF-8: 미국 영어, 알바니아어, 아랍어, 아스투리아스어, 방글라데시, 벨라루시아어, 벵골어, 벨기에어, 보스니아어, 브라질 포르투갈어, 영국 영어, 불가리아어, 불가리아어 (음성 표기), 미얀마, 캐나다 프랑스어, 캐나다 다국어, 카탈루냐어, 중국어, 크로아티아어, 체코어, 덴마크어, 네덜란드어, 드보락, 종카어, 에스페란토어, 에스토니아어, 에티오피아어, 핀란드어, 프랑스어, 조지아어, 독일어, 그리스어, 구자라트어, 구르무키 문자, 히브리어, 힌두어, 헝가리어, 아이슬란드어, 아일랜드어, 이탈리아어, 일본어, 칸나다어, 카자흐어, 크메르어, 키르기스어, 한국어, 쿠르드어 (F 배치), 쿠르드어 (Q 배치), 라오어, 중남미, 라트비아어, 리투아니아어, 마케도니아어, 말라얄람어, 네팔어, 사미어 (북부), 노르웨이어, 페르시아어, 필리핀, 폴란드어, 포르투갈어, 펀잡어, 루마이나어, 러시아어, 세르비아어 (키릴 문자), 신디어, 싱할라어, 슬로바키아어, 슬로베니아어, 스페인어, 스웨덴어, 스위스 프랑스어, 스위스 독일어, 타지크어, 타밀어, 텔루구어, 타이어, 티벳어, 터키어 (F 배치), 터키어 (Q 배치), 우크라니아어, 위구르어, 베트남어
+Description-ko.UTF-8: 사용할 키맵:
+Choices-ku.UTF-8: Îngilîziya Amerîka, Albanian, Erebî, Asturian, Banglades, Belarûsî, Bengali, Belçîkî, Bosnian, Brazîlî, Îngilîziya Brîtanya, Bulgarî, Bulgarî (phonetic), Burmese, Fransiya Kanadayê, Kanada ya Pirzimanî, Catalan, Chinese, Kroatî, Çekî, Danimarkî, Hollandî, Dvorak, Dzongkha, Esperanto, Estonî, Ethiopian, Finî, Fransî, Gurcî, Almanî, Yewnanî, Gujarati, Gurmukhi, Îbranî, Hindi, Macarî, Îzlandî, Irish, Îtalî, Japonî, Kannada, Kazakh, Khmer, Qirxizî, Korean, Kurdish (F layout), Kurdish (Q layout), Laoyî, Amerîkiya Latîn, Latwî, Lîtwanî, Makedonî, Malayalam, Nepali, Northern Sami, Norwecî, Persian, Philippines, Polonî, Portekîzî, Punjabi, Romanî, Rûsî, Sirbî (Kîrîl), Sindhi, Sinhala, Slovak, Slovenian, Spanî, Swêdî, Fransiya Swîsrê, Almaniya Swîsrê, Tajik, Tamil, Telugu, Tay, Tibetan, Tirkî (F), Tirkî (Q), Ukraynî, Uyghur, vîyetnamî
+Description-ku.UTF-8: Plana bişkojan a dê were bikaranîn:
+Choices-lo.UTF-8: ພາສາອັງກິດອາເມລິກັນ, ອາເບເນຍ, ອາລັບ, ເເອຊ໌ທູລ້ຽນ, ບັງກະລາເດດ, ກ່ຽວກັບເບລະຣູສ, ພາສາບັງກະລາເດດ, ຊາວເບລຢຽມ, ພາສາບອສເນຍ, ບຣາຊິວ, ພາສາອັງກິດ, ບັລເກເຣຍ, ບັລເກເຣຍຮູບແບບການອອກສຽງ, Burmese, ຝຣັ່ງເສດ ແຄນາດາ, ເວົ້າໄດ້ຫລາຍພາສາ ຊາວແຄນາດາ, ພາສາກັດຕະລານ, ພາສາຈີນ, ພາສາໂຄຣເອເຊຍ, ພາສາເຊັກ, ພາສາເດັນມາຣກ, ພາສາດັດຊ, ພາສາໂວລັກ, ພາສາດອງກາ, ພາສາເອສເປີລານໂຕ, ພາສາເອສໂຕເນຍ, ພາສາອີຕີໂອປຽຍ, ພາສາຟິນແລນ, ພາສາຝຣັ່ງເສດ, ພາສາຈໍເຈຍ, ພາສາເຢີລະມັນ, ພາສາກຣີກ, ພາສາກູຈາລາຕີ, ພາສາເກີມູກີ, ພາສາຮິບຣູ, ພາສາຮີນດິ, ພາສາຮັງກາຣີ, ພາສາໄອຊແລນ, ພາສາໃອຣີຊ໌, ພາສາອິຕາລີ, ພາສາຢີ່ປຸ່ນ, ພາສາຄັນນາດາ, ພາສາກາຊາກ, ພາສາກໍາພູຊາ, ພາສາເຄີກີຊ, ພາສາເກົາຫຼີ, ພາສາເຄີດ (ແບບ F), ພາສາເຄີດ (ແບບ Q ), ພາສາລາວ, ລາຕິນອາເມຣິກາ, ພາສາລັດເວຍ, ພາສາລິຮົວເນຍ, ພາສາແມກຊີໂດເນຍ, ພາສາມາລາຍາມ, ພາສາເນປາລີ, ສາມິ ເໜືອ, ພາສານໍເວ, ພາສາເພີເຊຍ, Philippines, ພາສາໂປເເລນ, ໂປຣຕຸເກດ, ພາສາພຸນຈາບິ, ພາສາໂຣມາເນຍ, ພາສາຣັສເຊຍ, ພາສາເຊີເບຍ (ຊີຣິລລິກ), ພາສາສີນຮີ, ພາສາສີນຫາລາ, ພາສາສະໂລວັກ, ພາສາສະໂລວັກ, ພາສາສະເປນ, ພາສາສະວີເດັນ, ພາສາຝຣັ່ງເສດ ສະວິສ, ພາສາເຢີຣະມັນ ສະວິສ, Tajik, ພາສາທາມມີວ, ພາສາເທກາລູ, ພາສາໄທ, Tibetan, ພາສາຕຸຣະກີ (ແບບ F), ພາສາຕຸລະກີ (ແບບ Q ), ພາສາຢູເຄຣນ, ພາສາອູເກີ, ພາສາຫວຽດ
+Description-lo.UTF-8: ຜັງແປ້ນພິມທີ່ໃຊ້:
+Choices-lt.UTF-8: Amerikiečių angliškas, Albanų, Arabų, Astūrų, Bangladešas, Baltarusių, Bengalų, Belgų, Bosnių, Brazilų, Britų angliškas, Bulgarų, Bulgarų (fonetinis), Burmese, Kanadiečių prancūziškas, Kanadiečių daugiakalbis, Katalonų, Kinų, Kroatų, Čekų, Danų, Olandų, Dvorako, Botijų, Esperanto, Estų, Etiopų, Suomių, Prancūzų, Gruzinų, Vokiečių, Graikų, Gudžaratų, Gurmukhų, Hebrajų, Hindi, Vengrų, Islandų, Airių, Italų, Japonų, Kanadų, Kazachų, Khmerų, Kirgizų, Korėjiečių, Kurdų (F), Kurdų (Q), Laosiečių, Lotynų Amerikos, Latvių, Lietuvių, Makedonų, Malajalių, Nepalų, Šiaurės samių, Norvegų, Persų, Philippines, Lenkų, Portugalų, Pandžabų, Rumunų, Rusų, Serbų (kirilica), Sindų, Singalų, Slovakų, Slovėnų, Ispanų, Švedų, Šveicarų prancūziškas, Šveicarų vokiškas, Tajik, Tamilų, Telugų, Tajų, Tibetan, Turkų (F), Turkų (Q), Ukrainiečių, Uigūrų, Vietnamiečių
+Description-lt.UTF-8: Naudotinas klavišų išdėstymas:
+Choices-lv.UTF-8: Amerikāņu angļu, Albāņu, Arābu, Astūriešu, Bangladešas, Baltkrievu, Bengāļu, Beļģu, Bosniešu, Brazīļu, Britu angļu, Bulgāru, Bulgāru (fonētiskais izkārtojums), Burmese, Kanādiešu franču, Kanādas daudzvalodu, Katalāņu, Ķīniešu, Horvātu, Čehu, Dāņu, Holandiešu, Dvorak, Dzongke, Esperanto, Igauņu, Etiopiešu, Somu, Franču, Gruzīnu, Vācu, Grieķu, Gudžaratu, Gurmuku, Ivrits, Hindi, Ungāru, Islandiešu, Īru, Itāliešu, Japāņu, Kannadu, Kazahu, Khmeru, Kirgīzu, Korejiešu, Kurdu (F izklājums), Kurdu (Q izklājums), Laosiešu, Latīņamerikas, Latviešu, Lietuviešu, Maķedoniešu, Malajalu, Nepāliešu, Ziemeļsāmu, Norvēģu, Persiešu, Philippines, Poļu, Portugāļu, Pandžabu, Rumāņu, Krievu, Serbu (kirilica), Sindhu, Singāļu, Slovāku, Slovēņu, Spāņu, Zviedru, Šveices franču, Šveices vāciešu, Tadžiku, Tamilu, Telugu, Taju, Tibetiešu, Turku (F izklājums), Turku (Q izklājums), Ukraiņu, Uiguru, Vjetnamiešu
+Description-lv.UTF-8: Izklājums:
+Choices-mk.UTF-8: Американско-англиски, Албански, Арапски, Австриски, Бангладеш, Белоруски, Бенгалски, Белгиски, Босански, Бразилски, Британски англиски, Бугарски, Бугарски (фонетски распоред), Burmese, Канадско француски, Канадско повеќејазично, Каталонски, Кинески, Хрватски, Чешки, Дански, Холандски, Дворак, Џонгха, Есперанто, Естониски, Етиопски, Фински, Француски, Грузиски, германска, Грчки, Гујарати, Гуркмуки, Хебрејски, Хинду, Унгарски, Исландски, Ирски, италијанска, Јапонски, Каннада, Казак, Кмер, Киргиз, Корејски, Курдски (F распоред), Курдски (Q распоред), Лаошки, Латино американски, Латвиски, Литвански, Македонски, Малајалам, Непалска, Северено самиска, Норвешка, Персиска, Philippines, Полска, Португалска, Панџаби, Романска, Руска, Српски (Кирилица), Синди, Синхала, Словачки, Словенечки, Шпански, Шведски, Швајцарско француски, Шведско-германски, Tajik, Тамилски, Телуг, Тајландски, Tibetan, турска fu, турска qu, украинска, Ујгхур, Виетнамски
+Description-mk.UTF-8: Распоред на тастатура кој ќе се користи:
+Choices-nb.UTF-8: Engelsk (USA), Albansk, Arabisk, Asturisk, Bangladesh, Hviterussisk, bengali, Belgisk, Bosnisk, Brasiliansk, Engelsk (Storbritannia), Bulgarsk, Bulgarsk (phonetic-oppsett), Burmesisk, Fransk (Canada), Kanadisk\, flerspråklig, Katalansk, Kinesisk, Kroatisk, Tsjekkisk, Dansk, Nederlandsk, Dvorak, dzongkha, Esperanto, Estisk, Etiopisk, Finsk, Fransk, Georgisk, Tysk, Gresk, gujarati, gurmukhi, Hebraisk, hindi, Ungarsk, Islandsk, Irsk, Italiensk, Japansk, kannada, kasakhisk, Khmer, kirgisisk, Koreansk, Kurdisk (F-oppsett), Kurdisk (Q-oppsett), laotisk, Latinamerikansk, Latvisk, Litauisk, Makedonsk, malayalam, nepalsk, Nord-samisk, Norsk, Persisk, Filippinsk, Polsk, Portugisisk, Punjabi, Rumensk, Russisk, Serbisk (kyrillisk), Sindhi, Singalesisk, Slovakisk, Slovensk, Spansk, Svensk, Fransk (Sveits), Tysk (Sveits), Tadsjikisk, Tamilsk, telugu, Thai, Tibetansk, Tyrkisk (F-oppsett), Tyrkisk (Q-oppsett), Ukrainsk, Uigursk, Vietnamesisk
+Description-nb.UTF-8: Tasteoppsett som skal brukes:
+Choices-nl.UTF-8: Amerikaans Engels, Albanees, Arabisch, Asturisch, Bangladesh, Wit-Russisch, Bengaals, Belgisch, Bosnisch, Braziliaans, Brits Engels, Bulgaars, Bulgaars (fonetische indeling), Birmaans/Birmees, Canadees Frans, Canadees meertalig, Catalaans, Chinees, Kroatisch, Tsjechisch, Deens, Nederlands, Engels met minimale vingerbeweging (dvorak), Dzongkha, Esperanto, Estlands, Ethiopisch, Fins, Frans, Georgisch, Duits, Grieks, Gujarati, Gurmukhi, Hebreeuws, Hindi, Hongaars, IJslands, Iers, Italiaans, Japans, Kannada\, Kanarees, Kazachs, Khmer, Kirgizisch, Koreaans, Koerdisch (F-indeling), Koerdisch (Q-indeling), Lao, Latijns-Amerikaans, Lets, Litouws, Macedonisch, Malayalam, Nepalees, Noord-Samisch, Noors, Perzisch, Filipijns, Pools, Portugees, Punjabi, Roemeens, Russisch, Servisch (Cyrillisch), Sindhisch, Singalees, Slowaaks, Sloveens, Spaans, Zweeds, Zwitsers Frans, Zwitsers Duits, Tadzjieks, Tamil, Telugu, Thais, Tibetaans, Turks (F-indeling), Turks (Q-indeling), Oekraïens, Oeigoers, Vietnamees
+Description-nl.UTF-8: Te gebruiken toetsenbordindeling:
+Choices-nn.UTF-8: Engelsk (USA), Albansk, Arabisk, Asturian, Bangladesh, Kviterussisk, Bengali, Belgisk, Bosnisk, Brasiliansk, Engelsk (Storbritannia), Bulgarsk, Bulgarsk (phonetic-oppsett), Burmese, Fransk (Canada), Kanadisk\, fleirspråkleg, Catalan, Kinesisk, Kroatisk, Tsjekkisk, Dansk, Nederlandsk, Dvorak, Dzongkha, Esperanto, Estisk, Ethiopian, Finsk, Fransk, Georgisk, Tysk, Gresk, Gujarati, gurmukhi, Hebraisk, Hindi, Ungarsk, Islandsk, Irsk, Italiensk, Japansk, Kannada, Kasakhisk, Khmer, Kirgisisk, Koreansk, Kurdisk (F-oppsett), Kurdisk (Q-oppsett), Laotisk, Latinamerikansk, Latvisk, Litauisk, Makedonsk, Malayalam, Nepali, Northern Sami, Norsk, Persisk, Philippines, Polsk, Portugisisk, Punjabi, Rumensk, Russisk, Serbisk (kyrillisk), Sindhi, Sinhala, Slovak, Slovenian, Spansk, Svensk, Fransk (Sveits), Tysk (Sveits), Tajik, Tamil, Telugu, Thai, Tibetan, Russisk, Tyrkisk (Q-oppsett), Ukrainsk, Uyghur, Vietnamesisk
+Description-nn.UTF-8: Tasteoppsett som skal brukast:
+Choices-no.UTF-8: Engelsk (USA), Albansk, Arabisk, Asturisk, Bangladesh, Hviterussisk, bengali, Belgisk, Bosnisk, Brasiliansk, Engelsk (Storbritannia), Bulgarsk, Bulgarsk (phonetic-oppsett), Burmesisk, Fransk (Canada), Kanadisk\, flerspråklig, Katalansk, Kinesisk, Kroatisk, Tsjekkisk, Dansk, Nederlandsk, Dvorak, dzongkha, Esperanto, Estisk, Etiopisk, Finsk, Fransk, Georgisk, Tysk, Gresk, gujarati, gurmukhi, Hebraisk, hindi, Ungarsk, Islandsk, Irsk, Italiensk, Japansk, kannada, kasakhisk, Khmer, kirgisisk, Koreansk, Kurdisk (F-oppsett), Kurdisk (Q-oppsett), laotisk, Latinamerikansk, Latvisk, Litauisk, Makedonsk, malayalam, nepalsk, Nord-samisk, Norsk, Persisk, Filippinsk, Polsk, Portugisisk, Punjabi, Rumensk, Russisk, Serbisk (kyrillisk), Sindhi, Singalesisk, Slovakisk, Slovensk, Spansk, Svensk, Fransk (Sveits), Tysk (Sveits), Tadsjikisk, Tamilsk, telugu, Thai, Tibetansk, Tyrkisk (F-oppsett), Tyrkisk (Q-oppsett), Ukrainsk, Uigursk, Vietnamesisk
+Description-no.UTF-8: Tasteoppsett som skal brukes:
+Choices-pl.UTF-8: angielski w wersji amerykańskiej, Albański, Arabski, asturyjski, Bangladesz, białoruski, Bengalski, belgijski, Bośniacki, brazylijski, angielski w wersji brytyjskiej, bułgarski, bułgarski (układ fonetyczny), birmański, francuski w wersji kanadyjskiej, kanadyjski wielojęzykowy, kataloński, Chiński, chorwacki, czeski, duński, niderlandzki, Dvorak, Dzongka, Esperanto, estoński, etiopski, fiński, francuski, Gruziński, niemiecki, grecki, Gudźarati, Gurmukhi, hebrajski, Hindi, węgierski, islandzki, Irlandzki, włoski, japoński, Kannada, Kazaski; kazachski, khmerski, kirgiski, Koreański, Kurdyjski (układ F), Kurdyjski (układ Q), Laotański, latynoamerykański, łotewski, litewski, macedoński, Malajalam, Nepalski, północnolapoński, norweski, Perski; nowoperski; farsi, filipiński, polski, portugalski, pendżabski, rumuński, rosyjski, serbski (cyrylica), Sindhi, syngaleski, słowacki, słoweński, hiszpański, szwedzki, francuski w wersji szwajcarskiej, niemiecki w wersji szwajcarskiej, tadżycki, Tamilski, Telugu, tajski, tybetański, turecki (układ F), turecki (układ Q), ukraiński, ujgurski, Wietnamski
+Description-pl.UTF-8: Układ klawiatury:
+Choices-pt.UTF-8: Inglês Americano, Albanês, Arábico, Asturiano, Bangladesh, Bielorusso, Bengali, Belga, Bósnio, Português Brasileiro, Inglês Britânico, Búlgaro, Búlgaro (layout phonetic), Birmanês, Francês Canadá, Canadiano (Multilíngua), Catalão, Chinês, Croata, Checo, Dinamarquês, Holandês, Dvorak, dzonga, Esperanto, Estoniano, Etíope, Finlandês, Francês, Georgiano, Alemão, Grego, guzerate, gurmuqui, Hebraico, Hindi, Húngaro, Islandês, Irlandês, Italiano, Japonês, Canarês, Cazaque, Khmer, quirguiz, Coreano, Curdo (layout F), Curdo (layout Q), laosiano, Latino Americano, Letão, Lituano, Macedónio, Malaiala, Nepalês, Sami Setentrional, Norueguês, Persa, Filipino, Polaco, Português, Punjabi, Romeno, Russo, Sérvio (Cirílico), Sindhi, Sinhala, Eslovaco, Eslovaco, Espanhol, Sueco, Francês Suíço, Alemão Suíço, Tajik, Tamil, telugu, Tailandês, Tibetano, Turco (layout F), Turco (layout Q), Ucraniano, Uigur, Vietnamita
+Description-pt.UTF-8: Mapa de teclado a utilizar:
+Choices-pt_BR.UTF-8: Inglês Americano, Albanês, Árabe, Asturiano, Bangladesh, Bielorrusso, Bengali, Belga, Bósnio, Português Brasileiro, Inglês Britânico, Búlgaro, Búlgaro (layout fonético), Burmese, Francês Canadense, Multilinguagem canadense, Catalão, Chinês, Croata, Tcheco, Dinamarquês, Holandês, Dvorak, Butanês, Esperanto, Estoniano, Etíope, Finlandês, Francês, Georgiano, Alemão, Grego, Guzerate, Gurmukhi, Hebraico, Hindi, Húngaro, Islandês, Irlandês, Italiano, Japonês, Canarês, Cazaque, Khmer, Quirguiz, Coreano, Curdo (layout F), Curdo (layout Q), Laosiano, Latino Americano, Letão, Lituano, Macedônio, Malaiala, Nepali, Sami Setentrional, Norueguês, Persa, Philippines, Polonês, Português, Punjabi, Romeno, Russo, Sérvio (cirílico), Sindi, Sinhala (cingalês), Eslovaco, Esloveno, Espanhol, Sueco, Francês Suíço, Alemão Suíço, Tajik, Tâmil, Télugo, Tailandês, Tibetan, Turco (layout F), Turco (layout Q), Ucraniano, Uigur, Vietnamita
+Description-pt_BR.UTF-8: Mapa de teclado a ser usado:
+Choices-ro.UTF-8: Engleză Americană, Albaneză, Arabă, Asturiană, Bangladeș, Bielorusă, Bengaleză, Belgiană, Bosniacă, Braziliană, Engleză Britanică, Bulgară, Bulgară (aranjament fonetic), Burmeză, Franceză canadiană, Canadiană multi-lingvistică, Catalană, Chineză, Croată, Cehă, Daneză, Olandeză, Dvorak, Dzongkhană, Esperanto, Estonă, Etiopian, Finlandeză, Franceză, Georgiană, Germană, Greacă, Gujaratineză, Gurmukhi, Ebraică, Hindusă, Ungară, Islandeză, Irlandeză, Italiană, Japoneză, Kannada, Cazacă, Khmer, Kirghiză, Coreeană, Curdă (aranjament F), Curdă (aranjament Q), Loațiană, Latino-americană, Letonă, Lituaniană, Macedoniană, Malayalam, Nepaleză, Sami de nord, Norvegiană, Persană, Filipineză, Poloneză, Portugheză, Punjabi, Română, Rusă, Sârbă (chirilică), Sindhi, Sinhala, Slovacă, Slovenă, Spaniolă, Suedeză, Franceză elvețiană, Germană elvețiană, Tajik, Tamilă, Teluguă, Tai, Tibetană, Turcă (aranjament F), Turcă (aranjament Q), Ucrainiană, Uyghură, Vietnameză
+Description-ro.UTF-8: Configurația de taste utilizată:
+Choices-ru.UTF-8: Английская американская, Албанская, Арабская, Астурианская, Бангладеш, Белорусская, Бенгальский, Бельгийская, Боснийская, Бразильская, Английская великобританская, Болгарская, Болгарская (раскладка phonetic), Бирманская, Французская канадская, Канадская многоязычная, Каталанская, Китайская, Хорватская, Чешская, Датская, Голландская, Дворак, Дзонг-кэ, Эсперанто, Эстонская, Эфиопская, Финская, Французская, Грузинская, Немецкая, Греческая, Гуджарати, Гурмукхи, Иврит, Хинди, Венгерская, Исландская, Ирландская, Итальянская, Японская, Каннада, Казахская, Кхмерская, Киргизская, Корейская, Курдская (раскладка F), Курдская (раскладка Q), Лаосская, Латиноамериканская, Латышская, Литовская, Македонская, Малаялам, Непальская, Северо-саамская, Норвежская, Персидская, Филиппинская, Польская, Португальская, Панджаби, Румынская, Русская, Сербская (Кириллица), Синдхи, Синхала, Словацкая, Словенская, Испанская, Шведская, Французская общая, Немецкая (Швейцария), Таджикская, Тамильская, Телугу, Тайская, Тибетская, Турецкая (раскладка F), Турецкая (раскладка Q), Украинская, Уйгурская, Вьетнамская
+Description-ru.UTF-8: Выберите клавиатурную раскладку:
+Choices-se.UTF-8: American English, Albanian, Arabic, Asturian, Bangladesh, Belarusian, Bengali, Belgian, Bosnian, Brazilian, British English, Bulgarian, Bulgarian (phonetic layout), Burmese, Canadian French, Canadian Multilingual, Catalan, Chinese, Croatian, Czech, Danish, Dutch, Dvorak, Dzongkha, Esperanto, Estonian, Ethiopian, Finnish, French, Georgian, German, Greek, Gujarati, Gurmukhi, Hebrew, Hindi, Hungarian, Icelandic, Irish, Italian, Japanese, Kannada, Kazakh, Khmer, Kirghiz, Korean, Kurdish (F layout), Kurdish (Q layout), Lao, Latin American, Latvian, Lithuanian, Macedonian, Malayalam, Nepali, Northern Sami, Norwegian, Persian, Philippines, Polish, Portuguese, Punjabi, Romanian, Russian, Serbian (Cyrillic), Sindhi, Sinhala, Slovak, Slovenian, Spanish, Swedish, Swiss French, Swiss German, Tajik, Tamil, Telugu, Thai, Tibetan, Turkish (F layout), Turkish (Q layout), Ukrainian, Uyghur, Vietnamese
+Choices-si.UTF-8: ඇමරිකානු ඉංග්‍රීසි, ඇල්බේනියානු, අරාබි, ඇස්ටූරියානු, බංලාදේශ, බෙලෝරුසියානු, බෙන්ගාලි, බෙල්ජියානු, බොස්නියානු, බ්‍රසීලියානු, බ්‍රිතාන්‍ය ඉංග්‍රීසි, බල්ගේරියානු, බල්ගේරියානු (ශබ්දානුකූල), Burmese, කැනේඩියානු ප්‍රංශ, කැනේඩියානු බහුබාශා, කැටලානු, චීන, ක්‍රෝශියානු, චෙච්, ඩෙන්මාක, ඕලන්ද, Dvorak, සොංකා, එස්පරෙන්ටෝ, එස්තෝනියානු, ඉතියෝපියානු, ෆින්, ප්‍රංශ, ජෝජියානු, ජර්මානු, ග්‍රීක, ගුජරාටි, ගුර්මුඛි, හීබෲ, හින්දි, හංගේරියානු, අයිස්ලන්ත, අයිරිශ්, ඉතාලි, ජපාන, කන්නඩ, කසකස්, ක්හමෙර්, කිරිගිස්, කොරියානු, කුර්දි (F සැකසුම), කුර්දි (Q සැකැස්ම), ලාඕ, ලතින් ඇමරිකානු, ලැට්වියානු, ලිතුවේනියානු, මැසිඩෝනියානු, මලයාසියානු, නේපාල, උතුරු සාමි, නෝවීජියානු, පර්සියානු, Philippines, පෝලන්ත, පෘතුගීසි, පන්ජාබ, රොමේනියානු, රුසියානු, සර්බියානු (සිරිලික්), සින්දි, සිංහල, ස්ලෝවැක්, ස්ලෝවීනියානු, ස්පාඥ්ඤ, ස්විස්, ස්විස් ප්‍රංශ, ස්විස් ජර්මානු, Tajik, දෙමළ, තෙළඟු, තායි, Tibetan, තුර්කි (F සැකැස්ම), තුර්කි (Q සැකැස්ම), යුක්රේනියානු, යූගුර්, වියෙට්නාම
+Description-si.UTF-8: භාවිත යතුරු සැකැස්ම:
+Choices-sk.UTF-8: americká angličtina, albánska, arabská, astúrska, bangladéšska, bieloruská, bengálska, belgická, bosniacka, brazílska, britská angličtina, bulharská, bulharská (fonetické rozloženie), barmská, kanadská francúzština, kanadská viacjazyčná, katalánska, čínska, chorvátska, česká, dánska, holandská, dvorak, dzongkä, esperanto, estónska, etiópska, fínska, francúzska, gruzínska, nemecká, grécka, gudžarátska, gurmukhí, hebrejská, hindská, maďarská, islandská, írska, talianska, japonská, kannadská, kazašská, khmérska, kirgizská, kórejská, kurdská (rozloženie F), kurdská (rozloženie Q), laoská, latinsko-americká, lotyšská, litovská, macedónska, malajálamska, nepálska, severosaamska, nórska, perzská, filipínska, poľská, portugalská, pandžábska, rumunská, ruská, srbská (cyrilika), sindhská, sinhalská, slovenská, slovinská, španielska, švédska, švajčiarska francúzština, švajčiarska nemčina, tadžická, tamilská, telugská, thajská, tibetská, turecká (rozloženie F), turecká (rozloženie Q), ukrajinská, ujgurská, vietnamská
+Description-sk.UTF-8: Klávesová mapa:
+Choices-sl.UTF-8: Angleška (ZDA), Albanščina, Arabščina, Asturijska, Bangladeš, Beloruska, Bengalščina, Belgijska, Bošnjaščina, Brazilska, Angleška (Velika Britanija), Bolgarska, Bolgarska (phonetic), Burmanska, Kanadska (Francoska), Kanadska (večjezikovna), Katalanska, Kitajščina, Hrvaška, Češka, Danska, Nizozemska, Dvorak, Dzonka, Esperanto, Estonska, Etijopski, Finska, Francoska, Gruzinščina, Nemška, Grška, Gudžaratščina, Gurmuki, Hebrejska, Hindijščina, Madžarska, Islandska, Irščina, Italijanska, Japonska, Kanareščina, Kazaščina, Khmer, kirgiščina, Korejščina, Kurdščina (F ureditev), Kurdščina (Q ureditev), Laoščina, Latinsko ameriška, Latvijska, Litovska, Makedonska, Malajalščina, Nepalščina, Severni Sami, Norveška, Perzijščina, Filipinska, Poljska, Portugalska, Pandžab, Romunska, Ruska, Srbska (cirilična), Sindhi, Sinhala, Slovaška, Slovenska, Španska, Švedska, Švicarska (Francoska), Švicarska (Nemška), Tadžiščina, Tamilščina, Teluščina, Tajska, Tibetanščina, Turška (F ureditev), Turška (Q ureditev), Ukrajinska, Ujgur, Vietnamščina
+Description-sl.UTF-8: Postavitev tipkovnice, ki jo želite uporabljati:
+Choices-sq.UTF-8: Angleze (SHBA), Albanian, Arabe, Asturian, Bangladesh, Bjelloruse, Bengali, Belge, Bosnian, Braziliane, Angleze (Britania e Madhe), Bullgare, Bullgare (planimetri phonetic), Burmese, Franceze (Kanada), Kanadisht Multigjuhëshe, Catalan, Chinese, Kroate, Çeke, Daneze, Hollandeze, Dvorak, Dzongkha, Esperanto, Estone, Ethiopian, Finlandeze, Franceze, Gjeorgjiane, Gjermane, Greke, Gujarati, Gurmukhi, Hebraike, Hindi, Hungareze, Islandeze, Irish, Italiane, Japoneze, Kannada, Kazakh, Khmer, Kirghiz, Korean, Kurdish (F layout), Kurdish (Q layout), Lao, Amerikano-Latine, Letone, Lituane, Maqedonase, Malayalam, Nepali, Northern Sami, Norvegjeze, Persian, Philippines, Polake, Portugeze, Punjabi, Rumune, Ruse, Serbe (Cirilike), Sindhi, Sinhala, Slovak, Slovenian, Spanjolle, Suedeze, Franceze (Zvicra), Gjermane (Zvicra), Tajik, Tamil, Telugu, Thai, Tibetan, Turke (planimetri F), Turke (planimetri Q), Ukraine, Uyghur, Vietnamisht
+Description-sq.UTF-8: Lloji i tastierës në përdorim:
+Choices-sr.UTF-8: амерички енглески, албански, арапски, астуриjски, бангладешки, белоруски, бенгалски, белгијски, бошњачки, бразилски, британски енглески, бугарски, бугарски (phonetic распоред), Burmese, канадски француски, канадски вишејезични, каталонски, кинески, хрватски, чешки, дански, холандски, Dvorak, Дзонгка, Есперанто, естонски, етиопски, фински, француски, грузијски, немачки, грчки, гујаратски, гурмукски, хебрејски, Хинду, мађарски, исландски, ирски, италијански, јапански, Канада, казахстански, кмерски, киргиски, корејски, курдски (F распоред), курдски (Q распоред), лао, латиноамерички, летонски, литвански, македонски, малајамски, непалски, северносамски, норвежански, персијски, Philippines, пољски, португалски, панџабски, румунски, руски, српски (ћирилица), синди, синалски, словачки, словеначки, шпански, шведски, швајцарски француски, швајцарски немачки, Tajik, тамилски, телугу, таи, Tibetan, турски (F распоред), турски (Q распоред), украјински, ујгурски, вијетнамски
+Description-sr.UTF-8: Распоред тастатуре за употребу:
+Choices-sr@latin.UTF-8: American English, Albanian, Arabic, Asturian, Bangladesh, Belarusian, Bengali, Belgian, Bosnian, Brazilian, British English, Bulgarian, Bulgarian (phonetic layout), Burmese, Canadian French, Canadian Multilingual, Catalan, Chinese, Croatian, Czech, Danish, Dutch, Dvorak, Dzongkha, Esperanto, Estonian, Ethiopian, Finnish, French, Georgian, German, Greek, Gujarati, Gurmukhi, Hebrew, Hindi, Hungarian, Icelandic, Irish, Italian, Japanese, Kannada, Kazakh, Khmer, Kirghiz, Korean, Kurdish (F layout), Kurdish (Q layout), Lao, Latin American, Latvian, Lithuanian, Macedonian, Malayalam, Nepali, Northern Sami, Norwegian, Persian, Philippines, Polish, Portuguese, Punjabi, Romanian, Russian, Serbian (Cyrillic), Sindhi, Sinhala, Slovak, Slovenian, Spanish, Swedish, Swiss French, Swiss German, Tajik, Tamil, Telugu, Thai, Tibetan, Turkish (F layout), Turkish (Q layout), Ukrainian, Uyghur, Vietnamese
+Choices-sv.UTF-8: Engelskamerikansk, Albanska, Arabiska, Asturiska, Bangladesh, Vitrysk, Bengali, Belgisk (latin1), Bosniska, Brasiliansk, Engelskbrittisk, Bulgarisk, Bulgarisk (fonetisk), Burmese, Franskkanadensisk, Kanadensisk\, flerspråkigt arrangemang, Katalanska, Kinesiska, Kroatisk, Tjeckisk, Dansk, Holländsk, Dvorak, Bhutanesiska (Dzongkha), Esperanto, Estländsk, Etiopisk, Finsk, Fransk, Georgiska, Tysk, Grekisk, Gujarati, gurmukhi, Hebreisk, Hindi, Ungersk, Isländsk, Iriska, Italiensk, Japansk, Kannada, Kazakiska, Khmer, Kirgisiska, Koreanska, Kurdiska (F-arrangemang), Kurdiska (Q-arrangemang), Laotiska, Latinamerikansk, Lettisk, Litauisk, Makedonsk, Malayalam, Nepali, Nordsamiska, Norska, Persiska, Philippines, Polsk, Portugisisk, Punjabi, Rumänsk, Rysk, Serbisk (Kyrillisk), Sindhi, Singalesiska, Slovakiska, Slovenska, Spansk, Svensk, Franskschweizisk, Tyskschweizisk, Tajik, Tamil, Telugo, Thai, Tibetan, Turkisk (F-arrangemang), Turkisk (Q-arrangemang), Ukrainsk, Uiguriska, Vietnamesiska
+Description-sv.UTF-8: Tangentuppsättning som ska användas:
+Choices-te.UTF-8: అమెరికా ఇంగ్లీషు, అల్బేనియన్, అరబిక్, అస్తురియన్, బాంగ్లాదేశ్, బెలారసియన్, బెంగాలి, బెల్జియన్, బొస్నియన్, బ్రెజిలియన్, బ్రిటీష్ ఇంగ్లీష్, బల్గేరియన్, బల్గేరియన్ (phonetic అమరిక), Burmese, కెనడియన్ ఫ్రెంచ్, బహుబాషా కెనడియన్, కాటలాన్, చైనీస్, క్రొయేషియన్, చెక్, డానిష్, డచ్, డ్వొరాక్, ఝొంఖా, ఎస్పెరాంటొ, ఎస్టోనియన్, ఇథియోపియన్, ఫిన్నిష్, ఫ్రెంచ్, జార్జియన్, జర్మన్, గ్రీకు, గుజరాతి, గుర్ముఖి, హీబ్రూ, హింది, హంగేరియన్, ఐస్‌లాండిక్, ఐరిష్, ఇటాలియన్, జపనీస్, కన్నడ, కజఖ్, ఖ్మేర్, కిర్ఘిజ్, కొరియన్, కుర్దిష్ (F అమరిక), కుర్దిష్ (Q అమరిక), లౌ, లాటిన్ అమెరికన్, లాత్వియన్, లిథువేనియన్, మాసిడోనియన్, మలయాళం, నేపాలి, ఉత్తర శామి, నార్వేజియన్, పర్షియన్, Philippines, పోలిష్, పోర్చుగీస్, పంజాబీ, రొమేనియన్, రష్యన్, సెర్బియన్ (సిరిల్లిక్), సింధీ, సింహాళ, స్లొవేకియన్, స్లొవేనియన్, స్పానిష్, స్వీడిష్, స్విస్ ఫ్రెంచ్, స్విస్ జర్మన్, Tajik, తమిళం, తెలుగు, థాయ్, Tibetan, టర్కిష్ (F అమరిక), టర్కిష్ (Q అమరిక), ఉక్రేనియన్, యుఘుర్, వియత్నాంసీ
+Description-te.UTF-8: ఉపయోగించాల్సిన కీమ్యాప్:
+Choices-tg.UTF-8: Англисии амрикоӣ, Албанӣ, Арабӣ, Астурӣ, Бангладешӣ, Белорусӣ, Банголӣ, Белгиягӣ, Босниягӣ, Бразилиягӣ, Англисии британӣ, Булғорӣ, Булғорӣ (тарҳбандии фонетикӣ), Burmese, Франсузии канадӣ, Бисёрзабонаи канадӣ, Каталонӣ, Хитоӣ, Хорватӣ, Чехӣ, Даниягӣ, Голландӣ, Дровакӣ, Дзонгха, Эсперанто, Эстонӣ, Эфиопӣ, Финнӣ, Франсузӣ, Гурҷӣ, Олмонӣ, Юнонӣ, Гуҷаротӣ, Гурмухӣ, Ибрӣ, Ҳиндӣ, Венгерӣ, Исландӣ, Ирландӣ, Италиявӣ, Ҷопонӣ, Каннада, Қазоқӣ, Кхмерӣ, Кирғизӣ, Кореягӣ, Курдӣ (Тарҳбандии F), Курдӣ (Тарҳбандии Q), Лао, Америкаи Лотинӣ, Латишӣ, Литвиягӣ, Мақдунӣ, Малаялам, Непалӣ, Самии Шимолӣ, Норвегӣ, Форсӣ, Philippines, Полякӣ, Португалӣ, Панҷобӣ, Руминӣ, Русӣ, Сербӣ (Кириллӣ), Синдӣ, Синҳалӣ, Словакӣ, Словенӣ, Испанӣ, Шведӣ, Франсузии шведӣ, Олмонии шведӣ, Тоҷикӣ, Тамилӣ, Телугу, Тайӣ, Тибетӣ, Туркӣ (Тарҳбандии F), Туркӣ (Тарҳбандии Q), Украинӣ, Ӯйғурӣ, Ветнамӣ
+Description-tg.UTF-8: Тарҳбандии клавиатура барои истифода:
+Choices-th.UTF-8: อังกฤษอเมริกัน, แอลเบเนีย, อาหรับ, อัสตูเรียส, บังกลาเทศ, เบลารุส, เบ็งกาลี, เบลเยียม, บอสเนีย, บราซิล, อังกฤษบริเตน, บัลแกเรีย, บัลแกเรีย (ผัง phonetic), พม่า, ฝรั่งเศสแคนาดา, แคนาดา (ประสมภาษา), คาตะลาน, จีน, โครเอเชีย, เช็ก, เดนมาร์ก, ดัตช์, Dvorak, ภูฏาน, เอสเปอรันโต, เอสโตเนีย, เอธิโอเปีย, ฟินแลนด์, ฝรั่งเศส, จอร์เจีย, เยอรมัน, กรีก, คุชราตี, คุรุมุขี, ฮีบรู, ฮินดี, ฮังการี, ไอซ์แลนด์, ไอริช, อิตาลี, ญี่ปุ่น, กัณณาท, คาซัคสถาน, เขมร, คีร์กีซสถาน, เกาหลี, เคิร์ด (ผัง F), เคิร์ด (ผัง Q), ลาว, ละตินอเมริกัน, ลัตเวีย, ลิทัวเนีย, มาซิโดเนีย, มลยาฬัม, เนปาล, ซามิเหนือ, นอร์เวย์, เปอร์เซีย, ฟิลิปปินส์, โปแลนด์, โปรตุเกส, ปัญจาบี, โรมาเนีย, รัสเซีย, เซอร์เบีย (ซีริลลิก), สินธี, สิงหล, สโลวัก, สโลวีเนีย, สเปน, สวีเดน, ฝรั่งเศสสวิส, เยอรมันสวิส, ทาจิกิสถาน, ทมิฬ, เตลุคู, ไทย, ทิเบต, ตุรกี (ผัง F), ตุรกี (ผัง Q), ยูเครน, อุยกูร์, เวียดนาม
+Description-th.UTF-8: ผังแป้นพิมพ์ที่จะใช้:
+Choices-tl.UTF-8: Ingles ng Amerikano, Albanian, Arabic, Asturian, Bangladesh, Belarusian, Bengali, Belgian, Bosnian, Brazilian, Ingles ng Britanya, Bulgarian, Bulgarian (phonetic layout), Burmese, Canadian French, Canadian na multilingual, Catalan, Chinese, Croatian, Czech, Danish, Dutch, Dvorak, Dzongkha, Esperanto, Estonian, Ethiopian, Finnish, French, Georgian, Aleman, Griyego, Gujarati, Gurmukhi, Hebreo, Hindi, Hungarian, Icelandic, Irish, Italyano, Hapones, Kannada, Kazakh, Khmer, Kirghiz, Korean, Kurdish (F layout), Kurdish (Q layout), Lao, Latin American, Latvian, Lithuanian, Macedonian, Malayalam, Nepali, Northern Sami, Norwegian, Persian, Philippines, Polish, Portuges, Punjabi, Romanian, Ruso, Serbian (Cyrillic), Sindhi, Sinhala, Slovak, Slovenian, Espanyol, Swedish, Swiss French, Swiss German, Tajik, Tamil, Telugu, Thai, Tibetan, Turkish (F layout), Turkish (Q layout), Ukrainian, Uyghur, Vietnamese
+Description-tl.UTF-8: Anyo ng tiklado na gamitin:
+Choices-tr.UTF-8: Amerikan İngilizcesi, Arnavutça, Arapça, Asturyasça, Bangladeş, Beyaz Rusça, Bengalce, Belçika dili, Boşnakça, Brezilya dili, Britanya İngilizcesi, Bulgarca, Bulgarca (fonetik düzeni), Burmaca, Kanada Fransızcası, Kanada Çokdilli, Katalanca, Çince, Hırvatça, Çekçe, Danimarka dili, Flâmanca, Dvorak, Dzongkha (Butan), Esperanto, Estonya dili, Etiyopya, Fince, Fransızca, Gürcüce, Almanca, Yunanca, Gujarati (Hindistan), Gurmukhi, İbranice, Hindu, Macarca, İzlanda dili, İrlandaca, İtalyanca, Japonca, Kannada, Kazak Dili, Kmer dili, Kırgızca, Korece, Kürtçe (F düzeni), Kürtçe (Q düzeni), Laos Dili, Latin Amerikan, Litvanya dili, Letonya dili, Makedonca, Malayalam, Nepal, Kuzey Sami, Norveççe, Persce, Filipinler, Lehçe, Portekizce, Punjabi, Romanca, Rusça, Sırpça (Kiril alfabesi), Sintçe, Sinhala, Slovakça, Slovence, İspanyolca, İsveççe, İsviçre Fransızcası, İsviçre Almancası, Tacik, Tamil, Telugu, Tayca, Tibet, Türkçe (F düzeni), Türkçe (Q düzeni), Ukrayna dili, Uygurca, Vietnamca
+Description-tr.UTF-8: Kullanılacak klavye düzeni:
+Choices-ug.UTF-8: ئامېرىكا ئىنگلىزچە, ئالبانچە, ئەرەبچە, ئاستۇرىيەچە, باڭلادىش, بېلارۇسچە, بېنگالچە, بىلگىيەچە, بوسنىيەچە, بىرازىلىيەچە, ئەنگلىيە ئىنگلىزچە, بۇلغارچە, بۇلغارچە (فونېتىكىلىق جايلاشتۇرۇش), Burmese, كانادا فىرانسۇزچە, كانادا كۆپ تىل, كاتالانچە, خەنزۇچە, خورۋاتچە, چېخچە, دانىشچە, گوللاندىيەچە, Dvorak, بۇتانچە, ئېسپېرانتو (دۇنيا تىلى), ئېستونچە, ئېفىيوپىيەچە, فىنچە, فىرانسۇزچە, گىرۇزىنچە, گېرمانچە, گىرېكچە, گۇجاراتچە, گۇرمۇكىچە, ئىبرانىچە, ھىندىچە, ماجارچە, ئىسلاندچە, ئىرېلاندچە, ئىتاليانچە, ياپونچە, كانناداچە, قازاقچە, كېخمېرچە, قىرغىزچە, كورېيەچە, كۇردچە(F جايلاشتۇرۇش), كۇردچە(Q جايلاشتۇرۇش), لائوسچە, لاتىن ئامېرىكا, لاتۋىيەچە, لىتۋاچە, ماكېدونچە, مالايالامچە, نېپالچە, شىمالىي سامىچە, نورۋېگچە, پارىسچە, Philippines, پولەكچە, پورتۇگالچە, پەنجابچە, رۇمىنىيەچە, رۇسچە, سېربچە (سلاۋىيان), سىندىچە, سىنگالچە, سلوۋاكچە, سلوۋىنچە, ئىسپانچە, شۋېدچە, شىۋېتسىيە فىرانسۇزچە, شىۋېتسىيە  گېرمانچە, تاجىكچە, تامىلچە, تېلۇگۇچە, تايلاندچە, تىبەتچە, تۈركچە (F جايلاشتۇرۇش), تۈركچە (Q جايلاشتۇرۇش), ئۇكرائىنچە, ئۇيغۇرچە, ۋىيېتنامچە
+Description-ug.UTF-8: ئىشلىتىدىغان ھەرپتاختا خەرىتىسى:
+Choices-uk.UTF-8: Американська англійська, Албанська, Арабська, Астурійська, Бангладеш, Білоруська, Бенгальська, Бельгійська, Боснійська, Бразильська, Британська англійська, Болгарська, Болгарська (розкладка phonetic), Бурмезька, Канадська французька, Канадська багатомовна, Каталонська, Китайська, Хорватська, Чеська, Датська, Нідерландська, Дворак, Дзонг-ке, Есперанто, Естонська, Ефіопська, Фінська, Французька, Грузинська, Німецька, Грецька, Гуджараті, Гурмукі, Ізраїльська, Хінді, Угорська, Ісландська, Ірландська, Італійська, Японська, Каннада, Казахська, Кхмерська, Киргизька, Корейська, Курдська (розкладка F), Курдська (розкладка Q), Лаоська, Латиноамериканська, Латвійська, Литовська, Македонська, Малаялам, Непальська, Північносаамська, Норвезька, Перська, Філіппінська, Польська, Португальська, Пенджабська, Румунська, Російська, Сербська (кирилична), Сіндхі, Сингальська, Словацька, Словенська, Іспанська, Шведська, Швейцарська французька, Швейцарська німецька, Таджицька, Тамільська, Телугу, Тайська, Тибетська, Турецька (розкладка F), Турецька (розкладка Q), Українська, Уйгурська, В'єтнамська
+Description-uk.UTF-8: Розкладка клавіатури:
+Choices-vi.UTF-8: Anh Mỹ, Tiếng An-ba-ni, Tiếng A Rập, Asturian, Bang-la-đesợ, Be-la-ru-xợ, Tiếng Băng Gan, Bỉ, Tiếng Bô-xni-a, Bra-xin, Anh Quốc Anh, Bảo Gia Lơi, Bảo Gia Lơi (bố trí phonetic), Miến Điện, Pháp Ca-na-đa, Ca-na-đa đa ngôn ngữ, Catalan, Tiếng Trung Quốc, Cợ-rô-a-ti-a, Séc, Dan Mạch, Hoà Lan, Dvorak, Tiếng Đ-xong-kha, Tiếng E-x-pê-ran-tô, E-x-tô-ni-a, Ê-ti-ô-pi, Phần Lan, Pháp, Tiếng Gi-oa-gi-a, Đức, Hy Lạp, Tiếng Gu-gia-ra-ti, Gổ-mu-khi, Do Thái, Tiếng Hin-đi, Hung-ga-ri, Băng Đảo, Tiếng Ái Nhĩ Lan, Ý, Nhật, Tiếng Kan-na-đa, Tiếng Ca-xakh, Khơ-me, Tiếng Kit-ki-dơ, Tiếng Hàn, Tiếng Kurd (bố trí F), Tiếng Kurd (bố trí Q), Tiếng Lào, Châu Mỹ Latinh, Lát-vi-a, Li-tu-a-ni, Ma-xê-đô-ni, Tiếng Ma-lay-am, Tiếng Nê-pan, Bắc Sami, Na Uy, Tiếng Ba Tư, Phi-líp-pin, Ba Lan, Bồ Đào Nha, Pun-gia-bi, Rô-ma-ni, Nga, Séc-bi (kir-in), Sindhi, Sinhala, Xlô-vác, Xlô-ve-nia, Tây Ban Nha, Thuỵ-điển, Pháp Thuỵ Sĩ, Đức Thuỵ Sĩ, Tajik, Tiếng Ta-min, Tiếng Te-lu-gu, Thái, Tiếng Ti-bê, Thổ Nhĩ Kỳ (bố trí F), Thổ Nhĩ Kỳ (bố trí Q), U-cợ-rainh, Uyghur, Tiếng Việt
+Description-vi.UTF-8: Bàn phím cần dùng:
+Choices-zh_CN.UTF-8: 美国英语, 阿尔巴尼亚语, 阿拉伯语, 阿斯图利亚斯语, 孟加拉语, 白俄罗斯语, 孟加拉语, 比利时语-拉丁1, 波斯尼亚语, 巴西, 英国英语, 保加利亚语, 保加利亚语 (phonetic 布局), Burmese, 加拿大法语, 加拿大-多語言, 加泰罗尼亚语, 汉语, 克罗地亚语, 捷克语, 丹麦语, 荷兰语, 多冉柯键盘(Dvorak), 不丹语, 世界语, 爱沙尼亚语, 埃塞俄比亚语, 芬兰语, 法语, 格鲁吉亚语, 德语, 希腊语, 古吉拉特语, 果鲁穆奇语, 希伯来语, 印地语, 匈牙利语, 冰岛语, 爱尔兰语, 意大利语, 日语, 卡纳达语, 哈萨克语, 高棉语, 吉尔吉斯语, 朝鲜语, 库尔德语(F 布局), 库尔德语(Q 布局), 老挝语, 拉丁美洲语, 拉脱维亚语, 立陶宛语, 马其顿语, 马拉雅拉姆语, 尼泊尔语, 北萨马语, 挪威语, 波斯语, Philippines, 波兰语, 葡萄牙语, 旁遮普语, 罗马尼亚语, 俄语, 塞尔维亚语-西里尔字母, 辛达语, 僧伽罗语, 斯洛伐克语, 斯洛文尼亚语, 西班牙语, 瑞典语, 瑞士法语, 瑞士德语, 塔吉克语, 泰米尔语, 泰卢固语, 泰语, 藏语, 土耳其语(F 布局), 土耳其语(Q 布局), 乌克兰语, 维吾尔语, 越南语
+Description-zh_CN.UTF-8: 请选择键盘映射：
+Choices-zh_TW.UTF-8: 美語, 阿爾巴尼亞語, 阿拉伯語, 阿斯圖里亞斯語, 孟加拉, 白俄羅斯語, 孟加拉語, 比利時語, 波士尼亞語, 巴西語, 英語, 保加利亞語, 保加利亞語 (拼音排列), Burmese, 加拿大法語, 加拿大多語系, 加泰隆尼亞語, 漢語, 克羅埃西亞語, 捷克語, 丹麥語, 荷蘭語, Dvorak 式, 宗卡語 (不丹), 世界語, 愛沙尼亞語, 衣索比亞語, 芬蘭語, 法語, 喬治亞語, 德語, 希臘語, 古吉拉特語, 果魯穆其文, 希伯來語, 印地語 (北印度), 匈牙利語, 冰島語, 愛爾蘭語, 義大利語, 日語, 卡納達語 (西南印度), 哈薩克語, 高棉, 吉爾吉斯語, 韓語, 庫德語 (F 佈局), 庫德語 (Q 佈局), 老撾語, 拉丁美洲語, 拉脫維亞語 拉丁(4), 立陶宛語, 馬其頓語, 馬來亞拉姆語, 尼泊爾語, 北方薩米語, 挪威語, 波斯語, Philippines, 波蘭語, 葡萄牙語, 旁遮普語, 羅馬尼亞語, 俄羅斯語, 塞爾維亞語 (斯拉夫), 信德語, 僧伽羅語, 斯洛伐克語, 斯洛維尼亞語, 西班牙語, 瑞典語, 瑞士法語, 瑞士德語, 塔吉克語, 坦米爾語, 特拉古語, 泰語, 藏語, 土耳其語 (F 佈局), 土耳其語 (Q 佈局), 烏克蘭語, 維吾爾語, 越南語
+Description-zh_TW.UTF-8: 要使用的鍵盤對應:
+
+Name: lilo-installer/activate-part
+Type: boolean
+Default: true
+Description: Would you like to make this partition active?
+Extended_description: You have chosen to install LILO on a partition that is not the active one. If this partition is not marked active, then LILO will not be loaded by the boot loader. This may cause you to be unable to boot into the system that is being installed.\n\nYou should make this partition active unless you have another boot loader that will allow you to access your new Linux installation.
+Description-ar.UTF-8: هل تريد جعل هذا الجزء نشطاً؟
+Extended_description-ar.UTF-8: لقد اخترت تثبيت LILO على جزء غير نشط. إن لم يحدّد الجزء كنشط، فلن يتمكن مُحمّل الإقلاع من تحميل LILO. وقد يتسبب هذا بعدم قدرتك على إقلاع النظام الذي تقوم بتثبيته.\n\nعليك أن تجعل هذا الجزء نشطاً إلا إن كان لديك محمّل إقلاعٍ آخر يسمح لك بالوصول إلى تثبيت لينكس الجديد.
+Description-ast.UTF-8: ¿Quies facer esta partición l'activa?
+Extended_description-ast.UTF-8: Escoyiste instalar LILO nuna partición que nun ye l'activa. Si la partición nun ye marcada cómo activa, entos LILO nun podrá cargase nel cargador d'arranque. Esto puede causar que nun puedas arrancar el sistema una vez instaláu.\n\nDebieres facer esta partición activa, a menos que tengas otru cargador d'arranque que te dexe acceder a la to nueva instalación de Linux.
+Description-be.UTF-8: Жадаеце зрабіць гэты падзел актыўным?
+Extended_description-be.UTF-8: Для ўсталявання LILO быў выбраны падзел, які не з'яўляецца актыўным. Да таго часу, пакуль ён не будзе пазначаны як актыўны, загрузчык не здолее запускаць LILO. У выніку Вы не зможаце запусціць Вашую новую сістэму.\n\nВам трэба зрабіць гэты падзел актыўным. Выключэннем з'яўляецца выпадак, калі Вы маеце іншы загрузчык, які дазваляе Вам працаваць з Linux.
+Description-bg.UTF-8: Искате ли да направите този дял активен?
+Extended_description-bg.UTF-8: Избрали сте да инсталирате LILO върху дял, който не е активен. Ако този дял не е отбелязан като активен, LILO няма да може да бъде зареден като програма за начално зареждане. Това може да предизвика неспособност за начално зареждане на системата, която се инсталира.\n\nТрябва да отбележите този дял като активен, освен ако имате друга програма за начално зареждане, която ще ви позволи да зареждате Вашата нова инсталация на Linux.
+Description-bn.UTF-8: আপনি কি এই পার্টিশনকে সক্রিয় হিসেবে চিহ্নিত করতে চান?
+Extended_description-bn.UTF-8: আপনি LILO ইনস্টল করার জন্য এমন একটি পার্টিশন বেছে নিয়েছেন যা সক্রিয় নয়। এই পার্টিশনকে সক্রিয় হিসেবে চিহ্নিত করা না হলে বুট লোডার LILO'কে লোড করবে না। এর ফলে যে সিস্টেমকে এখন ইনস্টল করছেন, তাকে হয়তো আর বুট করতে পারবেন না।\n\nআপনার উচিত্‍ এই পার্টিশনকে সক্রিয় হিসেবে চিহ্নিত করা। তবে নতুন এই লিনাক্স সিস্টেমকে বুট করার জন্য যদি অন্য কোন বুট লোডার থাকে, তবে এটির প্রয়োজন নেই।
+Description-bs.UTF-8: Da li želite da učinite ovu particiju aktivnom?
+Extended_description-bs.UTF-8: Odabrali ste da instalirate LILO na particiju koja nije aktivna. Ako ova particija nije označena kao aktivna, tada LILO neće biti učitan od strane boot loadera.  Ovo može prouzrokovati da ne budete u stanju podići sistem koji se instalira.\n\nVi bi ste trebali učiniti ovu particiju aktivnom ukoliko nemate drugi boot loader koji će vam omogućiti da pristupite vašoj novoj instalaciji Linuxa.
+Description-ca.UTF-8: Voleu activar aquesta partició?
+Extended_description-ca.UTF-8: Heu seleccionat instal·lar LILO en una partició que no és l'activa. Si aquesta partició no és l'activa, el carregador no podrà carregar LILO. Això pot causar que no pugueu arrencar el sistema que s'està instal·lant.\n\nHauríeu d'activar aquesta partició a no ser que tingueu un altre carregador que vos permeta accedir la nova instal·lació de Linux.
+Description-cs.UTF-8: Chcete tuto oblast nastavit jako aktivní?
+Extended_description-cs.UTF-8: Chcete nainstalovat LILO na oblast, která není aktivní. Pokud oblast není aktivní, zavaděč LILO nezavede a tím pádem se nemusíte dostat do instalovaného systému.\n\nPokud nemáte jiný zavaděč, kterým byste se dostali do svého nového systému, měli byste tuto oblast označit jako aktivní.
+Description-cy.UTF-8: A hoffech wneud y rhaniad yma'n weithredol?
+Extended_description-cy.UTF-8: Rydych chi wedi dewis sefydlu LILO ar rhaniad nid yw'r un gweithredol. Os nad yw'r rhaniad wedi ei farcio'n weithredol, yna ni chaiff LILO ei lwytho gan y llwythwr cychwyn. Fe all hyn achosi i chi beidio gallu cychwyn i fewn i'r system sy'n cael ei sefydlu.\n\nFe ddylwch wneud y rhaniad yma yn weithredol os nad oes llwythwr cychwyn arall gennych a fydd yn eich galluogi chi i gyrchu eich sefydliad Linux newydd.
+Description-da.UTF-8: Vil du have denne partition gjort aktiv?
+Extended_description-da.UTF-8: Du har valgt at installere LILO på en partition, der ikke er den aktive. Hvis denne partition ikke bliver markeret aktiv, vil LILO ikke blive indlæst. Det kan gøre dig ude af stand til at starte det system op, som er ved at blive installeret.\n\nDu bør gøre denne partition aktiv medmindre du har en anden opstartsindlæser, som gør dig i stand til at bruge din nye Linux-installation.
+Description-de.UTF-8: Soll diese Partition als aktiv markiert werden?
+Extended_description-de.UTF-8: Sie haben sich dafür entschieden, LILO in eine Partition zu installieren, die nicht die aktive ist. Wenn diese Partition nicht als aktiv markiert wird, wird LILO nicht vom Bootloader geladen werden können. Dies kann dazu führen, dass das gerade installierte System nicht gestartet werden kann.\n\nSie sollten diese Partition als aktiv markieren, wenn Sie keinen anderen Bootloader haben, der Ihnen Zugriff auf Ihre neue Linux-Installation erlaubt.
+Description-dz.UTF-8: ཁྱོད་འ་ནི་བར་བཅད་འདི་ཤུགས་ལྡན་བཟོ་ནི་ཨིན་ན?
+Extended_description-dz.UTF-8: བར་བཅད་ཤུགས་ལྡན་མེན་མི་གཅིག་ལུ་ཁྱོད་ཀྱིས་ལི་ལོ་གཞི་བཙུགས་ནི་ལུ་གདམ་ཁ་རྐྱབས་ནུག། འ་ནི་བར་བཅད་འདི་ཤུགས་ལྡན་གྱི་རྟགས་བཀལ་འདི་མེད་པ་ཅིན་ བུཊི་མངོན་གསལ་པ་འདི་གིས་ལི་ལོ་འདི་མངོན་གསལ་འབད་མི་བཏུབ། འདི་གིས་ཁྱོད་ལུ་གཞི་བཙུགས་འབད་ཡོད་པའི་རིམ་ལུགས་ནང་ལུ་བུཊི་འབད་མི་བཏུབ་ནི་ལུ་རྒྱུ་རྐྱེན་འབད་འོང་།\n\nཁྱོད་ཀྱི་ལའི་ནགསི་གཞི་བཙུགས་གསརཔ་འཛུལ་སྤྱོད་འབད་བཅུག་མི་བུཊི་མངོན་གསལ་པ་གཞན་ཁྱོད་ལུ་མེདཔ་ཚུན་ཚད་ལུ་ཁྱོད་ཀྱིས་འ་ནི་བར་བཅད་འདི་ཤུགས་ལྡན་བཟོ་དགོ།
+Description-el.UTF-8: Θα θέλατε να ενεργοποιήσετε αυτή την κατάτμηση;
+Extended_description-el.UTF-8: Επιλέξατε να εγκαταστήσετε το LILO σε μια κατάτμηση που δεν είναι ενεργή. Αν η κατάτμηση δεν έχει καταστεί ενεργή, δε θα είναι δυνατή η φόρτωση του LILO από το φορτωτή εκκίνησης. Αυτό πιθανόν να καταστήσει αδύνατη την εκκίνηση του συστήματος που εγκαθίσταται.\n\nΘα πρέπει να ενεργοποιήσετε την συγκεκριμένη κατάτμηση, εκτός αν χρησιμοποιείτε κάποιο άλλο φορτωτή εκκίνησης που θα σας επιτρέψει την πρόσβαση στην καινούρια σας εγκατάσταση Linux.
+Description-eo.UTF-8: Ĉu vi volas aktivigi ĉi tiun diskparton?
+Extended_description-eo.UTF-8: Vi elektis instali LILO-n sur diskparto kiu ne estas nuntempe la aktiva diskparto. Se tiu diskparto ne estos indikita kiel aktivan, tiam la ekŝargilo ne ŝargos je LILO. Tio malebligos ekŝargi je tiu ĉi instalata sistemo.\n\nVi devas aktivigi tiun diskparton, krom se vi havas alian ekŝargilon kiu permesos vin eniri en vian ĵus instalitan Linukson.
+Description-es.UTF-8: ¿Le gustaría marcar esta partición como activa?
+Extended_description-es.UTF-8: Ha elegido instalar LILO en una partición que no es la activa. Si esta partición no está marcada como activa, el cargador de arranque no podrá cargar LILO, por lo que puede que el sistema que se está instalando no arranque.\n\nAsegúrese de marcar esta partición como activa, a menos que tenga otro cargador de arranque que le permita acceder a la nueva instalación de Linux.
+Description-et.UTF-8: Kas soovid selle partitsiooni aktiivseks teha?
+Extended_description-et.UTF-8: Oled valinud LILO installeerimise mitteaktiivsele partitsiooonile. Kui seda partitsiooni aktiivseks ei märgida, ei hakka alglaadur LILO't laadima. Selle tulemusena võib juhtuda, et sa ei saa paigaldatud süsteemi alglaadida.\n\nPeaksid selle partitsiooni aktiivseks tegema, välja arvatud juhul, kui sul on kasutusel mõni teine alglaadur, mis tagab ligipääsu su uuele Linuxi paigaldusele.
+Description-eu.UTF-8: Partizio hau aktibo jarri nahi duzu?
+Extended_description-eu.UTF-8: LILO aktibo ez dagoen partizio batean instalatzea aukeratu duzu. Partizio hau aktibo ez badago, abioko kargatzaileak ez du LILO kargatuko. Ondorioz, baliteke instalatzen ari zaren sistema ezin abiarazi izatea.\n\nPartizio hori aktibatu beharko zenuke, Linux-en instalazio berria atzitzen uzten dizun beste abioko kargatzaile bat ez baduzu behintzat.
+Description-fa.UTF-8: آیا می‌خواهید که این پارتیشن را فعال کنید ؟
+Extended_description-fa.UTF-8: شما انتخاب کردید که LILO را بر یک پارتیشن که فعال نیست ، نصب کنید. اگر این پارتیشن فعال نشود . LILO توسط بوت لودر لود نخواهد شد . که در این صورت ممکن است شما نتوانید سیستمی که در نصب شده است را راه‌اندازی کنید .\n\nشما باید این پارتیشن را فعال کنید در غیر اینصورت شما بوت لودر دیگری دارید که به شما اجازه خواهد داد که به نصب لینوکس جدید دسترسی داشته باشید.
+Description-fi.UTF-8: Haluatko asettaa tämän osion aktiiviseksi?
+Extended_description-fi.UTF-8: Valitsit LILOn asennettavaksi osiolle, joka ei ole aktiivinen. Jos tätä osiota ei ole merkitty aktiiviseksi, käynnistyslatain ei lataa LILO:a. Tällöin asennettavaa järjestelmää ei ehkä voi käynnistää.\n\nTämä osio pitäisi merkitä aktiiviseksi ellet käytä jotain muuta alkulatausohjelmaa, joka päästää sinut uuteen Linux-asennukseesi.
+Description-fr.UTF-8: Souhaitez-vous rendre cette partition active ?
+Extended_description-fr.UTF-8: Vous avez choisi d'installer lilo sur une partition qui n'est pas la partition actuellement active. Si cette partition n'est pas marquée comme étant active, le gestionnaire d'amorçage ne chargera pas lilo. Cela risque de vous empêcher de démarrer sur le système que vous êtes en train d'installer.\n\nVous devriez activer cette partition, à moins que vous n'utilisiez un autre gestionnaire d'amorçage qui vous permettra d'accéder à la nouvelle installation de Linux.
+Description-ga.UTF-8: An bhfil fonn ort an deighilt seo a ghníomhachtú?
+Extended_description-ga.UTF-8: Tá tú ag iarraidh LILO a shuiteáil ar dheighilt nach bhfuil gníomhach. Mura bhfuil an deighilt seo gníomhach, ní luchtóidh an luchtóir tosaithe LILO. Sa chás seo, seans nach mbeidh tú in ann an córas atá á shuiteáil a thosú.\n\nBa chóir duit an deighilt a ghníomhachtú mura bhfuil luchtóir tosaithe eile agat lenar féidir do chóras nua Linux a rochtain.
+Description-gl.UTF-8: Desexa activar esta partición?
+Extended_description-gl.UTF-8: Escolleu instalar LILO nunha partición que non é a activa. Se esa partición non se marca como activa, o cargador de arranque non ha arrincar LILO, o que pode facer que non poida iniciar o sistema que se está a instalar.\n\nDebería activar esta partición a menos que xa teña outro cargador de arranque que lle permita acceder á nova instalación de Linux.
+Description-gu.UTF-8: તમે આ પાર્ટિશનને સક્રિય બનાવવાનું પસંદ કરશો?
+Extended_description-gu.UTF-8: તમે સક્રિય ન હોય તેવા પાર્ટિશન પર LILO નું સ્થાપન કરવાનું પસંદ કર્યું છે. જો પાર્ટિશનને તમે સક્રિય ન બનાવ્યું હશે તો, LILO મૂળભુત બૂટ લોડર તરી કે આવશે નહીં.  આ કદાચ તમને નવી સિસ્ટમ જે સ્થાપિત થઇ રહી છે તેમાં દાખલ થવાનું અશક્ય બનાવી દેશે.\n\nતમારે આ પાર્ટિશન સક્રિય રાખવું જોઇએ ત્યાં સુધી કે તમારી પાસે બીજું બૂટ લોડર જે તમને તમારા નવા લિનક્સ સ્થાપનનો ઉપયોગ કરવા દેશે.
+Description-he.UTF-8: האם ברצונך להגדיר את המחיצה הזאת כפעילה?
+Extended_description-he.UTF-8: בחרת להתקין את LILO על מחיצה שאינה פעילה. אם המחיצה איננה מסומנת כפעילה, LILO לא יוכל להיות מופעל על ידי מנהל האתחול. כתוצאה מכך יתכן שלא יהיה ניתן לאתחל לתוך המערכת שכרגע מותקנת.\n\nיש צרוך בהפיכת המחיצה לפעילה, אלא אם יש מנהל אתחול אחר שייתן לך גישה למערכת הלינוקס שלך.
+Description-hi.UTF-8: क्या आप इस पार्टिशन को सक्रिय करना चाहेंगे?
+Extended_description-hi.UTF-8: आपने लिलो को एक ऐसे पार्टिश में संस्थापित करने का चयन किया है जोकि सक्रिय नहीं है. यदि इस पार्टिशन को सक्रिय नहीं किया जाता है तो बूटलोडर द्वारा लिलो को लोड नहीं किया जाएगा. इससे आपका संस्थापित हो रहा तंत्र बूट होने योग्य नहीं रहेगा.\n\nजब तक कि आपके पास ऐसा कोई और बूटलोडर नहीं है जो आपको आपके नये लिनक्स संस्थापन तक पहुँचने दे, आपको इस पार्टिशन को सक्रिय बनाना ही चाहिए.
+Description-hr.UTF-8: Želite li ovu particiju učiniti aktivnom?
+Extended_description-hr.UTF-8: Izabrali ste instalirati LILO na particiju koja nije aktivna. Ako je ne označite kao aktivnu, LILO neće biti učitan od strane boot učitavača i nećete moći podići sustav koji ste instalirali.\n\nTrebali biste ovu particiju označiti aktivnom, osim ako imate drugi boot učitavač pomoću kojeg ćete pristupiti svojoj novoj Linux instalaciji.
+Description-hu.UTF-8: Aktiválod ezt a partíciót?
+Extended_description-hu.UTF-8: A LILO telepítése egy nem aktív partícióra történne. Ha e partíció nem visel magán aktív megjelölést, akkor a rendszerbetöltő nem fogja betölteni a LILO-t. Emiatt a telepített rendszer talán nem lesz indítható.\n\nÉrdemes a partíciót aktívnak jelölni, hacsak egy másik rendszerbetöltő nem gondoskodik egyéb módon az új linuxos partíció elérhetőségéről.
+Description-id.UTF-8: Anda ingin membuat partisi ini aktif?
+Extended_description-id.UTF-8: Anda telah memilih untuk memasang LILO pada partisi yang tidak aktif. Jika partisi ini tidak diaktifkan, maka LILO tidak dapat dimuat oleh boot loader. Ini dapat menyebabkan Anda tidak bisa melakukan booting sistem yang sedang dipasang.\n\nAnda seharusnya membuat partisi ini aktif kecuali bila Anda mempunyai boot loader lain yang membolehkan Anda mengakses instalasi Linux Anda yang baru.
+Description-is.UTF-8: Vilt þú virkja þessa disksneið?
+Extended_description-is.UTF-8: Þú hefur valið að setja LILO upp á disksneið sem er ekki virk. Ef þessi sneið er ekki virkjuð þá mun ræsistjórinn ekki ræsa LILO. Þetta gæti valdið því að þú getir ekki ræst stýrikerfið sem þú ert að setja upp.\n\nÞú ættir að gera þessa sneið virka, nema þú hafir annan ræsistjóra sem gerir þér kleift að nálgast nýju linux uppsetninguna þína.
+Description-it.UTF-8: Rendere attiva questa partizione?
+Extended_description-it.UTF-8: È stato scelto di installare LILO su una partizione che non è attiva. Se questa partizione non viene segnata come attiva, LILO non sarà caricato dal boot loader. Questo può rendere non avviabile il sistema che si sta installando.\n\nSi dovrebbe rendere attiva questa partizione a meno che non sia presente un altro boot loader che consenta di accedere alla nuova installazione di Linux.
+Description-ja.UTF-8: このパーティションをアクティブにしますか?
+Extended_description-ja.UTF-8: アクティブになっていないパーティションに LILO をインストールすることを選んでいます。パーティションにアクティブのマークが付いていない場合、LILO はブートローダからロードされません。つまりインストールしたシステムをブートできないということです。\n\n新しくインストールした Linux にアクセスできるような別のブートローダがない限り、このパーティションをアクティブにすべきです。
+Description-ka.UTF-8: გავხადოთ დანაყოფი აქტიური?
+Extended_description-ka.UTF-8: LILO-ს დასაყენებლად თქვენ მიუთითეთ არააქტიური დანაყოფი. გადატვირთვის შემდეგ LILO ვერ მიიღებს მართვას boot loader-საგან, ამის გამო სისტემა მოსალოდნელია არც ჩაიტვირთოს.\n\nსჯობს ეს დანაყოფი აქტიური გახადოთ, თუ თქვენ რაიმე სხვა ჩამტვირთველის გამოყენებას არ აპირებთ სისტემის ჩასატვირთად.
+Description-kk.UTF-8: Бөлімді активті ретінде белгілегіңіз келеді ме?
+Extended_description-kk.UTF-8: Сіз LILO жүктеушісін активті емес бөлімге орнату таңдаңыз. Мұндай жағдайда LILO іске қосыла алмайды және осының салдарынан сіздің жүйеңіз жүктелмеуі мүмкін.\n\nLinux жүйеңізді жегу үшін басқа жүктеуші пайдалаланбасаңыз, бөлімді активті ретінде белгілеген жөн.
+Description-km.UTF-8: តើ​អ្នក​ចង់​ធ្វើ​ឲ្យ​ភាគថាស​នេះ​សកម្ម​ឬ ?
+Extended_description-km.UTF-8: អ្នក​បាន​ជ្រើស​ថា​ត្រូវ​ដំឡើង LILO លើ​ភាគថាស​មួយ​ដែល​មិន​សកម្ម ។ បើ​មិន​សម្គាល់​ភាគថាស​នេះ​ថា​សកម្ម នោះ​កម្មវិធី​ចាប់ផ្ដើម​ប្រព័ន្ធ​នឹង​មិន​អាច​ចាប់ផ្ដើម LILO បាន​ឡើយ ។ វា​អាច​បណ្ដាល​ឲ្យ​អ្នក​មិន​អាច​ចាប់ផ្ដើម​ប្រព័ន្ធ ដែល​អ្នក​ប្រុង​នឹង​ដំឡើង​បាន​ឡើយ ។\n\nលុះត្រា​តែ​អ្នក​មាន​កម្មវិធី​ចាប់ផ្ដើម​ប្រព័ន្ធ​មួយ​ទៀត ដែល​នឹង​អនុញ្ញាត​ឲ្យ​អ្នក​ចូលដំណើរការ​ការ​ដំឡើង​លីនុច​ថ្មី​របស់​អ្នក បើ​មិន​អញ្ចឹង​ទេ អ្នក​គួរ​តែ​ធ្វើ​ឲ្យ​ភាគថាស​នេះ​សកម្ម ។
+Description-kn.UTF-8: ನೀವು ಈ ವಿಭಜನೆಯನ್ನು ಕಾರ್ಯಗತಗೊಲಳಿಸಲು ಇಚ್ಚಿಸುತ್ತೀರ?
+Extended_description-kn.UTF-8: ನೀವು ಕಾರ್ಯಗತಗೊಂಡಿರದ ವಿಭಜನೆಯಲ್ಲಿ ಲಿಲೊ ಅನ್ನು ಅನುಷ್ಠಾಪಿಸಲು ಹೊರಟಿದ್ದೀರಿ. ನೀವು ಈ ವಿಭಜನೆಯನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸದೆ ಇದ್ದಲ್ಲಿ ಲಿಲೊ ಬೂಟ್ಆಗುವುದಿಲ್ಲ.ಇದರಿಂದ ಗಣಕವನ್ನು ಬೂಟ್ ಮಾಡಲು ತೊಂದರೆಯಾಗಬಹುದು\n\nನಿಮ್ಮಲ್ಲಿ ಬೇರೆ ಬೂಟ್ ನಿರ್ವಹಕ ಇಲ್ಲದೆ ಈ ವಿಭಜನೆಯನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸದ್ದಿದ್ದಲ್ಲಿ ,ನಿಮ್ಮ ಹೊಸ ಲಿನಕ್ಸ್ ಗೆ ಬೂಟ್ ಆಗಲು ಸಾದ್ಯವಿಲ್ಲ
+Description-ko.UTF-8: 이 파티션을 액티브로 만드시겠습니까?
+Extended_description-ko.UTF-8: 액티브 파티션이 아닌 파티션에 LILO를 설치하도록 했습니다. 액티브 파티션이 아니면, 부트로더에서 LILO를 읽어들이지 않습니다. 이러면 지금 설치한 시스템으로 부팅할 수 없게 됩니다.\n\n새로 설치한 리눅스로 부팅할 수 있게 해 주는 다른 부트로더가 없다면, 이 파티션을 액티브로 만들어야 합니다.
+Description-ku.UTF-8: Tu dixwazî vê partîsiyonê çalak·bike?
+Extended_description-ku.UTF-8: Tu dixwazî LILO li beşeke ku ne çalak e saz bike. Heke ev beş neyê çalakkirin wê LILO neyê sazkirin. Ev rewş, dibe ku bibe sedema venebûna pergala te ya niha tê sazkirin.\n\nPêwiste tu vî beşî çalak bikî an jî pêwiste barkereke din ê xebitandinê hebe da tu bikaribî sepandina nû ya linuxê daxînî.
+Description-lo.UTF-8: ຕ້ອງການກຳນົດໃຫ້ພາທີຊັນນີ້ແອັກທີບ ຫຼື ບໍ່ ?
+Extended_description-lo.UTF-8:  ເຈົ້າໄດ້ເລືອກຕິດຕັ້ງ LILO ລົງໃນພາທີຊັນທີ່ບໍ່ແອັກຖີບ ຖ້າພາທີ່ຊັນບໍ່ຖຶກກຳນົດໃຫ້ແອັກຖີບບຣູດໂຫຼດເດີກໍ່ຈະບໍ່ໂຫຼດ LILO ຊື່ງອາດເຮັດໃຫ້ເຈົ້າບໍ່ສາມາດເຂົ້າລະບົບທີ່ກຳລັງຕິດຕັ້ງນີ້ໄດ້\n\nທ່ານຄວນກຳນົດໃຫ້ພາທີຊັນນີ້ແອັກຖີບ ນອກຈາກວ່າທ່ານມີບຣູດໂຫຼດເດີຕົວອື່ນທີ່ສາມາດເຂົ້າເຖີງລີນຸກທີ່ຕິດຕັ້ງໃໝ່ນີ້ໄດ້
+Description-lt.UTF-8: Ar norite padaryti šį skirsnį (partition) aktyviu?
+Extended_description-lt.UTF-8: Jūs pasirinkote įdiegti LILO į disko skirsnį, kuris nėra aktyvus. Jei šis skirsnis nėra pažymėtas kaip aktyvus, pradinis įkėliklis negalės įkelti LILO.  Tai gali tapti priežastimi, dėl kurios negalėsite įkelti operacinės sistemos, kurią diegiate.\n\nJūs turite padaryti šį skirsnį aktyviu, nebent turite kitą pradinį įkėliklį, kuris leis jums prieiti prie naujai įdiegto Linux'o.
+Description-lv.UTF-8: Vai vēlaties padarīt šo nodalījumu aktīvu?
+Extended_description-lv.UTF-8: Jūs izvēlējāties instalēt LILO neaktīvā nodalījumā. Ja šis nodalījums netiks aktivizēts, LILO netiks ielādēta. Tas var izraisīt nespēju palaist jūsu jauno sistēmu.\n\nJums vajadzētu padarīt šo nodalījumu aktīvu, ja vien jūs neplānojat izmantot kādu citu palaidēju, kas spētu ielādēt jūsu jauno Linux sistēmu.
+Description-mk.UTF-8: Дали сакаш да ја направиш оваа партиција активна?
+Extended_description-mk.UTF-8: Одбра да го инсталираш LILO  на партиција која не е активна. Ако оваа партиција не се означи како активна, тогаш LILO нема да биде вчитан како бут вчитувач. Поради ова можеби нема да можеш да го бутираш системот кој се инсталира.\n\nТреба да ја направиш оваа партиција активна, освен ако немаш друг бут вчитувач кој ќе ти овозможи да и пристапиш на твојата нова Linux партиција.
+Description-ml.UTF-8: നിങ്ങള്‍ ഈ ഭാഗം സജീവമാക്കാനാഗ്രഹിക്കുന്നുണ്ടോ?
+Extended_description-ml.UTF-8: നിങ്ങള്‍ സജീവമല്ലാത്ത ഒരു ഭാഗത്തു് ലിലോ ഇന്‍സ്റ്റോള്‍ ചെയ്യാന്‍ തെരഞ്ഞെടുത്തിരിക്കുന്നു. ഈ ഭാഗം സജീവമായി അടയാളപ്പെടുത്തിയില്ലെങ്കില്‍ ബൂട്ട് ലോഡര്‍ ലിലോയെ ചേര്‍ക്കുകയില്ല. ഇതു് ഇന്‍സ്റ്റോള്‍ ചെയ്തുകൊണ്ടിരിക്കുന്ന സിസ്റ്റത്തിലേക്ക് ബൂട്ട് ചെയ്യുന്നതിനു് പറ്റാതാക്കാന്‍ കാരണമായേക്കാം.\n\nനിങ്ങളുടെ പുതിയ ഗ്നു/ലിനക്സ് ഇന്‍സ്റ്റലേഷനെ സമീപിക്കാന്‍ നിങ്ങളെ അനുവദിക്കുന്ന മറ്റൊരു ബൂട്ട് ലോഡര്‍ നിങ്ങള്‍ക്കില്ല എങ്കില്‍ നിങ്ങള്‍ ഈ ഭാഗം സജീവമാക്കേണ്ടതുണ്ടു്.
+Description-mr.UTF-8: हे विभाजन सक्रीय करणार का?
+Extended_description-mr.UTF-8: आपण लिलो अधिष्ठापित करण्यासाठी निवडलेले विभाजन सक्रीय नाही. हे विभाजन सक्रीय न केल्यास आरंभ सुचक लिलो सुरू करणार नाही. त्यामुळे आपण अधिष्ठापित करत असलेली प्रणाली सुरू होऊ शकणार नाही.\n\nतुमची नवी लिनक्स प्रणाली सुरू करण्यासाठी अन्य आरंभ सुचक अधिष्ठापित केलेला नसल्यास तुम्ही हे विभाजन सक्रीय केले पाहिजे.
+Description-nb.UTF-8: Vil du gjøre denne partisjonen aktiv?
+Extended_description-nb.UTF-8: Du har valgt å installere LILO på en annen partisjon enn den som er aktiv. Hvis denne partisjonen ikke er markert som aktiv, så vil ikke LILO bli lastet inn av oppstartslasteren. Dette kan føre til at du ikke klarer å starte opp det nyinstallerte systemet.\n\nDu bør gjøre denne partisjonen aktiv med mindre du har en annen oppstartslaster som kan starte opp den nye Linux-installasjonen.
+Description-ne.UTF-8: के तपाईँ यो विभाजनलाई सक्रिय पार्न चाहनुहुन्छ?
+Extended_description-ne.UTF-8: तपाईँले LILO स्थापना गर्न रोज्नु भएको विभाजन सक्रिय छैन । यदि यो विभाजनलाई सक्रिय गर्न चिनो गरिएन भने, बुट लोडर द्वारा LILO लोड हुने छैन । यसले तपाईँलाई स्थापना भईरहेको प्रणालीमा बुट गर्न असक्षम गराउनु सक्छ ।\n\nतपाईँ सँग तपाईँको नयाँ लिनक्स स्थापनालाई पहुँच गर्न अनुमति दिने अर्को बुट लोडर नहुदा सम्म यो विभाजनलाई तपाईँले सक्रिय पार्नु पर्दछ ।
+Description-nl.UTF-8: Wilt u deze partitie actief maken?
+Extended_description-nl.UTF-8: U heeft ervoor gekozen LILO te installeren in een andere dan de actieve partitie. Zolang deze partitie niet als actief gemarkeerd is, zal LILO niet geladen worden door de opstartlader. Dit kan tot gevolg hebben dat u het geïnstalleerde systeem niet kunt opstarten.\n\nU kunt deze partitie best actief maken tenzij u een andere opstartlader heeft die u toegang geeft tot uw nieuwe GNU/Linux installatie.
+Description-nn.UTF-8: Vil du gjere denne partisjonen aktiv?
+Extended_description-nn.UTF-8: Du har valt å installere LILO på ein anna partisjon enn han som er aktiv. Viss denne partisjonen ikkje blir merka aktiv, vil LILO ikkje bli lasta av oppstartslastaren. Dette kan føra til at systemet som blir installert ikkje blir starte opp når du slår på maskina.\n\nDu bør gjere denne partisjonen aktiv viss du ikkje har ein anna oppstartslastar som vil la deg starte opp den nye Linux-installasjonen.
+Description-no.UTF-8: Vil du gjøre denne partisjonen aktiv?
+Extended_description-no.UTF-8: Du har valgt å installere LILO på en annen partisjon enn den som er aktiv. Hvis denne partisjonen ikke er markert som aktiv, så vil ikke LILO bli lastet inn av oppstartslasteren. Dette kan føre til at du ikke klarer å starte opp det nyinstallerte systemet.\n\nDu bør gjøre denne partisjonen aktiv med mindre du har en annen oppstartslaster som kan starte opp den nye Linux-installasjonen.
+Description-pa.UTF-8: ਕੀ ਤੁਸੀਂ ਇਸ ਪਾਰਟੀਸ਼ਨ ਨੂੰ ਐਕਟਿਵ ਬਣਾਉਣਾ ਚਾਹੰਦੇ ਹੋ?
+Extended_description-pa.UTF-8: ਤੁਸੀਂ ਐਕਟਿਵ ਭਾਗ ਉੱਤੇ LILO ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਚੁਣਿਆ ਹੈ। ਜੇ ਇਹ ਸਰਗਰਮ ਨਹੀਂ, ਤਾਂ ਬੂਟ ਲੋਡਰ ਰਾਹੀਂ LILO ਲੋਡ ਨਹੀਂ ਹੋਵੇਗਾ। ਇਹ ਤੁਹਾਨੂੰ ਇੰਸਟਾਲ ਕੀਤੇ ਸਿਸਟਮ ਨੂੰ ਬੂਟ ਨਹੀਂ ਕਰਨ ਦੇਵੇਗਾ।\n\nਤੁਹਾਨੂੰ ਇਹ ਭਾਗ ਸਰਗਰਮ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ ਜਦੋਂ ਤੱਕ ਤੁਹਾਡੇ ਕੋਲ ਹੋਰ ਬੂਟਲੋਡਰ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਨਵੀਂ ਲੀਨਕਸ ਇੰਸਟਾਲੇਸ਼ਨ ਵਰਤਣ ਦੀ ਇਜਾਜ਼ਤ ਦੇਵੇਗਾ।
+Description-pl.UTF-8: Czy chcesz ustawić tę partycję jako aktywną?
+Extended_description-pl.UTF-8: Wybrano instalację LILO na nieaktywnej partycji. W przypadku gdy partycja nie jest zaznaczona jako aktywna, LILO nie zostanie załadowane przez program rozruchowy. Może to doprowadzić do braku możliwości uruchomienia systemu, który jest właśnie instalowany.\n\nNależy ustawić tę partycję jako aktywną chyba, że posiadasz inny program rozruchowy, który umożliwi Ci dostęp do nowej instalacji Linuksa.
+Description-pt.UTF-8: Você deseja marcar esta partição como activa?
+Extended_description-pt.UTF-8: Você escolheu instalar o LILO numa partição que não é actualmente a activa. Se esta partição não for marcada como activa, o LILO não será carregado pelo carregador do sistema. Isto pode inviabilizar o arranque do sistema que está a ser instalado.\n\nVocê deve marcar esta partição como activa a menos que tenha outro carregador do sistema que lhe permita aceder à sua nova instalação de Linux.
+Description-pt_BR.UTF-8: Gostaria de tornar esta partição ativa?
+Extended_description-pt_BR.UTF-8: Você optou por instalar o LILO em uma partição que não é uma partição ativa. Caso essa partição não seja marcada como ativa o LILO não será carregado pelo carregador de inicialização. Isso pode fazer com que você não seja mais capaz de inicializar o sistema que está sendo instalado.\n\nVocê deverá tornar essa partição ativa a menos que você possua outro carregador de inicialização que lhe permitirá acessar sua nova instalação Linux.
+Description-ro.UTF-8: Doriți să faceți acestă partiție activă?
+Extended_description-ro.UTF-8: Ați ales să instalați LILO pe o partiție care nu este cea activă. Dacă aceasta nu este marcată ca activă, atunci LILO nu va fi încărcat de către încărcătorul de sistem. Acest lucru ar putea să vă aducă în situația să nu puteți porni în sistemul care se instalează acum.\n\nAr trebui să faceți acestă partiție activă, dacă nu aveți alt încărcător de sistem care să vă permită să accesați noua dumneavoastră instalare Linux.
+Description-ru.UTF-8: Хотите ли вы пометить раздел как активный?
+Extended_description-ru.UTF-8: Раздел, на который вы решили установить LILO, не помечен как активный. Это значит, что LILO не получит управления при загрузке. Скорее всего, вам не удастся загрузить систему, которую вы сейчас установили.\n\nВам лучше пометить раздел как активный, если только вы не собираетесь загружать Linux при помощи какого-то другого системного загрузчика.
+Description-si.UTF-8: ඔබ මෙම කොටස සක්‍රීය කිරීමට කැමතිද?
+Extended_description-si.UTF-8: ඔබ විසින් සක්‍රීය නොවන කොටසක් මත LILO ස්ථාපනය කිරීමට තෝරාගෙන ඇත. එම නිසා LILO හට ආරම්භක පූරකයෙන් පූරණය කල නොහැකි විය හැකි බැවින් ස්ථාපිත පද්ධතියෙන් ආරම්භ කිරීමට නොහැකි වනු ඇත.\n\nඔබේ නව Linux ස්ථාපනයට පිවිසීම සඳහා වෙනත් ආරම්භක පූරකයක් නොමැති නම් මෙම කොටස සක්‍රීය කිරීමට සිදුවේ.
+Description-sk.UTF-8: Chcete túto oblasť nastaviť ako aktívnu?
+Extended_description-sk.UTF-8: Vybrali ste si inštaláciu LILO na oblasť, ktorá nie je aktívna. Ak nie je oblasť aktívna, LILO sa nezavedie zavádzačom. Tým pádom sa nemusíte dostať do práve inštalovaného systému.\n\nAk nemáte iný zavádzač, ktorým by ste sa dostali do svojho nového systému, mali by ste túto oblasť označiť ako aktívnu.
+Description-sl.UTF-8: Bi radi aktivirali ta razdelek?
+Extended_description-sl.UTF-8: LILO ste se odločili namestiti na razdelek, ki še ni aktiven. Če razdelek ni označen kot aktiven, potem zagonski nalagalnik ne bo naložil Lila.  To vam lahko onemogoči zagon sistema, ki ga nameščate.\n\nTa razdelek morate aktivirati, razen, če imate še en zagonski nalagalnik, ki vam bo omogočil dostop do vaše namestitve Linuxa.
+Description-sq.UTF-8: Dëshiron ta bësh këtë ndarje aktive?
+Extended_description-sq.UTF-8: Ke zgjedhur të instalosh LILO në një ndarje që nuk është aktive. Nëse kjo ndarje nuk ështe shënuar si aktive, atëhere LILO nuk do ngarkohet në nisje.  Kjo mund të mos nisë sistemin që po instalohet.\n\nDuhet të bësh aktive këtë ndarje, nëse nuk ke një ngarkues nisjeje që do të të lejojë të futesh në instalimin e ri të Linux.
+Description-sr.UTF-8: Да ли желите да учините ову партицију активном?
+Extended_description-sr.UTF-8: Изабрали сте да инсталирате LILO на партицији која није активна. Ако партиција није означена као активна, LILO неће бити учитан од бут лоудера. Због овога нећете моћи да бутујете у систем који је инсталиран.\n\nОва партиција треба бити активна, осим ако имате други бут лоудер који ће вам омогућити приступ вашој новој Linux инсталацији.
+Description-sv.UTF-8: Vill du göra den här partitionen aktiv?
+Extended_description-sv.UTF-8: Du har valt att installera LILO på en partition som inte är den aktiva partitionen. Om partitionen inte markeras som aktiv kommer starthanteraren inte att läsa in LILO. Det kan göra dig oförmögen att starta det system som nu installeras.\n\nDu bör göra den här partitionen aktiv förutsatt att du inte har en annan starthanterare som gör det möjligt för dig att komma åt din nya Linuxinstallation.
+Description-ta.UTF-8: இந்த பகிர்வை செயலாக்கலாமா?
+Extended_description-ta.UTF-8: நீங்கள் லிலோவை செயலாக்காத பகிர்வில் நிறுவ உத்தேசித்து உள்ளீர்கள். இதை செயலாக்கவில்லையானால் துவக்கி லிலோவை துவக்க இயலாது. இதனால் நிறுவப் படும் இயங்கு தளத்தை துவக்க இயலாமல் போகலாம்.\n\nபுதிய லினக்ஸ் நிறுவலை துவக்க வேறு துவக்கி இருந்தால் ஒழிய இந்த பகிர்வை செயலாக்க வேண்டும்
+Description-te.UTF-8: ఈ విభజన ని చేతనం చేయాలా?
+Extended_description-te.UTF-8: LILO ని చేతనం కాని విభజన పై స్థాపించుటకు నిశ్చయించారు.  ఈ విభజన ని చేతనం చేయకపోతే, బూట్ లోడర్   LILO ని నింపదు. అందువలన మీరు స్థాపన చేయుచున్న వ్యవస్థలోకి బూట్ చేయటం  వీలుకాకపోవటానికి కారణం అ‌వుతుంది.\n\nకొత్త లినక్స్ వ్యవస్థని  అందుబాటులోకి తెచ్చే  ఇంకొక బూట్ లోడర్   వుంటే తప్ప, ఈ విభజన ని చేతనం చేయాలి.
+Description-tg.UTF-8: Шумо мехоҳед, ки ин қисми дискро фаъол кунед?
+Extended_description-tg.UTF-8: Шумо интихоб кардед, ки LILO-ро дар қисми диске насб кунед, ки он фаъол намебошад. Агар он қисми диск фаъол набошад, он гоҳ LILO бо худроҳандозӣ бор карда намешавад. Ин метавонад сабаби он гардад, ки шумо ба системаи насбшаванда роҳандозӣ карда наметавонед.\n\nШумо бояд ин қисми дискро фаъол кунед, агар шумо худроҳандозии дигарро надошта бошед, ки ба шумо дастрасиро ба насбкунии нави Linux-и шумо иҷозат намедиҳад.
+Description-th.UTF-8: ต้องการกำหนดให้พาร์ทิชันนี้แอกทีฟหรือไม่?
+Extended_description-th.UTF-8: คุณได้เลือกติดตั้ง LILO ลงในพาร์ทิชันที่ไม่แอกทีฟ ถ้าพาร์ทิชันนี้ไม่ถูกกำหนดให้แอกทีฟ บูตโหลดเดอร์ก็จะไม่โหลด LILO ซึ่งอาจทำให้คุณไม่สามารถบูตเข้าระบบที่กำลังติดตั้งนี้ได้\n\nคุณควรกำหนดให้พาร์ทิชันนี้แอกทีฟ นอกเสียจากว่าคุณมีบูตโหลดเดอร์ตัวอื่น ที่สามารถเข้าถึงลินุกซ์ที่ติดตั้งใหม่นี้ได้
+Description-tl.UTF-8: Nais ba ninyong gawing aktibo ang partisyon na ito?
+Extended_description-tl.UTF-8: Napili niyong mag-install ng LILO sa partisyon na hindi aktibo. Kung ang partisyon na ito ay hindi markadong aktibo, hindi patatakbuhin ng boot loader ang LILO.  Maaring hindi kayo makapag-boot ng sistema na iniinstall.\n\nKailangan niyong gawing aktibo ang partisyon na ito maliban na mayroon kayong ibang boot loader na papayagan kayong ma-access ang inyong bagong install na Linux.
+Description-tr.UTF-8: Bu bölümü etkinleştirmek ister misiniz?
+Extended_description-tr.UTF-8: LILO'yu etkin olmayan bir bölüme kuruyorsunuz. Eğer bu bölüm etkin hale getirilmezse LILO'yu yüklenmeyecektir. Bu durum, kurulumu devam eden sisteminizin açılamamasına neden olabilir.\n\nEğer yeni Linux kurulumunuza erişebilmenizi sağlayacak başka bir açılış yükleyicisi yoksa bu bölümü etkinleştirmelisiniz.
+Description-ug.UTF-8: بۇ رايوننى ئاكتىپ رايون قىلىپ تەڭشەمسىز؟
+Extended_description-ug.UTF-8: سىز LILO نى ئاكتىپ بولمىغان رايونغا ئورنىتىشنى تاللىدىڭىز. ئەگەر رايونغا ئاكتىپ بەلگىسى قويۇلمىسا LILO يېتەكلەش پروگراممىسىنى يۈكلىيەلمەيدۇ. بۇنداق بولغاندا ئورنىتىلىپ بولغان سىستېمىغا كىرەلمەيسىز.\n\nباشقا يېتەكلەش باشقۇرغۇچنى ئىشلەتمىسىڭىزلا سىز بۇ رايوننى ئاكتىپ رايون قىلىپ بەلگە سېلىشىڭىز لازىم. ئۇنىڭ ئۈستىگە ئۇ يېڭى ئورناتقان Linux سىستېمىسىنى يېتەكلەيدۇ.
+Description-uk.UTF-8: Чи хочете ви зробити цей розділ активним?
+Extended_description-uk.UTF-8: Ви вирішили встановити LILO на розділ, який не є активним. Якщо цей розділ не помічений як активний, то LILO не буде завантажений системним завантажувачем. Через це ви, можливо, не зможете завантажити систему, яку встановлюєте.\n\nВи повинні зробити цей розділ активним, якщо ви не маєте іншого завантажувача, що надасть вам доступ до вашої Linux-системи.
+Description-vi.UTF-8: Bạn có muốn kích hoạt phân vùng này không?
+Extended_description-vi.UTF-8: Bạn đã chọn cài đặt trình LILO vào một phân vùng không phải là điều hoặt động. Nếu phân vùng này không có nhãn hoặt động, bộ nạp khởi động sẽ không nạp LILO. Trường hợp này có thể gây ra bạn không có khả năng khởi động vào hệ thống đang được cài đặt.\n\nBạn nên đặt phân vùng này là hoặt động nếu bạn không có bộ nạp khởi động khác sẽ cho phép bạn truy cập bản cài đặt Linux mới.
+Description-zh_CN.UTF-8: 将这个分区设为活动的吗？
+Extended_description-zh_CN.UTF-8: 您选择了将 LILO 安装在一个非活动的分区上。如果分区没有标注为活动，LILO 将不会被引导程序加载。这样您无法引导到装好的系统中。\n\n您应当将这个分区标注为活动的，除非您使用了其他可以引导新 Linux 系统的引导管理器。
+Description-zh_TW.UTF-8: 是否要將這個分割區設定為【啟動】？
+Extended_description-zh_TW.UTF-8: 您已經選擇了將 LILO 安裝在一個非【啟動】的分割區上。如果分割區沒有設定為【啟動】，LILO 就無法由開機程式載入。這樣可能會導致無法開機進入剛才所安裝好的系統中。\n\n您應該將這個分割區設定為【啟動】，除非您使用了其他可以存取這個新安裝的 Linux 的開機程式。
+
+Name: lilo-installer/apt-install-failed
+Type: boolean
+Default: true
+Description: LILO installation failed. Continue anyway?
+Extended_description: The lilo package failed to install into /target/. Installing LILO as a boot loader is a required step. The install problem might however be unrelated to LILO, so continuing the installation may be possible.
+Description-am.UTF-8: የሊሎ ተከላ አልተሳካም፡፡ ቢሆንም ልቀጥል?
+Extended_description-am.UTF-8: /target/ ላይ ሊሎን መትከል ሳይሳካ ቀርቷል፡፡ ሊሎን እንደ ቡት ማስነሻ መትከል አስፈላጊ የሆነ ደረጃ ነው፡፡  ነገርግን የመትከሉ ችግር ከሊሎ ጋር ያልተገናኘና ተከላውንም መቀጠል ይቻል ይሆናል፡፡
+Description-ar.UTF-8: فشل تثبيت LiLo. المتابعة على كل حال؟
+Extended_description-ar.UTF-8: فشل تثبيت حزمة LiLo على /target/.  تثبيت LiLo كمحمّل إقلاع هي خطوةٌ مطلوبة. مع ذلك، فإنّ مشكلة التثبيت قد لا تكون متعلّقة بLiLo، لذا فإنّ الاستمرار بالتثبيت قد يكون ممكناً.
+Description-ast.UTF-8: Falló la instalación de LILO. ¿Siguir de toos modos?
+Extended_description-ast.UTF-8: Falló'l paquete lilo instalando en /target/. Instalar LILO cómo cargador d'arranque ye un pasu requeríu. El problema nun parez ser de LILO, asina que siguir la instalación ye posible.
+Description-be.UTF-8: Не атрымалася ўсталяваць LILO. Працягваць, не зважаючы на гэта?
+Extended_description-be.UTF-8: Не атрымалася ўсталяваць пакет lilo ў /target/. Усталяванне LILO у якасці загрузчыка - неабходны крок. Аднак, напатканая праблема можа не датычыцца ўласна LILO, і тады ў Вас ёсць шанец працягнуць.
+Description-bg.UTF-8: Грешка при инсталирането на LILO. Продължаване?
+Extended_description-bg.UTF-8: Грешка при инсталирането на пакета lilo в /target/. Инсталирането на LILO като програма за начално зареждане е необходимо стъпка. Тази грешка обаче може да не е свързана с LILO, така че продължаването на инсталацията може да е възможно.
+Description-bn.UTF-8: LILO ইনস্টলেশন ব্যর্থ হয়েছে। তবুও এগিয়ে যাব কি?
+Extended_description-bn.UTF-8: LILO প্যাকেজকে /target/-এ ইনস্টল করার প্রচেষ্টা ব্যর্থ হয়েছে। বুট লোডার হিসেবে LILO-কে ইনস্টল করা একটি প্রয়োজনীয় ধাপ। তবে ইনস্টলেশনের সমস্যাটি LILO'র সাথে সম্পর্কিত নাও হতে পারে। সুতরাং এ অবস্থায়ও হয়তো ইনস্টলেশন চালিয়ে যাওয়া সম্ভব।
+Description-bs.UTF-8: Instaliranje LILO-a nije uspjelo. Nastaviti dalje?
+Extended_description-bs.UTF-8: Lilo paket se nije mogao instalirati na /target/.  Instaliranje LILO-a kao boot loadera je zahtijevani korak.  Ovaj instalacioni problem, međutim, može biti nevezan za LILO, tako da je moguće nastaviti instalaciju.
+Description-ca.UTF-8: Ha fallat la instal·lació de LILO. Voleu continuar de totes maneres?
+Extended_description-ca.UTF-8: No s'ha pogut instal·lar el paquet lilo a /target/. Instal·lar LILO com el carregador és un pas requerit. El problema d'instal·lació pot no estar relacionat amb LILO, així doncs continuar amb la instal·lació potser serà possible.
+Description-cs.UTF-8: Instalace LILO selhala. Přesto pokračovat?
+Extended_description-cs.UTF-8: Balík lilo se nedokázal nainstalovat do /target. Instalace zavaděče (tedy lila) je vyžadována. Nastalý problém ale nutně nemusí souviset s lilem a možná lze v instalaci pokračovat.
+Description-cy.UTF-8: Methwyd sefydlu LILO. Mynd ymlaen beth bynnag?
+Extended_description-cy.UTF-8: Methwyd y pecyn lilo sefydlu i /target/. Mae sefydlu LILO fel llwythwr cychwyn yn gam angenrheidiol. Fodd bynnag, efallai nid yw'r broblem sefydlu yn gysylltiedig a LILO, felly fe allai fod yn bosib parhau gyda'r sefydliad.
+Description-da.UTF-8: Installationen af LILO mislykkedes. Vil du fortsætte alligevel?
+Extended_description-da.UTF-8: Lilo-pakken kunne ikke installeres på /target/. Installering af LILO som opstartsindlæser er et krævet trin. Det er dog muligt at installationsproblemet ikke havde noget med LILO at gøre, så installationen kan muligvis lade sig gøre alligevel.
+Description-de.UTF-8: LILO-Installation fehlgeschlagen. Dennoch fortfahren?
+Extended_description-de.UTF-8: Das Lilo-Paket konnte nicht nach /target/ installiert werden. Die Installation von Lilo als Bootloader ist unbedingt erforderlich. Es besteht aber die Möglichkeit, dass Lilo von diesem Problem nicht betroffen ist; daher könnte es möglich sein, die Installation fortzusetzen.
+Description-dz.UTF-8: ལི་ལོ་གཞི་བཙུགས་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ། གང་རུང་སྦེ་འཕྲོ་མཐུད་འབད?
+Extended_description-dz.UTF-8: ལི་ལོ་ཐུམ་སྒྲིལ་འདི་ /target/ ནང་ལུ་གཞི་བཙུགས་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོད། བུཊི་མངོན་གསལ་པ་བཟུམ་སྦེ་ལི་ལོ་གཞི་བཙུགས་འབད་ནི་འདི་དགོས་མཁོ་ཡོད་པའི་རིམ་པ་ཨིན། ག་དེ་སྦེ་རང་ཨིན་རུང་གཞི་བཙུགས་དཀའ་ངལ་འདི་ལི་ལོ་ལུ་འབྲེལ་བ་མེདཔ་འོང་ དེ་འབདཝ་ལས་གཞི་བཙུགས་ནི་ལུ་འཕྲོ་མཐུད་འབད་མི་འདི་གིས་འབད་ཚུགས་འོང་།
+Description-el.UTF-8: Η εγκατάσταση του LILΟ απέτυχε.  Θέλετε να συνεχίσετε;
+Extended_description-el.UTF-8: Το πακέτο lilo απέτυχε να εγκατασταθεί στο /target/.  Η εγκατάσταση του LILO είναι αναγκαίο βήμα.  Ωστόσο, το πρόβλημα της εγκατάστασης μπορεί να είναι ανεξάρτητο του LILO και ίσως να είναι δυνατή η συνέχιση της εγκατάστασης.
+Description-eo.UTF-8: LILO-instalado malsukcesis. Ĉu tamen daŭrigi?
+Extended_description-eo.UTF-8: Ne eblas instali la pakon LILO sur /target/. Instalo de LILO kiel ekŝargilo estas bezonata ago. Tamen la problemo povus ne dependi de LILO, tiel ke eblus daŭrigi la instaladon.
+Description-es.UTF-8: La instalación de LILO ha fallado. ¿Desea continuar de todos modos?
+Extended_description-es.UTF-8: No se pudo instalar el paquete «lilo» en «/target/». La instalación de LILO como cargador de arranque es un paso necesario. El problema de instalación puede no estar relacionado, sin embargo, con LILO, así que puede continuar con la instalación.
+Description-et.UTF-8: LILO paigaldamine nurjus. Kas jätkata sellele vaatamata?
+Extended_description-et.UTF-8: Paketi lilo /target/ peale paigaldamine nurjus. Alglaaduri LILO paigaldamine on küll vajalik samm, kuid ilmnenud probleem ei pruugi üldse LILO'ga seotud olla, mistõttu võib osutuda võimalikuks jätkata.
+Description-eu.UTF-8: Ezin izan da LILO instalatu. Jarraitu nahi duzu hala ere?
+Extended_description-eu.UTF-8: Ezin izan da lilo paketea /target/-en instalatu. LILO abioko kargatzaile gisa instalatzea ezinbesteko urratsa da. Instalatzeko arazoa, ordea, baliteke LILOrekin lotuta ez egotea; beraz, agian instalatzen jarrai daiteke.
+Description-fa.UTF-8: نصب LILO با شکست مواجه شد . در هر صورت ادامه می‌دهید ؟
+Extended_description-fa.UTF-8: پکیج LILO نتوانست بر روی /target/ نصب شود . نصب کردن LILO به عنوان یک راه‌انداز یکی از مرحله ی ضرروری است . این مشکل ممکن است به LILO ربطی نداشته باشد ، بنابراین ادامه ی نصب امکان پذیر است . قابل فهم باشد، در نتیجه LILO به عنوان یک بوت لودر یک مرحله ضروری است. این مشکل نصب ممکن است توسط LILO نصب شود. نصب  /target/ نتوانست در LILOپکیج ادامه نصب امکان پذیر است.
+Description-fi.UTF-8: LILOn asennus epäonnistui. Jatketaanko silti?
+Extended_description-fi.UTF-8: Ohjelmapaketin lilo asennus hakemistoon /target/ ei onnistunut. LILOn asentaminen alkulatausohjelmaksi on välttämätöntä. Asennusvika ei ehkä kuitenkaan liity LILOon, joten asennuksen jatkaminen saattaa olla mahdollista.
+Description-fr.UTF-8: Échec de l'installation de lilo. Continuer malgré tout ?
+Extended_description-fr.UTF-8: Le paquet lilo n'a pas pu être installé dans /target/. L'installation du programme de démarrage lilo est une étape indispensable. Ce problème n'est peut-être pas lié à lilo ; il est peut-être possible de continuer l'installation.
+Description-ga.UTF-8: Theip ar shuiteáil LILO. Lean ar aghaidh mar sin féin?
+Extended_description-ga.UTF-8: Theip ar shuiteáil an phacáiste lilo i /target/. Caithfear LILO a shuiteáil mar luchtóir tosaithe.  Seans nach mbaineann an fhadhb shuiteála le LILO ar chor ar bith agus beidh tú in ann dul ar aghaidh leis an tsuiteáil.
+Description-gl.UTF-8: Fallou a instalación de LILO. Desexa continuar aínda así?
+Extended_description-gl.UTF-8: Non foi posíbel instalar o paquete lilo en /target/. A instalación de LILO como cargador de arranque é un paso necesario. Porén, o problema coa instalación pode non estar relacionado con LILO, polo que sería posíbel continuar a instalación.
+Description-gu.UTF-8: LILO સ્થાપન નિષ્ફળ ગયું. આગળ વધશો?
+Extended_description-gu.UTF-8: lilo પેકેજ /target/ પર સ્થાપિત થવામાં નિષ્ફળ.  LILO ને બુટ લોડર તરીકે સ્થાપિત કરવું એ જરુરી પગથિયું છે.  સ્થાપન મુશ્કેલી કદાચ LILO ને સંબંધિત ન પણ હોઇ શકે, એટલે સ્થાપનમાં આગળ વધવું એ કદાચ શક્ય થઇ શકે છે.
+Description-he.UTF-8: התקנת LILO נכשלה. להמשיך בכל זאת?
+Extended_description-he.UTF-8: התקנת החבילה lilo נכשלה בהתקנה לתוך /target/. התקנת LILO כמנהל אתחול היא שלב חיוני. בעיית ההתקנה לא בהכרח קשורה להתקנת LILO, כך שאולי ניתן להמשיך בהתקנה.
+Description-hi.UTF-8: लिलो का संस्थापन असफल. फिर भी जारी रखें?
+Extended_description-hi.UTF-8: लिलो पैकेज /target में संस्थापित होने से असफल रह गया. लिलो बूटलोडर का संस्थापन एक आवश्यक चरण है. संस्थापन की समस्या लिलो से असंबद्ध भी हो सकती है, इसलिए संस्थापन को जारी रखना संभव हो सकता है.
+Description-hr.UTF-8: Instalacija LILO-a nije uspjela. Da ipak nastavim?
+Extended_description-hr.UTF-8: Nije uspjela instalacija LILO paketa na /target/. Instalacija LILO-a kao boot učitavača je zahtijevani korak. Međutim, problem može biti nevezan za LILO, pa ćete možda moći nastaviti instalaciju.
+Description-hu.UTF-8: A LILO telepítése meghiúsult. Mégis továbblépsz?
+Extended_description-hu.UTF-8: A lilo csomag /target/-be telepítése meghiúsult. A LILO telepítése pedig szükséges. Lehet, hogy e gond nem a LILO-hoz kötődik és a telepítés folytatása mégis lehetséges.
+Description-id.UTF-8: Pemasangan LILO gagal. Tetap dilanjutkan?
+Extended_description-id.UTF-8: Paket lilo gagal dipasang ke /target/. Memasang LILO sebagai boot loader merupakan langkah yang diperlukan. Namun masalah instalasi mungkin tidak berhubungan dengan LILO, jadi Anda tetap dapat melanjutkan instalasi.
+Description-is.UTF-8: LILO uppsetning mistókst. Viltu samt halda áfram?
+Extended_description-is.UTF-8: Ekki tókst að setja lilo upp á /target/. Nauðsynlegt er að setja upp LILO til að klára uppsetningu. Vandamálið gæti samt verið ótengt LILO, svo það er möguleiki á að hægt sé að halda uppsetningu áfram.
+Description-it.UTF-8: Installazione di LILO non riuscita. Continuare comunque?
+Extended_description-it.UTF-8: L'installazione del pacchetto lilo in /target/ non è riuscita. L'installazione di LILO come boot loader è un passo richiesto. Tuttavia, il problema d'installazione, potrebbe non essere in relazione con LILO e l'installazione potrebbe continuare.
+Description-ja.UTF-8: LILO のインストールに失敗しました。続けますか?
+Extended_description-ja.UTF-8: lilo パッケージを /target/ にインストールするのに失敗しました。ブートローダー LILO のインストールは必須のステップです。インストールの問題は LILO と直接関係するものではないかもしれないので、インストールを続けることは可能です。
+Description-ka.UTF-8: LILO-ს ინსტალაცია შეფერხდა. მაინც გავაგრძელოთ?
+Extended_description-ka.UTF-8: LILO-პაკეტის ინსტალაცია /target/-ში მიმდინარეობს შეფერხებებით. ჩამტვირთველად LILO-ს დაყენება აუცილებელი ეტაპია, მაგრამ შეფერხება არაა აუცილებელი საკუთრივ LILO-ს დაზიანების შედეგი იყოს, ასე, რომ გაგრძელება შეიძლება.
+Description-kk.UTF-8: LILO орнату сәтсіз аяқталды. Сонда да жалғастыруды қалайсыз ба?
+Extended_description-kk.UTF-8: lilo /target/ ішіне орнатыла алмады. LILO жүктеуші орнату міндетті қадам болып табылады. Орнату қатесі LILO дестесіне байланыссыз да болуы мүмкін, демек орнатуды жалғастыра аласыз.
+Description-km.UTF-8: ការ​ដំឡើង​ LILO បាន​បរាជ័យ​ហើយ ។​ យ៉ាង​ណា​ក៏​ដោយ បន្ត ?
+Extended_description-km.UTF-8: បាន​បរាជ័យ​ក្នុង​ការ​ដំឡើង​កញ្ចប់ lilo ទៅ​ក្នុង /target/ ។ ដាច់​ខាត​អ្នក​ត្រូវ​តែ​ដំឡើង LILO ជា​កម្មវិធី​ចាប់ផ្ដើម​ប្រព័ន្ធ ។ ទោះ​យ៉ាង​ណា បញ្ហា​ការ​ដំឡើង​ប្រហែល​ជា​មិន​ទាក់ទង​នឹង LILO ឡើយ ដូច្នេះ​អ្នក​ប្រហែល​ជា​អាច​បន្ត​ការ​ដំឡើង​បាន ។
+Description-kn.UTF-8: ಲಿಲೊ ಅನುಷ್ಠಾಪನೆ ವಿಫಲಗೊಂಡಿದೆ.ಎನಾದರಾಗಲಿ ಮುಂದುವರೆ?
+Extended_description-kn.UTF-8: ಲಿಲೊ ಅನ್ನು /target/ನಲ್ಲಿ ಅನುಷ್ಠಾಪಿಸಲಾಗಿಲ್ಲ.ಲಿಲೊ ಅನ್ನು ಬೂಟ್ ಲೋಡರ್ ಆಗಿ ಅನುಷ್ಠಾಪಿಸುವುದೆ ನೀವು ಮಾಡಬೇಕಿರುವ ಮುಂದಿನ ಕಾರ್ಯ.ಅನುಷ್ಠಾಪಿಸಿವ ತೊಂದರೆ ಲಿಲೊಗೆ ಸಂಭಂದ ವಿರದೆ ಇರಬಹುದು ಆದ್ದರಿಂದ ಅನುಷ್ಠಾಪನೆಗೆ ಯಾವುದೇ ತೊಂದರೆ ಆಗದಿರಬಹುದು
+Description-ko.UTF-8: LILO 설치가 실패했습니다.  그래도 계속하시겠습니까?
+Extended_description-ko.UTF-8: lilo 패키지를 /target/에 설치하는데 실패했습니다. LILO을 부트로더로 설치하는 일은 꼭 필요한 단계입니다.  하지만 이 문제가 LILO과는 관계없는 문제일 수도 있으므로, 설치를 계속할 수도 있습니다.
+Description-ku.UTF-8: Sazkirina LILO serneket.  Dîsa bidomine?
+Extended_description-ku.UTF-8: Pakêta lilo li /target/ ê nehate sazkirin. Wekî pêşbarkerekê divê LILO were sazkirin.  Ji ber ku pirsgirêka sazkirinê ne têkildarî LILO ye, tu dikarî sazkirinê bidomînî.
+Description-lo.UTF-8: ຕິດຕັ້ງ LILO ບໍ່ສຳເລັດຈະດຳເນີນການຕໍ່ໄປ ຫຼື ບໍ່ ?
+Extended_description-lo.UTF-8: ຕິດຕັ້ງແພັກເກັດ lilo ລົງໃນ /target/ ບໍ່ສຳເລັດການຕິດຕັ້ງ LILO ເປັນບຣູດໂຫຼດເດີ ເປັນຂັ້ນຕອນທີ່ຈຳເປັນ ແຕ່ປັນຫາຂອງການຕິດຕັ້ງອາດບໍ່ກ່ຽວກັນ LILO ກໍ່ໄດ້ດັ່ງນັ້ນ ການດຳເນີນການຕິດຕັ້ງຕໍ່ໄປກໍ່ອາດຈະເຮັດໄດ້
+Description-lt.UTF-8: Nepavyko įdiegti „LILO“. Tęsti nepaisant to?
+Extended_description-lt.UTF-8: Nepavyko įdiegti „lilo“ paketo į /target/.  Pradinio įkėliklio įdiegimas yra būtinas žingsnis.  Tačiau diegimo problema galbūt nesusijusi su „LILO“, taigi įdiegimo tęsimas galbūt galimas.
+Description-lv.UTF-8: LILO instalēšana bija nesekmīga. Tomēr turpināt?
+Extended_description-lv.UTF-8: lilo pakotnes instalēšana /target/ bija nesekmīga. LILO palaidēja instalēšana ir nepieciešams solis. Taču instalēšanas problēma varētu būt arī nesaistīta ar LILO, tāpēc ir iespējams, ka sistēmas instalēšanu var pabeigt sekmīgi.
+Description-mk.UTF-8: Инсталацијата на LILO не успеа.  Сепак да продолжам?
+Extended_description-mk.UTF-8: Пакетот lilo не успеа да се инсталира на /target/. Инсталирањето на lilo бут вчитувачот е задолжителен чекор. Сепак инсталациониoт проблем може да не поврзан со lilo, па инсталацијата може да продолжи.
+Description-ml.UTF-8: ലിലോ ഇന്‍സ്റ്റലേഷന്‍ പരാജയപ്പെട്ടു. എന്നാലും തുടരണമോ?
+Extended_description-ml.UTF-8: ലിലോ പാക്കേജ് /target/ ല്‍ ഇന്‍സ്റ്റോള്‍ ചെയ്യുന്നതു് പരാജയപ്പെട്ടു. ലിലോ ഒരു  ബൂട്ട് ലോഡറായി ഇന്‍സ്റ്റോള്‍ ചെയ്യുന്നതു്  ഒരു അവശ്യ നടപടിക്രമമാണു്. എന്നിരുന്നാലും ഇന്‍സ്റ്റോള്‍ പ്രശ്നം ലിലോയുമായി ബന്ധമൊന്നുമില്ലാത്തതാകാം, അതു് കൊണ്ടു തന്നെ ഇന്‍സ്റ്റലേഷന്‍ തുടരുന്നതിനു് സാധിച്ചേക്കാം.
+Description-mr.UTF-8: लिलो अधिष्ठापित होऊ शकले नाही. तरीही पुढे जायचे?
+Extended_description-mr.UTF-8: /target/ मधे लिलो पॅकेज अधिष्ठापित होऊ शकले नाही. आरंभ सुचक म्हणून लिलो अधिष्ठापित करणे ही आवश्यक पायरी आहे. अधिष्ठापनेतील समस्या कदाचित लिलोसंबंधी नसेलही. त्यामुळे अधिष्ठापना पुढे चालू ठेवणे बहुदा शक्य आहे.
+Description-nb.UTF-8: Klarte ikke å installere LILO. Vil du fortsette likevel?
+Extended_description-nb.UTF-8: Klarte ikke å installere LILO-pakka i /target. Å installere LILO som oppstartssystem er et nødvendig steg. Men det kan likevel hende at problemet er uavhengig av LILO, så kanskje det går an å fortsette installasjonen.
+Description-ne.UTF-8: LILO स्थापना असफल भयो । जे भए पनि निरन्तरता दिनुहुन्छ?
+Extended_description-ne.UTF-8: लिलो प्याकेज /target/ मा स्थापना हुन असफल भयो । बुट लोडरको रुपमा LILO स्थापना हुनु आवश्यक चरण हो । LILO सँग असम्बन्धित भएता पनि स्थापनामा समस्या हुन सक्छ, त्यसैले स्थापनाको निरन्तरता सम्भव छ ।
+Description-nl.UTF-8: Installatie van LILO is mislukt. Toch verder gaan?
+Extended_description-nl.UTF-8: Installeren van het pakket 'lilo' in /target/ is mislukt. Het installeren van LILO als opstartlader is een verplichte stap. Mogelijk is dit installatieprobleem niet gerelateerd aan LILO, in dat geval is verdergaan misschien mogelijk.
+Description-nn.UTF-8: Installering av LILO feila. Vil du likevel halde fram?
+Extended_description-nn.UTF-8: Klarte ikkje installere lilo-pakka på /target/. Å installere LILO som oppstartslastar er eit påkrevd steg. Installeringsproblemet kan vere uavhengig av LILO, så det kan vere det er mogeleg å halde fram.
+Description-no.UTF-8: Klarte ikke å installere LILO. Vil du fortsette likevel?
+Extended_description-no.UTF-8: Klarte ikke å installere LILO-pakka i /target. Å installere LILO som oppstartssystem er et nødvendig steg. Men det kan likevel hende at problemet er uavhengig av LILO, så kanskje det går an å fortsette installasjonen.
+Description-pa.UTF-8: LILO ਇੰਸਟਾਲੇਸ਼ਨ ਫੇਲ੍ਹ ਹੋਈ। ਕਿਵੇਂ ਵੀ ਜਾਰੀ ਰੱਖਣਾ ਹੈ?
+Extended_description-pa.UTF-8: /target/ ਉੱਤੇ lilo ਪੈਕੇਜ ਦੀ ਇੰਸਟਾਲੇਸ਼ਨ ਫੇਲ੍ਹ ਹੋਈ। LILO ਨੂੰ ਬੂਟ ਲੋਡਰ ਤੌਰ ਤੇ ਇੰਸਟਾਲ ਕਰਨਾ ਲੋੜੀਂਦਾ ਪਗ ਹੈ। ਭਾਵੇਂ ਇੰਸਟਾਲੇਸ਼ਨ ਸਮੱਸਿਆ ਦਾ LILO ਨਾਲ ਕੋਈ ਸੰਬੰਧ ਨਹੀਂ, ਇਸ ਲਈ ਇੰਸਟਾਲੇਸ਼ਨ ਜਾਰੀ ਕਰਨਾ ਸੰਭਵ ਹੈ।
+Description-pl.UTF-8: Instalacja LILO nie powiodła się. Kontynuować mimo tego?
+Extended_description-pl.UTF-8: Instalacja pakietu lilo w /target/ nie powiodła się. Instalacja LILO jako programu rozruchowego jest etapem wymaganym. Możliwe jednak, że błąd jest niezwiązany z LILO i kontynuacja instalacji będzie możliwa.
+Description-pt.UTF-8: A instalação do LILO falhou. Continuar mesmo assim?
+Extended_description-pt.UTF-8: A instalação do pacote lilo em /target/ falhou.  É necessário que o LILO seja instalado como carregador do sistema.  No entanto o problema de instalação pode não estar relacionado com o LILO, e poderá assim ser possível continuar com a instalação.
+Description-pt_BR.UTF-8: A instalação do LILO falhou. Continuar mesmo assim?
+Extended_description-pt_BR.UTF-8: A instalação do pacote lilo em /target/ falhou. A instalação do carregador de inicialização LILO é uma etapa requerida. O problema de instalação pode ser não relacionado ao LILO, portanto continuar a instalação pode ser possível.
+Description-ro.UTF-8: Instalarea lui LILO a eșuat. Mai continuați?
+Extended_description-ro.UTF-8: Instalarea pachetului lilo pe /target/ s-a soldat cu eșec. Instalarea LILO ca încărcător de sistem este un pas necesar. Problema instalării ar putea, totuși, să nu aibă legătură cu LILO, deci continuarea instalării ar putea fi posibilă.
+Description-ru.UTF-8: Не удалось установить LILO. Продолжить установку?
+Extended_description-ru.UTF-8: Не удалось установить пакет lilo в /target/. Установка LILO в качестве загрузчика является необходимым этапом установки. Тем не менее, ошибки при установке могут быть не связаны собственно с LILO, поэтому продолжение установки возможно.
+Description-si.UTF-8: LILO ස්ථාපනය අසාර්ථකයි. කෙසේහෝ ඉදිරියට යන්නද?
+Extended_description-si.UTF-8: /ඉලක්කය/ මත lilo පැකේජය ස්ථාපනය අසාර්ථකයි. ආරම්භක පූරකයක් ලෙස LILO ස්ථාපනය අත්‍යාවශ්‍ය අදියරකි.ස්ථාපන ගැටළුව LILO හට අදාල නොවන්නක් බැවින්. ඔබට ඇතැම්විට ස්ථාපනය සිදුකල හැකිවනු ඇත.
+Description-sk.UTF-8: Inštalácia LILO zlyhala.  Napriek tomu pokračovať?
+Extended_description-sk.UTF-8: Inštalácia balíka lilo do /target/ zlyhala. Inštalácia LILO zavádzača je nutná. Problém pri inštalácii možno nesúvisí s LILO zavádzačom, takže môžete pokračovať.
+Description-sl.UTF-8: Namestitev zagonskega nalagalnika LILO ni uspela.  Kljub temu nadaljujem?
+Extended_description-sl.UTF-8: Namestitev paketa lilo v /target/ ni uspela.  Namestitev zagonskega nalagalnika LILO je obvezen korak.  Za težavo pri namestitvi morda ni kriv LILO, torej je morda vseeno mogoče nadaljevati z namestitvijo.
+Description-sq.UTF-8: Instalimi i LILO dështoi.  Të vazhdoj sido që të jetë?
+Extended_description-sq.UTF-8: Paketi lilo nuk mundi të instalohet në /target/.  Instalimi i LILO-s si një ngarkues nisjeje është një hap i detyruar.  Problemi i instalimit mund të mos varet nga LILO, kështu që mund të vazhdosh me instalimin.
+Description-sr.UTF-8: Инсталација LILO-а није успела. Наставити даље?
+Extended_description-sr.UTF-8: Пакет lilo није успео да се инсталира на /target/. Инсталacija LILO-а као бут лоудера је обавезан корак. Проблем можда ипак није у вези са LILO-ом, тако да наставак инсталације може бити могућ.
+Description-sv.UTF-8: LILO-installationen misslyckades. Fortsätt ändå?
+Extended_description-sv.UTF-8: Misslyckades med att installera paketet lilo i /target/. Att installera LILO som starthanterare är ett obligatoriskt steg. Installationsproblemet behöver inte vara relaterat till LILO så det kan ändå vara möjligt att fortsätta.
+Description-ta.UTF-8: லிலோ நிறுவல் தோல்வியடைந்தது. எப்படியும் தொடரவா?
+Extended_description-ta.UTF-8: /target/ இல் லிலோ தொகுப்பு நிறுவப் படவில்லை. லிலோவை நிறுவுதல் அவசியமான படி. நிறுவல் பிரச்சினை லிலோவுக்கு சம்பந்தம் இல்லாததாக இருக்கலாம். ஆகவே நிறுவலை தொடர்தல் கை கூடலாம்.
+Description-te.UTF-8: LILO స్థాపన విఫలం. ఐనాసరే కొనసాగాలా?
+Extended_description-te.UTF-8: /target/ లో LILO పాకేజీ స్థాపన విఫలం. LILO ని బూట్ లోడర్ గా స్థాపన  తప్పనిసరి చేయవలసిన అంకం. సమస్య   LILO కి సంబంధించినది కాకపోవచ్చు, స్థాపన కొనసాగించుట వీలవవచ్చు.
+Description-tg.UTF-8: Насбкунии LILO бо нокомӣ дучор шуд. Ба ҳар ҳол идома медиҳед?
+Extended_description-tg.UTF-8: Бастаи lilo ба /target/ насб карда нашуд. Насбкунии LILO ҳамчун худроҳандозӣ - ин қадами лозимӣ мебошад. Аммо, мушкилии насбкунӣ метавонад ба LILO алоқаманд набошад, барои ҳамин идомадиҳии насбкунӣ метавонад имконпазир бошад.
+Description-th.UTF-8: ติดตั้ง LILO ไม่สำเร็จ จะดำเนินการต่อไปหรือไม่?
+Extended_description-th.UTF-8: ติดตั้งแพกเกจ lilo ลงใน /target/ ไม่สำเร็จ การติดตั้ง LILO เป็นบูตโหลดเดอร์ เป็นขั้นตอนที่จำเป็น แต่ปัญหาของการติดตั้งอาจไม่เกี่ยวกับ LILO ก็ได้ ดังนั้น การดำเนินการติดตั้งต่อไปก็อาจทำได้
+Description-tl.UTF-8: Bigo ang pagluklok ng LILO.  Magpatuloy pa rin?
+Extended_description-tl.UTF-8: Bigo ang pagluklok ng lilo pakete sa /target/. Kailangan na hakbang ang pagluklok ng LILO bilang boot loader.  Maaaring ang problema sa pag-install ay walang kinalaman sa LILO, kaya maaaring magpatuloy ng pagluklok.
+Description-tr.UTF-8: LILO kurulumu başarısız.  Yine de devam etmek istiyor musunuz?
+Extended_description-tr.UTF-8: "lilo" paketi /target/'a kurulamadı. Bir önyükleyici olarak LILO'nun kurulması gerekiyor. Kurulum problemi LILO ile ilgili olmayabileceğinden, kuruluma devam etmeniz mümkün olabilir.
+Description-ug.UTF-8: LILO ئورنىتىش مەغلۇپ بولدى. يەنىلا داۋاملاشتۇرامسىز؟
+Extended_description-ug.UTF-8: LILO يۇمشاق دېتال بوغچىسىنى /target/ قا ئورنىتالمىدى. بۇ LILO نى قوزغىتىش يېتەكلىگۈچ قىلىپ ئورنىتىشنىڭ زۆرۈر قەدىمى. بۇ ئورنىتىش مەسىلىسى LILO بىلەن مۇناسىۋەتسىز بولۇشى مۇمكىن، شۇڭلاشقا داۋاملىق ئورنىتىشقا بولۇۋېرىدۇ.
+Description-uk.UTF-8: Не вдалося встановити LILO. Всерівно продовжувати?
+Extended_description-uk.UTF-8: Не вдалося встановити пакунок lilo в /target/. Встановлення LILO як системного завантажувача - це необхідний крок. Проте, ця проблема може і не мати відношення до LILO, таким чином продовжити встановлення може бути реально.
+Description-vi.UTF-8: Việc cài đặt LILO bị lỗi. Vẫn cứ tiếp tục lại không?
+Extended_description-vi.UTF-8: Gói LILO không cài đặt được vào « /target/ ». Việc cài đặt GRUB như là bộ nạp khởi động là bước bắt buộc phải làm. Tuy nhiên, vấn đề cài đặt có thể không liên quan đến LILO, vậy có thể thử tiếp tục lại cài đặt.
+Description-zh_CN.UTF-8: LILO 安装失败。仍然继续吗？
+Extended_description-zh_CN.UTF-8: 将 lilo 软件包安装到 /target/ 中失败。安装 LILO 作为启动引导器是一个必要步骤。此安装问题可能并非直接由 LILO 引起，因此继续进行安装也许是可行的。
+Description-zh_TW.UTF-8: LILO 的安裝失敗了。是否無論如何仍然繼續？
+Extended_description-zh_TW.UTF-8: 無法將 lilo 套件安裝至 /target/。安裝 LILO 以作為開機程式乃是不可或缺的步驟﹔然而，安裝失敗的原因可能並不是出在 LILO 身上，所以繼續進行安裝或許是無妨的。
+
+Name: lilo-installer/bootdev
+Type: select
+Choices: ${disc}: Master Boot Record, ${part}: new Debian partition, Other choice (Advanced)
+Description: LILO installation target:
+Extended_description: The LILO program needs to be installed to make your new system bootable. By installing it onto your disk's Master Boot Record, LILO will take complete control of the boot process, but if you want to use a different boot manager, just install LILO on the new Debian partition instead.\n\nIf unsure, install LILO into the Master Boot Record.
+Choices-am.UTF-8: ${disc}: ዋና የቡት ማኅደር, ${part}: አዲስ የደቢያን ክፋይ, ሌሎች ምርጫዎች (በጥልቀት)
+Choices-ar.UTF-8: ${disc}: سجلّ الإقلاع الرّئيسي, ${part}: جزء ديبيان جديد, خيارٌ آخر (متقدّم)
+Description-ar.UTF-8: موضع تثبيت LiLo:
+Extended_description-ar.UTF-8: يجب تثبيت برنامج LILO كي يصبح نظامك الجديد قابلاً للإقلاع. بتثبيبه على سجلّ الإقلاع الرئيسي لقرصك الصلب سوف يتحكّم LILO بعمليّة الإقلاع بالكامل، ولكن إن أردت استخدام محمّل إقلاع آخر، فقط قم بتثبيت LILO على جزء ديبيان الجديد بدلاً من ذلك.\n\nإن لم تكن متأكّداً قم بتثبيت LiLo على سجلّ الإقلاع الرّئيسي.
+Choices-ast.UTF-8: ${disc}: Master Boot Record, ${part}: Nueva partición Debian, Otra escoyeta (Avanzáu)
+Description-ast.UTF-8: Destín de la instalación de LILO:
+Extended_description-ast.UTF-8: El programa LILO necesita instalase pa facer el to nuevu sistema arrancable. Pa instalase nel to Master Boot Record del discu, LILO tomará'l control completu del procesu d'arranque, pero si quies usar un xestor d'arranque distintu, instala igualmente LILO na nueva partición Debian.\n\nSi nun seguru, instala LILO nel Master Boot Record.
+Choices-be.UTF-8: ${disc}: галоўны загрузачны запіс, ${part}: новы падзел Debian, Іншае (дасведчаным)
+Description-be.UTF-8: Куды ўсталёўваць LILO:
+Extended_description-be.UTF-8: Каб Вашая новая сістэма магла загружацца, трэба ўсталяваць загрузчык LILO. Пры ўсталяванні ў галоўны загрузачны запіс (MBR) жорсткага дыска LILO цалкам кантралюе працэс загрузкі. Калі для гэтага Вы ўжываеце іншы загрузчык, можна проста ўсталяваць LILO ў падзел з новым Debian.\n\nКалі Вы няўпэўненыя, лепш усталяваць LILO ў асноўны загрузачны запіс (MBR).
+Choices-bg.UTF-8: ${disc}: Master Boot Record, ${part}: нов дял на Debian, Друг избор (за напреднали)
+Description-bg.UTF-8: Място за инсталиране на LILO:
+Extended_description-bg.UTF-8: Програмата LILO е нужно да бъде инсталирана, за да направи Вашата нова система способна за зареждане. Инсталирайки се в MBR, LILO ще поеме пълен контрол над процеса на зареждане, но ако искате да използвате друга програма за начално зареждане, просто инсталирайте LILO върху дяла на Debian.\n\nАко сте несигурен(-на), инсталирайте LILO в MBR.
+Choices-bn.UTF-8: ${disc}: মাস্টার বুট রেকর্ড, ${part}: নতুন ডেবিয়ান পার্টিশন, অন্যান্য পছন্দ (উচ্চ পর্যায়ের)
+Description-bn.UTF-8: LILO-কে যেখানে ইনস্টল করা হবে:
+Extended_description-bn.UTF-8: আপনার নতুন সিস্টেমকে বুটযোগ্য করার জন্য LILO প্রোগ্রামটিকে ইনস্টল করা প্রয়োজন। ডিস্কের মাস্টার বুট রেকর্ডে LILO ইনস্টল করলে তা সম্পূর্ণ বুট প্রক্রিয়ার নিয়ন্ত্রণ গ্রহণ করবে। তবে আপনি যদি ভিন্ন কোন বুট ব্যবস্থাপক ব্যবহার করতে চান, তাহলে LILOকে ডেবিয়ানের জন্য তৈরিকৃত নতুন পার্টিশনে ইনস্টল করুন।\n\nঅনিশ্চিত হলে LILO-কে মাস্টার বুট রেকর্ডে ইনস্টল করুন।
+Choices-bs.UTF-8: ${disc} : Master Boot Record, ${part} : nova Debian particija, Drugi izbor (Napredno)
+Description-bs.UTF-8: LILO instalacijsko odredište:
+Extended_description-bs.UTF-8: LILO program treba biti instaliran kako bi Vaš novi sistem mogao podići. Instaliranjem na Master Boot Record vašeg diska, LILO će preuzeti potpunu kontrolu boot procesa, ali ako hoćete koristiti drugi boot manager, onda instalirajte LILO na Vašu novu Debian particiju.\n\nAko niste sigurni, instalirajte LILO na Master Boot Record.
+Choices-ca.UTF-8: ${disc}: Registre mestre d'arrencada, ${part}: nova partició de Debian, Altra opció (avançat)
+Description-ca.UTF-8: Objectiu d'instal·lació de LILO:
+Extended_description-ca.UTF-8: Es necessita instal·lar el programa LILO per a fer el vostre nou sistema arrencable. Instal·lant-lo al registre mestre d'arrencada del vostre disc, LILO prendrà control total del procés d'arrencada, però si voleu utilitzar un altre carregador, simplement instal·leu LILO en la nova partició de Debian.\n\nSi no n'esteu segur, instal·leu LILO al registre mestre d'arrencada.
+Choices-cs.UTF-8: ${disc}: Hlavní zaváděcí záznam, ${part}: nová oblast Debianu, Jiná volba (Pokročilé)
+Description-cs.UTF-8: Cíl pro instalaci LILA:
+Extended_description-cs.UTF-8: Abyste mohli zavádět svůj nový systém, musí se nainstalovat program LILO. Nainstalujete-li jej do hlavního zaváděcího záznamu svého disku, LILO převezme kontrolu nad zaváděcím procesem. Chcete-li použít jiný zavaděč, nainstalujte LILO do oblasti s nově instalovaným systémem.\n\nPokud si nejste jisti, nainstalujte LILO do hlavního zaváděcího záznamu (MBR).
+Choices-cy.UTF-8: ${disc}: Cofnod Ymgychwyn Meistr, ${part}: rhaniad newydd Debian, Dewis arall (Estynedig)
+Description-cy.UTF-8: Targed sefydlu LILO:
+Extended_description-cy.UTF-8: Rhaid i'r rhaglen LILO gael ei sefydlu er mwyn galluogi eich system Debian newydd i gychwyn. Wrth ei sefydlu ar Cofnod Cychwyn Meistr eich disg, fe fydd LILO yn rheoli'r broses cychwyn yn gyfan gwbl, ond os hoffech ddefnyddio rheolwr cychwyn gwahanol, sefydlwch LILO i'r rhaniad Debian newydd yn lle.\n\nOs nad ydych chi'n sicr, sefydlwch LILO i'r Cofnod Meistr Cychwyn.
+Choices-da.UTF-8: ${disc}: Opstartsspor (MBR), ${part}: Ny Debianpartition, Andre valg (Avanceret)
+Description-da.UTF-8: LILO-installationsmål:
+Extended_description-da.UTF-8: Programmet LILO skal installeres for at gøre dit nye system i stand til at starte op. Hvis du installerer det på din disks opstartsspor (»master boot record«), vil LILO helt overtage styringen af opstartsprocessen, men hvis du ønsker at bruge en anden opstartshåndtering, kan du blot installere LILO på den nye Debianpartition i stedet.\n\nHvis du er usikker, så installer LILO i opstartssporet.
+Choices-de.UTF-8: ${disc}: Master Boot Record, ${part}: Neue Debian-Partition, Andere Auswahl (Erweitert)
+Description-de.UTF-8: Ziel für die LILO-Installation:
+Extended_description-de.UTF-8: Das Programm LILO muss installiert werden, damit Ihr Computer starten kann. Wird LILO in den Master Boot Record Ihrer Festplatte installiert, übernimmt LILO den Bootvorgang Ihres Computers. Möchten Sie einen anderen Bootmanager dazu benutzen, können Sie LILO stattdessen auf Ihrer neuen Debian-Partition installieren.\n\nWenn Sie sich nicht sicher sind, sollten Sie LILO im Master Boot Record installieren.
+Choices-dz.UTF-8: ${disc}:ཨམ་བུཊི་དྲན་ཐོ།, ${part}:ཌི་བིཡཱན་བར་བཅད་གསརཔ།, གདམ་ཁ་གཞན་ (Advanced)
+Description-dz.UTF-8: ལི་ལོ་གཞི་བཙུགས་འབད་ནིའི་དམིགས་གཏད།
+Extended_description-dz.UTF-8: ཁྱོད་ཀྱི་རིམ་ལུགས་གསརཔ་བུཊི་འབད་བཏུབ་བཟོ་ནི་ལུ་ལི་ལོ་ལས་རིམ་འདི་གཞི་བཙུགས་འབད་དགོ། འདི་ཁྱོད་ཀྱི་ཌིཀསི་བུཊི་ཨམ་དྲན་ཐོ་ནང་ལུ་གཞི་བཙུགས་འབད་བའི་ཐོག་ལས་ལི་ལུ་འདི་གིས་བུཊི་ལས་སྦྱོར་འདི་གི་མཇུག་བསྡུ་ཚད་འཛིན་འབག་ནི་ དེ་འབདཝ་ད་ཁྱོད་བུཊི་འཛིན་སྐྱོང་པ་སོ་སོ་ལག་ལེན་འཐབ་དགོ་པ་ཅིན་ ཌི་བིཡཱན་གསརཔ་གི་ཚབ་ལུ་ལི་ལོ་གཞི་བཙུགས་འབད།\n\nལག་ལེན་འཐབ་མི་མེན་པ་ཅིན་ བུཊི་ཨམ་དྲན་ཐོ་ནང་ལུ་ལི་ལོ་གཞི་བཙུགས་འབད།
+Choices-el.UTF-8: ${disc}: Master Boot Record, ${part}: νέα κατάτμηση Debian, Άλλη επιλογή (για προχωρημένους)
+Description-el.UTF-8: Προορισμός εγκατάστασης του LILO:
+Extended_description-el.UTF-8: Για να γίνει το νέο σας σύστημα εκκινήσιμο, θα πρέπει να εγκαταστήσετε το φορτωτή LILO. Με την εγκατάστασή του στο Master Boot Record του σκληρού σας δίσκου, το LILO θα έχει τον πλήρη έλεγχο της διαδικασίας εκκίνησης, αλλά αν θέλετε να χρησιμοποιήσετε κάποιο άλλο διαχειριστή εκκίνησης, απλώς εγκαταστήστε το LILO στη νέα κατάτμηση Debian.\n\nΑν δεν είστε σίγουροι, εγκαταστήστε το LILO στο Master Boot Record.
+Choices-eo.UTF-8: ${disc}: Ĉefa Ekŝarga Rikordo (MBR), ${part}: nova Debiana diskparto, Alia elekto (por spertuloj)
+Description-eo.UTF-8: Instal-celo de LILO:
+Extended_description-eo.UTF-8: La programo LILO devos esti instalita por ke via nova sistemo estu ekŝargebla. Instalinte ĝin sur via Ĉefa Ekŝarga Rikordo, LILO plene regos la ekŝargon, sed se vi volas uzi alian ekŝargilon, simple instalu LILO-n sur la nova Debiana diskparto anstataŭe.\n\nSe vi dubas, instalu LILO-n sur la Ĉefa Ekŝarga Rikordo (MBR).
+Choices-es.UTF-8: ${disc}: Master Boot Record, ${part}: nueva partición Debian, Otra opción (Avanzado)
+Description-es.UTF-8: Destino de la instalación de LILO:
+Extended_description-es.UTF-8: Para que el nuevo sistema Debian pueda arrancar debe instalar el programa LILO. LILO tomará control de todo el proceso de arranque si lo instala en el «Master Boot Record» del disco. Si desea utilizar otro cargador de arranque simplemente instale LILO en su nueva partición Debian.\n\nInstale LILO en el «Master Boot Record» si no sabe dónde debe instalarlo.
+Choices-et.UTF-8: ${disc}: peamine alglaadimiskirje (MBR), ${part}: uus Debiani partitsioon, Muu valik (kogenud kasutajale)
+Description-et.UTF-8: LILO paigaldamise sihtpunkt:
+Extended_description-et.UTF-8: Su uue süsteemi alglaaditavaks tegemiseks on tarvis paigaldada programm LILO. Seda MBR'i paigaldades võtab LILO kogu alglaadimisprotsessi enda kontrolli alla. Kui soovid kasutada mõnd teist alglaadurit, paigalda LILO lihtsalt oma uuele Debiani partitsioonile.\n\nKui sa pole kindel, paigalda LILO peamise alglaadimiskirje (MBR) peale.
+Choices-eu.UTF-8: ${disc}: abioko erregistro maisua, ${part}: Debian-en partizio berria, Beste aukera (aurreratua)
+Description-eu.UTF-8: LILO instalatzeko helburua:
+Extended_description-eu.UTF-8: LILO programa instalatu behar da sistema berria abiagarri egiteko. Diskoko abioko erregistro maisuan instalatuz gero, LILOk abio-prozesuaren kontrol osoa izango du, baina beste abioko kudeatzaile bat erabili nahi baduzu, instalatu LILO Debian-en partizio berrian.\n\nZiur ez bazaude, instalatu LILO abioko erregistro maisuan.
+Choices-fa.UTF-8: ${disc}: Master Boot Record, ${part}: پارتیشن جدید دبیان, انتخاب‌های دیگر (پیشرفته)
+Description-fa.UTF-8: پارتیشن مورد نظر برای نصب LILO
+Extended_description-fa.UTF-8: به منظور آنکه سیستم شما قابل بوت باشد برنامه LILO باید نصب شود. با نصب آن بر روی MBR تمام پروسه بوت را در اختیار می‌گیرد, در صورتی که از نرم‌افزار مدیریت بوت دیگری می‌خواهید استفاده کنید کافی است LILO را در پارتیشن دبیان که جدیداً نصب شده نصب نمایید.\n\nاگر مطمئن نیستید، LILO را درون Master Boot Record نصب کنید .
+Choices-fi.UTF-8: ${disc}: Pääkäynnistyslohko, ${part}: uusi Debian-levyosio, Muu valinta (Lisäasetukset)
+Description-fi.UTF-8: LILO asennetaan tähän:
+Extended_description-fi.UTF-8: LILO-ohjelma on asennettava, jotta uusi järjestelmä voidaan käynnistää. Asentamalla LILO levyn pääkäynnistyslohkoon, se huolehtii koko käynnistyksestä. Jos haluat käyttää jotain muuta alkulatausohjelmaa, asenna LILO uuteen Debianin levyosioon. \n\nJos olet epävarma, asenna LILO pääkäynnistyslohkoon.
+Choices-fr.UTF-8: ${disc} : secteur principal d'amorçage, ${part} : nouvelle partition Debian, Autre choix (pour experts)
+Description-fr.UTF-8: Emplacement d'installation de lilo :
+Extended_description-fr.UTF-8: Le programme lilo doit être installé pour permettre au nouveau système de démarrer. S'il est installé sur le secteur d'amorçage principal du disque, lilo prendra complètement en charge le processus de démarrage. Au contraire, si vous préférez utiliser un autre gestionnaire d'amorçage, installez plutôt lilo sur la nouvelle partition.\n\nDans le doute, installez lilo sur le secteur principal d'amorçage.
+Choices-ga.UTF-8: ${disc}: Teascóg na Deighilte, ${part}: deighilt nua Debian, Rogha eile (Ardsocrú)
+Description-ga.UTF-8: Sprioc shuiteála LILO:
+Extended_description-ga.UTF-8: Caithfear LILO a bheith suiteáilte chun do chóras nua a dhéanamh intosaithe. Nuair a shuiteálann tú ar theascóg na deighilte é, rachaidh LILO i gceannas ar an bpróiseas tosaithe, ach más mian leat bainisteoir tosaithe eile a úsáid, suiteáil LILO ar an deighilt nua Debian ina áit sin.\n\nMura bhfuil tú cinnte, suiteáil LILO ar Theascóg na Deighilte (MBR).
+Choices-gl.UTF-8: ${disc}: MBR (sector mestre do arranque), ${part}: nova partición de Debian, Outra opción (Avanzado)
+Description-gl.UTF-8: Destino da instalación de LILO: 
+Extended_description-gl.UTF-8: Debe instalarse o programa LILO para poder facer que o seu novo sistema arrinque. Ao instalalo no MBR (sector mestre de arranque) do disco, LILO ha tomar o control completo do proceso de arranque, pero se quere empregar un cargador diferente, só ten que instalar LILO na nova partición de Debian.\n\nSe non está seguro, instale LILO no sector mestre de arranque.
+Choices-gu.UTF-8: ${disc}: મુખ્ય બૂટ રેકોર્ડ, ${part}: નવું ડેબિયન પાર્ટિશન, બીજા વિકલ્પ (ઉચ્ચ)
+Description-gu.UTF-8: LILO સ્થાપન લક્ષ્ય:
+Extended_description-gu.UTF-8: LILO કાર્યક્રમ તમારી નવી સિસ્ટમને બૂટેબલ બનાવવા માટે સ્થાપિત કરવો જરુરી છે. તેને મુખ્ય બૂટ રેકોર્ડમાં સ્થાપિત કરીને, LILO સંપૂર્ણ બૂટ પ્રક્રિયાનો ખ્યાલ રાખશે, પણ જો તમારે બીજું કોઇ બૂટ વ્યવસ્થાપક જોઇતું હોય તો, LILO ને નવાં ડેબિયન પાર્ટિશનમાં સ્થાપિત કરો.\n\nજો તમે અચોક્કસ હોવ તો, LILO ને માસ્ટર બૂટ રેકોર્ડમાં સ્થાપિત કરો.
+Choices-he.UTF-8: ${disc}: Master Boot Record, ${part}: מחיצת דביאן חדשה, בחירה אחרת (מתקדם)
+Description-he.UTF-8: יעד להתקנת LILO:
+Extended_description-he.UTF-8: צריך להתקין את LILO כדי להפוך את המערכת החדשה שלך לברת אתחול. על ידי התקנה שלה לתוך ה-master boot record, LILO תיקח שליטה מלאה על תהליך האתחול. אם תרצה להשתמש במנהל אתחול אחר, התקן את LILO על מחיצת דביאן החדשה שלך.\n\nאם אינך בטוח, התקן את LILO על ה-Master Boot Record.
+Choices-hi.UTF-8: ${disc}: मास्टर बूट रेकॉर्ड, ${part}: नया डेबियन पार्टीशन, अन्य चुनाव (विस्तृत)
+Description-hi.UTF-8: लिलो संस्थापना लक्ष्य:
+Extended_description-hi.UTF-8: आपके नये तंत्र को बूट करने योग्य बनाने के लिए लिलो अनुप्रयोग को संस्थापित करना होगा. यदि आप लिलो को अपनी डिस्क के मास्टर बूट रिकॉर्ड में संस्थापित करते हैं तो यह पूरी बूट प्रक्रिया पर नियंत्रण कर लेगा, परंतु यदि आप कोई और बूटप्रबंधक प्रयोग करना चाहते हैं तो लिलो को केवल नये डेबियन पार्टिशन में ही संस्थापित करें.\n\nयदि सुनिश्चित न हों तो लिलो को मास्टर बूट रिकॉर्ड में संस्थापित करें.
+Choices-hr.UTF-8: ${disc}: osnovni boot zapis, ${part}: nova Debian particija, Druge mogućnosti (napredne)
+Description-hr.UTF-8: Instaliraj LILO na:
+Extended_description-hr.UTF-8: Program LILO treba biti instaliran da bi se vaš novi sustav mogao podignuti. Ako ga instalirate u osnovni boot zapis (master boot record) vašeg diska, LILO će preuzeti potpunu kontrolu nad postupkom podizanja sustava, ali ako ćete koristiti neki drugi boot upravljač, instalirajte LILO na novu Debianovu particiju.\n\nAko dvojite, instalirajte LILO u osnovni boot zapis.
+Choices-hu.UTF-8: ${disc}: fő rendszerbetöltő-rekord, ${part}: új Debian partíció, Más választás (Haladó)
+Description-hu.UTF-8: Hova kerüljön a LILO:
+Extended_description-hu.UTF-8: A LILO program telepítése szükséges az új rendszer indíthatóvá tételéhez. A lemez MBR-jébe telepítve a LILO az indítási folyamat felett átveszi a teljes irányítást, más boot kezelő tervbe vétele esetén viszont a LILO-t csak az új Debain partícióra telepítjük.\n\nKétség esetén telepítsd a LILO-t az MBR-be.
+Choices-id.UTF-8: ${disc}: Master Boot Record, ${part}: partisi baru Debian, Pilihan Lain (Tingkat Mahir)
+Description-id.UTF-8: Target pemasangan LILO:
+Extended_description-id.UTF-8: Program LILO perlu dipasang agar sistem Debian Anda yang baru dapat diboot. Dengan memasang pada Master Boot Record dari hard disk Anda, LILO akan mengatur secara penuh pengaturan proses boot. Namun, bila Anda ingin menggunakan boot manager lain, pasang saja LILO pada partisi dari sistem Debian Anda ini.\n\nJika tidak yakin, pasang LILO pada Master Boot Record.
+Choices-is.UTF-8: ${disc}: Aðaldiskræsigeiri (Master Boot Record), ${part}: ný Debian disksneið, Annað val (Ítarlegt)
+Description-is.UTF-8: LILO uppsetning á:
+Extended_description-is.UTF-8: Það þarf að setja upp LILO forritið til að gera nýja kerfið þitt ræsanlegt. Með því að setja það upp á MBR aðaldiskræsigeira disksins, mun LILO stjórna ræsiferlinu algerlega. Ef þú vilt frekar nota annan ræsistjóra, þá seturðu LILO frekar upp á nýju Debian disksneiðinni.\n\nEf þú ert óviss, settu þá LILO á aðal ræsisvæðið (MBR).
+Choices-it.UTF-8: ${disc}: Master Boot Record, ${part}: nuova partizione Debian, Altra scelta (avanzato)
+Description-it.UTF-8: Destinazione dell'installazione di LILO:
+Extended_description-it.UTF-8: Il programma LILO deve essere installato per rendere avviabile il nuovo sistema. Installandolo sul Master Boot Record del vostro disco, LILO prenderà il controllo del processo di avvio, ma se si vuole usare un differente gestore di avvio, basterà installare LILO sulla nuova partizione Debian.\n\nSe incerti, installare LILO sul Master Boot Record.
+Choices-ja.UTF-8: ${disc}: マスターブートレコード, ${part}: 新しい Debian パーティション, その他の選択 (上級者向け)
+Description-ja.UTF-8: LILO のインストールターゲット:
+Extended_description-ja.UTF-8: あなたの新しいシステムを起動できるように、LILO プログラムをインストールする必要があります。あなたのディスクのマスターブートレコードにインストールすると、LILO は起動処理の完全な制御を手に入れることができますが、異なるブートマネージャを使いたいのであれば、代わりに単に新しい Debian パーティションに LILO をインストールしてください。\n\nよくわからなければ、マスターブートレコードに LILO をインストールしてください。
+Choices-ka.UTF-8: ${disc}: ჩატვირთვის მთავარ ჩანაწერში, ${part}: Debian-ის ახალი დანაყოფი, სხვაგან (გაფართოებული რეჟიმი)
+Description-ka.UTF-8: LILO-ს დაყენება:
+Extended_description-ka.UTF-8: იმისათვის, რომ ახალი სისტემა ჩატვირთვადი გახდეს, საჭიროა პროგრამა LILO-ს დაყენება. დისკების ჩატვირთვის მთავარ ჩანაწერში დაყენებული, LILO მთლიანად გაუძღვება ჩატვირთვის პროცესს, მაგრამ თუ თქვენ სხვა ჩამტვირთველის გამოყენებას აპირებთ, მაშინ დააყენეთ LILO Debian-ის ახალ დანაყოფიში.\n\nთუ არა ხართ დარწმუნებული როგორ ჯობია, დააყენეთ LILO ჩატვირთვის მთავარ ჩანაწერში (MBR)
+Choices-kk.UTF-8: ${disc}: бас жүктелу жазбасы (MBR), ${part}: жаңа Debian бөлімі, Басқа таңдау (Кеңейтілген режим)
+Description-kk.UTF-8: LILO орнату жері:
+Extended_description-kk.UTF-8: Жаңа жүйені қосыла алатындай ету үшін, LILO бағдарламасы қолданылады. Дисктің бас жүктелу жазбасына (MBR) орнату арқылы LILO жүктеу барысын басқаратын болады. Егер сіз басқа жүктеушіні пайдалануды қаласаңыз, LILO бағдарламасын жаңа Debian бөліміне орната салыңыз.\n\nНе таңдарын білмесеңіз, LILO жүктеуішін бас жүктелу жазбасына (MBR) орнатыңыз.
+Choices-km.UTF-8: ${disc} ៖ Master Boot Record, ${part} ៖ ភាគថាស​ដេបៀន​ថ្មី, ជម្រើស​​ផ្សេង​ទៀត (កម្រិត​ខ្ពស់)
+Description-km.UTF-8: គោល​ដៅ​ដំឡើង​ LILO ៖
+Extended_description-km.UTF-8: អ្នក​ត្រូវ​តែ​ដំឡើង​កម្មវិធី LILO ដើម្បី​ធ្វើ​ឲ្យ​ប្រព័ន្ធ​របស់​អ្នក​អាច​ចាប់ផ្ដើម​បាន ។ ដោយ​ដំឡើង​វា​ទៅ​ក្នុង Master Boot Record របស់​ថាស​រឹង​របស់​អ្នក LILO នឹង​ត្រួតត្រា​ដំណើរការ​ចាប់ផ្ដើម​ទាំងស្រុង​តែ​ម្ដង ប៉ុន្តែ​បើ​អ្នក​ចង់​ប្រើ​កម្មវិធី​គ្រប់គ្រង​ការ​ចាប់ផ្ដើម​ផ្សេង​ទៀត អ្នក​គ្រាន់​តែ​ដំឡើង​ LILO លើ​ភាគថ្មី​របស់​ដេបៀន ជាការស្រេច​ ។\n\nបើ​មិន​ច្បាស់ សូម​ដំឡើង LILO ទៅ​ក្នុង Master Boot Record ។
+Choices-kn.UTF-8: ${disc}: Master Boot Record, $(part):ಹೊಸ ಡೆಬಿಯನ್ ವಿಬಜನೆ, ಇನ್ನಿತರ ಆಯ್ಕೆಗಳು
+Description-kn.UTF-8: ಲಿಲೊ ಅನುಷ್ಟಾಪನ್ target
+Extended_description-kn.UTF-8: ನಿಮ್ಮ ಗಣಕ ಬೂಟ್ ಆಗಲು ಲಿಲೊಅನ್ನು ಅನುಷ್ಟಪಿಸುವ ಅಗತ್ಯವಿದೆ.MBR ನಲ್ಲಿ ಅನುಷ್ಟಪಿಸುವುದರಿಂದ ಗಣಕದ ಬೊಟ್ ಕಾರ್ಯದ ಸಂಪೂರ್ಣ ಹತೋಟಿ ಲಿಲೊಗೆ ಬರುತ್ತದೆ.ಆದರೆ ನೀವು ಬೇರೆ ಬೂಟ್ ನಿರ್ವಾಹಕನ್ನನ್ನು ಬಳಸಲು ಇಚ್ಚಿಸಿದ್ದಲ್ಲಿ ,ಲಿಲೊವನ್ನು ನಿಮ್ಮ ಹೊಸ ಡೆಬಿಯನ್ disk ವಿಭಾಗದಲ್ಲಿ ಮಾತ್ರ ಅನುಷ್ಟಾಪಿಸಿ\n\nಖಾತರಿಯಿಲ್ಲದಿದ್ದಲ್ಲಿ ಲಿಲೊಅನ್ನು Master Boot Record ನಲ್ಲಿ ಅನುಷ್ಠಾಪಿಸಿ
+Choices-ko.UTF-8: ${disc}: 마스터 부트 레코드, ${part}: 새 데비안 파티션, 기타 (고급)
+Description-ko.UTF-8: LILO 설치 위치:
+Extended_description-ko.UTF-8: 새로 설치한 데비안 시스템이 부팅하려면 LILO 프로그램을 설치해야 합니다. 디스크의 마스터 부트 레코드에 설치하면, 부팅 과정을 LILO가 제어합니다. 그렇지 않고 다른 부팅 관리자를 사용하려면 새로 데비안을 설치한 파티션에 LILO를 설치하십시오.\n\n잘 모르겠으면, 마스터 부트 레코드에 LILO를 설치하십시오.
+Choices-ku.UTF-8: ${disc}: Master Boot Record, ${part}: partîsiyona Debian ya nû, Din
+Choices-lo.UTF-8: ${disc}: ມາດເຕີເຮຄຮ໋ອດ, ${part}: ພາທິຊັນເດບຽນທີ່ລົງໃໝ່, ຕົວເລືອກອື່ນ (ຊັ້ນສູງ)
+Description-lo.UTF-8: ຕໍ່າແໜ່ງທີ່ຈະຕິດຕັ້ງ LILO:
+Extended_description-lo.UTF-8: ທ່ານຈຳເປັນຕ້ອງຕິດຕັ້ງ LILO ເພື່ອໃຫ້ລະບົບທີ່ຕິດຕັ້ງໃໝ່ສາມາດບຣູດໄດ້ການຕິດຕັ້ງ LILO ລົງໃນມາດເຕີເຮຄຣ໋ອດຂອງຮາດດິກທີ່ ຈະເຮັດໃໝ່LILO ເຂົ້າຄວບຄຸມຂະບວນການບຣູດທັງໝົດແຕ່ຖ້າທ່ານໃຊ້ໂປແກຣມການຈັດການບຣູດຕົວອື່ນ ກໍ່ພຽງແຕ່ຕິດຕັ້ງ LILO ໃນພາທີຊັນເດບຽນທີ່ຕິດຕັ້ງໃໝ່ເທົ່ານັ້ນ.\n\nຖ້ບໍ່ໝັ້ນໃຈໃຫ້ຕິດຕັ້ງ LILO ລົງໃນມາດເຕີບຣູດເຮຄຣ໋ອດ
+Choices-lt.UTF-8: ${disc}: pagrindinis įkelties įrašas (Master Boot Record), ${part}: naujas Debian'o disko skirsnis, Kiti pasirinkimai (Išsamesni)
+Description-lt.UTF-8: LILO įdiegimo objektas:
+Extended_description-lt.UTF-8: Tam, kad naujai įdiegtą sistemą padaryti įkeliama, reikia įdiegti LILO pradinį įkėliklį. Įdiegus jį į disko pagrindinį įkelties įrašą (Master Boot Record), LILO atliks pilną įkėlimo proceso kontrolę, bet jei norite naudoti kitą pradinį įkėliklį, diekite LILO į naują Debian'o disko skirsnį.\n\nJei abejojate, diekite LILO į pagrindinį įkelties įrašą (Master Boot Record).
+Choices-lv.UTF-8: ${disc}: Galvenais palaišanas ieraksts (MBR), ${part}: jaunais Debian nodalījums, Cita izvēle (paplašināti)
+Description-lv.UTF-8: Vieta, kur instalēt LILO:
+Extended_description-lv.UTF-8: Lai varētu ielādēt jauno sistēmu, nepieciešams uzinstalēt palaidēju LILO. Instalējot LILO galvenajā palaišanas ierakstā (MBR), tas pilnībā pārņems palaišanas procesu. Ja vēlaties izmantot citu palaidēju, tad instalējiet LILO jaunā Debian nodalījuma sākumā.\n\nJa neesat droši, instalējiet LILO galvenajā palaišanas ierakstā (MBR).
+Choices-mk.UTF-8: ${disc}: Главен бут запис, ${part}: нова Debian партиција, Друг избор (Напредно)
+Description-mk.UTF-8: Место за инсталација на Lilo:
+Extended_description-mk.UTF-8: Програмот Lilo треба да се инсталира за да може твојот нов систем да биде бутабилен. Со инсталирање  на MBR(главниот бут запис) од тврдиот диск LILO ќе преземе целосна контролата на бут процесот. Но ако сакаш да користиш друг бут менаџер, само инсталирај го LILO на новата Debian партиција.\n\nАко не си сигурен, инсталирај го LILO на MBR(Главниот бут запис).
+Choices-ml.UTF-8: ${disc}: മാസ്റ്റര്‍ ബൂട്ട് റെകാര്‍ഡ്, ${part}: പുതിയ ഡെബിയന്‍ ഭാഗം, മറ്റൊരു തീരുമാനം (സങ്കീര്‍ണ്ണമായ)
+Description-ml.UTF-8: ലിലോ ഇന്‍സ്റ്റലേഷനുള്ള ലക്ഷ്യസ്ഥാനം:
+Extended_description-ml.UTF-8: നിങ്ങളുടെ സിസ്റ്റം ബൂട്ട് ചെയ്യുന്നതാക്കാന്‍ ലിലോ പ്രോഗ്രാം ഇന്‍സ്റ്റോള്‍ ചെയ്യേണ്ടതുണ്ടു്. ഡിസ്കിന്റെ മാസ്റ്റര്‍ ബൂട്ട് റെകാര്‍ഡില്‍ ഇന്‍സ്റ്റോള്‍ ചെയ്യുന്നതിലൂടെ ലിലോ ബൂട്ട് പ്രക്രിയയുടെ മുഴുവന്‍ നിയന്ത്രണവും ഏറ്റെടുക്കും, പക്ഷേ നിങ്ങള്‍ക്കു് വേറൊരു ബൂട്ട് മാനേജര്‍ ഉപയോഗിക്കണമെങ്കില്‍ ഇതിന് പകരമായി ലിലോ പുതിയ ഡെബിയന്‍ ഭാഗത്തു് ഇന്‍സ്റ്റോള്‍ ചെയ്താല്‍ മാത്രം മതി.\n\nഉറപ്പില്ലെങ്കില്‍ ലിലോ മാസ്റ്റര്‍ ബൂട്ട് റെകാര്‍ഡില്‍ ഇന്‍സ്റ്റോള്‍ ചെയ്യുക.
+Choices-mr.UTF-8: ${disc}: मुख्य आरंभ अभिलेख, ${part}: नवीन डेबियन विभाजन, इतर पर्याय (प्रगत)
+Description-mr.UTF-8: लिलो अधिष्ठापित करण्याचे इच्छित स्थळ:
+Extended_description-mr.UTF-8: आपली नवीन प्रणाली आरंभयोग्य करण्यासाठी आपल्याला लिलो आरंभ सुचक अधिष्ठापित करणे गरजेचे आहे. डिस्कच्या मुख्य आरंभ  अभिलेखामधे (एमबीआर) अधिष्ठापित केल्यास लिलो आरंभ प्रक्रीयेवर संपूर्ण ताबा ठेवेल. पण आपल्याला वेगळा आरंभ सुचक वापरायचा असल्यास लिलो  नवीन डेबियन विभाजनावर अधिष्ठापित करा.\n\nखात्री नसल्यास लिलो मुख्य आरंभ  अभिलेखामधे (एमबीआर) अधिष्ठापित करा.
+Choices-nb.UTF-8: ${disc} : Hovedoppstartsspor (MBR), ${part} : ny Debian-partisjon, Annet valg (avansert)
+Description-nb.UTF-8: Mål for LILO-installasjonen:
+Extended_description-nb.UTF-8: LILO-programmet må installeres for at det nye systemet skal kunne startes opp. Hvis LILO installeres på harddiskens hovedoppstartsspor (MBR), så kan LILO få full kontroll over oppstartsprosessen, men hvis du vil bruke en annen oppstartslaster, så kan du bare installere LILO på den nye Debian-partisjonen i stedet.\n\nEr du usikker, så installer LILO på hovedoppstartssporet.
+Choices-ne.UTF-8: ${disc}: मास्टर बुट रेकर्ड, ${part}: नयाँ डेवियन विभाजन, अन्य छनौट (विकाशित)
+Description-ne.UTF-8: LILO स्थापना लक्ष्य:
+Extended_description-ne.UTF-8: तपाईँको नयाँ प्रणालीलाई बुटेवल पार्न LILO कार्यक्रम स्थापना हुन आवश्यक छ । तपाईँको डिस्कको मास्टर बुट रेकर्डमा यसलाई स्थापना गर्नाले, LILO ले बुट प्रक्रियाको पुरै नियन्त्रण लिन्छ, तर यदि तपाईँ विभिन्न बुट प्रबन्धक प्रयोग गर्न चाहनुहुन्छ भने, सट्टामा नयाँ डेवियन विभाजनमा मात्र LILO स्थापना गर्नुहोस् । \n\nयदि अनिश्चित हुनुहुन्छ भने, LILO लाई मास्टर बुट रेकर्डमा स्थापना गर्नुहोस् ।
+Choices-nl.UTF-8: ${disc}: Master Boot Record, ${part}: nieuwe Debian-partitie, Andere keuze (geavanceerd)
+Description-nl.UTF-8: Wat is het LILO-installatiedoelwit?
+Extended_description-nl.UTF-8: De LILO-opstartlader dient geïnstalleerd te worden om uw nieuwe systeem opstartbaar te maken. Door LILO in het 'master boot record' van uw schijf te installeren, geeft u LILO totale controle over het opstartproces. Als u een andere opstartlader wilt gebruiken, kunt u in plaats hiervan LILO op de nieuwe Debian-partitie installeren.\n\nBij twijfel, installeert u LILO best in het Master Boot Record.
+Choices-nn.UTF-8: ${disc}: Hovudoppstartspor, ${part}: ny Debian-partisjon, Andre val (Avansert)
+Description-nn.UTF-8: Mål for LILO-installasjonen:
+Extended_description-nn.UTF-8: Programmet LILO må installerast for at det nye systemet ditt skal kunne startast opp. Ved å installere det på hovudoppstartsporet (MBR) på den første harddisken vil LILO ta full kontroll på oppstartsprosessen. Men viss du vil bruke ein anna oppstartshandterar, kan du installere LILO på den nye partisjonen det nye systemet er installert på i staden.\n\nViss du er usikker, installer LILO på hovudoppstartsporet.
+Choices-no.UTF-8: ${disc} : Hovedoppstartsspor (MBR), ${part} : ny Debian-partisjon, Annet valg (avansert)
+Description-no.UTF-8: Mål for LILO-installasjonen:
+Extended_description-no.UTF-8: LILO-programmet må installeres for at det nye systemet skal kunne startes opp. Hvis LILO installeres på harddiskens hovedoppstartsspor (MBR), så kan LILO få full kontroll over oppstartsprosessen, men hvis du vil bruke en annen oppstartslaster, så kan du bare installere LILO på den nye Debian-partisjonen i stedet.\n\nEr du usikker, så installer LILO på hovedoppstartssporet.
+Choices-pa.UTF-8: ${disc}: ਮਾਸਟਰ ਬੂਟ ਰਿਕਾਰਡ, ${part}: ਨਵਾਂ ਡੇਬੀਅਨ ਭਾਗ, ਹੋਰ ਚੋਣ (ਤਕਨੀਕੀ)
+Description-pa.UTF-8: LILO ਇੰਸਟਾਲੇਸ਼ਨ ਟਾਰਗੇਟ:
+Extended_description-pa.UTF-8: ਤੁਹਾਡਾ ਨਵਾਂ ਸਿਸਟਮ ਬੂਟ ਕਰਨ ਯੋਗ ਬਣਾਉਣ ਲਈ LILO ਪ੍ਰੋਗਰਾਮ ਇੰਸਟਾਲ ਕਰਨ ਦੀ ਲੋੜ ਹੈ। ਇਸ ਨੂੰ ਤੁਹਾਡੀ ਡਿਸਕ ਦੇ ਮਾਸਟਰ ਬੂਟ ਰਿਕਰਡ ਤੇ ਇੰਸਟਾਲ ਕਰਨ ਨਾਲ, LILO ਪੂਰੇ ਬੂਟ ਕਾਰਜ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੇਗਾ, ਪਰ ਜੇ ਤੁਸੀਂ ਹੋਰ ਬੂਟ ਮੈਨੇਜਰ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ, ਆਪਣੇ ਨਵੇਂ ਡੇਬੀਅਨ ਸਿਸਟਮ ਤੇ ਸਿਰਫ LILO ਇੰਸਟਾਲ ਕਰੋ।\n\nਜੇ ਯਕੀਨ ਨਹੀਂ, LILO ਨੂੰ ਮਾਸਟਰ ਬੂਟ ਰਿਕਾਰਡ ਤੇ ਇੰਸਟਾਲ ਕਰੋ।
+Choices-pl.UTF-8: ${disc} : główny rekord rozruchowy, ${part} : nowa partycja Debiana, Inny wybór (zaawansowane)
+Description-pl.UTF-8: Miejsce instalacji LILO:
+Extended_description-pl.UTF-8: Aby umożliwić uruchamianie systemu, należy zainstalować program LILO. Instalując go do głównego rekordu rozruchowego, sprawisz, że LILO przejmie kontrolę nad całym procesem uruchamiania. Jeśli jednak chcesz skorzystać z innego programu rozruchowego, zainstaluj LILO na nowej partycji Debiana.\n\nJeśli nie jesteś pewien, wybierz instalację w głównym rekordzie rozruchowym.
+Choices-pt.UTF-8: ${disc} ; Master Boot Record, ${part}: nova partição Debian, Outras escolhas (Avançado)
+Description-pt.UTF-8: Alvo da instalação do LILO:
+Extended_description-pt.UTF-8: O programa LILO necessita ser instalado para tornar o seu novo sistema iniciável. Ao ser instalado no Master Boot Record do seu disco, o LILO tomará o controlo completo do processo de arranque, mas se desejar utilizar outro gestor de arranque, instale o LILO apenas na nova partição.\n\nSe não tiver certeza, instale o LILO no Master Boot Record.
+Choices-pt_BR.UTF-8: ${disc}: Registro Mestre de Inicialização, ${part}: nova partição Debian, Outra opção (Avançado)
+Description-pt_BR.UTF-8: Alvo para instalação do LILO:
+Extended_description-pt_BR.UTF-8: O programa LILO precisa ser instalado para fazer com que seu novo sistema recém-instalado seja inicializável. Com a instalação do LILO no Registro Mestre de Inicialização, o mesmo terá controle total do processo de inicialização, mas, caso você prefira usar um gerenciador de inicialização diferente, simplesmente instale o LILO na nova partição Debian.\n\nCaso não tenha certeza sobre o que fazer, instale o LILO no Registro Mestre de Inicialização.
+Choices-ro.UTF-8: ${disc}: Înregistrarea Master Boot, ${part}: partiție nouă Debian, Altă opțiune (Avansat)
+Description-ro.UTF-8: Ținta instalării LILO:
+Extended_description-ro.UTF-8: Programul LILO trebuie să fie instalat, pentru a putea porni noul dumneavoastră sistem. Prin instalarea sa în Înregistrarea Master Boot, LILO va prelua complet controlul asupra procesului de pornire, dar dacă doriți să utilizați un alt încărcător de sistem, pur și simplu instalați LILO pe noua partiție Debian, în loc de Înregistrarea Master Boot.\n\nDacă aveți îndoieli, instalați LILO în Înregistrarea Master Boot.
+Choices-ru.UTF-8: ${disc}: в главную загрузочную запись (MBR), ${part}: в новый раздел Debian, в другое место (расширенный режим)
+Description-ru.UTF-8: Произвести установку LILO:
+Extended_description-ru.UTF-8: Чтобы новая система смогла загрузиться, нужно установить программу LILO. Установка в главную загрузочную запись (MBR) диска сделает LILO основным загрузчиком на вашем компьютере, но если вы хотите использовать другой загрузчик, установите LILO в раздел, в который вы установили Debian.\n\nЕсли вы не знаете, что выбрать -- устанавливайте LILO в главную загрузочную запись (MBR).
+Choices-si.UTF-8: ${disc}: ප්‍රධාන ආරම්භක වාර්ථාව, ${part}: නව Debian කොටස, වෙනත් තෝරාගැනීම (උසස්)
+Description-si.UTF-8: LILO ස්ථාපන ඉලක්කය:
+Extended_description-si.UTF-8: ඔබේ පද්ධතිය ආරම්භ කල හැකි වීමට LILO වැඩටහන ස්ථාපනය විය යුතුයි. ඔබේ තැටියේ ප්‍රධාන ආරම්භක වාර්ථාවට ස්ථාපනය වීම තුළින් LILO විසින් සම්පූර්ණ ආරම්භක ක්‍රියාවලියේ පාලනය ලබාගනු ඇත, එහෙත් ඔබට වෙනත් ආරම්භක පාලකයක් භාවිත කිරීමට ඇවැසි නම්. නව Debian කොටසක LILO ස්ථාපනය කරන්න.\n\nසැකසහිත නම්, LILO ප්‍රධාන ආරම්භක වාර්ථාවට ස්ථාපනය කරන්න.
+Choices-sk.UTF-8: ${disc}: hlavný štartovací záznam (MBR), ${part}: nová oblasť pre Debian, Ďalšie voľby (Rozšírené)
+Description-sk.UTF-8: Cieľ inštalácie LILO:
+Extended_description-sk.UTF-8: Program LILO musí byť nainštalovaný, aby ste mohli naštartovať váš nový systém. Jeho nainštalovaním na hlavný štartovací záznam (MBR) vášho disku, LILO prevezme kontrolu nad štartovacím procesom, ale ak chcete použiť iný zavádzač, LILO nainštalujte iba na novú oblasť Debianu.\n\nAk si nie ste istí, nainštalujte LILO na hlavný štartovací záznam (MBR)
+Choices-sl.UTF-8: ${disc}: Glavni zagonski zapis, ${part}: novi Debianov razdelek, Druga izbira (Napredno)
+Description-sl.UTF-8: Namestitvena tarča za LILO
+Extended_description-sl.UTF-8: Za zaganjanje vašega sistema morate namestiti program LILO. V primeru, da ga boste namestili na glavni zagonski zapis, bo v celoti nadzoroval zagonski proces, če pa želite uporabiti drug zagonski nalagalnik, preprosto namestite LILO na nov Debian razdelek.\n\nČe niste prepričani, namestite LILO v glavni zagonski zapis (MBR).
+Choices-sq.UTF-8: ${disc}: Master Boot Record, ${part}: ndarja e re Debian, Zgjedhje tjetër (e Përparuar)
+Description-sq.UTF-8: Pozicioni ku do instalohet LILO:
+Extended_description-sq.UTF-8: Programi LILO duhet instaluar për të nisur sistemin tënd të ri. Duke e instaluar atë në MBR-në e diskut, LILO do ketë kontrollin e plotë të proçesit të nisjes, por nëse dëshiron të përdorësh një organizues tjetër nisjeje, instaloje LILO në ndarjen e re.\n\nNëse je i pasigurtë, instaloje LILO në MBR(Master Boot Record).
+Choices-sr.UTF-8: ${disc}: Master Boot Record, ${part}: нова Debian партиција, Други избор (напредно)
+Description-sr.UTF-8: Место инсталације LILO-а:
+Extended_description-sr.UTF-8: Потребно је инсталирати LILO да би систем био бутабилан. Инсталирањем на MBR-у LILO ће преузети потпуну контролу бут процеса, али ако желите да користите други бут менаџер, инсталирајте LILO на партицију на којој је инсталиран Debian.\n\nАко нисте сигурни, инсталирајте LILO у Master Boot Record.
+Choices-sv.UTF-8: ${disc}: huvudstartsektorn, ${part}: ny Debianpartition, Annat val (avancerat)
+Description-sv.UTF-8: LILO:s installationsplats:
+Extended_description-sv.UTF-8: Programmet LILO måste installeras för att ditt nya Debiansystem ska bli startbart. Genom att installera LILO i din hårddisks huvudstartsektor kommer LILO att ta fullständig kontroll över startproceduren. Om du vill använda en annan starthanterare så behöver du bara installera LILO på den nya Debianpartitionen istället.\n\nOm du är osäker bör du installera LILO i huvudstartsektorn.
+Choices-ta.UTF-8: ${disc}: முதன்மை துவக்கப் பதிவேடு, ${part}: புதிய டிபியன் பகிர்வு, மற்ற தேர்வுகள் (மேம்பட்ட)
+Description-ta.UTF-8: லிலோ நிறுவ இலக்கு:
+Extended_description-ta.UTF-8: உங்கள் புதிய கணினி அமைப்பு துவங்க லிலோவை நிறுவ வேண்டும். முதன்மை துவக்கப் பதிவேட்டில் லிலோவை நிறுவினால் அது துவக்கச் செயலை முழுமையாக பொறுப்பேற்றுக் கொள்கிறது. நீங்கள் வேறு துவக்க மேலாளரை பயன் படுத்த வேண்டுமானால் லிலோவை டிபியன் பகிர்வில் மட்டும் நிறுவுங்கள்.\n\nதெளிவாக இல்லையானால் லிலோவை முதன்மை துவக்கப் பதிவேட்டில் நிறுவவும்.
+Choices-te.UTF-8: ${disc}: మాస్టర్ బూట్ రికార్డ్, ${part}: కొత్త డెబియన్ విభజన, ఇతర ఎంపిక (ఉన్నత)
+Description-te.UTF-8: LILO స్థాపన లక్ష్యం:
+Extended_description-te.UTF-8: మీ వ్యవస్థబూట్ చేయుటకు  LILO స్థాపన చేయాలి. దానిని  డిస్క్ యొక్క   మాస్టర్ బూట్ రికార్డ్ లో స్థాపించటంద్వారా, బూట్ ప్రక్రియ  దానిఅధీనంలో వుంటుంది. వేరే బూట్ నిర్వహకి వాడదలచుకుంటే, కొత్త   డెబియన్ విభజన పై   LILO స్థాపించండి\n\nసరిగ్గా తెలియకపోతే  లిలో(LILO) ని మాస్టర్ బూట్ రికార్డ్  లో స్థాపించు.
+Choices-tg.UTF-8: ${disc}: Сабти асосии худроҳандозӣ, ${part}: қисми диски нави Debian, Имконоти дигар (Иловагӣ)
+Description-tg.UTF-8: Ҷойгиршавии насбкунии LILO:
+Extended_description-tg.UTF-8: Барои он ки системаи шумо худроҳандозӣ шавад, барномаи LILO бояд насб карда шавад. Агар онро ба қайди роҳандозии асосии диск насб кунед, LILO тамоми раванди роҳандозиро илора мекунад, вале агар шумо хоҳед, ки мудири худроҳандории дигареро истифода баред, барномаи LILO-ро дар қисми диски нави Debian насб намоед.\n\nАгар шумо мутмаин набошед, LILO-ро ба Сабти оғози асосӣ насб кунед.
+Choices-th.UTF-8: ${disc}: มาสเตอร์บูตเรคอร์ด, ${part}: พาร์ทิชันเดเบียนที่ลงใหม่, ตัวเลือกอื่น (ขั้นสูง)
+Description-th.UTF-8: ตำแหน่งที่จะติดตั้ง LILO:
+Extended_description-th.UTF-8: คุณจำเป็นต้องติดตั้ง LILO เพื่อให้ระบบที่ติดตั้งใหม่สามารถบูตได้ การติดตั้ง LILO ลงในมาสเตอร์บูตเรคอร์ดของฮาร์ดดิสก์ จะทำให้ LILO เข้าควบคุมกระบวนการบูตทั้งหมด แต่ถ้าคุณต้องการใช้โปรแกรมจัดการการบูตตัวอื่น ก็เพียงแต่ติดตั้ง LILO ในพาร์ทิชันเดเบียนที่ติดตั้งใหม่เท่านั้น\n\nถ้าไม่แน่ใจ ให้ติดตั้ง LILO ลงในมาสเตอร์บูตเรคอร์ด
+Choices-tl.UTF-8: ${disc}: Master Boot Record, ${part}: bagong partisyong Debian, Ibang pili (Advanced)
+Description-tl.UTF-8: Target ng pagluklok ng LILO:
+Extended_description-tl.UTF-8: Kinakailangan na iluklok ang LILO upang maaaring ma-iboot ang bagong sistema. Sa pamamagitan ng pagluklok nito sa Master Boot Record ng inyong hard disk, kukunin ng LILO ang buong kontrol ng pag-boot. Kung nais niyong gumamit ng ibang boot manager, iluklok na lamang ng LILO sa bagong partisyon.\n\nKung hindi sigurado, iinstall ang LILO sa Master Boot Record.
+Choices-tr.UTF-8: ${disc}: Ana Önyükleme Kaydı (MBR), ${part}: yeni Debian bölümü, Diğer seçenek (Uzman kullanıcılar için)
+Description-tr.UTF-8: LILO'nun kurulacağı hedef:
+Extended_description-tr.UTF-8: Yeni sisteminizin önyüklenebilir hale gelmesi için LILO programının kurulması gerekiyor. Diskinizin Ana Önyükleme Kaydına (MBR) kurulması halinde LILO bütün bir açılış sürecini denetimi altında tutacaktır. Eğer başka bir önyükleme yöneticisi kullanmak istiyorsanız LILO'yu MBR yerine yeni Debian bölümüne kurmalısınız.\n\nEğer emin değilseniz LILO'yu Ana Önyükleme Kaydına (MBR) kurun.
+Choices-ug.UTF-8: ${disc}: ئاساسىي يېتەكلەش خاتىرىسى, ${part}: يېڭى Debian رايونى, باشقا تاللاش (ئالىي)
+Description-ug.UTF-8: LILO ئورنىتىش نىشانى:
+Extended_description-ug.UTF-8: يېڭى سىستېمىنىڭ قوزغىلىشى ئۈچۈن LILO پروگراممىسى ئورنىتىشىڭىز لازىم. ئەگەر LILO پروگراممىسىنى قاتتىق دىسكىنىڭ ئاساسىي يېتەكلەش خاتىرىسىگە ئورناتسىڭىز، ئۇ قوزغىلىش جەريانىنى تولۇق كونترول قىلىدۇ، LILO پروگراممىسىنى يېڭى Debian رايونىغا ئورنىتىڭ.\n\nئەگەر تېخى جەزملىيەلمىسىڭىز، LILO نى ئاساسىي يېتەكلەش خاتىرىسىگە ئورنىتىڭ.
+Choices-uk.UTF-8: ${disc}: Головний завантажувальний запис, ${part}: розділ нової Debian, Інший варіант (для професіоналів)
+Description-uk.UTF-8: Місце для встановлення LILO:
+Extended_description-uk.UTF-8: Для того, щоб мати можливість завантажувати нову систему, потрібно встановити завантажувач LILO. Якщо ви встановите його в головний завантажувальний запис (MBR) вашого жорсткого диску, то він буде мати повний контроль над процесом завантаження; але, якщо ви хочете використовувати інший системний завантажувач, то просто встановіть LILO на розділ нової Debian.\n\nЯкщо не впевнені - встановіть LILO до MBR.
+Choices-vi.UTF-8: ${disc}: Mục Ghi Khởi Động Chủ, ${part}: phân vùng Debian mới, Sự chọn khác (cấp cao)
+Description-vi.UTF-8: Đích cài đặt LILO:
+Extended_description-vi.UTF-8: Chương trình LILO cần phải được cài đặt để cho hệ thống mới có khả năng khởi động. Bằng cách cài đặt nó vào Mục Ghi Khởi Động Chủ (Master Boot Record) của đĩa, LILO sẽ điều khiển hoàn toàn tiến trình khởi động. Còn nếu bạn muốn sử dụng một bộ quản lý khởi động khác, chỉ đơn giản hãy cài đặt LILO vào phân vùng Debian mới thay thế.\n\nNếu chưa chắc, hãy cài đặt LILO vào Mục Ghi Khởi Đông Chủ.
+Choices-zh_CN.UTF-8: ${disc}: 主引导记录, ${part}: 新 Debian 分区, 其他选择 (高级)
+Description-zh_CN.UTF-8: 将 LILO 安装到：
+Extended_description-zh_CN.UTF-8: 您需要安装 LILO 程序以使新系统能够启动。如果将 LILO 安装到硬盘的主引导记录 (MBR) 扇区上，它将能够完全控制启动过程，但如果您希望使用其他的启动引导器，请将 LILO 安装到新 Debian 分区上。\n\n如果您还不确定，请将 LILO 安装到主引导记录 (MBR) 上。
+Choices-zh_TW.UTF-8: ${disc}: 主要開機記錄 (MBR), ${part}: 新的 Debian 分割區, 其它方法 (進階)
+Description-zh_TW.UTF-8: 要將 LILO 的安裝至：
+Extended_description-zh_TW.UTF-8: 必須安裝 LILO 程式，才能讓您的新安裝的系統能夠開機。在將它安裝至您的磁碟的主要開機記錄 (MBR) 後，LILO 就能夠完全掌控開機的程序﹔但如果您想要使用的是另一個開機管理程式，也可以替而把 LILO 安裝在新的 Debian 分割區裡。\n\n如果不確定，請把 LILO 安裝至主要開機記錄 (MBR) 裡。
+
+Name: lilo-installer/bootdev_raid
+Type: select
+Choices: ${disc}: software RAID array, Other choice (Advanced)
+Description: LILO installation target:
+Extended_description: The LILO program needs to be installed to make your new system bootable. You may choose to install it onto a software RAID array or another device.
+Choices-am.UTF-8: ${disc}: የስስአካል RAID array, ሌሎች ምርጫዎች (በጥልቀት)
+Description-am.UTF-8: ሊሎን ለመትከል የታቀደበት
+Extended_description-am.UTF-8: አዲሱን ስርዓት ተነሺ ለማድረግ ሊሎ መተከል አለበት፡፡ በስስአካል RAID array ወይም ሌላ አካል የመትከል ምርጫ አለዎት፡፡
+Choices-ar.UTF-8: ${disc}: مصفوفة RAID برمجية, خيارٌ آخر (متقدّم)
+Description-ar.UTF-8: موضع تثبيت LiLo:
+Extended_description-ar.UTF-8: يجب تثبيت برنامج LILO لجعل نظامك الجديد قابلاً للإقلاع. يمكنك اختيار تثبيته على مصفوفة RAID برمجية أو جهاز آخر.
+Choices-ast.UTF-8: ${disc}: software tabla RAID, Otra escoyeta (Avanzáu)
+Description-ast.UTF-8: Destín de la instalación de LILO:
+Extended_description-ast.UTF-8: El programa LILO necesita ser instaláu pa facer el to sistema arrancable. Pues escoyer instalalu na tabla de software RAID o n'otru preséu.
+Choices-be.UTF-8: ${disc}: праграмны масіў RAID, Іншае (дасведчаным)
+Description-be.UTF-8: Куды ўсталёўваць LILO:
+Extended_description-be.UTF-8: Каб Вашая сістэма магла загружацца, трэба ўсталяваць праграму LILO. Вы можаце ўсталяваць яе на праграмны масіў RAID, або на іншую прыладу.
+Choices-bg.UTF-8: ${disc}: софтуерен RAID масив, Друг избор (за напреднали)
+Description-bg.UTF-8: Място за инсталиране на LILO:
+Extended_description-bg.UTF-8: Нужно е програмата LILO да бъде инсталирана, за да се направи Вашата нова система способна за зареждане. Можете да изберете да я инсталирате върху RAID масив или друго устройство.
+Choices-bn.UTF-8: ${disc}: সফটওয়্যার RAID অ্যারে, অন্যান্য পছন্দ (উচ্চ পর্যায়ের)
+Description-bn.UTF-8: LILO-কে যেখানে ইনস্টল করা হবে:
+Extended_description-bn.UTF-8: আপনার নতুন সিস্টেমকে বুটযোগ্য করার জন্য LILO প্রোগ্রামটিকে ইনস্টল করা প্রয়োজন। আপনি একে কোন সফটওয়্যার RAID অ্যারে বা অন্য একটি ডিভাইসেও ইনস্টল করতে পারেন।
+Choices-bs.UTF-8: ${disc}: softversko RAID polje, Drugi izbor (Napredno)
+Description-bs.UTF-8: LILO instalacijsko odredište:
+Extended_description-bs.UTF-8: LILO program treba biti instaliran kako bi se vaš sistem mogao podići. Možete odabrati da ga instalirate na softversko RAID polje ili drugi diskovni uređaj.
+Choices-ca.UTF-8: ${disc}: matriu RAID de programari, Altra opció (avançat)
+Description-ca.UTF-8: Objectiu d'instal·lació de LILO:
+Extended_description-ca.UTF-8: El programa LILO necessita instal·lar-se per a fer arrencable el sistema nou. Podeu triar instal·lar-lo en una matriu de RAID de programari o un altre dispositiu.
+Choices-cs.UTF-8: ${disc}: pole softwarového RAIDu, Jiná volba (Pokročilé)
+Description-cs.UTF-8: Cíl pro instalaci LILA:
+Extended_description-cs.UTF-8: Abyste mohli zavádět svůj nový systém, musí se nainstalovat program LILO. Můžete jej nainstalovat na softwarový RAID nebo na jiné zařízení.
+Choices-cy.UTF-8: ${disc}: arae RAID meddalwedd, Dewis arall (Estynedig)
+Description-cy.UTF-8: Targed sefydlu LILO:
+Extended_description-cy.UTF-8: Mae'n rhaid sefydlu'r rhaglen LILO er mwyn gwneud eich system newydd yn gychwyniadwy. Fe allwch ddewis ei osod ar arae RAID meddalwedd neu ddyfais arall.
+Choices-da.UTF-8: ${disc}: software RAID-serie, Andre valg (Avanceret)
+Description-da.UTF-8: LILO-installationsmål:
+Extended_description-da.UTF-8: LILO-programmet skal installeres for at sætte dit nye system i stand til at starte op. Du kan installere den på en software RAID-serie eller en anden enhed.
+Choices-de.UTF-8: ${disc}: Software RAID Array, Andere Auswahl (Erweitert)
+Description-de.UTF-8: Ziel für die LILO-Installation:
+Extended_description-de.UTF-8: Das Programm LILO muss auf Ihrem Computer installiert sein, damit der Computer starten kann. Sie können wählen, ob Sie es auf ein Software RAID Array oder auf ein anderes Gerät installieren möchten.
+Choices-dz.UTF-8: ${disc}:མཉེན་ཆས་RAID ཨེ་རེ།, གདམ་ཁ་གཞན་ (Advanced)
+Description-dz.UTF-8: ལི་ལོ་གཞི་བཙུགས་འབད་ནིའི་དམིགས་གཏད།
+Extended_description-dz.UTF-8: ཁྱོད་ཀྱི་རིམ་ལུགས་གསརཔ་བུཊི་འབད་བཏུབ་བཟོ་ནི་ལུ་ལི་ལོ་ལས་རིམ་འདི་གཞི་བཙུགས་འབད་དགོ། ཐབས་འཕྲུལ་གཞན་ ཡང་ན་ ཁྱོད་ཀྱིས་འདི་མཉེན་ཆས་ནང་ལུ་གཞི་བཙུགས་འབད་ནི་ལུ་གདམ་ཁ་རྐྱབ་དགོཔ་འོང་།
+Choices-el.UTF-8: ${disc}: συστοιχία RAID λογισμικού, Άλλη επιλογή (για προχωρημένους)
+Description-el.UTF-8: Προορισμός εγκατάστασης του LILO:
+Extended_description-el.UTF-8: O φορτωτής εκκίνησης LILO πρέπει να εγκατασταθεί για να είναι δυνατή η εκκίνηση του συστήματος. Μπορείτε να επιλέξετε να το εγκαταστήσετε σε μια συστοιχία RAID λογισμικού ή σε κάποια άλλη μονάδα.
+Choices-eo.UTF-8: ${disc}: programeca diskaro RAID, Alia elekto (por spertuloj)
+Description-eo.UTF-8: Instal-celo de LILO:
+Extended_description-eo.UTF-8: La programo LILO bezonas esti instalita por igi vian sistemon ekŝargebla. Vi povas elekti instali ĝin sur programeca diskaro RAID aŭ sur alia aparato.
+Choices-es.UTF-8: ${disc}: es un array de RAID por software, Otra opción (Avanzado)
+Description-es.UTF-8: Destino de la instalación de LILO:
+Extended_description-es.UTF-8: Debe instalar el programa LILO para que su sistema pueda arrancar. Puede escoger instalarlo en un array de RAID por software o en cualquier otro dispositivo.
+Choices-et.UTF-8: ${disc}: tarkvaraline RAID-massiiv, Muu valik (kogenud kasutajale)
+Description-et.UTF-8: LILO paigaldamise sihtpunkt:
+Extended_description-et.UTF-8: Et su uus süsteem alglaaditavaks teha, tuleb paigaldada LILO. Võid valida lilo paigaldamise tarkvaralisele RAID-massivile või mõnele teisele seadmele.
+Choices-eu.UTF-8: ${disc}: softwareko RAID array-a, Beste aukera (aurreratua)
+Description-eu.UTF-8: LILO instalatzeko helburua:
+Extended_description-eu.UTF-8: LILO programa instalatu egin behar da sistema berria abiagarri izateko. Softwareko RAID array-ean edo beste gailuan instalatzea aukeratu beharko zenuke.
+Choices-fa.UTF-8: ${disc}: RAID array نرم‌افزار, انتخاب‌های دیگر (پیشرفته)
+Description-fa.UTF-8: پارتیشن مورد نظر برای نصب LILO
+Extended_description-fa.UTF-8: برنامه LILO باید نصب شود تا سیستم شما قابل راه‌اندازی شدن باشد . شما ممکن است بخواهید آن را بر یک نرم‌افزار RAID array یا ابزار دیگری نصب کنید .
+Choices-fi.UTF-8: ${disc}: ohjelmallisesti toteutettu RAID, Muu valinta (Lisäasetukset)
+Description-fi.UTF-8: LILO asennetaan tähän:
+Extended_description-fi.UTF-8: Ohjelma LILO on asennettava jotta uusi järjestelmä voi käynnistyä. Se voidaan asentaa ohjelmallisesti toteutetulle RAID-levylle tai muulle laitteelle.
+Choices-fr.UTF-8: ${disc}: ensemble RAID logiciel, Autre choix (pour experts)
+Description-fr.UTF-8: Emplacement d'installation de lilo :
+Extended_description-fr.UTF-8: Le programme lilo doit être installé pour que le nouveau système puisse être amorcé. Vous pouvez choisir de l'installer sur un ensemble RAID logiciel ou sur un autre périphérique.
+Choices-ga.UTF-8: ${disc}: eagar RAID bogearra, Rogha eile (Ardsocrú)
+Description-ga.UTF-8: Sprioc shuiteála LILO:
+Extended_description-ga.UTF-8: Caithfear LILO a shuiteáil chun do chóras nua a dhéanamh intosaithe. Is féidir leat é a shuiteáil ar eagar bogearra RAID nó ar ghléas eile.
+Choices-gl.UTF-8: ${disc}: RAID por software, Outra opción (Avanzado)
+Description-gl.UTF-8: Destino da instalación de LILO: 
+Extended_description-gl.UTF-8: O programa LILO debe estar instalado para facer que o novo sistema poida arrincar. Pode instalalo nun RAID por software ou noutro dispositivo.
+Choices-gu.UTF-8: ${disc}: સોફ્ટવેર RAID એરે, બીજા વિકલ્પ (ઉચ્ચ)
+Description-gu.UTF-8: LILO સ્થાપન લક્ષ્ય:
+Extended_description-gu.UTF-8: LILO કાર્યક્રમ તમારી નવી સિસ્ટમ શરુ કરવા માટે સ્થાપિત થયેલ હોવો જરુરી છે. તમે તેને સોફ્ટવેર રેઇડ એરે અથવા બીજા ઉપકરણ પર સ્થાપિત કરવાનું પસંદ કરી શકો છો.
+Choices-he.UTF-8: ${disc}: מערך RAID תוכנה, בחירה אחרת (מתקדם)
+Description-he.UTF-8: יעד להתקנת LILO:
+Extended_description-he.UTF-8: צריך להתקין את LILO כדי להפוך את המערכת החדשה שלך לברת אתחול. תוכל לבחור להתקין אותה על מערך RAID התוכנה או התקן אחר.
+Choices-hi.UTF-8: ${disc}: सॉफ्टवेयर रेड ऐरे, अन्य चुनाव (विस्तृत)
+Description-hi.UTF-8: लिलो संस्थापना लक्ष्य:
+Extended_description-hi.UTF-8: आपके नये तंत्र को बूट करने योग्य बनाने के लिए लिलो अनुप्रयोग को संस्थापित करना होगा. आप इसे सॉफ्टवेयर रेड या किसी अन्य उपकरण में संस्थापित करने का चुनाव कर सकते हैं.
+Choices-hr.UTF-8: ${disc}: programsko RAID polje, Druge mogućnosti (napredne)
+Description-hr.UTF-8: Instaliraj LILO na:
+Extended_description-hr.UTF-8: Program LILO se mora instalirati kako bi se vaš novi sustav mogao podići. Možete izabrati njegovu instalaciju na softversko RAID polje ili neki drugi uređaj.
+Choices-hu.UTF-8: ${disc}: szoftver RAID tömb, Más választás (Haladó)
+Description-hu.UTF-8: Hova kerüljön a LILO:
+Extended_description-hu.UTF-8: A LILO szükséges lesz az indíthatóvá tételhez. Telepíthető a szoftver RAID tömbre vagy máshova.
+Choices-id.UTF-8: ${disc}: larik piranti lunak RAID, Pilihan Lain (Tingkat Mahir)
+Description-id.UTF-8: Target pemasangan LILO:
+Extended_description-id.UTF-8: Program LILO perlu dipasang agar sistem anda dapat diboot. Anda dapat memilih untuk memasangnya pada larik piranti lunak RAID atau piranti lainnya.
+Choices-is.UTF-8: ${disc}: hugbúnaðar RAID fylki, Annað val (Ítarlegt)
+Description-is.UTF-8: LILO uppsetning á:
+Extended_description-is.UTF-8: Það þarf að setja upp LILO pakkann til að gera kerfinu þínu kleift að ræsa. Þú getur valið að setja hann upp á RAID kerfi eða á öðru tæki.
+Choices-it.UTF-8: ${disc}: software RAID array, Altra scelta (avanzato)
+Description-it.UTF-8: Destinazione dell'installazione di LILO:
+Extended_description-it.UTF-8: Il programma LILO deve essere installato per rendere il sistema avviabile. Si può scegliere di installarlo su un array software RAID o su un altro device.
+Choices-ja.UTF-8: ${disc}: ソフトウェア RAID アレイ, その他の選択 (上級者向け)
+Description-ja.UTF-8: LILO のインストールターゲット:
+Extended_description-ja.UTF-8: LILO プログラムは新しい Debian システムを起動可能にするために必要となります。ソフトウェア RAID アレイ上またはその他のデバイスを選べます。
+Choices-ka.UTF-8: ${disc}: პროგრამული RAID-მასივი, სხვაგან (გაფართოებული რეჟიმი)
+Description-ka.UTF-8: LILO-ს დაყენება:
+Extended_description-ka.UTF-8: იმისათვის, რომ ახალი სისტემა ჩატვირთვადი გახდეს, საჭიროა პროგრამა LILO-ს დაყენება. თქვენ შეგიძლიათ LILO-ს დაყენება პროგრამულ RAID-მასივში ან სხვა
+Choices-kk.UTF-8: ${disc}: бағдарламалық RAID массив, Басқа таңдау (Кеңейтілген режим)
+Description-kk.UTF-8: LILO орнату жері:
+Extended_description-kk.UTF-8: Жаңа жүйені қосыла алатындай ету үшін, LILO бағдарламасы қолданылады. Сіз жүктеушіні бағдарламалық RAID массивіне не басқа құрылғыға орната аласыз.
+Choices-km.UTF-8: ${disc} ៖ អារេ RAID កម្មវិធី, ជម្រើស​​ផ្សេង​ទៀត (កម្រិត​ខ្ពស់)
+Description-km.UTF-8: គោល​ដៅ​ដំឡើង​ LILO ៖
+Extended_description-km.UTF-8: អ្នក​ត្រូវ​តែ​ដំឡើង​កម្មវិធី LILO ដើម្បី​ធ្វើ​ឲ្យ​ប្រព័ន្ធ​របស់​អ្នក​អាច​ចាប់ផ្ដើម​បាន ។ អ្នក​អាច​នឹង​ជ្រើស​ឲ្យ​ដំឡើង​វា​ទៅ​លើ​អារេ RAID កម្មវិធី​​មួយ ឬ ឧបករណ៍​ផ្សេង​ទៀត ។
+Choices-kn.UTF-8: ${disc}: software RAID array, ಇನ್ನಿತರ ಆಯ್ಕೆಗಳು
+Description-kn.UTF-8: ಲಿಲೊ ಅನುಷ್ಟಾಪನ್ target
+Extended_description-kn.UTF-8: ನಿಮ್ಮ ಹೊಸ system bootable ಆಗಲು ಲಿಲೊ ಅನುಷ್ಠಾಪಿಸಬೇಕಾಗುತ್ತ. ನೀವು ಅದನ್ನು  software RAID array ಅಥವ ಬೇರೆ device ನಲ್ಲಿ ಅನುಷ್ಠಾಪಿಸಿ
+Choices-ko.UTF-8: ${disc}: 소프트웨어 RAID 어레이, 기타 (고급)
+Description-ko.UTF-8: LILO 설치 위치:
+Extended_description-ko.UTF-8: 새 시스템이 부팅하려면 LILO를 설치해야 합니다. 소프트웨어 RAID 어레이나 다른 장치에 LILO를 설치할 수도 있습니다.
+Choices-ku.UTF-8: ${disc}:Pêrista nivîsbarî ya RAID, Din
+Description-ku.UTF-8: Hedefa sazkirina LILO:
+Extended_description-ku.UTF-8: Ji bo ku pergala te ya nû vebe divê bernameya LILO were sazkirin. Tu dikarî hilbijêrî bila LILO li rêzeke nûsbarî yan jî li cîhazeke din were sazkirin.
+Choices-lo.UTF-8: ${disc}: software RAID array, ຕົວເລືອກອື່ນ (ຊັ້ນສູງ)
+Description-lo.UTF-8: ຕໍ່າແໜ່ງທີ່ຈະຕິດຕັ້ງ LILO:
+Extended_description-lo.UTF-8: ທ່ານຈຳເປັນຕ້ອງຕິດຕັ້ງ LILO ເພື່ອໃຫ້ລະບົບທີ່ຕິດຕັ້ງໃໝ່ສາມາດບຣູດໄດ້ທ່ານອາດເລືອກທີ່ຈະຕິດຕັ້ງລົງໃນຊອບແວຣ໌ software RAID arrayຫຼື ເລືອກຕົວເລືອກກໍ່ໄດ້
+Choices-lt.UTF-8: ${disc}: programinio RAID masyvas, Kiti pasirinkimai (Išsamesni)
+Description-lt.UTF-8: LILO įdiegimo objektas:
+Extended_description-lt.UTF-8: Tam, kad naujai įdiegtą sistemą padaryti įkeliama, reikia įdiegti LILO pradinį įkėliklį. Galite pasirinkti diegti jį į programinio RAID masyvą arba kitą įrenginį.
+Choices-lv.UTF-8: ${disc}: programmatūras RAID masīvs, Cita izvēle (paplašināti)
+Description-lv.UTF-8: Vieta, kur instalēt LILO:
+Extended_description-lv.UTF-8: Ir jāinstalē programma LILO, lai jauno sistēmu varētu palaist. Jūs varat to instalēt programmatūras RAID masīvā vai kādā citā ierīcē.
+Choices-mk.UTF-8: ${disc}: софтверска RAID низа, Друг избор (Напредно)
+Description-mk.UTF-8: Место за инсталација на Lilo:
+Extended_description-mk.UTF-8: Програмата LILO треба да биде инсталирана за да се бутира твојот систем. Може да одбереш да ја инсталираш на софтверска RAID низа или друг уред.
+Choices-ml.UTF-8: ${disc}: സോഫ്റ്റ്‌വെയര്‍ റെയ്ഡ് നിര, മറ്റൊരു തീരുമാനം (സങ്കീര്‍ണ്ണമായ)
+Description-ml.UTF-8: ലിലോ ഇന്‍സ്റ്റലേഷനുള്ള ലക്ഷ്യസ്ഥാനം:
+Extended_description-ml.UTF-8: നിങ്ങളുടെ സിസ്റ്റം ബൂട്ട് ചെയ്യാന്‍ പ്രാപ്തമാക്കുന്നതിന് ലിലോ പ്രോഗ്രാം ഇന്‍സ്റ്റോള്‍ ചെയ്യേണ്ടതുണ്ടു്. സോഫ്റ്റ്‌വെയര്‍ റെയ്ഡ് നിര അല്ലെങ്കില്‍ മറ്റൊരു ഉപകരണത്തിലേക്ക് ഇതു് ഇന്‍സ്റ്റോള്‍ ചെയ്യാന്‍ നിങ്ങള്‍ക്കു് തെരഞ്ഞെടുക്കാവുന്നതാണ്.
+Choices-mr.UTF-8: ${disc}: सॉफ्टवेअर रॅड ऍरे, इतर पर्याय (प्रगत)
+Description-mr.UTF-8: लिलो अधिष्ठापित करण्याचे इच्छित स्थळ:
+Extended_description-mr.UTF-8: आपली नवीन प्रणाली आरंभयोग्य करण्यासाठी आपल्याला लिलो आरंभ सुचक अधिष्ठापित करणे गरजेचे आहे. रॅड ऍरे प्रणालीवर किंवा इतर उपकरणावरही आपण तो अधिष्ठापित करू शकता.
+Choices-nb.UTF-8: ${disc}: RAID-rekke i programvare, Annet valg (avansert)
+Description-nb.UTF-8: Mål for LILO-installasjonen:
+Extended_description-nb.UTF-8: LILO-programmet må være installert for at det nye systemet skal kunne starte. Du kan velge å installere det på en programvare-RAID-rekke eller en annen enhet.
+Choices-ne.UTF-8: ${disc}: सफ्टवेयर RAID एरे, अन्य छनौट (विकाशित)
+Description-ne.UTF-8: LILO स्थापना लक्ष्य:
+Extended_description-ne.UTF-8: तपाईँको नयाँ प्रणाली बुटेवल पार्न LILO कार्यक्रमको स्थापना आवश्यक छ । तपाईँ यसलाई सफ्टवेयर RAID एरेमा वा अर्को यन्त्रमा स्थापना गर्ने रोज्न सक्नुहुनेछ ।
+Choices-nl.UTF-8: ${disc}: software-RAID-array, Andere keuze (geavanceerd)
+Description-nl.UTF-8: Wat is het LILO-installatiedoelwit?
+Extended_description-nl.UTF-8: De LILO-opstartlader dient geïnstalleerd te worden om uw nieuwe systeem opstartbaar te maken. U kunt LILO installeren op een software-RAID-array, of op een ander apparaat
+Choices-nn.UTF-8: ${disc}: programvarebasert RAID-rekke, Andre val (Avansert)
+Description-nn.UTF-8: Mål for LILO-installasjonen:
+Extended_description-nn.UTF-8: LILO-programmet må installerast for å gjere det mogeleg å starte opp det nye systemet ditt. Du kan velje å installere det på ei programvarebasert RAID-rekke eller ei anna eining.
+Choices-no.UTF-8: ${disc}: RAID-rekke i programvare, Annet valg (avansert)
+Description-no.UTF-8: Mål for LILO-installasjonen:
+Extended_description-no.UTF-8: LILO-programmet må være installert for at det nye systemet skal kunne starte. Du kan velge å installere det på en programvare-RAID-rekke eller en annen enhet.
+Choices-pa.UTF-8: ${disc}: ਸਾਫਟਵੇਅਰ RAID ਐਰੇ, ਹੋਰ ਚੋਣ (ਤਕਨੀਕੀ)
+Description-pa.UTF-8: LILO ਇੰਸਟਾਲੇਸ਼ਨ ਟਾਰਗੇਟ:
+Extended_description-pa.UTF-8: ਤੁਹਾਡਾ ਨਵਾਂ ਸਿਸਟਮ ਬੂਟ ਕਰਨ ਲਈ LILO ਪਰੋਗਰਾਮ ਇੰਸਟਾਲ ਹੋਣਾ ਜਰੂਰੀ ਹੈ। ਤੁਸੀਂ ਇਸ ਨੂੰ ਸਾਫਟਵੇਅਰ RAID ਐਰੇ ਜਾਂ ਹੋਰ ਜੰਤਰ ਤੇ ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਚੁਣ ਸਕਦੇ ਹੋ।
+Choices-pl.UTF-8: ${disc}: programowa macierz RAID, Inny wybór (zaawansowane)
+Description-pl.UTF-8: Miejsce instalacji LILO:
+Extended_description-pl.UTF-8: Program LILO musi zostać zainstalowany by system mógł być uruchomiony. Możesz wybrać czy zainstalować go na programowej macierzy RAID czy na innym urządzeniu.
+Choices-pt.UTF-8: ${disc}: software RAID array, Outras escolhas (Avançado)
+Description-pt.UTF-8: Alvo da instalação do LILO:
+Extended_description-pt.UTF-8: Necessita ser instalado o programa LILO para tornar o seu novo sistema iniciável. Você pode escolher instalá-lo no array RAID por software ou noutro dispositivo.
+Choices-pt_BR.UTF-8: ${disc}: agrupamento RAID via software, Outra opção (Avançado)
+Description-pt_BR.UTF-8: Alvo para instalação do LILO:
+Extended_description-pt_BR.UTF-8: O programa LILO precisa ser instalado para tornar seu novo sistema recém-instalado inicializável. Você pode optar por instalá-lo em um agrupamento RAID via software ou em outro dispositivo.
+Choices-ro.UTF-8: ${disc}: matrice software RAID, Altă opțiune (Avansat)
+Description-ro.UTF-8: Ținta instalării LILO:
+Extended_description-ro.UTF-8: Programul LILO trebuie să fie instalat pentru a permite noului dumneavoastră sistem să poată fi pornit. Puteți alege să îl instalați pe o matrice software RAID sau un alt dispozitiv.
+Choices-ru.UTF-8: ${disc}: в программный RAID массив, в другое место (расширенный режим)
+Description-ru.UTF-8: Произвести установку LILO:
+Extended_description-ru.UTF-8: Чтобы новая система смогла загрузиться, нужно установить программу LILO. Вы можете установить его на программный RAID массив или на другое устройство.
+Choices-si.UTF-8: ${disc}: මෘදුකාංග software RAID අරාව, වෙනත් තෝරාගැනීම (උසස්)
+Description-si.UTF-8: LILO ස්ථාපන ඉලක්කය:
+Extended_description-si.UTF-8: ඔබේ පද්ධතිය ආරම්භ කිරීමට හැකි වීම සඳහා LILO වැඩසටහන ස්ථාපනය විය යුතුයි. ඔබට එය වෙනත් උපකරණයකට හෝ මෘදුකාංග RAID අරාවකට ස්ථාපනය කිරීමට තෝරාගත හැක.
+Choices-sk.UTF-8: ${disc}: softvérové RAID pole, Ďalšie voľby (Rozšírené)
+Description-sk.UTF-8: Cieľ inštalácie LILO:
+Extended_description-sk.UTF-8: Na spúšťanie vášho nového systému musíte mať nainštalovaný program LILO. Môžete ho nainštalovať na softvérové RAID pole alebo na iné zariadenie.
+Choices-sl.UTF-8: ${disc}: programsko diskovno polje RAID, Druga izbira (Napredno)
+Description-sl.UTF-8: Namestitvena tarča za LILO
+Extended_description-sl.UTF-8: Da bo vaš sistem moč zagnati morate namestiti program LILO. Lahko ga namestite na programsko diskovno polje RAID ali na drugo napravo.
+Choices-sq.UTF-8: ${disc}: software vektor RAID, Zgjedhje tjetër (e Përparuar)
+Description-sq.UTF-8: Pozicioni ku do instalohet LILO:
+Extended_description-sq.UTF-8: Programi LILO duhet të instalohet që sistemi yt të niset. Mund të zgjedhësh ta instalosh në një software vektor RAID apo ndonjë dispozitiv tjetër.
+Choices-sr.UTF-8: ${disc}: софтверски RAID низ, Други избор (напредно)
+Description-sr.UTF-8: Место инсталације LILO-а:
+Extended_description-sr.UTF-8: Потребно је инсталирати LILO да би систем био бутабилан. Можете га инсталирати на софтверски RAID низ или на неки други уређај.
+Choices-sv.UTF-8: ${disc}: programvaru-RAID-kedja, Annat val (avancerat)
+Description-sv.UTF-8: LILO:s installationsplats:
+Extended_description-sv.UTF-8: LILO-programmet behöver installeras för att göra ditt system ska kunna startas. Du kan välja att installera den till en programvaru-RAID-kedja eller en annan enhet.
+Choices-ta.UTF-8: ${disc}: மென்பொருள் ரெய்டு வரிசை, மற்ற தேர்வுகள் (மேம்பட்ட)
+Description-ta.UTF-8: லிலோ நிறுவ இலக்கு:
+Extended_description-ta.UTF-8: உங்கள் புதிய கணினி அமைப்பு துவங்க லிலோவை நிறுவ வேண்டும். அதை மென்பொருள் ரெய்டு வரிசையிலோ அல்லது மற்றொரு சாதனத்திலோ நிறுவலாம்.
+Choices-te.UTF-8: ${disc}: సాఫ్ట్వేర్  RAID array, ఇతర ఎంపిక (ఉన్నత)
+Description-te.UTF-8: LILO స్థాపన లక్ష్యం:
+Extended_description-te.UTF-8: మీ వ్యవస్థబూట్ చేయుటకు  LILO స్థాపన చేయాలి.  దానిని   సాఫ్వేర్  RAID array  లేక  ఇంకొక  పరికరము  పై స్థాపించటం ఎంచుకోవచ్చు
+Choices-tg.UTF-8: ${disc}: қатори нармафзори RAID, Имконоти дигар (Иловагӣ)
+Description-tg.UTF-8: Ҷойгиршавии насбкунии LILO:
+Extended_description-tg.UTF-8: Барномаи LILO бояд насб шуда бошад, то ин ки системаи нави шумо роҳандозӣ карда шавад. Шумо метавонед интихоб кунед, ки онро ба қатори нармафзори RAID ё дастгоҳи дигар насб кунед.
+Choices-th.UTF-8: ${disc}: software RAID array, ตัวเลือกอื่น (ขั้นสูง)
+Description-th.UTF-8: ตำแหน่งที่จะติดตั้ง LILO:
+Extended_description-th.UTF-8: คุณจำเป็นต้องติดตั้ง LILO เพื่อให้ระบบที่ติดตั้งใหม่สามารถบูตได้ คุณอาจเลือกที่จะติดตั้งลงใน software RAID array หรือเลือกตัวเลือกอื่นก็ได้
+Choices-tl.UTF-8: ${disc}: software RAID array, Ibang pili (Advanced)
+Description-tl.UTF-8: Target ng pagluklok ng LILO:
+Extended_description-tl.UTF-8: Kailangang iluklok ang programang LILO upang gawing bootable ang bago niyong sistema. Maaaring iluklok ninyo ito sa software RAID array o ibang device.
+Choices-tr.UTF-8: ${disc}: yazılımsal RAID dizisi, Diğer seçenek (Uzman kullanıcılar için)
+Description-tr.UTF-8: LILO'nun kurulacağı hedef:
+Extended_description-tr.UTF-8: Yeni sisteminizin açılabilir hale getirilmesi için LILO programının kurulması gerekiyor. LILO'nun bir yazılımsal RAID dizisine veya bir başka aygıta kurulmasını seçebilirsiniz.
+Choices-ug.UTF-8: ${disc}: يۇمشاق دېتاللىق RAID تىزىقى, باشقا تاللاش (ئالىي)
+Description-ug.UTF-8: LILO ئورنىتىش نىشانى:
+Extended_description-ug.UTF-8: يېڭى سىستېمىنىڭ قوزغىلىشى ئۈچۈن LILO پروگراممىسى ئورنىتىشىڭىز لازىم. سىز ئۇنى يۇمشاق دېتاللىق RAID تىزىقى ياكى باشقا ئۈسكۈنىگە  ئورناتسىڭىز بولىدۇ.
+Choices-uk.UTF-8: ${disc}: програмний RAID-масив, Інший варіант (для професіоналів)
+Description-uk.UTF-8: Місце для встановлення LILO:
+Extended_description-uk.UTF-8: Для того, щоб ваша система могла завантажуватись, потрібно встановити системний завантажувач LILO. Ви можете встановити його на програмний RAID-масив або на інший пристрій.
+Choices-vi.UTF-8: ${disc}: mảng RAID phần mềm, Sự chọn khác (cấp cao)
+Description-vi.UTF-8: Đích cài đặt LILO:
+Extended_description-vi.UTF-8: Chương trình LILO cần phải được cài đặt để làm cho hệ thống mới có khả năng khởi động. Bạn có thể chọn cài đặt nó vào một mảng RAID phần mềm hoặc một thiết bị khác.
+Choices-zh_CN.UTF-8: ${disc}：软 RAID 阵列, 其他选择 (高级)
+Description-zh_CN.UTF-8: 将 LILO 安装到：
+Extended_description-zh_CN.UTF-8: 您需要安装 LILO 程序以使您的新系统可以启动。您可以选择将其安装至软 RAID 阵列或其他设备上。
+Choices-zh_TW.UTF-8: ${disc}：軟體 RAID 陣列, 其它方法 (進階)
+Description-zh_TW.UTF-8: 要將 LILO 的安裝至：
+Extended_description-zh_TW.UTF-8: 必須安裝 LILO 程式，才能讓您的新安裝的系統能夠開機。您可以把它安裝到軟體 RAID 陣列或其它裝置上。
+
+Name: lilo-installer/failed
+Type: error
+Description: LILO installation failed
+Extended_description: Running "/sbin/lilo" failed with error code "${ERRCODE}".
+Description-am.UTF-8: የሊሎ ተከላ አልተሳካም
+Extended_description-am.UTF-8: "/sbin/lilo" ማስኬድ "${ERRCODE}" �

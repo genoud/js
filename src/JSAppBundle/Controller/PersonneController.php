@@ -9,7 +9,7 @@
 namespace JSAppBundle\Controller;
 
 
-class PersonneController
+class PersonneController extends CoreRestController
 {
 
 }

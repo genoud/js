@@ -12,7 +12,7 @@ parameters:
 
 framework:
     #esi:             ~
-    #translator:      { fallbacks: ["%locale%"] }
+    translator:      { fallbacks: ["%locale%"] }
     secret:          "%secret%"
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
@@ -76,8 +76,17 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
+
+#    transport: "%mailer_transport%"
+#    host:      "%mailer_host%"
+#    username:  "%mailer_user%"
+#    password:  "%mailer_password%"
+#    port:      "%mailer_port%"
+#    encryption: "%mailer_encryption%"
+#    spool:     { type: memory }
+
 fos_rest:
-#    disable_csrf_role:    IS_AUTHENTICATED_ANONYMOUSLY
+    disable_csrf_role:    IS_AUTHENTICATED_ANONYMOUSLY
     serializer:
         serialize_null: true
     view:

@@ -1,0 +1,255 @@
+​ការ​សរសេរ​ GRUB ទៅ​​ឧបករណ៍​ចាប់ផ្ដើម បន្ត ?
+Description-ko.utf-8: GRUB을 부팅 장치에 쓰는데 실패했습니다. 계속 하시겠습니까?
+Description-lt.utf-8: „GRUB“ įrašyti į paleidimo įrenginį nepavyko. Ar tęsti?
+Description-lv.utf-8: Neizdevās ierakstīt GRUB uz palaišanas ierīces — turpināt?
+Description-mr.utf-8: आरंभ उपकरणावर ग्रब लिहिणे फसले - सुरू ठेवायचे?
+Description-nb.utf-8: Klarte ikke skrive GRUB til oppstartsenhet - fortsette?
+Description-nl.utf-8: Schrijven van GRUB naar opstartapparaat mislukt. Doorgaan?
+Description-no.utf-8: Klarte ikke skrive GRUB til oppstartsenhet - fortsette?
+Description-pl.utf-8: Zapisywanie GRUB-a na urządzenia rozruchowe nie powiodło się - kontynuować?
+Description-pt.utf-8: A escrita do GRUB para o dispositivo de arranque falhou - continuar?
+Description-pt_br.utf-8: A gravação do GRUB no dispositivo de inicialização falhou - continuar?
+Description-ro.utf-8: Scrierea GRUB pe dispozitivul boot a eșuat. Se continuă?
+Description-ru.utf-8: Не удалось записать GRUB на загрузочное устройство -- продолжить?
+Description-si.utf-8: GRUB ආරම්භක උපකරණය ලිවීම අසාර්ථකයි - ඉදිරියට?
+Description-sk.utf-8: Zápis GRUBu do zavádzacieho zariadenia zlyhal – pokračovať?
+Description-sl.utf-8: Napaka pri pisanju na zagonsko napravo za GRUB. Želite nadaljevati?
+Description-sv.utf-8: Skriva GRUB till uppstartsenhet misslyckades - fortsätta?
+Description-ta.utf-8: பூட் சாதனத்துக்கு க்ரப் ஐ எழுதுவது தோவியடைந்தது - தொடரலாமா?
+Description-th.utf-8: เขียน GRUB ลงในอุปกรณ์บูตไม่สำเร็จ - ดำเนินการต่อไปหรือไม่?
+Description-tr.utf-8: GRUB'u önyükleme aygıtına yazma işlemi başarısız oldu. Yine de devam edilsin mi?
+Description-ug.utf-8: GRUB نى قوزغىتىش ئۈسكۈنىسىگە يازالمىدى - داۋاملاشتۇرامدۇ؟
+Description-uk.utf-8: Не вдалося записати GRUB до завантажувального пристрою. Продовжити?
+Description-vi.utf-8: Việc ghi GRUB vào thiết bị khởi động bị lỗi - tiếp tục không?
+Description-zh_cn.utf-8: 将 GRUB 写入引导设备失败 - 要继续吗？
+Description-zh_tw.utf-8: 將 GRUB 寫入開機裝置失敗了。是否繼續？
+Extended_description: GRUB failed to install to the following devices:\n\n${FAILED_DEVICES}\n\nDo you want to continue anyway? If you do, your computer may not start up properly.
+Extended_description-ast.utf-8: Falló GRUB al instalar nos siguientes preseos:\n\n${FAILED_DEVICES}\n\n¿Quies siguir igualmente? Si quies, el to ordenador podría nun arrancar bien.
+Extended_description-be.utf-8: Не атрымалася ўсталяваць GRUB на наступныя прылады:\n\n${FAILED_DEVICES}\n\nВы жадаеце працягваць, не зважаючы на гэта? Калі працягнеце, ваш кампутар можа не запусціцца.
+Extended_description-bg.utf-8: Опитът за инсталиране на GRUB на следните устройства беше неуспешен:\n\n${FAILED_DEVICES}\n\nЖелаете ли да продължите въпреки това? Ако го направите е възможно компютърът да не може да зареди операционна система.
+Extended_description-ca.utf-8: El GRUB no s'ha pogut instaŀlar als dispositius següents:\n\n${FAILED_DEVICES}\n\nVoleu continuar tot i això? Si ho feu, és possible que l'ordinador no arrenque correctament.
+Extended_description-cs.utf-8: GRUB se nepodařilo nainstalovat na následující zařízení:\n\n${FAILED_DEVICES}\n\nChcete přesto pokračovat? Pokud ano, je možné, že počítač nemusí korektně nastartovat.
+Extended_description-cy.utf-8: Methwyd sefydlu GRUB i'r dyfeisiau canlynol:\n\n${FAILED_DEVICES}\n\nYdych am barhau beth bynnag? Os ydych, mae'n bosib na fydd eich cyfrifiadur yn dechrau'n gywir.
+Extended_description-da.utf-8: Kunne ikke installere GRUB på de følgende enheder:\n\n${FAILED_DEVICES}\n\nØnsker du at fortsætte alligevel? Hvis du fortsætter, kan din computer måske ikke starte korrekt op.
+Extended_description-de.utf-8: GRUB konnte nicht auf den folgenden Geräten installiert werden:\n\n${FAILED_DEVICES}\n\nWollen Sie trotzdem fortfahren? Falls ja, wird Ihr Rechner vielleicht nicht problemlos hochfahren.
+Extended_description-dz.utf-8: GRUB འདི་ འོག་གི་ཐབས་འཕྲུལ་ཚུ་ནང་གཞི་བཙུགས་འབད་མ་ཚུགས་པས:\n\n${FAILED_DEVICES}\n\nག་དེ་འབད་རུང་ འཕྲོ་མཐུད་འབད་ནི་ཨིན་ན? འཕྲོ་མཐུད་འབད་བ་ཅིན་ ཁྱོད་ཀྱི་གློག་རིག་འདི་ལེགས་ཤོམ་སྦེ་འགོ་བཙུགས་མི་ཚུགས།
+Extended_description-el.utf-8: Η εγκατάσταση του GRUB απέτυχε στις ακόλουθες συσκευές:\n\n${FAILED_DEVICES}\n\nΘέλετε να συνεχίσετε παρόλα αυτά; Αν ναι, είναι πιθανόν ο υπολογιστής σας να μην μπορεί να εκκινήσει κανονικά.
+Extended_description-eo.utf-8: GRUB malsukcesis instali al la jenaj aparatoj:\n\n${FAILED_DEVICES}\n\nĈu vi volas daŭrigi iel ajn? Se jes, eble via komputilo ne ekŝargiĝu ĝuste.
+Extended_description-es.utf-8: No se pudo instalar GRUB en los siguientes dispositivos:\n\n${FAILED_DEVICES}\n\n¿Desea continuar de todos modos? Si lo hace, puede que su equipo no se inicie apropiadamente.
+Extended_description-eu.utf-8: GRUBek huts egin du honako gailuetan instalatzean:\n\n${FAILED_DEVICES}\n\nJarraitzea nahi duzu dena den? Jarraituz gero, baliteke ordenagailua ongi ez abiaraztea.
+Extended_description-fa.utf-8: GRUB نتوانست که تجهیزات مورد نظر را نصب کند.\n\n${FAILED_DEVICES}\n\nآیا شما می‌خواهید در هر حال ادامه دهید ؟ اگر ادامه دهید، ممکن است که کامپیوتر شما به طور مناسب باید بالا نیاید.
+Extended_description-fi.utf-8: GRUBia ei voitu asentaa seuraaville laitteille:\n\n${FAILED_DEVICES}\n\nValitse haluatko jatkaa tästä huolimatta. Jos jatkat, järjestelmä ei välttämättä käynnisty kunnolla.
+Extended_description-fr.utf-8: GRUB n'a pas pu être installé sur les périphériques suivants :\n\n${FAILED_DEVICES}\n\nVeuillez confirmer si vous souhaitez continuer malgré le risque d'un démarrage incorrect de la machine.
+Extended_description-gl.utf-8: Non se puido instalar GRUB nos seguintes dispositivos:\n\n${FAILED_DEVICES}\n\nQuere continuar de todas maneiras? Se o fai, pode que a súa computadora non poida iniciar correctamente.
+Extended_description-gu.utf-8: GRUB નીચેના ઉપકરણોમાં સ્થાપિત થવામાં નિષ્ફળ ગયું:\n\n${FAILED_DEVICES}\n\nતમે તેમ છતાં આગળ વધવા માંગો છો? જો તમે તેમ કરશો તો, તમારું કોમ્પ્યુટર કદાચ યોગ્ય રીતે શરુથશે નહી.
+Extended_description-he.utf-8: כשלון בהתקנת GRUB בהתקנים הבאים:\n\n${FAILED_DEVICES}\n\nהאם ברצונך להמשיך בכל זאת? אם כן, מחשבך עלול לא לאתחל כהלכה.
+Extended_description-hr.utf-8: GRUB nije uspio instalaciju na sljedeće uređaje:\n\n${FAILED_DEVICES}\n\nŽelite li ipak nastaviti? Ako to napravite, vaše računalo se možda neće moći uredno pokrenuti.
+Extended_description-hu.utf-8: Nem sikerült a GRUB-ot a következő eszközökre telepíteni:\n\n${FAILED_DEVICES}\n\nEnnek ellenére folytatni akarod? Ha folytatod, lehet, hogy a számítógéped nem fog elindulni.
+Extended_description-id.utf-8: Gagal memasang GRUB pada piranti berikut ini:\n\n${FAILED_DEVICES}\n\nAnda yakin akan lanjut terus? Jika ya, komputer Anda mungkin tidak dapat beroperasi.
+Extended_description-is.utf-8: Uppsetning GRUB mistókst á eftirfarandi tækjum:\n\n${FAILED_DEVICES}\n\nViltu samt halda áfram? Ef þú gerir það er ekki víst að tölvan þín ræsist aftur eðlilega.
+Extended_description-it.utf-8: L'installazione di GRUB sui seguenti device non è riuscita:\n\n${FAILED_DEVICES}\n\nSi vuole continuare? Continuando, il computer potrebbe non avviarsi più correttamente.
+Extended_description-ja.utf-8: GRUB は以下のデバイスへのインストールに失敗しました:\n\n${FAILED_DEVICES}\n\nとにかく続行しますか? その場合、コンピュータが正常に起動しないかもしれません。
+Extended_description-kk.utf-8: GRUB келесі құрылғыларға орнату сәтсіз аяқталды:\n\n${FAILED_DEVICES}\n\nБәрібір жалғастыруды қалайсыз ба? Нәтижесінде компьютеріңіз дұрыс жүктелмеуі мүмкін.
+Extended_description-km.utf-8: GRUB បាន​បរាជ័យ​ក្នុង​ការ​ដំឡើង​ឧបករណ៍​ដូ​ចខាង​ក្រោម ៖\n\n${FAILED_DEVICES}\n\nអញ្ចឹង តើ​អ្នក​ចង់​បន្ត​ដែរ​ឬទេ ? ប្រសិន​បើ​អ្នក​បន្ត កុំព្យូទ័រ​របស់​អ្នក​មិន​អាច​ចាប់ផ្ដើម​បាន​ត្រឹមត្រូវ​ទេ ។
+Extended_description-ko.utf-8: 다음 장치에 대해 GRUB 설치가 실패했습니다:\n\n${FAILED_DEVICES}\n\n그래도 계속 하시겠습니까? 계속 하면 컴퓨터가 제대로 시작하지 않을 수도 있습니다.
+Extended_description-lt.utf-8: Nepavyko „GRUB“ įdiegti į šiuos įrenginius:\n\n${FAILED_DEVICES}\n\nAr tęsti, nepaisant problemos? Jos neišsprendus, kompiuteris gali tinkamai nepasileisti.
+Extended_description-lv.utf-8: Neizdevās uzinstalēt GRUB uz šīm ierīcēm:\n\n${FAILED_DEVICES}\n\nVai tomēr vēlaties turpināt? Ja tā, dators varētu nespēt pareizi palaisties.
+Extended_description-mr.utf-8: खालील उपकरणांवर ग्रब अधिष्ठापित करणे असफल झाले:\n\n${FAILED_DEVICES}\n\nतुम्हाला तरीही पुढे जायचेय? असे केल्यास, तुमचा संगणक कदाचित व्यवस्थित सुरू होऊ शकणार नाही.
+Extended_description-nb.utf-8: Klarte ikke installere GRUB på følgende enheter:\n\n${FAILED_DEVICES}\n\nØnsker du å fortsette likevel? Hvis du fortsetter, vil kanskje ikke din datamaskin starte opp skikkelig.
+Extended_description-nl.utf-8: Het installeren van GRUB op de volgende apparaten is mislukt:\n\n${FAILED_DEVICES}\n\nWilt u desondanks verder gaan? Verder gaan kan ervoor zorgen dat uw computer niet meer goed opstart.
+Extended_description-no.utf-8: Klarte ikke installere GRUB på følgende enheter:\n\n${FAILED_DEVICES}\n\nØnsker du å fortsette likevel? Hvis du fortsetter, vil kanskje ikke din datamaskin starte opp skikkelig.
+Extended_description-pl.utf-8: Nie powiodło się zainstalowanie GRUB-a na następujących urządzeniach:\n\n${FAILED_DEVICES}\n\nCzy kontynuować mimo to? Jeśli tak, ten komputer może nie uruchomić się poprawnie.
+Extended_description-pt.utf-8: A instalação do GRUB falhou nos seguintes dispositivos:\n\n${FAILED_DEVICES}\n\nPretende continuar de qualquer modo? Em caso afirmativo, o seu computador pode não arrancar em condições.
+Extended_description-pt_br.utf-8: Falha ao instalar o GRUB nos seguintes dispositivos:\n\n${FAILED_DEVICES}\n\nVocê deseja continuar de qualquer maneira? Se você continuar, seu computador talvez não inicialize corretamente.
+Extended_description-ro.utf-8: Instalarea GRUB pe următoarele dispozitive a eșuat:\n\n${FAILED_DEVICES}\n\nDoriți să continuați oricum? Dacă da, este posibil ca sistemul să nu pornească corespunzător.
+Extended_description-ru.utf-8: Не удалось установить GRUB на следующие устройства:\n\n${FAILED_DEVICES}\n\nПродолжить, не смотря на это? Возможно, не удастся загрузить компьютер.
+Extended_description-si.utf-8: GRUB පහත උපකරණ ස්ථාපනයෙහි අසාර්ථක විය:\n\n${FAILED_DEVICES}\n\nඔබට කෙසේ හෝ ඉදිරියට යෑමට ඇවැසිද? එසේ නම් ඔබේ පරිගණකය නිසිපරිදි ආරම්භ නොවනු ඇත.
+Extended_description-sk.utf-8: Inštalácia GRUB zlyhala na týchto zariadeniach:\n\n${FAILED_DEVICES}\n\nChcete napriek tomu pokračovať? Ak áno, môže sa stať, že váš počítač nenaštartuje správne.
+Extended_description-sl.utf-8: Napaka pri nameščanju GRUBa na sledeče naprave:\n\n${FAILED_DEVICES}\n\nŽelite vseeno nadaljevati? V primeru, da boste nadaljevali se računalnik mogoče ne bo pravilno zagnal.
+Extended_description-sv.utf-8: GRUB kunde inte installeras på följande enheter:\n\n${FAILED_DEVICES}\n\nVill du fortsätta i alla fall? Det kan innebära att systemet inte kan starta korrekt.
+Extended_description-ta.utf-8: பின் வரும் சாதனங்களில் க்ரப் நிறுவுதல் தோல்வியடைந்தது:\n\n${FAILED_DEVICES}\n\nஎப்படியும் தொடர வேண்டுமா? தொடர்ந்தால் உங்கள் கணினி சரியாக துவங்க முடியாமல் போகலாம்.
+Extended_description-th.utf-8: ติดตั้ง GRUB ลงในอุปกรณ์ต่อไปนี้ไม่สำเร็จ:\n\n${FAILED_DEVICES}\n\nคุณยังคงต้องการดำเนินการต่อไปหรือไม่? ถ้าทำต่อ เครื่องของคุณอาจบูตไม่ขึ้นได้
+Extended_description-tr.utf-8: Aşağıdaki aygıtlara GRUB kurulumu yapılamadı:\n\n${FAILED_DEVICES}\n\nYine de devam edilsin mi? Devam edilirse bilgisayarınız düzgün başlayamayabilir.
+Extended_description-ug.utf-8: GRUB نى تۆۋەندىكى ئۈسكۈنىگە ئورنىتالمىدى:\n\n${FAILED_DEVICES}\n\nداۋاملاشتۇرۇۋېرەمسىز؟ ئەگەر مۇشۇنداق قىلسىڭىز، كومپيۇتېرىڭىز توغرا قوزغىلالماسلىقى مۇمكىن.
+Extended_description-uk.utf-8: Не вдалося встановити GRUB до наступних дискових пристроїв:\n\n${FAILED_DEVICES}\n\nВи всеодно бажаєте продовжити? Не виключено, що ваш комп'ютер не зможе завантажитися нормально.
+Extended_description-vi.utf-8: GRUB không cài đặt được vào những thiết bị theo đây:\n\n${FAILED_DEVICES}\n\nBạn vẫn muốn tiếp tục không? Nếu có thì máy tính có thể không khởi động đúng.
+Extended_description-zh_cn.utf-8: GRUB 安装到如下设备时失败。\n\n${FAILED_DEVICES}\n\n仍然想要继续？如果这样，您的计算机可能不能正常启动。
+Extended_description-zh_tw.utf-8: 在將 GRUB 安裝至以下裝置時失敗了：\n\n${FAILED_DEVICES}\n\n是否無論如何仍然繼續？但這樣話，您的電腦可能會無法正常開機。
+Type: boolean
+Owners: grub-pc/install_devices_failed
+
+Name: grub-pc/install_devices_failed_upgrade
+Default: true
+Description: Writing GRUB to boot device failed - try again?
+Description-ast.utf-8: La instalación de GRUB falló. ¿Intentalo otra vegada?
+Description-be.utf-8: Не атрымалася запісаць GRUB у загрузкавую прыладу - паспрабаваць ізноў?
+Description-bg.utf-8: Записването на GRUB върху устройството за начално зареждане на успя. Нов опит?
+Description-ca.utf-8: Ha fallat l'escriptura del GRUB al dispositiu. Voleu tornar a provar-ho?
+Description-cs.utf-8: Zápis GRUBu na zaváděcí zařízení selhal - zkusit znovu?
+Description-cy.utf-8: Methwyd ysgrifennu GRUB o'r ddyfais ymgychwyn - ceisio eto?
+Description-da.utf-8: Skrivning af GRUB til opstartsenhed fejlede - forsøg igen?
+Description-de.utf-8: Das Schreiben von GRUB auf das Boot-Gerät ist fehlgeschlagen. Noch einmal versuchen?
+Description-dz.utf-8: GRUB གཞི་བཙུགས་འཐུས་ཤོར་བྱུང་ཡོདཔ། - ལོག་འབད་རྩོལ་བསྐྱེད་ནི་ཨིན་ན?
+Description-el.utf-8: Η εγγραφή του GRUB στη συσκευή εκκίνησης απέτυχε - Επανάληψη;
+Description-eo.utf-8: Skribado de GRUB al ekŝarga aparato malsukcesis - ĉu reprovi?
+Description-es.utf-8: La instalación de GRUB en el dispositivo de inicio ha fallado, ¿desea intentarlo de nuevo?
+Description-eu.utf-8: Huts egin du GRUB abioko gailuan idaztean - saiatu berriro?
+Description-fa.utf-8: نصب GRUB روی دستگاه بوت با شکست مواجه شد - دوباره امتحان می‌کنید؟
+Description-fi.utf-8: GRUBin kirjoittaminen käynnistyslaitteelle epäonnistui. Yritetäänkö uudelleen?
+Description-fr.utf-8: Échec de l'installation de GRUB sur le périphérique d'amorçage. Essayer à nouveau ?
+Description-gl.utf-8: Produciuse un erro ao escribir GRUB no dispositivo de arranque. Quere tentalo de novo?
+Description-gu.utf-8: GRUB ને બૂટ ઉપકરણમાં લખવાનું નિષ્ફળ ગયું - ફરી પ્રયત્ન કરશો?
+Description-he.utf-8: כשלון בכתיבת GRUB להתקן האתחול - לנסות שוב?
+Description-hr.utf-8: Instalacija GRUB-a nije uspjela. Pokušati ponovo?
+Description-hu.utf-8: Nem sikerül a GRUB-ot a rendszerlemezre írni - megpróbáljuk újra?
+Description-id.utf-8: Gagal menulis GRUB ke piranti boot. Coba lagi?
+Description-is.utf-8: Uppsetning GRUB á ræsitæki mistókst. Reyna aftur?
+Description-it.utf-8: Scrittura di GRUB sul device di avvio non riuscita. Riprovare?
+Description-ja.utf-8: ブートデバイスへの GRUB の書き込みに失敗しました。もう一度試してみますか?
+Description-kk.utf-8: GRUB-ты жүктелу құрылғысына жазу сәтсіз - қайталау керек пе?
+Description-km.utf-8: បាន​បរាជ័យ​ក្នុង​ការ​សរសេរ GRUB ទៅ​ឧបករណ៍​ចាប់ផ្ដើម ព្យាយាម​ម្ដង​ទៀត ?
+Description-ko.utf-8: GRUB을 부팅 장치에 쓰는데 실패했습니다. 다시 시도하시겠습니까?
+Description-lt.utf-8: „GRUB“ įrašyti į paleidimo įrenginį nepavyko. Bandyti dar kartą?
+Description-lv.utf-8: Neizdevās ierakstīt GRUB uz palaišanas ierīces — mēģināt atkal?
+Description-mr.utf-8: आरंभ उपकरणावर ग्रब लिहिणे फसले - पुन्हा प्रयत्न करायचा?
+Description-nb.utf-8: Klarte ikke skrive GRUB til oppstartsenhet - prøve igjen?
+Description-nl.utf-8: Schrijven van GRUB naar opstartapparaat mislukt. Opnieuw proberen?
+Description-no.utf-8: Klarte ikke skrive GRUB til oppstartsenhet - prøve igjen?
+Description-pl.utf-8: Zapisywanie GRUB-a na urządzenia rozruchowe nie powiodło się - spróbować ponownie?
+Description-pt.utf-8: A escrita do GRUB para o dispositivo de arranque falhou - tentar de novo?
+Description-pt_br.utf-8: A gravação do GRUB no dispositivo de inicialização falhou - tentar novamente?
+Description-ro.utf-8: Scrierea GRUB pe dispozitivul de pornire a eșuat. Se încearcă din nou?
+Description-ru.utf-8: Не удалось записать GRUB на загрузочное устройство -- попробовать ещё раз?
+Description-si.utf-8: GRUB ආරම්භක උපකරණය ලිවීම අසාර්ථකයි - නැවත උත්සාහ?
+Description-sk.utf-8: Zápis GRUB do zavádzacieho zariadenia zlyhal – skúsiť znova?
+Description-sl.utf-8: Nameščanje GRUBa  na zagonsko napravo ni uspelo. Želite še enkrat poskusiti?
+Description-sv.utf-8: Skrivningen av GRUB till uppstartsenheten misslyckades - försöka igen?
+Description-ta.utf-8: பூட் சாதனத்துக்கு க்ரப் ஐ நிறுவுதல் தோல்வியடைந்தது. மீண்டும் முயற்சிக்கலாமா?
+Description-th.utf-8: เขียน GRUB ลงในอุปกรณ์บูตไม่สำเร็จ - ลองใหม่หรือไม่?
+Description-tr.utf-8: GRUB'u önyükleme aygıtına yazma işlemi başarısız oldu. Tekrar denensin mi?
+Description-ug.utf-8: GRUB نى قوزغىتىش ئۈسكۈنىسىگە يېزىش مەغلۇپ بولدى - قايتا سىنامدۇ؟
+Description-uk.utf-8: Не вдалося записати GRUB до завантажувальних пристроїв. Спробувати знову?
+Description-vi.utf-8: Lỗi khi ghi GRUB vào thiế bị khởi động - thử lại nhé?
+Description-zh_cn.utf-8: 将 GRUB 写入引导设备失败 - 要重新尝试吗？
+Description-zh_tw.utf-8: 將 GRUB 寫入開機裝置失敗了。再試一次？
+Extended_description: GRUB failed to install to the following devices:\n\n${FAILED_DEVICES}\n\nYou may be able to install GRUB to some other device, although you should check that your system will boot from that device. Otherwise, the upgrade from GRUB Legacy will be canceled.
+Extended_description-ast.utf-8: Falló GRUB al instalar nos siguientes preseos:\n\n${FAILED_DEVICES}\n\nPuedes instalar GRUB a otru preséu, aunque deberíes comprobar que'l to sistema arrancará dende esi preséu. De lo contrario, l'anovamientu de GRUB encaboxarase.
+Extended_description-be.utf-8: Не атрымалася ўсталяваць GRUB на наступныя прылады:\n\n${FAILED_DEVICES}\n\nМагчыма, што вы зможаце ўсталяваць GRUB на нейкую іншую прыладу, але вам варта спраўдзіць, што вашая сістэма запусціцца з гэтае прылады. Іначай, абнаўленне з папярэдняе версіі GRUB будзе адмененае.
+Extended_description-bg.utf-8: Опитът за инсталиране на GRUB на следните устройства беше неуспешен:\n\n${FAILED_DEVICES}\n\nВъзможно е инсталирането на GRUB на друго устройство да успее, но трябва да проверите дали компютърът може да извършва първоначално зареждане от него. Ако откажете, обновяването от стария GRUB ще бъде отменено.
+Extended_description-ca.utf-8: El GRUB no s'ha pogut instaŀlar als dispositius següents:\n\n${FAILED_DEVICES}\n\nÉs possible que pugueu instaŀlar el GRUB en un altre dispositiu, tot i que hauríeu de comprovar que el sistema arrencarà des d'aquell dispositiu. En cas contrari, es canceŀlarà l'actualització des del GRUB Legacy.
+Extended_description-cs.utf-8: GRUB se nepodařilo nainstalovat na následující zařízení:\n\n${FAILED_DEVICES}\n\nJe možné, že se povede instalace GRUBu na nějaké jiné zařízení, ovšem měli byste se ujistit, že váš systém umí z daného zařízení zavádět. V opačném případě bude aktualizace z GRUB Legacy zrušena.
+Extended_description-cy.utf-8: Methwyd sefydlu GRUB i'r dyfeisiau canlynol:\n\n${FAILED_DEVICES}\n\nMae'n bosib y gallwch sefydlu GRUB i ryw ddyfais arall, ond fe ddylech wirio fod y system yn gallu ymgychwyn o'r ddyfais honno. Fel arall, i fydd uwchraddio o GRUB etifeddol yn cael ei ganslo.
+Extended_description-da.utf-8: Kunne ikke installere GRUB på de følgende enheder:\n\n${FAILED_DEVICES}\n\nDu kan måske installere GRUB til en anden enhed, selvom du skal tjekke at dit system kan/vil opstarte fra denne enhed. Ellers vil opgraderingen fra GRUB Legacy blive afbrudt.
+Extended_description-de.utf-8: GRUB konnte nicht auf den folgenden Geräten installiert werden:\n\n${FAILED_DEVICES}\n\nVielleicht können Sie GRUB auf einem anderen Gerät installieren. Sie sollten aber prüfen, ob Ihr System von diesem Gerät startet. Sonst wird das Upgrade von GRUB Legacy abgebrochen.
+Extended_description-dz.utf-8: GRUB འདི་ འོག་གི་ཐབས་འཕྲུལ་ཚུ་ནང་གཞི་བཙུགས་འབད་མ་ཚུགས་པས:\n\n${FAILED_DEVICES}\n\nཁྱོད་ཀྱིས་ ཐབས་འཕྲུལ་གཞན་ཚུ་ནང་ GRUB གཞི་བཙུགས་འབད་ཚུགསཔ་འོང་ ཨིན་རུང་ ཁྱོད་རའི་རིམ་ལུགས་འདི་ ཐབས་འཕྲུལ་དེ་ལས་བུཊི་འབད་བཏུབ་ག་ཞིབ་དཔྱད་འབད་དགོ། དེ་མེན་པ་ཅིན་ GRUB སྔོན་བཤུལ་ལས་དུས་མཐུན་འབད་མི་དེ་ཆ་མེད་འགྱོ་འོང་།
+Extended_description-el.utf-8: Η εγκατάσταση του GRUB απέτυχε στις ακόλουθες συσκευές:\n\n${FAILED_DEVICES}\n\nΕίναι πιθανόν να εγκαταστήσετε το GRUB σε κάποια άλλη συσκευή, αλλά θα πρέπει να ελέγξετε ότι το σύστημά σας μπορεί να εκκινήσει από αυτή τη συσκευή. Διαφορετικά, η αναβάθμιση από την έκδοση Legacy του GRUB θα ακυρωθεί.
+Extended_description-eo.utf-8: GRUB malsukcesis instali al la jenaj aparatoj:\n\n${FAILED_DEVICES}\n\nVi povas instali GRUB en iu alia aparato, kvankam vi devos kontroli ĉu via sistemo ekŝargiĝos el tiu aparato. Alimaniere, la aktualigo el malnova GRUB estos nuligata.
+Extended_description-es.utf-8: No se pudo instalar GRUB en los siguientes dispositivos:\n\n${FAILED_DEVICES}\n\nPuede instalar GRUB en otro dispositivo, aunque debería comprobar que su sistema podrá iniciar desde ese dispositivo. En caso contrario, se cancelará la actualización de la versión anterior de GRUB.
+Extended_description-eu.utf-8: GRUBek huts egin du honako gailuetan instalatzean:\n\n${FAILED_DEVICES}\n\nGRUB beste gailu batean instalatzeko aukera duzu, hala ere, sistema beste gailu horretatik abiatzeko ahalmena duela egiaztatu behar duzu. Bestela, 'GRUB Legacy' eguneratzea bertan behera utz daiteke.
+Extended_description-fa.utf-8: GRUB نتوانست که تجهیزات مورد نظر را نصب کند.\n\n${FAILED_DEVICES}\n\nشما ممکن است قادر باشید که GRUB را بر روی بعضی از ابزارهای دیگر نیز نصب کنید ، هرچند که شما باید چک کنید که سیستم شما قادر به راه‌اندازی شدن با آن ابزار هست یا خیر. وگرنه ، ارتقا گراب قدیمی متوقف خواهد شد.
+Extended_description-fi.utf-8: GRUBia ei voitu asentaa seuraaville laitteille:\n\n${FAILED_DEVICES}\n\nVoit ehkä asentaa GRUBin jollekin toiselle levylle. Varmista tällöin, että järjestelmäsi voidaan käynnistää kyseiseltä levyltä. Muussa tapauksessa GRUBin aiemman version päivitys perutaan.
+Extended_description-fr.utf-8: GRUB n'a pas pu être installé sur les périphériques suivants :\n\n${FAILED_DEVICES}\n\nIl est peut-être possible d'installer GRUB sur un autre périphérique après avoir vérifié que le système pourra démarrer sur ce périphérique. Dans le cas contraire, la mise à jour depuis l'ancienne version de GRUB va échouer.
+Extended_description-gl.utf-8: Non se puido instalar GRUB nos seguintes dispositivos:\n\n${FAILED_DEVICES}\n\nAo mellor pode instalar GRUB en outro dispositivo, pero debería comprobar que o seu sistema pode iniciar desde él. Se non, a instalación desde GRUB Legacy cancelarase.
+Extended_description-gu.utf-8: GRUB નીચેના ઉપકરણોમાં સ્થાપિત થવામાં નિષ્ફળ ગયું:\n\n${FAILED_DEVICES}\n\nતમે કદાચ GRUB બીજા ઉપકરણમાં સ્થાપિત કરી શકો છો, તેમ છતાં ચકાસો કે તમારી સિસ્ટમ આ ઉપકરણમાંથી બૂટ થઈ શકશે. અથવા તો, GRUB પરંપરાગતમાંથી સુધારો રદ કરવામાં આવશે.
+Extended_description-he.utf-8: כשלון בהתקנת GRUB בהתקנים הבאים:\n\n${FAILED_DEVICES}\n\nייתכן שתוכל להתקין GRUB בהתקן אחר, למרות שעליך לוודא שמחשבך יאתחל מההתקן ההוא. אחרת, השדרוג מ-GRUB ישן יבוטל.
+Extended_description-hr.utf-8: GRUB nije uspio instalaciju na sljedeće uređaje:\n\n${FAILED_DEVICES}\n\nMožda možete instalirati GRUB na neki drugi uređaj, iako biste morali provjeriti da se vaš sustav može podizati s tog uređaja. U suprotnom, nadogradnja s GRUB Legacy će biti prekinuta.
+Extended_description-hu.utf-8: Nem sikerült a GRUB-ot a következő eszközökre telepíteni:\n\n${FAILED_DEVICES}\n\nMegpróbálhatod egy másik eszközre telepíteni a GRUB-ot, de ehhez célszerű ellenőrizni, hogy az adott eszközről el tud-e indulni a rendszer. Egyébként a régi GRUB frissítését visszavonjuk.
+Extended_description-id.utf-8: Gagal memasang GRUB pada piranti berikut ini:\n\n${FAILED_DEVICES}\n\nAnda dapat memasang GRUB pada piranti lainnya. Tetapi, Anda harus memastikan komputer dapat boot dari piranti tersebut. Jika tidak, pemutakhiran dari GRUB jadul akan dibatalkan.
+Extended_description-is.utf-8: Uppsetning GRUB mistókst á eftirfarandi tækjum:\n\n${FAILED_DEVICES}\n\nÞú gætir hugsanlega sett GRUB upp á eitthvað annað tæki, samt ættirðu að skoða vel hvort kerfið þitt sé fært um að ræsa upp af því tæki.  Að öðrum kosti verður hætt við uppfærslu gamla GRUB ræsistjórans.
+Extended_description-it.utf-8: L'installazione di GRUB sui seguenti device non è riuscita:\n\n${FAILED_DEVICES}\n\nÈ possibile installare GRUB su un altro device, dopo aver verificato che il proprio sistema si possa avviare da quel device. Altrimenti, l'aggiornamento da GRUB Legacy verrà annullato.
+Extended_description-ja.utf-8: GRUB は以下のデバイスへのインストールに失敗しました:\n\n${FAILED_DEVICES}\n\n別のデバイスに GRUB をインストールできるかもしれませんが、そのデバイスからシステムが起動するかどうかを確認しておく必要があります。どのデバイスにもインストールを行わない場合は、GRUB Legacy からのアップグレードは中止されます。
+Extended_description-kk.utf-8: GRUB келесі құрылғыларға орнату сәтсіз аяқталды:\n\n${FAILED_DEVICES}\n\nСіз оған қоса GRUB-ты басқа да құрылғыларға орната аласыз, бірақ жүйеңіз ол кезде жүктеле алатынына көз жеткізіңіз. Болмаса, GRUB Legacy нұсқасынан жаңартудан бас тартылады.
+Extended_description-km.utf-8: GRUB បាន​បរាជ័យ​ក្នុង​ការ​ដំឡើង​ឧបករណ៍​ដូ​ចខាង​ក្រោម ៖\n\n${FAILED_DEVICES}\n\nអ្នក​អាច​ដំឡើង GRUB ទៅ​ឧបករណ៍​មួយ​ចំនួន​បាន ទោះ​បី​ជា​អ្នក​​ដឹង​ថា ប្រព័ន្ធ​របស់​អ្នក​នឹង​ចាប់ផ្ដើម​ពី​ឧបករណ៍​នោះ​ក៏​ដោយ ។ បើ​មិន​ដូច្នេះ​ទេ ការ​ធ្វើ​ឲ្យ​ប្រសើរ​ឡើង​ពី GRUB ចាស់ៗ​នឹង​ត្រូវ​បាន​បោះបង់ ។
+Extended_description-ko.utf-8: 다음 장치에 대해 GRUB 설치가 실패했습니다:\n\n${FAILED_DEVICES}\n\nGRUB을 다른 장치에 설치할 수도 있지만, 그 장치에서 시스템이 부팅하는지 확인해야 합니다. 설치하지 않으면 GRUB 구버전에서 업그레이드는 취소합니다.
+Extended_description-lt.utf-8: Nepavyko „GRUB“ įdiegti į šiuos įrenginius:\n\n${FAILED_DEVICES}\n\nGalbūt „GRUB“ Jums pavyks įdiegti į kurį nors kitą įrenginį, tačiau turėtumėte įsitikinti, jog sistemą iš to įrenginio pavyks paleisti. Priešingu atveju šis atnaujinimas iš senosios „GRUB“ versijos bus atšauktas.
+Extended_description-lv.utf-8: Neizdevās uzinstalēt GRUB uz šīm ierīcēm:\n\n${FAILED_DEVICES}\n\nIespējams, jūs varat uzinstalēt GRUB uz kādas citas ierīces, bet jums jāpārliecinās, ka sistēma varēs no tās ierīces palaisties. Citādi uzlabošana no GRUB mantojuma tiks atcelta.
+Extended_description-mr.utf-8: खालील उपकरणांवर ग्रब अधिष्ठापित करणे असफल झाले:\n\n${FAILED_DEVICES}\n\nतुम्ही ग्रब अन्य कोणत्याही उपकरणावर अधिष्ठापित करू शकता, पण त्या उपकरणावरून तुमची प्रणाली आरंभ करू शकते याची खातरजमा तुम्ही केली पाहिजे. अन्यथा, लीगसी ग्रबचे श्रेणिवर्धन रद्द केले जाईल.
+Extended_description-nb.utf-8: Klarte ikke installere GRUB på følgende enheter:\n\n${FAILED_DEVICES}\n\nDu kan klare å installere GRUB på en annen enhet, selvom du bør sjekke at systemet ditt kan/vil starte opp fra den enheten. Ellers vil oppgraderingen fra GRUB Legacy bli avbrutt.
+Extended_description-nl.utf-8: Het installeren van GRUB op de volgende apparaten is mislukt:\n\n${FAILED_DEVICES}\n\nU kunt proberen om GRUB te installeren op een ander apparaat, maar het wordt aangeraden om eerst te controleren of u kunt opstarten vanaf dat apparaat. In het andere geval zal het opwaarderen van GRUB oude-stijl geannuleerd worden.
+Extended_description-no.utf-8: Klarte ikke installere GRUB på følgende enheter:\n\n${FAILED_DEVICES}\n\nDu kan klare å installere GRUB på en annen enhet, selvom du bør sjekke at systemet ditt kan/vil starte opp fra den enheten. Ellers vil oppgraderingen fra GRUB Legacy bli avbrutt.
+Extended_description-pl.utf-8: Nie powiodło się zainstalowanie GRUB-a na następujących urządzeniach:\n\n${FAILED_DEVICES}\n\nIstnieje możliwość zainstalowania GRUB-a na jakimś innym urządzeniu, ale należy sprawdzić, czy system się z niego uruchomi. W innym przypadku, aktualizacja z GRUB Legacy zostanie odwołana.
+Extended_description-pt.utf-8: A instalação do GRUB falhou nos seguintes dispositivos:\n\n${FAILED_DEVICES}\n\nPoderá instalar o GRUB noutro dispositivo, no entanto deverá verificar que o seu sistema arranca desse dispositivo. Se não o fizer, a actualização a partir do GRUB Legacy será cancelada.
+Extended_description-pt_br.utf-8: Falha ao instalar o GRUB nos seguintes dispositivos:\n\n${FAILED_DEVICES}\n\nVocê pode conseguir instalar o GRUB em outro dispositivo, mas você deve verificar se o seu sistema vai conseguir inicializar a partir deste dispositivo. Caso contrário, a atualização do GRUB Legado será cancelada.
+Extended_description-ro.utf-8: Instalarea GRUB pe următoarele dispozitive a eșuat:\n\n${FAILED_DEVICES}\n\nPuteți instala GRUB pe alt dispozitiv, însă ar trebui să verificați dacă sistemul va porni de pe acel dispozitiv. Altfel, înnoirea de la GRUB Legacy va fi anulată.
+Extended_description-ru.utf-8: Не удалось установить GRUB на следующие устройства:\n\n${FAILED_DEVICES}\n\nВы можете установить GRUB на другое устройство, но проверьте, что компьютер будет загружаться с этого устройства. Иначе, обновление со старой версии GRUB Legacy будет отменено.
+Extended_description-si.utf-8: GRUB පහත උපකරණ ස්ථාපනයෙහි අසාර්ථක විය:\n\n${FAILED_DEVICES}\n\nඔබට GRUB වෙනත් උපකරණයක ස්ථාපනය කල හැක. ඒ අතර ඔබේ පද්ධතිය එම උපකරණය මගින් ආරම්භ වේදැයි සොයාබලන්න. එසේ නොමැති නම් පැරණි GRUB වෙතින් යාවත් වීම අවලංගු වේ.
+Extended_description-sk.utf-8: Inštalácia GRUB zlyhala na týchto zariadeniach:\n\n${FAILED_DEVICES}\n\nMožno sa vám podarí nainštalovať GRUB aj na niektoré iné zariadenie, ale musíte skontrolovať, že váš systém dokáže z neho zavádzať. Inak bude aktualizácia zo starého GRUB (Legacy) zrušená.
+Extended_description-sl.utf-8: Napaka pri nameščanju GRUBa na sledeče naprave:\n\n${FAILED_DEVICES}\n\nMogoče lahko namestite GRUB na katero drugo napravo, preveriti pa morate, da se bo lahko vaš sistem zagnal iz te naprave. Drugače bo posodobitev iz zastarelega GRUB prekinjena .
+Extended_description-sv.utf-8: GRUB kunde inte installeras på följande enheter:\n\n${FAILED_DEVICES}\n\nDu kan kanske installera GRUB till någon annan enhet, du bör dock kontrollera att systemet kommer att starta från den enheten. I annat fall kommer uppgraderingen från äldre GRUB-version att avbrytas.
+Extended_description-ta.utf-8: பின் வரும் சாதனங்களில் க்ரப் நிறுவுதல் தோல்வியடைந்தது:\n\n${FAILED_DEVICES}\n\nநீங்கள் வேறு சாதனத்தில் க்ரப் ஐ நிறுவ முடியலாம். ஆனால் உங்கள் கணினி  அந்த சாதனத்தில் இருந்து பூட் ஆகும் என்பதை உறுதி செய்து கொள்ள வேண்டும். இல்லையெனில் பாரம்பரிய க்ரப் இலிருந்து மேம்படுத்துதல் ரத்து செய்யப்படும்.
+Extended_description-th.utf-8: ติดตั้ง GRUB ลงในอุปกรณ์ต่อไปนี้ไม่สำเร็จ:\n\n${FAILED_DEVICES}\n\nคุณอาจสามารถติดตั้ง GRUB ลงในอุปกรณ์อื่นได้ โดยคุณควรทดสอบด้วยว่าเครื่องของคุณบูตจากอุปกรณ์นั้นขึ้นหรือไม่ ถ้าตอบปฏิเสธ ก็จะยกเลิกการปรับรุ่นจาก GRUB รุ่นเก่า
+Extended_description-tr.utf-8: Aşağıdaki aygıtlara GRUB kurulumu yapılamadı:\n\n${FAILED_DEVICES}\n\nGRUB'u başka bir aygıta kurabilirsiniz, ancak sisteminizin o aygıttan başlatılabileceğinden emin olmalısınız. Aksi durumda, eski GRUB'dan yükseltme yapılmayacaktır.
+Extended_description-ug.utf-8: GRUB نى تۆۋەندىكى ئۈسكۈنىگە ئورنىتالمىدى:\n\n${FAILED_DEVICES}\n\nسىز GRUB نى باشقا ئۈسكۈنىگە ئورنىتالىشىڭىز مۇمكىن، تەكشۈرۈشنى جەزملىشىڭىز زۆرۈر بولسىمۇ سىستېمىڭىز شۇ ئۈسكۈنىدىن قوزغىلىدۇ. بولمىسا GRUB Legacy دىن يېڭىلاشتىن ۋاز كېچىدۇ.
+Extended_description-uk.utf-8: Не вдалося встановити GRUB до наступних дискових пристроїв:\n\n${FAILED_DEVICES}\n\nВи можете встановити GRUB до іншого завантажувального пристрою, але для цього потрібно переконатися, що система завантажиться з нього. Інакше, оновлення з GRUB Legacy не буде виконано.
+Extended_description-vi.utf-8: GRUB không cài đặt được vào những thiết bị theo đây:\n\n${FAILED_DEVICES}\n\nCó thể là bạn cài đặt được GRUB vào một thiết bị khác (trước tiên nên kiểm tra nếu hệ thống sẽ khởi động từ thiết bị đó). Không thì tiến trình nâng cấp từ GRUB Cũ (Legacy) sẽ bị thôi.
+Extended_description-zh_cn.utf-8: GRUB 安装到如下设备时失败。\n\n${FAILED_DEVICES}\n\n您可能可以安装 GRUB 到其它设备，尽管您需要明确，您的系统将从那个设备启动。否则，从 GRUB Legacy 的升级将被取消。
+Extended_description-zh_tw.utf-8: 在將 GRUB 安裝至以下裝置時失敗了：\n\n${FAILED_DEVICES}\n\n您也許可以把 GRUB 安裝至其它的裝置，只是您得設定好您的系統會從該裝置開機。否則，將中止 GRUB Legacy 的升級。
+Type: boolean
+Owners: grub-pc/install_devices_failed_upgrade
+
+Name: grub-pc/kopt_extracted
+Default: false
+Description: for internal use
+Type: boolean
+Owners: grub-pc/kopt_extracted
+
+Name: grub-pc/mixed_legacy_and_grub2
+Default: true
+Description: Finish conversion to GRUB 2 now?
+Description-ar.utf-8: إنهاء التحويل إلى GRUB 2 الآن؟
+Description-ast.utf-8: ¿Finar agora conversión a GRUB 2?
+Description-be.utf-8: Скончыць зараз перавод на GRUB 2?
+Description-bg.utf-8: Завършване на преминаването към GRUB2 ?
+Description-ca.utf-8: Voleu finalitzar la conversió al GRUB 2 ara?
+Description-cs.utf-8: Dokončit nyní přechod na GRUB 2?
+Description-cy.utf-8: Cwblhau y newid i GRUB 2 nawr?
+Description-da.utf-8: Afslut konvertering til GRUB 2 nu?
+Description-de.utf-8: Jetzt die Umstellung auf GRUB 2 abschließen?
+Description-dz.utf-8: ད་ལྟོ་ར་ GRUB ༢ ལུ་གཞི་བསྒྱུར་མཇུག་བསྡུ་ནི་ཨིན་ན?
+Description-el.utf-8: Να τελειώσει τώρα η μετατροπή σε GRUB 2;
+Description-eo.utf-8: Ĉu finigi konverton al GRUB 2 nun?
+Description-es.utf-8: ¿Desea terminar la conversión a GRUB 2 ahora?
+Description-eu.utf-8: Amaitu GRUB 2-rako bihurketa orain?
+Description-fa.utf-8: ارتباط با GRUB۲ اکنون پایان یابد؟
+Description-fi.utf-8: Saatetaanko siirtyminen GRUB 2:een loppuun nyt?
+Description-fr.utf-8: Faut-il terminer la migration vers GRUB 2 maintenant ?
+Description-gl.utf-8: Rematar a conversión a GRUB 2 agora?
+Description-gu.utf-8: GRUB ૨ માં રુપાંતર હવે પૂર્ણ થયું?
+Description-he.utf-8: לסיים עכשיו המרה ל-GRUB 2?
+Description-hr.utf-8: Završiti prebacivanje na GRUB 2?
+Description-hu.utf-8: Befejezed most az átállást a GRUB 2-re?
+Description-id.utf-8: Selesaikan proses konversi ke GRUB2 sekarang?
+Description-is.utf-8: Ljúka núna umbreytingu í GRUB 2 ?
+Description-it.utf-8: Completare la conversione a GRUB 2 adesso?
+Description-ja.utf-8: ここで GRUB 2 へのコンバートを終了しますか?
+Description-kk.utf-8: GRUB 2-ге айналдыруды қазір аяқтау керек пе?
+Description-km.utf-8: បញ្ចប់ការ​បម្លែងទៅ​ GRUB 2 ឥឡូវ ?
+Description-ko.utf-8: GRUB 2로 전환을 마치시겠습니까?
+Description-lt.utf-8: Užbaigti migraciją į „GRUB 2“ dabar?
+Description-lv.utf-8: Pabeigt pārveidošanu uz GRUB 2 tagad?
+Description-mr.utf-8: ग्रब 2 मध्ये परिवर्तन आता थांबवायचे?
+Description-nb.utf-8: Avslutt konvertering til GRUB 2 nå?
+Description-nl.utf-8: Wilt u het omschakelen naar GRUB 2 nu afronden?
+Description-no.utf-8: Avslutt konvertering til GRUB 2 nå?
+Description-pl.utf-8: Zakończyć przejście do GRUB-a 2?
+Description-pt.utf-8: Finalizar a conversão para o GRUB 2 agora?
+Description-pt_br.utf-8: Completar a conversão para o GRUB 2 agora?
+Description-ro.utf-8: Terminați acum conversia la GRUB 2?
+Description-ru.utf-8: Завершить переход к GRUB 2?
+Description-si.utf-8: GRUB 2 වෙත හැරවීම අවසන් කරන්නද?
+Description-sk.utf-8: Dokončiť konverziu na GRUB 2 teraz?
+Description-sl.utf-8: Želite zdaj dokončati  pretvorbo v GRUB 2?
+Description-sv.utf-8: Avsluta konverteringen till GRUB 2 nu?
+Description-ta.utf-8: க்ரப் 2 க்கு மாற்றத்தை இப்போது முடிக்கலாமா?
+Description-th.utf-8: จะทำขั้นสุดท้ายของการแปลงเป็น GRUB 2 หรือไม่?
+Description-tr.utf-8: GRUB 2'ye dönüşüm tamamlansın mı?
+Description-ug.utf-8: ھازىر GRUB 2 نىڭ ئايلاندۇرۇشىنى تاماملىدىمۇ؟
+Description-uk.utf-8: Завершити перехід до GRUB 2 зараз?
+Description-vi.utf-8: Kết thúc chuyển đổi sang GRUB2 ngay bây giờ ?
+Description-zh_cn.utf-8: 现在完成到 GRUB 2 的转换？
+Description-zh_tw.utf-8: 是否要結束 GRUB 2 的轉換過程？
+Extended_description: This system still has files from the GRUB Legacy boot loader installed, but it now also has GRUB 2 boot records installed on these disks:\n\n${DISKS}\n\nIt seems likely that GRUB Legacy is no longer in use, and that you should instead upgrade the GRUB 2 images on these disks and finish the conversion to GRUB 2 by removing old GRUB Legacy files. If you do not upgrade these GRUB 2 images, then they may be incompatible with the new packages and cause your system to stop booting properly.\n\nYou should generally finish the conversion to GRUB 2 unless these boot records were created by a GRUB 2 installation on some other operating system.
+Extended_description-ar.utf-8: لا زال النظام يحتوي على ملفات GRUB قديمة مثبتة، كما يحتوي أيضاً على سجلات إقلاع GRUB 2 على هذه الأقراص:\n\n${DISKS}\n\nيبدو أن GRUB القديم لم يعد مستخدماً، ويجب عليك الترقية إلى GRUB 2 وإنهاء التحويل إلى GRUB 2 بإزالة ملفات GRUB القديمة. وإن لم تقم بعملية الترقية هذه، فقد لا يكون نظام الإقلاع متوافقاً مع الحزم الجديدة ويتسبب ذلك بعدم إقلاع نظام كما هو مفترض.\n\nبشكل عام، يجب عليك إنهاء التحويل إلى GRUB 2 إلا إن كانت سجلات الإقلاع هذه قد أنشأها تثبيت GRUB 2 لنظام تشغيل آخر.
+Extended_description-ast.utf-8: Esti sistema tovía tien ficheros del xestor d'arranque GRUB instaláu, pero agora tamién registros d'arranque GRUB 2 instaláu n'estos discos:\n\n${DISKS}\n\nParez probable que GRUB ya nun ta n'usu, y que deberíes anovar les imáxenes de GRUB 2 d'estos discos y finar la conversión a GRUB 2, desaniciando vieyos ficheros heredaos de GRUB. Si nun anoves estes imáxenes de GRUB, entós pueden ser incompatibles colos nuevos paquetes y facer que'l to sistema nun arranque correutamente.\n\nEn xeneral, deberíes finar la conversión a GRUB 2 a menos qu'estos rexistros d'arranque fueren creaos por una instalación de GRUB 2 en dalgún otru sistema operativu.
+Extended_description-be.utf-8: На гэтай сістэме ўсё яшчэ ўсталяваныя файлы з папярэдняе версіі загрузчыка GRUB, але зараз тут таксама ўсталяваныя загрузчыкі GRUB 2 на наступных дысках:\n\n${DISKS}\n\nПадаецца, што папярэдняя версія GRUB болей не выкарыстоўваецца, і што вы павінны замест гэтага абнавіць вобразы GRUB 2 на гэтых дысках і скончыць пераход на GRUB 2, выдаліўшы старыя файлы папярэдняй версіі GRUB. Калі вы не абновіце гэтыя вобразы GRUB 2, то яны могуць стаць несумяшчальнымі з новымі пакетамі і ваша сістэма перастане нармальна запускацца.\n\nЗвычайна, Вы павінны скончыць пераход на GRUB 2, калі толькі гэтыя загрузчыкі не былі створаныя ўсталёўкай GRUB 2 на нейкай іншай аперацыйнай сістэме.
+Extended_description-bg.utf-8: На системата има файлове от стария GRUB, но има сектори за начално зареждане от GRUB 2, инсталирани на следните дискове:\n\n${DISKS}\n\nИзглежда, че старият GRUB не се използва и вместо него е редно се инсталира GRUB 2 върху дисковете и да се

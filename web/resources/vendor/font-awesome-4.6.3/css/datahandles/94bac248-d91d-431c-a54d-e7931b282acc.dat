@@ -1,0 +1,664 @@
+수:
+Extended_description-ko.UTF-8: ${MODULE} 모듈을 읽어들이는데 실패했습니다. 이 모듈을 동작하도록 만드려면 모듈에 파라미터를 넘겨야 할 수도 있습니다. 오래된 하드웨어의 경우 흔히 파라미터를 넘겨야 합니다. 인수는 보통 I/O 포트나 IRQ 번호같은 정보로, 컴퓨터 기종마다 다르고 하드웨어에 따라 자동으로 설정할 수 없습니다. 예를 들어 "irq=7 io=0x220"처럼 씁니다.\n\n뭘 입력해야 할 지 모르겠다면, 관련 문서를 참고하십시오. 모듈을 읽어들이지 않으려면 비워 두십시오.
+Description-ku.UTF-8: Ji bo modula ${MODULE} parametreyên pêvek:
+Extended_description-ku.UTF-8: Modula ${MODULE} nehate barkirin. Wekî rewşeke ku di reqalavên kevn de mirov gelek caran pêrgî wê dibe, ji bo bi modulê bixebite divê tu hin parametreyan derbas bikî. Ev parametreyên hanê piranî gorî makîneyan diguhere û porta I/O û nimreyên IRQ ne; ev tiştên hanê jî ji aliyê reqalavê nayê nasîn. Rêzeke mînak wisa dixuye: "irq=7 io=0x220"\n\nHeke tu nizanibî çi têxê , Bi belgekirinên xwe bişêwire, an jî vala bihêle da tu modelê danexînî.
+Description-lo.UTF-8: ພາລາມີເຕີເພີ່ມເຕີມສຳລັບໂມດູນ ${MODULE}:
+Extended_description-lo.UTF-8: ໂຫຼດໂມດູນ ${MODULE} ບໍ່ສຳເລັດອາດຕ້ອງກຳນົດພາລາມີເຕີໃຫ້ກັບໂມດູນເພື່ອໃຫ້ໂຫຼດໄດ້ ເລື່ອງນີ້ເປັນເລື່ອງປົກກະຕິສຳລັບຮາດແວຣເກົ່າໆ  ຫຼາຍເທື່ອພາລາມີເຕີເຫຼົ່ານີ້ຈະເປັນພຣອດ I/O ແລະ IRQ ຊື່ງຈະບໍ່ຄືກັນໃນແຕ່ລະເຄື່ອງ ແລະບໍ່ສາມາດກວດສອບຂໍ້ມູນຈາກ ຕົວຮາດແວຣ໌ເອງໄດ້ຕົວຢ່າງຮູບແບບການກຳນົດຂອງພາລາມິເຕີເຊັ່ນ: "irq=7 io=0x220".\n\nຖ້າເຈົ້າບໍ່ຮູ້ວ່າຈະປ້ອນຂໍ້ມູນຫຍັງ ກະລຸນາສຶກສາຈາກເອກະສານ ຫຼື ປ່ອຍເປັນຄ່າທີ່ຄ້າງໄວ້ເພື່ອຈະບໍ່ຕ້ອງໂຫຼດໂມດູນ.
+Description-lt.UTF-8: Papildomi parametrai moduliui „${MODULE}“:
+Extended_description-lt.UTF-8: Modulio „${MODULE}“ nepavyko įkelti. Kad jis veiktų, Jums gali tekti perduoti moduliui įkėlimo parametrus; tai įprasta senesnei aparatinei įrangai. Dažnai, tai įvesties–išvesties prievadas (port) ir pertraukimo numeris (IRQ), kurie kompiuteriuose būna skirtingi ir negali būti nustatyti automatiškai. Pavyzdžiui, parametrai gali atrodyti taip: "irq=7 io=0x220"\n\nJei nežinote ką įvesti, pasižiūrėkite į dokumentaciją, arba palikite lauką tuščią, kad modulis nebūtų įkeliamas.
+Description-lv.UTF-8: Papildu parametri modulim ${MODULE}:
+Extended_description-lv.UTF-8: Moduļa ${MODULE} ielāde neizdevās. Iespējams, šim modulim jānorāda parametri, lai tas darbotos (tas ir tipiski vecai aparatūrai). Šie parametri parasti ir I/O porti un IRQ numuri, tie ir specifiski katram datoram un nav automātiski nosakāmi. Piemēram, "irq=7 io=0x220"\n\nJa nezināt, ko ievadīt, skatiet attiecīgo dokumentāciju, vai neievadiet neko, lai atteiktos no moduļa ielādes.
+Description-mk.UTF-8: Додатни параметри за модулот ${MODULE}:
+Extended_description-mk.UTF-8: Модулот ${MODULE} не успеа да се вчита. Можеби треба да  дополнителни параметри за овој модул да работи, ова е често со постар хардвер. Овие параметри се најчесто I/O порта и IRQ бројки кои се менуваат од машина на машина и неможат да се дознаат од самиот хардвер. Би изгледало нешто како „irq=7 io=0x220“\n\nАко незнаеш што да внесеш, провери во твојата документација или остави го празно за да не се вчита модулот.
+Description-nb.UTF-8: Skriv inn eventuelle tilleggsparametere for modulen ${MODULE}:
+Extended_description-nb.UTF-8: Modulen ${MODULE} ville ikke lastes. Ekstra parametre må kanskje med for å få modulen til å virke, noe som er vanlig med eldre maskinvare. Parametrene er ofte I/U-port og IRQ-nummer som kan variere mellom ulike maskiner og ikke kan bestemmes ut fra maskinvaren. Et eksempel på ekstra parametere kan være «irq=7 ui=0x220»\n\nHvis du ikke vet hva du skal skrive, undersøk dokumentasjonen, eller la det stå tomt slik at modulen ikke lastes.
+Description-nl.UTF-8: Eventuele aanvullende parameters voor de module ${MODULE}:
+Extended_description-nl.UTF-8: Laden van de module ${MODULE} is mislukt. Mogelijk dient u parameters mee te geven aan de module opdat deze zou werken (komt vaak voor met oudere hardware). Deze parameters geven vaak de I/O-poort en IRQ-nummers; deze verschillen van machine tot machine en kunnen niet hardwarematig bepaald worden. Zo'n regel ziet er bijvoorbeeld uit als 'irq=7 io=0x220'\n\nAls u niet weet wat u hier dient in te voeren kunt u of eerst uw documentatie raadplegen, of kunt dit leeg laten waardoor de module niet geladen wordt.
+Description-nn.UTF-8: Oppgje eventuelle tilleggsparametrar for modulen ${MODULE}:
+Extended_description-nn.UTF-8: Klarte ikkje laste modulane ${MODULE}. Det kan vere du må oppgje ekstra parametrar for å få desse modulane til å fungere. Desse parametrane er ofte I/U-port og IRQ-nummer som kan variera mellom ulike maskiner og ikkje kan fastsetjast ut frå maskinvara. Eit døme på ekstra parameter kan vere «IRQ=7 IO=0x220».\n\nViss du ikkje veit kva du skal skrive inn, sjå etter i dokumentasjonen eller så la det stå tomt.
+Description-no.UTF-8: Skriv inn eventuelle tilleggsparametere for modulen ${MODULE}:
+Extended_description-no.UTF-8: Modulen ${MODULE} ville ikke lastes. Ekstra parametre må kanskje med for å få modulen til å virke, noe som er vanlig med eldre maskinvare. Parametrene er ofte I/U-port og IRQ-nummer som kan variere mellom ulike maskiner og ikke kan bestemmes ut fra maskinvaren. Et eksempel på ekstra parametere kan være «irq=7 ui=0x220»\n\nHvis du ikke vet hva du skal skrive, undersøk dokumentasjonen, eller la det stå tomt slik at modulen ikke lastes.
+Description-pl.UTF-8: Podaj dodatkowe parametry dla modułu ${MODULE}
+Extended_description-pl.UTF-8: Nie udało się załadować modułu ${MODULE}. Możliwe, że przekazanie parametrów modułowi sprawi, że zacznie on działać; to jest typowe dla starszego sprzętu. Parametry te to zazwyczaj porty I/O i numery IRQ, które mogą być inne na różnych komputerach i nie da się ich wydobyć ze sprzętu. Przykładowy ciąg: "irq=7 io=0x220"\n\nJeśli nie wiesz co wpisać, sprawdź dokumentację lub zostaw puste miejsce, by nie ładować tego modułu.
+Description-pt.UTF-8: Parâmetros adicionais para o módulo ${MODULE}:
+Extended_description-pt.UTF-8: O módulo ${MODULE} falhou ao carregar. Pode necessitar de passar parâmetros ao módulo para este funcionar; isto é comum com hardware antigo. Estes parâmetros são normalmente portas de I/O e números de IRQ que variam de máquina para máquina e não podem ser determinados sozinhos pelo hardware. Uma linha típica para isso é "irq=7 io=0x220"\n\nSe não sabe o que deve introduzir, consulte a sua documentação, ou deixe vazio para não carregar o módulo.
+Description-pt_BR.UTF-8: Parâmetros adicionais para o módulo ${MODULE}:
+Extended_description-pt_BR.UTF-8: O módulo ${MODULE} falhou ao ser carregado. Você pode precisar passar parâmetros para o módulo para que o mesmo possa funcionar; isso é comum com hardware mais antigo. Esses parâmetros são frequentemente a porta I/O e números IRQ, os quais variam de máquina para máquina e não podem ser determinados a partir do hardware. Um exemplo seria parecido com "irq=7 io=0x220"\n\nSe você não sabe o que informar, consulte sua documentação ou deixe em branco para que o módulo não seja carregado.
+Description-ro.UTF-8: Parametri suplimentari pentru modulul ${MODULE}:
+Extended_description-ro.UTF-8: Modulul ${MODULE} a eșuat la încărcare. Probabil că va fi nevoie să dați parametri modulului pentru a-l face să funcționeze; acest lucru este comun la componente vechi. Acești parametri sunt, de regulă porturi I/O și numere IRQ care variază de la o mașină la alta,și nu pot fi detectate. Un exemplu de un asemenea șir: „irq=7 io=0x220”\n\nDacă nu știți ce să introduceți, consultați documentația sau lăsați câmpul gol pentru a nu încărca modulul.
+Description-ru.UTF-8: Введите дополнительные параметры для модуля ${MODULE}:
+Extended_description-ru.UTF-8: Сбой при загрузке модуля ${MODULE}.У некоторых модулей есть параметры загрузки, управляющие их работой. Часто это номера портов ввода-вывода и прерываний, разные на разных компьютерах и не определяемые автоматически. Например, параметры могут выглядеть как "irq=7 io=0x220"\n\nЕсли Вы не знаете, что ввести, сверьтесь с документацией или оставьте поле пустым -- в этом случае модуль не будет загружен.
+Description-se.UTF-8: Jus dárbbašuvvo, čális lasseparamehteriid moduvlii ${MODULE}:
+Extended_description-se.UTF-8: Moduvla ${MODULE} ii vižžojuvvon. Dáiddát fertet sáddet dasa paramehteriid vai doaibmagoahtá, lea dábálaš boares mašiidnagálvvuin. Dát paramehterat lea dávjá S/O verrát ja IRQ nummirat mat rivdet mašiinnas mašiidnii ja eai leat vejolačča mearridat mašiidnagálvvus. Ovdamearkastreaŋga sáhttá leat sullii na «irq-7 io=220».\n\nJus it dieđe maid gálggat čállit, geahča dokumentašuvvna dahje guođe guorusin.
+Description-si.UTF-8: ${MODULE} මොඩියුලය සඳහා වන අමතර පරාමිති:
+Extended_description-si.UTF-8: ${MODULE} මොඩියුලය පූර්ණය කිරීම අසාර්ථකයි. ඔබට එම මොඩියුලය ක්‍රියාකරවීමට එයට පරාමිති යැවීමට සිදුවිය හැකල මෙය පැරණි දෘඩාංග සඳහාවන පොදු ගැටළුවකි. මෙම පරාමිති බොහෝ විට I/O හා IRQ අංක වන අතර යන්ත්‍රයෙන් යන්ත්‍රයට වෙනස්වන බැවින් දෘඩාංගයක් ලෙස දැක්විය නොහැක, උදාහරණයක් ලෙස එම යෙදුම මෙලෙස දිස්විය හැක "irq=7 io=0x220"\n\nඔබ කුමක් ඇතුළත් කරන්නේදැයි නොදන්නේ නම්, ඔබේ ලේඛණ කරා යොමුවන්න, නැතහොත් මොඩියුලය පූර්ණය නොකිරීමට එය හිස්ව තබන්න.
+Description-sk.UTF-8: Prídavné parametre pre modul ${MODULE}:
+Extended_description-sk.UTF-8: Načítanie modulu ${MODULE} zlyhalo. Možno bude potrebné zadať parametre pre tento modul, čo je obvyklé pre staršie zariadenia. Týmito parametrami sú často vstupno-výstupné (I/O) porty a hodnoty prerušení (IRQ), ktoré sa môžu líšiť na každom počítači a z hardvéru sa nedajú zistiť. Vzorový reťazec môže vyzerať takto: „irq=7 io=0x220“.\n\nAk neviete, čo zadať, pozrite sa do dokumentácie alebo nechajte toto pole prázdne, aby sa modul nenačítaval.
+Description-sl.UTF-8: Vnesite dodatne parametre za modul ${MODULE}:
+Extended_description-sl.UTF-8: Modul ${MODULE} se ni naložil. Nekateri moduli sprejmejo parametre ob nalaganju, tako da lahko prilagodite njihovo delovanje (predvsem starejša strojna oprema). Ti parametri so pogosto vrata V/I in številke IRQ, ki so od računalnika do računalnika različne in jih ni mogoče zaznati s strojno opremo. Niz lahko izgleda nekako takole "irq=7 io=0x220"\n\nČe ne veste, kaj vnesti, poglejte v dokumentacijo, ali ne vnesite ničesar, če ne želite naložiti modula.
+Description-sq.UTF-8: Parametra shtesë për modulin ${MODULE}:
+Extended_description-sq.UTF-8: Moduli ${MODULE} nuk arriti të ngarkohet. Ndoshta duhet ti kalosh parametra modulit në mënyrë që të punojë; kjo është normale me kompjuter të vjetër. Këto parametra shpesh janë porta I/O dhe numrat e IRQ që ndryshojnë sipas kompjuterit dhe nuk mund të vendosen nga sistemi. Një parametër i zakonshëm ngjan me "irq=7 io=0x220"\n\nNëse nuk di çfarë të shkruash, këshillohu me dokumentat, ose lëre bosh për të mos e ngarkuar këtë modul.
+Description-sr.UTF-8: Додатни параметри за модул ${MODULE}:
+Extended_description-sr.UTF-8: Модул ${MODULE} није успео да се учита. Можда морате проследити неке параметре модулу да бисте га натерали да ради; ово је чест случај са старијим хардвером. Ови параметри су најчешће I/O порт и IRQ бројеви који варирају од машине до машине и не могу се детектовати. На пример, параметри могу изгледати овако „irq=7,io=0x220“\n\nАко не знате шта да унесете, консултујте документацију или оставите поље празно како се модул не би учитао.
+Description-sv.UTF-8: Ytterligare parametrar till modulen ${MODULE}:
+Extended_description-sv.UTF-8: Lyckades inte läsa in modulen ${MODULE}. Du kan behöva ge parametrar till modulen för att få den att fungera; det här är vanligt med äldre maskinvara. De här parametrarna är ofta I/O-port och IRQ-nummer som varierar från maskin till maskin och inte kan avgöras från maskinvaran. En exempelsträng ser ut i stil med "irq=7 io=0x220".\n\nOm du inte vet vad du ska ange, slå upp det i dokumentationen, eller lämna det tomt så läses inte modulen in.
+Description-te.UTF-8: మాడ్యూల్ ${MODULE} కొరకు అదనపు లక్షణాలు:
+Extended_description-te.UTF-8: ${MODULE} మాడ్యూల్ నింపుట విఫలం. ఇది పనిచేయటానికి  లక్షణాలు మాడ్యూల్ కి  అందచేయవలసివుండవచ్చు. ఇలా పాత హార్డ్వేర్ తో అవుతుంది. ఈ లక్షణాలు  తరచూ   I/O port మరియు IRQ numbers. ఇవి  కంప్యూటర్ నుండి కంప్యూటర్ కి మారుతూవుంటాయి, స్వయంగా తెలుసుకొనుట వీలు పడదు. ఉదా: "irq=7 io=0x220"\n\nమీకు  ఏమి ప్రవేశపెట్టాలో తెలియకపోతే, మీ  పత్రాలు చూడండి లేక మాడ్యూల్ ని నింపకుండా వుండటానికి  ఖాళీగా వదిలేయండి.
+Description-tg.UTF-8: Параметрҳои иловагӣ барои модули ${MODULE}:
+Extended_description-tg.UTF-8: Модули ${MODULE} бор карда нашуд. Эҳтимол аст, ки ба шумо лозим мешавад, ки барои ба кор даровардани модул ба он параметрҳоро фиристонед; ин бо сахтафзори кӯҳнатар умумӣ мебошад. Ин параметрҳо одатан рақамҳои порти I/O ва IRQ мебошанд, ки дар байни компютерҳои тағйир меёбанд, ва наметавонанд аз сахтафзор муайян карда шаванд. Сатри намунавӣ ба чунин зерин монанд аст: "irq=7 io=0x220"\n\nАгар шумо надонед, ки чиро бояд ворид кунед, ҳуҷҷатҳои худро санҷед, ё ки онро холӣ монед, то ин ки модулро бор накунед.
+Description-th.UTF-8: พารามิเตอร์เพิ่มเติมสำหรับมอดูล ${MODULE}:
+Extended_description-th.UTF-8: โหลดมอดูล ${MODULE} ไม่สำเร็จ คุณอาจต้องกำหนดพารามิเตอร์ให้กับมอดูลเพื่อให้โหลดได้ เรื่องนี้เป็นเรื่องปกติสำหรับฮาร์ดแวร์เก่าๆ  บ่อยครั้ง พารามิเตอร์เหล่านี้จะเป็นหมายพอร์ต I/O และ IRQ ซึ่งจะไม่เหมือนกันในแต่ละเครื่อง และไม่สามารถตรวจสอบข้อมูลจากตัวฮาร์ดแวร์เองได้ ตัวอย่างของรูปแบบการกำหนดพารามิเตอร์ เช่น "irq=7 io=0x220"\n\nหากคุณไม่ทราบว่าจะป้อนข้อมูลอะไร กรุณาศึกษาจากเอกสาร หรือปล่อยเป็นค่าว่างไว้ เพื่อจะไม่ต้องโหลดมอดูล
+Description-tl.UTF-8: Karagdagang mga parameter para sa module ${MODULE}:
+Extended_description-tl.UTF-8: Hindi naipasok ang module ${MODULE}. Maaaring kinakailangan na magbigay ng karagdagang parameters sa module para ito ay gumana; ito ay karaniwan sa lumang hardware. Ang mga parameter na ito ay kadalasang ang I/O port at bilangng IRQ na nagkakaiba sa bawa't makina at hindi ito mabasa mula sa hardware. Halimbawa ng maaaring ilagay ay "irq=7 io=0x220"\n\nKung hindi mo alam kung anong ilalagay, basahin ang iyong documentation, o iwanang blanko para hindi pumasok ang module.
+Description-tr.UTF-8: ${MODULE} modülü için ek parametreler:
+Extended_description-tr.UTF-8: ${MODULE} modülünün yüklenmesi başarısızlıkla sonuçlandı. Eski tipte donanımlarda sık karşılaşılan bir durum olarak, modüle çalışması için bazı parametreler geçirmeniz gerekebilir. Bu parametreler genellikle makineden makineye değişen ve donanım tarafından belirlenemeyen I/O portu ve IRQ numaralarıdır. Örnek bir girdi: "irq=7 io=0x220"\n\nEğer ne girileceğini bilmiyorsanız ilgili belgelere başvurun veya modülün yüklenmemesi için bu alanı boş bırakın.
+Description-ug.UTF-8: ${MODULE}ئۈچۈن قوشۇمچە پارامېتىر:
+Extended_description-ug.UTF-8: ${MODULE} بۆلەكنى يۈكلەش مەغلۇپ بولدى. سىز بىر قىسىم خىزمەت پارامېتىرلىرىنى مەزكۇر بۆلەكنىڭ نورمال خىزمەت قىلىشىغا تەمىنلىشىڭىز زۆرۈر. بۇ خىل ئەھۋال كونا قاتتىق دېتاللاردا كۆپ ئۇچرايدۇ. بۇ پارامېتىرلار ئادەتتە I/O ئېغىزى ۋە IRQ نومۇرى قاتارلىقلار، ئۇلار كومپيۇتېرنىڭ ئوخشىماسلىقىغا قاراپ پەرقلىق بولىدۇ، ئۇنىڭ ئۈستىگە قاتتىق دېتال تىپى ئارقىلىق جەزملىگىلى بولمايدۇ. مەزكۇر پارامېتىر ئۇسلۇبى ئادەتتە "irq=7 io=0x220" بولىدۇ.\n\nئەگەر قانداق مەزمۇن كىرگۈزۈشنى بىلمىسىڭىز، مۇناسىۋەتلىك پۈتۈكنى ئوقۇڭ ياكى شۇ جاينى بوش قالدۇرسىڭىز مەزكۇر بۆلەك يۈكلەنمەيدۇ.
+Description-uk.UTF-8: Додаткові параметри для модуля ${MODULE}:
+Extended_description-uk.UTF-8: Не вдалося завантажити модуль ${MODULE}. Можливо, вам потрібно передати йому параметри, щоб він запрацював, це часто необхідно для старого обладнання. Цими параметрами часто є номери портів вводу-виводу та IRQ, що змінюються від системи до системи та не можуть бути визначені із обладнання. Рядок може виглядати, наприклад, так: „irq=7 io=0x220“.\n\nЯкщо ви не знаєте, що ввести, то звіртеся з документацією або залиште поле порожнім, щоб не завантажувати модуль.
+Description-vi.UTF-8: Các tham số thêm cho mô-đun ${MODULE}:
+Extended_description-vi.UTF-8: Mô-đun ${MODULE} không nạp được. Có lẽ bạn cần phải gởi tham số sang mô-đun này để kích hoạt nó; trường hợp này thường thông với phần cứng cũ hơn. Những tham số này thường là số hiệu cổng nhập/xuất (I/O) và IRQ mà thay đổi mỗi máy một khác, cũng không thể được quyết định từ phần cứng. Một chuỗi mẫu hình như « irq=7 io=0x220 ».\n\nNếu bạn chưa biết nên nhập gì, xem tài liệu hướng dẫn, hoặc bỏ trường này trống để không nạp mô-đun đó.
+Description-zh_CN.UTF-8: 模块 ${MODULE} 的附加参数：
+Extended_description-zh_CN.UTF-8: ${MODULE} 模块加载失败。您可能需要提供一些工作参数以使该模块能正常工作，这在老旧的硬件中是很常见的。这些参数通常是 I/O 端口和 IRQ 号，它们根据机器不同而有区别，而且不能通过硬件型号确定。该参数样式一般类似于“irq=7 io=0x220”。\n\n如果您不知道应该输入什么内容，请查阅相关文档。或者将该栏其置空，则不加载该模块。
+Description-zh_TW.UTF-8: 模組 ${MODULE} 的額外參數：
+Extended_description-zh_TW.UTF-8: 無法載入 ${MODULE} 模組。您可能要替模組設定參數才能讓它正常運作﹔這對於一些老式硬體而言並不罕見。這些參數往往是 I/O Port 和 IRQ 號碼﹔每台機器裡的這些設定值都有所不同，且也無法藉由硬體型號來加以判斷。像是 "irq=7 io=0x220" 就是個典型的參數字串。\n\n如果不知道要輸入什麼，請參考相關文件﹔或直接留白，不要載入這個模組。
+
+Name: hw-detect/select_modules
+Type: multiselect
+Choices: ${list}
+Description: Modules to load:
+Extended_description: The following Linux kernel modules were detected as matching your hardware. If you know some are unnecessary, or cause problems, you can choose not to load them. If you're unsure, you should leave them all selected.
+Description-ar.UTF-8: الوحدات التي ستحمّل:
+Extended_description-ar.UTF-8: تم اكتشاف وحدات نواة لينكس التالية كمطابقةٍ لعتادك. إذا كنت على درايةٍ أن بعضها غير مهمّة أو مسبّبة للمشاكل فيمكنك أت تختار عدم تحميلها. إن لم تكن متأكّداً فيجدر بك أن تتركها كلّها مختارة.
+Description-ast.UTF-8: Módulos a cargar:
+Extended_description-ast.UTF-8: Deteutáronse los siguientes módulos del kernel de Linux rellacionaos col to hardware. Si sabes que dalgún ye innecesariu, o causa problemes, pues escoyer nun cargalos. Si nun tas seguru, ye meyor que los dexes toos seleicionaos.
+Description-be.UTF-8: Модулі для загрузкі:
+Extended_description-be.UTF-8: Гэтыя модулі ядра Linux вызначаныя, як прыдатныя для Вашага абсталявання.Калі Вы ўпэўненыя, што некаторыя з іх непатрэбныя, або выклікаюць праблемы, можна адмовіцца ад іх загрузкі. Калі няўпэўненыя, пакіньце ўсе пазначанымі.
+Description-bg.UTF-8: Модули за зареждане:
+Extended_description-bg.UTF-8: Следните модули на Linux са разпознати като отговарящи на Вашия хардуер. Ако знаете, че някои от тях са ненужни или предизвикват проблеми, можете да изберете да не бъдат зареждани. Ако се колебаете, оставете ги всички да бъдат избрани.
+Description-bo.UTF-8: ཡར་འཇུག་དགོས་པའི་དཔེ་དབྱིབས：
+Extended_description-bo.UTF-8: གཤམ་དུ་སྲ་ཆས་དེ་དང་འཚམས་པའི་Linux ནང་སྙིང་གི་དཔེ་དབྱིབས་འགའ་རྙེད་ཡོད་པས་ཁྱོད་ཀྱིས་འདིའི་ནང་ནས་འགའ་ཞིག་མི་དགོས་པ་དང་སྐྱོན་ཡོད་པར་ཤེས་ན་དེ་མ་བདམས་ནའང་འགྲིག གལ་སྲིད་གཏན་ཁེལ་བྱེད་མ་ཐུབ་ན་ཆ་ཚང་འདེམས་དགོས
+Description-bs.UTF-8: Moduli koji će biti učitani:
+Extended_description-bs.UTF-8: Detektovani su sljedeći Linux kernel moduli koji odgovaraju Vašem hardveru. Ako znate da Vam neki nisu potrebni ili uzrokuju probleme, možete odabrati da ih ne učitavate. Ako niste sigurni, trebali bi ih ostaviti sve izabrane.
+Description-ca.UTF-8: Mòduls a carregar:
+Extended_description-ca.UTF-8: S'han detectat els següents mòduls del nucli Linux com a coincidents amb el vostre maquinari. Si sabeu que alguns són innecessaris, o causen problemes, podeu triar no carregar-los. Si no n'esteu segur, hauríeu de deixar-los tots seleccionats.
+Description-cs.UTF-8: Nahrát moduly:
+Extended_description-cs.UTF-8: Následující jaderné moduly by měly odpovídat vašemu hardwaru. Pokud víte, že některé z nich nejsou nutné, nebo způsobují problémy, nemusíte je nahrávat. Pokud si nejste jisti, měli byste je nechat vybrané všechny.
+Description-cy.UTF-8: Modiwlau i'w llwytho:
+Extended_description-cy.UTF-8: Ymddengys fod y modiwlau cnewyllyn Linux canlynol yn cydfynd a'ch caledwedd. Gallwch ddewis peidio llwytho rhai os ydych yn ymwybodol nad ydynt yn angenrheidiol, neu eu bod nhw'n achosi problemau. Os ydych yn ansicr, dylech eu gadael nhw i gyd wedi eu dewis.
+Description-da.UTF-8: Moduler at indlæse:
+Extended_description-da.UTF-8: Følgende Linux-kernemoduler lader til at svare til dit udstyr. Hvis du ved, at nogle af dem er unødvendige eller giver problemer, kan du vælge ikke at indlæse dem. Hvis du er usikker, bør de alle forblive valgte.
+Description-de.UTF-8: Diese Module laden:
+Extended_description-de.UTF-8: Für Ihre Hardware wurden die folgenden Linux-Kernel-Module gefunden. Wenn Sie wissen, dass einige nicht benötigt werden oder Probleme verursachen, können Sie diese hier abwählen. Wenn Sie sich nicht sicher sind, sollten Sie die Auswahl belassen.
+Description-el.UTF-8: Αρθρώματα προς φόρτωση:
+Extended_description-el.UTF-8: Ανιχνεύθηκαν τα παρακάτω αρθρώματα (modules) του πυρήνα του Linux που ταιριάζουν με το υλικό του υπολογιστή σας. Αν γνωρίζετε ότι κάποιοι είναι περιττοί ή δημιουργούν προβλήματα, μπορείτε να επιλέξετε να μη φορτώνονται. Αν δεν είστε σίγουροι, είναι καλλίτερο να τα επιλέξετε όλα.
+Description-eo.UTF-8: Ŝargotaj sistemblokoj:
+Extended_description-eo.UTF-8: Jen la Linuksaj kernaj sistemblokoj kiuj konformiĝas kun via aparataro. Se vi scias ke kelkaj el ili ne estas necesaj, aŭ povas kaŭzi problemojn, vi povas decidi ne ŝargi je ili. Se vi dubas, prefere tenu ĉiujn ili elektitaj.
+Description-es.UTF-8: Módulos a cargar:
+Extended_description-es.UTF-8: Se detectó que los módulos del núcleo de Linux que se mostrarán a continuación coinciden con el hardware. Puede elegir no instalar el que sepa que no es necesario o que pueda causar problemas. Debería dejarlos todos seleccionados si no está seguro.
+Description-et.UTF-8: Laaditavad moodulid:
+Extended_description-et.UTF-8: Tundub, et sinu riistvaraga sobivad järgnevad Linuxi kerneli moodulid. Kui sa tead, et mõned neist on ebaolulised või põhjustavad probleeme, võid valida, et neid ei laaditaks. Kui sa pole päris kindel, ära muuda midagi.
+Description-eu.UTF-8: Kargatu beharreko moduluak:
+Extended_description-eu.UTF-8: Hardwarearekin bat datozen Linux-eko nukleo-modulu hauek detektatzen dira. Batzuk beharrezkoak ez direla baldin badakizu edo arazoak sortzen badituzte, ez kargatzea aukera dezakezu. Ziur ez bazaude, utzi denak hautatua.
+Description-fa.UTF-8: ماژول‌های برای بارگذاری:
+Extended_description-fa.UTF-8: ماژول‌های هستهٔ لینوکس زیر مطابق با سخت‌افزار شما تشخیص تشخیص داده شد. اگرمی‌دانید برخی غیرضروری هستند، یا مشکل ایجاد می‌کنند، می‌توانید انتخاب کنید که بارگذاری نشوند. اگر مطمئن نیستید، می‌بایست همهٔ آنها را انتخاب‌شده بگذارید.
+Description-fi.UTF-8: Ladattavat moduulit:
+Extended_description-fi.UTF-8: Seuraavat Linux-ytimen moduulit tarjoavat ajurit laitteiston tunnistetuille komponenteille. Jos tiedät joidenkin niistä olevan tarpeettomia tai aiheuttavan ongelmia, voit jättää ne lataamatta. Jos olet epävarma, ne pitäisi kaikki jättää valituiksi.
+Description-fr.UTF-8: Modules à charger :
+Extended_description-fr.UTF-8: Voici la liste des modules du noyau Linux qui correspondent au matériel. Si vous savez que certains sont inutiles ou peuvent provoquer des difficultés, vous pouvez choisir de ne pas les charger. Dans le doute, vous devriez les laisser tous sélectionnés.
+Description-ga.UTF-8: Modúil le luchtú:
+Extended_description-ga.UTF-8: Braitheadh na modúil eithne Linux seo atá comhoiriúnach do do chrua-earraí. Má tá a fhios agat nach bhfuil gá le cuid acu, nó go mbeidh cuid acu freagrach as fadhbanna, is féidir leat roghnú gan iad a luchtú. Mura bhfuil tú cinnte, ba chóir duit gach ceann acu a fhágáil roghnaithe.
+Description-gl.UTF-8: Módulos a cargar:
+Extended_description-gl.UTF-8: Detectáronse os seguintes módulos do núcleo Linux para o seu hardware. Se sabe que algúns son innecesarios ou causan problemas, pode non cargalos. Se non está seguro, déixeos todos escollidos.
+Description-he.UTF-8: מודולים לטעינה:
+Extended_description-he.UTF-8: מודולי הקרנל הבאים זוהו כמתאימים לחומרה שלך. אם ידוע לך כי חלקם אינם נחוצים או שיגרמו לבעיות, ניתן לבחור שלא לטעון אותם. אם אינך בטוח, כדאי להשאיר אותם מסומנים.
+Description-hr.UTF-8: Moduli za učitavanje:
+Extended_description-hr.UTF-8: Pronađeni su sljedeći moduli Linuxove jezgre koji odgovaraju vašem sklopovlju. Ako znate da su neki od njih nepotrebni ili problematični, možete odrediti da se ne učitaju. Ako niste sigurni, ostavite ih sve.
+Description-hu.UTF-8: Betöltendő modulok:
+Extended_description-hu.UTF-8: Az alábbi Linux rendszermag modulok tűnnek a hardverhez illőnek. Ha valamelyikekről tudja, hogy szükségtelenek vagy gondot okoznak, dönthet úgy, hogy nem tölti be őket. Kétség esetén hagyja őket kijelölve.
+Description-id.UTF-8: Modul-modul untuk dimuat:
+Extended_description-id.UTF-8: Modul-modul kernel Linux berikut yang ditemukan dapat digunakan untuk perangkat keras Anda. Bila terdapat modul yang tidak diperlukan atau dapat menyebabkan masalah, Anda boleh tidak menggunakannya. Bila tidak yakin, biarkan semuanya dipakai.
+Description-is.UTF-8: Kjarnaeiningar sem hlaða á inn:
+Extended_description-is.UTF-8: Eftirfarandi Linux kjarnaeiningar fundust, sem eiga við þinn vélbúnað. Ef þú veist að einhverjar þeirra eru ónauðsynlegar eða valda vandræðum getur þú slept því að hlaða þeim. Ef þú ert óviss ættir þú að láta þær ósnertar.
+Description-it.UTF-8: Moduli da caricare:
+Extended_description-it.UTF-8: I seguenti moduli del kernel Linux sono stati associati all'hardware rilevato. Se uno o più di questi non sono necessari o causano dei problemi, è possibile scegliere di non caricarli. Se non si sa che cosa fare, è consigliato lasciare tutto selezionato.
+Description-ja.UTF-8: ロードするモジュール:
+Extended_description-ja.UTF-8: 以下の Linux カーネルモジュールがあなたのハードウェアに適合するものとして検出されました。もしこれが不確実、あるいは問題を引き起こすことがわかっているなら、これらをロードしないように選択できます。よくわからなければ、すべて選択されたままにしておくのがよいでしょう。
+Description-kk.UTF-8: Жүктелетін модульдер:
+Extended_description-kk.UTF-8: Сіздің жабдығыңызға сай бірнеше ядро модульі табылды. Кейбіреулерін қажетсіз не олар қиындық туғызады десеңіз, жүктемеңіз. Не таңдарын білмесеңіз, барлығын өз қалпында қалдырыңыз.
+Description-kn.UTF-8: ಭರಿಸಲಾಗುವ ಘಟಕಗಳು:
+Extended_description-kn.UTF-8: ಈ ಕೆಳಗಿನ ಕರ್ನಲ್ ಭಾಗಾಂಶಗಳು ನಿಮ್ಮ ಯಂತ್ರಾಂಶಕ್ಕೆ ಹೊಂದುತ್ತವೆ ಎಂದು ಪತ್ತೆಯಾಗಿದೆ. ನಿಮಗೇನಾದರು ಅವುಗಳಲ್ಲಿ ಕೆಲವು ಅನವಶ್ಯಕ ಅಥವಾ ಸಮಸ್ಯಾತ್ಮಕವೆನಿಸಿದರೆ ಅವುಗಳನ್ನು ತುಂಬದಂತೆ ಆಯ್ಕೆ ಮಾಡಬಹುದು. ನಿಮಗೆ ಸಂದೇಹವಿದ್ದಲ್ಲಿ ಎಲ್ಲವನ್ನು ಆಯ್ಕೆಮಾಡಿ ಹಾಗೆಯೇ ಬಿಡಿ.
+Description-ko.UTF-8: 읽어들일 모듈:
+Extended_description-ko.UTF-8: 하드웨어에 해당하는 다음 리눅스 커널 모듈을 찾았습니다. 모듈중에 필요없는 모듈이 뭔지 알고 있다면, 혹은 문제를 일으키는 모듈을 안다면, 읽어들이지 않을 모듈을 선택할 수 있습니다. 잘 모르겠다면, 전부 선택된 지금 상태로 놔 두십시오.
+Description-ku.UTF-8: Modulên bên barkirin:
+Extended_description-ku.UTF-8: Hat dîtin ku modulên dendika Linuxê li armatûra te tên. Heke tu bifikirî ku hin modul me pêwîst in an jî pirsgirêk derxin, dikarî barnekirina wan hilbijêrî. Heke li xwe ne bawer bî, hemûyan hilbijartî bihêle.
+Description-lo.UTF-8: ໂມດູນທີ່ຈະໂຫຼດ:
+Extended_description-lo.UTF-8: ພົບວ່າໂມດູນຂອງເຄຣ໌ວເນຣ໌ວຕໍ່ໄປນີ້ກົງກັບຮາດແວຣ໌ຂອງເຈົ້າ ຖ້າເຈົ້າຮູ້ວ່າບາງໂມດູນບໍ່ຈຳເປັນ ຫຼືມີບັນຫາ ເຈົ້າອາດຈະເລືອກທີ່ຈະບໍ່ໂຫຼດກະໄດ້ ຫາກເຈົ້າບໍ່ໜັ້ນໃຈ ຂໍແນະນຳໃຫ້ປະໄວແບບເກົ່າ.
+Description-lt.UTF-8: Moduliai įkėlimui:
+Extended_description-lt.UTF-8: Šie Linux'o branduolio moduliai aptikti kaip tinkantys aparatinei įrangai. Jei žinote, kad kai kurie iš jų nereikalingi ar sukeliantys problemų, galite nurodyti, kad jų neįkeltų. Jei abejojate, palikite juos visus pasirinktais.
+Description-lv.UTF-8: Ielādējamie moduļi:
+Extended_description-lv.UTF-8: Šie ir Linux kodola moduļi, kas tika noteikti kā atbilstoši jūsu aparatūrai. Ja jūs zināt, ka daži no tiem nav nepieciešami vai var izraisīt problēmas, varat norādīt, lai tie netiktu ielādēti. Bet, ja šaubāties, atstājiet visus ieslēgtus.
+Description-mk.UTF-8: Модули за вчитување:
+Extended_description-mk.UTF-8: Следните linux кернел модули беа најдоа како потребни за твојот хардвер. Доколку знаеш дека некои од нив се непотребни или прават проблеми можеш да одбереш да не се вчитуваат. Ако не си сигурен остави ги како што се.
+Description-nb.UTF-8: Moduler som skal lastes:
+Extended_description-nb.UTF-8: De følgende Linux-kjernemodulene ble antatt å passe til din maskinvare. Hvis du vet at noen av dem ikke er nødvendige, eller skaper problemer, kan du velge å ikke laste dem. Hvis du er usikker, så la alle være valgt.
+Description-nl.UTF-8: Te laden modules:
+Extended_description-nl.UTF-8: De volgende Linux-kernelmodules zijn voor uw hardware als toepasselijk gedetecteerd. Als u weet dat sommige hiervan onnodig zijn, of problemen veroorzaken, kunt u ervoor kiezen om deze niet te laden. Bij twijfel laat u de selectie best zoals ze is.
+Description-nn.UTF-8: Modular som skal lastast:
+Extended_description-nn.UTF-8: Dei følgjande Linux kjernemodulane vart funne å passa maskinvara di. Viss du veit at nokre ikkje er naudsynte, eller orsakar problem, kan du velje å ikkje laste dei. Viss du er usikker, så skal du la alle vere valde.
+Description-no.UTF-8: Moduler som skal lastes:
+Extended_description-no.UTF-8: De følgende Linux-kjernemodulene ble antatt å passe til din maskinvare. Hvis du vet at noen av dem ikke er nødvendige, eller skaper problemer, kan du velge å ikke laste dem. Hvis du er usikker, så la alle være valgt.
+Description-pl.UTF-8: Moduły do załadowania:
+Extended_description-pl.UTF-8: Następujące moduły jądra Linuksa zostały wykryte jako pasujące do Twojego sprzętu. Jeśli wiesz, że niektóre są niepotrzebne lub mogą powodować problemy, możesz wyłączyć ich ładowanie. Jeśli nie jesteś pewien, powinieneś zostawić wszystkie wybrane.
+Description-pt.UTF-8: Módulos a carregar:
+Extended_description-pt.UTF-8: Os seguintes módulos do kernel Linux foram detectados de acordo com o seu hardware. Se sabe que algum deles não é necessário, ou causa problemas, pode escolher não carregá-los. Se não tiver certeza, deve deixar todos escolhidos.
+Description-pt_BR.UTF-8: Módulos a serem carregados:
+Extended_description-pt_BR.UTF-8: Os seguintes módulos do kernel Linux foram detectados para seu hardware. Se você sabe que alguns deles não são necessários ou causam problemas, você pode optar por não carregá-los. Em caso de dúvidas, você deverá manter todos selecionados.
+Description-ro.UTF-8: Module de încărcat:
+Extended_description-ro.UTF-8: Următoarele module de nucleu Linux au fost detectate ca fiind potrivite pentru componentele dumneavoastră. Dacă știți că unele nu sunt necesare, sau cauzează probleme, puteți să optați să nu le încărcați. Dacă știți sigur ar fi bine să le lăsați pe toate selectate.
+Description-ru.UTF-8: Загружаемые модули:
+Extended_description-ru.UTF-8: Программа установки определила, что для работы с вашим оборудованием потребуются перечисленные ниже модули. Если вы точно знаете, что некоторые из них не нужны или вызывают проблемы, то укажите, что их загружать не нужно. Если вы не уверены, то оставьте всё как есть.
+Description-si.UTF-8: පූර්ණය කරන මොඩියුල:
+Extended_description-si.UTF-8: පහත Linux කර්නල මොඩියුල ඔබේ දෘඩාංගයට ගැලපෙන බව හඳුනාගැණිනි.  එයිස් සමහරක් අනවශ්‍ය හෝ ගැටළු ඇතිකරන බව ඔබ දන්නේ නම්. ඒවා පූර්ණය නොකිරීමට තෝරාගත හැක. ඒ පිළිබඳ අවිශ්වාස නම්, සියල්ල තෝරා තැබීමට ඉඩදෙන්න.
+Description-sk.UTF-8: Moduly na načítanie:
+Extended_description-sk.UTF-8: Vášmu hardvéru zodpovedajú nasledovné rozpoznané moduly jadra Linuxu. Ak viete o nejakých neželaných príčinách problémov, nemusíte tieto moduly načítavať. Ak si nie ste istí, nechajte zvolené všetky uvedené moduly.
+Description-sl.UTF-8: Moduli, ki bodo naloženi:
+Extended_description-sl.UTF-8: Za naslednje module Linux jedra sem zaznal, da ustrezajo vaši strojni opremi. Če veste, da so nekateri nepotrebni ali povzročajo težave lahko izberete, da jih ne želite naložiti. Če niste prepričani pustite vse izbrane.
+Description-sq.UTF-8: Modulet për tu ngarkuar:
+Extended_description-sq.UTF-8: Modulet e mëposhtme të kernelit Linux përkuan me hardware tënd. Nëse njeh ndonjë të papërdorshëm, apo që krijon probleme, mund të zgjedhësh të mos e ngarkosh. Nëse je i pasigurtë, duhet ti zgjedhësh të gjitha.
+Description-sr.UTF-8: Модули за учитавање:
+Extended_description-sr.UTF-8: Детектовано је да следећи Linux модули одговарају вашем хардверу. Ако знате да су неки непотребни или да узрокују проблеме, можете изабрати да их не учитате. Ако нисте сигурни, све их оставите изабране.
+Description-sv.UTF-8: Moduler som ska läsas in:
+Extended_description-sv.UTF-8: Följande Linuxkärnmoduler identifierades som passande för din maskinvara. Om du vet att några är onödiga, eller orsakar problem, så kan du välja att inte läsa in dem. Om du är osäker bör du lämna dem alla valda.
+Description-te.UTF-8: లోడు చెయ్యాల్సిన మాడ్యూళ్ళు:
+Extended_description-te.UTF-8: మీ హార్డ్ వేర్ కి సరిపడునట్లుగా ఈ క్రింద ఇవ్వబడిన కెర్నెల్ మాడ్యూలులు కనుగొనబడినవి. వీటిలో అవసరము లేనివని లేక  సమస్యలు  కలగచేస్తాయని, మీకు తెలిస్తే, వాటిని ఎక్కించకుండా వుండేటట్లుఎంచుకొవచ్చు. సరిగా తెలియకపోతే, వాటిని అన్నింటిని ఎంచుకున్నట్లుగా వుంచడమే మంచిది.
+Description-tg.UTF-8: Модулҳо барои боркунӣ:
+Extended_description-tg.UTF-8: Модулҳои ҳастаи Linux-и зерин мувофиқи сахтафзори шумо муайян карда шудаанд. Агар шумо донед, ки баъзеи онҳо лозим нестанд ё метавонанд мушкилӣ ба вуҷуд оранд, метавонед онҳоро барои боркунӣ интихоб накунед. Агар мутмаин набошед, ҳамаи онҳоро интихобшуда монед.
+Description-th.UTF-8: มอดูลที่จะโหลด:
+Extended_description-th.UTF-8: พบว่ามอดูลของเคอร์เนลต่อไปนี้ตรงกับฮาร์ดแวร์ของคุณ ถ้าคุณทราบว่าบางมอดูลไม่จำเป็น หรือมีปัญหา คุณอาจเลือกที่จะไม่โหลดก็ได้ หากคุณไม่แน่ใจ ขอแนะนำให้ทิ้งไว้เหมือนเดิม
+Description-tl.UTF-8: Mga module na ipapasok:
+Extended_description-tl.UTF-8: Ang mga sumusunod na Linux kernel modules ay nakilalang angkop sa inyong hardware. Kung may alam kayong hindi kailangan, o makakaabala, maaari niyong piliin na hindi ito ipasok. Kung hindi ka nakakasiguro, hayaan niyong iwanan silang nakapili.
+Description-tr.UTF-8: Yüklenecek modüller:
+Extended_description-tr.UTF-8: Aşağıdaki Linux çekirdek modüllerinin donanımınızla uyuştuğu belirlendi. Eğer gereksiz gördüğünüz veya bir soruna yol açacağını düşündüğünüz modüller varsa bunların yüklenmemesini seçebilirsiniz. Emin değilseniz hepsini seçili durumda bırakın.
+Description-ug.UTF-8: يۈكلەيدىغان بۆلەك:
+Extended_description-ug.UTF-8: تۆۋەندىكى Linux يادرو(kernel) بۆلەكلىرى قاتتىق دېتالىڭىز بىلەن ماسلىشىدىغانلىقى بايقالدى. ئۇنىڭ ئىچىدىكى بىر قىسىملىرى ھاجەتسىز ئىكەنلىكىنى ياكى مەسىلە كەلتۈرۈپ چىقىرىدىغانلىقىنى بىلسىڭىز ئۇلارنى يۈكلىمەسلىكنى تاللىسىڭىز بولىدۇ. ئەگەر جەزملىيەلمىسىڭىز تاللانغان بۆلەكلەرنى شۇ پىتى قالدۇرۇڭ.
+Description-uk.UTF-8: Модулі для завантаження:
+Extended_description-uk.UTF-8: Вказані модулі, судячи з усього, підходять для вашого обладнання. Якщо ви знаєте, що деякі з них не є необхідними або викликають проблеми, вкажіть, що їх не потрібно завантажувати. Якщо ви не впевнені, залиште все як є.
+Description-vi.UTF-8: Các mô-đun cần nạp:
+Extended_description-vi.UTF-8: Những mô-đun hạt nhân Linux sau đã được tìm ra như là thích hợp với phần cứng của bạn. Nếu bạn biết các mô-đun không cần thiết, hoặc sẽ gây ra lỗi, bạn có thể chọn không nạp chúng. Nếu không chắc, bạn nên để lại mọi điều được chọn.
+Description-zh_CN.UTF-8: 要装载的模块：
+Extended_description-zh_CN.UTF-8: 探测到以下和您的硬件相匹配的 Linux 内核模块。如果您知道其中一些是不必要的，或者会导致问题，您可以选择不装载它们。如果您不确定，请保留选择所有模块。
+Description-zh_TW.UTF-8: 要載入的模組:
+Extended_description-zh_TW.UTF-8: 以下是被偵測到符合您的硬體裝置的 Linux Kernel 模組。如果您知道其中哪些是不必要的或是會引發問題的，您可以選擇不要載入它們。如果您不確定，請將它們保持為被選取。
+
+Name: hw-detect/start_pcmcia
+Type: boolean
+Default: true
+Description: Start PC card services?
+Extended_description: Please choose whether PC card services should be started in order to allow the use of PCMCIA cards.
+Description-ar.UTF-8: بدء خدمات بطاقات الحاسب الشّخصي؟
+Extended_description-ar.UTF-8: الرجاء تحديد ما إذا كان يفترض أن تبتدأ خدمات بطاقات الحاسب الشخصي من أجل تمكين استخدام بطاقات PCMCIA.
+Description-ast.UTF-8: ¿Quies aniciar los servicios de tarxetes de PC?
+Extended_description-ast.UTF-8: Por favor, conseña si tendríen d'aniciase los servicios de tarxeta PC pa poder usar tarxetes PCMCIA.
+Description-be.UTF-8: Запусціць службы PC-картак?
+Extended_description-be.UTF-8: Калі ласка, вырашыце, ці трэба запускаць службы PC-картак, каб зрабіць магчымым выкарыстанне картак PCMCIA.
+Description-bg.UTF-8: Стартиране на услугите за PC Card?
+Extended_description-bg.UTF-8: Изглежда този компютър има интерфейс PCMCIA. Изберете дали услугите на PC Card да бъдат стартирани. Това ще позволи използването на PCMCIA карти по време на инсталацията.
+Description-bo.UTF-8: PC སྦྲེལ་བྱང་གི་ཞབས་ཞུ་འགོ་འཛུགས་དགོས་སམ
+Extended_description-bo.UTF-8: PCMCIA སྦྲེལ་བྱང་སྤྱོད་དགོས་པའི་ཆེད་དུ་PC སྦྲེལ་བྱང་གི་ཞབས་ཞུ་འགོ་འཛུགས་དགོས་སམ
+Description-bs.UTF-8: Pokrenuti PC card servise?
+Extended_description-bs.UTF-8: Molim izaberite da li želite da se PC card servisi pokreću kako bi ste mogli koristiti PCMCIA kartice.
+Description-ca.UTF-8: Voleu iniciar els serveis de targetes PC?
+Extended_description-ca.UTF-8: Seleccioneu si s'ha d'iniciar els serveis de targetes PC per a permetre l'ús de targetes PCMCIA.
+Description-cs.UTF-8: Spustit služby PC card?
+Extended_description-cs.UTF-8: Zvolte, zda se mají spustit služby PC card, abyste mohli používat PCMCIA karty.
+Description-cy.UTF-8: Cychwyn gwasanaethau cerdyn PC?
+Extended_description-cy.UTF-8: Dewiswch a ddylid dechrau gwasanaethau cerdyn PC er mwyn galluogi'r defnydd o gardiau PCMCIA.
+Description-da.UTF-8: Start PC-card-services?
+Extended_description-da.UTF-8: Vælg om PC-card-services skal startes, så der kan benyttes PCMCIA-kort.
+Description-de.UTF-8: PC-Card-Dienste starten?
+Extended_description-de.UTF-8: Bitte wählen Sie, ob die PC-Card-Dienste gestartet werden sollen, um die Verwendung von PCMCIA-Karten zu ermöglichen.
+Description-el.UTF-8: Να ξεκινήσουν οι υπηρεσίες καρτών PC;
+Extended_description-el.UTF-8: Παρακαλώ επιλέξτε την εκκίνηση των υπηρεσιών PCMCIA ώστε να επιτρέπεται η χρήση των PCMCIA καρτών.
+Description-eo.UTF-8: Ĉu aktivigi la servojn de komputilaj kartoj?
+Extended_description-eo.UTF-8: Bonvolu indiki ĉu la 'PC'-kartajn servoj devus esti lanĉotaj por ebligi la uzadon de kartoj 'PCMCIA'.
+Description-es.UTF-8: ¿Desea iniciar los servicios de tarjetas de PC?
+Extended_description-es.UTF-8: Por favor, indique si deberían iniciarse los servicios de tarjeta PC para poder utilizar tarjetas PCMCIA.
+Description-et.UTF-8: Kas käivitada PC kaardi teenused?
+Extended_description-et.UTF-8: Palun vali, kas PCMCIA kaartide kasutamise võimaldamiseks tuleks PC kaardi teenused käivitada.
+Description-eu.UTF-8: PC txartel zerbitzuak abiarazi nahi dituzu?
+Extended_description-eu.UTF-8: Hautatu zein PC txartel zerbitzu abiarazi behar diren PCMCIA txartelak erabili ahal izateko.
+Description-fa.UTF-8: خدمت‌های کارت PC شروع شوند؟
+Extended_description-fa.UTF-8: لطفاً انتخاب کنید آیا سرویس‌های کارت PC می‌بایست برای اجازهٔ استفاده از کارت‌های PCMCIA آغاز شوند.
+Description-fi.UTF-8: Käynnistetäänkö PC-card-palvelut?
+Extended_description-fi.UTF-8: Valitse käynnistetäänkö PC-Card-palvelut, jotta PCMCIA-korttien käyttö olisi mahdollista.
+Description-fr.UTF-8: Faut-il démarrer les services de cartes PC ?
+Extended_description-fr.UTF-8: Veuillez choisir si les services de cartes PC doivent être démarrés afin de pouvoir utiliser les cartes PCMCIA.
+Description-ga.UTF-8: Tosaigh seirbhísí cárta PC?
+Extended_description-ga.UTF-8: Ar mhaith leat seirbhísí cárta PC a thosú sa chaoi gurbh fhéidir cártaí PCMCIA a úsáid?
+Description-gl.UTF-8: Desexa iniciar os servizos de tarxetas PC?
+Extended_description-gl.UTF-8: Indique se quere que se inicien os servizos de tarxetas PC para permitir o emprego de tarxetas PCMCIA.
+Description-he.UTF-8: התחל שירותי PC card?
+Extended_description-he.UTF-8: בחר האם שירותי ה-PC card צריכים להיות מופעלים כדי לאפשר שימוש בכרטיסי PCMCIA.
+Description-hr.UTF-8: Pokrenuti servise PC kartica?
+Extended_description-hr.UTF-8: Molim izaberite treba li pokrenuti servise za PC card uređaje kako bi omogućili korištenje PCMCIA kartica.
+Description-hu.UTF-8: Elindítsam a PC kártya szolgáltatásokat?
+Extended_description-hu.UTF-8: Kérem válassza ki, hogy elinduljanak-e a PC kártya szolgáltatások a PCMCIA kártyák használatához.
+Description-id.UTF-8: Menjalankan layanan PC-Card?
+Extended_description-id.UTF-8: Silahkan pilih apakah layanan PC card akan dijalankan agar dapat menggunakan kartu PCMCIA.
+Description-is.UTF-8: Ræsa PC card þjónustur?
+Extended_description-is.UTF-8: Veldu hvort eigi að ræsa PC card þjónustur til að leyfa notkun PCMCIA korta.
+Description-it.UTF-8: Avviare i servizi «PC card»?
+Extended_description-it.UTF-8: Scegliere se avviare i servizi «PC card» per l'uso di schede PCMCIA.
+Description-ja.UTF-8: PC カードサービスを開始しますか?
+Extended_description-ja.UTF-8: PCMCIA カードの利用を許可するために、PC カードサービスを開始すべきかどうか選択してください。
+Description-kk.UTF-8: РС карт сервисін бастауды қалайсыз ба?
+Extended_description-kk.UTF-8: PCMCIA карталарының жұмысын қамтамасыз ететін PC карт сервисін бастау қажеттілігін таңдаңыз.
+Description-kn.UTF-8: ಗಣಕಯಂತ್ರದ ಕಾರ್ಡ್ ಸೇವೆಗಳನ್ನು ಪ್ರಾರಂಭಿಸಬಹುದೆ?
+Extended_description-kn.UTF-8: ದಯಮಾಡಿ PCMCIA ಕಾರ್ಡುಗಳನ್ನು ಬಳಸುವ ಸಲುವಾಗಿ PC ಕಾರ್ಡ್ ಸೇವೆಗಳನ್ನು ಶುರು ಮಾಡಬೇಕೆ ಇಲ್ಲವೇ ಎಂಬುದನ್ನು ಆಯ್ಕೆಮಾಡಿ.
+Description-ko.UTF-8: PC 카드 서비스를 시작하시겠습니까?
+Extended_description-ko.UTF-8: PCMCIA 카드를 사용할 수 있도록 PC 카드 서비스를 시작할 지 선택하십시오.
+Description-ku.UTF-8: Dest bi hizmeta PC card bike?
+Extended_description-ku.UTF-8: Ji kerema xwe re ji bo destûra bikaranîna kartên PCMCIA, hilbijêrî bê ka bila servîsên kartên PCyan were destpêkirin yan na.
+Description-lo.UTF-8: ເປີດບໍລິການສຳລັບ PC card ຫຼືບໍ່?
+Extended_description-lo.UTF-8: ກາລຸນາເລືອກວ່າຈະເປີດບໍລິການ PC card ເພື່ອຈະໃຊ້ກຣ໌າດ PCMCIA ຫຼືບໍ່
+Description-lt.UTF-8: Ar palesti (startuoti) PC plokščių servisus?
+Extended_description-lt.UTF-8: Prašau pasirinkti, ar paleisti vykdyti PC plokščių servisus, tam kad būtų galima naudoti PCMCIA plokšteles.
+Description-lv.UTF-8: Palaist PC karšu pakalpojumus?
+Extended_description-lv.UTF-8: Lūdzu, izvēlieties, vai palaist PC karšu pakalpojumus, lai atļautu PCMCIA karšu lietošanu.
+Description-mk.UTF-8: Да се пуштат сервисите за PC картите?
+Extended_description-mk.UTF-8: Те молам одбери кои сервиси за PC карти треба да бидат пуштени за да се овозможи користење на PCMCIA картите.
+Description-nb.UTF-8: Vil du starte tjenester for PC-kort?
+Extended_description-nb.UTF-8: Velg om PC-kort-tjenester skal startes for å tillate bruk av PCMCIA-kort.
+Description-nl.UTF-8: Wilt u dat de PC-kaart-diensten gestart worden?
+Extended_description-nl.UTF-8: Wilt u dat PC-kaart-diensten gestart worden zodat PCMCIA-kaarten kunnen gebruikt worden?
+Description-nn.UTF-8: Starta tenester for PC-kort?
+Extended_description-nn.UTF-8: Vil du at tenester for PC-kort skal startast for å gjere det mogeleg å bruke PCMCIA-kort.
+Description-no.UTF-8: Vil du starte tjenester for PC-kort?
+Extended_description-no.UTF-8: Velg om PC-kort-tjenester skal startes for å tillate bruk av PCMCIA-kort.
+Description-pl.UTF-8: Uruchomić usługi kart PC?
+Extended_description-pl.UTF-8: Proszę wybrać czy usługi kart PC powinny być uruchamiane tak by zezwolić na używanie kart PCMCIA.
+Description-pt.UTF-8: Iniciar serviços PC card?
+Extended_description-pt.UTF-8: Por favor escolha se os serviços PC card devem ser iniciados de modo a poder utilizar placas PCMCIA.
+Description-pt_BR.UTF-8: Iniciar serviços de cartões PC?
+Extended_description-pt_BR.UTF-8: Por favor, informe se o serviço de cartões PC deve ser iniciado para permitir o uso de cartões PCMCIA.
+Description-ro.UTF-8: Se pornesc serviciile asociate plăcilor PC?
+Extended_description-ro.UTF-8: Precizați dacă serviciile asociate plăcilor PC ar trebui pornite pentru a permite utilizarea plăcilor PCMCIA.
+Description-ru.UTF-8: Запустить службы PC-карт?
+Extended_description-ru.UTF-8: Выберите, нужно ли запускать службы PC карт для обеспечения работы карт PCMCIA.
+Description-si.UTF-8: PC කාඩ් සේවා ආරම්භ කරන්නද?
+Extended_description-si.UTF-8: PCMCIA කාඩ්පත් සඳහා ඉඩදීමට PC කාඩ්පත් සේවා ආරම්භ විය යුතුදැයි තෝරන්න.
+Description-sk.UTF-8: Spustiť PC card služby?
+Extended_description-sk.UTF-8: Ak chcete používať PCMCIA karty, musíte si zvoliť PC card služby, ktoré sa majú spustiť.
+Description-sl.UTF-8: Zaženem PC card servise?
+Extended_description-sl.UTF-8: Prosim izberite ali naj se zažene PC card servis, s čimer bo omogočena uporaba PCMCIA kartic.
+Description-sq.UTF-8: Ta nis shërbimin e kartave PC?
+Extended_description-sq.UTF-8: Të lutem zgjidh nëse shërbimi i kartave PC duhet nisur në mënyrë që të lejosh përdorimin e kartave PCMCIA.
+Description-sr.UTF-8: Покренути PC card сервисе?
+Extended_description-sr.UTF-8: Назначите да ли је потребно стартовати PC card сервисе како би могли да користите PCMCIA картице.
+Description-sv.UTF-8: Starta PC card-stöd?
+Extended_description-sv.UTF-8: Välj om PC card-tjänster ska startas så att du får möjlighet att använda PCMCIA-kort.
+Description-te.UTF-8: పీసీ కార్డు సర్వీసుని మొదలుపెట్టు?
+Extended_description-te.UTF-8: PCMCIA  కార్డులు వాడటానికి, PC కార్డ్ సేవలు  ప్రారంభించాలో   వద్దో ఎంచుకో.
+Description-tg.UTF-8: Хидматҳои корти компютериро оғоз мекунед?
+Extended_description-tg.UTF-8: Лутфан, интихоб кунед, агар ҳохед, ки хидматҳои корти компютер барои иҷозати истифодаи кортҳои PCMCIA оғоз карда шаванд.
+Description-th.UTF-8: เปิดบริการสำหรับ PC card หรือไม่?
+Extended_description-th.UTF-8: กรุณาเลือกว่าจะเปิดบริการ PC card เพื่อจะใช้การ์ด PCMCIA หรือไม่
+Description-tl.UTF-8: Patakbuhin ang PC card services?
+Extended_description-tl.UTF-8: Piliin kung papatakbuhin ang PC card services upang magamit ang mga PCMCIA cards.
+Description-tr.UTF-8: PC kart hizmetleri başlatılsın mı?
+Extended_description-tr.UTF-8: Lütfen PCMCIA kartlarının kullanılmasını sağlamak için PC kart hizmetlerinin başlatılıp başlatılmaması gerektiğine karar verin.
+Description-ug.UTF-8: PC كارتا مۇلازىمىتىنى قوزغىتامسىز؟
+Extended_description-ug.UTF-8: PC كارتا مۇلازىمىتىنى قوزغىتىپ PCMCIA كارتىسى ئىشلىتىشكە يول قويىدىغان قويمايدىغانلىقىڭىزنى تاللاڭ.
+Description-uk.UTF-8: Запустити сервіси PC card?
+Extended_description-uk.UTF-8: Вкажіть, будь ласка, чи потрібно запускати сервіси PC-card щоб дозволити використання карт PCMCIA.
+Description-vi.UTF-8: Khởi chạy các dịch vụ thẻ PC không?
+Extended_description-vi.UTF-8: Hãy chọn có nên khởi chạy các dịch vụ thẻ PC để cho khả năng sử dụng thẻ PCMCIA hay không.
+Description-zh_CN.UTF-8: 启动 PC 卡服务？
+Extended_description-zh_CN.UTF-8: 请选择是否启动 PC 卡服务以允许使用 PCMCIA 卡。
+Description-zh_TW.UTF-8: 是否要啟動 PC 卡服務程式？
+Extended_description-zh_TW.UTF-8: 為了能夠使用 PCMCIA 卡，請選擇是否要啟動 PC 卡服務程式。
+
+Name: keyboard-configuration/altgr
+Type: select
+Default: Right Alt (AltGr)
+Choices: The default for the keyboard layout, No AltGr key, Right Alt (AltGr), Right Control, Right Logo key, Menu key, Left Alt, Left Logo key, Keypad Enter key, Both Logo keys, Both Alt keys
+Description: Key to function as AltGr:
+Extended_description: With some keyboard layouts, AltGr is a modifier key used to input some characters, primarily ones that are unusual for the language of the keyboard layout, such as foreign currency symbols and accented letters. These are often printed as an extra symbol on keys.
+Choices-ar.UTF-8: تخطيط لوحة المفاتيح الافتراضي, لا تستخدم مفتاح AltGr, زر Alt اليمين (AltGr), زر Control الأيمن, مفتاح الشعار الأيمن, مفتاح القائمة, مفتاح Alt الأيسر, مفتاح الشعار الأيسر, مفتاح الإدخال في لوحة الأرقام, مفتاحي الشعار سويّة, مفتاحا Alt سويّة
+Description-ar.UTF-8: المفتاح المطلوب استخدامه كمفتاح AltGr:
+Extended_description-ar.UTF-8: ببعض مخططات لوحات المفاتيح، يكون مفتاح AltGr مفتاح التعديل المستخدم لإدخال بعض الحروف، بالأخص تلك التي ليست متوفرة في تخطيط اللغة للوحة المفاتيح، كرموز العملات والأحرف اللاتينية المشكّلة. تكون هذه الرموز عادة مطبوعة كرموز إضافية على المفاتيح.
+Choices-ast.UTF-8: La disposición por defeutu pal tecláu, Ensin tecla AltGr, Alt drecha (AltGr), Control Derecha, Tecla Logu Derecha, Tecla Menú, Alt Izquierda, Tecla Logu Izquierda, Tecla Enter del Keypad, Dambes Tecles de Logu, Dambes tecles Alt
+Description-ast.UTF-8: Tecla pa la función AltGr:
+Extended_description-ast.UTF-8: Con dalgunes disposiciones de tecláu, AltGr ye una tecla camudadora que s'usa pa introducir dalgunos caráuteres, principalmente aquellos que son inusuales pa la llingua de la distribución del tecláu, como símbolos de moneda extranxera y lletres acentuaes. Estes suelen amosase como un símbolu estra nes tecles.
+Choices-be.UTF-8: Перадвызначаная раскладка клавіятуры, Няма кнопкі AltGr, Правы Alt (AltGr), Правы Control, Правая кнопка Logo, Кнока меню, Левы Alt, Левая кнопка Logo, Enter на лічбавай клавіятуры, Дзве Logo кнопкі, Кнопкі Alt разам
+Description-be.UTF-8: Кнопка, якая будзе працаваць як AltGr:
+Extended_description-be.UTF-8: У некаторах клавіятурных раскладках AltGr - кнопка-мадыфікатар для ўводу пэўных знакаў, што адсутнічаюць у мове клавіятурнай раскладкі: напрыклад, знакі іншаземнай валюты і літары з націскамі. Яны звычайна надрукаваны як дадатковы сімвал на клавішах.
+Choices-bg.UTF-8: Избиране на клавиатурна подредба, Без клавиш AltGr, Десен Alt (AltGr), Десен Control, Десен клавиш с лого, Клавиш меню, Ляв Alt, Ляв клавиш с лого, Клавиш Enter (цифров блок), И двата клавиша с лого, Двата клавиша Alt
+Description-bg.UTF-8: Клавиш, използван като AltGr:
+Extended_description-bg.UTF-8: При някои клавиатурни подредби клавишът AltGr e модификатор, който се използва за въвеждането на някои знаци, предимно такива, които са необичайни за езика на клавиатурната подредба, като знаци за различни парични единици и букви с диакритични знаци.  Тези знаци често са изрисувани като допълнителни символи на клавишите.
+Choices-bo.UTF-8: མཐེབ་གཞོང་བཀོད་པ་དེའི་སྔོན་སྒྲིག, AltGr མཐེབ་མེད་པ, Alt གཡས (AltGr), Control གཡོན, མཚོན་རྟགས་མཐེབ་གཡས, འདེམས་ཐོ་མཐེབ, Alt གཡོན, མཚོན་རྟགས་མཐེབ་གཡོན, ཨང་གྲངས་ཁུལ་གྱི་Enter མཐེབ, མཚོན་རྟགས་མཐེབ་གཉིས་པོ, Alt མཐེབ་གཉིས་ཀ
+Description-bo.UTF-8: AltGr སྤྱོད་ནུས་ཡོད་པའི་མཐེབ：
+Extended_description-bo.UTF-8: མཐེབ་གཞོང་འགའ་ཞིག་གི་ཐོག་ཏུ་AltGr མཐེབ་ནི་སྐད་རིགས་ཀྱི་མཐེབ་གཞོང་ལ་ཐུན་མོང་མིན་པའི་ཡི་གེ་འཇུག་པར་སྤྱོད་པ དཔེར་ན་ཕྱི་རྒྱལ་གྱི་དངུལ་ལོའི་རྟགས་དང་ཡུལ་སྐད་དབྱེ་བྱེད་ཀྱི་ཡི་གེ་ལྟ་བུ འདི་དག་ནི་མཐེབ་ཐོག་ཏུ་ཟུར་སྣོན་གྱི་རྟགས་ཀྱི་ཚུལ་དུ་པར་འདེབས་བྱས་ཡོད
+Choices-bs.UTF-8: Standardni izbor za raspored tastature, Bez AltGr tipke, Desni Alt (AltGr), Desni Control taster, Desni Logo taster, Meni taster, Lijevi Alt, Lijevi Logo taster, Tastatura Enter tipka, Obje Logo tipke, Obje Alt tipke
+Description-bs.UTF-8: Tipka s funkcijom AltGr:
+Extended_description-bs.UTF-8: Kod nekih rasporeda tastature, AltGr je modifikaciona tipka za unos određenih karaktera, uglavnom onih koji su neobični za jezik rasporeda tastature, poput simbola stranih valuta i slova sa akcentima. Ovi simboli su obično dopisani posebno na tipkama.
+Choices-ca.UTF-8: El predeterminat per a la disposició de teclat, Sense tecla AltGr, Alt dret (AltGr), Control dret, Tecla de logotip dreta, Tecla de menú dreta, Alt esquerra, Tecla de logotip esquerra, Tecla Intro del teclat numèric, Ambdues tecles de logotip, Ambues tecles Alt
+Description-ca.UTF-8: Tecla per a fer de AltGr:
+Extended_description-ca.UTF-8: En algunes disposicions, AltGr és una tecla de modificació que s'empra per a introduir alguns caràcters, generalment alguns que són inusuals per a la llengua de la disposició del teclat, com poden ser símbols de divises estrangeres i lletres accentuades. Aquests són freqüentment impresos com símbols extra a les tecles.
+Choices-cs.UTF-8: Výchozí pro klávesové rozložení, Bez klávesy AltGr, Pravý Alt (AltGr), Pravý Control, Pravá klávesa logo, Klávesa Menu, Levý Alt, Levá klávesa logo, Klávesa Enter v numerickém bloku, Obě klávesy logo, Obě klávesy Alt
+Description-cs.UTF-8: Klávesa pro funkci AltGr:
+Extended_description-cs.UTF-8: V některých klávesových rozloženích se modifikátor AltGr používá pro zadávání některých znaků, hlavně těch, které jsou pro daný jazyk neobvyklé, jako jsou cizí symboly měn nebo akcentovaná písmena. Tyto jsou obvykle vytištěny na klávesách jako další symbol (často odlišnou barvou).
+Choices-cy.UTF-8: Y dewis diofyn ar gyfer cynllun y bysellfwrdd, Dim bysell AltGr, Alt Dde (AltGr), Control Dde, Bysell Logo Dde, Bysell bwydlen, Alt Chwith, Bysell Logo Chwith, Bysell Enter ar y rhifau, Y ddau fysell Logo, Y ddau fysell Alt
+Description-cy.UTF-8: Bysell i weithredu fel AltGr:
+Extended_description-cy.UTF-8: Ar rhai cynlluniau bysellfwrdd, defnyddir AltGr fel bysell addasydd i deipio rhai nodau, yn bennaf rhai sydd yn anghyffredin i iaith y cynllun bysellfwrdd, fel symbolau arian tramor a llythrennau acennog. Yn aml mae'r rhain wedi eu argraffu fel symbol ychwanegol ar fysellau.
+Choices-da.UTF-8: Standard for tastaturlayoutet, Ingen AltGr-tast, Højre Alt (AltGr), Højre Control, Højre Logo-tast, Menu-tast, Venstre Alt, Venstre Logo-tast, Enter-tast på numerisk tastatur, Begge Logo-taster, Begge ALT-taster
+Description-da.UTF-8: Tast, der fungerer som AltGr:
+Extended_description-da.UTF-8: I nogle tastaturlayouts er AltGr en ændringstast, der bliver brugt til at indtaste visse tegn, primært de der er usædvanlige for tastaturlayoutets sprog. Det kan være symboler for fremmed valuta og accentuerede bogstaver.
+Choices-de.UTF-8: Der Standard für die Tastenbelegung, Keine AltGr-Taste, Alt rechts (AltGr), Strg rechts, Windows-Taste rechts, Menütaste, Alt links, Windows-Taste links, Eingabetaste des numerischen Feldes, Beide Windows-Tasten, Beide Alt-Tasten (Alt+AltGr)
+Description-de.UTF-8: Taste, die als AltGr fungieren soll:
+Extended_description-de.UTF-8: Bei manchen Tastaturbelegungen ist AltGr eine Modifikatortaste, die zur Eingabe einiger Zeichen verwendet wird. Hauptsächlich wird sie für solche Zeichen verwendet, die für die Sprache der Tastatur ungewöhnlich sind, wie ausländische Währungssymbole und akzentuierte Buchstaben. Diese werden oft als Extrasymbol auf die Tasten gedruckt.
+Choices-el.UTF-8: Η προκαθορισμένη επιλογή για τη διάταξη πληκτρολογίου, Μη διαθέσιμο πλήκτρο AltGr, Δεξί Alt (AltGr), Right Control, Πλήκτρο Right Logo, Πλήκτρο Menu, Left Alt, Πλήκτρο Left Logo, πλήκτρο Enter για το keypad, Και τα δυο πλήκτρα Logo, Και τα δύο πλήκτρα Alt
+Description-el.UTF-8: Πλήκτρο για λειτουργία ως AltGr:
+Extended_description-el.UTF-8: Με μερικές διατάξεις πληκτρολογίου, το πλήκτρο AltGr χρησιμοποιείται ως πλήκτρο-μεταβολέας για την εισαγωγή μερικών χαρακτήρων, κυρίως κάποιων ασυνήθιστων για την γλώσσα που αντιστοιχεί στη διάταξη αυτή, για παράδειγμα σύμβολα ξένων νομισμάτων και γράμματα με διάφορους τόνους. Αυτά τυπώνονται συνήθως πάνω στα πλήκτρα σαν επιπλέον σύμβολα.
+Choices-eo.UTF-8: La originalo por la klavar-aranĝo, Neniu klavo AltGr, Dekstra Alt (AltGr), Dekstra Control, Dekstra Emblemo-klavo, Menu-klavo, Maldekstra Alt, Maldekstra Emblemo-klavo, Enig-klavo de ciferklavaro, Ambaŭ klavoj Logo, Ambaŭ klavoj Alt
+Description-eo.UTF-8: Klavo por funkcii kiel AltGr:
+Extended_description-eo.UTF-8: En kelkaj klavar-aranĝoj, AltGr estas modifilo-klavo uzata por enigi kelkajn signojn, principe tiuj neordinaraj por la lingvo de la klavar-aranĝo, kiel fremdaj valut-simboloj kaj supersignitaj literoj. Tiuj signoj ofte estas printitaj kiel kroman simbolon sur la klavoj.
+Choices-es.UTF-8: Distribución por omisión del teclado, Sin tecla AltGr, Alt derecho (AltGr), Control derecho, Tecla derecha de logo, Tecla de menú, Alt izquierdo, Tecla izquierda de logo, Tecla «Intro» del teclado numérico, Ambas teclas del logo, Ambas teclas de Alt
+Description-es.UTF-8: Tecla a utilizar para AltGr:
+Extended_description-es.UTF-8: Con algunas distribuciones de teclados, AltGr es una tecla modificadora que se utiliza para introducir algunos caracteres, principalmente aquellos que no son usuales para el idioma de la distribución del teclado, tales como símbolos de monedas extranjeras y letras acentuadas. Éstas normalmente se muestran como un símbolo extra en las teclas.
+Choices-et.UTF-8: Vaikimisi klaviatuuripaigutus, Pole AltGr klahvi, Parem Alt (AltGr), Parem Control, Parem logoklahv, Menüüklahv, Vasak Alt, Vasak logoklahv, Numbriklahvistiku Enter-klahv, Mõlemad logoklahvid, Mõlemad Alt-klahvid
+Description-et.UTF-8: Klahv, mida kasutada AltGr klahvina:
+Extended_description-et.UTF-8: Mõnede klaviatuuripaigutuste korral on AltGr muuteklahv mõnede selles keeles või sel klaviatuuri harvaesinevate märkide sisestamiseks, nagu seda on välismaised valuutamärgid ja rõhumärkidega tähed. Need märgid on tihti ka klaviatuurile trükitud lisamärkidena.
+Choices-eu.UTF-8: Teklatuaren diseinu lehenetsia, AltGr teklarik ez, Eskuineko Alt (AltGr), Eskuineko Ktrl, Eskuineko logotipoaren tekla, Menua tekla, Ezkerreko Alt, Ezkerreko Logotipoa tekla, Zenbakizko teklatuko Sartu tekla, Bi logotipo teklak, Bi Alt teklak
+Description-eu.UTF-8: AltGr funtzioa egiteko tekla:
+Extended_description-eu.UTF-8: Teklatuaren diseinu batzuetan, AltGr tekla eraldatzaile bat da zenbait karaktere idazteko, nagusiki teklatuaren diseinuan gutxitan erabiltzen direnak, hala nola atzerriko diru ikurrak eta azentuak. Tekla batek hirugarren ikur bat badu AltGR sakatzea ikur hori idazteko modua izan ohi da.
+Choices-fa.UTF-8: طرح بندی پیش فرض صفحه کلید, No AltGr key, کلید Alt (AltGr) راست, کلید Control راست, کلید Logo راست, کلید MenuQ, کلید Alt چپ, کلید Logo چپ, Keypad Enter key, هر دو کلید Logo, هر دو کلید Alt
+Description-fa.UTF-8: کلیدی که مانند AltGr عمل کند: 
+Extended_description-fa.UTF-8: در برخی از صفحه کلید ها کلید AltGr یک کلید کمکی برای وارد کردن برخی کاراکتر هاست، که برای طرح بندی صفحه کلید آن زبان غیر معمول است. برای نمونه می توان به نماد های واحد پول و حروف مربوط به تلفظ اشاره کرد. این ها اعلب به صورت نماد های اضافه در کنار دیگر حروف دیگر چاپ شده اند.
+Choices-fi.UTF-8: Valitse näppäinasettelun oletusarvo, Ei AltGr-näppäintä, Oikea Alt (AltGr), Oikea Control, Oikea Logo-näppäin, Menu-näppäin, Vasen Alt, Vasen Logo-näppäin, Numeronäppäimistön Enter-näppäin, Molemmat Logo-näppäimet, Molemmat Alt-näppäimet
+Description-fi.UTF-8: AltGr-näppäimenä toimiva näppäin:
+Extended_description-fi.UTF-8: Joissain näppäinasetteluissa AltGr on muuntonäppäin, jonka avulla voidaan syöttää joitain merkkejä. Nämä on yleensä näppäinasettelun kielelle epätyypillisiä, kuten ulkomaisia valuuttasymboleita ja aksentoituja kirjaimia. Nämä merkit on usein merkitty ylimääräisenä symbolina näppäimiin.
+Choices-fr.UTF-8: Disposition par défaut pour le clavier, Pas de touche AltGr, Touche Alt de droite (AltGr), Touche Ctrl de droite, Touche « logo » de droite, Touche Menu, Touche Alt de gauche, Touche « logo » de gauche, Entrée (pavé numérique), Les deux touches « logo », Les deux touches Alt ensemble
+Description-fr.UTF-8: Touche destinée à se substituer à AltGr :
+Extended_description-fr.UTF-8: Avec certaines dispositions de claviers, AltGr est une touche de modification utilisée pour entrer de nombreux caractères, principalement ceux qui n'appartiennent pas à la langue correspondant à la disposition du clavier, comme les symboles des devises étrangères et les lettres accentuées. Ces caractères sont généralement indiqués sous forme de symboles supplémentaires sur les touches.
+Choices-ga.UTF-8: Leagan amach réamhshocraithe, Gan eochair AltGr, Alt Ar Dheis (AltGr), Ctrl Ar Dheis, Eochair lógó ar dheis, Eochair roghchláir, Alt Ar Chlé, Eochair lógó ar chlé, Eochair Enter ar an eochaircheap, An dá eochair lógó, An dá eochair Alt
+Description-ga.UTF-8: Eochair le húsáid mar AltGr:
+Extended_description-ga.UTF-8: Le roinnt leaganacha amach, is eochair mhionathraithe é AltGr a úsáidtear chun litreacha áirithe a chlóscríobh, go háirithe litreacha nach bhfuil coitianta i dteanga leagan amach an mhéarchláir, mar shampla siombailí airgeadra eachtraigh agus litreacha le síntí fada. Go minic, tá na carachtair seo priontáilte mar shiombail bhreise ar na heochracha.
+Choices-gl.UTF-8: A disposición de teclado predeterminada, Sen tecla Alt Gr, Tecla Alt dereita (Alt Gr), Tecla Ctrl dereita, Tecla Logo dereita, Tecla Menú, Tecla Alt esquerda, Tecla Logo esquerda, Tecla Intro do teclado numérico, Ambas as dúas teclas Logo, Ambas as dúas teclas Alt
+Description-gl.UTF-8: Tecla a usar como Alt Gr
+Extended_description-gl.UTF-8: Con algunhas das disposicións de teclado, Alt Gr é unha tecla modificadora que se emprega para introducir algúns caracteres; principalmente algúns pouco habituais para o idioma da disposición de teclado, como símbolos de moedas estranxeiras ou letras acentuadas. Estes símbolos xeralmente están impresos nas teclas.
+Choices-he.UTF-8: ברירת המחדל עבור פריסת המקלדת, ללא מקש AltGr, Alt ימני (AltGr), Control ימני, מקש לוגו ימני, מקש תפריט, Alt שמאלי, מקש לוגו שמאלי, מקש Enter ב-Keypad, שני מקשי הלוגו, שני מקשי Alt
+Description-he.UTF-8: מקש לשימוש כ-AltGr:
+Extended_description-he.UTF-8: בכמה פריסות מקלדת, AltGr הינו מקש לשינוי המשמש להקלדת כמה תווים, בעיקר תווים חריגים עבור שפת פריסת המקלדת, כגון מטבע זר, סמלים ואותיות עם אקצנטים. לעתים קרובות תווים אלה מודפסים כסמלים נוספים על המקשים.
+Choices-hr.UTF-8: Izbor zadane tipkovnice, Nema AltGr tipke, Desni Alt (AltGr), Desna Control tipka, Desna Logo tipka, Tipka izbornika, Lijeva Alt tipka, Lijeva Logo tipka, Enter tipka na numeričkom dijelu, Obje Logo tipke, Obje tipke Alt
+Description-hr.UTF-8: Tipka koju želite da radi kao AltGr:
+Extended_description-hr.UTF-8: Kod nekih rasporeda tipkovnice, AltGr je tipka izmjene koja se koristi za unos nekih znakova, prvenstveno onih koji nisu uobičajeni za jezik rasporeda tipkovnice, kao što su simboli za stranu valutu i akcentirana slova. Obično su ispisani kao dodatni simboli na tipkama.
+Choices-hu.UTF-8: Alapértelmezés a billentyűzetkiosztáshoz, Nincs AltGr billentyű, Jobb Alt (AltGr), Jobb Control, Jobb logó billentyű, Menü billentyű, Bal Alt, Bal logó billentyű, Numerikus Enter, Mindkét logó billentyű, Mindkét Alt billentyű
+Description-hu.UTF-8: AltGr-ként működő billentyű:
+Extended_description-hu.UTF-8: Egyes billentyűzetkiosztásokon az AltGr egy olyan módosító billentyű, amely főként olyan karakterek bevitelére használható,amelyek szokatlanok a kiosztás nyelvén, például idegen pénzjelek és ékezetes betűk. Ezek gyakran extra jelekként vannak a billentyűkön feltüntetve.
+Choices-id.UTF-8: Pola keyboard standar, Tanpa tombol AltGr, Alt (AltGr) kanan, Ctrl Kanan, Tombol Logo Kanan, Tombol Menu, Alt Kiri, Tombol Logo Kiri, Tombol Enter numerik, Kedua tombol Logo, Kedua tombol Alt
+Description-id.UTF-8: Tombol untuk AltGr:
+Extended_description-id.UTF-8: Pada beberapa pola keyboard, AltGr digunakan untuk mengetik beberapa aksara, terutama aksara tak biasa dari bahasa pada pola keyboard, seperti simbol mata uang asing dan aksara beraksen. Aksara-aksara ini seringkali tersedia sebagai simbol tambahan pada tombol.
+Choices-is.UTF-8: Sjálfgefið í lyklaborðsuppsetningu, Enginn AltGr hnappur, Hægri Alt lykill (AltGr), Vinstri Ctrl, Hægri Merkja-lykill (Win), Menu-lykill, Vinstri Alt, Vinstri Merkja-lykill (Win), Enter-lykill á talnaborði, Báðir Merkja-lyklarnir (Win), Báðir Alt-lyklarnir
+Description-is.UTF-8: Lykill sem á að virka sem AltGr:
+Extended_description-is.UTF-8: Í sumum lyklaborðsframsetningum er AltGr notaður sem breytilykill til innsetningar stöfum, aðallega stöfum sem eru óalgengir í tungumálinu sem tilheyrir viðkomandi lyklaborðsframsetningu, t.d. erlend gjaldmiðlatákn og ýmsir broddstafir. Í sumum tilfellum eru þessir stafir prentuaðir sem aukatákn á lyklana.
+Choices-it.UTF-8: La disposizione predefinita della tastiera, Tasto Alt destro mancante, Alt destro (AltGr), Ctrl destro, Tasto Windows destro, Tasto menù, Alt sinistro, Tasto Windows sinistro, Tasto Enter del tastierino numerico, Entrambi i tasti Windows, Entrambi i tasti Alt
+Description-it.UTF-8: Tasto da usare come Alt destro:
+Extended_description-it.UTF-8: Con alcune disposizioni di tastiera, il tasto AltGr è un tasto modificatore usato per inserire determinati caratteri (essenzialmente quelli inusuali per la lingua corrispondente alla disposizione della tastiera) come, per esempio, simboli di monete straniere e lettere con le dieresi. Questi vengono spesso mostrati come simboli addizionali sui tasti.
+Choices-ja.UTF-8: キーボード配置のデフォルト, AltGr キーなし, 右 Alt (AltGr), 右 Control, 右ロゴキー, メニューキー, 左 Alt, 左ロゴキー, キーパッドの Enter キー, 両ロゴキー, 両 Alt キー
+Description-ja.UTF-8: AltGr として機能させるキー:
+Extended_description-ja.UTF-8: いくつかのキーボード配置においては、AltGr は、外国の通貨文字やアクセント文字のように本来キーボード配置の言語では使われないいくつかの文字を入力するのに使われる修飾キーです。これらはたいてい、キーに追加文字として印字されています。
+Choices-kk.UTF-8: Пернетақта жаймасы үшін бастапқы, AltGr пернесі жоқ, Оң жақ Alt (AltGr), Оң жақ Control, Оң жақ Logo пернесі, Menu пернесі, Сол жақ Alt, Сол жақ Logo пернесі, Сандық жақтағы Enter пернесі, Екі Logo пернесі, Екі Alt пернесі
+Description-kk.UTF-8: AltGr үшін перне:
+Extended_description-kk.UTF-8: Кейбір пернетақта жаймаларымен, түрлендіргіш ретінде AltGr, кейбір таңбаларды енгізу үшін қолданылады, көбінесе, ағымдағы пернетақта жаймасының тілінде жоқ таңбалар, мысалы, шетел ақша таңбалары сияқты.
+Choices-kn.UTF-8: ಅಕ್ಷರಫಲಕದ ಪೂರ್ವನಿರ್ಧಾರಿತ ವಿನ್ಯಾಸ, AltGr ಕೀಲಿ ಇರುವುದಿಲ್ಲ, ಬಲ ಆಲ್ಟ್ (AltGr), ಬಲ ಕಂಟ್ರೋಲ್, ಬಲ ಲೋಗೊ ಕೀಲಿ, ಮೆನು ಕೀಲಿ, ಎಡ ಆಲ್ಟ್, ಎಡ ಲೋಗೊ ಕೀಲಿ, ಅಕ್ಷರಮಣೆಯ ಎಂಟರ್ ಕೀಲಿ, ಎರಡೂ ಲೋಗೋ ಕೀಲಿಗಳು, ಎರಡೂ Alt ಕೀಲಿಗಳು
+Description-kn.UTF-8: AltGr ಆಗಿ ಕಾರ್ಯ ನಿರ್ವಹಿಸುವ ಕೀಲಿ:
+Extended_description-kn.UTF-8: ಕೆಲವು ಕೀಲಿಮಣೆ ವಿನ್ಯಾಸಗಳಲ್ಲಿ ಕೆಲವು ಅಕ್ಷರಗಳನ್ನು ದಾಖಲಿಸಲು AltGr ಅನ್ನು ಪರಿವರ್ತಕ ಕೀಲಿಯಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ, ಮುಖ್ಯವಾಗಿ ಕೀಲಿಮಣೆ ವಿನ್ಯಾಸದ ಭಾಷೆಗೆ ಅಸಾಮಾನ್ಯವಾದ ಅಕ್ಷರಗಳು, ಉದಾಹರಣೆಗೆ ವಿದೇಶಿ ಹಣದ ಚಿಹ್ನೆಗಳು ಮತ್ತು ಉಚ್ಛರಣಾ ಚಿಹ್ನೆಗಳು. ಇವುಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಕೀಲಿಗಳು ಹೆಚ್ಚುವರಿ ಚಿಹ್ನೆಗಳಾಗಿ ಮುದ್ರಿಸಲಾಗುತ್ತದೆ.
+Choices-ko.UTF-8: 기본 키보드 배치, AltGr 키 없음, 오른쪽 Alt (AltGr), 오른쪽 Control, 오른쪽 로고 키, 메뉴 키, 왼쪽 Alt, 왼쪽 로고 키, 키패드 Enter 키, 양쪽 로고 키, 양쪽 Alt 키
+Description-ko.UTF-8: AltGr 키로 동작할 키:
+Extended_description-ko.UTF-8: 몇몇 키보드 배치에서 AltGr 키는, 화폐 기호나 액센트가 들어간 문자 따위처럼 해당 언어에서 자주 쓰이지 않는 문자를 입력하는데 사용합니다. 이런 문자는 키의 추가 기호로 인쇄되어 있기도 합니다.
+Choices-ku.UTF-8: Standarda cureyê klavyeyê, Ne bişkoja AltGr, Rast Alt (AlrGr), control a rastê, Bişkoka logo ya rastê, Mifteya Pêşekê, Alt a çepê, Bişkoka logo ya çepê, Klavye kilîlê binivîse, Herdu bişkokên logo yê, Her du bişkojên Alt bi hev re
+Description-ku.UTF-8: Kilîla fonksiyonê wekî AltGr:
+Extended_description-ku.UTF-8: Bi hin cureyên klavyeyan, AltGr ji bo nivîsandina hin curenivîsan tê bikaranîn.
+Choices-lo.UTF-8: ຄ່າເລີ່ມຕົ້ນຂອງຜັງແປ້ນພິມ, AltGrສຳຄັນບໍ່ມີ, Alt ຂວາ (AltGr), ຄວບຄຸມຂວາ, ແປ້ນໂລໂກ້ຂວາ, ເມນູສຳຄັນ, Alt ຂ້າງຊ້າຍ, ແປ້ນໂລໂກ້ຊ້າຍ, ປຸ່ມກົດປຸ່ມ Enter, ທັ້ງສອງຄຣີໂລໂກ້, ທັ້ງສອງຄຣີ Alt
+Description-lo.UTF-8: ກະແຈສຳຄັນໃນການໃຊ້ງານເປັນ AltGr:
+Extended_description-lo.UTF-8: ບາງລາຍການໂຄງຮ່າງແປ້ນພິມ AltGr ເປັນກະແຈທີ່ສຳຄັນທີ່ໃຊ້ໃນການປັບປຸງໃສ່ອັກຄະລະບາງໂຕຫລັກຄົນທີ່ຜິດປົກກະຕິສສຳຫລັບພາສາຂອງຜັງແປ້ນພິມເຊັ່ນລັກສະນະສະກຸນເງີນຕ່າງປະເທດແລະໂຕອັກສອນເນັ້ນສຽງເຫລົ່ານີ້ຈະຖືກພິມມັກຈະເປັນລັກສະນະພິເສດເທິງແປ້ນ
+Choices-lt.UTF-8: Numatytasis klaviatūros išdėstyme, Lyg3 klavišo nenaudoti, Dešinysis Alt (Lyg3), Dešinysis Vald, Dešinysis Logo klavišas, Meniu klavišas, Kairysis Alt, Kairysis Logo klavišas, Skaitmenų srities klavišas Įvesti, Abu Logo klavišai, Abu Alt klavišai
+Description-lt.UTF-8: Lyg3 funkciją atliksiantis klavišas:
+Extended_description-lt.UTF-8: Kai kuriuose klaviatūros išdėstymuose naudojamas klavišas Lyg3 (AltGr), skirtas įvesti rečiau naudojamiems simboliams – užsienio valiutų ženklams, raidėms su diakritikais ir pan. Paprastai tokie simboliai atspausdinami ant klaviatūros papildomoje vietoje.
+Choices-lv.UTF-8: Tastatūras izklājuma noklusējuma vērtība, Bez AltGr taustiņa, Labais Alt (AltGr), Labais Ctrl, Labais Logo taustiņš, Izvēlnes taustiņš, Kreisais Alt, Kreisais Logo taustiņš, Ciparu tastatūras Enter, Abi Logo taustiņi, Abi Alt taustiņi
+Description-lv.UTF-8: Taustiņš, kas kalpos kā AltGr:
+Extended_description-lv.UTF-8: Dažos tastatūru izkārtojumos AltGr tiek lietots kā modifikācijas taustiņš, lai ievadītu dažus burtus, parasti tie neparastie burti un simboli, kā piemēram ārzemju valūtu simboli un akcentēties burti (piemēram, latviešu burti ar garumzīmēm). Bieži tie tiek attēloti uz tastatūras kā papildu simboli uz taustiņiem.
+Choices-mk.UTF-8: Основен избор за распоредот на тастатурата, Без AltGr копче, Десен Alt (AltGr), Десен Control, Десното Лого копче, Мени копче, Лев Alt, Левото лого копче, Ентер на нумеричка тастатура, Двете лого копчиња, Двете Alt копчиња
+Description-mk.UTF-8: Копче со функција како AltGr:
+Extended_description-mk.UTF-8: Кај некои распореди на тастатура, AltGr е копче за модификација кое се користи за внес на знаци кои се невообичаени за јазикот на распоредот на тастатурата, како странски валути и акцентирани букви. Тие се најчесто испишани како дополнителен симбол на копчето.
+Choices-nb.UTF-8: Standarden for tastaturutformingen, Ingen AltGr-tast, Høyre Alt (Alt Gr), Høyre Ctrl, Høyre logotast, Menytast, Venstre Alt, Venstre logotast, Enter-tasten på det numeriske tastaturet, Begge Logo-tastene, Begge Alt-tastene
+Description-nb.UTF-8: Tast som skal fungere som AltGr:
+Extended_description-nb.UTF-8: I noen tastaturutforminger er AltGr en modifiseringstast som brukes for å skrive noen tegn, primært de som er uvanlig for språket i tastaturutformingen, som utenlandske valutasymbol og aksenttegn. Disse vises ofte som et ekstra symbol på tastene.
+Choices-nl.UTF-8: De standaard voor de toetsenbordindeling, Geen AltGr-toets, Alt-Rechts (AltGr), Control-Rechts, Logotoets-Rechts, Menutoets, Alt-Links, Logotoets-Links, Keypad Enter-toets, Beide Logotoetsen, Beide Alt-toetsen
+Description-nl.UTF-8: Toets om te functioneren als AltGr:
+Extended_description-nl.UTF-8: Bij sommige toetsenborden is AltGr een aanpassingstoets nodig om sommige karakters in te voeren, voornamelijk die die ongewoon zijn voor de taal van de toetsenbordindeling (zoals b.v. buitenlandse valutasymbolen, en letters met accenten). Deze staan vaak als een extra symbool op de toetsen afgedrukt.
+Choices-no.UTF-8: Standarden for tastaturutformingen, Ingen AltGr-tast, Høyre Alt (Alt Gr), Høyre Ctrl, Høyre logotast, Menytast, Venstre Alt, Venstre logotast, Enter-tasten på det numeriske tastaturet, Begge Logo-tastene, Begge Alt-tastene
+Description-no.UTF-8: Tast som skal fungere som AltGr:
+Extended_description-no.UTF-8: I noen tastaturutforminger er AltGr en modifiseringstast som brukes for å skrive noen tegn, primært de som er uvanlig for språket i tastaturutformingen, som utenlandske valutasymbol og aksenttegn. Disse vises ofte som et ekstra symbol på tastene.
+Choices-pl.UTF-8: Domyślne ustawienie dla danego układu klawiatury, Bez klawisza AltGr, Prawy Alt (AltGr), Prawy Control, Prawy klawisz logo, Klawisz menu, Lewy Alt, Lewy klawisz logo, Klawisz ENTER klawiatury pomocniczej, Oba klawisze logo, Oba klawisze Alt
+Description-pl.UTF-8: Klawisz który ma działać jak AltGr:
+Extended_description-pl.UTF-8: W niektórych układach klawiatur AltGr to klawisz modyfikujący, używany do wprowadzania niektórych znaków, zwłaszcza tych, które są niecodzienne w języku danego układu klawiatury, na przykład symbole zagranicznych walut lub akcentowanych liter. Są one często wydrukowane jako dodatkowy symbol na klawiszach.
+Choices-pt.UTF-8: O predefinido para a disposição do teclado, Sem tecla AltGr, Alt direito (AltGr), Control Direito, Tecla Logotipo Direito, Tecla Menu, Alt Esquerdo, Tecla de Logotipo Esquerdo, Tecla Enter do teclado numérico, Ambas as teclas de Logotipo, Ambas as teclas Alt
+Description-pt.UTF-8: Tecla para funcionar como AltGr:
+Extended_description-pt.UTF-8: Em alguns teclados, o AltGr serve de modificador para escrever alguns caracteres, especialmente alguns que são invulgares na língua configurada, tais como símbolos de moeda estrangeira e letras acentuadas. Estes símbolos são frequentemente indicados como símbolos extra nas teclas.
+Choices-pt_BR.UTF-8: O padrão para o layout de teclado, Sem tecla AltGr, Alt Direito (AltGr), Control Direito, Tecla Logo Direita, Tecla Menu, Alt Esquerdo, Tecla Logo Esquerda, Tecla Enter do teclado numérico, Ambas teclas Logo, Ambas teclas Alt
+Description-pt_BR.UTF-8: Tecla para funcionar como AltGr:
+Extended_description-pt_BR.UTF-8: Com alguns layouts de teclado, AltGr é uma tecla modificadora usada para introduzir alguns caracteres, principalmente aqueles que não são usuais para o idioma do layout do teclado, como símbolos de moedas estrangeiras e letras acentuadas. Estes são frequentemente impressos como um símbolo extra sobre as teclas.
+Choices-ro.UTF-8: Valoarea implicită a aranjamentului de tastatură, Fără tastă AltGr, Alt dreapta (AltGr), Control dreapta, Tasta logo dreapta, Tasta meniu, Alt stânga, Tasta logo stânga, Tasta Enter de pe keypad, Ambele taste Logo, Ambele taste Alt
+Description-ro.UTF-8: Tasta care funcționează ca AltGr:
+Extended_description-ro.UTF-8: La anumite aranjamente de tastatură AltGr este o tastă de modificare, folosită pentru introducerea anumitor caractere, în special acelea care nu sunt uzuale pentru limba aranjamentului de tastatură, cum are fi simboluri pentru valute sau litere cu accent. Acestea sunt în multe cazuri inscripționate pe taste ca un simbol adițional.
+Choices-ru.UTF-8: Раскладка клавиатуры по умолчанию, нет клавиши AltGr, правый Alt (AltGr), правый Control, правая клавиша с логотипом, клавиша с меню, левый Alt, левая клавиша с логотипом, Enter на цифр. клавиатуре, обе клавиши с логотипом, обе клавиши Alt одновременно
+Description-ru.UTF-8: Клавиша, используемая как AltGr:
+Extended_description-ru.UTF-8: В некоторых раскладках клавиатуры есть клавиша-модификатор AltGr, используемая для ввода, в основном, редко используемых в языке раскладки клавиатуры символов, например, символа национальной валюты и символы с диакритическим знаком. Они часто указаны на клавишах как дополнительные символы.
+Choices-si.UTF-8: යතුරුපුවරු ආකෘතිය සඳහා සම්මතය, AltGr යතුරක් නැත, දකුණු Alt (AltGr), දකුණු Control, දකුණු ලාංඡය යතුර, මෙනු යතුර, වම් Alt, වම් ලාංඡන යතුර, අංක පුවරුවේ Enter යතුර, ලෝගෝ යතුරු දෙකම, Alt යතුරු දෙකම
+Description-si.UTF-8: AltGr ලෙස ක්‍රියාකරන යතුර:
+Extended_description-si.UTF-8: ඇතැම් යතුරුපුවරු සැකසුම් වලදී, AltGr යතුර ඇතැම් අක්‍ෂර ඇතුලත් කිරීමට යොදාගන්නා විශේෂ යතුරකි. විදේශීය මූල්‍ය සංඛේත හා අක්‍ෂර වැනි යතුරුපුවරුවේ සාමාන්‍යෙන් නොපවතින යතුරු සඳහා ප්‍රධාන වශ්‍යෙන් යොදාගැනේ. මේවා බොහෝ විට අමතර අක්‍ෂර ලෙස යතුරු මත මුද්‍රණය කර ඇත.
+Choices-sk.UTF-8: Predvolené rozloženie klávesnice, Žiaden kláves Alt, Pravý Alt (AltGr), Pravý Control, Pravý kláves Logo, Kláves Menu, Ľavý Alt, Ľavý kláves Logo, Kláves Enter na numerickej klávesnici, Oba klávesy Logo, Oba klávesy Alt
+Description-sk.UTF-8: Kláves, ktorý má fungovať ako AltGr:
+Extended_description-sk.UTF-8: V niektorých rozloženiach klávesnice je AltGr modifikátor používaný na zadávanie niektorých znakov, predovšetkým takých, ktoré sú v jazyku rozloženia klávesnice nezvyčajné. Tieto sú na klávesnici často vyznačené ako ďalšie symboly.
+Choices-sl.UTF-8: Privzeta postavitev tipkovnice, Brez Desne izmenjalke, Desna izmenjalka (AltGR), Desna krmilka (Control), Desna tipka z znakom, Menijska tipka, Leva izmenjalka (Alt), Leva tipka z znakom, Vnašalka na številski tipkovnici, Obe tipki z znakom, Obe izmenjalki
+Description-sl.UTF-8: Tipka, ki naj deluje kot desna izmenjalka:
+Extended_description-sl.UTF-8: Pri nekaterih postavitvah tipkovnic je Desna izmenjalka tipka za spreminjaje. Uporablja se predvsem za vnos znakov, ki niso običajni za jezik postavitve tipkovnice. Taki znaki so lahko na primer znaki za valute ali naglašene črke. Pogosto so natisnjeni kot dodaten simbol na tipki.
+Choices-sr.UTF-8: Подразумевани распоред тастатуре, Нема AltGr тастера, Десни Alt (AltGr), Десни Control, Десни лого тастер, Мени тастер, Леви Alt, Леви лого тастер, Тастер Enter на нумеричкој тастатури, Оба лого тастера, Оба Alt тастера
+Description-sr.UTF-8: Тастер за AltGr функцију:
+Extended_description-sr.UTF-8: Код неких распореда тастатуре, AltGr је тастер којим се могу откуцати додатни карактери, обично они који нису уобичајни за језик или распоред тастатуре, као на пример симболи валута и акцентована слова. Такави знаци су обично додатно означени на тастерима.
+Choices-sr@latin.UTF-8: Podrazumevani raspored tastature, Nema AltGr tastera, Desni Alt (AltGr), Desni Control, Desni logo taster, Meni taster, Levi Alt, Levi logo taster, Taster Enter na numeričkoj tastaturi, Oba logo tastera, Oba Alt tastera
+Description-sr@latin.UTF-8: Taster za AltGr funkciju:
+Extended_description-sr@latin.UTF-8: Kod nekih rasporeda tastature, AltGr je taster kojim se mogu otkucati dodatni karakteri, obično oni koji nisu uobičajni za jezik ili raspored tastature, kao na primer simboli valuta i akcentovana slova. Takavi znaci su obično dodatno označeni na tasterima.
+Choices-sv.UTF-8: Standardvärdet för tangentbordslayouten, Ingen AltGr-tangent, Alt\, höger (AltGr), Control\, höger, Tangent med logotyp\, höger, Menyknapp, Alt\, vänster, Tangent med logotyp\, vänster, Enter på numeriskt tangentbord, Båda tangenterna med logotype, Båda Alt-tangenterna
+Description-sv.UTF-8: Tangent att fungera som AltGr:
+Extended_description-sv.UTF-8: I en del tangentbordsupplägg så är AltGr en modifierande tanget som används för att skriva tecken som inte är vanliga i språket för tangentbordsupplägget. Exempelvis accenter eller symboler för utländsk valuta. Dessa finns vanliga utrskivna som extra tecken på tangenterna.
+Choices-te.UTF-8: ఒక కీబోర్డు లేఔటు  ఎంచుకోకపోతే  తీసుకొనేది, AltGr కీ లేదు, కుడి ఆల్ట్ (AltGr), కుడి కంట్రోల్, కుడి బొమ్మ కీ, మెనూ కీ, ఎడమ ఆల్ట్, ఎడమ బొమ్మ కీ, కీపాడ్ ఎంటర్ కీ, రెండు బొమ్మ(లోగో) కీలు, రెండు ఆల్ట్ కీలు
+Description-te.UTF-8: AltGr గా పనిచేయటకు కీ:
+Extended_description-te.UTF-8: కొన్ని కీబోర్డు లేఔట్లలో, AltGr ని కొన్ని అక్షరాలు(వాడుక భాషకి సంబంధించని విదేశ ద్రవ్య చిహ్నాలు మరియు ప్రత్యేక అక్షరాలు) ప్రవేశపెట్టటానికి వాడతారు. కీలపై వాటిని అదనపు చిహ్నలుగా ముద్రించివుంటాయి.
+Choices-tg.UTF-8: Тарҳбандии пешфарз барои клавиатура, Бе тугмаи AltGr, Alt-и рост (AltGr), Control-и рост, Тугмаи рости тамға, Тугмаи меню, Alt-и чап, Тугмаи чапи тамға, Тугмаи Enter дар клавиатураи рақамӣ, Ҳар дуи тугмаи тамға, Ҳар дуи тугмаи Alt
+Description-tg.UTF-8: Тугмае, ки ҳамчун AltGr амал мекунад:
+Extended_description-tg.UTF-8: Баъзе тарҳбандиҳои клавиатура тугмаи тағйирёбандаи AltGr барои вуруди баъзе аломатҳо истифода мешавад, асосан аломатҳое, ки барои забони тарҳбандии клавиатура ғайриоддӣ мебошанд, монанди рамзҳои асъорӣ ва ҳарфҳои заданок. Бисёр мартаба ин аломатҳо ҳамчун иловагӣ дар тугмаҳои клавиатура чоп карда мешаванд.
+Choices-th.UTF-8: ค่าปริยายของผังแป้นพิมพ์, ไม่ใช้ปุ่ม AltGr, Alt ขวา (AltGr), Control ขวา, ปุ่มโลโก้ขวา, ปุ่มเมนู, Alt ซ้าย, ปุ่มโลโก้ซ้าย, ปุ่ม Enter ในแป้นตัวเลข, ปุ่มโลโก้คู่, ปุ่ม Alt คู่
+Description-th.UTF-8: ปุ่มที่จะใช้เป็น AltGr:
+Extended_description-th.UTF-8: ในผังแป้นพิมพ์บางแบบ AltGr จะใช้เป็นปุ่มประกอบในการป้อนอักขระบางตัว ซึ่งมักเป็นอักขระแปลกปลอมสำหรับภาษาของผังแป้นพิมพ์ เช่นสัญลักษณ์หน่วยเงินตราต่างประเทศ และอักขระที่มีเครื่องหมายกำกับเสียง อักขระเหล่านี้มักจะแสดงไว้เป็นอักขระพิเศษบนปุ่ม
+Choices-tr.UTF-8: Öntanımlı klavye düzeni, AltGr tuşu yok, Sağ Alt (AltGr), Sağ Control, Sağ Logo tuşu, Menü tuşu, Sol Alt, Sol Logo tuşu, Tuş takımı Enter tuşu, Her iki Logo tuşu, Her iki Alt tuşu
+Description-tr.UTF-8: AltGR olarak işlev görecek olan tuş:
+Extended_description-tr.UTF-8: Bazı klavye düzenlerinde AltGr çeşitli karakterlerin girilmesini sağlayan bir niteleyici tuştur.  Bu karakterlerin büyük bir bölümü, yabancı para simgeleri ve aksanlı harfler gibi, kullanılan klavye düzenine ait dilde yaygın olmayan karakterlerden oluşur. Eğer bir tuşta üçüncü bir simge görüyorsanız AltGr tuşu çoğunlukla bu simgenin girilmesini sağlamakta kullanılır.
+Choices-ug.UTF-8: ھەرپتاختا جايلاشتۇرۇشنىڭ كۆڭۈلدىكى قىممىتى, AltGr كۇنۇپكا يوق, ئوڭ Alt (AltGr), ئوڭ Control, ئوڭ  Logo كۇنۇپكا, تىزىملىك كۇنۇپكا, سول Alt, سول Logo كۇنۇپكا, كىچىك ھەرپتاختا Enter كۇنۇپكىسى, ئىككى Logo كۇنۇپكىسى, ئىككى Alt كۇنۇپكىسى
+Description-ug.UTF-8: AltGr ئىقتىدارى سۈپىتىدىكى كۇنۇپكا:
+Extended_description-ug.UTF-8: بەزى ھەرپتاختا جايلاشتۇرۇشىدا، AltGr بەزى ھەرپلەرنى ئالماشتۇرۇپ كىرگۈزۈشكە ئىشلىتىلىدۇ، ئاساسلىقى نۆۋەتتىكى ھەرپتاختا جايلاشتۇرۇشىدا ئىنتايىن ئاز ئىشلىتىلىدىغان ھەرپلەرنى كىرگۈزۈشكە ئىشلىتىلىدۇ، مەسىلەن چەت تىللاردىكى پۇل بەلگىسى ۋە ئۇرغۇ بەلگىسى. بۇ ھەرپلەر ئادەتتە نورمىدىن ئارتۇق ھەرپلەر سۈپىتىدە ھەرپتاختىغا بېسىلغان بولىدۇ.
+Choices-uk.UTF-8: Звична для даної розкладки клавіатури, Не AltGr клавіша, Правий Alt (AltGr), Правий Control, Права клавіша Logo, Клавіша Menu, Лівий Alt, Ліва клавіша Logo, Клавіша Enter на цифровій клавіатурі, Обидві клавіші Logo, Обидві клавіші Alt
+Description-uk.UTF-8: Клавіша з функцією AltGr:
+Extended_description-uk.UTF-8: Для деяких розкладок клавіатури клавіша-модифікатор AltGr використовується для вводу деяких незвичних для мови розкладки клавіатури символів, таких як символи іноземних валют або акцентовані літери. Часто на клавішах роблять їх додаткові зображення.
+Choices-vi.UTF-8: Giá trị mặc định cho bố trí bàn phím, Không có phím AltGr, Alt phải (AltGr), Ctrl phải, Phím biểu hình bên phải, Phím trình đơn, Alt trái, Phím biểu tượng bên trái, Phím Gõ Vùng Phím, Cả hai phím biểu hình, Cả hai phím Alt
+Description-vi.UTF-8: Phím để dùng thay cho AltGr:
+Extended_description-vi.UTF-8: Trên một số bố trí bàn phím nào đó, AltGr là một phím bổ trợ dùng để gõ một số ký tự, chính là ký tự khác với ngôn ngữ của bố trí bàn phím, v.d. ký hiệu tiền tệ nước ngoại và chữ có dấu phụ lạ. Ký tự như vậy thường được in trên phím dạng một ký hiệu bổ sung.
+Choices-zh_CN.UTF-8: 键盘布局默认值, 无 AltGr 键, 右 Alt 键 (AltGr), 右 Control 键, 右徽标键, 菜单键, 左 Alt, 左徽标键, 小键盘回车键, 两个徽标键, 两个 Alt 键
+Description-zh_CN.UTF-8: 作为 AltGr 的键：
+Extended_description-zh_CN.UTF-8: 在一些键盘布局中，AltGr 是用来输入某些字符的转换键，主要用来输入当前键盘布局很少使用到的字符，比如外语中的货币符号和口音字母。这些字符通常会作为额外符号印在键上。
+Choices-zh_TW.UTF-8: 鍵盤排列方式的預設值, 沒有 AltGr 鍵, 左邊的 Alt (AltGr), 右邊的 Control, 右邊的 Logo 鍵, Menu 鍵, 左邊的 Alt, 左邊的 Logo 鍵, 數字區的 Enter 鍵, 兩邊的 Logo 鍵, 兩邊的 Alt 鍵
+Description-zh_TW.UTF-8: 做為 AltGr 的鍵
+Extended_description-zh_TW.UTF-8: 在某些鍵盤的排列方式裡，會把 AltGr 當作修改鍵，用來輸入在該語言的鍵盤的排列方式裡一些不常用到的字元，像是別國的貨幣符號及重音字元之類的。這些鍵的上面常常會印有額外的符號。
+
+Name: keyboard-configuration/compose
+Type: select
+Default: No compose key
+Choices: No compose key, Right Alt (AltGr), Right Control, Right Logo key, Menu key, Left Logo key, Caps Lock
+Description: Compose key:
+Extended_description: The Compose key (known also as Multi_key) causes the computer to interpret the next few keystrokes as a combination in order to produce a character not found on the keyboard.\n\nOn the text console the Compose key does not work in Unicode mode. If not in Unicode mode, regardless of what you choose here, you can always also use the Control+period combination as a Compose key.
+Choices-ar.UTF-8: لا مفتاح تكوين, زر Alt اليمين (AltGr), زر Control الأيمن, مفتاح الشعار الأيمن, مفتاح القائمة, مفتاح الشعار الأيسر, Caps Lock
+Description-ar.UTF-8: مفتاح التكوين:
+Extended_description-ar.UTF-8: مفتاح التكوين (والمعروف أيضاً بمفتاح التعدد Multi_key) يجعل الحاسب يعتبرضربات المفاتيح التالية كمجموعة لإنتاج حرف غير موجود في لوحة المفاتيح.\n\nفي الطرفية النصيّة لا يعمل مفتاح التكوين في وضع يونيكود. وإن لم تكن في وضع يونيكود، فبغض النظر عما ستختار هنا، يمكنك دائماً استخدام زر Control+نقطة كمفتاح تكوين.
+Choices-ast.UTF-8: Ensin tecla Compose, Alt drecha (AltGr), Control Derecha, Tecla Logu Derecha, Tecla Menú, Tecla Logu Izquierda, Caps Lock
+Description-ast.UTF-8: Tecla Compose:
+Extended_description-ast.UTF-8: La tecla Compose (tamién conocida como Multi_key) fai que l'ordenador interprete les prósimes pulsaciones de tecla como una combinación, cola fin de producir un caráuter que nun s'alcuentra nel tecláu.\n\nNa consola de testu la tecla Componer nun trabaya nel mou Unicode. Si non ye mou Unicode, independientemente de lo que escueyas equí, siempre pues también usar la combinación Control + períodu como tecla Componer.
+Choices-be.UTF-8: Няма кнопкі compose, Правы Alt (AltGr), Правы Control, Правая кнопка Logo, Кнока меню, Левая кнопка Logo, Caps Lock
+Description-be.UTF-8: Кнопка Compose:
+Extended_description-be.UTF-8: Кнопка Compose (вядома таксама як Multi_key) паведамляе праграме сігналам, што наступныя націскі кнопак трэба апрацаваць як камбінацыю для вываду знака, якога няма на клавіятуры.\n\nНа тэкставай кансолі кнопка Compose не працуе ў рэжыме Unicode. Не ў рэжыме Unicode, безадносна таго, што тут выберыце, вы можаце заўсёды выкарыстаць камбінацыю Alt+. як кнопку Compose.
+Choices-bg.UTF-8: Без клавиш „Compose“, Десен Alt (AltGr), Десен Control, Десен клавиш с лого, Клавиш меню, Ляв клавиш с лого, Caps Lock
+Description-bg.UTF-8: Клавиш „Compose“:
+Extended_description-bg.UTF-8: Клавишът „Compose“ (известен също като Multi_key) е клавиш, който е предназначен да посочи на софтуера да интерпретира следващите няколко клавиша като комбинация с цел да генерира символ, който отсъства на клавиатурата.\n\nНа текстовата конзола клавишът „Compose“ не работи в режим „Уникод“.  Ако режимът не е „Уникод“, то независимо какво ще изберете тук, ще може да използвате също комбинацията Control+точка като клавиш „Compose“.
+Choices-bo.UTF-8: མཉམ་རྡེབ་མཐེབ་མེད་པ, Alt གཡས (AltGr), Control གཡོན, མཚོན་རྟགས་མཐེབ་གཡས, འདེམས་ཐོ་མཐེབ, མཚོན་རྟགས་མཐེབ་གཡོན, ཆེ་བྲིས་ཀྱི་ཟྭ
+Description-bo.UTF-8: མཉམ་རྡེབ་མཐེབ：
+Extended_description-bo.UTF-8: མཉམ་རྡེབ་མཐེབ(Multi_key ཡང་ཟེར) མཐེབ་གཞོང་ཐོག་ཏུ་མེད་པའི་ཡི་གེ་ཞིག་མཐེབ་འགའ་ཞིག་མཉམ་དུ་བརྡབ་ནས་བཟོས་པར་གོ་དགོས\n\nOn the text console the Compose key does not work in Unicode mode. If not in Unicode mode, regardless of what you choose here, you can always also use the Control+period combination as a Compose key.
+Choices-bs.UTF-8: Bez compose tipke, Desni Alt (AltGr), Desni Control taster, Desni Logo taster, Meni taster, Lijevi Logo taster, Caps Lock
+Description-bs.UTF-8: Compose tipka:
+Extended_description-bs.UTF-8: Compose tipka (poznata i kao Multi_tipka) ima svrhu da računar interpretira sljedećih nekoliko pritisaka na tipke kao kombinaciju u svrhu ispisivanja karaktera koji nisu na Vašoj tastaturi.\n\nU tekstualnoj konzoli Compose tipka ne radi u Unicode modu. Ako niste u Unicode modu, bez obzira šta izaberete ovdje, možete uvijek koristiti Control+tačka kombinaciju kao Compose tipku.
+Choices-ca.UTF-8: Sense tecla de composició, Alt dret (AltGr), Control dret, Tecla de logotip dreta, Tecla de menú dreta, Tecla de logotip esquerra, Fixació de majúscules
+Description-ca.UTF-8: Tecla de composició:
+Extended_description-ca.UTF-8: La tecla de composició (també coneguda com a Multi_key) fa que l'ordinador interprete les següents pulsacions com una combinació per a produir un caràcter que no és present al teclat.\n\nA la consola de text, la tecla de composició no funciona en mode Unicode. Si no esteu en mode Unicode, independentment del que seleccioneu ací, sempre podeu emprar la combinació Control+punt com a tecla de composició.
+Choices-cs.UTF-8: Bez klávesy Compose, Pravý Alt (AltGr), Pravý Control, Pravá klávesa logo, Klávesa Menu, Levá klávesa logo, Caps Lock
+Description-cs.UTF-8: Klávesa Compose:
+Extended_description-cs.UTF-8: Klávesa Compose (také známá jako Multi_key) říká počítači, aby následující stisky kláves interpretoval jako kombinaci, čímž můžete napsat znak, který se normálně na klávesnici nenachází.\n\nKlávesa Compose bohužel nefunguje na textové konzoli v unicodovém režimu. Nezávisle na tom, co zde vyberete, můžete vždy místo klávesy Compose použít kombinaci Control+tečka (tedy pouze pokud nepoužíváte režim unicode).
+Choices-cy.UTF-8: Dim bysell cyfansoddi, Alt Dde (AltGr), Control Dde, Bysell Logo Dde, Bysell bwydlen, Bysell Logo Chwith, Capiau Clo
+Description-cy.UTF-8: Y bysell Cyfansoddi:
+Extended_description-cy.UTF-8: Mae'r bysell Cyfansoddi (hefyd yn cael ei nabod fel bysell Multi) yn achosi'r cyfrifiadur i ddehongli y trawiadau dilynol fel cyfuniad i greu nod sydd ddim i'w weld ar y bysellfwrdd.\n\nAr y consol testun nid yw'r bysell Cyfansoddi yn gweithio ym modd Unicode. Os nad yn y modd Unicode, dim ots beth rydych yn dewis yma, fe allwch chi bob amser ddefnyddio y cyfuniad Control+. fel y bysell Cyfansoddi.
+Choices-da.UTF-8: Ingen Compose-tast, Højre Alt (AltGr), Højre Control, Højre Logo-tast, Menu-tast, Venstre Logo-tast, Caps Lock
+Description-da.UTF-8: Compose-tast:
+Extended_description-da.UTF-8: Compose-tasten (også kendt som Multi_tast) gør computeren i stand til at tolke de følgende få anslag som en kombination med henblik på at frembringe et tegn, der ikke findes på tastaturet.\n\nPå tekstkonsollen virker Compose-tasten ikke i Unicode-tilstand. Hvis Unicode-tilstand ikke er aktiveret, kan du altid, uanset hvad du vælger her, bruge Control+punktum-kombinationen som en Compose-tast.
+Choices-de.UTF-8: Keine Compose-Taste, Alt rechts (AltGr), Strg rechts, Windows-Taste rechts, Menütaste, Windows-Taste links, Feststelltaste
+Description-de.UTF-8: Compose-Taste:
+Extended_description-de.UTF-8: Durch das Drücken der Compose-Taste (auch als Multi-Key bekannt) werden die nächsten Tastenanschläge vom Computer als Kombination interpretiert, die ein nicht auf der Tastatur vorhandenes Zeichen erzeugt.\n\nAuf der Textkonsole funktioniert die Compose-Taste nicht im Unicode-Modus. Falls Sie nicht im Unicode-Modus arbeiten, können Sie unabhängig von Ihrer Auswahl hier immer auch die Kombination Strg+Satzpunkt (.) als Compose-Taste verwenden.
+Choices-el.UTF-8: Μη διαθέσιμο πλήκτρο σύνθεσης (Compose), Δεξί Alt (AltGr), Right Control, Πλήκτρο Right Logo, Πλήκτρο Menu, Πλήκτρο Left Logo, Caps Lock
+Description-el.UTF-8: Πλήκτρο Compose:
+Extended_description-el.UTF-8: Το πλήκτρο Compose (γνωστό και ως Multi_key) κάνει τον υπολογιστή να μεταφράζει τα αμέσως επόμενα  χτυπήματα πλήκτρων ως συνδυασμούς για την παραγωγή ενός χαρακτήρα που δεν υπάρχει στο  πληκτρολόγιο.\n\nΓια εισαγωγή κειμένου στο τερματικό, το πλήκτο Compose δεν δουλεύει σε κατάσταση Unicode. Στην περίπτωση αυτή  μπορείτε πάντα, άσχετα από την επιλογή που θα κάνετε εδώ, να χρησιμοποιείτε τον συνδυασμό Control+περίοδος ως πλήκτρο Compose.
+Choices-eo.UTF-8: Neniu kombino-klavo, Dekstra Alt (AltGr), Dekstra Control, Dekstra Emblemo-klavo, Menu-klavo, Maldekstra Emblemo-klavo, Majuskla Baskulo
+Description-eo.UTF-8: Kombino-klavo:
+Extended_description-eo.UTF-8: La Kombino-klavo (ankaŭ konata kiel klavo Multi) igas ke la komputilo interpretu la sekvajn klavpremojn kiel kombinaĵon, por generi signon ne troveblan en la klavaro.\n\nEn la teksta konzolo la Kombino-klavo ne funkcias laŭ Unikoda reĝimo. Se vi ne laboros laŭ Unikodo, sendepende je kion vi elektas ĉi tie, vi ĉiam povos uzi la kombinaĵon Control+punkto kiel Kombino-klavon.
+Choices-es.UTF-8: Sin tecla modificadora, Alt derecho (AltGr), Control derecho, Tecla derecha de logo, Tecla de menú, Tecla izquierda de logo, Bloqueo de mayúsculas
+Description-es.UTF-8: Tecla modificadora:
+Extended_description-es.UTF-8: La tecla modificadora (conocida también como la Multi Tecla) es una tecla diseñada para indicarle a la máquina que interprete las próximas pulsaciones de teclas como una combinación, para producir un carácter que no se encuentra en el teclado.\n\nEn la consola de texto, la tecla modificadora no funciona en el modo Unicode. Si no está en el modo Unicode, a pesar de lo que escoja aquí, siempre puede usar la combinación Control+punto como si fuera una tecla modificadora.
+Choices-et.UTF-8: Koosteklahvi pole, Parem Alt (AltGr), Parem Control, Parem logoklahv, Menüüklahv, Vasak logoklahv, Caps Lock
+Description-et.UTF-8: Koosteklahv:
+Extended_description-et.UTF-8: Koosteklahv (tuntud ka Multi_key nime all) tõlgendab järgmiseid klahvivajutusi kombinatsioonina, et saaks sisestada klaviatuurilt puuduvaid märke.\n\nTekstikonsoolis ei tööta koosteklahv Unicode režiimis. Kui ei olda Unicode režiimis, siis ükskõik mille sa siin valid, saad koosteklahvina alati kasutada Control+punkt kombinatsiooni.
+Choices-eu.UTF-8: Tekla konposaturik ez, Eskuineko Alt (AltGr), Eskuineko Ktrl, Eskuineko logotipoaren tekla, Menua tekla, Ezkerreko Logotipoa tekla, Blok Maius
+Description-eu.UTF-8: Tekla konposatua:
+Extended_description-eu.UTF-8: Konposaturiko tekla (Multi_key izenez ere ezaguna) sakatuz gero, softwareak tekla-konbinazio gisa interpretatuko ditu zapaltzen diren hurrengo teklak horrela teklatuan ez dauden ikurrak idatz daitezke.\n\nTestuzko kontsola batean tekla konposatuak ez dute funtzionatzen Unicode moduan. Unicode moduan ez dagoenean, berdin izanik hemen zer aukeratzen duzun, Ktrl + puntua teklen konbinazioa erabil dezakezu beti tekla konposatu gisa.
+Choices-fa.UTF-8: کلیدهای غیر ساختگی, کلید Alt (AltGr) راست, کلید Control راست, کلید Logo راست, کلید MenuQ, کلید Logo چپ, Caps Lock
+Description-fa.UTF-8: کلید های ساختگی:
+Extended_description-fa.UTF-8: کلید ساختگی (که به عنوان Multi_key نیز شناخته می شوند) فشار چندین کلید را که باعث ایجاد کاراکتری می شود که بر روی صفحه کلید نیست، فراهم می کند.\n\nدر میرکار متنی کلید های ساختگی در حالت Unicode عمل نمی کنند. در صورتی که در حالت Unicode نیستید، فارق از آنچه انتخاب کرده اید ، می توانید از Control+period به عنوان یک کلید ساختگی استفاده کنید.
+Choices-fi.UTF-8: Ei yhdistelmänäppäintä, Oikea Alt (AltGr), Oikea Control, Oikea Logo-näppäin, Menu-näppäin, Vasen Logo-näppäin, Caps Lock
+Description-fi.UTF-8: Yhdistelmänäppäin:
+Extended_description-fi.UTF-8: Yhdistelmänäppäin (Compose key tai Multi_key) käskee tietokonetta tulkitsemaan pari seuraavaa näppäilyä yhdistelmäksi. Näin voidaan tuottaa merkkejä, joita ei löydy näppäimistöltä.\n\nTekstikonsolilla yhdistelmänäppäin ei toimi Unicode-tilassa. Muussa kuin Unicode-tilassa voidaan tästä valinnasta riippumatta aina käyttää yhdistelmää Control+piste yhdistelmänäppäimenä.
+Choices-fr.UTF-8: Pas de touche « compose », Touche Alt de droite (AltGr), Touche Ctrl de droite, Touche « logo » de droite, Touche Menu, Touche « logo » de gauche, Verrouillage Majuscule
+Description-fr.UTF-8: Touche « compose » :
+Extended_description-fr.UTF-8: La touche « compose » (encore appelée « touche multi ») sert à indiquer que les touches utilisées ensuite doivent être combinées de façon à produire un caractère qui n'existe pas sur le clavier.\n\nSur les consoles en mode texte, la touche « compose » ne fonctionne pas en mode Unicode. Si l'on n'est pas en mode Unicode, indépendamment de ce que vous avez choisi ici, vous pouvez toujours utiliser la combinaison Ctrl+point comme touche « compose ».
+Choices-ga.UTF-8: Gan eochair athraithe, Alt Ar Dheis (AltGr), Ctrl Ar Dheis, Eochair lógó ar dheis, Eochair roghchláir, Eochair lógó ar chlé, Glas Ceannlitreacha
+Description-ga.UTF-8: Eochair athraithe:
+Extended_description-ga.UTF-8: Nuair a bhrúitear an eochair athraithe, glacann an ríomhaire leis na carachtair ina dhiaidh mar theaglaim, chun carachtar nach bhfuil ar an méarchlár a ghiniúint.\n\nAr an gconsól téacs, ní oibríonn an eochair athraithe sa mhód Unicode.  Mura bhfuil tú sa mhód Unicode, is féidir an teaglaim Ctrl+ponc a úsáid mar eochair athraithe i gcónaí, is cuma céard atá roghnaithe anseo.
+Choices-gl.UTF-8: Non hai tecla Compose, Tecla Alt dereita (Alt Gr), Tecla Ctrl dereita, Tecla Logo dereita, Tecla Menú, Tecla Logo esquerda, Bloq maiús
+Description-gl.UTF-8: Tecla Compose:
+Extended_description-gl.UTF-8: A tecla Compose (tamén coñecida como «Multi_key») fai que o computador interprete as seguintes pulsacións de teclas como unha combinación para producir un carácter que non figura no teclado.\n\nNa consola de texto, a tecla Compose non funciona no modo Unicode. Se non está no modo Unicode, independentemente do que escolla aquí, sempre ha poder empregar a combinación Ctrl+punto como tecla Compose.
+Choices-he.UTF-8: ללא מקש compose, Alt ימני (AltGr), Control ימני, מקש לוגו ימני, מקש תפריט, מקש לוגו שמאלי, Caps Lock
+Description-he.UTF-8: מקש compose:
+Extended_description-he.UTF-8: מקש compose (ידוע גם כ-Multi_key) גורם למחשב לפרש את ההקלדות הבאות כצירוף כדי ליצור תו שלא נמצא על המקלדת.\n\nבמסוף הטקסט, מקש ה-Compose אינו עובד במצב Unicode. אם אינך נמצא במצב Unicode, ללא תלות בבחירתך כאן, ביכולתך תמיד להשתמש בצירוף Control+נקודה כמקש Compose.
+Choices-hr.UTF-8: Nema tipku compose, Desni Alt (AltGr), Desna Control tipka, Desna Logo tipka, Tipka izbornika, Lijeva Logo tipka, Caps Lock
+Description-hr.UTF-8: Tipka Compose:
+Extended_description-hr.UTF-8: Tipka Compose (poznata kao i Multi_key) čini da računalo interpretira idućih nekoliko pritisaka na tipke kao kombinaciju koja služi za stvaranje znaka koji se ne nalazi na tipkovnici.\n\nU tekstualnoj konzoli u Unicode načinu rada tipka Compose ne radi. Ako niste u Unicode načinu rada, što god ovdje ovdje izaberete, uvijek možete koristiti i kombinaciju Control+točka za tipku Compose.
+Choices-hu.UTF-8: Nincs kombinációs billentyű, Jobb Alt (AltGr), Jobb Control, Jobb logó billentyű, Menü billentyű, Bal logó billentyű, Caps Lock
+Description-hu.UTF-8: Kombinációs billentyű:
+Extended_description-hu.UTF-8: A kombinációs billentyű (másképp: Multi_billentyű) hatására a gép a következő pár billentyűt kombinációként értelmezi a billentyűzeten nem található karakterek előállítására.\n\nSzöveges konzolon a Kombinációs billentyű nem működik Unicode módban. Nem Unicode módban - az itteni beállítástól függetlenül - a Control+pont kombináció is mindig használható kombinációs billentyűként.
+Choices-id.UTF-8: Tanpa tombol kombinasi, Alt (AltGr) kanan, Ctrl Kanan, Tombol Logo Kanan, Tombol Menu, Tombol Logo Kiri, Caps Lock
+Description-id.UTF-8: Tombol Kombinasi:
+Extended_description-id.UTF-8: Tombol Kombinasi (juga dikenal sebagai Multi_key) membuat komputer menganggap beberapa tombol berikutnya sebagai sebuah kombinasi untuk menghasilkan aksara yang tidak ada di keyboard.\n\nPada konsol teks, tombol Kombinasi tidak berlaku pada moda Unicode. Jika tidak dalam moda Unicode, tanpa melihat pilihan Anda, Anda selalu bisa menggukanan kombinasi Ctrl+.(titik) sebagai tombol Kombinasi.
+Choices-is.UTF-8: Enginn samsetningarlykill (compose key), Hægri Alt lykill (AltGr), Vinstri Ctrl, Hægri Merkja-lykill (Win), Menu-lykill, Vinstri Merkja-lykill (Win), Caps Lock
+Description-is.UTF-8: Samsetningarlykill:
+Extended_description-is.UTF-8: Samsetningarlykillinn (einnig þekktur sem Compose eða Multi lykill) lætur tölvuna túlka næstu áslætti sem samsetningu til að búa til tákn sem ekki fyrirfinnst á lyklaborðinu.\n\nÁ textastjórnskjá virkar samsetningarlykillinn ekki í Unicode ham. Ef ekki er verið í Unicode ham, skiptir þá ekki máli hvað þú velur hér, þá geturðu alltaf notað saman Control+punktur sem samsetningarlykil.
+Choices-it.UTF-8: Nessun tasto «componi», Alt destro (AltGr), Ctrl destro, Tasto Windows destro, Tasto menù, Tasto Windows sinistro, Bloc Maiusc
+Description-it.UTF-8: Tasto «componi»:
+Extended_description-it.UTF-8: Il tasto «componi» (anche conosciuto come Multitasto) imporrà al computer di interpretare i tasti premuti successivamente come una combinazione, al fine di riprodurre un carattere non trovato nella tastiera.\n\nNella console di testo il tasto «componi» non funziona in modalità Unicode. Se non si è in modalità Unicode, indipendentemente dalla scelta fatta qui, è sempre possibile usare anche la combinazione Ctrl + punto come tasto «componi».
+Choices-ja.UTF-8: コンポーズキーなし, 右 Alt (AltGr), 右 Control, 右ロゴキー, メニューキー, 左ロゴキー, Caps Lock
+Description-ja.UTF-8: コンポーズキー:
+Extended_description-ja.UTF-8: コンポーズキー (マルチキーとしても知られています) は、続くいくつかのキーストロークを、キーボード上にない文字を生成するための組み合わせとして解釈するようにコンピュータに命令します。\n\nテキストコンソールでは、コンポーズキーは Unicode モードでは動作しません。Unicode モードでなければ、ここで何を選択するにせよ、Control + ピリオドの組み合わせをコンポーズキーのひとつとして常に利用できます。
+Choices-kk.UTF-8: Compose пернесі жоқ, Оң жақ Alt (AltGr), Оң жақ Control, Оң жақ Logo пернесі, Menu пернесі, Сол жақ Logo пернесі, Caps Lock
+Description-kk.UTF-8: Compose пернесі:
+Extended_description-kk.UTF-8: Compose пернесі (тағы да Multi_key ретінде белгілі), компьютерді келесі перне басылуларды пернетақтада жоқ таңбаны енгізу тіркесі ретінде қабылдауды мәжбүрлетеді.\n\nМәтін консолінде Compose пернесі Unicode режимінде жұмыс істемейді. Егер Unicode режимі емес болса, осындағы қалауыңызға тәуелсіз, сіз Control+нүкте тіркесін әрқашан Compose пернесі ретінде қолдана аласыз.
+Choices-kn.UTF-8: ಕಂಪೋಸ್ ಕೀಲಿ ಇರುವುದಿಲ್ಲ, ಬಲ ಆಲ್ಟ್ (AltGr), ಬಲ ಕಂಟ್ರೋಲ್, ಬಲ ಲೋಗೊ ಕೀಲಿ, ಮೆನು ಕೀಲಿ, ಎಡ ಲೋಗೊ ಕೀಲಿ, ಕ್ಯಾಪ್ಸ್ ಲಾಕ್
+Description-kn.UTF-8: ಕಂಪೋಸ್ ಕೀಲಿ :
+Extended_description-kn.UTF-8: ಕಂಪೋಸ್ ಕೀಲಿಯು ( ಮಲ್ಟೀ_ಕೀ ಎಂದೂ ಕರೆಯಲ್ಪಡುವ) ಗಣಕವನ್ನು ಮುಂದಿನ ಹಲವು ಕೀಲಿ ಒತ್ತುಗಳನ್ನು ಒಂದೇ ಸಂಯೋಜನೆಯಾಗಿ ಅರ್ಥೈಸುವಂತೆ ಮಾಡಿ ಕೀಲಿಮಣೆಯಲ್ಲಿರದ ಅಕ್ಷರವನ್ನು ಉತ್ಪಾದಿಸುವಂತೆ ಮಾಡುತ್ತದೆ.\n\nಅಕ್ಷರಿಕ ಆಜ್ಞಾಫಲಕದಲ್ಲಿ ಕಂಪೋಸ್ ಕೀಲಿಯು ಯೂನಿಕೋಡ್ ಮಾಧ್ಯಮದಲ್ಲಿ ಕೆಲಸ ಮಾಡುವುದಿಲ್ಲ. ಯೂನಿಕೋಡ್ ಮಾಧ್ಯಮದಲ್ಲಿ ಅಲ್ಲದಿದ್ದರೂ ಕೂಡ, ನೀವೇನೆ ಆಯ್ಕೆಮಾಡಿ, ನೀವು ಸದಾ ಕಂಟ್ರೋಲ್+ಪೂರ್ಣವಿರಾಮ ಸಂಯೋಜನೆಯನ್ನು ಕಂಪೋಸ್ ಕೀಲಿಯ ಬದಲಾಗಿ ಬಳಸಬಹುದು.
+Choices-ko.UTF-8: Compose 키 없음, 오른쪽 Alt (AltGr), 오른쪽 Control, 오른쪽 로고 키, 메뉴 키, 왼쪽 로고 키, Caps Lock
+Description-ko.UTF-8: Compose 키:
+Extended_description-ko.UTF-8: Compose (또는 Multi) 키를 누르면 그 다음 몇 개의 키는 키보드에 없는 문자를 조합한다고 해석합니다.\n\n텍스트 콘솔의 유니코드 모드에서는 Compose 키가 동작하지 않습니다. 유니코드 모드가 아니라면 여기 설정과 관계없이 Control+점 조합을 Compose 키로 사용할 수 있습니다.
+Choices-ku.UTF-8: Bişkoka compose tuneye, Rast Alt (AlrGr), control a rastê, Bişkoka logo ya rastê, Mifteya Pêşekê, Bişkoka logo ya çepê, Caps Lock
+Description-ku.UTF-8: Bişkoka compose:
+Extended_description-ku.UTF-8: Kilîla serastkirinê (wekî Multî_key jî tê nasîn) dike ku kompîter bi hin kombînasyonan klavyeyê biguherîne.\n\nDi konsola pêş de kilîla Serastkirinê bi moda Unicodeê naxebite. Eger ne di moda Unicodeê de be dikarî metodeke din hilbijêrî.
+Choices-lo.UTF-8: ບໍ່ມີການປະກອບເປັນສຳຄັນ, Alt ຂວາ (AltGr), ຄວບຄຸມຂວາ, ແປ້ນໂລໂກ້ຂວາ, ເມນູສຳຄັນ, ແປ້ນໂລໂກ້ຊ້າຍ, Caps Lock
+Description-lo.UTF-8: ຂຽນສຳຄັນ
+Extended_description-lo.UTF-8: ທີ່ສຳຄັນການຂຽນ(ທີ່ຮູ້ຈັກກັນວ່າ Multi_key) ຈະເຮັດໃຫ້ເຄື່ອງຄອມພິວເຕີໃນການຕີຄວາມການກົດແປ້ນພິມຕໍ່ໄປເປັນຊຸດຄ່າປະສົມເພື່ອຜະລິດ ບໍ່ເຫັນໂຕອັກສອນເທິງແປ້ນພິມ\n\nໃນຂໍ້ຄວາມທີ່ຂຽນຄອນໂຊລຄຣີບໍ່ໃຊ້ງານໃນໂໝດ Unicode ຖ້າບໍ່ໄດ້ຢູ່ໃນໂໝດ Unicode ໂດຍບໍ່ຄຳນຶງເຖີງສິ່ງທີ່ທ່ານເລືອກໃນທີ່ນີ້ມ່ານກໍ່ຍັງສາມາດໃຊ້ຮ່ວມກັນ ຄວບຄຸມໄລຍະເວລາ + ເປັນສ່ວນປະສົມຫລັກ
+Choices-lt.UTF-8: Komponavimo klavišo nenaudoti, Dešinysis Alt (Lyg3), Dešinysis Vald, Dešinysis Logo klavišas, Meniu klavišas, Kairysis Logo klavišas, Didžiosios raidės
+Description-lt.UTF-8: Komponavimo klavišas:
+Extended_description-lt.UTF-8: Komponavimo klavišo („Compose“, arba „Multi_key“) nuspaudimas nurodo kompiuteriui interpretuoti kelių toliau einančių klavišų paspaudimus kaip seką, sukomponuojančią klaviatūroje nesantį simbolį.\n\nTekstiniame terminale Komponavimo klavišas neveiks unikodo veiksenoje. Nesant unikodo veiksenoje, nepriklausomai nuo čia atlikto pasirinkimo, kaip Komponavimo klavišą galėsite naudoti Vald+taškas kombinaciją.
+Choices-lv.UTF-8: Bez compose taustiņa, Labais Alt (AltGr), Labais Ctrl, Labais Logo taustiņš, Izvēlnes taustiņš, Kreisais Logo taustiņš, Caps Lock
+Description-lv.UTF-8: Compose taustiņš:
+Extended_description-lv.UTF-8: Compose taustiņš (zināms arī kā Multi_taustiņš) liek datoram interpretēt nākamos pāris taustiņu uzsitienus ka kombināciju, lai izveidotu rakstzīmi, kas nav atrodama uz tastatūras.\n\nTeksta konsolē Compose taustiņš nestrādā Unicode režīmā. Ārpus Unicode režīma (neatkarīgi no šeit izvēlētā režīma) vienmēr var izmantot Ctrl+punkts kombināciju kā Compose taustiņu.
+Choices-mk.UTF-8: Без копче за комбинирање, Десен Alt (AltGr), Десен Control, Десното Лого копче, Мени копче, Левото лого копче, Caps Lock
+Description-mk.UTF-8: Копче за комбинирање:
+Extended_description-mk.UTF-8: Ако го стиснете копчето за комбинирање (познато како Мулти копче) компјутерот ќе ги интерпретира следните неколку копчиња како комбинација, за да испише знак кој не се наоѓа на тастатурата.\n\nВо текстуалната конзола копчето за комбинација не работи во Unicode режим. Ако не сте во Unicode режим, без разлика што ќе изберете тука, секогаш ќе можете да ја користите комбинацијата Control+точка како копче за комбинирање.
+Choices-nb.UTF-8: Ingen Compose-tast, Høyre Alt (Alt Gr), Høyre Ctrl, Høyre logotast, Menytast, Venstre logotast, Caps Lock
+Description-nb.UTF-8: Compose-tast:
+Extended_description-nb.UTF-8: Compose-tasten (også kjent som Multi_key) gjør at datamaskinen tolker de neste tastetrykkene som en kombinasjon slik at man kan lage et tegn som ikke finnes på tastaturet.\n\nI tekstkonsollen virker ikke Compose-tasten i Unicode-modus. Hvis man ikke er i Unicode-modus, uavhengig av hva du velger her, kan du alltid bruke kombinasjonen Ctrl + punktum som en Compose-tast.
+Choices-nl.UTF-8: Geen samenstellingstoets, Alt-Rechts (AltGr), Control-Rechts, Logotoets-Rechts, Menutoets, Logotoets-Links, Caps Lock
+Description-nl.UTF-8: Samenstellingstoets:
+Extended_description-nl.UTF-8: De samenstellingstoets (ook bekend als de Multi-toets) laat de computer de volgende toetsaanslag als een combinatie te interpreteren, om zo een karakter te produceren dat niet op het toetsenbord terug te vinden is.\n\nOp de tekstconsole werkt de samenstellingstoets niet in Unicode-modus. Wanneer u zich niet in Unicode-modus bevindt kunt u -onafhankelijk van wat u hier kiest- altijd de Control+punt combinatie gebruiken als samenstellingstoets.
+Choices-no.UTF-8: Ingen Compose-tast, Høyre Alt (Alt Gr), Høyre Ctrl, Høyre logotast, Menytast, Venstre logotast, Caps Lock
+Description-no.UTF-8: Compose-tast:
+Extended_description-no.UTF-8: Compose-tasten (også kjent som Multi_key) gjør at datamaskinen tolker de neste tastetrykkene som en kombinasjon slik at man kan lage et tegn som ikke finnes på tastaturet.\n\nI tekstkonsollen virker ikke Compose-tasten i Unicode-modus. Hvis man ikke er i Unicode-modus, uavhengig av hva du velger her, kan du alltid bruke kombinasjonen Ctrl + punktum som en Compose-tast.
+Choices-pl.UTF-8: Bez klawisza Compose, Prawy Alt (AltGr), Prawy Control, Prawy klawisz logo, Klawisz menu, Lewy klawisz logo, Caps Lock
+Description-pl.UTF-8: Klawisz Compose:
+Extended_description-pl.UTF-8: Klawisz Compose (znany także jako Multi_klawisz) powoduje, że komputer interpretuje następnych kilka uderzeń klawiszy jako kombinację mającą na celu wprowadzenie znaku nie dostępnego na klawiaturze.\n\nNa konsoli tekstowej klawisz Compose nie działa w trybie Unicode. Poza tym trybem, niezależnie od wyboru można jako klawisza Compose używać kombinacji Control+kropka.
+Choices-pt.UTF-8: Sem tecla compose, Alt direito (AltGr), Control Direito, Tecla Logotipo Direito, Tecla Menu, Tecla de Logotipo Esquerdo, Caps Lock
+Description-pt.UTF-8: Tecla compose:
+Extended_description-pt.UTF-8: A tecla Compose (também conhecida como Multi) é uma tecla que sinaliza o software para interpretar os batimentos de teclas seguintes como uma combinação de símbolos para produzir um caracter não existente no teclado.\n\nNa consola de texto a tecla Compose não funciona em modo Unicode. Se não estiver em modo Unicode, independentemente do que escolher aqui, pode sempre utilizar a combinação Alt+ponto como tecla Compose.
+Choices-pt_BR.UTF-8: Sem tecla Compose, Alt Direito (AltGr), Control Direito, Tecla Logo Direita, Tecla Menu, Tecla Logo Esquerda, Caps Lock
+Description-pt_BR.UTF-8: Tecla Compose:
+Extended_description-pt_BR.UTF-8: A tecla Compose (também conhecida como tecla Multi) faz com que o computador interprete as próximas teclas como uma combinação para produzir um caractere não encontrado no teclado.\n\nNo console texto a tecla Compose não funciona no modo Unicode. Se não estiver no modo Unicode, independentemente do que você escolher aqui, você sempre pode usar também a combinação Control+ponto como uma tecla Compose.
+Choices-ro.UTF-8: Fără tastă de compunere, Alt dreapta (AltGr), Control dreapta, Tasta logo dreapta, Tasta meniu, Tasta logo stânga, Caps Lock
+Description-ro.UTF-8: Tasta de compunere:
+Extended_description-ro.UTF-8: Tasta de compunere (cunoscută și ca Multi_key) determină computerul să interpreteze următoarele apăsări de taste ca o combinație, pentru a produce caractere care nu se găsesc pe tastatură.\n\nTasta de compunere nu funcționează în consola text în mod unicode. Dacă nu este în mod unicode, indiferent de alegerea de aici puteți să folosiți oricând combinația Control+punct ca și tastă de compunere în consola text.
+Choices-ru.UTF-8: нет составной клавиши, правый Alt (AltGr), правый Control, правая клавиша с логотипом, клавиша с меню, левая клавиша с логотипом, Caps Lock
+Description-ru.UTF-8: Составная клавиша:
+Extended_description-ru.UTF-8: Составная клавиша (также называемая Multi_key) -- это клавиша, которая подаёт сигнал программе, что последующие нажатия следует воспринимать как комбинацию для получения символа, которого нет на клавиатуре.\n\nНа текстовых консолях в режиме Юникода составная клавиша не работает. Если режим Юникода не используется, то независимо, что вы сейчас выберете, всегда можно пользоваться также комбинацией Control+точка как составной клавишей.
+Choices-si.UTF-8: සම්පාදන යතුරක් නැත, දකුණු Alt (AltGr), දකුණු Control, දකුණු ලාංඡය යතුර, මෙනු යතුර, වම් ලාංඡන යතුර, කැප්ස් යතුර
+Description-si.UTF-8: සම්පාදන යතුර:
+Extended_description-si.UTF-8: සම්පාදන යතුර (බහු_යතුර ලෙසද හැඳින් වෙන) පරිගණකයට ඊලඟට යොදන යතුරු කිහිපය යතුරු පුවරුවේ නොමැති අක්‍ෂර නිර්මාණය සඳහා වන යතුරු සංයුක්ත ලෙස යොදාගැනීමට සලස්වයි.\n\nපෙළ කොන්සෝලයේදී සම්පාදන යතුර යුනිකේත ප්‍රකාරයේදී ක්‍රියා නොකරයි. යුනිකේත ප්‍රකාරයේ නොසිටී නම්, මෙහිදී කුමක් තෝරාගත්තද ඔබට Control+හිස් තැන යතුරු සංයුක්තය සම්පාදන යතුර ලෙස යොදාගත හැක.
+Choices-sk.UTF-8: Žiaden kombinačný kláves, Pravý Alt (AltGr), Pravý Control, Pravý kláves Logo, Kláves Menu, Ľavý kláves Logo, Caps Lock
+Description-sk.UTF-8: Kombinačný kláves:
+Extended_description-sk.UTF-8: Kombinačný kláves (tiež známy ako kláves Multi) spôsobí, že počítač interpretuje niekoľko ďalších stlačení kláves ako kombináciu, ktorá vytvorí znak nenachádzajúci sa na klávesnici.\n\nNa textovej konzole nefunguje kombinačný kláves v režime Unicode. Ak nie ste v režime Unicode, nezávisle od toho čo tu zvolíte môžete vždy použiť ako kombinačný kláves aj kombináciu Ctrl+bodka.
+Choices-sl.UTF-8: Brez tipke za sestavljanje, Desna izmenjalka (AltGR), Desna krmilka (Control), Desna tipka z znakom, Menijska tipka, Leva tipka z znakom, Caps Lock
+Description-sl.UTF-8: Tipka za sestavljanje:
+Extended_description-sl.UTF-8: Tipka za sestavljanje (imenovana tudi tipka Multi) povzroči, da računalnik tolmači naslednjih nekaj udarcev na tipke kot kombinacijo za znak, ki ga ni na tipkovnici.\n\nV tekstovni konzoli tipka za sestavljanje ne deluje v načinu Unicode. V primeru, da niste v načinu Unicode, lahko  vedno uporabite kombinacijo Krmilka+pika (Control+.), ne glede na to kaj izberete tukaj kot tipko za sestavljanje.
+Choices-sr.UTF-8: Без compose тастера, Десни Alt (AltGr), Десни Control, Десни лого тастер, Мени тастер, Леви лого тастер, Caps Lock
+Description-sr.UTF-8: Compose тастер:
+Extended_description-sr.UTF-8: Compose тастером (познатим и као Multi_key) могуће је рачунару задати секвенцу наредних карактера како би се откуцао карактер који не постоји на тастатури.\n\nУ текстуалној конзоли Compose тастер не ради у уникод моду. У том случају, без обзора шта овде изаберете, увек можете користити Control+тачка комбинацију као Compose тастер.
+Choices-sr@latin.UTF-8: Bez compose tastera, Desni Alt (AltGr), Desni Control, Desni logo taster, Meni taster, Levi logo taster, Caps Lock
+Description-sr@latin.UTF-8: Compose taster:
+Extended_description-sr@latin.UTF-8: Compose tasterom (poznatim i kao Multi_key) moguće je računaru zadati sekvencu narednih karaktera kako bi se otkucao karakter koji ne postoji na tastaturi.\n\nU tekstualnoj konzoli Compose taster ne radi u unikod modu. U tom slučaju, bez obzora šta ovde izaberete, uvek možete koristiti Control+tačka kombinaciju kao Compose taster.
+Choices-sv.UTF-8: Ingen komposittangent, Alt\, höger (AltGr), Control\, höger, Tangent med logotyp\, höger, Menyknapp, Tangent med logotyp\, vänster, Caps Lock
+Description-sv.UTF-8: Komposittangent:
+Extended_description-sv.UTF-8: Komposittangenten (kallas även multitangent) tvingar datorn att tolka de kommande tangenttrycken som en del av en sekvens för att kunna skapa tecken som inte finns på tangentbordet.\n\nI textläge fungerar inte komposittangenten i Unicode. Om du inte befinner dig i Unicode-läge, oberoende vad du väljer här, så kan du använda Kontrolltangenten+punkt(".") som en komposittangent.
+Choices-te.UTF-8: కంపోస్ కీ లేదు, కుడి ఆల్ట్ (AltGr), కుడి కంట్రోల్, కుడి బొమ్మ కీ, మెనూ కీ, ఎడమ బొమ్మ కీ, కేప్స్ లాక్
+Description-te.UTF-8: కంపోస్ కీ:
+Extended_description-te.UTF-8: కంపోస్ కీ (మల్టీకీ అనబడే) వలన తరువాత వచ్చే కీ నొక్కలను కలిపి కీబోర్డు పై లేని అక్షరము ప్రవ�

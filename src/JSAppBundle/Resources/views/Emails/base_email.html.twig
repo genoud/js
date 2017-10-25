@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% block title %}Journal Scientifique - Home{% endblock %}</title>
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+
+    {% block stylesheet_block %}
+        <style>
+            a{
+                text-decoration: none;
+            }
+            /*div.wrapper{*/
+                /*width: 80%;*/
+            /*}*/
+            header.main-header{
+                height: 50px;
+                background-color: #3C8DBC;
+                color: white;
+            }
+            a.navbar-brand{
+                color: white;
+                font-size: 18px;
+                line-height: 20px;
+                float: left;
+                height: 50px;
+                padding: 15px 15px;
+            }
+            div.navbar-header{
+                margin-left: 20px;
+            }
+            footer.main-footer{
+                height: 40px;
+                background-color:#3C8DBC ;
+                color: white;
+                text-align: center;
+                line-height: 40px;
+            }
+            .salutation{
+                float:left;
+                margin-left: 10px;
+            }
+            .btn.btn-success{
+                display: inline-block;
+                font-size: 15px;
+                background-color: #00a65a !important;
+                color: white;
+                padding: 10px;
+                margin-bottom: 20px;
+
+                border-radius: 0;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                border-width: 1px;
+                float: right;
+                cursor: pointer;
+            }
+        </style>
+
+    {% endblock %}
+
+</head>
+<body class="hold-transition skin-blue layout-top-nav">
+<div class="wrapper">
+
+    <header class="main-header">
+        <nav class="navbar navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="{{ url('js-public-home2') }}" class="navbar-brand"><b>Journal</b>Scientifique</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                {% block navbarmenu %}
+                    <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                        <ul class="nav navbar-nav">
+
+                        </ul>
+                    </div>
+                {% endblock %}
+
+                <!-- /.navbar-collapse -->
+                <!-- Navbar Right Menu -->
+                {% block navbarcustommenu %}
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <!-- Messages: style can be found in dropdown.less-->
+                        </ul>
+                    </div>
+                {% endblock %}
+
+                <!-- /.navbar-custom-menu -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    {% block sidebar %}
+        <aside class="main-sidebar">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+
+            </section>
+
+            <!-- /.sidebar -->
+        </aside>
+    {% endblock %}
+
+
+    <!-- Content Wrapper. Contains page content -->
+
+        <div class="content-wrapper">
+            <div id="edition-main-container" class="container">
+                {% block maincontent %}
+
+                {% endblock %}
+            </div>
+
+        </div>
+
+    <!-- /.content-wrapper -->
+
+    {% block footer %}
+        <footer class="main-footer">
+            All rights reserved.
+            <!-- /.container -->
+        </footer>
+    {% endblock %}
+
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+        {% block rightsidebar %}
+        {% endblock %}
+    </aside>
+    <!-- /.control-sidebar -->
+    <!-- Add the sidebar's background. This div must be placed
+         immediately after the control sidebar -->
+    <div class="control-sidebar-bg"></div>
+
+</div>
+
+</body>
+</html>

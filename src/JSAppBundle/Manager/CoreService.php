@@ -2,6 +2,7 @@
 namespace JSAppBundle\Manager;
 
 use Symfony\Component\DependencyInjection\ContainerInterface as Container;
+use Symfony\Component\Security\Core\Encoder\EncoderFactory;
 
 /**
  * Created by PhpStorm.
@@ -32,9 +33,9 @@ class CoreService
     private $categorieManager;
 
     /**
-     * @var CommentaireManager
+     * @var ReviewManager
      */
-    private $commentaireManager;
+    private $reviewManager;
 
     /**
      * @var FichierManager
@@ -71,6 +72,35 @@ class CoreService
      */
     private $utilisateurManager;
 
+    /**
+     * @var CoAuteurManager
+     */
+    private $coAuteurManager;
+/**
+     * @var CoAuteurManager
+     */
+    private $fundingManager;
+
+    /**
+     * @var ArticleReviewerManager
+     */
+    private $articleReviewerManager;
+
+    /**
+     * @var ReviewRequestManager
+     */
+    private $reviewRequestManager;
+
+    /**
+     * @var NumeroJournalManager
+     */
+    private $numeroJournalManager;
+
+    /**
+     * @var
+     */
+    private $encoderFactory;
+
 
     public function __construct(Container $container)
     {
@@ -100,6 +130,36 @@ class CoreService
     }
 
     /**
+     * @return CoAuteurManager
+     */
+    public function getCoAuteurManager(){
+        if(!isset($this->coAuteurManager)){
+            $this->coAuteurManager=new CoAuteurManager($this->container, $this);
+        }
+        return $this->coAuteurManager;
+    }
+
+    /**
+     * @return FundingManager
+     */
+    public function getFundingManager(){
+        if(!isset($this->fundingManager)){
+            $this->fundingManager=new FundingManager($this->container, $this);
+        }
+        return $this->fundingManager;
+    }
+
+    /**
+     * @return ArticleReviewerManager
+     */
+    public function getArticleReviewerManager(){
+        if(!isset($this->articleReviewerManager)){
+            $this->articleReviewerManager=new ArticleReviewerManager($this->container, $this);
+        }
+        return $this->articleReviewerManager;
+    }
+
+    /**
      * @return CategorieManager
      */
     public function getCategorieManager(){
@@ -110,13 +170,13 @@ class CoreService
     }
 
     /**
-     * @return CommentaireManager
+     * @return ReviewManager
      */
-    public function getCommentaireManager(){
-        if(!isset($this->commentaireManager)){
-            $this->commentaireManager=new CommentaireManager($this->container, $this);
+    public function getReviewManager(){
+        if(!isset($this->reviewManager)){
+            $this->reviewManager=new ReviewManager($this->container, $this);
         }
-        return $this->commentaireManager;
+        return $this->reviewManager;
     }
 
     /**
@@ -187,6 +247,36 @@ class CoreService
             $this->utilisateurManager=new UtilisateurManager($this->container, $this);
         }
         return $this->utilisateurManager;
+    }
+
+    /**
+     * @return ReviewRequestManager
+     */
+    public function getReviewRequestManager(){
+        if(!isset($this->reviewRequestManager)){
+            $this->reviewRequestManager=new ReviewRequestManager($this->container, $this);
+        }
+        return $this->reviewRequestManager;
+    }
+
+    /**
+     * @return NumeroJournalManager
+     */
+    public function getNumeroJournalManager(){
+        if(!isset($this->numeroJournalManager)){
+            $this->numeroJournalManager=new NumeroJournalManager($this->container, $this);
+        }
+        return $this->numeroJournalManager;
+    }
+
+    /**
+     * @return EncoderFactory
+     */
+    public function getEncoderFactory() {
+        if($this->encoderFactory==null){
+            $this->encoderFactory=$this->container->get("security.encoder_factory");
+        }
+        return $this->encoderFactory;
     }
 
 

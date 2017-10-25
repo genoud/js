@@ -1,0 +1,1461 @@
+ttonList" id="233" orientation="horizontal" valign="middle">
+                                        <action class="com.nm.sdk.data.pages.views.actions.ExpressionAction" eventType="onchange" expression="$fatcaProfileLegal.checkFlowThroughAfterDisregarded()" phase="process"/>
+                                        <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="QIArea"/>
+                                        <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                    </component>
+                                </component>
+                            </component>
+                            <parameterAssignments>
+                                <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                <parameterAssignment expression="$fatcaProfileLegal.isDisregardedOrTaxExempt != null" variable="isValid"/>
+                                <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.disregardedEntityOrTaxExempt]'" variable="messageWhenNotValid"/>
+                                <parameterAssignment expression="'isDisregardedOrTaxExempt'" variable="itemId"/>
+                            </parameterAssignments>
+                        </component>
+                        <component class="com.nm.sdk.data.pages.views.components.Include" id="234" screenId="UI_Warning">
+                            <parameterAssignments>
+                                <parameterAssignment expression="$warningManager" variable="warningManager"/>
+                                <parameterAssignment expression="'isDisregardedOrTaxExempt'" variable="itemID"/>
+                            </parameterAssignments>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="224">
+                        <component class="com.nm.sdk.data.pages.views.components.Template" id="225" screenId="CMN_TemplateValidationBox">
+                            <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="226" name="CONTENT">
+                                <component class="com.nm.sdk.data.pages.views.components.Infobox" id="227" label="[LABEL:COB_text.question.taxations.flowThorugh]" orientation="vertical">
+                                    <component binding="$fatcaProfileLegal.isFlowThorugh" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="228" orientation="horizontal" valign="middle">
+                                        <action class="com.nm.sdk.data.pages.views.actions.ExpressionAction" eventType="onchange"
+                                            expression="/*If AND(NOT($fatcaProfileLegal.isFlowThorugh), OR($businessRelationship.useCase == 'trust', $businessRelationship.useCase == 'foundation')) Then&#xa;   $fatcaProfileLegal.trustFoundationType := 'complex';&#xa;Else&#xa;   $fatcaProfileLegal.trustFoundationType := '';&#xa;End*/&#xa;/*$fatcaProfileLegal.isAnyUSPersonInBO := null;&#xa;$fatcaProfileLegal.isAllBOIndividual := null;&#xa;$fatcaProfileLegal.trustFoundationType := null;*/&#xa;$fatcaProfileLegal.resetFlowThroughConnectedFields();" phase="process"/>
+                                        <action class="com.nm.sdk.data.pages.views.actions.ExpressionAction" eventType="onchange" expression="$fatcaProfileLegal.checkDisregardedAfterFlowThrough()" phase="process"/>
+                                        <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="QIArea"/>
+                                        <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                    </component>
+                                </component>
+                            </component>
+                            <parameterAssignments>
+                                <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                <parameterAssignment expression="$fatcaProfileLegal.isFlowThorugh!= null" variable="isValid"/>
+                                <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isFlowThorugh]'" variable="messageWhenNotValid"/>
+                                <parameterAssignment expression="'isFlowThorugh'" variable="itemId"/>
+                            </parameterAssignments>
+                        </component>
+                        <component class="com.nm.sdk.data.pages.views.components.Include" id="347" screenId="UI_Warning">
+                            <parameterAssignments>
+                                <parameterAssignment expression="$warningManager" variable="warningManager"/>
+                                <parameterAssignment expression="'isPartyAlive'" variable="itemID"/>
+                            </parameterAssignments>
+                        </component>
+                        <component class="com.nm.sdk.data.pages.views.components.Include" id="372" screenId="UI_Warning">
+                            <parameterAssignments>
+                                <parameterAssignment expression="$warningManager" variable="warningManager"/>
+                                <parameterAssignment expression="'isFlowThorugh'" variable="itemID"/>
+                            </parameterAssignments>
+                        </component>
+                    </customContainer>
+                    <component class="com.nm.sdk.data.pages.views.components.If" condition="$fatcaProfileLegal.isFlowThorugh!= null and $fatcaProfileLegal.isFlowThorugh" id="367">
+                        <component class="com.nm.sdk.data.pages.views.components.If" collapsed="true" condition="EQUAL($businessRelationship.useCase, 'trust') or EQUAL($businessRelationship.useCase, 'foundation')" editorDescription="Trust or Foundation" id="342">
+                            <component class="com.nm.sdk.data.pages.views.components.Group" disabled="not $businessRelationship.isPartyAlive()" id="343" name="">
+                                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="276">
+                                    <component class="com.nm.sdk.data.pages.views.components.Script" code="If not $businessRelationship.isPartyAlive() Then&#xa;   $fatcaProfileLegal.trustFoundationType := 'simple';&#xa;End" id="344" phase="render"/>
+                                    <component class="com.nm.sdk.data.pages.views.components.Template" id="279" screenId="CMN_TemplateValidationBox">
+                                        <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="280" name="CONTENT">
+                                            <component class="com.nm.sdk.data.pages.views.components.Infobox" id="281" label="[LABEL:COB_text.question.taxations.trustFoundation.type]" orientation="vertical">
+                                                <component binding="$fatcaProfileLegal.trustFoundationType" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="282" orientation="horizontal" valign="middle">
+                                                    <action class="com.nm.sdk.data.pages.views.actions.ExpressionAction" eventType="onchange" expression="$fatcaProfileLegal.isAllBOIndividual := null;&#xa;$fatcaProfileLegal.isAnyUSPersonInBO := null;" phase="process"/>
+                                                    <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="QIArea"/>
+                                                    <dataSource class="com.nm.sdk.data.pages.views.options.ExpressionDataSource"
+                                                        collection="Record $rec;&#xa;Return FILTER(RECORDS('COB_TrustFoundationType'), EQUAL(TOSTRING($rec.getValue('flagVisible')), 'y'), $rec);&#xa;/*&#xa;If $fatcaProfileLegal.isFlowThorugh Then&#xa;   Record $rec;&#xa;   Return FILTER(RECORDS('COB_TrustFoundationType'), EQUAL(TOSTRING($rec.getValue('flagVisible')), 'y'), $rec);&#xa;Else&#xa;   Return RECORDS('COB_TrustFoundationType');&#xa;End*/"
+                                                        collectionType="none" id="TOSTRING($trustFoundationType.getValue('id'))" label="TOSTRING($trustFoundationType.getValue('description'))" type="Record" variable="$trustFoundationType"/>
+                                                </component>
+                                            </component>
+                                        </component>
+                                        <parameterAssignments>
+                                            <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                            <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                            <parameterAssignment expression="not EMPTY($fatcaProfileLegal.trustFoundationType)" variable="isValid"/>
+                                            <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.trustFoundationType]'" variable="messageWhenNotValid"/>
+                                            <parameterAssignment expression="'trustFoundationType'" variable="itemId"/>
+                                        </parameterAssignments>
+                                    </component>
+                                </customContainer>
+                            </component>
+                            <component class="com.nm.sdk.data.pages.views.components.If" condition="$fatcaProfileLegal.trustFoundationType == 'grantor'" editorDescription="Grantor type" id="345">
+                                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="346">
+                                    <component class="com.nm.sdk.data.pages.views.components.Template" id="348" screenId="CMN_TemplateValidationBox">
+                                        <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="349" name="CONTENT">
+                                            <component class="com.nm.sdk.data.pages.views.components.Infobox" id="350" label="[LABEL:COB_fatca.question.taxations.settlors.income.individual]" orientation="vertical">
+                                                <component binding="$fatcaProfileLegal.isAllBOIndividual" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="351" orientation="horizontal" valign="middle">
+                                                    <action class="com.nm.sdk.data.pages.views.actions.ExpressionAction" eventType="onchange"
+                                                        expression="$fatcaProfileLegal.isAnyUSPersonInBO := null;&#xa;If $fatcaProfileLegal.isAllBOIndividual Then&#xa;   If $businessRelationship.hasAliveUSSettlors() Then&#xa;      $fatcaProfileLegal.isAnyUSPersonInBO := true;&#xa;   End&#xa;End" phase="validate"/>
+                                                    <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="QIArea"/>
+                                                    <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                                </component>
+                                            </component>
+                                        </component>
+                                        <parameterAssignments>
+                                            <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                            <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                            <parameterAssignment expression="$fatcaProfileLegal.isAllBOIndividual!= null" variable="isValid"/>
+                                            <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isAllBOIndividual]'" variable="messageWhenNotValid"/>
+                                            <parameterAssignment expression="'isAllBOIndividual'" variable="itemId"/>
+                                        </parameterAssignments>
+                                    </component>
+                                    <component class="com.nm.sdk.data.pages.views.components.Include" id="371" screenId="UI_Warning">
+                                        <parameterAssignments>
+                                            <parameterAssignment expression="$warningManager" variable="warningManager"/>
+                                            <parameterAssignment expression="'isAllBOIndividual'" variable="itemID"/>
+                                        </parameterAssignments>
+                                    </component>
+                                </customContainer>
+                                <component class="com.nm.sdk.data.pages.views.components.If" condition="$fatcaProfileLegal.isAllBOIndividual" id="352">
+                                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="353">
+                                        <component class="com.nm.sdk.data.pages.views.components.Group" disabled="$businessRelationship.hasAliveUSSettlors()" id="476" name="SettlorsUsPerson">
+                                            <component class="com.nm.sdk.data.pages.views.components.Template" id="354" screenId="CMN_TemplateValidationBox">
+                                                <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="355" name="CONTENT">
+                                                    <component class="com.nm.sdk.data.pages.views.components.Infobox" id="356" label="[LABEL:COB_fatca.question.taxations.settlor.us.person]" orientation="vertical">
+                                                        <component binding="$fatcaProfileLegal.isAnyUSPersonInBO" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="357" orientation="horizontal" valign="middle">
+                                                            <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="QIArea"/>
+                                                            <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                                        </component>
+                                                    </component>
+                                                </component>
+                                                <parameterAssignments>
+                                                    <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                                    <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                                    <parameterAssignment expression="$fatcaProfileLegal.isAnyUSPersonInBO!= null" variable="isValid"/>
+                                                    <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isAnyUSPersonInBO]'" variable="messageWhenNotValid"/>
+                                                    <parameterAssignment expression="'isAnyUSPersonInBO'" variable="itemId"/>
+                                                </parameterAssignments>
+                                            </component>
+                                        </component>
+                                        <component class="com.nm.sdk.data.pages.views.components.Include" id="369" screenId="UI_Warning">
+                                            <parameterAssignments>
+                                                <parameterAssignment expression="$warningManager" variable="warningManager"/>
+                                                <parameterAssignment expression="'isAnyUSPersonInBO'" variable="itemID"/>
+                                            </parameterAssignments>
+                                        </component>
+                                    </customContainer>
+                                </component>
+                            </component>
+                            <component class="com.nm.sdk.data.pages.views.components.ElseIf" condition="$fatcaProfileLegal.trustFoundationType == 'simple'" editorDescription="Simple" id="358">
+                                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="359">
+                                    <component class="com.nm.sdk.data.pages.views.components.Template" id="307" screenId="CMN_TemplateValidationBox">
+                                        <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="308" name="CONTENT">
+                                            <component class="com.nm.sdk.data.pages.views.components.Infobox" id="309" label="[LABEL:COB_fatca.question.taxations.beneficiaries.income.individual]" orientation="vertical">
+                                                <component binding="$fatcaProfileLegal.isAllBOIndividual" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="310" orientation="horizontal" valign="middle">
+                                                    <action class="com.nm.sdk.data.pages.views.actions.ExpressionAction" eventType="onchange"
+                                                        expression="If $fatcaProfileLegal.isAllBOIndividual Then&#xa;   $fatcaProfileLegal.isAnyUSPersonInBO := null;&#xa;   $fatcaProfileLegal.isAllBOIndividual := null;&#xa;End" phase="update"/>
+                                                    <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="QIArea"/>
+                                                    <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                                </component>
+                                            </component>
+                                        </component>
+                                        <parameterAssignments>
+                                            <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                            <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                            <parameterAssignment expression="$fatcaProfileLegal.isAllBOIndividual!= null" variable="isValid"/>
+                                            <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isAllBOIndividual]'" variable="messageWhenNotValid"/>
+                                            <parameterAssignment expression="'isAllBOIndividual'" variable="itemId"/>
+                                        </parameterAssignments>
+                                    </component>
+                                    <component class="com.nm.sdk.data.pages.views.components.Include" id="368" screenId="UI_Warning">
+                                        <parameterAssignments>
+                                            <parameterAssignment expression="$warningManager" variable="warningManager"/>
+                                            <parameterAssignment expression="'isAllBOIndividual'" variable="itemID"/>
+                                        </parameterAssignments>
+                                    </component>
+                                </customContainer>
+                                <component class="com.nm.sdk.data.pages.views.components.If" condition="$fatcaProfileLegal.isAllBOIndividual" id="360">
+                                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="361">
+                                        <component class="com.nm.sdk.data.pages.views.components.Template" id="362" screenId="CMN_TemplateValidationBox">
+                                            <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="363" name="CONTENT">
+                                                <component class="com.nm.sdk.data.pages.views.components.Infobox" id="364" label="[LABEL:COB_fatca.question.taxations.beneficiaries.us.person]" orientation="vertical">
+                                                    <component binding="$fatcaProfileLegal.isAnyUSPersonInBO" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="365" orientation="horizontal" valign="middle">
+                                                        <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="QIArea"/>
+                                                        <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                                    </component>
+                                                </component>
+                                            </component>
+                                            <parameterAssignments>
+                                                <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                                <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                                <parameterAssignment expression="$fatcaProfileLegal.isAnyUSPersonInBO!= null" variable="isValid"/>
+                                                <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isAnyUSPersonInBO]'" variable="messageWhenNotValid"/>
+                                                <parameterAssignment expression="'isAnyUSPersonInBO'" variable="itemId"/>
+                                            </parameterAssignments>
+                                        </component>
+                                        <component class="com.nm.sdk.data.pages.views.components.Include" id="320" screenId="UI_Warning">
+                                            <parameterAssignments>
+                                                <parameterAssignment expression="$warningManager" variable="warningManager"/>
+                                                <parameterAssignment expression="'isAnyUSPersonInBO'" variable="itemID"/>
+                                            </parameterAssignments>
+                                        </component>
+                                    </customContainer>
+                                </component>
+                            </component>
+                        </component>
+                        <component class="com.nm.sdk.data.pages.views.components.ElseIf" condition="not $businessRelationship.isUnderlyingCompany()" editorDescription="Not Underlying Company" id="370">
+                            <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="173">
+                                <component class="com.nm.sdk.data.pages.views.components.Template" id="188" screenId="CMN_TemplateValidationBox">
+                                    <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="189" name="CONTENT">
+                                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="174" label="[LABEL:COB_fatca.question.taxations.bo.income.individual]" orientation="vertical">
+                                            <component binding="$fatcaProfileLegal.isAllBOIndividual" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="175" orientation="horizontal" valign="middle">
+                                                <action class="com.nm.sdk.data.pages.views.actions.ExpressionAction" eventType="onchange"
+                                                    expression="If $fatcaProfileLegal.isAllBOIndividual Then&#xa;   $fatcaProfileLegal.isAnyUSPersonInBO := null;&#xa;   $fatcaProfileLegal.isAllBOIndividual := null;&#xa;End" phase="update"/>
+                                                <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="QIArea"/>
+                                                <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                            </component>
+                                        </component>
+                                    </component>
+                                    <parameterAssignments>
+                                        <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                        <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                        <parameterAssignment expression="$fatcaProfileLegal.isAllBOIndividual!= null" variable="isValid"/>
+                                        <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isAllBOIndividual]'" variable="messageWhenNotValid"/>
+                                        <parameterAssignment expression="'isAllBOIndividual'" variable="itemId"/>
+                                    </parameterAssignments>
+                                </component>
+                                <component class="com.nm.sdk.data.pages.views.components.Include" id="218" screenId="UI_Warning">
+                                    <parameterAssignments>
+                                        <parameterAssignment expression="$warningManager" variable="warningManager"/>
+                                        <parameterAssignment expression="'isAllBOIndividual'" variable="itemID"/>
+                                    </parameterAssignments>
+                                </component>
+                                <component class="com.nm.sdk.data.pages.views.components.If" condition="$fatcaProfileLegal.isAllBOIndividual" id="181">
+                                    <component class="com.nm.sdk.data.pages.views.components.Template" id="190" screenId="CMN_TemplateValidationBox">
+                                        <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="191" name="CONTENT">
+                                            <component class="com.nm.sdk.data.pages.views.components.Infobox" id="177" label="[LABEL:COB_fatca.question.taxations.bo.us.person]" orientation="vertical">
+                                                <component binding="$fatcaProfileLegal.isAnyUSPersonInBO" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="178" orientation="horizontal" valign="middle">
+                                                    <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="QIArea"/>
+                                                    <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                                </component>
+                                            </component>
+                                        </component>
+                                        <parameterAssignments>
+                                            <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                            <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                            <parameterAssignment expression="$fatcaProfileLegal.isAnyUSPersonInBO!= null" variable="isValid"/>
+                                            <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isAnyUSPersonInBO]'" variable="messageWhenNotValid"/>
+                                            <parameterAssignment expression="'isAnyUSPersonInBO'" variable="itemId"/>
+                                        </parameterAssignments>
+                                    </component>
+                                </component>
+                                <component class="com.nm.sdk.data.pages.views.components.Include" id="219" screenId="UI_Warning">
+                                    <parameterAssignments>
+                                        <parameterAssignment expression="$warningManager" variable="warningManager"/>
+                                        <parameterAssignment expression="'isAnyUSPersonInBO'" variable="itemID"/>
+                                    </parameterAssignments>
+                                </component>
+                            </customContainer>
+                        </component>
+                    </component>
+                    <property name="groupHasLayout" value="true"/>
+                    <property name="groupTitle" value="QI "/>
+                    <property name="inheritAllParentProperties" value="true"/>
+                    <property name="labelWidthPercentage"/>
+                    <property name="labelWidthPixels"/>
+                    <property name="labelWidthType"/>
+                    <property name="maxElementPixelWidth"/>
+                    <property name="maxElementsPerRow"/>
+                    <property name="targetElementPixelWidth"/>
+                    <property name="topLabelCutoff"/>
+                    <property name="validationExpression"/>
+                    <property name="validationMessage"/>
+                </customContainer>
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutGroup" htmlId="otherClassificationArea" id="235">
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="123">
+                        <component class="com.nm.sdk.data.pages.views.components.Template" id="192" screenId="CMN_TemplateValidationBox">
+                            <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="193" name="CONTENT">
+                                <component class="com.nm.sdk.data.pages.views.components.Infobox" id="160" label="[LABEL:COB_text.question.taxations.entity]" orientation="vertical">
+                                    <component binding="$fatcaProfileLegal.isEntityOwnedByBO" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="45" orientation="horizontal" valign="middle">
+                                        <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="otherClassificationArea"/>
+                                        <dataSource catalogueId="CMN_YesNoUnknown" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                    </component>
+                                </component>
+                            </component>
+                            <parameterAssignments>
+                                <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                <parameterAssignment expression="$fatcaProfileLegal.isEntityOwnedByBO!= null" variable="isValid"/>
+                                <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isEntityOwnedByBO]'" variable="messageWhenNotValid"/>
+                                <parameterAssignment expression="'isEntityOwnedByBO'" variable="itemId"/>
+                            </parameterAssignments>
+                        </component>
+                        <component class="com.nm.sdk.data.pages.views.components.Include" id="220" screenId="UI_Warning">
+                            <parameterAssignments>
+                                <parameterAssignment expression="$warningManager" variable="warningManager"/>
+                                <parameterAssignment expression="'isEntityOwnedByBO'" variable="itemID"/>
+                            </parameterAssignments>
+                        </component>
+                    </customContainer>
+                    <property name="groupHasLayout" value="true"/>
+                    <property name="groupTitle" value="FATCA"/>
+                    <property name="inheritAllParentProperties" value="true"/>
+                    <property name="labelWidthPercentage"/>
+                    <property name="labelWidthPixels"/>
+                    <property name="labelWidthType"/>
+                    <property name="maxElementPixelWidth"/>
+                    <property name="maxElementsPerRow"/>
+                    <property name="targetElementPixelWidth"/>
+                    <property name="topLabelCutoff"/>
+                    <property name="validationExpression"/>
+                    <property name="validationMessage"/>
+                </customContainer>
+            </component>
+            <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutGroup" htmlId="USTaxPrinciplesArea" id="221">
+                <component class="com.nm.sdk.data.pages.views.components.Include" id="487" screenId="UI_Warning">
+                    <parameterAssignments>
+                        <parameterAssignment expression="$warningManager" variable="warningManager"/>
+                        <parameterAssignment expression="'hasUSTaxPrinciples'" variable="itemID"/>
+                    </parameterAssignments>
+                </component>
+                <component class="com.nm.sdk.data.pages.views.components.If" condition="AND($businessRelationship.useCase != 'trust', $businessRelationship.useCase != 'foundation')" id="53">
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="326">
+                        <component class="com.nm.sdk.data.pages.views.components.Template" id="327" screenId="CMN_TemplateValidationBox">
+                            <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="328" name="CONTENT">
+                                <component class="com.nm.sdk.data.pages.views.components.Infobox" id="324" label="[LABEL:COB_fatca.question.is.entity.incorporated.under.us.countries]" orientation="vertical">
+                                    <component binding="$fatcaProfileLegal.isIncorporatedUnderUSCountry" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="325" orientation="horizontal" valign="middle">
+                                        <action class="com.nm.sdk.data.pages.views.actions.ExpressionAction" eventType="onchange" expression="$party.regulatoryProfile.fatcaProfile.computeUSStatusBasedOnIndicia()" phase="process"/>
+                                        <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="=CONCAT('USTaxPrinciplesArea', ',', $auaUSIndiciaArea)"/>
+                                        <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                    </component>
+                                </component>
+                            </component>
+                            <parameterAssignments>
+                                <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                <parameterAssignment expression="$fatcaProfileLegal.isIncorporatedUnderUSCountry!= null" variable="isValid"/>
+                                <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isIncorporatedUnderUSCountry]'" variable="messageWhenNotValid"/>
+                                <parameterAssignment expression="'isIncorporatedUnderUSCountry'" variable="itemId"/>
+                            </parameterAssignments>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="128">
+                        <component class="com.nm.sdk.data.pages.views.components.Template" id="196" screenId="CMN_TemplateValidationBox">
+                            <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="197" name="CONTENT">
+                                <component class="com.nm.sdk.data.pages.views.components.Infobox" id="162" label="[LABEL:COB_text.question.taxations.principal.place]" orientation="vertical">
+                                    <component binding="$fatcaProfileLegal.isUSPrincipalPlace" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="52" orientation="horizontal" valign="middle">
+                                        <action class="com.nm.sdk.data.pages.views.actions.ExpressionAction" eventType="onchange" expression="$party.regulatoryProfile.fatcaProfile.computeUSStatusBasedOnIndicia()" phase="process"/>
+                                        <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="=CONCAT('USTaxPrinciplesArea', ',', $auaUSIndiciaArea)"/>
+                                        <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                    </component>
+                                </component>
+                            </component>
+                            <parameterAssignments>
+                                <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                <parameterAssignment expression="$fatcaProfileLegal.isUSPrincipalPlace!= null" variable="isValid"/>
+                                <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isUSPrincipalPlace]'" variable="messageWhenNotValid"/>
+                                <parameterAssignment expression="'isUSPrincipalPlace'" variable="itemId"/>
+                            </parameterAssignments>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="129">
+                        <component class="com.nm.sdk.data.pages.views.components.If" condition="$fatcaProfileLegal.isUSPrincipalPlace" id="64">
+                            <component class="com.nm.sdk.data.pages.views.components.Template" id="198" screenId="CMN_TemplateValidationBox">
+                                <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="199" name="CONTENT">
+                                    <component class="com.nm.sdk.data.pages.views.components.Infobox" id="163" label="[LABEL:COB_fatca.countries]" orientation="vertical">
+                                        <component binding="$fatcaProfileLegal.principalPlaceCountry" class="com.nm.sdk.data.pages.views.components.DropdownList" id="155" select2AllowClear="false" select2DynamicUrl="" select2IsEnabled="true" select2IsMultiple="true" select2QueryParameterName="q"
+                                            select2Width="resolve" select2WidthOther="50%" select2minimumInputLength="0" selectText="[LABEL:dropdown.select]" showSelect="true" textIfDisabledDisplay="__SELECT_TEXT__">
+                                            <dataSource catalogueId="CMN_EntityPrincipalPlaceCountries" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                        </component>
+                                    </component>
+                                </component>
+                                <parameterAssignments>
+                                    <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                    <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                    <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.principalPlaceCountry]'" variable="messageWhenNotValid"/>
+                                    <parameterAssignment expression="'principalPlaceCountry'" variable="itemId"/>
+                                    <parameterAssignment expression="LIB_Validator.validateNotEmptyIndexed($fatcaProfileLegal.principalPlaceCountry)" variable="isValid"/>
+                                </parameterAssignments>
+                            </component>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="130">
+                        <component class="com.nm.sdk.data.pages.views.components.Template" id="200" screenId="CMN_TemplateValidationBox">
+                            <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="201" name="CONTENT">
+                                <component class="com.nm.sdk.data.pages.views.components.Infobox" id="164" label="[LABEL:COB_text.question.taxations.notUSAgency]" orientation="vertical">
+                                    <component binding="$fatcaProfileLegal.isNotUSAgency" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="76" orientation="horizontal" valign="middle">
+                                        <action class="com.nm.sdk.data.pages.views.actions.ExpressionAction" eventType="onchange" expression="$party.regulatoryProfile.fatcaProfile.computeUSStatusBasedOnIndicia();" phase="process"/>
+                                        <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="=CONCAT('USTaxPrinciplesArea', ',', $auaUSIndiciaArea)"/>
+                                        <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                    </component>
+                                </component>
+                            </component>
+                            <parameterAssignments>
+                                <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                <parameterAssignment expression="$fatcaProfileLegal.isNotUSAgency!= null" variable="isValid"/>
+                                <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isNotUSAgency]'" variable="messageWhenNotValid"/>
+                                <parameterAssignment expression="'isNotUSAgency'" variable="itemId"/>
+                            </parameterAssignments>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="131">
+                        <component class="com.nm.sdk.data.pages.views.components.If" condition="$fatcaProfileLegal.isNotUSAgency" editorDescription="notUSAgencyCountry" id="67">
+                            <component class="com.nm.sdk.data.pages.views.components.Template" id="202" screenId="CMN_TemplateValidationBox">
+                                <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="203" name="CONTENT">
+                                    <component class="com.nm.sdk.data.pages.views.components.Infobox" id="165" label="[LABEL:COB_fatca.countries]" orientation="vertical">
+                                        <component binding="$fatcaProfileLegal.notUSAgencyCountry" class="com.nm.sdk.data.pages.views.components.DropdownList" id="152" select2AllowClear="false" select2DynamicUrl="" select2IsEnabled="true" select2IsMultiple="true" select2QueryParameterName="q"
+                                            select2Width="resolve" select2WidthOther="50%" select2minimumInputLength="0" selectText="[LABEL:dropdown.select]" showSelect="true" textIfDisabledDisplay="__SELECT_TEXT__">
+                                            <dataSource catalogueId="CMN_EntityPrincipalPlaceCountries" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                        </component>
+                                    </component>
+                                </component>
+                                <parameterAssignments>
+                                    <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                    <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                    <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.notUSAgencyCountry]'" variable="messageWhenNotValid"/>
+                                    <parameterAssignment expression="'notUSAgencyCountry'" variable="itemId"/>
+                                    <parameterAssignment expression="LIB_Validator.validateNotEmptyIndexed($fatcaProfileLegal.notUSAgencyCountry)" variable="isValid"/>
+                                </parameterAssignments>
+                            </component>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="77">
+                        <component class="com.nm.sdk.data.pages.views.components.Template" id="204" screenId="CMN_TemplateValidationBox">
+                            <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="205" name="CONTENT">
+                                <component class="com.nm.sdk.data.pages.views.components.Infobox" id="166" label="[LABEL:COB_text.question.taxations.corporate.USperson]" orientation="vertical">
+                                    <component binding="$fatcaProfileLegal.hasUSPersCapacities" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="132" orientation="horizontal" valign="middle">
+                                        <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="=CONCAT('USTaxPrinciplesArea', ',', $auaUSIndiciaArea)"/>
+                                        <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                    </component>
+                                </component>
+                            </component>
+                            <parameterAssignments>
+                                <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                <parameterAssignment expression="$fatcaProfileLegal.hasUSPersCapacities!= null" variable="isValid"/>
+                                <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.hasUSPersCapacities]'" variable="messageWhenNotValid"/>
+                                <parameterAssignment expression="'hasUSPersCapacities'" variable="itemId"/>
+                            </parameterAssignments>
+                        </component>
+                    </customContainer>
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="336">
+                        <component class="com.nm.sdk.data.pages.views.components.If" condition="$fatcaProfileLegal.hasUSPersCapacities" id="337">
+                            <component class="com.nm.sdk.data.pages.views.components.Template" id="338" screenId="CMN_TemplateValidationBox">
+                                <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="339" name="CONTENT">
+                                    <component class="com.nm.sdk.data.pages.views.components.Infobox" id="340" label="[LABEL:COB_text.question.taxations.comment.details.us.person]" orientation="vertical">
+                                        <component binding="$fatcaProfileLegal.commentsDetailUsePerson" class="com.nm.sdk.data.pages.views.components.TextArea" id="341" rows="8"/>
+                                    </component>
+                                </component>
+                                <parameterAssignments>
+                                    <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                    <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                    <parameterAssignment expression="'[LABEL:COB_text.validation.taxations.comment.details.us.person]'" variable="messageWhenNotValid"/>
+                                    <parameterAssignment expression="'commentsDetailUsePerson'" variable="itemId"/>
+                                    <parameterAssignment expression="not EMPTY($fatcaProfileLegal.commentsDetailUsePerson)" variable="isValid"/>
+                                    <parameterAssignment expression="$fatcaProfileLegal.commentsDetailUsePerson" variable="gsFieldValue"/>
+                                    <parameterAssignment expression="'5066'" variable="gsFieldId"/>
+                                </parameterAssignments>
+                            </component>
+                        </component>
+                    </customContainer>
+                </component>
+                <component class="com.nm.sdk.data.pages.views.components.If" condition="OR($businessRelationship.useCase == 'trust', $businessRelationship.useCase == 'foundation')" id="83">
+                    <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="114">
+                        <component class="com.nm.sdk.data.pages.views.components.Template" id="214" screenId="CMN_TemplateValidationBox">
+                            <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="215" name="CONTENT">
+                                <component class="com.nm.sdk.data.pages.views.components.Infobox" id="171" label="[LABEL:COB_text.question.taxations.entityActivity]" orientation="vertical">
+                                    <component binding="$fatcaProfileLegal.isEntityActivity" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="118" orientation="horizontal" valign="middle">
+                                        <action class="com.nm.sdk.data.pages.views.actions.ExpressionAction" eventType="onchange" expression="$party.regulatoryProfile.fatcaProfile.computeUSStatusBasedOnIndicia();" phase="process"/>
+                                        <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="=CONCAT('USTaxPrinciplesArea', ',', $auaUSIndiciaArea)"/>
+                                        <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                    </component>
+                                </component>
+                            </component>
+                            <parameterAssignments>
+                                <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                <parameterAssignment expression="$fatcaProfileLegal.isEntityActivity!= null" variable="isValid"/>
+                                <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isEntityActivity]'" variable="messageWhenNotValid"/>
+                                <parameterAssignment expression="'isEntityActivity'" variable="itemId"/>
+                            </parameterAssignments>
+                        </component>
+                    </customContainer>
+                    <component class="com.nm.sdk.data.pages.views.components.If" condition="$businessRelationship.partyIsCustomer($party)" id="417">
+                        <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="469">
+                            <component class="com.nm.sdk.data.pages.views.components.Template" id="470" screenId="CMN_TemplateValidationBox">
+                                <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="471" name="CONTENT">
+                                    <component class="com.nm.sdk.data.pages.views.components.Infobox" id="472" label="[LABEL:COB_fatca.question.trust.is.entity.incorporated.under.us.countries]" orientation="vertical">
+                                        <component binding="$fatcaProfileLegal.isIncorporatedUnderUSCountry" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="473" orientation="horizontal" valign="middle">
+                                            <action class="com.nm.sdk.data.pages.views.actions.ExpressionAction" eventType="onchange" expression="$party.regulatoryProfile.fatcaProfile.computeUSStatusBasedOnIndicia();" phase="process"/>
+                                            <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="=CONCAT('USTaxPrinciplesArea',',',$auaUSIndiciaArea)"/>
+                                            <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                        </component>
+                                    </component>
+                                </component>
+                                <parameterAssignments>
+                                    <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                    <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                    <parameterAssignment expression="$fatcaProfileLegal.isIncorporatedUnderUSCountry!= null" variable="isValid"/>
+                                    <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isIncorporatedUnderUSCountry]'" variable="messageWhenNotValid"/>
+                                    <parameterAssignment expression="'isIncorporatedUnderUSCountry'" variable="itemId"/>
+                                </parameterAssignments>
+                            </component>
+                        </customContainer>
+                        <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="464">
+                            <component class="com.nm.sdk.data.pages.views.components.Template" id="465" screenId="CMN_TemplateValidationBox">
+                                <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="466" name="CONTENT">
+                                    <component class="com.nm.sdk.data.pages.views.components.Infobox" id="467" label="[LABEL:COB_text.question.taxations.formationDocuments]" orientation="vertical">
+                                        <component binding="$fatcaProfileLegal.isformationDocuments" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="468" orientation="horizontal" valign="middle">
+                                            <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="=CONCAT('USTaxPrinciplesArea', ',', $auaUSIndiciaArea)"/>
+                                            <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                        </component>
+                                    </component>
+                                </component>
+                                <parameterAssignments>
+                                    <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                    <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                    <parameterAssignment expression="$fatcaProfileLegal.isformationDocuments!= null" variable="isValid"/>
+                                    <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.isformationDocuments]'" variable="messageWhenNotValid"/>
+                                    <parameterAssignment expression="'isformationDocuments'" variable="itemId"/>
+                                </parameterAssignments>
+                            </component>
+                        </customContainer>
+                        <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="134">
+                            <component class="com.nm.sdk.data.pages.views.components.If" condition="$fatcaProfileLegal.isformationDocuments" id="135">
+                                <component class="com.nm.sdk.data.pages.views.components.Template" id="210" screenId="CMN_TemplateValidationBox">
+                                    <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="211" name="CONTENT">
+                                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="169" label="[LABEL:COB_fatca.countries]" orientation="vertical">
+                                            <component binding="$fatcaProfileLegal.formationDocumentsCountry" class="com.nm.sdk.data.pages.views.components.DropdownList" id="147" select2AllowClear="false" select2DynamicUrl="" select2IsEnabled="true" select2IsMultiple="true"
+                                                select2QueryParameterName="q" select2Width="resolve" select2WidthOther="50%" select2minimumInputLength="0" selectText="[LABEL:dropdown.select]" showSelect="true" textIfDisabledDisplay="__SELECT_TEXT__">
+                                                <dataSource catalogueId="CMN_EntityPrincipalPlaceCountries" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                            </component>
+                                        </component>
+                                    </component>
+                                    <parameterAssignments>
+                                        <parameterAssignment expression="false" variable="isValidationGroup"/>
+                                        <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                                        <parameterAssignment expression="'[LABEL:COB_IncludeQuestionsForTaxTransparencyLegal.validation.taxations.formationDocumentsCountry]'" variable="messageWhenNotValid"/>
+                                        <parameterAssignment expression="'formationDocumentsCountry'" variable="itemId"/>
+                                        <parameterAssignment expression="LIB_Validator.validateNotEmptyIndexed($fatcaProfileLegal.formationDocumentsCountry)" variable="isValid"/>
+                                    </parameterAssignments>
+                                </component>
+                            </component>
+                        </customContainer>
+                        <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="454">
+                            <component class="com.nm.sdk.data.pages.views.components.Infobox" id="457" label="[LABEL:COB_text.question.taxations.decent.us.person]" orientation="vertical">
+                                <component binding="$fatcaProfileLegal.isDecentUsPerson" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="458" orientation="horizontal" valign="middle">
+                                    <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                </component>
+                            </component>
+                        </customContainer>
+                        <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="459">
+                            <component class="com.nm.sdk.data.pages.views.components.Infobox" id="462" label="[LABEL:COB_text.question.taxations.pension.plan]" orientation="vertical">
+                                <component binding="$fatcaProfileLegal.isPlanEmployeesUsPerson" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="463" orientation="horizontal" valign="middle">
+                                    <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                </component>
+                            </component>
+                        </customContainer>
+                        <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="373">
+                            <component class="com.nm.sdk.data.pages.views.components.Infobox" id="376" label="[LABEL:COB_text.question.has.us.person.in.capacities.below]" orientation="vertical">
+                                <component binding="$fatcaProfileLegal.hasUSPersonCapacitiesTrust" class="com.nm.sdk.data.pages.views.components.RadiobuttonList" id="475" orientation="horizontal" valign="middle">
+                                    <action class="com.nm.sdk.data.pages.views.actions.AjaxUpdateAreaAction" eventType="onchange" htmlIds="='USTaxPrinciplesArea'"/>
+                                    <dataSource catalogueId="CMN_YesNo" class="com.nm.sdk.data.pages.views.options.CatalogueDataSource" columnName="description"/>
+                                </component>
+                            </component>
+                        </customContainer>
+                        <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="479">
+                            <component class="com.nm.sdk.data.pages.views.components.If" condition="$fatcaProfileLegal.hasUSPersonCapacitiesTrust" id="481">
+                                <component class="com.nm.sdk.data.pages.views.components.Template" id="488" screenId="CMN_TemplateValidationBox">
+                                    <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="489" name="CONTENT">
+                                        <component class="com.nm.sdk.data.pages.views.components.Infobox" id="484" label="[LABEL:COB_text.question.taxations.comment.details.us.person.in.capacities.below]" orientation="vertical">
+                                            <component binding="$fatcaProfileLegal.descUSPersonCapacitiesTrust" class="com.nm.sdk.data.pages.views.components.TextArea" cols="20" id="485" rows="8"/>
+                                        </component>
+                                    </component>
+                                    <parameterAssignments>
+                                        <parameterAssignment expression="$fatcaProfileLegal.descUSPersonCapacitiesTrust" variable="gsFieldValue"/>
+                                        <parameterAssignment expression="'5065'" variable="gsFieldId"/>
+                                    </parameterAssignments>
+                                </component>
+                            </component>
+                        </customContainer>
+                    </component>
+                </component>
+                <property name="groupHasLayout" value="true"/>
+                <property name="groupTitle" value="US Tax Principles"/>
+                <property name="inheritAllParentProperties" value="true"/>
+                <property name="labelWidthPercentage"/>
+                <property name="labelWidthPixels"/>
+                <property name="labelWidthType"/>
+                <property name="maxElementPixelWidth"/>
+                <property name="maxElementsPerRow"/>
+                <property name="targetElementPixelWidth"/>
+                <property name="topLabelCutoff"/>
+                <property name="validationExpression"/>
+                <property name="validationMessage"/>
+            </customContainer>
+        </component>
+    </view>
+</screen>
+
+                                                                                                                                                                                                                                                                                  1,938,23179,0
+<?xml version="1.0" encoding="UTF-8"?>
+<object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="object.xsd">
+    <id>CMN_ApplicableBRRoles__vCI</id>
+    <uuid>068afed5-95f4-4023-b3ab-079dc1a7a465</uuid>
+    <type>Rule</type>
+    <name/>
+    <description>Applicable Roles</description>
+    <creator>bellanca</creator>
+    <creationTime>1455198727565</creationTime>
+    <modifier>bernard</modifier>
+    <modificationTime>1474629294028</modificationTime>
+    <active>true</active>
+    <versionUuid>f7ef52b1-4f48-4282-83ca-99acc54da4a7</versionUuid>
+    <parentVersionUuid>aea541bb-49f0-48de-8fbd-36d6a2557c5d</parentVersionUuid>
+    <timestamp>1475260129806</timestamp>
+    <systemId>h-global-predev.appway.com</systemId>
+    <copyOfUuid>c8ee8147-3e13-4576-99be-8b0def7128b1</copyOfUuid>
+    <committed>true</committed>
+    <deleted>false</deleted>
+    <userId>magloire</userId>
+    <metaData/>
+</object>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<decisiontree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="decisiontree.xsd">
+    <definition>
+        <scope active="true" name="" showChildren="true">
+            <parameterdefinition collectiontype="none" defaultexpression="" description="" mode="inherited" type="CMN_BusinessRelationship" variable="businessRelationship"/>
+            <condition active="true" alternative="false" decision="" description="UC: Individual" expression="$businessRelationship.useCase == 'individual'" negate="false" showChildren="true">
+                <action active="true" function="roleonbr" id="1421852423791" label="AH" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="kycLevel" value="full"/>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="maxParties" value="1"/>
+                    <property key="isCustomerRole" value="true"/>
+                    <property key="roleID" value="ah"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPerson()"/>
+                    <property key="hasDetailGuardian" value="false"/>
+                    <property key="minParties" value="1"/>
+                </action>
+            </condition>
+            <condition active="true" alternative="false" decision="" description="UC: Joint" expression="$businessRelationship.useCase == 'joint'" negate="false" showChildren="true">
+                <action active="true" function="roleonbr" id="1422284196143" label="AH" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="kycLevel" value="full"/>
+                    <property key="hasDetailSignaturePower" value="true"/>
+                    <property key="maxParties" value="99"/>
+                    <property key="isCustomerRole" value="true"/>
+                    <property key="roleID" value="ah"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPerson() "/>
+                    <property key="hasDetailGuardian" value="false"/>
+                    <property key="minParties" value="2"/>
+                </action>
+            </condition>
+            <condition active="true" alternative="false" decision="" description="UC: Individual or Joint" expression="$businessRelationship.useCase == 'individual' or $businessRelationship.useCase == 'joint'" negate="false" showChildren="true">
+                <action active="true" function="roleonbr" id="1421852943576" label="BO" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="kycLevel" value="full"/>
+                    <property key="maxParties" value="32"/>
+                    <property key="roleID" value="bo"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPerson()"/>
+                    <property key="minParties" value="1"/>
+                </action>
+                <action active="true" function="roleonbr" id="1428679032273" label="Power of Attorney" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="kycLevel" value="basic"/>
+                    <property key="hasDetailSignaturePower" value="true"/>
+                    <property key="maxParties" value="10"/>
+                    <property key="isCustomerRole" value="false"/>
+                    <property key="roleID" value="powerOfAttorney"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPersonOrCompany()"/>
+                    <property key="autoCreate" value="false"/>
+                    <property key="minParties" value="0"/>
+                </action>
+                <action active="true" function="roleonbr" id="1428679032273" label="Parent Guardian" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="kycLevel" value="basic"/>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="maxParties" value="10"/>
+                    <property key="isCustomerRole" value="false"/>
+                    <property key="roleID" value="parentGuardian"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPerson()"/>
+                    <property key="autoCreate" value="false"/>
+                    <property key="minParties" value="0"/>
+                </action>
+            </condition>
+            <condition active="true" alternative="false" decision="" description="UC: Commercial Operating Business" expression="$businessRelationship.useCase == 'operatingCompany'" negate="false" showChildren="true">
+                <action active="true" function="roleonbr" id="1422284418715" label="AH" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="kycLevel" value="full"/>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="maxParties" value="1"/>
+                    <property key="isCustomerRole" value="true"/>
+                    <property key="roleID" value="ah"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.commercialOperatingBusiness()"/>
+                    <property key="minParties" value="1"/>
+                </action>
+                <action active="true" function="roleonbr" id="1422285886712" label="AUTSIG" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="hasDetailSignaturePower" value="true"/>
+                    <property key="kycLevel" value="basic"/>
+                    <property key="maxParties" value="8"/>
+                    <property key="roleID" value="authorizedSignature"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPersonOrCompany()"/>
+                    <property key="minParties" value="1"/>
+                </action>
+                <action active="true" function="roleonbr" id="1422285886712" label="Authorised Representative" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="hasDetailSignaturePower" value="true"/>
+                    <property key="kycLevel" value="basic"/>
+                    <property key="maxParties" value="10"/>
+                    <property key="roleID" value="authorisedRepresentative"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPersonOrCompany()"/>
+                    <property key="minParties" value="1"/>
+                </action>
+                <action active="true" function="roleonbr" id="1422285886712" label="Signatory of the Agreement" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="kycLevel" value="basic"/>
+                    <property key="maxParties" value="10"/>
+                    <property key="roleID" value="signatoryOfAgreements"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPersonOrCompany()"/>
+                    <property key="minParties" value="0"/>
+                </action>
+            </condition>
+            <condition active="true" alternative="false" decision="" description="UC: Private Investment Company" expression="$businessRelationship.useCase == 'privateInvestmentCompany'" negate="false" showChildren="true">
+                <action active="true" function="roleonbr" id="1422284418715" label="AH" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="kycLevel" value="full"/>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="maxParties" value="1"/>
+                    <property key="isCustomerRole" value="true"/>
+                    <property key="roleID" value="ah"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.privateInvestmentCompany()"/>
+                    <property key="minParties" value="1"/>
+                </action>
+                <action active="true" function="roleonbr" id="1426170538786" label="BO" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="kycLevel" value="full"/>
+                    <property key="maxParties" value="32"/>
+                    <property key="roleID" value="bo"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalOrCommercialOpBusOrTrustOrFoundation()"/>
+                    <property key="minParties" value="1"/>
+                </action>
+                <action active="true" function="roleonbr" id="1426170538786" label="Interm Owner" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="kycLevel" value="basic"/>
+                    <property key="maxParties" value="10"/>
+                    <property key="roleID" value="intermediateOwner"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.PICOrCommercialOpBusOrTrustOrFoundation()"/>
+                    <property key="minParties" value="0"/>
+                </action>
+                <action active="true" function="roleonbr" id="1422285886712" label="AUTSIG" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="hasDetailSignaturePower" value="true"/>
+                    <property key="kycLevel" value="basic"/>
+                    <property key="maxParties" value="8"/>
+                    <property key="roleID" value="authorizedSignature"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPersonOrCompany()"/>
+                    <property key="minParties" value="1"/>
+                </action>
+                <action active="true" function="roleonbr" id="1422285886712" label="Authorised Representative" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="hasDetailSignaturePower" value="true"/>
+                    <property key="kycLevel" value="basic"/>
+                    <property key="maxParties" value="10"/>
+                    <property key="roleID" value="authorisedRepresentative"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPersonOrCompany()"/>
+                    <property key="minParties" value="0"/>
+                </action>
+            </condition>
+            <condition active="true" alternative="false" decision="" description="UC: Trust" expression="$businessRelationship.useCase == 'trust'" negate="false" showChildren="true">
+                <action active="true" function="roleonbr" id="1426175918584" label="AH trust" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="kycLevel" value="full"/>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="maxParties" value="1"/>
+                    <property key="isCustomerRole" value="true"/>
+                    <property key="roleID" value="ah"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.trust()"/>
+                    <property key="__additional_info__" value=""/>
+                    <property key="minParties" value="1"/>
+                </action>
+                <action active="true" function="roleonbr" id="1428911436366" label="Authorized Signature" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="kycLevel" value="basic"/>
+                    <property key="hasDetailSignaturePower" value="true"/>
+                    <property key="maxParties" value="8"/>
+                    <property key="isCustomerRole" value="false"/>
+                    <property key="roleID" value="authorizedSignature"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPersonOrCompany()"/>
+                    <property key="autoCreate" value="false"/>
+                    <property key="minParties" value="1"/>
+                </action>
+                <action active="true" function="roleonbr" id="1422285886712" label="Authorised Representative" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="hasDetailSignaturePower" value="true"/>
+                    <property key="kycLevel" value="basic"/>
+                    <property key="maxParties" value="10"/>
+                    <property key="roleID" value="authorisedRepresentative"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPersonOrCompany()"/>
+                    <property key="minParties" value="1"/>
+                </action>
+            </condition>
+            <condition active="true" alternative="false" decision="" description="ALL USECASES" expression="true" negate="false" showChildren="true">
+                <action active="true" function="roleonbr" id="1421852943576" label="Letter of Authorization" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="hasAutoCreation" value="gotoDetails"/>
+                    <property key="kycLevel" value="hide"/>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="maxParties" value="1"/>
+                    <property key="roleID" value="letterOfAuthorization"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.hsbcEntity()"/>
+                    <property key="autoCreate" value="true"/>
+                    <property key="minParties" value="0"/>
+                </action>
+                <action active="true" function="roleonbr" id="1428679290079" label="Right of Consultation" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="kycLevel" value="none"/>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="maxParties" value="10"/>
+                    <property key="isCustomerRole" value="false"/>
+                    <property key="roleID" value="rightOfConsultation"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPersonOrCompany()"/>
+                    <property key="autoCreate" value="false"/>
+                    <property key="minParties" value="0"/>
+                </action>
+                <action active="true" function="roleonbr" id="1428681978005" label="Right of Consultation for MFO" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="kycLevel" value="none"/>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="maxParties" value="3"/>
+                    <property key="isCustomerRole" value="false"/>
+                    <property key="roleID" value="rightOfConsultationMFO"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPersonOrCompany()"/>
+                    <property key="autoCreate" value="false"/>
+                    <property key="minParties" value="0"/>
+                </action>
+                <condition active="true" alternative="false" decision="" description="No power of admin for HSBC" expression="$businessRelationship.getRoleManager().getPartiesInRole('powerOfAdminHSBCUK').size() == 0" negate="false" showChildren="true">
+                    <action active="true" function="roleonbr" id="1428681980344" label="Right of consultation for HSBC UK" showChildren="true">
+                        <description><![CDATA[]]></description>
+                        <property key="hasAutoCreation" value="skipDetails"/>
+                        <property key="kycLevel" value="hide"/>
+                        <property key="hasDetailSignaturePower" value="true"/>
+                        <property key="maxParties" value="1"/>
+                        <property key="isCustomerRole" value="false"/>
+                        <property key="roleID" value="rightOfConsultationHSBCUK"/>
+                        <property key="allowedPartyTypes" value="CMN_AllowedPartyType.hsbcUKEntity()"/>
+                        <property key="autoCreate" value="true"/>
+                        <property key="minParties" value="0"/>
+                    </action>
+                </condition>
+                <condition active="true" alternative="false" decision="" description="No Power of Admin for MFO nor HSBC"
+                    expression="$businessRelationship.getRoleManager().getPartiesInRole('powerOfAdminMFO').size() == 0 and $businessRelationship.getRoleManager().getPartiesInRole('powerOfAdminHSBCUK').size() == 0" negate="false" showChildren="true">
+                    <action active="true" function="roleonbr" id="1428683028827" label="Power of Administration" showChildren="true">
+                        <description><![CDATA[]]></description>
+                        <property key="kycLevel" value="basic"/>
+                        <property key="hasDetailSignaturePower" value="true"/>
+                        <property key="maxParties" value="10"/>
+                        <property key="isCustomerRole" value="false"/>
+                        <property key="roleID" value="powerOfAdmin"/>
+                        <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPersonOrCompany()"/>
+                        <property key="autoCreate" value="false"/>
+                        <property key="minParties" value="0"/>
+                    </action>
+                </condition>
+                <condition active="true" alternative="false" decision="" description="No Power of Admin for indiv nor HSBC"
+                    expression="$businessRelationship.getRoleManager().getPartiesInRole('powerOfAdmin').size() == 0 and $businessRelationship.getRoleManager().getPartiesInRole('powerOfAdminHSBCUK').size() == 0" negate="false" showChildren="true">
+                    <action active="true" function="roleonbr" id="1430329293445" label="Power of Administration for MFO" showChildren="true">
+                        <description><![CDATA[]]></description>
+                        <property key="kycLevel" value="basic"/>
+                        <property key="hasDetailSignaturePower" value="true"/>
+                        <property key="maxParties" value="If $businessRelationship.getRoleManager().getPartiesInRole('powerOfAdminMFO').size() == 1 Then&#xa;   CMN_Party $p := $businessRelationship.getRoleManager().getPartiesInRole('powerOfAdminMFO')[1];&#xa;   If $p.type.isLegalEntity() Then&#xa;      Return 1;&#xa;   End&#xa;End&#xa;Return 4;"/>
+                        <property key="isCustomerRole" value="false"/>
+                        <property key="roleID" value="powerOfAdminMFO"/>
+                        <property key="allowedPartyTypes" value="If $businessRelationship.getRoleManager().getPartiesInRole('powerOfAdminMFO').size() > 1 Then&#xa;   Return CMN_AllowedPartyType.physicalPerson();&#xa;Else&#xa;   Return CMN_AllowedPartyType.physicalPersonOrCompany();&#xa;End"/>
+                        <property key="autoCreate" value="false"/>
+                        <property key="hasDetailGuardian" value="false"/>
+                        <property key="minParties" value="0"/>
+                    </action>
+                </condition>
+                <condition active="true" alternative="false" decision="" description="No Right of consult for HSBC"
+                    expression="$businessRelationship.getRoleManager().getPartiesInRole('rightOfConsultationHSBCUK').size() == 0 and $businessRelationship.getRoleManager().getPartiesInRole('powerOfAdminMFO').size() == 0" negate="false" showChildren="true">
+                    <action active="true" function="roleonbr" id="1428908028694" label="Power of Administration for HSBC UK" showChildren="true">
+                        <description><![CDATA[]]></description>
+                        <property key="hasAutoCreation" value="skipDetails"/>
+                        <property key="kycLevel" value="hide"/>
+                        <property key="hasDetailSignaturePower" value="true"/>
+                        <property key="maxParties" value="1"/>
+                        <property key="isCustomerRole" value="false"/>
+                        <property key="roleID" value="powerOfAdminHSBCUK"/>
+                        <property key="allowedPartyTypes" value="CMN_AllowedPartyType.hsbcUKEntity()"/>
+                        <property key="autoCreate" value="true"/>
+                        <property key="minParties" value="0"/>
+                    </action>
+                </condition>
+                <action active="true" function="roleonbr" id="1428940748296" label="Controlling Person" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="kycLevel" value="basic"/>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="maxParties" value="10"/>
+                    <property key="isCustomerRole" value="false"/>
+                    <property key="roleID" value="controllingPerson"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPerson()"/>
+                    <property key="autoCreate" value="false"/>
+                    <property key="minParties" value="0"/>
+                </action>
+                <action active="true" function="roleonbr" id="1422365813901" label="Internet Banking VO" showChildren="true">
+                    <description><![CDATA[]]></description>
+                    <property key="hasAutoCreation" value="disabled"/>
+                    <property key="kycLevel" value="none"/>
+                    <property key="hasDetailSignaturePower" value="false"/>
+                    <property key="maxParties" value="15"/>
+                    <property key="roleID" value="internetBankingViewOnly"/>
+                    <property key="allowedPartyTypes" value="CMN_AllowedPartyType.physicalPersonOrCompany()"/>
+                    <property key="hasDetailInternet" value="true"/>
+                    <property key="minParties" value="0"/>
+                </action>
+            </condition>
+        </scope>
+    </definition>
+</decisiontree>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                           1,1017,15983,0
+<?xml version="1.0" encoding="UTF-8"?>
+<object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="object.xsd">
+    <id>PEDR_PepSCCValidations</id>
+    <uuid>867e927a-a073-4a27-b2a6-f558d456647a</uuid>
+    <type>Rule</type>
+    <name/>
+    <description/>
+    <creator>segafredo</creator>
+    <creationTime>1441110589818</creationTime>
+    <modifier>foo</modifier>
+    <modificationTime>1474619591536</modificationTime>
+    <active>true</active>
+    <versionUuid>99620566-975d-46e7-a923-4a0e150c9b96</versionUuid>
+    <parentVersionUuid>07513942-7df4-4c0c-b280-cb262b9009c0</parentVersionUuid>
+    <timestamp>1475260129806</timestamp>
+    <systemId>h-global-predev.appway.com</systemId>
+    <copyOfUuid>3096188f-bd92-48e3-a571-45c127f15420</copyOfUuid>
+    <committed>true</committed>
+    <deleted>false</deleted>
+    <userId>magloire</userId>
+    <metaData>
+        <property name="Refactoring-ChangeID" value="COB_PepSCCValidations>CMN_PepSCCValidations"/>
+    </metaData>
+</object>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<decisiontree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="decisiontree.xsd">
+    <definition>
+        <scope active="true" name="" showChildren="true">
+            <parameterdefinition collectiontype="none" defaultexpression="" description="(inherited from COB_IncludePartyPersonalDetails)" mode="inherited" type="PEDR_Root" variable="root"/>
+            <parameterdefinition collectiontype="none" defaultexpression="false" description="" mode="local" type="Boolean" variable="never"/>
+            <parameterdefinition collectiontype="none" defaultexpression="true" description="" mode="local" type="Boolean" variable="always"/>
+            <parameterdefinition collectiontype="none" defaultexpression="$root.getProcessHistory().currentStageIsKYCReviewOrAfter()" description="" mode="local" type="Boolean" variable="kycReviewOrAfter"/>
+            <parameterdefinition collectiontype="none" defaultexpression="$root.getProcessHistory().currentStageIsFCCEscalation()" description="" mode="local" type="Boolean" variable="isFccEscalation"/>
+            <action active="true" function="validationitem" id="1474518185889" label="typeSCCConnectedParty" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="isEditableIfNotValid" value=""/>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$isFccEscalation"/>
+                <property key="id" value="'typeSCCConnectedParty'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'startAppointedPEPDate'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'startAppointedPEPDate'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1474518266179" label="endAppointedPEPDate" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="isEditableIfNotValid" value=""/>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$isFccEscalation"/>
+                <property key="id" value="'endAppointedPEPDate'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'countryPoliticalExposure'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'countryPoliticalExposure'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'pepDescriptionHeld'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'pepDescriptionHeld'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'pepReason'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'pepReason'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'isAssociatedExistBankPartner'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'isAssociatedExistBankPartner'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'associatedPEPID'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'associatedPEPID'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'associatedPEPName'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'associatedPEPName'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'associatedPEPLastName'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'associatedPEPLastName'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'associatedPEPNationality'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'associatedPEPNationality'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1458810408903" label="'associatedPEPData'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="isEditableIfNotValid" value=""/>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value=""/>
+                <property key="id" value="'associatedPEPData'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'relationshipPEPToCustomer'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'relationshipPEPToCustomer'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'associatedPEPReason'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'associatedPEPReason'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'associatedPEPDescription'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'associatedPEPDescription'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'associatedMainCountryRelate'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'associatedMainCountryRelate'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1474518354830" label="relationshipPEPToCustomerOther" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="isEditableIfNotValid" value=""/>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$isFccEscalation"/>
+                <property key="id" value="'relationshipPEPToCustomerOther'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'associatedStartPEPDate'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'associatedStartPEPDate'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1474518441860" label="associatedEndPEPDate" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="isEditableIfNotValid" value=""/>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$isFccEscalation"/>
+                <property key="id" value="'associatedEndPEPDate'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'associatedPepPosition'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'associatedPepPosition'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'associatedPepPositionTimeHeld'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'associatedPepPositionTimeHeld'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'associatedPepHasConflicts'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'associatedPepHasConflicts'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1424878202477" label="'associatedPepCustomerRelation'" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'associatedPepCustomerRelation'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1441350930972" label="reasonForSCCDesignation" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'reasonForSCCDesignation'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1453127991246" label="fccSccOverrideReason" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="editableIfEmpty" value="false"/>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'fccSccOverrideReason'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1453127991246" label="relationshipDescription" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="editableIfEmpty" value="false"/>
+                <property key="validationActive" value="$kycReviewOrAfter"/>
+                <property key="readOnly" value="$never"/>
+                <property key="id" value="'relationshipDescription'"/>
+                <property key="alwaysBlockOnScreen" value="$never"/>
+            </action>
+            <action active="true" function="validationitem" id="1474518514309" label="isPepStatusRelatedToHighRiskJurisdiction" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="isEditableIfNotValid" value=""/>
+                <property key="validationActive" value="$isFccEscalation"/>
+                <property key="readOnly" value="!$isFccEscalation"/>
+                <property key="id" value="'isPepStatusRelatedToHighRiskJurisdiction'"/>
+                <property key="alwaysBlockOnScreen" value="$isFccEscalation"/>
+            </action>
+            <action active="true" function="validationitem" id="1474518517238" label="isHighRiskJurisdiction" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="isEditableIfNotValid" value=""/>
+                <property key="validationActive" value="$isFccEscalation"/>
+                <property key="readOnly" value="!$isFccEscalation"/>
+                <property key="id" value="'isHighRiskJurisdiction'"/>
+                <property key="alwaysBlockOnScreen" value="$isFccEscalation"/>
+            </action>
+            <action active="true" function="validationitem" id="1474518519864" label="justificationPepStatus" showChildren="true">
+                <description><![CDATA[]]></description>
+                <property key="isEditableIfNotValid" value=""/>
+                <property key="validationActive" value="$isFccEscalation"/>
+                <property key="readOnly" value="!$isFccEscalation"/>
+                <property key="id" value="'justificationPepStatus'"/>
+                <property key="alwaysBlockOnScreen" value="$isFccEscalation"/>
+            </action>
+        </scope>
+    </definition>
+</decisiontree>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       1,869,2829,0
+<?xml version="1.0" encoding="UTF-8"?>
+<object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="object.xsd">
+    <id>CMN_PrefillOptionalService__defv</id>
+    <uuid>86e573a6-434d-4edc-ad91-c760204e7666</uuid>
+    <type>ScriptFunction</type>
+    <name/>
+    <description/>
+    <creator>bernard</creator>
+    <creationTime>1472655427642</creationTime>
+    <modifier>bernard</modifier>
+    <modificationTime>1472656600701</modificationTime>
+    <active>true</active>
+    <versionUuid>ec549556-6df8-42aa-92c3-8327781e02e1</versionUuid>
+    <parentVersionUuid/>
+    <timestamp>1475260129806</timestamp>
+    <systemId>h-global-predev.appway.com</systemId>
+    <copyOfUuid>660a2881-d085-4fc5-9b00-f1247578aff2</copyOfUuid>
+    <committed>true</committed>
+    <deleted>false</deleted>
+    <userId>magloire</userId>
+    <metaData/>
+</object>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<scriptfunction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="scriptfunction.xsd">
+    <definition><![CDATA[Function CMN_PrefillOptionalService__defv(CMN_BusinessRelationship $br) : Nothing Begin
+   // CMN_BusinessRelationship $br := $root.getBusinessRelationship();
+   $br.optionalServices.refreshAvailableOptions($br);
+   If ! $br.optionalServices.isOptionSelected('purposeOfAccount') Then
+      $br.optionalServices.toggleOptionSelection('purposeOfAccount');
+   End
+   If LIB_Validator.validateNotEmptyIndexed($br.getRoleManager().getPartiesInRole('creditCardHolder')) and not $br.optionalServices.hasUserChangedOption('creditCard') and not $br.optionalServices.isOptionSelected('creditCard') Then
+      $br.optionalServices.toggleOptionSelection('creditCard');
+   End
+   If LIB_Validator.validateNotEmptyIndexed($br.getRoleManager().getPartiesInRole('safeHolder')) and not $br.optionalServices.hasUserChangedOption('safeDepositBox') and not $br.optionalServices.isOptionSelected('safeHolder') Then
+      $br.optionalServices.toggleOptionSelection('safeDepositBox');
+   End
+   If LIB_Validator.validateNotEmptyIndexed($br.getRoleManager().getPartiesInRole('internetBanking')) and not $br.optionalServices.hasUserChangedOption('internetAccess') and not $br.optionalServices.isOptionSelected('internetBanking') Then
+      $br.optionalServices.toggleOptionSelection('internetAccess');
+      $br.optionalServices.toggleOptionSelection('internetBankingServices');
+   End
+   If LIB_Validator.validateNotEmptyIndexed($br.getRoleManager().getPartiesInRole('internetBankingOperating')) and not $br.optionalServices.hasUserChangedOption('internetBankingOperatingService') and not $br.optionalServices.isOptionSelected('internetBankingOperatingService') Then
+      $br.optionalServices.toggleOptionSelection('internetBankingOperatingService');
+      If not $br.optionalServices.hasUserChangedOption('internetBankingServices') and not $br.optionalServices.isOptionSelected('internetBankingServices') Then
+         $br.optionalServices.toggleOptionSelection('internetBankingServices');
+      End
+   End
+   If LIB_Validator.validateNotEmptyIndexed($br.getRoleManager().getPartiesInRole('internetBankingViewOnly')) and not $br.optionalServices.hasUserChangedOption('internetBankingViewOnlyService') and not $br.optionalServices.isOptionSelected('internetBankingViewOnlyService') Then
+      $br.optionalServices.toggleOptionSelection('internetBankingViewOnlyService');
+      If not $br.optionalServices.hasUserChangedOption('internetBankingServices') and not $br.optionalServices.isOptionSelected('internetBankingServices') Then
+         $br.optionalServices.toggleOptionSelection('internetBankingServices');
+      End
+   End
+End]]></definition>
+</scriptfunction>
+
+                                                                                                                                                                                                                                                                                                                                                                                               1,917,15122,0
+<?xml version="1.0" encoding="UTF-8"?>
+<object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="object.xsd">
+    <id>CMN_IncludeKYTPurposeOfAccount__vSG</id>
+    <uuid>2b822e27-99b3-4f57-873b-65f1e4cc17ef</uuid>
+    <type>Screen</type>
+    <name/>
+    <description/>
+    <creator>segafredo</creator>
+    <creationTime>1463586746969</creationTime>
+    <modifier>foo</modifier>
+    <modificationTime>1472539322402</modificationTime>
+    <active>true</active>
+    <versionUuid>8b3ca83c-245d-4934-8cf4-198ce5d14c7e</versionUuid>
+    <parentVersionUuid>eb81c455-f19d-46db-9958-22efad642fb9</parentVersionUuid>
+    <timestamp>1475260129806</timestamp>
+    <systemId>h-global-predev.appway.com</systemId>
+    <copyOfUuid>248ee2e7-73a8-42a7-9003-3378c33a667f</copyOfUuid>
+    <committed>true</committed>
+    <deleted>false</deleted>
+    <userId>magloire</userId>
+    <metaData/>
+</object>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<screen version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="screen.xsd">
+    <parameterDefinitions>
+        <parameterDefinition collectionType="none" defaultExpression="" description="(inherited from CMN_IncludeAccountProfilingDetail)" mode="inherited" type="COB_Root" variable="root"/>
+        <parameterDefinition collectionType="none" defaultExpression="" description="" mode="assigned" type="CMN_BusinessRelationship" variable="businessRelationship"/>
+        <parameterDefinition collectionType="none" defaultExpression="false" description="(inherited from COB_IncludeKYTAccountProfilingDetail)" mode="assigned" type="Boolean" variable="isReadOnly"/>
+        <parameterDefinition collectionType="none" defaultExpression="NEW(LIB_AdaptiveFlowLayoutConfiguration, 2)" description="(inherited from COB_IncludeKYTAccountProfilingDetail)" mode="local" type="LIB_AdaptiveFlowLayoutConfiguration" variable="adaptiveFlowLayoutConfiguration"/>
+        <parameterDefinition collectionType="none" defaultExpression="" description="" mode="assigned" type="CMN_KYTPurposeOfAccount" variable="purposeOfAccount"/>
+        <parameterDefinition collectionType="none" defaultExpression="" description="" mode="assigned" type="CMN_AccountProfilingValidationFactory" variable="accountProfilingValidationItemsFactory"/>
+        <parameterDefinition collectionType="none" defaultExpression="" description="(inherited from CMN_IncludeAccountProfilingDetail)" mode="assigned" type="String" variable="screenTitle"/>
+        <parameterDefinition collectionType="none" defaultExpression="NEW(CMN_ValidationManager, $accountProfilingValidationItemsFactory.getPurposeOfAccountValidationItems())" description="" mode="local" type="CMN_ValidationManager" variable="validationManager"/>
+    </parameterDefinitions>
+    <view class="com.nm.sdk.data.pages.views.components.View" id="0">
+        <component class="com.nm.sdk.data.pages.views.components.If" collapsed="true" condition="IsRenderingToPdf()" id="91">
+            <component allowHtmlCode="false" class="com.nm.sdk.data.pages.views.components.Label" id="92" text="=$screenTitle" textStyle="h1"/>
+        </component>
+        <component class="com.nm.sdk.data.pages.views.components.Group" disabled="$isReadOnly" id="1" name="">
+            <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutGroup" id="3">
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="99">
+                    <component class="com.nm.sdk.data.pages.views.components.Template" id="66" screenId="CMN_TemplateValidationBox">
+                        <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="67" name="CONTENT">
+                            <component class="com.nm.sdk.data.pages.views.components.Infobox" description="[LABEL:CMN_PurposeOfAccount.reason.account.opened.tooltip]" id="15" label="[LABEL:CMN_PurposeOfAccount.reason.account.opened]" orientation="vertical">
+                                <component binding="$purposeOfAccount.reasonAccountOpened" class="com.nm.sdk.data.pages.views.components.TextArea" cols="-1" id="16" rows="3">
+                                    <style>
+                                        <property name="max-width" value="none"/>
+                                    </style>
+                                </component>
+                            </component>
+                        </component>
+                        <parameterAssignments>
+                            <parameterAssignment expression="false" variable="isValidationGroup"/>
+                            <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                            <parameterAssignment expression="not EMPTY($purposeOfAccount.reasonAccountOpened)" variable="isValid"/>
+                            <parameterAssignment expression="'[LABEL:COB_IncludePurposeOfAccount.validation.reasonAccountOpened]'" variable="messageWhenNotValid"/>
+                            <parameterAssignment expression="'reasonAccountOpened'" variable="itemId"/>
+                            <parameterAssignment expression="'1218'" variable="gsFieldId"/>
+                        </parameterAssignments>
+                    </component>
+                </customContainer>
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="100">
+                    <component class="com.nm.sdk.data.pages.views.components.Template" id="107" screenId="CMN_TemplateValidationBox">
+                        <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="108" name="CONTENT">
+                            <component class="com.nm.sdk.data.pages.views.components.Infobox" id="101" label="[LABEL:CMN_PurposeOfAccount.reason.account.notpersonal]" orientation="vertical">
+                                <component binding="$purposeOfAccount.reasonAccountNotPersonal" class="com.nm.sdk.data.pages.views.components.TextArea" id="102">
+                                    <style>
+                                        <property name="max-width" value="none"/>
+                                    </style>
+                                </component>
+                            </component>
+                        </component>
+                        <parameterAssignments>
+                            <parameterAssignment expression="'5258'" variable="gsFieldId"/>
+                            <parameterAssignment expression="$purposeOfAccount.reasonAccountNotPersonal" variable="gsFieldValue"/>
+                        </parameterAssignments>
+                    </component>
+                </customContainer>
+                <property name="groupHasLayout" value="true"/>
+                <property name="groupTitle" value="[LABEL:CMN_PurposeOfAccount.purpose.account.title]"/>
+                <property name="inheritAllParentProperties" value="false"/>
+                <property name="labelWidthPercentage"/>
+                <property name="labelWidthPixels"/>
+                <property name="labelWidthType"/>
+                <property name="maxElementPixelWidth" value="=$adaptiveFlowLayoutConfiguration.maxElementPixelWidth"/>
+                <property name="maxElementsPerRow" value="2"/>
+                <property name="targetElementPixelWidth" value="=$adaptiveFlowLayoutConfiguration.targetElementPixelWidth"/>
+                <property name="topLabelCutoff" value="=$adaptiveFlowLayoutConfiguration.topLabelCutOff"/>
+                <property name="validationExpression"/>
+                <property name="validationMessage"/>
+            </customContainer>
+            <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutGroup" id="23">
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="41">
+                    <component class="com.nm.sdk.data.pages.views.components.Template" id="74" screenId="CMN_TemplateValidationBox">
+                        <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="75" name="CONTENT">
+                            <component class="com.nm.sdk.data.pages.views.components.Infobox" description="[LABEL:CMN_PurposeOfAccount.expected.account.size.tooltip]" id="44" label="[LABEL:CMN_PurposeOfAccount.expected.account.size]" orientation="vertical">
+                                <component binding="$purposeOfAccount.expectedAccountSize" class="com.nm.sdk.data.pages.views.components.TextField" id="45" inputType="text"/>
+                            </component>
+                        </component>
+                        <parameterAssignments>
+                            <parameterAssignment expression="false" variable="isValidationGroup"/>
+                            <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                            <parameterAssignment expression="$purposeOfAccount.expectedAccountSize > 0" variable="isValid"/>
+                            <parameterAssignment expression="'[LABEL:COB_IncludePurposeOfAccount.validation.expectedAccountSize]'" variable="messageWhenNotValid"/>
+                            <parameterAssignment expression="'expectedAccountSize'" variable="itemId"/>
+                            <parameterAssignment expression="'1364'" variable="gsFieldId"/>
+                            <parameterAssignment expression="TOSTRING($purposeOfAccount.expectedAccountSize)" variable="gsFieldValue"/>
+                        </parameterAssignments>
+                    </component>
+                </customContainer>
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutElement" id="40">
+                    <component class="com.nm.sdk.data.pages.views.components.Template" id="68" screenId="CMN_TemplateValidationBox">
+                        <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="69" name="CONTENT">
+                            <component class="com.nm.sdk.data.pages.views.components.Infobox" id="42" label="[LABEL:CMN_PurposeOfAccount.deadline.fund.account]" orientation="vertical">
+                                <component binding="$purposeOfAccount.deadlineToFundAccount" class="com.nm.sdk.data.pages.views.components.DropdownList" defaultValue="=" id="109" select2AllowClear="true" select2DynamicUrl="" select2IsEnabled="true" select2QueryParameterName="q"
+                                    select2Width="resolve" select2WidthOther="50%" select2minimumInputLength="3" selectText="[LABEL:dropdown.select]" showSelect="true" textIfDisabledDisplay="[LABEL:nothing.selected]">
+                                    <converter class="com.nm.sdk.data.pages.views.converters.ExpressionConverter" input="If NotEmpty($value) Then&#xa;   Return TOINTEGER($value);&#xa;End" output="Return TOSTRING($value)" variable="value" variableCollectionType="none" variableType="Integer"/>
+                                    <dataSource class="com.nm.sdk.data.pages.views.options.ExpressionDataSource" collection="Return LIB_DateHelper.getFutureYearRange()" collectionType="none" id="TOSTRING($item)" label="TOSTRING($item)" type="Integer" variable="item"/>
+                                </component>
+                            </component>
+                        </component>
+                        <parameterAssignments>
+                            <parameterAssignment expression="false" variable="isValidationGroup"/>
+                            <parameterAssignment expression="$validationManager" variable="validationManager"/>
+                            <parameterAssignment expression="'[LABEL:COB_IncludePurposeOfAccount.validation.deadlineToFundAccount]'" variable="messageWhenNotValid"/>
+                            <parameterAssignment expression="$purposeOfAccount.deadlineToFundAccount >= DATEFIELD(NOW(), 'y')" variable="isValid"/>
+                            <parameterAssignment expression="'deadlineToFundAccount'" variable="itemId"/>
+                        </parameterAssignments>
+                    </component>
+                </customContainer>
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="33">
+                    <component class="com.nm.sdk.data.pages.views.components.Template" id="105" screenId="CMN_TemplateValidationBox">
+                        <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="106" name="CONTENT">
+                            <component class="com.nm.sdk.data.pages.views.components.Infobox" description="[LABEL:CMN_PurposeOfAccount.actual.relationship.size.tooltip]" id="46" label="[LABEL:CMN_PurposeOfAccount.actual.relationship.size]" orientation="vertical">
+                                <component binding="$purposeOfAccount.actualRelationshipSize" class="com.nm.sdk.data.pages.views.components.TextField" id="47" inputType="text"/>
+                            </component>
+                        </component>
+                    </component>
+                </customContainer>
+                <customContainer adapterName="ComponentExtension" class="com.nm.sdk.data.pages.views.components.CustomContainer" componentClass="com.nm.extensions.widgets.adaptiveflowlayout.AdaptiveFlowLayoutFullWidthElement" id="36">
+                    <component class="com.nm.sdk.data.pages.views.components.Template" id="103" screenId="CMN_TemplateValidationBox">
+                        <component class="com.nm.sdk.data.pages.views.components.TemplateArea" id="104" name="CONTENT">
+                            <component class="com.nm.sdk.data.pages.views.components.Infobox" id="37" label="[LABEL:CMN_PurposeOfAccount.comments]" orientation="vertical">
+                                <component binding="$purposeOfAccount.comments" class="com.nm.sdk.data.pages.views.components.TextArea" cols="15" id="38" rows="5"/>
+                            </component>
+                        </component>
+                        <parameterAssignments>
+                            <parameterAssignment expression="'1223'" variable="gsFieldId"/>
+                            <parameterAssignment expression="$purposeOfAccount.comments" variable="gsFieldValue"/>
+                        </parameterAssignments>
+                    </component>
+                </customContainer>
+                <property name="groupHasLayout" value="true"/>
+                <property name="groupTitle" value="[LABEL:CMN_PurposeOfAccount.expected.account.title]"/>
+                <property name="inheritAllParentProperties" value="true"/>
+                <property name="labelWidthPercentage"/>
+                <property name="labelWidthPixels"/>
+                <property name="labelWidthType"/>
+                <property name="maxElementPixelWidth"/>
+                <property name="maxElementsPerRow"/>
+                <property name="targetElementPixelWidth"/>
+                <property name="topLabelCutoff"/>
+                <property name="validationExpression"/>
+                <property name="validationMessage"/>
+            </customContainer>
+        </component>
+    </view>
+</screen>
+
+                                                                                                                                                                                                                                                                                                                                         1,865,204,0
+<?xml version="1.0" encoding="UTF-8"?>
+<object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="object.xsd">
+    <id>DOCUMENT_TITLE-COB_US26IRAIM__US</id>
+    <uuid>9093a113-88a5-41a5-8cbe-dbaaafb7c108</uuid>
+    <type>Label</type>
+    <name/>
+    <description/>
+    <creator>pbgbtestuser104</creator>
+    <creationTime>1473283168799</creationTime>
+    <modifier>pbgbtestuser104</modifier>
+    <modificationTime>1473283183515</modificationTime>
+    <active>true</active>
+    <versionUuid>cd1f73cb-0b82-4a12-8d27-82930b2bbaab</versionUuid>
+    <parentVersionUuid/>
+    <timestamp>1475260129806</timestamp>
+    <systemId>HSBC COB US DEV</systemId>
+    <copyOfUuid>98571d7a-792a-4d40-914e-a7403c8189e1</copyOfUuid>
+    <committed>true</committed>
+    <deleted>false</deleted>
+    <userId>magloire</userId>
+    <metaData/>
+</object>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<label version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="label.xsd">
+    <text language="en">IRA IM</text>
+</label>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1,862,12522,0
+<?xml version="1.0" encoding="UTF-8"?>
+<object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="object.xsd">
+    <id>CMN_IncludeKYTPurposeOfAccount__vUS</id>
+    <uuid>cd482b05-b0d0-4b7c-8d38-851dd64f34f9</uuid>
+    <type>Screen</type>
+    <name/>
+    <description/>
+    <creator>gurcay</creator>
+    <creationTime>1472657402956</creationTime>
+    <modifier>gurcay</modifier>
+    <modificationTime>1472657436700</modificationTime>
+    <active>true</active>
+    <versionUuid>35ea6865-488d-4ca2-af56-c37ae4ea6d66</versionUuid>
+    <parentVersionUuid/>
+    <timestamp>1475260129806</timestamp>
+    <systemId>h-global-predev.appway.com</systemId>
+    <copyOfUuid>fc67a8d4-c80a-4171-8ece-b87b3aa44b82</copyOfUuid>
+    <committed>true</committed>
+    <deleted>false</deleted>
+    <userId>magloire</userId>
+    <metaData/>
+</object>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<screen version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="screen.xsd">
+    <parameterDefinitions>
+        <parameterDefinition collectionType="none" defaultExpression="" description="(inherited from CMN_IncludeAccountProfilingDetail)" mode="inherited" type="COB_Root" variable="root"/>
+        <parameterDefinition collectionType="none" defaultExpression="" description="" mode="assigned" type="CMN_BusinessRelationship" variable="businessRelationship"/>
+        <parameterDefinition collectionType="none" defaultExpression="false" description="(inherited from COB_IncludeKYTAccountProfilingDetail)" mode="assigned" type="Boolean" variable="isReadOnly"/>
+        <parameterDefinition collectionType="none" defaultExpression="NEW(LIB_AdaptiveFlowLayoutConfiguration, 2)" description="(inherited from COB_IncludeKYTAccountProfilingDetail)" mode="local" type="LIB_AdaptiveFlowLayoutConfigu

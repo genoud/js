@@ -1,0 +1,499 @@
+div.main-carousel,
+div.main-carousel div.container{
+    min-height: 715px !important;
+    height: 100% !important;
+    /* top: 0; */
+    /* position : relative; */
+}
+
+div.main-carousel div.container{
+    /* position : relative; */
+    padding-top: 105px;
+}  
+
+div.main-carousel{
+    width: 100%;
+    background-color: #004B28;
+    /* border-bottom: 20px solid #E68D3E; */
+    /* border-top: 10px solid #E68D3E; */
+    display: block;
+    background-image: url("../images/carousel-default-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+div.main-carousel div.inner>header.title{
+    margin: 10px auto;
+    padding: 0;
+    height: 90px;
+    line-height: 90px;
+    background-image: url("../images/home-menu/capv-facture-tranparent-bg.png");
+} 
+
+
+div.main-carousel div.inner>header.title>span{
+    display: inline-block;  
+    float : left;
+}
+div.main-carousel div.inner>header.title>span.text{
+    font-size: 38px;
+    color: white;
+    font-family: swis;
+    padding-left: 20px;
+}
+div.main-carousel div.inner>header.title>span.back-button{
+    font-size: 45px;
+    color: white;
+    padding: 0 15px;
+    position: relative;
+    top: 0px;
+    float: left;
+    cursor: pointer;
+    height: 100%;
+    line-height: 200%;
+}
+div.main-carousel div.inner>header.title>span.icon{
+    background-color: #66CC33;
+    padding: 0 10px;
+    height: 100% !important;
+    background-size: cover;
+    width: auto !important;
+}    
+
+div.main-carousel div.inner>header.title>span.icon img{
+    height: 100% !important;
+    background-size: cover;
+    width: auto !important;
+}   
+
+
+div.main-carousel div.items-container>.carousel{
+    height : 400px;
+}
+div.main-carousel div.items-container>.carousel>.carousel-inner,
+div.main-carousel div.items-container>.carousel>.carousel-inner>.item{
+    /* height : inherit; */
+}
+
+div.main-carousel div.items-container>.carousel>.carousel-inner>.item .content{
+    font-family : yanone;
+    font-size: 45px;
+    color : white;
+    text-align : center;
+    padding: 0 40px;
+    height: 240px;
+}
+
+div.main-carousel div.items-container>.carousel .carousel-control{
+    /* bottom: 0px !important; */
+    /* top: inherit; */
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    position: initial;
+    background: transparent;
+    border: none;
+    text-shadow: none;
+}
+
+div.main-carousel div.items-container>.carousel .carousel-control>span{
+
+}
+
+div.main-carousel div.items-container>.carousel .carousel-control>span{
+    font-size: 47px;
+    color: #66CC33;
+}
+
+.items-container>.carousel .carousel-control.right>span{
+
+}
+.items-container>.carousel .carousel-control.left{
+    float: left;
+}
+.items-container>.carousel .carousel-control.right{
+    float: right;
+    /* right: 0px !important; */
+}
+
+.carousel-indicators{
+    /* bottom: 0; */
+    position: initial;
+    /* width: 100%; */
+    margin: 10px auto;
+    display: inline-block;
+    padding: 0;
+    line-height: 45px;
+    vertical-align: middle;
+}
+
+.carousel-indicators .active{
+    width: 29px;
+    height: 29px;
+    background-color: white;
+    /* border: 5px solid white; */
+    top: 5px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-width : 5px;
+    margin: 0 5px;
+}
+.carousel-control-container{
+    text-align : center;
+}
+
+.carousel-indicators li{
+
+width: 20px;height: 20px;background-color: white;margin: 0 5px;position: relative;border-radius: 9px;border-width: 2px;border-color: white;}
+
+.items-container>.carousel footer.footer-toolbar{
+    width : 100%;
+    text-align: center;
+    margin: 15px auto;
+}  
+
+.items-container>.carousel footer.footer-toolbar>.btn{
+    font-size: 26px;font-family: yanone;color: #004826;padding: 6px 20px;
+}
+
+
+div.main-carousel div.menu{
+    width: 40%;
+    width: 420px;
+}
+
+div.main-carousel div.menu>.page{
+    /* width : 100%; */
+    background-color: transparent;
+}  
+div.main-carousel div.menu>.page>span.item{
+    display: inline-block;    
+    margin: 5px;
+    /* position: relative; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 410px;
+    height: 120px;
+    cursor: pointer;
+}  
+
+div.main-carousel div.menu>.page>span.item.active{
+   -moz-box-shadow:  0px 0px 15px 15px #00351C;
+    -webkit-box-shadow:  0px 0px 15px 15px #00351C;
+    -o-box-shadow:  0px 0px 15px 15px #00351C;
+    box-shadow:  0px 0px 15px 15px #00351C;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=NaN, Strength=15);
+}
+
+div.main-carousel div.menu>.page>span.item.col-1x{
+    /* width: 47.73%; */
+    width: 200px;
+    height: 120px;
+}  
+
+div.main-carousel div.menu>.page>span.item label{
+    position: relative !important;
+    bottom: -80%;
+    margin-left: 7px;
+    font-family: yanone;
+    font-weight: normal;
+    font-size: 1.18em;
+}    
+
+
+
+.app-capv-paiment{
+    background-image : url("../images/home-menu/capv-paiement-app-logo.png");   
+    background-color : #337DBC;  
+    color :white;  
+}
+.app-capv-facture{
+    background-image : url("../images/home-menu/capv-facture-app-logo.png");   
+    background-color : #66CC33;    
+    color : white;
+}
+.app-metasim{
+    background-image : url("../images/home-menu/metasim-app-logo.png");   
+    background-color : white;    
+    color : #006233;
+}
+.app-lunchbox{
+    background-image : url("../images/home-menu/lunchbox-app-logo.png");   
+    background-color : #FDAA00;    
+    color : #000;
+}
+.app-book_stay{
+    background-image : url("../images/home-menu/book_stay-app-logo.png");   
+    background-color : white;    
+     color : #006233;
+}
+
+
+@media (max-width : 1199px){
+    .main-carousel .container {
+        width: 100%;
+        padding : 0 2.5%;
+    }
+}
+
+
+/*@media (min-width : 992px){*/
+    div.main-carousel.pc div.items-container{
+        float : left;
+        width: 54%;
+    }    
+    div.main-carousel.pc div.menu{
+        float : right;        
+    }
+    div.main-carousel.pc .inner.show-menu div.items-container,
+    div.main-carousel.pc .inner.show-menu div.menu{
+        display : inline-block;
+    }        
+    div.main-carousel.pc .items-container>.carousel footer.footer-toolbar{
+        margin : 10px auto;
+    }   
+    div.main-carousel.pc div.inner>header.title>span.back-button{
+        display : none;    
+    }      
+/*}*/
+
+
+
+/*@media (max-width : 991px){*/
+
+    div.main-carousel.tablet-phone div.inner.show-carousel>header.title>span.back-button{
+        display : inline-block;    
+    }      
+    div.main-carousel.tablet-phone div.inner.show-menu>header.title>span.back-button{
+        display : none;    
+    }          
+
+    div.main-carousel.tablet-phone div.menu{
+        margin-left: auto;
+        margin-right: auto;
+    }    
+    div.main-carousel.tablet-phone .inner.show-menu div.items-container,
+    div.main-carousel.tablet-phone .inner.show-carousel div.menu{
+        display : none;
+    }           
+    div.main-carousel.tablet-phone .inner.show-carousel div.items-container,
+    div.main-carousel.tablet-phone .inner.show-menu div.menu{
+        display : block;
+    }    
+    div.main-carousel.tablet-phone .inner.show-carousel div.items-container{
+        width: 90%;
+    }   
+    div.main-carousel.tablet-phone .items-container>.carousel footer.footer-toolbar{
+        margin : 40px auto;
+    }                 
+/*}*/
+
+@media (min-width : 768px){
+   div.main-carousel div.menu,
+   div.main-carousel div.items-container{
+       margin: 4% auto;
+   }     
+   div.main-carousel div.inner>header.title{
+       margin: 3%  auto 2% auto;
+   }    
+
+
+} 
+
+
+@media (max-width : 767px){
+    div.main-carousel .inner.show-carousel div.items-container{
+        width: 100%;
+    }    
+    
+    div.main-carousel div.items-container>.carousel>.carousel-inner>.item .content{
+        font-size: 37px;
+    }
+    
+    div.main-carousel div.container{        
+        padding-top: 15px;
+    }     
+    
+    div.main-carousel div.inner>header.title{        
+        height: 60px;
+        line-height: 60px;
+    }    
+    div.main-carousel div.inner>header.title>span.text{
+        font-size: 30px;        
+        padding-left: 10px;
+    }    
+    div.main-carousel div.inner>header.title>span.back-button{
+        font-size: 45px;
+        padding: 0 15px;
+        top: 0;
+        line-height: 140%;
+    }  
+   div.main-carousel div.menu,
+   div.main-carousel div.items-container{
+       margin: 5% auto;
+   }     
+   div.main-carousel div.inner>header.title{
+       margin: 5%  auto 4% auto;
+   }       
+}
+
+@media (min-width : 461px){
+    .items-container>.carousel footer.footer-toolbar{
+        /* position: absolute; */
+        /* bottom: 60px; */
+    }      
+}
+   
+
+@media (max-width : 460px){
+    div.main-carousel div.menu{
+        width: 100%;
+        text-align: center;
+    }    
+    div.main-carousel div.menu>.page>span.item{
+    background-size: contain;
+    margin: 1.1%;
+    }    
+    div.main-carousel div.menu>.page>span.item.col-1x{
+        width: 46.73%;
+        min-width: 120px;
+    }   
+    div.main-carousel div.menu>.page>span.item.col-2x{
+        width: 96%;
+    }   
+
+     div.main-carousel div.inner>header.title{
+        height: 50px;
+        /* height: auto; */
+        line-height: 50px;
+        word-wrap: break-word;
+    }    
+    div.main-carousel div.inner>header.title>span.text{
+        font-size: 23px;
+        padding-left: 5px;
+        margin-top: 4px;
+    }    
+    div.main-carousel div.inner>header.title>span.back-button{
+        font-size: 35px;
+        padding: 0 5px;
+        top: 0;
+        line-height: 145%;
+        /* margin-bottom: 10px; */
+        height: 100%;
+    }    
+    div.main-carousel,
+    div.main-carousel div.container{
+        min-height: auto !important;
+        height: auto !important;
+        padding-bottom: 10px;
+    }   
+    div.main-carousel div.items-container>.carousel>.carousel-inner,
+    div.main-carousel div.items-container>.carousel>.carousel-inner>.item{
+        height : auto !important;
+    }
+    div.main-carousel div.items-container>.carousel>.carousel-inner>.item .content{
+        font-size: 35px;
+        line-height: 40px;
+    }     
+    div.main-carousel div.items-container>.carousel{
+        height :auto;
+    }    
+    div.main-carousel div.items-container>.carousel .content{
+        min-height: 180px;
+        height: auto !important;
+    }    
+    .items-container>.carousel footer.footer-toolbar{
+        margin : 20px auto;
+    }      
+    .carousel-indicators{
+        /* bottom: -55px; */
+        /* position: absolute; */
+        /* width: 100%; */
+    }
+    div.main-carousel div.items-container>.carousel .carousel-control{
+        /* bottom: 0px !important; */
+        /* right: 0px !important; */
+        /* position: absolute !important; */
+    }        
+         
+}  
+
+@media (max-width : 380px){
+    div.main-carousel div.items-container>.carousel>.carousel-inner>.item .content{
+        font-size: 30px;
+        line-height: 40px;
+        padding: 0 5px;
+        margin: 0;
+    }    
+    .items-container>.carousel footer.footer-toolbar>.btn{
+        font-size: 22px;
+        padding: 4px 10px;
+    }    
+    div.main-carousel div.inner>header.title>span.icon{    
+        display : none;
+    }
+    div.main-carousel div.inner>header.title>span.text{
+        margin-top: 3px;
+    }        
+}    
+
+
+@media (min-width : 282px){
+    div.main-carousel div.menu>.page>span.item{        
+        float: left;      
+    }           
+}    
+
+@media (max-width : 281px){
+    div.main-carousel div.inner>header.title{
+        line-height: 25px;
+        word-wrap: break-word;
+        display: block;
+        max-height: 100%;
+    }    
+    div.main-carousel div.inner>header.title>span.text{
+        top: 12px;
+        position : relative;
+        /* display: block; */
+        margin-bottom: 20px;
+    }        
+    
+    div.main-carousel div.menu>.page>span.item.col-1x{
+        width: 98%;
+        background-size: 70%;
+        height: 90px;
+    }   
+    div.main-carousel div.menu>.page>span.item.col-2x{
+        width: 98%;
+        height: 90px;
+    }     
+
+    div.main-carousel,
+    div.main-carousel div.container{
+        height :auto;
+    }       
+
+    div.main-carousel div.menu>.page>span.item label{
+        bottom: -75%;
+    }    
+    div.main-carousel div.menu>.page>span.item{
+        margin: 2px;
+    }  
+    div.main-carousel div.items-container>.carousel>.carousel-inner>.item .content{        
+        line-height: 33px;
+         font-size: 25px;
+    }        
+}  
+
+
+
+
+
+
+
+ 
+

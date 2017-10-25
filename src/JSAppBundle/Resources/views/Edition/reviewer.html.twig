@@ -1,0 +1,14 @@
+{% extends('JSAppBundle:Edition:index.html.twig') %}
+{% block title %}
+    Journal Scientifique - Reviewer Home
+{% endblock %}
+
+{% block bodyscript %}
+    <script type="text/javascript">
+        var currentPageConfig={
+            panelClass: "JS.reviewer.ReviewerHome",
+            renderTo: "edition-main-container",
+            isAdmin: false
+        };
+    </script>
+{% endblock %}

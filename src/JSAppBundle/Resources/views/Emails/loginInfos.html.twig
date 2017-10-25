@@ -1,0 +1,20 @@
+{% extends('JSAppBundle:Emails:base_email.html.twig') %}
+{% block maincontent %}
+    <h4 class="salutation">Dear {{ user.personne.prenom }} {{ user.personne.nom}},</h4>
+    <div style="clear: both"></div>
+    <p>Thank you for your subcription on our platform. Bellow your credentials</p>
+    <p>Login: {{ user.username }}</p>
+    <p>Password: {{ motDePasseClair }}</p>
+    <br/>
+
+    <a href="{{ url("js_login") }}" class="btn btn-success" >Journal Scientifique</a>
+    <div style="clear: both"></div>
+
+{% endblock %}
+
+{% block footer %}
+    <footer class="main-footer">
+             All rights reserved.
+        <!-- /.container -->
+    </footer>
+{% endblock %}

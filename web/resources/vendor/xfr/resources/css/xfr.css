@@ -1,0 +1,26 @@
+/*@import url("src/windows.css");*/
+/*@import url("src/loadmask.css");*/
+/*@import url("src/table.css");*/
+/*@import url("src/paging.css");*/
+/*@import url("src/form.css");*/
+/*@import url("src/select2.css");*/
+/*@import url("src/datetimepicker.css");*/
+
+.available-height {
+    height: 100%;
+}
+.no-padding {
+    padding: 0;
+}
+
+@media(min-width: 769px){
+    *, *:after, *:before{
+        -webkit-user-drag: all;
+        -webkit-user-select: all;
+        -moz-user-drag: all;
+        -moz-user-select: text;
+        -ms-user-select: all;
+        -ms-user-drag:all;
+    }
+}
+

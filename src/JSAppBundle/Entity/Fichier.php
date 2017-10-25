@@ -3,15 +3,21 @@
 namespace JSAppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use JSAppBundle\Tools\Tools;
+use Symfony\Component\HttpFoundation\File\File;
 
 /**
  * Fichier
  *
- * @ORM\Table(name="fichier", indexes={@ORM\Index(name="FK_fichier_avoir_type", columns={"typ_id"}), @ORM\Index(name="FK_fichier_commentaire", columns={"com_id"}), @ORM\Index(name="FK_fichiers_joint", columns={"art_id"})})
+ * @ORM\Table(name="fichier", indexes={@ORM\Index(name="FK_fichier_avoir_type", columns={"typ_id"}),
+ * @ORM\Index(name="FK_fichier_commentaire", columns={"rev_id"}),
+ * @ORM\Index(name="FK_fichiers_joint", columns={"art_id"})})
  * @ORM\Entity(repositoryClass="JSAppBundle\Dao\FichierRepository")
+ * @ORM\HasLifecycleCallbacks
  */
 class Fichier
 {
+    const DIRECTORY = "fichiers";
     /**
      * @var integer
      *
@@ -56,14 +62,19 @@ class Fichier
     private $typeFichier;
 
     /**
-     * @var Commentaire
+     * @var Review
      *
-     * @ORM\ManyToOne(targetEntity="Commentaire")
+     * @ORM\ManyToOne(targetEntity="Review")
      * @ORM\JoinColumns({
-     *   @ORM\JoinColumn(name="com_id", referencedColumnName="id")
+     *   @ORM\JoinColumn(name="rev_id", referencedColumnName="id")
      * })
      */
-    private $commentaire;
+    private $review;
+
+    /**
+     * @var File
+     */
+    public $fichier;
 
     /**
      * @return int
@@ -145,22 +156,94 @@ class Fichier
         $this->typeFichier = $typeFichier;
     }
 
+
     /**
-     * @return Commentaire
+     * @return Review
      */
-    public function getCommentaire()
+    public function getReview()
     {
-        return $this->commentaire;
+        return $this->review;
     }
 
     /**
-     * @param Commentaire $commentaire
+     * @param Review $review
      */
-    public function setCommentaire($commentaire)
+    public function setReview($review)
     {
-        $this->commentaire = $commentaire;
+        $this->review = $review;
     }
 
+
+
+    /**
+     * @ORM\PostLoad()
+     */
+    public function setImageUrl()
+    {
+
+        $rootDir = Tools::getUploadRootDir();
+
+        $dir = Fichier::DIRECTORY;
+
+        $fichierDir = Tools::createDir($rootDir, $dir, $this->getId());
+
+        $nbFichier = Tools::countFileInDir($fichierDir);
+
+        if ($nbFichier == 0) {
+            $this->url = Tools::getWebPath($dir . '/default.png');
+        } else {
+            $files = glob($fichierDir . DIRECTORY_SEPARATOR . "*.*");
+            if ($files && count($files) > 0) {
+                $firstFile = $files[0];
+                $index = strripos($firstFile, DIRECTORY_SEPARATOR) + 1;
+                $this->url = Tools::getWebPath($dir . '/' . $this->getId() . '/' . substr($firstFile, $index));
+            } else {
+                $this->url = Tools::getWebPath($dir . '/default.png');
+            }
+        }
+    }
+
+
+    /**
+     * @ORM\PostPersist()
+     */
+    public function postPersist()
+    {
+        $this->upload();
+    }
+
+    /**
+     * @ORM\PostUpdate()
+     */
+    public function upload()
+    {
+
+        if (null === $this->fichier) {
+            echo "uploading images: No files to upload";
+            return;
+        }
+
+        $dir = Fichier::DIRECTORY;
+
+        echo "uploading images: Image set";
+        $rootDir = Tools::getUploadRootDir();
+        $fichierDir = Tools::createDir($rootDir, $dir, $this->getId());
+        Tools::deleteFiles($fichierDir);
+        $nbFichier = Tools::countFileInDir($fichierDir);
+        $nbFichier++;
+        $nomFichier = $nbFichier . '.' . $this->fichier->guessExtension();
+        $this->fichier->move($fichierDir, $nomFichier);
+        unset($this->fichier);
+        $this->fichier = null;
+        $this->setImageUrl();
+    }
+
+    public function __clone()
+    {
+        $file=new File($this->url);
+        $this->fichier=$file;
+        $this->id=null;
+    }
 
 
 }

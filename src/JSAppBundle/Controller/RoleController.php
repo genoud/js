@@ -9,7 +9,7 @@
 namespace JSAppBundle\Controller;
 
 
-class RoleController
+class RoleController extends CoreRestController
 {
 
 }

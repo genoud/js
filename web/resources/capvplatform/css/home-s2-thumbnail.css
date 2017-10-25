@@ -1,0 +1,328 @@
+/*---start------thumbnail-1-configurations-------------------------------------------------------------------------------------------------------*/
+
+.section-2-thumbnail>section.thumbnail-1{
+    color : white;
+    background-color : #007F43;
+}
+.section-2-thumbnail>section.thumbnail-1>article>h2>span.background{
+    background-color : #004826;     
+}    
+.section-2-thumbnail>section.thumbnail-1>article span.thumbnail-image>span.image{
+    background-image : url("../images/home-thumnails/s2-thumbnail-1-image.png");   
+}
+
+/*---end------thumbnail-1-configurations-------------------------------------------------------------------------------------------------------*/
+
+
+
+/*---start------thumbnail-2-configurations-------------------------------------------------------------------------------------------------------*/
+.section-2-thumbnail>section.thumbnail-2{
+    color : white;
+    background-color : #FDAD5B;
+}
+.section-2-thumbnail>section.thumbnail-2>article>h2>span.background{
+    background-color : #FC8A18;    
+}
+.section-2-thumbnail>section.thumbnail-2>article span.thumbnail-image>span.image{
+    background-image : url("../images/home-thumnails/s2-thumbnail-2-image.png");        
+}
+
+/*---end------thumbnail-2-configurations-------------------------------------------------------------------------------------------------------*/
+
+
+
+/*---start------thumbnail-3-configurations-------------------------------------------------------------------------------------------------------*/
+.section-2-thumbnail>section.thumbnail-3{
+    color : #66A00E;
+    background-color : white;
+}
+.section-2-thumbnail>section.thumbnail-3>article>h2>span.background{
+    background-color : #DCDFE4;    
+}
+.section-2-thumbnail>section.thumbnail-3>article span.thumbnail-image>span.image{
+    background-image : url("../images/home-thumnails/s2-thumbnail-3-image.png");        
+}
+
+/*---end------thumbnail-3-configurations-------------------------------------------------------------------------------------------------------*/
+
+
+
+/*---start------thumbnail-4-configurations-------------------------------------------------------------------------------------------------------*/
+.section-2-thumbnail>section.thumbnail-4{
+    color : #726A38;
+    background-color : #FDEAAF;
+}
+.section-2-thumbnail>section.thumbnail-4>article>h2>span.background{
+    background-color : #F9D68C;    
+}
+.section-2-thumbnail>section.thumbnail-4>article span.thumbnail-image>span.image{
+    background-image : url("../images/home-thumnails/s2-thumbnail-4-image.png");        
+}
+
+/*---end------thumbnail-4-configurations-------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*---start------common-----------configurations-------------------------------------------------------------------------------------------------------*/
+.section-2-thumbnail>section{
+    position: relative;
+    z-index: 5;
+    padding-bottom: 45px;
+}    
+
+.section-2-thumbnail>section>article>h2>span.background{
+    width: 70%;
+    display : inline-block;
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    border-radius : 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius : 16px;
+}
+
+.section-2-thumbnail>section.left>article>h2>span.background{    
+    right: 0;   
+}
+.section-2-thumbnail>section.right>article>h2>span.background{    
+    left: 0;   
+}
+
+.section-2-thumbnail>section>article>h2{
+    height: 90px;
+    margin: 0;
+    margin-top: 70px;
+    line-height: 93px;
+    position: relative;
+    z-index: 10;
+    top: 47px;
+}
+
+.section-2-thumbnail>section.left>article>h2{
+    padding-left: 59%;
+}    
+
+.section-2-thumbnail>section.right>article>h2{
+    padding-left: 0;
+}    
+
+.section-2-thumbnail>section.left>article>h2 span.title-icon{
+    margin-left: -25px;
+}    
+
+
+.section-2-thumbnail>section>article>h2 span{
+    display: inline-block;
+    height: 90px;
+    float: left;
+    position: relative;
+}
+.section-2-thumbnail>section>article>h2 span.title{
+    font-size: 30px;
+    font-family: swis;
+    margin-left: 20px;
+    z-index: 5;
+}
+.section-2-thumbnail>section>article>h2 span.title-icon{
+    font-size: 90px;
+    margin-left: 0;
+    z-index: 5;
+}
+
+.section-2-thumbnail>section>article p.thumbnail-text{
+    font-family: yanone;
+    font-size: 31px;
+    text-align: justify;
+    /* margin-bottom: 75px; */
+    margin-top: 45px;
+    line-height: 37px;
+    top: 25px;
+    position: relative;
+}
+
+.section-2-thumbnail>section.left>article p.thumbnail-text{
+    padding-left: 60%;
+    margin-right: 25px;
+}    
+
+.section-2-thumbnail>section.right>article p.thumbnail-text{
+    padding-right: 55%;
+    margin-left: 25px;
+    float: left;
+}    
+
+
+
+.section-2-thumbnail>section>article span.thumbnail-image>span.image{
+    border: none;
+    outline: none;
+    background-repeat: no-repeat;
+    display:  inline-block;
+    width: 550px;
+    height: 500px;
+}    
+
+
+
+
+
+@media (max-width : 1199px){
+    .section-2-thumbnail article.container{
+        width: 95%;
+        margin: 0 2.5%;
+    }   
+}
+
+
+
+
+@media (min-width : 630px){
+
+    .section-2-thumbnail>section>article span.thumbnail-image{
+        position: absolute;
+        border: none;
+        margin-top: 0;
+        z-index: 30;
+        top: -28px;
+    }       
+    .section-2-thumbnail>section.left>article span.thumbnail-image{
+        float : left;
+    }    
+    .section-2-thumbnail>section.right>article span.thumbnail-image{
+        position: relative;
+        float: right;
+        height: 0;
+        display: block;
+        margin-top: -400px;
+    }    
+    .section-2-thumbnail>section.right>article span.thumbnail-image::after{
+        clear : both;
+    }
+
+}
+
+
+
+@media (max-width : 991px){
+    .section-2-thumbnail>section>article span.thumbnail-image>span.image{
+        background-size: 55% 55%;
+    }
+    .section-2-thumbnail>section.left>article span.thumbnail-image>span.image{
+        background-position-x: 0;
+    }
+    .section-2-thumbnail>section.right>article span.thumbnail-image>span.image{
+        background-position-x: 100%;
+        /* margin-top: 76px; */
+    }
+    .section-2-thumbnail>section>article span.thumbnail-image>span.image{
+        background-position-y: 50%;
+    }
+
+    .section-2-thumbnail>section.right>article span.thumbnail-image>span.image{
+        /* background-position-y: 90%;*/
+    }
+    .section-2-thumbnail>section.right>article span.thumbnail-image{
+        /* top: 0; */
+        position: absolute;
+        margin-top: 2%;
+        right: 0;
+    }      
+
+    .section-2-thumbnail>section>article>h2>span.background{
+        width: 100%;       
+    }
+    .section-2-thumbnail>section.right>article p.thumbnail-text{
+        padding-right: 50%;
+    }  
+    .section-2-thumbnail>section.left>article p.thumbnail-text{
+        padding-left: 50%;
+    }   
+    .section-2-thumbnail>section.left>article>h2{
+        padding-left: 50%;
+    }   
+
+    .section-2-thumbnail>section>article>h2{
+        height: 70px;
+        line-height: 71px;
+        margin-top: 0;
+    }       
+    .section-2-thumbnail>section>article>h2 span{
+        height: 70px;
+    }
+    .section-2-thumbnail>section>article>h2 span.title{
+        font-size: 25px;
+    } 
+    .section-2-thumbnail>section>article>h2 span.title-icon{
+        font-size: 70px;
+    } 
+    .section-2-thumbnail>section>article p.thumbnail-text{
+        font-size: 27px;
+    }          
+    .section-2-thumbnail>section{
+        /* padding-bottom: 10px; */
+    }       
+}
+
+
+
+
+@media (max-width : 629px){
+
+    .section-2-thumbnail>section>article span.thumbnail-image{
+        display : none;        
+    }
+
+    .section-2-thumbnail>section.left>article p.thumbnail-text,
+    .section-2-thumbnail>section.right>article p.thumbnail-text{
+        padding : 30px 20px;
+        margin : 0;
+    }     
+
+    .section-2-thumbnail>section.left>article>h2{
+        padding-left: 28px;
+    }  
+    .section-2-thumbnail>section.right>article>h2{
+        padding-left: 0px;
+    }  
+    .section-2-thumbnail>section{
+        padding-bottom: 0px;
+    }          
+}
+
+@media (max-width : 410px){
+
+    .section-2-thumbnail>section>article>h2{
+        height: 50px;
+        line-height: 51px;
+        margin-top: 0;
+    }       
+    .section-2-thumbnail>section>article>h2 span{
+        height: 50px;
+    }    
+    .section-2-thumbnail>section>article>h2 span.title{
+        font-size: 22px;
+    } 
+    .section-2-thumbnail>section>article>h2 span.title-icon{
+        font-size: 50px;
+    } 
+    .section-2-thumbnail>section>article p.thumbnail-text{       
+    }     
+    .section-2-thumbnail>section.left>article p.thumbnail-text,
+    .section-2-thumbnail>section.right>article p.thumbnail-text{
+        font-size: 22px;
+        padding: 25px 10px;
+    }             
+
+    .section-2-thumbnail>section>article>h2 span.title{
+        margin-left: -15px;
+    }
+    .section-2-thumbnail>section.left>article>h2 span.title-icon,
+    .section-2-thumbnail>section.right>article>h2 span.title-icon
+    {
+        left : -5px
+    }        
+
+}
+
+

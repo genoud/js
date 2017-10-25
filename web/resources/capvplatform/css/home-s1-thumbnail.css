@@ -1,0 +1,158 @@
+.section-1-thumbnail .thumbnail-container{
+    width : 100%;
+    margin : 0;
+    padding : 0;
+}
+
+.section-1-thumbnail article{
+    width: 45%;
+    float  : left;
+    margin: 0 2.5%;
+    /* display: inline-block; */
+}
+
+
+
+.section-1-thumbnail article h2{
+    font-size: 31px;
+    color: white;
+    font-family: swis;
+    padding: 0;
+    margin-bottom: 10px;
+    width: auto;
+    margin-top: 0;
+}    
+
+.section-1-thumbnail article h2 span.title{
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+
+.section-1-thumbnail article h2 span.title-icon,
+.section-1-thumbnail article h2 span.title-icon span{
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+}
+
+.section-1-thumbnail article h2 span.title-icon span.icon{
+    font-size: 100px;
+    z-index: 1;    
+    color: #E68D3E;
+}
+
+.section-1-thumbnail article h2 span.title-icon span.text{
+    font-size: 50px;    
+    z-index: 10;
+}    
+
+.section-1-thumbnail article p{
+    background-color: #E68D3E;
+    padding: 30px 40px;
+    min-height: 235px;
+    color: white;
+    font-size: 17px;
+    text-align: justify;
+}    
+
+@media (max-width : 1199px){
+    .section-1-thumbnail.container {
+        width: 100%;
+        padding : 0 2.5%;
+    }
+}
+
+@media (max-width : 767px){
+    .section-1-thumbnail article{
+        width: 95%;        
+        margin: 0 2.5%;        
+    }   
+
+    .section-1-thumbnail article p{
+        min-height: 150px;
+        margin-bottom: 25px;
+    }         
+}
+
+@media (min-width : 410px){
+
+
+    .section-1-thumbnail article h2{        
+        min-height: 75px;        
+    }  
+
+    .section-1-thumbnail article h2 span.title-icon{
+        /* border: 1px solid; */
+        margin-right: 10px;
+        float: left;
+    }
+
+    .section-1-thumbnail article h2 span.title{
+        position: absolute;
+        float: left;
+        margin-top: 23px;
+    }
+
+    .section-1-thumbnail article h2 span.title-icon span{
+        position: absolute;
+    }
+
+    .section-1-thumbnail article h2 span.title-icon span.icon{        
+        margin-top: -13px;
+        margin-left: -13px;        
+    }
+
+    .section-1-thumbnail article h2 span.title-icon span.text{        
+        margin-top: 13px;
+        margin-left: 25px;        
+    }   
+
+
+}
+
+@media (max-width : 410px){
+
+    .section-1-thumbnail article h2{
+        text-align : center;
+        font-size: 25px;
+    }  
+
+    .section-1-thumbnail article h2 span.title-icon span{
+        position: absolute;
+    }
+
+    .section-1-thumbnail article h2 span.title{
+        display :block;
+    }
+
+    .section-1-thumbnail article h2 span.title-icon{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+
+    .section-1-thumbnail article h2 span.title-icon span.icon{
+        margin-top: -26px;
+        margin-left: -50px;
+    }
+
+    .section-1-thumbnail article h2 span.title-icon span.text{
+        /* width: 100%; */
+        /* margin-top: -59px; */
+        margin-left: -37px;
+    }   
+
+    .section-1-thumbnail article p{
+        padding: 10px 20px;
+        font-size: 15px;
+    }    
+
+
+}

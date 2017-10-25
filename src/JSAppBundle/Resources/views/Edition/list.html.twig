@@ -1,0 +1,57 @@
+{% extends('JSAppBundle::base_public.html.twig') %}
+{% block title %}
+    Journal Scientifique - Liste des articles
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}
+
+{% block maincontent %}
+    <section class="content-header">
+        <h1>
+            Liste des articles
+            <small>{{ typeLabel }}</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Accueil</a></li>
+            <li><a href="#">Liste manuscrits</a></li>
+        </ol>
+    </section>
+
+    <section class="content">
+        <div class="row">
+
+            {% if articles is iterable %}
+                {% for article in articles %}
+                    <div class="col-md-12">
+                        <div class="box box-primary">
+                            <div class="box-header with-border">
+                                <h2 class="box-title">{{ article.getTitreCourt()  }}</h2>
+                                <div class="box-tools pull-right">
+                                    <!-- Buttons, labels, and many other things can be placed here! -->
+                                    <!-- Here is a label for example -->
+                                    <button class="btn btn-flat btn-default" data-id="{{ article.getId() }}"><i class="fa fa-eye fa-lg"></i>&nbsp;&nbsp;Détails</button>
+                                    <button class="btn btn-flat btn-primary" data-id="{{ article.getId() }}"><i class="fa fa-edit fa-lg"></i>&nbsp;&nbsp;Editer</button>
+                                    <button class="btn btn-flat btn-danger" data-id="{{ article.getId() }}"><i class="fa fa-trash fa-lg"></i>&nbsp;&nbsp;Supprimer</button>
+                                </div><!-- /.box-tools -->
+                            </div>
+                            <div class="box-body">
+                                {{ article.getTitreComplet() | raw }}
+                            </div>
+
+                            <div class="box-footer">
+                               <h4><span class="js-label">Date création:</span>&nbsp;<span class="js-value">{{ article.getDateCreation()|date('d/m/Y') }}</span></h4>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                {% endfor %}
+
+            {% endif %}
+
+        </div>
+
+
+        <!-- /.box -->
+    </section>
+{% endblock %}

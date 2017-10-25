@@ -1,0 +1,56 @@
+{% form_theme form 'JSAppBundle:Components:bootstrap_3_layout.html.twig' %}
+{#{{ form(form) }}#}
+
+{{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
+
+<div class="row js-person-identification">
+    <div class="col-md-12">
+        <h3>Identification</h3>
+        {{ form_row(form.reviewer.personne.image) }}
+    </div>
+</div>
+<div class="row">
+
+    <div class="col-md-6">
+        {{ form_row(form.reviewer.personne.titre) }}
+        {{ form_row(form.reviewer.personne.prenom) }}
+        {{ form_row(form.reviewer.personne.telephone) }}
+        {{ form_row(form.reviewer.personne.ville) }}
+        {{ form_row(form.reviewer.personne.codePostale) }}
+    </div>
+    <div class="col-md-6">
+        {{ form_row(form.reviewer.personne.nom) }}
+        {{ form_row(form.reviewer.personne.email) }}
+        {{ form_row(form.reviewer.personne.pays) }}
+        {{ form_row(form.reviewer.personne.etat) }}
+        {{ form_row(form.reviewer.personne.adresse) }}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Institution</h3>
+    </div>
+    <div class=" col-md-6 js-auteur-institution">
+
+        {{ form_row(form.reviewer.personne.institution) }}
+
+        {{ form_row(form.reviewer.personne.affiliation) }}
+    </div>
+    <div class=" col-md-6 js-auteur-institution">
+        {{ form_row(form.reviewer.personne.departement) }}
+    </div>
+
+</div>
+{{ form_row(form.reason) }}
+<div class="row">
+
+    <div class="col-md-12">
+        <button type="submit" class="btn btn-success btn-flat pull-right" data-action-type=save><i class="fa fa-save"></i>&nbsp;&nbsp;Save</button>
+        <button type="reset" class="btn btn-default  btn-flat pull-right" data-action-type=reset><i class="fa fa-undo"></i>&nbsp;&nbsp;Cancel</button>
+    </div>
+
+</div>
+    {#{{ form_rest(form) }}#}
+
+{{ form_end(form) }}

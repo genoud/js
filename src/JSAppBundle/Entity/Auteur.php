@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Auteur
  *
- * @ORM\Table(name="auteur", indexes={@ORM\Index(name="FK_auteur_peut_etre_utilisateur", columns={"uti_id"})})
+ * @ORM\Table(name="auteur", indexes={@ORM\Index(name="FK_auteur_peut_etre_personne", columns={"pers_id"})})
  * @ORM\Entity(repositoryClass="JSAppBundle\Dao\AuteurRepository")
  */
 class Auteur
@@ -21,58 +21,39 @@ class Auteur
      */
     private $id;
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="affiliation", type="string", length=254, nullable=true)
-     */
-    private $affiliation;
+
 
     /**
-     * @var string
+     * @var Personne
      *
-     * @ORM\Column(name="institution", type="string", length=254, nullable=true)
-     */
-    private $institution;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="departement", type="string", length=254, nullable=true)
-     */
-    private $departement;
-
-    /**
-     * @var Utilisateur
-     *
-     * @ORM\ManyToOne(targetEntity="Utilisateur")
+     * @ORM\ManyToOne(targetEntity="Personne" , cascade={"persist", "merge", "remove"})
      * @ORM\JoinColumns({
-     *   @ORM\JoinColumn(name="uti_id", referencedColumnName="id")
+     *   @ORM\JoinColumn(name="pers_id", referencedColumnName="id")
      * })
      */
-    private $utilisateur;
+    private $personne;
 
-    /**
-     * @var \Doctrine\Common\Collections\Collection
-     *
-     * @ORM\ManyToMany(targetEntity="Article", inversedBy="aut")
-     * @ORM\JoinTable(name="coauteur",
-     *   joinColumns={
-     *     @ORM\JoinColumn(name="aut_id", referencedColumnName="id")
-     *   },
-     *   inverseJoinColumns={
-     *     @ORM\JoinColumn(name="article_id", referencedColumnName="id")
-     *   }
-     * )
-     */
-    private $article;
+//    /**
+//     * @var \Doctrine\Common\Collections\Collection
+//     *
+//     * @ORM\ManyToMany(targetEntity="Article", inversedBy="aut")
+//     * @ORM\JoinTable(name="coauteur",
+//     *   joinColumns={
+//     *     @ORM\JoinColumn(name="aut_id", referencedColumnName="id")
+//     *   },
+//     *   inverseJoinColumns={
+//     *     @ORM\JoinColumn(name="article_id", referencedColumnName="id")
+//     *   }
+//     * )
+//     */
+//    private $articles;
 
     /**
      * Constructor
      */
     public function __construct()
     {
-        $this->article = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->articles = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
     /**
@@ -92,84 +73,27 @@ class Auteur
     }
 
     /**
-     * @return string
+     * @return Personne
      */
-    public function getAffiliation()
+    public function getPersonne()
     {
-        return $this->affiliation;
+        return $this->personne;
     }
 
     /**
-     * @param string $affiliation
+     * @param Personne $personne
      */
-    public function setAffiliation($affiliation)
+    public function setPersonne($personne)
     {
-        $this->affiliation = $affiliation;
+        $this->personne = $personne;
     }
 
-    /**
-     * @return string
-     */
-    public function getInstitution()
-    {
-        return $this->institution;
+    public function __clone(){
+        $this->setId(null);
+//        $this->personne=clone $this->personne;
     }
 
-    /**
-     * @param string $institution
-     */
-    public function setInstitution($institution)
-    {
-        $this->institution = $institution;
-    }
 
-    /**
-     * @return string
-     */
-    public function getDepartement()
-    {
-        return $this->departement;
-    }
-
-    /**
-     * @param string $departement
-     */
-    public function setDepartement($departement)
-    {
-        $this->departement = $departement;
-    }
-
-    /**
-     * @return Utilisateur
-     */
-    public function getUtilisateur()
-    {
-        return $this->utilisateur;
-    }
-
-    /**
-     * @param Utilisateur $utilisateur
-     */
-    public function setUtilisateur($utilisateur)
-    {
-        $this->utilisateur = $utilisateur;
-    }
-
-    /**
-     * @return \Doctrine\Common\Collections\Collection
-     */
-    public function getArticle()
-    {
-        return $this->article;
-    }
-
-    /**
-     * @param \Doctrine\Common\Collections\Collection $article
-     */
-    public function setArticle($article)
-    {
-        $this->article = $article;
-    }
 
 
 }
